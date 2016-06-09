@@ -65,6 +65,24 @@ public final class MiGetTableDDLAd {
      * <code>optional bool get_only_column_def_as_result_null = 1003;</code>
      */
     boolean getGetOnlyColumnDefAsResultNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    boolean hasFullyQualifiedNameInOutput();
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    io.dstore.Values.booleanValue getFullyQualifiedNameInOutput();
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    io.dstore.Values.booleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder();
+
+    /**
+     * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
+     */
+    boolean getFullyQualifiedNameInOutputNull();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_GetTableDDL_Ad.Parameters}
@@ -81,6 +99,7 @@ public final class MiGetTableDDLAd {
       onlyTableNameNull_ = false;
       databaseNameNull_ = false;
       getOnlyColumnDefAsResultNull_ = false;
+      fullyQualifiedNameInOutputNull_ = false;
     }
 
     @java.lang.Override
@@ -146,6 +165,19 @@ public final class MiGetTableDDLAd {
 
               break;
             }
+            case 34: {
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              if (fullyQualifiedNameInOutput_ != null) {
+                subBuilder = fullyQualifiedNameInOutput_.toBuilder();
+              }
+              fullyQualifiedNameInOutput_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(fullyQualifiedNameInOutput_);
+                fullyQualifiedNameInOutput_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               onlyTableNameNull_ = input.readBool();
@@ -159,6 +191,11 @@ public final class MiGetTableDDLAd {
             case 8024: {
 
               getOnlyColumnDefAsResultNull_ = input.readBool();
+              break;
+            }
+            case 8032: {
+
+              fullyQualifiedNameInOutputNull_ = input.readBool();
               break;
             }
           }
@@ -275,6 +312,36 @@ public final class MiGetTableDDLAd {
       return getOnlyColumnDefAsResultNull_;
     }
 
+    public static final int FULLY_QUALIFIED_NAME_IN_OUTPUT_FIELD_NUMBER = 4;
+    private io.dstore.Values.booleanValue fullyQualifiedNameInOutput_;
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    public boolean hasFullyQualifiedNameInOutput() {
+      return fullyQualifiedNameInOutput_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    public io.dstore.Values.booleanValue getFullyQualifiedNameInOutput() {
+      return fullyQualifiedNameInOutput_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
+    }
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    public io.dstore.Values.booleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder() {
+      return getFullyQualifiedNameInOutput();
+    }
+
+    public static final int FULLY_QUALIFIED_NAME_IN_OUTPUT_NULL_FIELD_NUMBER = 1004;
+    private boolean fullyQualifiedNameInOutputNull_;
+    /**
+     * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
+     */
+    public boolean getFullyQualifiedNameInOutputNull() {
+      return fullyQualifiedNameInOutputNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -296,6 +363,9 @@ public final class MiGetTableDDLAd {
       if (getOnlyColumnDefAsResult_ != null) {
         output.writeMessage(3, getGetOnlyColumnDefAsResult());
       }
+      if (fullyQualifiedNameInOutput_ != null) {
+        output.writeMessage(4, getFullyQualifiedNameInOutput());
+      }
       if (onlyTableNameNull_ != false) {
         output.writeBool(1001, onlyTableNameNull_);
       }
@@ -304,6 +374,9 @@ public final class MiGetTableDDLAd {
       }
       if (getOnlyColumnDefAsResultNull_ != false) {
         output.writeBool(1003, getOnlyColumnDefAsResultNull_);
+      }
+      if (fullyQualifiedNameInOutputNull_ != false) {
+        output.writeBool(1004, fullyQualifiedNameInOutputNull_);
       }
     }
 
@@ -324,6 +397,10 @@ public final class MiGetTableDDLAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, getGetOnlyColumnDefAsResult());
       }
+      if (fullyQualifiedNameInOutput_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getFullyQualifiedNameInOutput());
+      }
       if (onlyTableNameNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, onlyTableNameNull_);
@@ -335,6 +412,10 @@ public final class MiGetTableDDLAd {
       if (getOnlyColumnDefAsResultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, getOnlyColumnDefAsResultNull_);
+      }
+      if (fullyQualifiedNameInOutputNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1004, fullyQualifiedNameInOutputNull_);
       }
       memoizedSize = size;
       return size;
@@ -471,6 +552,14 @@ public final class MiGetTableDDLAd {
         }
         getOnlyColumnDefAsResultNull_ = false;
 
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          fullyQualifiedNameInOutput_ = null;
+        } else {
+          fullyQualifiedNameInOutput_ = null;
+          fullyQualifiedNameInOutputBuilder_ = null;
+        }
+        fullyQualifiedNameInOutputNull_ = false;
+
         return this;
       }
 
@@ -511,6 +600,12 @@ public final class MiGetTableDDLAd {
           result.getOnlyColumnDefAsResult_ = getOnlyColumnDefAsResultBuilder_.build();
         }
         result.getOnlyColumnDefAsResultNull_ = getOnlyColumnDefAsResultNull_;
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          result.fullyQualifiedNameInOutput_ = fullyQualifiedNameInOutput_;
+        } else {
+          result.fullyQualifiedNameInOutput_ = fullyQualifiedNameInOutputBuilder_.build();
+        }
+        result.fullyQualifiedNameInOutputNull_ = fullyQualifiedNameInOutputNull_;
         onBuilt();
         return result;
       }
@@ -543,6 +638,12 @@ public final class MiGetTableDDLAd {
         }
         if (other.getGetOnlyColumnDefAsResultNull() != false) {
           setGetOnlyColumnDefAsResultNull(other.getGetOnlyColumnDefAsResultNull());
+        }
+        if (other.hasFullyQualifiedNameInOutput()) {
+          mergeFullyQualifiedNameInOutput(other.getFullyQualifiedNameInOutput());
+        }
+        if (other.getFullyQualifiedNameInOutputNull() != false) {
+          setFullyQualifiedNameInOutputNull(other.getFullyQualifiedNameInOutputNull());
         }
         onChanged();
         return this;
@@ -995,6 +1096,149 @@ public final class MiGetTableDDLAd {
       public Builder clearGetOnlyColumnDefAsResultNull() {
         
         getOnlyColumnDefAsResultNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.booleanValue fullyQualifiedNameInOutput_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> fullyQualifiedNameInOutputBuilder_;
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public boolean hasFullyQualifiedNameInOutput() {
+        return fullyQualifiedNameInOutputBuilder_ != null || fullyQualifiedNameInOutput_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public io.dstore.Values.booleanValue getFullyQualifiedNameInOutput() {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          return fullyQualifiedNameInOutput_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
+        } else {
+          return fullyQualifiedNameInOutputBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public Builder setFullyQualifiedNameInOutput(io.dstore.Values.booleanValue value) {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          fullyQualifiedNameInOutput_ = value;
+          onChanged();
+        } else {
+          fullyQualifiedNameInOutputBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public Builder setFullyQualifiedNameInOutput(
+          io.dstore.Values.booleanValue.Builder builderForValue) {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          fullyQualifiedNameInOutput_ = builderForValue.build();
+          onChanged();
+        } else {
+          fullyQualifiedNameInOutputBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public Builder mergeFullyQualifiedNameInOutput(io.dstore.Values.booleanValue value) {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          if (fullyQualifiedNameInOutput_ != null) {
+            fullyQualifiedNameInOutput_ =
+              io.dstore.Values.booleanValue.newBuilder(fullyQualifiedNameInOutput_).mergeFrom(value).buildPartial();
+          } else {
+            fullyQualifiedNameInOutput_ = value;
+          }
+          onChanged();
+        } else {
+          fullyQualifiedNameInOutputBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public Builder clearFullyQualifiedNameInOutput() {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          fullyQualifiedNameInOutput_ = null;
+          onChanged();
+        } else {
+          fullyQualifiedNameInOutput_ = null;
+          fullyQualifiedNameInOutputBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public io.dstore.Values.booleanValue.Builder getFullyQualifiedNameInOutputBuilder() {
+        
+        onChanged();
+        return getFullyQualifiedNameInOutputFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public io.dstore.Values.booleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder() {
+        if (fullyQualifiedNameInOutputBuilder_ != null) {
+          return fullyQualifiedNameInOutputBuilder_.getMessageOrBuilder();
+        } else {
+          return fullyQualifiedNameInOutput_ == null ?
+              io.dstore.Values.booleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          getFullyQualifiedNameInOutputFieldBuilder() {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          fullyQualifiedNameInOutputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                  getFullyQualifiedNameInOutput(),
+                  getParentForChildren(),
+                  isClean());
+          fullyQualifiedNameInOutput_ = null;
+        }
+        return fullyQualifiedNameInOutputBuilder_;
+      }
+
+      private boolean fullyQualifiedNameInOutputNull_ ;
+      /**
+       * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
+       */
+      public boolean getFullyQualifiedNameInOutputNull() {
+        return fullyQualifiedNameInOutputNull_;
+      }
+      /**
+       * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
+       */
+      public Builder setFullyQualifiedNameInOutputNull(boolean value) {
+        
+        fullyQualifiedNameInOutputNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
+       */
+      public Builder clearFullyQualifiedNameInOutputNull() {
+        
+        fullyQualifiedNameInOutputNull_ = false;
         onChanged();
         return this;
       }
@@ -4382,7 +4626,7 @@ public final class MiGetTableDDLAd {
       "L_Ad.proto\022\037dstore.engine.mi_GetTableDDL" +
       "_Ad\032\023dstore/values.proto\032\031dstore/engine/" +
       "error.proto\032\033dstore/engine/message.proto" +
-      "\032#dstore/engine/metainformation.proto\"\241\002" +
+      "\032#dstore/engine/metainformation.proto\"\224\003" +
       "\n\nParameters\0223\n\017only_table_name\030\001 \001(\0132\032." +
       "dstore.values.stringValue\022\035\n\024only_table_" +
       "name_null\030\351\007 \001(\010\0221\n\rdatabase_name\030\002 \001(\0132" +
@@ -4390,20 +4634,23 @@ public final class MiGetTableDDLAd {
       "name_null\030\352\007 \001(\010\022B\n\035get_only_column_def_",
       "as_result\030\003 \001(\0132\033.dstore.values.booleanV" +
       "alue\022+\n\"get_only_column_def_as_result_nu" +
-      "ll\030\353\007 \001(\010\"\371\003\n\010Response\022)\n\005error\030\001 \001(\0132\032." +
-      "dstore.engine.error.Error\022H\n\020meta_inform" +
-      "ation\030\002 \003(\0132..dstore.engine.metainformat" +
-      "ion.MetaInformation\022/\n\007message\030\003 \003(\0132\036.d" +
-      "store.engine.message.Message\022:\n\003row\030\004 \003(" +
-      "\0132-.dstore.engine.mi_GetTableDDL_Ad.Resp" +
-      "onse.Row\032\212\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\013col" +
-      "umn_name\030\221N \001(\0132\032.dstore.values.stringVa",
-      "lue\022,\n\006length\030\222N \001(\0132\033.dstore.values.int" +
-      "egerValue\022.\n\tdata_type\030\223N \001(\0132\032.dstore.v" +
-      "alues.stringValue\0225\n\017precision_value\030\224N " +
-      "\001(\0132\033.dstore.values.integerValue\022+\n\005scal" +
-      "e\030\225N \001(\0132\033.dstore.values.integerValueB\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "ll\030\353\007 \001(\010\022C\n\036fully_qualified_name_in_out" +
+      "put\030\004 \001(\0132\033.dstore.values.booleanValue\022," +
+      "\n#fully_qualified_name_in_output_null\030\354\007" +
+      " \001(\010\"\371\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
+      "e.engine.error.Error\022H\n\020meta_information" +
+      "\030\002 \003(\0132..dstore.engine.metainformation.M" +
+      "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore" +
+      ".engine.message.Message\022:\n\003row\030\004 \003(\0132-.d",
+      "store.engine.mi_GetTableDDL_Ad.Response." +
+      "Row\032\212\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\013column_n" +
+      "ame\030\221N \001(\0132\032.dstore.values.stringValue\022," +
+      "\n\006length\030\222N \001(\0132\033.dstore.values.integerV" +
+      "alue\022.\n\tdata_type\030\223N \001(\0132\032.dstore.values" +
+      ".stringValue\0225\n\017precision_value\030\224N \001(\0132\033" +
+      ".dstore.values.integerValue\022+\n\005scale\030\225N " +
+      "\001(\0132\033.dstore.values.integerValueB\035\n\033io.d" +
+      "store.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4426,7 +4673,7 @@ public final class MiGetTableDDLAd {
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_descriptor,
-        new java.lang.String[] { "OnlyTableName", "OnlyTableNameNull", "DatabaseName", "DatabaseNameNull", "GetOnlyColumnDefAsResult", "GetOnlyColumnDefAsResultNull", });
+        new java.lang.String[] { "OnlyTableName", "OnlyTableNameNull", "DatabaseName", "DatabaseNameNull", "GetOnlyColumnDefAsResult", "GetOnlyColumnDefAsResultNull", "FullyQualifiedNameInOutput", "FullyQualifiedNameInOutputNull", });
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_fieldAccessorTable = new

@@ -173,6 +173,24 @@ public final class ImModifyNodeCharacsAd {
      * <code>optional bool keep_properties_history_in_hours_null = 1009;</code>
      */
     boolean getKeepPropertiesHistoryInHoursNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     */
+    boolean hasImportConfiguration();
+    /**
+     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     */
+    io.dstore.Values.booleanValue getImportConfiguration();
+    /**
+     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     */
+    io.dstore.Values.booleanValueOrBuilder getImportConfigurationOrBuilder();
+
+    /**
+     * <code>optional bool import_configuration_null = 1010;</code>
+     */
+    boolean getImportConfigurationNull();
   }
   /**
    * Protobuf type {@code dstore.engine.im_ModifyNodeCharacs_Ad.Parameters}
@@ -195,6 +213,7 @@ public final class ImModifyNodeCharacsAd {
       recursiveNull_ = false;
       deleteCharacteristicNull_ = false;
       keepPropertiesHistoryInHoursNull_ = false;
+      importConfigurationNull_ = false;
     }
 
     @java.lang.Override
@@ -338,6 +357,19 @@ public final class ImModifyNodeCharacsAd {
 
               break;
             }
+            case 82: {
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              if (importConfiguration_ != null) {
+                subBuilder = importConfiguration_.toBuilder();
+              }
+              importConfiguration_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(importConfiguration_);
+                importConfiguration_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               characteristicDescriptionNull_ = input.readBool();
@@ -381,6 +413,11 @@ public final class ImModifyNodeCharacsAd {
             case 8072: {
 
               keepPropertiesHistoryInHoursNull_ = input.readBool();
+              break;
+            }
+            case 8080: {
+
+              importConfigurationNull_ = input.readBool();
               break;
             }
           }
@@ -677,6 +714,36 @@ public final class ImModifyNodeCharacsAd {
       return keepPropertiesHistoryInHoursNull_;
     }
 
+    public static final int IMPORT_CONFIGURATION_FIELD_NUMBER = 10;
+    private io.dstore.Values.booleanValue importConfiguration_;
+    /**
+     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     */
+    public boolean hasImportConfiguration() {
+      return importConfiguration_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     */
+    public io.dstore.Values.booleanValue getImportConfiguration() {
+      return importConfiguration_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : importConfiguration_;
+    }
+    /**
+     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     */
+    public io.dstore.Values.booleanValueOrBuilder getImportConfigurationOrBuilder() {
+      return getImportConfiguration();
+    }
+
+    public static final int IMPORT_CONFIGURATION_NULL_FIELD_NUMBER = 1010;
+    private boolean importConfigurationNull_;
+    /**
+     * <code>optional bool import_configuration_null = 1010;</code>
+     */
+    public boolean getImportConfigurationNull() {
+      return importConfigurationNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -716,6 +783,9 @@ public final class ImModifyNodeCharacsAd {
       if (keepPropertiesHistoryInHours_ != null) {
         output.writeMessage(9, getKeepPropertiesHistoryInHours());
       }
+      if (importConfiguration_ != null) {
+        output.writeMessage(10, getImportConfiguration());
+      }
       if (characteristicDescriptionNull_ != false) {
         output.writeBool(1001, characteristicDescriptionNull_);
       }
@@ -742,6 +812,9 @@ public final class ImModifyNodeCharacsAd {
       }
       if (keepPropertiesHistoryInHoursNull_ != false) {
         output.writeBool(1009, keepPropertiesHistoryInHoursNull_);
+      }
+      if (importConfigurationNull_ != false) {
+        output.writeBool(1010, importConfigurationNull_);
       }
     }
 
@@ -786,6 +859,10 @@ public final class ImModifyNodeCharacsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(9, getKeepPropertiesHistoryInHours());
       }
+      if (importConfiguration_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, getImportConfiguration());
+      }
       if (characteristicDescriptionNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, characteristicDescriptionNull_);
@@ -821,6 +898,10 @@ public final class ImModifyNodeCharacsAd {
       if (keepPropertiesHistoryInHoursNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1009, keepPropertiesHistoryInHoursNull_);
+      }
+      if (importConfigurationNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1010, importConfigurationNull_);
       }
       memoizedSize = size;
       return size;
@@ -1005,6 +1086,14 @@ public final class ImModifyNodeCharacsAd {
         }
         keepPropertiesHistoryInHoursNull_ = false;
 
+        if (importConfigurationBuilder_ == null) {
+          importConfiguration_ = null;
+        } else {
+          importConfiguration_ = null;
+          importConfigurationBuilder_ = null;
+        }
+        importConfigurationNull_ = false;
+
         return this;
       }
 
@@ -1081,6 +1170,12 @@ public final class ImModifyNodeCharacsAd {
           result.keepPropertiesHistoryInHours_ = keepPropertiesHistoryInHoursBuilder_.build();
         }
         result.keepPropertiesHistoryInHoursNull_ = keepPropertiesHistoryInHoursNull_;
+        if (importConfigurationBuilder_ == null) {
+          result.importConfiguration_ = importConfiguration_;
+        } else {
+          result.importConfiguration_ = importConfigurationBuilder_.build();
+        }
+        result.importConfigurationNull_ = importConfigurationNull_;
         onBuilt();
         return result;
       }
@@ -1149,6 +1244,12 @@ public final class ImModifyNodeCharacsAd {
         }
         if (other.getKeepPropertiesHistoryInHoursNull() != false) {
           setKeepPropertiesHistoryInHoursNull(other.getKeepPropertiesHistoryInHoursNull());
+        }
+        if (other.hasImportConfiguration()) {
+          mergeImportConfiguration(other.getImportConfiguration());
+        }
+        if (other.getImportConfigurationNull() != false) {
+          setImportConfigurationNull(other.getImportConfigurationNull());
         }
         onChanged();
         return this;
@@ -2459,6 +2560,149 @@ public final class ImModifyNodeCharacsAd {
       public Builder clearKeepPropertiesHistoryInHoursNull() {
         
         keepPropertiesHistoryInHoursNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.booleanValue importConfiguration_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> importConfigurationBuilder_;
+      /**
+       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       */
+      public boolean hasImportConfiguration() {
+        return importConfigurationBuilder_ != null || importConfiguration_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       */
+      public io.dstore.Values.booleanValue getImportConfiguration() {
+        if (importConfigurationBuilder_ == null) {
+          return importConfiguration_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : importConfiguration_;
+        } else {
+          return importConfigurationBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       */
+      public Builder setImportConfiguration(io.dstore.Values.booleanValue value) {
+        if (importConfigurationBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          importConfiguration_ = value;
+          onChanged();
+        } else {
+          importConfigurationBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       */
+      public Builder setImportConfiguration(
+          io.dstore.Values.booleanValue.Builder builderForValue) {
+        if (importConfigurationBuilder_ == null) {
+          importConfiguration_ = builderForValue.build();
+          onChanged();
+        } else {
+          importConfigurationBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       */
+      public Builder mergeImportConfiguration(io.dstore.Values.booleanValue value) {
+        if (importConfigurationBuilder_ == null) {
+          if (importConfiguration_ != null) {
+            importConfiguration_ =
+              io.dstore.Values.booleanValue.newBuilder(importConfiguration_).mergeFrom(value).buildPartial();
+          } else {
+            importConfiguration_ = value;
+          }
+          onChanged();
+        } else {
+          importConfigurationBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       */
+      public Builder clearImportConfiguration() {
+        if (importConfigurationBuilder_ == null) {
+          importConfiguration_ = null;
+          onChanged();
+        } else {
+          importConfiguration_ = null;
+          importConfigurationBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       */
+      public io.dstore.Values.booleanValue.Builder getImportConfigurationBuilder() {
+        
+        onChanged();
+        return getImportConfigurationFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       */
+      public io.dstore.Values.booleanValueOrBuilder getImportConfigurationOrBuilder() {
+        if (importConfigurationBuilder_ != null) {
+          return importConfigurationBuilder_.getMessageOrBuilder();
+        } else {
+          return importConfiguration_ == null ?
+              io.dstore.Values.booleanValue.getDefaultInstance() : importConfiguration_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          getImportConfigurationFieldBuilder() {
+        if (importConfigurationBuilder_ == null) {
+          importConfigurationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                  getImportConfiguration(),
+                  getParentForChildren(),
+                  isClean());
+          importConfiguration_ = null;
+        }
+        return importConfigurationBuilder_;
+      }
+
+      private boolean importConfigurationNull_ ;
+      /**
+       * <code>optional bool import_configuration_null = 1010;</code>
+       */
+      public boolean getImportConfigurationNull() {
+        return importConfigurationNull_;
+      }
+      /**
+       * <code>optional bool import_configuration_null = 1010;</code>
+       */
+      public Builder setImportConfigurationNull(boolean value) {
+        
+        importConfigurationNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool import_configuration_null = 1010;</code>
+       */
+      public Builder clearImportConfigurationNull() {
+        
+        importConfigurationNull_ = false;
         onChanged();
         return this;
       }
@@ -4695,7 +4939,7 @@ public final class ImModifyNodeCharacsAd {
       "yNodeCharacs_Ad\032\023dstore/values.proto\032\031ds" +
       "tore/engine/error.proto\032\033dstore/engine/m" +
       "essage.proto\032#dstore/engine/metainformat" +
-      "ion.proto\"\244\006\n\nParameters\022>\n\032characterist" +
+      "ion.proto\"\203\007\n\nParameters\022>\n\032characterist" +
       "ic_description\030\001 \001(\0132\032.dstore.values.str" +
       "ingValue\022(\n\037characteristic_description_n" +
       "ull\030\351\007 \001(\010\0226\n\021value_language_id\030\002 \001(\0132\033." +
@@ -4715,16 +4959,18 @@ public final class ImModifyNodeCharacsAd {
       "istic_null\030\360\007 \001(\010\022E\n keep_properties_his" +
       "tory_in_hours\030\t \001(\0132\033.dstore.values.inte" +
       "gerValue\022.\n%keep_properties_history_in_h" +
-      "ours_null\030\361\007 \001(\010\"\307\002\n\010Response\022)\n\005error\030\001" +
-      " \001(\0132\032.dstore.engine.error.Error\022H\n\020meta" +
-      "_information\030\002 \003(\0132..dstore.engine.metai" +
-      "nformation.MetaInformation\022/\n\007message\030\003 " +
-      "\003(\0132\036.dstore.engine.message.Message\022@\n\003r",
-      "ow\030\004 \003(\01323.dstore.engine.im_ModifyNodeCh" +
-      "aracs_Ad.Response.Row\022;\n\026node_characteri" +
-      "stic_id\030e \001(\0132\033.dstore.values.integerVal" +
-      "ue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "ours_null\030\361\007 \001(\010\0229\n\024import_configuration" +
+      "\030\n \001(\0132\033.dstore.values.booleanValue\022\"\n\031i" +
+      "mport_configuration_null\030\362\007 \001(\010\"\307\002\n\010Resp" +
+      "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro" +
+      "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto",
+      "re.engine.metainformation.MetaInformatio" +
+      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa" +
+      "ge.Message\022@\n\003row\030\004 \003(\01323.dstore.engine." +
+      "im_ModifyNodeCharacs_Ad.Response.Row\022;\n\026" +
+      "node_characteristic_id\030e \001(\0132\033.dstore.va" +
+      "lues.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(" +
+      "\005B\035\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4747,7 +4993,7 @@ public final class ImModifyNodeCharacsAd {
     internal_static_dstore_engine_im_ModifyNodeCharacs_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyNodeCharacs_Ad_Parameters_descriptor,
-        new java.lang.String[] { "CharacteristicDescription", "CharacteristicDescriptionNull", "ValueLanguageId", "ValueLanguageIdNull", "UnitId", "UnitIdNull", "PredefinedValues", "PredefinedValuesNull", "SortNo", "SortNoNull", "FieldTypeId", "FieldTypeIdNull", "Recursive", "RecursiveNull", "DeleteCharacteristic", "DeleteCharacteristicNull", "KeepPropertiesHistoryInHours", "KeepPropertiesHistoryInHoursNull", });
+        new java.lang.String[] { "CharacteristicDescription", "CharacteristicDescriptionNull", "ValueLanguageId", "ValueLanguageIdNull", "UnitId", "UnitIdNull", "PredefinedValues", "PredefinedValuesNull", "SortNo", "SortNoNull", "FieldTypeId", "FieldTypeIdNull", "Recursive", "RecursiveNull", "DeleteCharacteristic", "DeleteCharacteristicNull", "KeepPropertiesHistoryInHours", "KeepPropertiesHistoryInHoursNull", "ImportConfiguration", "ImportConfigurationNull", });
     internal_static_dstore_engine_im_ModifyNodeCharacs_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_ModifyNodeCharacs_Ad_Response_fieldAccessorTable = new

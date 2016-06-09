@@ -101,6 +101,24 @@ public final class MiGetSQLFunctionCodeAd {
      * <code>optional bool only_function_header_null = 1005;</code>
      */
     boolean getOnlyFunctionHeaderNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     */
+    boolean hasDatabaseName();
+    /**
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     */
+    io.dstore.Values.stringValue getDatabaseName();
+    /**
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
+
+    /**
+     * <code>optional bool database_name_null = 1006;</code>
+     */
+    boolean getDatabaseNameNull();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_GetSQLFunctionCode_Ad.Parameters}
@@ -119,6 +137,7 @@ public final class MiGetSQLFunctionCodeAd {
       getCodeLinesAsResultSetNull_ = false;
       includeStatementsForCreationNull_ = false;
       onlyFunctionHeaderNull_ = false;
+      databaseNameNull_ = false;
     }
 
     @java.lang.Override
@@ -210,6 +229,19 @@ public final class MiGetSQLFunctionCodeAd {
 
               break;
             }
+            case 50: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (databaseName_ != null) {
+                subBuilder = databaseName_.toBuilder();
+              }
+              databaseName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(databaseName_);
+                databaseName_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               sQLFunctionNameNull_ = input.readBool();
@@ -233,6 +265,11 @@ public final class MiGetSQLFunctionCodeAd {
             case 8040: {
 
               onlyFunctionHeaderNull_ = input.readBool();
+              break;
+            }
+            case 8048: {
+
+              databaseNameNull_ = input.readBool();
               break;
             }
           }
@@ -409,6 +446,36 @@ public final class MiGetSQLFunctionCodeAd {
       return onlyFunctionHeaderNull_;
     }
 
+    public static final int DATABASE_NAME_FIELD_NUMBER = 6;
+    private io.dstore.Values.stringValue databaseName_;
+    /**
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     */
+    public boolean hasDatabaseName() {
+      return databaseName_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     */
+    public io.dstore.Values.stringValue getDatabaseName() {
+      return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+      return getDatabaseName();
+    }
+
+    public static final int DATABASE_NAME_NULL_FIELD_NUMBER = 1006;
+    private boolean databaseNameNull_;
+    /**
+     * <code>optional bool database_name_null = 1006;</code>
+     */
+    public boolean getDatabaseNameNull() {
+      return databaseNameNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -436,6 +503,9 @@ public final class MiGetSQLFunctionCodeAd {
       if (onlyFunctionHeader_ != null) {
         output.writeMessage(5, getOnlyFunctionHeader());
       }
+      if (databaseName_ != null) {
+        output.writeMessage(6, getDatabaseName());
+      }
       if (sQLFunctionNameNull_ != false) {
         output.writeBool(1001, sQLFunctionNameNull_);
       }
@@ -450,6 +520,9 @@ public final class MiGetSQLFunctionCodeAd {
       }
       if (onlyFunctionHeaderNull_ != false) {
         output.writeBool(1005, onlyFunctionHeaderNull_);
+      }
+      if (databaseNameNull_ != false) {
+        output.writeBool(1006, databaseNameNull_);
       }
     }
 
@@ -478,6 +551,10 @@ public final class MiGetSQLFunctionCodeAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, getOnlyFunctionHeader());
       }
+      if (databaseName_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getDatabaseName());
+      }
       if (sQLFunctionNameNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, sQLFunctionNameNull_);
@@ -497,6 +574,10 @@ public final class MiGetSQLFunctionCodeAd {
       if (onlyFunctionHeaderNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, onlyFunctionHeaderNull_);
+      }
+      if (databaseNameNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1006, databaseNameNull_);
       }
       memoizedSize = size;
       return size;
@@ -649,6 +730,14 @@ public final class MiGetSQLFunctionCodeAd {
         }
         onlyFunctionHeaderNull_ = false;
 
+        if (databaseNameBuilder_ == null) {
+          databaseName_ = null;
+        } else {
+          databaseName_ = null;
+          databaseNameBuilder_ = null;
+        }
+        databaseNameNull_ = false;
+
         return this;
       }
 
@@ -701,6 +790,12 @@ public final class MiGetSQLFunctionCodeAd {
           result.onlyFunctionHeader_ = onlyFunctionHeaderBuilder_.build();
         }
         result.onlyFunctionHeaderNull_ = onlyFunctionHeaderNull_;
+        if (databaseNameBuilder_ == null) {
+          result.databaseName_ = databaseName_;
+        } else {
+          result.databaseName_ = databaseNameBuilder_.build();
+        }
+        result.databaseNameNull_ = databaseNameNull_;
         onBuilt();
         return result;
       }
@@ -745,6 +840,12 @@ public final class MiGetSQLFunctionCodeAd {
         }
         if (other.getOnlyFunctionHeaderNull() != false) {
           setOnlyFunctionHeaderNull(other.getOnlyFunctionHeaderNull());
+        }
+        if (other.hasDatabaseName()) {
+          mergeDatabaseName(other.getDatabaseName());
+        }
+        if (other.getDatabaseNameNull() != false) {
+          setDatabaseNameNull(other.getDatabaseNameNull());
         }
         onChanged();
         return this;
@@ -1483,6 +1584,149 @@ public final class MiGetSQLFunctionCodeAd {
       public Builder clearOnlyFunctionHeaderNull() {
         
         onlyFunctionHeaderNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.stringValue databaseName_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       */
+      public boolean hasDatabaseName() {
+        return databaseNameBuilder_ != null || databaseName_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       */
+      public io.dstore.Values.stringValue getDatabaseName() {
+        if (databaseNameBuilder_ == null) {
+          return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+        } else {
+          return databaseNameBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       */
+      public Builder setDatabaseName(io.dstore.Values.stringValue value) {
+        if (databaseNameBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          databaseName_ = value;
+          onChanged();
+        } else {
+          databaseNameBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       */
+      public Builder setDatabaseName(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (databaseNameBuilder_ == null) {
+          databaseName_ = builderForValue.build();
+          onChanged();
+        } else {
+          databaseNameBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       */
+      public Builder mergeDatabaseName(io.dstore.Values.stringValue value) {
+        if (databaseNameBuilder_ == null) {
+          if (databaseName_ != null) {
+            databaseName_ =
+              io.dstore.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
+          } else {
+            databaseName_ = value;
+          }
+          onChanged();
+        } else {
+          databaseNameBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       */
+      public Builder clearDatabaseName() {
+        if (databaseNameBuilder_ == null) {
+          databaseName_ = null;
+          onChanged();
+        } else {
+          databaseName_ = null;
+          databaseNameBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getDatabaseNameBuilder() {
+        
+        onChanged();
+        return getDatabaseNameFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+        if (databaseNameBuilder_ != null) {
+          return databaseNameBuilder_.getMessageOrBuilder();
+        } else {
+          return databaseName_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getDatabaseNameFieldBuilder() {
+        if (databaseNameBuilder_ == null) {
+          databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getDatabaseName(),
+                  getParentForChildren(),
+                  isClean());
+          databaseName_ = null;
+        }
+        return databaseNameBuilder_;
+      }
+
+      private boolean databaseNameNull_ ;
+      /**
+       * <code>optional bool database_name_null = 1006;</code>
+       */
+      public boolean getDatabaseNameNull() {
+        return databaseNameNull_;
+      }
+      /**
+       * <code>optional bool database_name_null = 1006;</code>
+       */
+      public Builder setDatabaseNameNull(boolean value) {
+        
+        databaseNameNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool database_name_null = 1006;</code>
+       */
+      public Builder clearDatabaseNameNull() {
+        
+        databaseNameNull_ = false;
         onChanged();
         return this;
       }
@@ -4871,7 +5115,7 @@ public final class MiGetSQLFunctionCodeAd {
       "QLFunctionCode_Ad\032\023dstore/values.proto\032\031" +
       "dstore/engine/error.proto\032\033dstore/engine" +
       "/message.proto\032#dstore/engine/metainform" +
-      "ation.proto\"\200\004\n\nParameters\0227\n\023s_q_l_func" +
+      "ation.proto\"\320\004\n\nParameters\0227\n\023s_q_l_func" +
       "tion_name\030\001 \001(\0132\032.dstore.values.stringVa" +
       "lue\022!\n\030s_q_l_function_name_null\030\351\007 \001(\010\0224" +
       "\n\017ignore_comments\030\002 \001(\0132\033.dstore.values." +
@@ -4884,8 +5128,10 @@ public final class MiGetSQLFunctionCodeAd {
       "ements_for_creation_null\030\354\007 \001(\010\0229\n\024only_" +
       "function_header\030\005 \001(\0132\033.dstore.values.bo" +
       "oleanValue\022\"\n\031only_function_header_null\030" +
-      "\355\007 \001(\010\"\224\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.dst" +
-      "ore.engine.error.Error\022H\n\020meta_informati",
+      "\355\007 \001(\010\0221\n\rdatabase_name\030\006 \001(\0132\032.dstore.v" +
+      "alues.stringValue\022\033\n\022database_name_null\030",
+      "\356\007 \001(\010\"\224\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.dst" +
+      "ore.engine.error.Error\022H\n\020meta_informati" +
       "on\030\002 \003(\0132..dstore.engine.metainformation" +
       ".MetaInformation\022/\n\007message\030\003 \003(\0132\036.dsto" +
       "re.engine.message.Message\022A\n\003row\030\004 \003(\01324" +
@@ -4893,9 +5139,9 @@ public final class MiGetSQLFunctionCodeAd {
       "Response.Row\032\236\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0226\n" +
       "\020code_line_number\030\221N \001(\0132\033.dstore.values" +
       ".integerValue\022;\n\025code_part_line_number\030\222" +
-      "N \001(\0132\033.dstore.values.integerValue\022.\n\tco" +
+      "N \001(\0132\033.dstore.values.integerValue\022.\n\tco",
       "de_line\030\223N \001(\0132\032.dstore.values.stringVal" +
-      "ue\0221\n\014comment_part\030\224N \001(\0132\032.dstore.value",
+      "ue\0221\n\014comment_part\030\224N \001(\0132\032.dstore.value" +
       "s.stringValue\022.\n\tcode_part\030\225N \001(\0132\032.dsto" +
       "re.values.stringValueB\035\n\033io.dstore.engin" +
       "e.proceduresb\006proto3"
@@ -4921,7 +5167,7 @@ public final class MiGetSQLFunctionCodeAd {
     internal_static_dstore_engine_mi_GetSQLFunctionCode_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetSQLFunctionCode_Ad_Parameters_descriptor,
-        new java.lang.String[] { "SQLFunctionName", "SQLFunctionNameNull", "IgnoreComments", "IgnoreCommentsNull", "GetCodeLinesAsResultSet", "GetCodeLinesAsResultSetNull", "IncludeStatementsForCreation", "IncludeStatementsForCreationNull", "OnlyFunctionHeader", "OnlyFunctionHeaderNull", });
+        new java.lang.String[] { "SQLFunctionName", "SQLFunctionNameNull", "IgnoreComments", "IgnoreCommentsNull", "GetCodeLinesAsResultSet", "GetCodeLinesAsResultSetNull", "IncludeStatementsForCreation", "IncludeStatementsForCreationNull", "OnlyFunctionHeader", "OnlyFunctionHeaderNull", "DatabaseName", "DatabaseNameNull", });
     internal_static_dstore_engine_mi_GetSQLFunctionCode_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetSQLFunctionCode_Ad_Response_fieldAccessorTable = new

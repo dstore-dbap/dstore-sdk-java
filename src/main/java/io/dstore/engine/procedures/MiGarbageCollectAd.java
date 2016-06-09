@@ -29,6 +29,42 @@ public final class MiGarbageCollectAd {
      * <code>optional bool check_for_correct_date_null = 1001;</code>
      */
     boolean getCheckForCorrectDateNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+     */
+    boolean hasTablesToGarbageCollect();
+    /**
+     * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+     */
+    io.dstore.Values.stringValue getTablesToGarbageCollect();
+    /**
+     * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getTablesToGarbageCollectOrBuilder();
+
+    /**
+     * <code>optional bool tables_to_garbage_collect_null = 1002;</code>
+     */
+    boolean getTablesToGarbageCollectNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+     */
+    boolean hasPrintStatusMsg();
+    /**
+     * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+     */
+    io.dstore.Values.integerValue getPrintStatusMsg();
+    /**
+     * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getPrintStatusMsgOrBuilder();
+
+    /**
+     * <code>optional bool print_status_msg_null = 1003;</code>
+     */
+    boolean getPrintStatusMsgNull();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_GarbageCollect_Ad.Parameters}
@@ -43,6 +79,8 @@ public final class MiGarbageCollectAd {
     }
     private Parameters() {
       checkForCorrectDateNull_ = false;
+      tablesToGarbageCollectNull_ = false;
+      printStatusMsgNull_ = false;
     }
 
     @java.lang.Override
@@ -82,9 +120,45 @@ public final class MiGarbageCollectAd {
 
               break;
             }
+            case 18: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (tablesToGarbageCollect_ != null) {
+                subBuilder = tablesToGarbageCollect_.toBuilder();
+              }
+              tablesToGarbageCollect_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(tablesToGarbageCollect_);
+                tablesToGarbageCollect_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 26: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (printStatusMsg_ != null) {
+                subBuilder = printStatusMsg_.toBuilder();
+              }
+              printStatusMsg_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(printStatusMsg_);
+                printStatusMsg_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               checkForCorrectDateNull_ = input.readBool();
+              break;
+            }
+            case 8016: {
+
+              tablesToGarbageCollectNull_ = input.readBool();
+              break;
+            }
+            case 8024: {
+
+              printStatusMsgNull_ = input.readBool();
               break;
             }
           }
@@ -141,6 +215,66 @@ public final class MiGarbageCollectAd {
       return checkForCorrectDateNull_;
     }
 
+    public static final int TABLES_TO_GARBAGE_COLLECT_FIELD_NUMBER = 2;
+    private io.dstore.Values.stringValue tablesToGarbageCollect_;
+    /**
+     * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+     */
+    public boolean hasTablesToGarbageCollect() {
+      return tablesToGarbageCollect_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+     */
+    public io.dstore.Values.stringValue getTablesToGarbageCollect() {
+      return tablesToGarbageCollect_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tablesToGarbageCollect_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getTablesToGarbageCollectOrBuilder() {
+      return getTablesToGarbageCollect();
+    }
+
+    public static final int TABLES_TO_GARBAGE_COLLECT_NULL_FIELD_NUMBER = 1002;
+    private boolean tablesToGarbageCollectNull_;
+    /**
+     * <code>optional bool tables_to_garbage_collect_null = 1002;</code>
+     */
+    public boolean getTablesToGarbageCollectNull() {
+      return tablesToGarbageCollectNull_;
+    }
+
+    public static final int PRINT_STATUS_MSG_FIELD_NUMBER = 3;
+    private io.dstore.Values.integerValue printStatusMsg_;
+    /**
+     * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+     */
+    public boolean hasPrintStatusMsg() {
+      return printStatusMsg_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+     */
+    public io.dstore.Values.integerValue getPrintStatusMsg() {
+      return printStatusMsg_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : printStatusMsg_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getPrintStatusMsgOrBuilder() {
+      return getPrintStatusMsg();
+    }
+
+    public static final int PRINT_STATUS_MSG_NULL_FIELD_NUMBER = 1003;
+    private boolean printStatusMsgNull_;
+    /**
+     * <code>optional bool print_status_msg_null = 1003;</code>
+     */
+    public boolean getPrintStatusMsgNull() {
+      return printStatusMsgNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -156,8 +290,20 @@ public final class MiGarbageCollectAd {
       if (checkForCorrectDate_ != null) {
         output.writeMessage(1, getCheckForCorrectDate());
       }
+      if (tablesToGarbageCollect_ != null) {
+        output.writeMessage(2, getTablesToGarbageCollect());
+      }
+      if (printStatusMsg_ != null) {
+        output.writeMessage(3, getPrintStatusMsg());
+      }
       if (checkForCorrectDateNull_ != false) {
         output.writeBool(1001, checkForCorrectDateNull_);
+      }
+      if (tablesToGarbageCollectNull_ != false) {
+        output.writeBool(1002, tablesToGarbageCollectNull_);
+      }
+      if (printStatusMsgNull_ != false) {
+        output.writeBool(1003, printStatusMsgNull_);
       }
     }
 
@@ -170,9 +316,25 @@ public final class MiGarbageCollectAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getCheckForCorrectDate());
       }
+      if (tablesToGarbageCollect_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getTablesToGarbageCollect());
+      }
+      if (printStatusMsg_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getPrintStatusMsg());
+      }
       if (checkForCorrectDateNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, checkForCorrectDateNull_);
+      }
+      if (tablesToGarbageCollectNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1002, tablesToGarbageCollectNull_);
+      }
+      if (printStatusMsgNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1003, printStatusMsgNull_);
       }
       memoizedSize = size;
       return size;
@@ -293,6 +455,22 @@ public final class MiGarbageCollectAd {
         }
         checkForCorrectDateNull_ = false;
 
+        if (tablesToGarbageCollectBuilder_ == null) {
+          tablesToGarbageCollect_ = null;
+        } else {
+          tablesToGarbageCollect_ = null;
+          tablesToGarbageCollectBuilder_ = null;
+        }
+        tablesToGarbageCollectNull_ = false;
+
+        if (printStatusMsgBuilder_ == null) {
+          printStatusMsg_ = null;
+        } else {
+          printStatusMsg_ = null;
+          printStatusMsgBuilder_ = null;
+        }
+        printStatusMsgNull_ = false;
+
         return this;
       }
 
@@ -321,6 +499,18 @@ public final class MiGarbageCollectAd {
           result.checkForCorrectDate_ = checkForCorrectDateBuilder_.build();
         }
         result.checkForCorrectDateNull_ = checkForCorrectDateNull_;
+        if (tablesToGarbageCollectBuilder_ == null) {
+          result.tablesToGarbageCollect_ = tablesToGarbageCollect_;
+        } else {
+          result.tablesToGarbageCollect_ = tablesToGarbageCollectBuilder_.build();
+        }
+        result.tablesToGarbageCollectNull_ = tablesToGarbageCollectNull_;
+        if (printStatusMsgBuilder_ == null) {
+          result.printStatusMsg_ = printStatusMsg_;
+        } else {
+          result.printStatusMsg_ = printStatusMsgBuilder_.build();
+        }
+        result.printStatusMsgNull_ = printStatusMsgNull_;
         onBuilt();
         return result;
       }
@@ -341,6 +531,18 @@ public final class MiGarbageCollectAd {
         }
         if (other.getCheckForCorrectDateNull() != false) {
           setCheckForCorrectDateNull(other.getCheckForCorrectDateNull());
+        }
+        if (other.hasTablesToGarbageCollect()) {
+          mergeTablesToGarbageCollect(other.getTablesToGarbageCollect());
+        }
+        if (other.getTablesToGarbageCollectNull() != false) {
+          setTablesToGarbageCollectNull(other.getTablesToGarbageCollectNull());
+        }
+        if (other.hasPrintStatusMsg()) {
+          mergePrintStatusMsg(other.getPrintStatusMsg());
+        }
+        if (other.getPrintStatusMsgNull() != false) {
+          setPrintStatusMsgNull(other.getPrintStatusMsgNull());
         }
         onChanged();
         return this;
@@ -507,6 +709,292 @@ public final class MiGarbageCollectAd {
       public Builder clearCheckForCorrectDateNull() {
         
         checkForCorrectDateNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.stringValue tablesToGarbageCollect_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tablesToGarbageCollectBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+       */
+      public boolean hasTablesToGarbageCollect() {
+        return tablesToGarbageCollectBuilder_ != null || tablesToGarbageCollect_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+       */
+      public io.dstore.Values.stringValue getTablesToGarbageCollect() {
+        if (tablesToGarbageCollectBuilder_ == null) {
+          return tablesToGarbageCollect_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tablesToGarbageCollect_;
+        } else {
+          return tablesToGarbageCollectBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+       */
+      public Builder setTablesToGarbageCollect(io.dstore.Values.stringValue value) {
+        if (tablesToGarbageCollectBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          tablesToGarbageCollect_ = value;
+          onChanged();
+        } else {
+          tablesToGarbageCollectBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+       */
+      public Builder setTablesToGarbageCollect(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (tablesToGarbageCollectBuilder_ == null) {
+          tablesToGarbageCollect_ = builderForValue.build();
+          onChanged();
+        } else {
+          tablesToGarbageCollectBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+       */
+      public Builder mergeTablesToGarbageCollect(io.dstore.Values.stringValue value) {
+        if (tablesToGarbageCollectBuilder_ == null) {
+          if (tablesToGarbageCollect_ != null) {
+            tablesToGarbageCollect_ =
+              io.dstore.Values.stringValue.newBuilder(tablesToGarbageCollect_).mergeFrom(value).buildPartial();
+          } else {
+            tablesToGarbageCollect_ = value;
+          }
+          onChanged();
+        } else {
+          tablesToGarbageCollectBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+       */
+      public Builder clearTablesToGarbageCollect() {
+        if (tablesToGarbageCollectBuilder_ == null) {
+          tablesToGarbageCollect_ = null;
+          onChanged();
+        } else {
+          tablesToGarbageCollect_ = null;
+          tablesToGarbageCollectBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getTablesToGarbageCollectBuilder() {
+        
+        onChanged();
+        return getTablesToGarbageCollectFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getTablesToGarbageCollectOrBuilder() {
+        if (tablesToGarbageCollectBuilder_ != null) {
+          return tablesToGarbageCollectBuilder_.getMessageOrBuilder();
+        } else {
+          return tablesToGarbageCollect_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : tablesToGarbageCollect_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue tables_to_garbage_collect = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getTablesToGarbageCollectFieldBuilder() {
+        if (tablesToGarbageCollectBuilder_ == null) {
+          tablesToGarbageCollectBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getTablesToGarbageCollect(),
+                  getParentForChildren(),
+                  isClean());
+          tablesToGarbageCollect_ = null;
+        }
+        return tablesToGarbageCollectBuilder_;
+      }
+
+      private boolean tablesToGarbageCollectNull_ ;
+      /**
+       * <code>optional bool tables_to_garbage_collect_null = 1002;</code>
+       */
+      public boolean getTablesToGarbageCollectNull() {
+        return tablesToGarbageCollectNull_;
+      }
+      /**
+       * <code>optional bool tables_to_garbage_collect_null = 1002;</code>
+       */
+      public Builder setTablesToGarbageCollectNull(boolean value) {
+        
+        tablesToGarbageCollectNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool tables_to_garbage_collect_null = 1002;</code>
+       */
+      public Builder clearTablesToGarbageCollectNull() {
+        
+        tablesToGarbageCollectNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue printStatusMsg_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> printStatusMsgBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+       */
+      public boolean hasPrintStatusMsg() {
+        return printStatusMsgBuilder_ != null || printStatusMsg_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+       */
+      public io.dstore.Values.integerValue getPrintStatusMsg() {
+        if (printStatusMsgBuilder_ == null) {
+          return printStatusMsg_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : printStatusMsg_;
+        } else {
+          return printStatusMsgBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+       */
+      public Builder setPrintStatusMsg(io.dstore.Values.integerValue value) {
+        if (printStatusMsgBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          printStatusMsg_ = value;
+          onChanged();
+        } else {
+          printStatusMsgBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+       */
+      public Builder setPrintStatusMsg(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (printStatusMsgBuilder_ == null) {
+          printStatusMsg_ = builderForValue.build();
+          onChanged();
+        } else {
+          printStatusMsgBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+       */
+      public Builder mergePrintStatusMsg(io.dstore.Values.integerValue value) {
+        if (printStatusMsgBuilder_ == null) {
+          if (printStatusMsg_ != null) {
+            printStatusMsg_ =
+              io.dstore.Values.integerValue.newBuilder(printStatusMsg_).mergeFrom(value).buildPartial();
+          } else {
+            printStatusMsg_ = value;
+          }
+          onChanged();
+        } else {
+          printStatusMsgBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+       */
+      public Builder clearPrintStatusMsg() {
+        if (printStatusMsgBuilder_ == null) {
+          printStatusMsg_ = null;
+          onChanged();
+        } else {
+          printStatusMsg_ = null;
+          printStatusMsgBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getPrintStatusMsgBuilder() {
+        
+        onChanged();
+        return getPrintStatusMsgFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getPrintStatusMsgOrBuilder() {
+        if (printStatusMsgBuilder_ != null) {
+          return printStatusMsgBuilder_.getMessageOrBuilder();
+        } else {
+          return printStatusMsg_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : printStatusMsg_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue print_status_msg = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getPrintStatusMsgFieldBuilder() {
+        if (printStatusMsgBuilder_ == null) {
+          printStatusMsgBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getPrintStatusMsg(),
+                  getParentForChildren(),
+                  isClean());
+          printStatusMsg_ = null;
+        }
+        return printStatusMsgBuilder_;
+      }
+
+      private boolean printStatusMsgNull_ ;
+      /**
+       * <code>optional bool print_status_msg_null = 1003;</code>
+       */
+      public boolean getPrintStatusMsgNull() {
+        return printStatusMsgNull_;
+      }
+      /**
+       * <code>optional bool print_status_msg_null = 1003;</code>
+       */
+      public Builder setPrintStatusMsgNull(boolean value) {
+        
+        printStatusMsgNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool print_status_msg_null = 1003;</code>
+       */
+      public Builder clearPrintStatusMsgNull() {
+        
+        printStatusMsgNull_ = false;
         onChanged();
         return this;
       }
@@ -2670,17 +3158,22 @@ public final class MiGarbageCollectAd {
       "ollect_Ad\032\023dstore/values.proto\032\031dstore/e" +
       "ngine/error.proto\032\033dstore/engine/message" +
       ".proto\032#dstore/engine/metainformation.pr" +
-      "oto\"o\n\nParameters\022;\n\026check_for_correct_d" +
-      "ate\030\001 \001(\0132\033.dstore.values.booleanValue\022$" +
-      "\n\033check_for_correct_date_null\030\351\007 \001(\010\"\207\002\n" +
-      "\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine" +
-      ".error.Error\022H\n\020meta_information\030\002 \003(\0132.",
-      ".dstore.engine.metainformation.MetaInfor" +
-      "mation\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
-      "message.Message\022=\n\003row\030\004 \003(\01320.dstore.en" +
-      "gine.mi_GarbageCollect_Ad.Response.Row\032\026" +
-      "\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      "oto\"\256\002\n\nParameters\022;\n\026check_for_correct_" +
+      "date\030\001 \001(\0132\033.dstore.values.booleanValue\022" +
+      "$\n\033check_for_correct_date_null\030\351\007 \001(\010\022=\n" +
+      "\031tables_to_garbage_collect\030\002 \001(\0132\032.dstor" +
+      "e.values.stringValue\022\'\n\036tables_to_garbag",
+      "e_collect_null\030\352\007 \001(\010\0225\n\020print_status_ms" +
+      "g\030\003 \001(\0132\033.dstore.values.integerValue\022\036\n\025" +
+      "print_status_msg_null\030\353\007 \001(\010\"\207\002\n\010Respons" +
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore." +
+      "engine.metainformation.MetaInformation\022/" +
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022=\n\003row\030\004 \003(\01320.dstore.engine.mi_" +
+      "GarbageCollect_Ad.Response.Row\032\026\n\003Row\022\017\n" +
+      "\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proce",
+      "duresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2703,7 +3196,7 @@ public final class MiGarbageCollectAd {
     internal_static_dstore_engine_mi_GarbageCollect_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GarbageCollect_Ad_Parameters_descriptor,
-        new java.lang.String[] { "CheckForCorrectDate", "CheckForCorrectDateNull", });
+        new java.lang.String[] { "CheckForCorrectDate", "CheckForCorrectDateNull", "TablesToGarbageCollect", "TablesToGarbageCollectNull", "PrintStatusMsg", "PrintStatusMsgNull", });
     internal_static_dstore_engine_mi_GarbageCollect_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GarbageCollect_Ad_Response_fieldAccessorTable = new

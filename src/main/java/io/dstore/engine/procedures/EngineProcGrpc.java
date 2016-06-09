@@ -2440,6 +2440,15 @@ public class EngineProcGrpc {
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi
+  public static final io.grpc.MethodDescriptor<io.dstore.engine.procedures.MiDatatypeTestAd.Parameters,
+      io.dstore.engine.procedures.MiDatatypeTestAd.Response> METHOD_MI_DATATYPE_TEST_AD =
+      io.grpc.MethodDescriptor.create(
+          io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
+          generateFullMethodName(
+              "dstore.engine.EngineProc", "mi_DatatypeTest_Ad"),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.procedures.MiDatatypeTestAd.Parameters.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.procedures.MiDatatypeTestAd.Response.getDefaultInstance()));
+  @io.grpc.ExperimentalApi
   public static final io.grpc.MethodDescriptor<io.dstore.engine.procedures.MiDeadlockTestAd.Parameters,
       io.dstore.engine.procedures.MiDeadlockTestAd.Response> METHOD_MI_DEADLOCK_TEST_AD =
       io.grpc.MethodDescriptor.create(
@@ -3276,15 +3285,6 @@ public class EngineProcGrpc {
               "dstore.engine.EngineProc", "mi_GetdStoreUser_Ad"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.procedures.MiGetdStoreUserAd.Parameters.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.procedures.MiGetdStoreUserAd.Response.getDefaultInstance()));
-  @io.grpc.ExperimentalApi
-  public static final io.grpc.MethodDescriptor<io.dstore.engine.procedures.MiInsertPerformancePu.Parameters,
-      io.dstore.engine.procedures.MiInsertPerformancePu.Response> METHOD_MI_INSERT_PERFORMANCE_PU =
-      io.grpc.MethodDescriptor.create(
-          io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
-          generateFullMethodName(
-              "dstore.engine.EngineProc", "mi_InsertPerformance_Pu"),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.procedures.MiInsertPerformancePu.Parameters.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.procedures.MiInsertPerformancePu.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi
   public static final io.grpc.MethodDescriptor<io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters,
       io.dstore.engine.procedures.MiInsertTempCharacConditions.Response> METHOD_MI_INSERT_TEMP_CHARAC_CONDITIONS =
@@ -8156,6 +8156,11 @@ public class EngineProcGrpc {
 
     /**
      */
+    public void miDatatypeTestAd(io.dstore.engine.procedures.MiDatatypeTestAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDatatypeTestAd.Response> responseObserver);
+
+    /**
+     */
     public void miDeadlockTestAd(io.dstore.engine.procedures.MiDeadlockTestAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDeadlockTestAd.Response> responseObserver);
 
@@ -8618,11 +8623,6 @@ public class EngineProcGrpc {
      */
     public void miGetdStoreUserAd(io.dstore.engine.procedures.MiGetdStoreUserAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetdStoreUserAd.Response> responseObserver);
-
-    /**
-     */
-    public void miInsertPerformancePu(io.dstore.engine.procedures.MiInsertPerformancePu.Parameters request,
-        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertPerformancePu.Response> responseObserver);
 
     /**
      */
@@ -12182,6 +12182,12 @@ public class EngineProcGrpc {
     }
 
     @java.lang.Override
+    public void miDatatypeTestAd(io.dstore.engine.procedures.MiDatatypeTestAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDatatypeTestAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_DATATYPE_TEST_AD, responseObserver);
+    }
+
+    @java.lang.Override
     public void miDeadlockTestAd(io.dstore.engine.procedures.MiDeadlockTestAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDeadlockTestAd.Response> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_MI_DEADLOCK_TEST_AD, responseObserver);
@@ -12737,12 +12743,6 @@ public class EngineProcGrpc {
     public void miGetdStoreUserAd(io.dstore.engine.procedures.MiGetdStoreUserAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetdStoreUserAd.Response> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_MI_GETD_STORE_USER_AD, responseObserver);
-    }
-
-    @java.lang.Override
-    public void miInsertPerformancePu(io.dstore.engine.procedures.MiInsertPerformancePu.Parameters request,
-        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertPerformancePu.Response> responseObserver) {
-      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_PERFORMANCE_PU, responseObserver);
     }
 
     @java.lang.Override
@@ -16430,6 +16430,11 @@ public class EngineProcGrpc {
 
     /**
      */
+    public java.util.Iterator<io.dstore.engine.procedures.MiDatatypeTestAd.Response> miDatatypeTestAd(
+        io.dstore.engine.procedures.MiDatatypeTestAd.Parameters request);
+
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiDeadlockTestAd.Response> miDeadlockTestAd(
         io.dstore.engine.procedures.MiDeadlockTestAd.Parameters request);
 
@@ -16892,11 +16897,6 @@ public class EngineProcGrpc {
      */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetdStoreUserAd.Response> miGetdStoreUserAd(
         io.dstore.engine.procedures.MiGetdStoreUserAd.Parameters request);
-
-    /**
-     */
-    public java.util.Iterator<io.dstore.engine.procedures.MiInsertPerformancePu.Response> miInsertPerformancePu(
-        io.dstore.engine.procedures.MiInsertPerformancePu.Parameters request);
 
     /**
      */
@@ -20743,6 +20743,13 @@ public class EngineProcGrpc {
     }
 
     @java.lang.Override
+    public void miDatatypeTestAd(io.dstore.engine.procedures.MiDatatypeTestAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDatatypeTestAd.Response> responseObserver) {
+      asyncServerStreamingCall(
+          getChannel().newCall(METHOD_MI_DATATYPE_TEST_AD, getCallOptions()), request, responseObserver);
+    }
+
+    @java.lang.Override
     public void miDeadlockTestAd(io.dstore.engine.procedures.MiDeadlockTestAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDeadlockTestAd.Response> responseObserver) {
       asyncServerStreamingCall(
@@ -21391,13 +21398,6 @@ public class EngineProcGrpc {
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetdStoreUserAd.Response> responseObserver) {
       asyncServerStreamingCall(
           getChannel().newCall(METHOD_MI_GETD_STORE_USER_AD, getCallOptions()), request, responseObserver);
-    }
-
-    @java.lang.Override
-    public void miInsertPerformancePu(io.dstore.engine.procedures.MiInsertPerformancePu.Parameters request,
-        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertPerformancePu.Response> responseObserver) {
-      asyncServerStreamingCall(
-          getChannel().newCall(METHOD_MI_INSERT_PERFORMANCE_PU, getCallOptions()), request, responseObserver);
     }
 
     @java.lang.Override
@@ -26018,6 +26018,13 @@ public class EngineProcGrpc {
     }
 
     @java.lang.Override
+    public java.util.Iterator<io.dstore.engine.procedures.MiDatatypeTestAd.Response> miDatatypeTestAd(
+        io.dstore.engine.procedures.MiDatatypeTestAd.Parameters request) {
+      return blockingServerStreamingCall(
+          getChannel(), METHOD_MI_DATATYPE_TEST_AD, getCallOptions(), request);
+    }
+
+    @java.lang.Override
     public java.util.Iterator<io.dstore.engine.procedures.MiDeadlockTestAd.Response> miDeadlockTestAd(
         io.dstore.engine.procedures.MiDeadlockTestAd.Parameters request) {
       return blockingServerStreamingCall(
@@ -26666,13 +26673,6 @@ public class EngineProcGrpc {
         io.dstore.engine.procedures.MiGetdStoreUserAd.Parameters request) {
       return blockingServerStreamingCall(
           getChannel(), METHOD_MI_GETD_STORE_USER_AD, getCallOptions(), request);
-    }
-
-    @java.lang.Override
-    public java.util.Iterator<io.dstore.engine.procedures.MiInsertPerformancePu.Response> miInsertPerformancePu(
-        io.dstore.engine.procedures.MiInsertPerformancePu.Parameters request) {
-      return blockingServerStreamingCall(
-          getChannel(), METHOD_MI_INSERT_PERFORMANCE_PU, getCallOptions(), request);
     }
 
     @java.lang.Override
@@ -29685,100 +29685,100 @@ public class EngineProcGrpc {
   private static final int METHODID_MI_CHECK_FIELD_TYPE_OF_VALUES_AD = 265;
   private static final int METHODID_MI_CHECK_PERFORMANCE_AD = 266;
   private static final int METHODID_MI_CREATED_STORE_USER_AD = 267;
-  private static final int METHODID_MI_DEADLOCK_TEST_AD = 268;
-  private static final int METHODID_MI_DELETE_FROM_TEMPDB_TABLE = 269;
-  private static final int METHODID_MI_DELETED_STORE_USER_AD = 270;
-  private static final int METHODID_MI_DUMP_DATABASE_AD = 271;
-  private static final int METHODID_MI_DUMP_TRANSACTION_LOG_AD = 272;
-  private static final int METHODID_MI_EXPORT_LOGINS_AD = 273;
-  private static final int METHODID_MI_GARBAGE_COLLECT_AD = 274;
-  private static final int METHODID_MI_GET_ALL_DATABASE_USERS_AD = 275;
-  private static final int METHODID_MI_GET_APP_PARTS_TREE_SETTINGS_AD = 276;
-  private static final int METHODID_MI_GET_APP_PARTS_TREE_SETTINGS_PU = 277;
-  private static final int METHODID_MI_GET_APPLIC_PART_SETTINGS_AD = 278;
-  private static final int METHODID_MI_GET_APPLIC_PART_SETTINGS_PU = 279;
-  private static final int METHODID_MI_GET_APPLICATION_PARTS_TREE_AD = 280;
-  private static final int METHODID_MI_GET_APPLICATION_PARTS_TREE_PU = 281;
-  private static final int METHODID_MI_GET_APPLICATION_PARTS_AD = 282;
-  private static final int METHODID_MI_GET_APPLICATION_PARTS_PU = 283;
-  private static final int METHODID_MI_GET_APPLICATION_SETTINGS_AD = 284;
-  private static final int METHODID_MI_GET_APPLICATION_SETTINGS_PU = 285;
-  private static final int METHODID_MI_GET_APPLICATIONS_AD = 286;
-  private static final int METHODID_MI_GET_APPLICATIONS_PU = 287;
-  private static final int METHODID_MI_GET_BATCH_JOBS_AD = 288;
-  private static final int METHODID_MI_GET_BINARY_PROPERTIES_AD = 289;
-  private static final int METHODID_MI_GET_BINARY_PROPERTIES_PU = 290;
-  private static final int METHODID_MI_GET_CONVERT_FACTOR = 291;
-  private static final int METHODID_MI_GET_COUNTRIES = 292;
-  private static final int METHODID_MI_GET_CURRENT_DATE = 293;
-  private static final int METHODID_MI_GET_CURRENT_LOCKS_AD = 294;
-  private static final int METHODID_MI_GET_CURRENT_PROCESSES_AD = 295;
-  private static final int METHODID_MI_GET_DBOBJECTS_AD = 296;
-  private static final int METHODID_MI_GET_DBSESSION_INFORMATION = 297;
-  private static final int METHODID_MI_GET_EXECUTE_RIGHTS_AD = 298;
-  private static final int METHODID_MI_GET_FIELD_TYPES_AD = 299;
-  private static final int METHODID_MI_GET_FIELD_TYPES_PU = 300;
-  private static final int METHODID_MI_GET_INDEX_DDL_AD = 301;
-  private static final int METHODID_MI_GET_INDEX_DLL_AD = 302;
-  private static final int METHODID_MI_GET_INFORMATION_TYPES_AD = 303;
-  private static final int METHODID_MI_GET_LANGUAGE_DESCRIPTIONS_AD = 304;
-  private static final int METHODID_MI_GET_LANGUAGE_ICONS_AD = 305;
-  private static final int METHODID_MI_GET_LANGUAGE_ICONS_PU = 306;
-  private static final int METHODID_MI_GET_LANGUAGES = 307;
-  private static final int METHODID_MI_GET_LICENCE_KEY_DATA = 308;
-  private static final int METHODID_MI_GET_LOCALES = 309;
-  private static final int METHODID_MI_GET_LOCK_DEPENDENCIES_AD = 310;
-  private static final int METHODID_MI_GET_META_INFORMATION_TYPES_AD = 311;
-  private static final int METHODID_MI_GET_PROC_EXEC_RESTR_FOR_GROUP_AD = 312;
-  private static final int METHODID_MI_GET_PROC_EXEC_RESTR_FOR_USERS_AD = 313;
-  private static final int METHODID_MI_GET_PROC_EXEC_RIGHTS_GROUP_AD = 314;
-  private static final int METHODID_MI_GET_PROC_EXEC_RIGHTS_USER_AD = 315;
-  private static final int METHODID_MI_GET_PROC_META_PROPERTIES_AD = 316;
-  private static final int METHODID_MI_GET_PROCEDURE_CODE_AD = 317;
-  private static final int METHODID_MI_GET_PROCEDURE_DEPENDENCIES_AD = 318;
-  private static final int METHODID_MI_GET_PROCEDURE_EXECUTION_LOG_AD = 319;
-  private static final int METHODID_MI_GET_PROCEDURE_PARAMETERS = 320;
-  private static final int METHODID_MI_GET_REGIONS = 321;
-  private static final int METHODID_MI_GET_REGISTERED_PROCEDURES_AD = 322;
-  private static final int METHODID_MI_GET_RESSOURCE_USAGE = 323;
-  private static final int METHODID_MI_GET_RETURN_CODE_MESSAGE = 324;
-  private static final int METHODID_MI_GET_SQLFUNCT_META_PROPS_AD = 325;
-  private static final int METHODID_MI_GET_SQLFUNCTION_CODE_AD = 326;
-  private static final int METHODID_MI_GET_SQLFUNCTION_PARAMETERS = 327;
-  private static final int METHODID_MI_GET_SEARCH_ITEM_LACKS_AD = 328;
-  private static final int METHODID_MI_GET_SEARCH_ITEMS_AD = 329;
-  private static final int METHODID_MI_GET_SESSION_MANAGEMENT_PU = 330;
-  private static final int METHODID_MI_GET_SETTING_ENTRY = 331;
-  private static final int METHODID_MI_GET_SETTINGS_AD = 332;
-  private static final int METHODID_MI_GET_SOURCE_CODE_HISTORY_AD = 333;
-  private static final int METHODID_MI_GET_SOURCE_TEMPLATES_AD = 334;
-  private static final int METHODID_MI_GET_STORAGE_ALLOC_INFO_AD = 335;
-  private static final int METHODID_MI_GET_TRITRIGGER_CODE_AD = 336;
-  private static final int METHODID_MI_GET_TRITRIGGER_CONDITIONS_AD = 337;
-  private static final int METHODID_MI_GET_TRITRIGGER_REPL_FUNCTS_AD = 338;
-  private static final int METHODID_MI_GET_TRITRIGGER_TO_DOS_AD = 339;
-  private static final int METHODID_MI_GET_TRITRIGGER_TYPES_AD = 340;
-  private static final int METHODID_MI_GET_TRITRIGGER_WORKFLOW_AD = 341;
-  private static final int METHODID_MI_GET_TRITRIGGER_AD = 342;
-  private static final int METHODID_MI_GET_TABLE_DDL_AD = 343;
-  private static final int METHODID_MI_GET_TABLE_DLL_AD = 344;
-  private static final int METHODID_MI_GET_TABS_REF_IN_OTHER_TABS_AD = 345;
-  private static final int METHODID_MI_GET_TAX_RATES = 346;
-  private static final int METHODID_MI_GET_TEMPLATE_COMBINATIONS_AD = 347;
-  private static final int METHODID_MI_GET_TEMPLATES_AD = 348;
-  private static final int METHODID_MI_GET_TRIGGER_CODE_AD = 349;
-  private static final int METHODID_MI_GET_UNIT_CATEGORIES_AD = 350;
-  private static final int METHODID_MI_GET_UNIT_CONVERTS_AD = 351;
-  private static final int METHODID_MI_GET_UNITS = 352;
-  private static final int METHODID_MI_GET_UNITS_AD = 353;
-  private static final int METHODID_MI_GET_USAGE_OF_TABLES_AD = 354;
-  private static final int METHODID_MI_GET_USER_GROUPS_AD = 355;
-  private static final int METHODID_MI_GET_USER_INFO = 356;
-  private static final int METHODID_MI_GET_USER_INFO_AD = 357;
-  private static final int METHODID_MI_GET_VISITOR_INFORMATION_PU = 358;
-  private static final int METHODID_MI_GET_VISITOR_PROPERTIES_PU = 359;
-  private static final int METHODID_MI_GETD_STORE_USER_AD = 360;
-  private static final int METHODID_MI_INSERT_PERFORMANCE_PU = 361;
+  private static final int METHODID_MI_DATATYPE_TEST_AD = 268;
+  private static final int METHODID_MI_DEADLOCK_TEST_AD = 269;
+  private static final int METHODID_MI_DELETE_FROM_TEMPDB_TABLE = 270;
+  private static final int METHODID_MI_DELETED_STORE_USER_AD = 271;
+  private static final int METHODID_MI_DUMP_DATABASE_AD = 272;
+  private static final int METHODID_MI_DUMP_TRANSACTION_LOG_AD = 273;
+  private static final int METHODID_MI_EXPORT_LOGINS_AD = 274;
+  private static final int METHODID_MI_GARBAGE_COLLECT_AD = 275;
+  private static final int METHODID_MI_GET_ALL_DATABASE_USERS_AD = 276;
+  private static final int METHODID_MI_GET_APP_PARTS_TREE_SETTINGS_AD = 277;
+  private static final int METHODID_MI_GET_APP_PARTS_TREE_SETTINGS_PU = 278;
+  private static final int METHODID_MI_GET_APPLIC_PART_SETTINGS_AD = 279;
+  private static final int METHODID_MI_GET_APPLIC_PART_SETTINGS_PU = 280;
+  private static final int METHODID_MI_GET_APPLICATION_PARTS_TREE_AD = 281;
+  private static final int METHODID_MI_GET_APPLICATION_PARTS_TREE_PU = 282;
+  private static final int METHODID_MI_GET_APPLICATION_PARTS_AD = 283;
+  private static final int METHODID_MI_GET_APPLICATION_PARTS_PU = 284;
+  private static final int METHODID_MI_GET_APPLICATION_SETTINGS_AD = 285;
+  private static final int METHODID_MI_GET_APPLICATION_SETTINGS_PU = 286;
+  private static final int METHODID_MI_GET_APPLICATIONS_AD = 287;
+  private static final int METHODID_MI_GET_APPLICATIONS_PU = 288;
+  private static final int METHODID_MI_GET_BATCH_JOBS_AD = 289;
+  private static final int METHODID_MI_GET_BINARY_PROPERTIES_AD = 290;
+  private static final int METHODID_MI_GET_BINARY_PROPERTIES_PU = 291;
+  private static final int METHODID_MI_GET_CONVERT_FACTOR = 292;
+  private static final int METHODID_MI_GET_COUNTRIES = 293;
+  private static final int METHODID_MI_GET_CURRENT_DATE = 294;
+  private static final int METHODID_MI_GET_CURRENT_LOCKS_AD = 295;
+  private static final int METHODID_MI_GET_CURRENT_PROCESSES_AD = 296;
+  private static final int METHODID_MI_GET_DBOBJECTS_AD = 297;
+  private static final int METHODID_MI_GET_DBSESSION_INFORMATION = 298;
+  private static final int METHODID_MI_GET_EXECUTE_RIGHTS_AD = 299;
+  private static final int METHODID_MI_GET_FIELD_TYPES_AD = 300;
+  private static final int METHODID_MI_GET_FIELD_TYPES_PU = 301;
+  private static final int METHODID_MI_GET_INDEX_DDL_AD = 302;
+  private static final int METHODID_MI_GET_INDEX_DLL_AD = 303;
+  private static final int METHODID_MI_GET_INFORMATION_TYPES_AD = 304;
+  private static final int METHODID_MI_GET_LANGUAGE_DESCRIPTIONS_AD = 305;
+  private static final int METHODID_MI_GET_LANGUAGE_ICONS_AD = 306;
+  private static final int METHODID_MI_GET_LANGUAGE_ICONS_PU = 307;
+  private static final int METHODID_MI_GET_LANGUAGES = 308;
+  private static final int METHODID_MI_GET_LICENCE_KEY_DATA = 309;
+  private static final int METHODID_MI_GET_LOCALES = 310;
+  private static final int METHODID_MI_GET_LOCK_DEPENDENCIES_AD = 311;
+  private static final int METHODID_MI_GET_META_INFORMATION_TYPES_AD = 312;
+  private static final int METHODID_MI_GET_PROC_EXEC_RESTR_FOR_GROUP_AD = 313;
+  private static final int METHODID_MI_GET_PROC_EXEC_RESTR_FOR_USERS_AD = 314;
+  private static final int METHODID_MI_GET_PROC_EXEC_RIGHTS_GROUP_AD = 315;
+  private static final int METHODID_MI_GET_PROC_EXEC_RIGHTS_USER_AD = 316;
+  private static final int METHODID_MI_GET_PROC_META_PROPERTIES_AD = 317;
+  private static final int METHODID_MI_GET_PROCEDURE_CODE_AD = 318;
+  private static final int METHODID_MI_GET_PROCEDURE_DEPENDENCIES_AD = 319;
+  private static final int METHODID_MI_GET_PROCEDURE_EXECUTION_LOG_AD = 320;
+  private static final int METHODID_MI_GET_PROCEDURE_PARAMETERS = 321;
+  private static final int METHODID_MI_GET_REGIONS = 322;
+  private static final int METHODID_MI_GET_REGISTERED_PROCEDURES_AD = 323;
+  private static final int METHODID_MI_GET_RESSOURCE_USAGE = 324;
+  private static final int METHODID_MI_GET_RETURN_CODE_MESSAGE = 325;
+  private static final int METHODID_MI_GET_SQLFUNCT_META_PROPS_AD = 326;
+  private static final int METHODID_MI_GET_SQLFUNCTION_CODE_AD = 327;
+  private static final int METHODID_MI_GET_SQLFUNCTION_PARAMETERS = 328;
+  private static final int METHODID_MI_GET_SEARCH_ITEM_LACKS_AD = 329;
+  private static final int METHODID_MI_GET_SEARCH_ITEMS_AD = 330;
+  private static final int METHODID_MI_GET_SESSION_MANAGEMENT_PU = 331;
+  private static final int METHODID_MI_GET_SETTING_ENTRY = 332;
+  private static final int METHODID_MI_GET_SETTINGS_AD = 333;
+  private static final int METHODID_MI_GET_SOURCE_CODE_HISTORY_AD = 334;
+  private static final int METHODID_MI_GET_SOURCE_TEMPLATES_AD = 335;
+  private static final int METHODID_MI_GET_STORAGE_ALLOC_INFO_AD = 336;
+  private static final int METHODID_MI_GET_TRITRIGGER_CODE_AD = 337;
+  private static final int METHODID_MI_GET_TRITRIGGER_CONDITIONS_AD = 338;
+  private static final int METHODID_MI_GET_TRITRIGGER_REPL_FUNCTS_AD = 339;
+  private static final int METHODID_MI_GET_TRITRIGGER_TO_DOS_AD = 340;
+  private static final int METHODID_MI_GET_TRITRIGGER_TYPES_AD = 341;
+  private static final int METHODID_MI_GET_TRITRIGGER_WORKFLOW_AD = 342;
+  private static final int METHODID_MI_GET_TRITRIGGER_AD = 343;
+  private static final int METHODID_MI_GET_TABLE_DDL_AD = 344;
+  private static final int METHODID_MI_GET_TABLE_DLL_AD = 345;
+  private static final int METHODID_MI_GET_TABS_REF_IN_OTHER_TABS_AD = 346;
+  private static final int METHODID_MI_GET_TAX_RATES = 347;
+  private static final int METHODID_MI_GET_TEMPLATE_COMBINATIONS_AD = 348;
+  private static final int METHODID_MI_GET_TEMPLATES_AD = 349;
+  private static final int METHODID_MI_GET_TRIGGER_CODE_AD = 350;
+  private static final int METHODID_MI_GET_UNIT_CATEGORIES_AD = 351;
+  private static final int METHODID_MI_GET_UNIT_CONVERTS_AD = 352;
+  private static final int METHODID_MI_GET_UNITS = 353;
+  private static final int METHODID_MI_GET_UNITS_AD = 354;
+  private static final int METHODID_MI_GET_USAGE_OF_TABLES_AD = 355;
+  private static final int METHODID_MI_GET_USER_GROUPS_AD = 356;
+  private static final int METHODID_MI_GET_USER_INFO = 357;
+  private static final int METHODID_MI_GET_USER_INFO_AD = 358;
+  private static final int METHODID_MI_GET_VISITOR_INFORMATION_PU = 359;
+  private static final int METHODID_MI_GET_VISITOR_PROPERTIES_PU = 360;
+  private static final int METHODID_MI_GETD_STORE_USER_AD = 361;
   private static final int METHODID_MI_INSERT_TEMP_CHARAC_CONDITIONS = 362;
   private static final int METHODID_MI_INSERT_TEMPDB_ADDITIONAL_INFO = 363;
   private static final int METHODID_MI_INSERT_TEMPDB_ANY_VALUES = 364;
@@ -31258,6 +31258,10 @@ public class EngineProcGrpc {
           serviceImpl.miCreatedStoreUserAd((io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters) request,
               (io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiCreatedStoreUserAd.Response>) responseObserver);
           break;
+        case METHODID_MI_DATATYPE_TEST_AD:
+          serviceImpl.miDatatypeTestAd((io.dstore.engine.procedures.MiDatatypeTestAd.Parameters) request,
+              (io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDatatypeTestAd.Response>) responseObserver);
+          break;
         case METHODID_MI_DEADLOCK_TEST_AD:
           serviceImpl.miDeadlockTestAd((io.dstore.engine.procedures.MiDeadlockTestAd.Parameters) request,
               (io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDeadlockTestAd.Response>) responseObserver);
@@ -31629,10 +31633,6 @@ public class EngineProcGrpc {
         case METHODID_MI_GETD_STORE_USER_AD:
           serviceImpl.miGetdStoreUserAd((io.dstore.engine.procedures.MiGetdStoreUserAd.Parameters) request,
               (io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetdStoreUserAd.Response>) responseObserver);
-          break;
-        case METHODID_MI_INSERT_PERFORMANCE_PU:
-          serviceImpl.miInsertPerformancePu((io.dstore.engine.procedures.MiInsertPerformancePu.Parameters) request,
-              (io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertPerformancePu.Response>) responseObserver);
           break;
         case METHODID_MI_INSERT_TEMP_CHARAC_CONDITIONS:
           serviceImpl.miInsertTempCharacConditions((io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters) request,
@@ -35086,6 +35086,13 @@ public class EngineProcGrpc {
               io.dstore.engine.procedures.MiCreatedStoreUserAd.Response>(
                 serviceImpl, METHODID_MI_CREATED_STORE_USER_AD)))
         .addMethod(
+          METHOD_MI_DATATYPE_TEST_AD,
+          asyncServerStreamingCall(
+            new MethodHandlers<
+              io.dstore.engine.procedures.MiDatatypeTestAd.Parameters,
+              io.dstore.engine.procedures.MiDatatypeTestAd.Response>(
+                serviceImpl, METHODID_MI_DATATYPE_TEST_AD)))
+        .addMethod(
           METHOD_MI_DEADLOCK_TEST_AD,
           asyncServerStreamingCall(
             new MethodHandlers<
@@ -35736,13 +35743,6 @@ public class EngineProcGrpc {
               io.dstore.engine.procedures.MiGetdStoreUserAd.Parameters,
               io.dstore.engine.procedures.MiGetdStoreUserAd.Response>(
                 serviceImpl, METHODID_MI_GETD_STORE_USER_AD)))
-        .addMethod(
-          METHOD_MI_INSERT_PERFORMANCE_PU,
-          asyncServerStreamingCall(
-            new MethodHandlers<
-              io.dstore.engine.procedures.MiInsertPerformancePu.Parameters,
-              io.dstore.engine.procedures.MiInsertPerformancePu.Response>(
-                serviceImpl, METHODID_MI_INSERT_PERFORMANCE_PU)))
         .addMethod(
           METHOD_MI_INSERT_TEMP_CHARAC_CONDITIONS,
           asyncServerStreamingCall(

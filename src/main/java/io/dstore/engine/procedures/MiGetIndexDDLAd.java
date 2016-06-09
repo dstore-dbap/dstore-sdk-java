@@ -65,6 +65,24 @@ public final class MiGetIndexDDLAd {
      * <code>optional bool database_name_null = 1003;</code>
      */
     boolean getDatabaseNameNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    boolean hasFullyQualifiedNameInOutput();
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    io.dstore.Values.booleanValue getFullyQualifiedNameInOutput();
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    io.dstore.Values.booleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder();
+
+    /**
+     * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
+     */
+    boolean getFullyQualifiedNameInOutputNull();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_GetIndexDDL_Ad.Parameters}
@@ -81,6 +99,7 @@ public final class MiGetIndexDDLAd {
       tableNameNull_ = false;
       indexNameNull_ = false;
       databaseNameNull_ = false;
+      fullyQualifiedNameInOutputNull_ = false;
     }
 
     @java.lang.Override
@@ -146,6 +165,19 @@ public final class MiGetIndexDDLAd {
 
               break;
             }
+            case 34: {
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              if (fullyQualifiedNameInOutput_ != null) {
+                subBuilder = fullyQualifiedNameInOutput_.toBuilder();
+              }
+              fullyQualifiedNameInOutput_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(fullyQualifiedNameInOutput_);
+                fullyQualifiedNameInOutput_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               tableNameNull_ = input.readBool();
@@ -159,6 +191,11 @@ public final class MiGetIndexDDLAd {
             case 8024: {
 
               databaseNameNull_ = input.readBool();
+              break;
+            }
+            case 8032: {
+
+              fullyQualifiedNameInOutputNull_ = input.readBool();
               break;
             }
           }
@@ -275,6 +312,36 @@ public final class MiGetIndexDDLAd {
       return databaseNameNull_;
     }
 
+    public static final int FULLY_QUALIFIED_NAME_IN_OUTPUT_FIELD_NUMBER = 4;
+    private io.dstore.Values.booleanValue fullyQualifiedNameInOutput_;
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    public boolean hasFullyQualifiedNameInOutput() {
+      return fullyQualifiedNameInOutput_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    public io.dstore.Values.booleanValue getFullyQualifiedNameInOutput() {
+      return fullyQualifiedNameInOutput_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
+    }
+    /**
+     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     */
+    public io.dstore.Values.booleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder() {
+      return getFullyQualifiedNameInOutput();
+    }
+
+    public static final int FULLY_QUALIFIED_NAME_IN_OUTPUT_NULL_FIELD_NUMBER = 1004;
+    private boolean fullyQualifiedNameInOutputNull_;
+    /**
+     * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
+     */
+    public boolean getFullyQualifiedNameInOutputNull() {
+      return fullyQualifiedNameInOutputNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -296,6 +363,9 @@ public final class MiGetIndexDDLAd {
       if (databaseName_ != null) {
         output.writeMessage(3, getDatabaseName());
       }
+      if (fullyQualifiedNameInOutput_ != null) {
+        output.writeMessage(4, getFullyQualifiedNameInOutput());
+      }
       if (tableNameNull_ != false) {
         output.writeBool(1001, tableNameNull_);
       }
@@ -304,6 +374,9 @@ public final class MiGetIndexDDLAd {
       }
       if (databaseNameNull_ != false) {
         output.writeBool(1003, databaseNameNull_);
+      }
+      if (fullyQualifiedNameInOutputNull_ != false) {
+        output.writeBool(1004, fullyQualifiedNameInOutputNull_);
       }
     }
 
@@ -324,6 +397,10 @@ public final class MiGetIndexDDLAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, getDatabaseName());
       }
+      if (fullyQualifiedNameInOutput_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getFullyQualifiedNameInOutput());
+      }
       if (tableNameNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, tableNameNull_);
@@ -335,6 +412,10 @@ public final class MiGetIndexDDLAd {
       if (databaseNameNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, databaseNameNull_);
+      }
+      if (fullyQualifiedNameInOutputNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1004, fullyQualifiedNameInOutputNull_);
       }
       memoizedSize = size;
       return size;
@@ -471,6 +552,14 @@ public final class MiGetIndexDDLAd {
         }
         databaseNameNull_ = false;
 
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          fullyQualifiedNameInOutput_ = null;
+        } else {
+          fullyQualifiedNameInOutput_ = null;
+          fullyQualifiedNameInOutputBuilder_ = null;
+        }
+        fullyQualifiedNameInOutputNull_ = false;
+
         return this;
       }
 
@@ -511,6 +600,12 @@ public final class MiGetIndexDDLAd {
           result.databaseName_ = databaseNameBuilder_.build();
         }
         result.databaseNameNull_ = databaseNameNull_;
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          result.fullyQualifiedNameInOutput_ = fullyQualifiedNameInOutput_;
+        } else {
+          result.fullyQualifiedNameInOutput_ = fullyQualifiedNameInOutputBuilder_.build();
+        }
+        result.fullyQualifiedNameInOutputNull_ = fullyQualifiedNameInOutputNull_;
         onBuilt();
         return result;
       }
@@ -543,6 +638,12 @@ public final class MiGetIndexDDLAd {
         }
         if (other.getDatabaseNameNull() != false) {
           setDatabaseNameNull(other.getDatabaseNameNull());
+        }
+        if (other.hasFullyQualifiedNameInOutput()) {
+          mergeFullyQualifiedNameInOutput(other.getFullyQualifiedNameInOutput());
+        }
+        if (other.getFullyQualifiedNameInOutputNull() != false) {
+          setFullyQualifiedNameInOutputNull(other.getFullyQualifiedNameInOutputNull());
         }
         onChanged();
         return this;
@@ -995,6 +1096,149 @@ public final class MiGetIndexDDLAd {
       public Builder clearDatabaseNameNull() {
         
         databaseNameNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.booleanValue fullyQualifiedNameInOutput_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> fullyQualifiedNameInOutputBuilder_;
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public boolean hasFullyQualifiedNameInOutput() {
+        return fullyQualifiedNameInOutputBuilder_ != null || fullyQualifiedNameInOutput_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public io.dstore.Values.booleanValue getFullyQualifiedNameInOutput() {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          return fullyQualifiedNameInOutput_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
+        } else {
+          return fullyQualifiedNameInOutputBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public Builder setFullyQualifiedNameInOutput(io.dstore.Values.booleanValue value) {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          fullyQualifiedNameInOutput_ = value;
+          onChanged();
+        } else {
+          fullyQualifiedNameInOutputBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public Builder setFullyQualifiedNameInOutput(
+          io.dstore.Values.booleanValue.Builder builderForValue) {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          fullyQualifiedNameInOutput_ = builderForValue.build();
+          onChanged();
+        } else {
+          fullyQualifiedNameInOutputBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public Builder mergeFullyQualifiedNameInOutput(io.dstore.Values.booleanValue value) {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          if (fullyQualifiedNameInOutput_ != null) {
+            fullyQualifiedNameInOutput_ =
+              io.dstore.Values.booleanValue.newBuilder(fullyQualifiedNameInOutput_).mergeFrom(value).buildPartial();
+          } else {
+            fullyQualifiedNameInOutput_ = value;
+          }
+          onChanged();
+        } else {
+          fullyQualifiedNameInOutputBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public Builder clearFullyQualifiedNameInOutput() {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          fullyQualifiedNameInOutput_ = null;
+          onChanged();
+        } else {
+          fullyQualifiedNameInOutput_ = null;
+          fullyQualifiedNameInOutputBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public io.dstore.Values.booleanValue.Builder getFullyQualifiedNameInOutputBuilder() {
+        
+        onChanged();
+        return getFullyQualifiedNameInOutputFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      public io.dstore.Values.booleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder() {
+        if (fullyQualifiedNameInOutputBuilder_ != null) {
+          return fullyQualifiedNameInOutputBuilder_.getMessageOrBuilder();
+        } else {
+          return fullyQualifiedNameInOutput_ == null ?
+              io.dstore.Values.booleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          getFullyQualifiedNameInOutputFieldBuilder() {
+        if (fullyQualifiedNameInOutputBuilder_ == null) {
+          fullyQualifiedNameInOutputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                  getFullyQualifiedNameInOutput(),
+                  getParentForChildren(),
+                  isClean());
+          fullyQualifiedNameInOutput_ = null;
+        }
+        return fullyQualifiedNameInOutputBuilder_;
+      }
+
+      private boolean fullyQualifiedNameInOutputNull_ ;
+      /**
+       * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
+       */
+      public boolean getFullyQualifiedNameInOutputNull() {
+        return fullyQualifiedNameInOutputNull_;
+      }
+      /**
+       * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
+       */
+      public Builder setFullyQualifiedNameInOutputNull(boolean value) {
+        
+        fullyQualifiedNameInOutputNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
+       */
+      public Builder clearFullyQualifiedNameInOutputNull() {
+        
+        fullyQualifiedNameInOutputNull_ = false;
         onChanged();
         return this;
       }
@@ -3157,21 +3401,24 @@ public final class MiGetIndexDDLAd {
       "L_Ad.proto\022\037dstore.engine.mi_GetIndexDDL" +
       "_Ad\032\023dstore/values.proto\032\031dstore/engine/" +
       "error.proto\032\033dstore/engine/message.proto" +
-      "\032#dstore/engine/metainformation.proto\"\360\001" +
+      "\032#dstore/engine/metainformation.proto\"\343\002" +
       "\n\nParameters\022.\n\ntable_name\030\001 \001(\0132\032.dstor" +
       "e.values.stringValue\022\030\n\017table_name_null\030" +
       "\351\007 \001(\010\022.\n\nindex_name\030\002 \001(\0132\032.dstore.valu" +
       "es.stringValue\022\030\n\017index_name_null\030\352\007 \001(\010" +
       "\0221\n\rdatabase_name\030\003 \001(\0132\032.dstore.values.",
       "stringValue\022\033\n\022database_name_null\030\353\007 \001(\010" +
-      "\"\204\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.en" +
-      "gine.error.Error\022H\n\020meta_information\030\002 \003" +
-      "(\0132..dstore.engine.metainformation.MetaI" +
-      "nformation\022/\n\007message\030\003 \003(\0132\036.dstore.eng" +
-      "ine.message.Message\022:\n\003row\030\004 \003(\0132-.dstor" +
-      "e.engine.mi_GetIndexDDL_Ad.Response.Row\032" +
-      "\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "\022C\n\036fully_qualified_name_in_output\030\004 \001(\013" +
+      "2\033.dstore.values.booleanValue\022,\n#fully_q" +
+      "ualified_name_in_output_null\030\354\007 \001(\010\"\204\002\n\010" +
+      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
+      "error.Error\022H\n\020meta_information\030\002 \003(\0132.." +
+      "dstore.engine.metainformation.MetaInform" +
+      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
+      "essage.Message\022:\n\003row\030\004 \003(\0132-.dstore.eng" +
+      "ine.mi_GetIndexDDL_Ad.Response.Row\032\026\n\003Ro",
+      "w\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.p" +
+      "roceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3194,7 +3441,7 @@ public final class MiGetIndexDDLAd {
     internal_static_dstore_engine_mi_GetIndexDDL_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetIndexDDL_Ad_Parameters_descriptor,
-        new java.lang.String[] { "TableName", "TableNameNull", "IndexName", "IndexNameNull", "DatabaseName", "DatabaseNameNull", });
+        new java.lang.String[] { "TableName", "TableNameNull", "IndexName", "IndexNameNull", "DatabaseName", "DatabaseNameNull", "FullyQualifiedNameInOutput", "FullyQualifiedNameInOutputNull", });
     internal_static_dstore_engine_mi_GetIndexDDL_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetIndexDDL_Ad_Response_fieldAccessorTable = new

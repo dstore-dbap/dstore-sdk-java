@@ -3757,6 +3757,31 @@ public final class ImGetNodeProperties {
       io.dstore.Values.booleanValueOrBuilder getDeletedOrBuilder();
 
       /**
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+       *
+       * <pre>
+       * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+       * </pre>
+       */
+      boolean hasSortNo();
+      /**
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+       *
+       * <pre>
+       * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+       * </pre>
+       */
+      io.dstore.Values.integerValue getSortNo();
+      /**
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+       *
+       * <pre>
+       * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+       * </pre>
+       */
+      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+
+      /**
        * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
        *
        * <pre>
@@ -3782,7 +3807,7 @@ public final class ImGetNodeProperties {
       io.dstore.Values.stringValueOrBuilder getValidToCharOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -3790,7 +3815,7 @@ public final class ImGetNodeProperties {
        */
       boolean hasInheritsFromTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -3798,7 +3823,7 @@ public final class ImGetNodeProperties {
        */
       io.dstore.Values.integerValue getInheritsFromTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -3807,7 +3832,7 @@ public final class ImGetNodeProperties {
       io.dstore.Values.integerValueOrBuilder getInheritsFromTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -3815,7 +3840,7 @@ public final class ImGetNodeProperties {
        */
       boolean hasValidTo();
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -3823,7 +3848,7 @@ public final class ImGetNodeProperties {
        */
       io.dstore.Values.timestampValue getValidTo();
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -3832,7 +3857,7 @@ public final class ImGetNodeProperties {
       io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -3840,7 +3865,7 @@ public final class ImGetNodeProperties {
        */
       boolean hasValidFrom();
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -3848,7 +3873,7 @@ public final class ImGetNodeProperties {
        */
       io.dstore.Values.timestampValue getValidFrom();
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -3857,7 +3882,7 @@ public final class ImGetNodeProperties {
       io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -3865,7 +3890,7 @@ public final class ImGetNodeProperties {
        */
       boolean hasInheritsFromNodeId();
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -3873,7 +3898,7 @@ public final class ImGetNodeProperties {
        */
       io.dstore.Values.integerValue getInheritsFromNodeId();
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -3882,7 +3907,7 @@ public final class ImGetNodeProperties {
       io.dstore.Values.integerValueOrBuilder getInheritsFromNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -3890,7 +3915,7 @@ public final class ImGetNodeProperties {
        */
       boolean hasValidFromChar();
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -3898,7 +3923,7 @@ public final class ImGetNodeProperties {
        */
       io.dstore.Values.stringValue getValidFromChar();
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -4093,6 +4118,19 @@ public final class ImGetNodeProperties {
 
                 break;
               }
+              case 80098: {
+                io.dstore.Values.integerValue.Builder subBuilder = null;
+                if (sortNo_ != null) {
+                  subBuilder = sortNo_.toBuilder();
+                }
+                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                if (subBuilder != null) {
+                  subBuilder.mergeFrom(sortNo_);
+                  sortNo_ = subBuilder.buildPartial();
+                }
+
+                break;
+              }
               case 240018: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (validToChar_ != null) {
@@ -4106,7 +4144,7 @@ public final class ImGetNodeProperties {
 
                 break;
               }
-              case 240074: {
+              case 240082: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (inheritsFromTreeNodeId_ != null) {
                   subBuilder = inheritsFromTreeNodeId_.toBuilder();
@@ -4119,7 +4157,7 @@ public final class ImGetNodeProperties {
 
                 break;
               }
-              case 240082: {
+              case 240090: {
                 io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (validTo_ != null) {
                   subBuilder = validTo_.toBuilder();
@@ -4132,7 +4170,7 @@ public final class ImGetNodeProperties {
 
                 break;
               }
-              case 240114: {
+              case 240122: {
                 io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (validFrom_ != null) {
                   subBuilder = validFrom_.toBuilder();
@@ -4145,7 +4183,7 @@ public final class ImGetNodeProperties {
 
                 break;
               }
-              case 240130: {
+              case 240138: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (inheritsFromNodeId_ != null) {
                   subBuilder = inheritsFromNodeId_.toBuilder();
@@ -4158,7 +4196,7 @@ public final class ImGetNodeProperties {
 
                 break;
               }
-              case 240138: {
+              case 240146: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (validFromChar_ != null) {
                   subBuilder = validFromChar_.toBuilder();
@@ -4567,6 +4605,39 @@ public final class ImGetNodeProperties {
         return getDeleted();
       }
 
+      public static final int SORT_NO_FIELD_NUMBER = 10012;
+      private io.dstore.Values.integerValue sortNo_;
+      /**
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+       *
+       * <pre>
+       * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+       * </pre>
+       */
+      public boolean hasSortNo() {
+        return sortNo_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+       *
+       * <pre>
+       * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+       * </pre>
+       */
+      public io.dstore.Values.integerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+       *
+       * <pre>
+       * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+       * </pre>
+       */
+      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        return getSortNo();
+      }
+
       public static final int VALID_TO_CHAR_FIELD_NUMBER = 30002;
       private io.dstore.Values.stringValue validToChar_;
       /**
@@ -4600,10 +4671,10 @@ public final class ImGetNodeProperties {
         return getValidToChar();
       }
 
-      public static final int INHERITS_FROM_TREE_NODE_ID_FIELD_NUMBER = 30009;
+      public static final int INHERITS_FROM_TREE_NODE_ID_FIELD_NUMBER = 30010;
       private io.dstore.Values.integerValue inheritsFromTreeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -4613,7 +4684,7 @@ public final class ImGetNodeProperties {
         return inheritsFromTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -4623,7 +4694,7 @@ public final class ImGetNodeProperties {
         return inheritsFromTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inheritsFromTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -4633,10 +4704,10 @@ public final class ImGetNodeProperties {
         return getInheritsFromTreeNodeId();
       }
 
-      public static final int VALID_TO_FIELD_NUMBER = 30010;
+      public static final int VALID_TO_FIELD_NUMBER = 30011;
       private io.dstore.Values.timestampValue validTo_;
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -4646,7 +4717,7 @@ public final class ImGetNodeProperties {
         return validTo_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -4656,7 +4727,7 @@ public final class ImGetNodeProperties {
         return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -4666,10 +4737,10 @@ public final class ImGetNodeProperties {
         return getValidTo();
       }
 
-      public static final int VALID_FROM_FIELD_NUMBER = 30014;
+      public static final int VALID_FROM_FIELD_NUMBER = 30015;
       private io.dstore.Values.timestampValue validFrom_;
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -4679,7 +4750,7 @@ public final class ImGetNodeProperties {
         return validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -4689,7 +4760,7 @@ public final class ImGetNodeProperties {
         return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -4699,10 +4770,10 @@ public final class ImGetNodeProperties {
         return getValidFrom();
       }
 
-      public static final int INHERITS_FROM_NODE_ID_FIELD_NUMBER = 30016;
+      public static final int INHERITS_FROM_NODE_ID_FIELD_NUMBER = 30017;
       private io.dstore.Values.integerValue inheritsFromNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -4712,7 +4783,7 @@ public final class ImGetNodeProperties {
         return inheritsFromNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -4722,7 +4793,7 @@ public final class ImGetNodeProperties {
         return inheritsFromNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inheritsFromNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -4732,10 +4803,10 @@ public final class ImGetNodeProperties {
         return getInheritsFromNodeId();
       }
 
-      public static final int VALID_FROM_CHAR_FIELD_NUMBER = 30017;
+      public static final int VALID_FROM_CHAR_FIELD_NUMBER = 30018;
       private io.dstore.Values.stringValue validFromChar_;
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -4745,7 +4816,7 @@ public final class ImGetNodeProperties {
         return validFromChar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -4755,7 +4826,7 @@ public final class ImGetNodeProperties {
         return validFromChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : validFromChar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -4813,23 +4884,26 @@ public final class ImGetNodeProperties {
         if (deleted_ != null) {
           output.writeMessage(10011, getDeleted());
         }
+        if (sortNo_ != null) {
+          output.writeMessage(10012, getSortNo());
+        }
         if (validToChar_ != null) {
           output.writeMessage(30002, getValidToChar());
         }
         if (inheritsFromTreeNodeId_ != null) {
-          output.writeMessage(30009, getInheritsFromTreeNodeId());
+          output.writeMessage(30010, getInheritsFromTreeNodeId());
         }
         if (validTo_ != null) {
-          output.writeMessage(30010, getValidTo());
+          output.writeMessage(30011, getValidTo());
         }
         if (validFrom_ != null) {
-          output.writeMessage(30014, getValidFrom());
+          output.writeMessage(30015, getValidFrom());
         }
         if (inheritsFromNodeId_ != null) {
-          output.writeMessage(30016, getInheritsFromNodeId());
+          output.writeMessage(30017, getInheritsFromNodeId());
         }
         if (validFromChar_ != null) {
-          output.writeMessage(30017, getValidFromChar());
+          output.writeMessage(30018, getValidFromChar());
         }
       }
 
@@ -4886,29 +4960,33 @@ public final class ImGetNodeProperties {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10011, getDeleted());
         }
+        if (sortNo_ != null) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(10012, getSortNo());
+        }
         if (validToChar_ != null) {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(30002, getValidToChar());
         }
         if (inheritsFromTreeNodeId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(30009, getInheritsFromTreeNodeId());
+            .computeMessageSize(30010, getInheritsFromTreeNodeId());
         }
         if (validTo_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(30010, getValidTo());
+            .computeMessageSize(30011, getValidTo());
         }
         if (validFrom_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(30014, getValidFrom());
+            .computeMessageSize(30015, getValidFrom());
         }
         if (inheritsFromNodeId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(30016, getInheritsFromNodeId());
+            .computeMessageSize(30017, getInheritsFromNodeId());
         }
         if (validFromChar_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(30017, getValidFromChar());
+            .computeMessageSize(30018, getValidFromChar());
         }
         memoizedSize = size;
         return size;
@@ -5089,6 +5167,12 @@ public final class ImGetNodeProperties {
             deleted_ = null;
             deletedBuilder_ = null;
           }
+          if (sortNoBuilder_ == null) {
+            sortNo_ = null;
+          } else {
+            sortNo_ = null;
+            sortNoBuilder_ = null;
+          }
           if (validToCharBuilder_ == null) {
             validToChar_ = null;
           } else {
@@ -5203,6 +5287,11 @@ public final class ImGetNodeProperties {
           } else {
             result.deleted_ = deletedBuilder_.build();
           }
+          if (sortNoBuilder_ == null) {
+            result.sortNo_ = sortNo_;
+          } else {
+            result.sortNo_ = sortNoBuilder_.build();
+          }
           if (validToCharBuilder_ == null) {
             result.validToChar_ = validToChar_;
           } else {
@@ -5283,6 +5372,9 @@ public final class ImGetNodeProperties {
           }
           if (other.hasDeleted()) {
             mergeDeleted(other.getDeleted());
+          }
+          if (other.hasSortNo()) {
+            mergeSortNo(other.getSortNo());
           }
           if (other.hasValidToChar()) {
             mergeValidToChar(other.getValidToChar());
@@ -7037,6 +7129,159 @@ public final class ImGetNodeProperties {
           return deletedBuilder_;
         }
 
+        private io.dstore.Values.integerValue sortNo_ = null;
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+        /**
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+         *
+         * <pre>
+         * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+         * </pre>
+         */
+        public boolean hasSortNo() {
+          return sortNoBuilder_ != null || sortNo_ != null;
+        }
+        /**
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+         *
+         * <pre>
+         * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+         * </pre>
+         */
+        public io.dstore.Values.integerValue getSortNo() {
+          if (sortNoBuilder_ == null) {
+            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+          } else {
+            return sortNoBuilder_.getMessage();
+          }
+        }
+        /**
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+         *
+         * <pre>
+         * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+         * </pre>
+         */
+        public Builder setSortNo(io.dstore.Values.integerValue value) {
+          if (sortNoBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            sortNo_ = value;
+            onChanged();
+          } else {
+            sortNoBuilder_.setMessage(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+         *
+         * <pre>
+         * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+         * </pre>
+         */
+        public Builder setSortNo(
+            io.dstore.Values.integerValue.Builder builderForValue) {
+          if (sortNoBuilder_ == null) {
+            sortNo_ = builderForValue.build();
+            onChanged();
+          } else {
+            sortNoBuilder_.setMessage(builderForValue.build());
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+         *
+         * <pre>
+         * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+         * </pre>
+         */
+        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+          if (sortNoBuilder_ == null) {
+            if (sortNo_ != null) {
+              sortNo_ =
+                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+            } else {
+              sortNo_ = value;
+            }
+            onChanged();
+          } else {
+            sortNoBuilder_.mergeFrom(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+         *
+         * <pre>
+         * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+         * </pre>
+         */
+        public Builder clearSortNo() {
+          if (sortNoBuilder_ == null) {
+            sortNo_ = null;
+            onChanged();
+          } else {
+            sortNo_ = null;
+            sortNoBuilder_ = null;
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+         *
+         * <pre>
+         * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+         * </pre>
+         */
+        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+          
+          onChanged();
+          return getSortNoFieldBuilder().getBuilder();
+        }
+        /**
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+         *
+         * <pre>
+         * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+         * </pre>
+         */
+        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+          if (sortNoBuilder_ != null) {
+            return sortNoBuilder_.getMessageOrBuilder();
+          } else {
+            return sortNo_ == null ?
+                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+          }
+        }
+        /**
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
+         *
+         * <pre>
+         * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
+         * </pre>
+         */
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            getSortNoFieldBuilder() {
+          if (sortNoBuilder_ == null) {
+            sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                    getSortNo(),
+                    getParentForChildren(),
+                    isClean());
+            sortNo_ = null;
+          }
+          return sortNoBuilder_;
+        }
+
         private io.dstore.Values.stringValue validToChar_ = null;
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> validToCharBuilder_;
@@ -7194,7 +7439,7 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inheritsFromTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -7204,7 +7449,7 @@ public final class ImGetNodeProperties {
           return inheritsFromTreeNodeIdBuilder_ != null || inheritsFromTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -7218,7 +7463,7 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -7238,7 +7483,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -7256,7 +7501,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -7278,7 +7523,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -7296,7 +7541,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -7308,7 +7553,7 @@ public final class ImGetNodeProperties {
           return getInheritsFromTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -7323,7 +7568,7 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30009;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
@@ -7347,7 +7592,7 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validToBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -7357,7 +7602,7 @@ public final class ImGetNodeProperties {
           return validToBuilder_ != null || validTo_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -7371,7 +7616,7 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -7391,7 +7636,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -7409,7 +7654,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -7431,7 +7676,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -7449,7 +7694,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -7461,7 +7706,7 @@ public final class ImGetNodeProperties {
           return getValidToFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -7476,7 +7721,7 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30010;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
@@ -7500,7 +7745,7 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -7510,7 +7755,7 @@ public final class ImGetNodeProperties {
           return validFromBuilder_ != null || validFrom_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -7524,7 +7769,7 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -7544,7 +7789,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -7562,7 +7807,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -7584,7 +7829,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -7602,7 +7847,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -7614,7 +7859,7 @@ public final class ImGetNodeProperties {
           return getValidFromFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -7629,7 +7874,7 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30014;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
@@ -7653,7 +7898,7 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inheritsFromNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -7663,7 +7908,7 @@ public final class ImGetNodeProperties {
           return inheritsFromNodeIdBuilder_ != null || inheritsFromNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -7677,7 +7922,7 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -7697,7 +7942,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -7715,7 +7960,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -7737,7 +7982,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -7755,7 +8000,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -7767,7 +8012,7 @@ public final class ImGetNodeProperties {
           return getInheritsFromNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -7782,7 +8027,7 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30016;</code>
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
@@ -7806,7 +8051,7 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> validFromCharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -7816,7 +8061,7 @@ public final class ImGetNodeProperties {
           return validFromCharBuilder_ != null || validFromChar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -7830,7 +8075,7 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -7850,7 +8095,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -7868,7 +8113,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -7890,7 +8135,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -7908,7 +8153,7 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -7920,7 +8165,7 @@ public final class ImGetNodeProperties {
           return getValidFromCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -7935,7 +8180,7 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30017;</code>
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
@@ -9546,13 +9791,13 @@ public final class ImGetNodeProperties {
       "_nodes_null\030\363\007 \001(\010\022B\n\036get_details_for_ch",
       "arac_id_list\030\014 \001(\0132\032.dstore.values.strin" +
       "gValue\022,\n#get_details_for_charac_id_list" +
-      "_null\030\364\007 \001(\010\"\202\t\n\010Response\022)\n\005error\030\001 \001(\013" +
+      "_null\030\364\007 \001(\010\"\261\t\n\010Response\022)\n\005error\030\001 \001(\013" +
       "2\032.dstore.engine.error.Error\022H\n\020meta_inf" +
       "ormation\030\002 \003(\0132..dstore.engine.metainfor" +
       "mation.MetaInformation\022/\n\007message\030\003 \003(\0132" +
       "\036.dstore.engine.message.Message\022=\n\003row\030\004" +
       " \003(\01320.dstore.engine.im_GetNodePropertie" +
-      "s.Response.Row\032\220\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022" +
+      "s.Response.Row\032\277\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022" +
       ",\n\006active\030\221N \001(\0132\033.dstore.values.boolean",
       "Value\022,\n\007details\030\222N \001(\0132\032.dstore.values." +
       "stringValue\022-\n\007unit_id\030\223N \001(\0132\033.dstore.v" +
@@ -9566,17 +9811,18 @@ public final class ImGetNodeProperties {
       "lue\022.\n\010value_id\030\231N \001(\0132\033.dstore.values.i",
       "ntegerValue\0220\n\013unit_symbol\030\232N \001(\0132\032.dsto" +
       "re.values.stringValue\022-\n\007deleted\030\233N \001(\0132" +
-      "\033.dstore.values.booleanValue\0223\n\rvalid_to" +
-      "_char\030\262\352\001 \001(\0132\032.dstore.values.stringValu" +
-      "e\022A\n\032inherits_from_tree_node_id\030\271\352\001 \001(\0132" +
-      "\033.dstore.values.integerValue\0221\n\010valid_to" +
-      "\030\272\352\001 \001(\0132\035.dstore.values.timestampValue\022" +
-      "3\n\nvalid_from\030\276\352\001 \001(\0132\035.dstore.values.ti" +
-      "mestampValue\022<\n\025inherits_from_node_id\030\300\352" +
-      "\001 \001(\0132\033.dstore.values.integerValue\0225\n\017va",
-      "lid_from_char\030\301\352\001 \001(\0132\032.dstore.values.st" +
-      "ringValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "\033.dstore.values.booleanValue\022-\n\007sort_no\030" +
+      "\234N \001(\0132\033.dstore.values.integerValue\0223\n\rv" +
+      "alid_to_char\030\262\352\001 \001(\0132\032.dstore.values.str" +
+      "ingValue\022A\n\032inherits_from_tree_node_id\030\272" +
+      "\352\001 \001(\0132\033.dstore.values.integerValue\0221\n\010v" +
+      "alid_to\030\273\352\001 \001(\0132\035.dstore.values.timestam" +
+      "pValue\0223\n\nvalid_from\030\277\352\001 \001(\0132\035.dstore.va" +
+      "lues.timestampValue\022<\n\025inherits_from_nod",
+      "e_id\030\301\352\001 \001(\0132\033.dstore.values.integerValu" +
+      "e\0225\n\017valid_from_char\030\302\352\001 \001(\0132\032.dstore.va" +
+      "lues.stringValueB\035\n\033io.dstore.engine.pro" +
+      "ceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -9611,7 +9857,7 @@ public final class ImGetNodeProperties {
     internal_static_dstore_engine_im_GetNodeProperties_Response_Row_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GetNodeProperties_Response_Row_descriptor,
-        new java.lang.String[] { "RowId", "Active", "Details", "UnitId", "CharacteristicDescription", "TreeNodeId", "NodeId", "Value", "CharacteristicId", "ValueId", "UnitSymbol", "Deleted", "ValidToChar", "InheritsFromTreeNodeId", "ValidTo", "ValidFrom", "InheritsFromNodeId", "ValidFromChar", });
+        new java.lang.String[] { "RowId", "Active", "Details", "UnitId", "CharacteristicDescription", "TreeNodeId", "NodeId", "Value", "CharacteristicId", "ValueId", "UnitSymbol", "Deleted", "SortNo", "ValidToChar", "InheritsFromTreeNodeId", "ValidTo", "ValidFrom", "InheritsFromNodeId", "ValidFromChar", });
     io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
