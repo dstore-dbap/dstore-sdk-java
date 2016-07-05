@@ -5634,8 +5634,10 @@ public final class CoGetCommunityStatisticsAd {
       "n_id\030\226N \001(\0132\033.dstore.values.integerValue" +
       "\022:\n\025statistic_information\030\227N \001(\0132\032.dstor" +
       "e.values.stringValue\022+\n\003day\030\230N \001(\0132\035.dst" +
-      "ore.values.timestampValueB\035\n\033io.dstore.e" +
-      "ngine.proceduresb\006proto3"
+      "ore.values.timestampValueB]\n\033io.dstore.e" +
+      "ngine.proceduresZ>gosdk.dstore.de/engine" +
+      "/procedures/co_GetCommunityStatistics_Ad" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

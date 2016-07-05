@@ -3171,8 +3171,9 @@ public final class MiModifySessionManagementPu {
       "\036.dstore.engine.message.Message\022F\n\003row\030\004" +
       " \003(\01329.dstore.engine.mi_ModifySessionMan" +
       "agement_Pu.Response.Row\032\026\n\003Row\022\017\n\006row_id" +
-      "\030\220N \001(\005B\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "\030\220N \001(\005B^\n\033io.dstore.engine.proceduresZ?" +
+      "gosdk.dstore.de/engine/procedures/mi_Mod",
+      "ifySessionManagement_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

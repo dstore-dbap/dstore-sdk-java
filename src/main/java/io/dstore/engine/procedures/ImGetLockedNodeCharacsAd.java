@@ -4403,8 +4403,10 @@ public final class ImGetLockedNodeCharacsAd {
       "\033.dstore.values.integerValue\0221\n\013lock_sta" +
       "tus\030\224N \001(\0132\033.dstore.values.integerValue\022" +
       "<\n\026node_characteristic_id\030\225N \001(\0132\033.dstor" +
-      "e.values.integerValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "e.values.integerValueB[\n\033io.dstore.engin" +
+      "e.proceduresZ<gosdk.dstore.de/engine/pro" +
+      "cedures/im_GetLockedNodeCharacs_Adb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

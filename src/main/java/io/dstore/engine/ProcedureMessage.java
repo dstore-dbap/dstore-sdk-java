@@ -591,8 +591,9 @@ public final class ProcedureMessage {
     java.lang.String[] descriptorData = {
       "\n\033dstore/engine/message.proto\022\025dstore.en" +
       "gine.message\":\n\007Message\022\020\n\010severity\030\001 \001(" +
-      "\005\022\014\n\004code\030\002 \001(\005\022\017\n\007message\030\003 \001(\tB$\n\020io.d" +
-      "store.engineB\020ProcedureMessageb\006proto3"
+      "\005\022\014\n\004code\030\002 \001(\005\022\017\n\007message\030\003 \001(\tBD\n\020io.d" +
+      "store.engineB\020ProcedureMessageZ\036gosdk.ds" +
+      "tore.de/engine/messageb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

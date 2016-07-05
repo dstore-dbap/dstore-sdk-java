@@ -4404,8 +4404,9 @@ public final class DoGetSQLFunctionParametersAd {
       " \001(\0132\033.dstore.values.integerValue\0223\n\016par" +
       "ameter_name\030\226N \001(\0132\032.dstore.values.strin" +
       "gValue\022+\n\005scale\030\227N \001(\0132\033.dstore.values.i" +
-      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "ntegerValueB_\n\033io.dstore.engine.procedur" +
+      "esZ@gosdk.dstore.de/engine/procedures/do" +
+      "_GetSQLFunctionParameters_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

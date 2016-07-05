@@ -7603,8 +7603,10 @@ public final class AcGetActionLogsAd {
       "ue2\030\246\234\001 \001(\0132\032.dstore.values.stringValue\022" +
       "6\n\017main_posting_id\030\252\234\001 \001(\0132\033.dstore.valu" +
       "es.integerValue\0225\n\016has_successors\030\256\234\001 \001(" +
-      "\0132\033.dstore.values.booleanValueB\035\n\033io.dst",
-      "ore.engine.proceduresb\006proto3"
+      "\0132\033.dstore.values.booleanValueBT\n\033io.dst",
+      "ore.engine.proceduresZ5gosdk.dstore.de/e" +
+      "ngine/procedures/ac_GetActionLogs_Adb\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

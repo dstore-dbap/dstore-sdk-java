@@ -3911,8 +3911,10 @@ public final class MiGetTRITriggerReplFunctsAd {
       "tion\030\221N \001(\0132\032.dstore.values.stringValue\022" +
       "8\n\023function_definition\030\222N \001(\0132\032.dstore.v" +
       "alues.stringValue\0223\n\016replace_string\030\223N \001" +
-      "(\0132\032.dstore.values.stringValueB\035\n\033io.dst" +
-      "ore.engine.proceduresb\006proto3"
+      "(\0132\032.dstore.values.stringValueB^\n\033io.dst" +
+      "ore.engine.proceduresZ?gosdk.dstore.de/e" +
+      "ngine/procedures/mi_GetTRITriggerReplFun" +
+      "cts_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

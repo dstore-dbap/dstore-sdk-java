@@ -5143,8 +5143,9 @@ public final class OmGetOtherBillContInfRulesAd {
       "dstore.values.stringValue\022/\n\nbill_state\030" +
       "\226N \001(\0132\032.dstore.values.stringValue\022:\n\024mo",
       "dification_allowed\030\227N \001(\0132\033.dstore.value" +
-      "s.integerValueB\035\n\033io.dstore.engine.proce" +
-      "duresb\006proto3"
+      "s.integerValueB_\n\033io.dstore.engine.proce" +
+      "duresZ@gosdk.dstore.de/engine/procedures" +
+      "/om_GetOtherBillContInfRules_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

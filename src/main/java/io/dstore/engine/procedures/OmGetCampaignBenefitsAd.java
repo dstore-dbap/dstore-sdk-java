@@ -3911,7 +3911,9 @@ public final class OmGetCampaignBenefitsAd {
       "lue\022=\n\030benefit_type_description\030\223N \001(\0132\032",
       ".dstore.values.stringValue\0225\n\017benefit_ty" +
       "pe_id\030\224N \001(\0132\033.dstore.values.integerValu" +
-      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "eBZ\n\033io.dstore.engine.proceduresZ;gosdk." +
+      "dstore.de/engine/procedures/om_GetCampai" +
+      "gnBenefits_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

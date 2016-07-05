@@ -7361,8 +7361,9 @@ public final class FoGetPostingCharacsPu {
       "\n\035property_modification_allowed\030\235N \001(\0132\033" +
       ".dstore.values.integerValue\022>\n\030max_numbe" +
       "r_of_properties\030\236N \001(\0132\033.dstore.values.i" +
-      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "ntegerValueBX\n\033io.dstore.engine.procedur" +
+      "esZ9gosdk.dstore.de/engine/procedures/fo" +
+      "_GetPostingCharacs_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

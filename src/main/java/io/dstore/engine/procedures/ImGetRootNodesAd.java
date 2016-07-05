@@ -5141,8 +5141,9 @@ public final class ImGetRootNodesAd {
       "N \001(\0132\033.dstore.values.integerValue\0223\n\rin" +
       "herits_from\030\230N \001(\0132\033.dstore.values.integ" +
       "erValue\022/\n\tsymbol_id\030\231N \001(\0132\033.dstore.val" +
-      "ues.integerValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "ues.integerValueBS\n\033io.dstore.engine.pro" +
+      "ceduresZ4gosdk.dstore.de/engine/procedur" +
+      "es/im_GetRootNodes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

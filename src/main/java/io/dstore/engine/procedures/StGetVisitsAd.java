@@ -3416,8 +3416,9 @@ public final class StGetVisitsAd {
       "t_GetVisits_Ad.Response.Row\032r\n\003Row\022\017\n\006ro" +
       "w_id\030\220N \001(\005\022-\n\007counter\030\221N \001(\0132\033.dstore.v" +
       "alues.integerValue\022+\n\003day\030\222N \001(\0132\035.dstor" +
-      "e.values.timestampValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "e.values.timestampValueBP\n\033io.dstore.eng" +
+      "ine.proceduresZ1gosdk.dstore.de/engine/p" +
+      "rocedures/st_GetVisits_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

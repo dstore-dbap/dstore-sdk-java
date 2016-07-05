@@ -4404,8 +4404,10 @@ public final class PmGetPersonCharacDescrAd {
       "(\0132\032.dstore.values.stringValue\022>\n\030person" +
       "_characteristic_id\030\225N \001(\0132\033.dstore.value" +
       "s.integerValue\0221\n\013language_id\030\226N \001(\0132\033.d" +
-      "store.values.integerValueB\035\n\033io.dstore.e" +
-      "ngine.proceduresb\006proto3"
+      "store.values.integerValueB[\n\033io.dstore.e" +
+      "ngine.proceduresZ<gosdk.dstore.de/engine" +
+      "/procedures/pm_GetPersonCharacDescr_Adb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

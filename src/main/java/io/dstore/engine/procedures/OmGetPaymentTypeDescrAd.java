@@ -3664,8 +3664,10 @@ public final class OmGetPaymentTypeDescrAd {
       "\0132\032.dstore.values.stringValue\022=\n\030payment" +
       "_type_description\030\222N \001(\0132\032.dstore.values" +
       ".stringValue\0221\n\013language_id\030\223N \001(\0132\033.dst",
-      "ore.values.integerValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "ore.values.integerValueBZ\n\033io.dstore.eng" +
+      "ine.proceduresZ;gosdk.dstore.de/engine/p" +
+      "rocedures/om_GetPaymentTypeDescr_Adb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

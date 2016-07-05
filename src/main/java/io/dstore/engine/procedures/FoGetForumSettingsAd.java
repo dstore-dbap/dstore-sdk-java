@@ -4401,8 +4401,9 @@ public final class FoGetForumSettingsAd {
       "N \001(\0132\033.dstore.values.integerValue\022*\n\005va" +
       "lue\030\223N \001(\0132\032.dstore.values.stringValue\0221" +
       "\n\014key_variable\030\224N \001(\0132\032.dstore.values.st" +
-      "ringValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "ringValueBW\n\033io.dstore.engine.procedures" +
+      "Z8gosdk.dstore.de/engine/procedures/fo_G" +
+      "etForumSettings_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

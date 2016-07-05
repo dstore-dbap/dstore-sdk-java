@@ -373,74 +373,92 @@ public final class CoSearchMembersPu {
     boolean getFilterByBinaryCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+     * <code>optional .dstore.values.integerValue count = 21;</code>
+     */
+    boolean hasCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 21;</code>
+     */
+    io.dstore.Values.integerValue getCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 21;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getCountOrBuilder();
+
+    /**
+     * <code>optional bool count_null = 1021;</code>
+     */
+    boolean getCountNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
      */
     boolean hasLastNickname();
     /**
-     * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+     * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
      */
     io.dstore.Values.stringValue getLastNickname();
     /**
-     * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+     * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
      */
     io.dstore.Values.stringValueOrBuilder getLastNicknameOrBuilder();
 
     /**
-     * <code>optional bool last_nickname_null = 1021;</code>
+     * <code>optional bool last_nickname_null = 1022;</code>
      */
     boolean getLastNicknameNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue next = 22;</code>
+     * <code>optional .dstore.values.booleanValue next = 23;</code>
      */
     boolean hasNext();
     /**
-     * <code>optional .dstore.values.booleanValue next = 22;</code>
+     * <code>optional .dstore.values.booleanValue next = 23;</code>
      */
     io.dstore.Values.booleanValue getNext();
     /**
-     * <code>optional .dstore.values.booleanValue next = 22;</code>
+     * <code>optional .dstore.values.booleanValue next = 23;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getNextOrBuilder();
 
     /**
-     * <code>optional bool next_null = 1022;</code>
+     * <code>optional bool next_null = 1023;</code>
      */
     boolean getNextNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
      */
     io.dstore.Values.stringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
      */
     io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1023;</code>
+     * <code>optional bool separator_in_ident_vals_null = 1024;</code>
      */
     boolean getSeparatorInIdentValsNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
      */
     boolean hasSeparatorInConditionList();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
      */
     io.dstore.Values.stringValue getSeparatorInConditionList();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
      */
     io.dstore.Values.stringValueOrBuilder getSeparatorInConditionListOrBuilder();
 
     /**
-     * <code>optional bool separator_in_condition_list_null = 1024;</code>
+     * <code>optional bool separator_in_condition_list_null = 1025;</code>
      */
     boolean getSeparatorInConditionListNull();
   }
@@ -476,6 +494,7 @@ public final class CoSearchMembersPu {
       outputIntoOneIdNull_ = false;
       searchOnlyMembersInOneIdNull_ = false;
       filterByBinaryCategoryIdNull_ = false;
+      countNull_ = false;
       lastNicknameNull_ = false;
       nextNull_ = false;
       separatorInIdentValsNull_ = false;
@@ -768,6 +787,19 @@ public final class CoSearchMembersPu {
               break;
             }
             case 170: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (count_ != null) {
+                subBuilder = count_.toBuilder();
+              }
+              count_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(count_);
+                count_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 178: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (lastNickname_ != null) {
                 subBuilder = lastNickname_.toBuilder();
@@ -780,7 +812,7 @@ public final class CoSearchMembersPu {
 
               break;
             }
-            case 178: {
+            case 186: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (next_ != null) {
                 subBuilder = next_.toBuilder();
@@ -793,7 +825,7 @@ public final class CoSearchMembersPu {
 
               break;
             }
-            case 186: {
+            case 194: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
@@ -806,7 +838,7 @@ public final class CoSearchMembersPu {
 
               break;
             }
-            case 194: {
+            case 202: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInConditionList_ != null) {
                 subBuilder = separatorInConditionList_.toBuilder();
@@ -921,20 +953,25 @@ public final class CoSearchMembersPu {
             }
             case 8168: {
 
-              lastNicknameNull_ = input.readBool();
+              countNull_ = input.readBool();
               break;
             }
             case 8176: {
 
-              nextNull_ = input.readBool();
+              lastNicknameNull_ = input.readBool();
               break;
             }
             case 8184: {
 
-              separatorInIdentValsNull_ = input.readBool();
+              nextNull_ = input.readBool();
               break;
             }
             case 8192: {
+
+              separatorInIdentValsNull_ = input.readBool();
+              break;
+            }
+            case 8200: {
 
               separatorInConditionListNull_ = input.readBool();
               break;
@@ -1563,121 +1600,151 @@ public final class CoSearchMembersPu {
       return filterByBinaryCategoryIdNull_;
     }
 
-    public static final int LAST_NICKNAME_FIELD_NUMBER = 21;
+    public static final int COUNT_FIELD_NUMBER = 21;
+    private io.dstore.Values.integerValue count_;
+    /**
+     * <code>optional .dstore.values.integerValue count = 21;</code>
+     */
+    public boolean hasCount() {
+      return count_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 21;</code>
+     */
+    public io.dstore.Values.integerValue getCount() {
+      return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 21;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+      return getCount();
+    }
+
+    public static final int COUNT_NULL_FIELD_NUMBER = 1021;
+    private boolean countNull_;
+    /**
+     * <code>optional bool count_null = 1021;</code>
+     */
+    public boolean getCountNull() {
+      return countNull_;
+    }
+
+    public static final int LAST_NICKNAME_FIELD_NUMBER = 22;
     private io.dstore.Values.stringValue lastNickname_;
     /**
-     * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+     * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
      */
     public boolean hasLastNickname() {
       return lastNickname_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+     * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
      */
     public io.dstore.Values.stringValue getLastNickname() {
       return lastNickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lastNickname_;
     }
     /**
-     * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+     * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getLastNicknameOrBuilder() {
       return getLastNickname();
     }
 
-    public static final int LAST_NICKNAME_NULL_FIELD_NUMBER = 1021;
+    public static final int LAST_NICKNAME_NULL_FIELD_NUMBER = 1022;
     private boolean lastNicknameNull_;
     /**
-     * <code>optional bool last_nickname_null = 1021;</code>
+     * <code>optional bool last_nickname_null = 1022;</code>
      */
     public boolean getLastNicknameNull() {
       return lastNicknameNull_;
     }
 
-    public static final int NEXT_FIELD_NUMBER = 22;
+    public static final int NEXT_FIELD_NUMBER = 23;
     private io.dstore.Values.booleanValue next_;
     /**
-     * <code>optional .dstore.values.booleanValue next = 22;</code>
+     * <code>optional .dstore.values.booleanValue next = 23;</code>
      */
     public boolean hasNext() {
       return next_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue next = 22;</code>
+     * <code>optional .dstore.values.booleanValue next = 23;</code>
      */
     public io.dstore.Values.booleanValue getNext() {
       return next_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : next_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue next = 22;</code>
+     * <code>optional .dstore.values.booleanValue next = 23;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getNextOrBuilder() {
       return getNext();
     }
 
-    public static final int NEXT_NULL_FIELD_NUMBER = 1022;
+    public static final int NEXT_NULL_FIELD_NUMBER = 1023;
     private boolean nextNull_;
     /**
-     * <code>optional bool next_null = 1022;</code>
+     * <code>optional bool next_null = 1023;</code>
      */
     public boolean getNextNull() {
       return nextNull_;
     }
 
-    public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 23;
+    public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 24;
     private io.dstore.Values.stringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
      */
     public io.dstore.Values.stringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
-    public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1023;
+    public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1024;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1023;</code>
+     * <code>optional bool separator_in_ident_vals_null = 1024;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
     }
 
-    public static final int SEPARATOR_IN_CONDITION_LIST_FIELD_NUMBER = 24;
+    public static final int SEPARATOR_IN_CONDITION_LIST_FIELD_NUMBER = 25;
     private io.dstore.Values.stringValue separatorInConditionList_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
      */
     public boolean hasSeparatorInConditionList() {
       return separatorInConditionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
      */
     public io.dstore.Values.stringValue getSeparatorInConditionList() {
       return separatorInConditionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInConditionList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getSeparatorInConditionListOrBuilder() {
       return getSeparatorInConditionList();
     }
 
-    public static final int SEPARATOR_IN_CONDITION_LIST_NULL_FIELD_NUMBER = 1024;
+    public static final int SEPARATOR_IN_CONDITION_LIST_NULL_FIELD_NUMBER = 1025;
     private boolean separatorInConditionListNull_;
     /**
-     * <code>optional bool separator_in_condition_list_null = 1024;</code>
+     * <code>optional bool separator_in_condition_list_null = 1025;</code>
      */
     public boolean getSeparatorInConditionListNull() {
       return separatorInConditionListNull_;
@@ -1755,17 +1822,20 @@ public final class CoSearchMembersPu {
       if (filterByBinaryCategoryId_ != null) {
         output.writeMessage(20, getFilterByBinaryCategoryId());
       }
+      if (count_ != null) {
+        output.writeMessage(21, getCount());
+      }
       if (lastNickname_ != null) {
-        output.writeMessage(21, getLastNickname());
+        output.writeMessage(22, getLastNickname());
       }
       if (next_ != null) {
-        output.writeMessage(22, getNext());
+        output.writeMessage(23, getNext());
       }
       if (separatorInIdentVals_ != null) {
-        output.writeMessage(23, getSeparatorInIdentVals());
+        output.writeMessage(24, getSeparatorInIdentVals());
       }
       if (separatorInConditionList_ != null) {
-        output.writeMessage(24, getSeparatorInConditionList());
+        output.writeMessage(25, getSeparatorInConditionList());
       }
       if (rowcountNull_ != false) {
         output.writeBool(1001, rowcountNull_);
@@ -1827,17 +1897,20 @@ public final class CoSearchMembersPu {
       if (filterByBinaryCategoryIdNull_ != false) {
         output.writeBool(1020, filterByBinaryCategoryIdNull_);
       }
+      if (countNull_ != false) {
+        output.writeBool(1021, countNull_);
+      }
       if (lastNicknameNull_ != false) {
-        output.writeBool(1021, lastNicknameNull_);
+        output.writeBool(1022, lastNicknameNull_);
       }
       if (nextNull_ != false) {
-        output.writeBool(1022, nextNull_);
+        output.writeBool(1023, nextNull_);
       }
       if (separatorInIdentValsNull_ != false) {
-        output.writeBool(1023, separatorInIdentValsNull_);
+        output.writeBool(1024, separatorInIdentValsNull_);
       }
       if (separatorInConditionListNull_ != false) {
-        output.writeBool(1024, separatorInConditionListNull_);
+        output.writeBool(1025, separatorInConditionListNull_);
       }
     }
 
@@ -1926,21 +1999,25 @@ public final class CoSearchMembersPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(20, getFilterByBinaryCategoryId());
       }
+      if (count_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(21, getCount());
+      }
       if (lastNickname_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(21, getLastNickname());
+          .computeMessageSize(22, getLastNickname());
       }
       if (next_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(22, getNext());
+          .computeMessageSize(23, getNext());
       }
       if (separatorInIdentVals_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(23, getSeparatorInIdentVals());
+          .computeMessageSize(24, getSeparatorInIdentVals());
       }
       if (separatorInConditionList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(24, getSeparatorInConditionList());
+          .computeMessageSize(25, getSeparatorInConditionList());
       }
       if (rowcountNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -2022,21 +2099,25 @@ public final class CoSearchMembersPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1020, filterByBinaryCategoryIdNull_);
       }
+      if (countNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1021, countNull_);
+      }
       if (lastNicknameNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1021, lastNicknameNull_);
+          .computeBoolSize(1022, lastNicknameNull_);
       }
       if (nextNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1022, nextNull_);
+          .computeBoolSize(1023, nextNull_);
       }
       if (separatorInIdentValsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1023, separatorInIdentValsNull_);
+          .computeBoolSize(1024, separatorInIdentValsNull_);
       }
       if (separatorInConditionListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1024, separatorInConditionListNull_);
+          .computeBoolSize(1025, separatorInConditionListNull_);
       }
       memoizedSize = size;
       return size;
@@ -2309,6 +2390,14 @@ public final class CoSearchMembersPu {
         }
         filterByBinaryCategoryIdNull_ = false;
 
+        if (countBuilder_ == null) {
+          count_ = null;
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+        countNull_ = false;
+
         if (lastNicknameBuilder_ == null) {
           lastNickname_ = null;
         } else {
@@ -2483,6 +2572,12 @@ public final class CoSearchMembersPu {
           result.filterByBinaryCategoryId_ = filterByBinaryCategoryIdBuilder_.build();
         }
         result.filterByBinaryCategoryIdNull_ = filterByBinaryCategoryIdNull_;
+        if (countBuilder_ == null) {
+          result.count_ = count_;
+        } else {
+          result.count_ = countBuilder_.build();
+        }
+        result.countNull_ = countNull_;
         if (lastNicknameBuilder_ == null) {
           result.lastNickname_ = lastNickname_;
         } else {
@@ -2641,6 +2736,12 @@ public final class CoSearchMembersPu {
         }
         if (other.getFilterByBinaryCategoryIdNull() != false) {
           setFilterByBinaryCategoryIdNull(other.getFilterByBinaryCategoryIdNull());
+        }
+        if (other.hasCount()) {
+          mergeCount(other.getCount());
+        }
+        if (other.getCountNull() != false) {
+          setCountNull(other.getCountNull());
         }
         if (other.hasLastNickname()) {
           mergeLastNickname(other.getLastNickname());
@@ -5552,17 +5653,160 @@ public final class CoSearchMembersPu {
         return this;
       }
 
+      private io.dstore.Values.integerValue count_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue count = 21;</code>
+       */
+      public boolean hasCount() {
+        return countBuilder_ != null || count_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 21;</code>
+       */
+      public io.dstore.Values.integerValue getCount() {
+        if (countBuilder_ == null) {
+          return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        } else {
+          return countBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 21;</code>
+       */
+      public Builder setCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          count_ = value;
+          onChanged();
+        } else {
+          countBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 21;</code>
+       */
+      public Builder setCount(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (countBuilder_ == null) {
+          count_ = builderForValue.build();
+          onChanged();
+        } else {
+          countBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 21;</code>
+       */
+      public Builder mergeCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (count_ != null) {
+            count_ =
+              io.dstore.Values.integerValue.newBuilder(count_).mergeFrom(value).buildPartial();
+          } else {
+            count_ = value;
+          }
+          onChanged();
+        } else {
+          countBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 21;</code>
+       */
+      public Builder clearCount() {
+        if (countBuilder_ == null) {
+          count_ = null;
+          onChanged();
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 21;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getCountBuilder() {
+        
+        onChanged();
+        return getCountFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 21;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+        if (countBuilder_ != null) {
+          return countBuilder_.getMessageOrBuilder();
+        } else {
+          return count_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 21;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getCountFieldBuilder() {
+        if (countBuilder_ == null) {
+          countBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getCount(),
+                  getParentForChildren(),
+                  isClean());
+          count_ = null;
+        }
+        return countBuilder_;
+      }
+
+      private boolean countNull_ ;
+      /**
+       * <code>optional bool count_null = 1021;</code>
+       */
+      public boolean getCountNull() {
+        return countNull_;
+      }
+      /**
+       * <code>optional bool count_null = 1021;</code>
+       */
+      public Builder setCountNull(boolean value) {
+        
+        countNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool count_null = 1021;</code>
+       */
+      public Builder clearCountNull() {
+        
+        countNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.stringValue lastNickname_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> lastNicknameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+       * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
        */
       public boolean hasLastNickname() {
         return lastNicknameBuilder_ != null || lastNickname_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+       * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
        */
       public io.dstore.Values.stringValue getLastNickname() {
         if (lastNicknameBuilder_ == null) {
@@ -5572,7 +5816,7 @@ public final class CoSearchMembersPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+       * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
        */
       public Builder setLastNickname(io.dstore.Values.stringValue value) {
         if (lastNicknameBuilder_ == null) {
@@ -5588,7 +5832,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+       * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
        */
       public Builder setLastNickname(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5602,7 +5846,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+       * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
        */
       public Builder mergeLastNickname(io.dstore.Values.stringValue value) {
         if (lastNicknameBuilder_ == null) {
@@ -5620,7 +5864,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+       * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
        */
       public Builder clearLastNickname() {
         if (lastNicknameBuilder_ == null) {
@@ -5634,7 +5878,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+       * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
        */
       public io.dstore.Values.stringValue.Builder getLastNicknameBuilder() {
         
@@ -5642,7 +5886,7 @@ public final class CoSearchMembersPu {
         return getLastNicknameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+       * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getLastNicknameOrBuilder() {
         if (lastNicknameBuilder_ != null) {
@@ -5653,7 +5897,7 @@ public final class CoSearchMembersPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue last_nickname = 21;</code>
+       * <code>optional .dstore.values.stringValue last_nickname = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5671,13 +5915,13 @@ public final class CoSearchMembersPu {
 
       private boolean lastNicknameNull_ ;
       /**
-       * <code>optional bool last_nickname_null = 1021;</code>
+       * <code>optional bool last_nickname_null = 1022;</code>
        */
       public boolean getLastNicknameNull() {
         return lastNicknameNull_;
       }
       /**
-       * <code>optional bool last_nickname_null = 1021;</code>
+       * <code>optional bool last_nickname_null = 1022;</code>
        */
       public Builder setLastNicknameNull(boolean value) {
         
@@ -5686,7 +5930,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional bool last_nickname_null = 1021;</code>
+       * <code>optional bool last_nickname_null = 1022;</code>
        */
       public Builder clearLastNicknameNull() {
         
@@ -5699,13 +5943,13 @@ public final class CoSearchMembersPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> nextBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue next = 22;</code>
+       * <code>optional .dstore.values.booleanValue next = 23;</code>
        */
       public boolean hasNext() {
         return nextBuilder_ != null || next_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 22;</code>
+       * <code>optional .dstore.values.booleanValue next = 23;</code>
        */
       public io.dstore.Values.booleanValue getNext() {
         if (nextBuilder_ == null) {
@@ -5715,7 +5959,7 @@ public final class CoSearchMembersPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 22;</code>
+       * <code>optional .dstore.values.booleanValue next = 23;</code>
        */
       public Builder setNext(io.dstore.Values.booleanValue value) {
         if (nextBuilder_ == null) {
@@ -5731,7 +5975,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 22;</code>
+       * <code>optional .dstore.values.booleanValue next = 23;</code>
        */
       public Builder setNext(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -5745,7 +5989,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 22;</code>
+       * <code>optional .dstore.values.booleanValue next = 23;</code>
        */
       public Builder mergeNext(io.dstore.Values.booleanValue value) {
         if (nextBuilder_ == null) {
@@ -5763,7 +6007,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 22;</code>
+       * <code>optional .dstore.values.booleanValue next = 23;</code>
        */
       public Builder clearNext() {
         if (nextBuilder_ == null) {
@@ -5777,7 +6021,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 22;</code>
+       * <code>optional .dstore.values.booleanValue next = 23;</code>
        */
       public io.dstore.Values.booleanValue.Builder getNextBuilder() {
         
@@ -5785,7 +6029,7 @@ public final class CoSearchMembersPu {
         return getNextFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 22;</code>
+       * <code>optional .dstore.values.booleanValue next = 23;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getNextOrBuilder() {
         if (nextBuilder_ != null) {
@@ -5796,7 +6040,7 @@ public final class CoSearchMembersPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 22;</code>
+       * <code>optional .dstore.values.booleanValue next = 23;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -5814,13 +6058,13 @@ public final class CoSearchMembersPu {
 
       private boolean nextNull_ ;
       /**
-       * <code>optional bool next_null = 1022;</code>
+       * <code>optional bool next_null = 1023;</code>
        */
       public boolean getNextNull() {
         return nextNull_;
       }
       /**
-       * <code>optional bool next_null = 1022;</code>
+       * <code>optional bool next_null = 1023;</code>
        */
       public Builder setNextNull(boolean value) {
         
@@ -5829,7 +6073,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional bool next_null = 1022;</code>
+       * <code>optional bool next_null = 1023;</code>
        */
       public Builder clearNextNull() {
         
@@ -5842,13 +6086,13 @@ public final class CoSearchMembersPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
        */
       public io.dstore.Values.stringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -5858,7 +6102,7 @@ public final class CoSearchMembersPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -5874,7 +6118,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5888,7 +6132,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -5906,7 +6150,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -5920,7 +6164,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
        */
       public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -5928,7 +6172,7 @@ public final class CoSearchMembersPu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -5939,7 +6183,7 @@ public final class CoSearchMembersPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 23;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 24;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5957,13 +6201,13 @@ public final class CoSearchMembersPu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1023;</code>
+       * <code>optional bool separator_in_ident_vals_null = 1024;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1023;</code>
+       * <code>optional bool separator_in_ident_vals_null = 1024;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -5972,7 +6216,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1023;</code>
+       * <code>optional bool separator_in_ident_vals_null = 1024;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -5985,13 +6229,13 @@ public final class CoSearchMembersPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInConditionListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
        */
       public boolean hasSeparatorInConditionList() {
         return separatorInConditionListBuilder_ != null || separatorInConditionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
        */
       public io.dstore.Values.stringValue getSeparatorInConditionList() {
         if (separatorInConditionListBuilder_ == null) {
@@ -6001,7 +6245,7 @@ public final class CoSearchMembersPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
        */
       public Builder setSeparatorInConditionList(io.dstore.Values.stringValue value) {
         if (separatorInConditionListBuilder_ == null) {
@@ -6017,7 +6261,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
        */
       public Builder setSeparatorInConditionList(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -6031,7 +6275,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
        */
       public Builder mergeSeparatorInConditionList(io.dstore.Values.stringValue value) {
         if (separatorInConditionListBuilder_ == null) {
@@ -6049,7 +6293,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
        */
       public Builder clearSeparatorInConditionList() {
         if (separatorInConditionListBuilder_ == null) {
@@ -6063,7 +6307,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
        */
       public io.dstore.Values.stringValue.Builder getSeparatorInConditionListBuilder() {
         
@@ -6071,7 +6315,7 @@ public final class CoSearchMembersPu {
         return getSeparatorInConditionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSeparatorInConditionListOrBuilder() {
         if (separatorInConditionListBuilder_ != null) {
@@ -6082,7 +6326,7 @@ public final class CoSearchMembersPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 24;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 25;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -6100,13 +6344,13 @@ public final class CoSearchMembersPu {
 
       private boolean separatorInConditionListNull_ ;
       /**
-       * <code>optional bool separator_in_condition_list_null = 1024;</code>
+       * <code>optional bool separator_in_condition_list_null = 1025;</code>
        */
       public boolean getSeparatorInConditionListNull() {
         return separatorInConditionListNull_;
       }
       /**
-       * <code>optional bool separator_in_condition_list_null = 1024;</code>
+       * <code>optional bool separator_in_condition_list_null = 1025;</code>
        */
       public Builder setSeparatorInConditionListNull(boolean value) {
         
@@ -6115,7 +6359,7 @@ public final class CoSearchMembersPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_condition_list_null = 1024;</code>
+       * <code>optional bool separator_in_condition_list_null = 1025;</code>
        */
       public Builder clearSeparatorInConditionListNull() {
         
@@ -12766,7 +13010,7 @@ public final class CoSearchMembersPu {
       "bers_Pu\032\023dstore/values.proto\032\031dstore/eng" +
       "ine/error.proto\032\033dstore/engine/message.p" +
       "roto\032#dstore/engine/metainformation.prot" +
-      "o\"\243\021\n\nParameters\022-\n\010rowcount\030\001 \001(\0132\033.dst" +
+      "o\"\344\021\n\nParameters\022-\n\010rowcount\030\001 \001(\0132\033.dst" +
       "ore.values.integerValue\022\026\n\rrowcount_null" +
       "\030\351\007 \001(\010\022+\n\006result\030\002 \001(\0132\033.dstore.values." +
       "integerValue\022\024\n\013result_null\030\352\007 \001(\010\022-\n\tun" +
@@ -12812,49 +13056,52 @@ public final class CoSearchMembersPu {
       "nly_members_in_one_id_null\030\373\007 \001(\010\022A\n\034fil" +
       "ter_by_binary_category_id\030\024 \001(\0132\033.dstore",
       ".values.integerValue\022*\n!filter_by_binary" +
-      "_category_id_null\030\374\007 \001(\010\0221\n\rlast_nicknam" +
-      "e\030\025 \001(\0132\032.dstore.values.stringValue\022\033\n\022l" +
-      "ast_nickname_null\030\375\007 \001(\010\022)\n\004next\030\026 \001(\0132\033" +
-      ".dstore.values.booleanValue\022\022\n\tnext_null" +
-      "\030\376\007 \001(\010\022;\n\027separator_in_ident_vals\030\027 \001(\013" +
-      "2\032.dstore.values.stringValue\022%\n\034separato" +
-      "r_in_ident_vals_null\030\377\007 \001(\010\022?\n\033separator" +
-      "_in_condition_list\030\030 \001(\0132\032.dstore.values" +
-      ".stringValue\022)\n separator_in_condition_l",
-      "ist_null\030\200\010 \001(\010\"\206\n\n\010Response\022)\n\005error\030\001 " +
-      "\001(\0132\032.dstore.engine.error.Error\022H\n\020meta_" +
-      "information\030\002 \003(\0132..dstore.engine.metain" +
-      "formation.MetaInformation\022/\n\007message\030\003 \003" +
-      "(\0132\036.dstore.engine.message.Message\022<\n\003ro" +
-      "w\030\004 \003(\0132/.dstore.engine.co_SearchMembers" +
-      "_Pu.Response.Row\022*\n\005count\030e \001(\0132\033.dstore" +
-      ".values.integerValue\032\351\007\n\003Row\022\017\n\006row_id\030\220" +
-      "N \001(\005\022A\n\034value1_restricted_by_pattern\030\221N" +
-      " \001(\0132\032.dstore.values.stringValue\022/\n\tbina",
-      "ry_id\030\222N \001(\0132\033.dstore.values.integerValu" +
-      "e\022A\n\034value2_restricted_by_pattern\030\223N \001(\013" +
-      "2\032.dstore.values.stringValue\0229\n\023communit" +
-      "y_member_id\030\224N \001(\0132\033.dstore.values.integ" +
-      "erValue\022+\n\006value3\030\225N \001(\0132\032.dstore.values" +
-      ".stringValue\0223\n\ronline_status\030\226N \001(\0132\033.d" +
-      "store.values.integerValue\022+\n\006value1\030\227N \001" +
-      "(\0132\032.dstore.values.stringValue\022+\n\006value2" +
-      "\030\230N \001(\0132\032.dstore.values.stringValue\022A\n\034v" +
-      "alue3_restricted_by_pattern\030\231N \001(\0132\032.dst",
-      "ore.values.stringValue\022-\n\010nickname\030\232N \001(" +
-      "\0132\032.dstore.values.stringValue\022/\n\tis_onli" +
-      "ne\030\233N \001(\0132\033.dstore.values.booleanValue\022/" +
-      "\n\toperator1\030\241\234\001 \001(\0132\032.dstore.values.stri" +
-      "ngValue\0220\n\ncondition1\030\242\234\001 \001(\0132\032.dstore.v" +
-      "alues.stringValue\0220\n\ncondition2\030\243\234\001 \001(\0132" +
-      "\032.dstore.values.stringValue\022/\n\toperator2" +
-      "\030\244\234\001 \001(\0132\032.dstore.values.stringValue\022@\n\032" +
-      "characteristic_description\030\245\234\001 \001(\0132\032.dst" +
-      "ore.values.stringValue\022>\n\027estimated_rows",
-      "_affected\030\246\234\001 \001(\0132\033.dstore.values.intege" +
-      "rValue\0228\n\021characteristic_id\030\247\234\001 \001(\0132\033.ds" +
-      "tore.values.integerValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "_category_id_null\030\374\007 \001(\010\022*\n\005count\030\025 \001(\0132" +
+      "\033.dstore.values.integerValue\022\023\n\ncount_nu" +
+      "ll\030\375\007 \001(\010\0221\n\rlast_nickname\030\026 \001(\0132\032.dstor" +
+      "e.values.stringValue\022\033\n\022last_nickname_nu" +
+      "ll\030\376\007 \001(\010\022)\n\004next\030\027 \001(\0132\033.dstore.values." +
+      "booleanValue\022\022\n\tnext_null\030\377\007 \001(\010\022;\n\027sepa" +
+      "rator_in_ident_vals\030\030 \001(\0132\032.dstore.value" +
+      "s.stringValue\022%\n\034separator_in_ident_vals" +
+      "_null\030\200\010 \001(\010\022?\n\033separator_in_condition_l",
+      "ist\030\031 \001(\0132\032.dstore.values.stringValue\022)\n" +
+      " separator_in_condition_list_null\030\201\010 \001(\010" +
+      "\"\206\n\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.en" +
+      "gine.error.Error\022H\n\020meta_information\030\002 \003" +
+      "(\0132..dstore.engine.metainformation.MetaI" +
+      "nformation\022/\n\007message\030\003 \003(\0132\036.dstore.eng" +
+      "ine.message.Message\022<\n\003row\030\004 \003(\0132/.dstor" +
+      "e.engine.co_SearchMembers_Pu.Response.Ro" +
+      "w\022*\n\005count\030e \001(\0132\033.dstore.values.integer" +
+      "Value\032\351\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022A\n\034value1",
+      "_restricted_by_pattern\030\221N \001(\0132\032.dstore.v" +
+      "alues.stringValue\022/\n\tbinary_id\030\222N \001(\0132\033." +
+      "dstore.values.integerValue\022A\n\034value2_res" +
+      "tricted_by_pattern\030\223N \001(\0132\032.dstore.value" +
+      "s.stringValue\0229\n\023community_member_id\030\224N " +
+      "\001(\0132\033.dstore.values.integerValue\022+\n\006valu" +
+      "e3\030\225N \001(\0132\032.dstore.values.stringValue\0223\n" +
+      "\ronline_status\030\226N \001(\0132\033.dstore.values.in" +
+      "tegerValue\022+\n\006value1\030\227N \001(\0132\032.dstore.val" +
+      "ues.stringValue\022+\n\006value2\030\230N \001(\0132\032.dstor",
+      "e.values.stringValue\022A\n\034value3_restricte" +
+      "d_by_pattern\030\231N \001(\0132\032.dstore.values.stri" +
+      "ngValue\022-\n\010nickname\030\232N \001(\0132\032.dstore.valu" +
+      "es.stringValue\022/\n\tis_online\030\233N \001(\0132\033.dst" +
+      "ore.values.booleanValue\022/\n\toperator1\030\241\234\001" +
+      " \001(\0132\032.dstore.values.stringValue\0220\n\ncond" +
+      "ition1\030\242\234\001 \001(\0132\032.dstore.values.stringVal" +
+      "ue\0220\n\ncondition2\030\243\234\001 \001(\0132\032.dstore.values" +
+      ".stringValue\022/\n\toperator2\030\244\234\001 \001(\0132\032.dsto" +
+      "re.values.stringValue\022@\n\032characteristic_",
+      "description\030\245\234\001 \001(\0132\032.dstore.values.stri" +
+      "ngValue\022>\n\027estimated_rows_affected\030\246\234\001 \001" +
+      "(\0132\033.dstore.values.integerValue\0228\n\021chara" +
+      "cteristic_id\030\247\234\001 \001(\0132\033.dstore.values.int" +
+      "egerValueBT\n\033io.dstore.engine.procedures" +
+      "Z5gosdk.dstore.de/engine/procedures/co_S" +
+      "earchMembers_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -12877,7 +13124,7 @@ public final class CoSearchMembersPu {
     internal_static_dstore_engine_co_SearchMembers_Pu_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_SearchMembers_Pu_Parameters_descriptor,
-        new java.lang.String[] { "Rowcount", "RowcountNull", "Result", "ResultNull", "UniqueId", "UniqueIdNull", "PersonIdentificationValues", "PersonIdentificationValuesNull", "CommunityId", "CommunityIdNull", "SearchString", "SearchStringNull", "MaxNumberOfRows", "MaxNumberOfRowsNull", "CaseSensitive", "CaseSensitiveNull", "OutputCharacteristicId1", "OutputCharacteristicId1Null", "OutputCharacteristicId2", "OutputCharacteristicId2Null", "OutputCharacteristicId3", "OutputCharacteristicId3Null", "CommunityBinaryCategoryId", "CommunityBinaryCategoryIdNull", "ExactMatching", "ExactMatchingNull", "OnlineStatusInsteadOfIsOnline", "OnlineStatusInsteadOfIsOnlineNull", "CharacteristicIdList", "CharacteristicIdListNull", "ConditionList", "ConditionListNull", "Country", "CountryNull", "OutputIntoOneId", "OutputIntoOneIdNull", "SearchOnlyMembersInOneId", "SearchOnlyMembersInOneIdNull", "FilterByBinaryCategoryId", "FilterByBinaryCategoryIdNull", "LastNickname", "LastNicknameNull", "Next", "NextNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", "SeparatorInConditionList", "SeparatorInConditionListNull", });
+        new java.lang.String[] { "Rowcount", "RowcountNull", "Result", "ResultNull", "UniqueId", "UniqueIdNull", "PersonIdentificationValues", "PersonIdentificationValuesNull", "CommunityId", "CommunityIdNull", "SearchString", "SearchStringNull", "MaxNumberOfRows", "MaxNumberOfRowsNull", "CaseSensitive", "CaseSensitiveNull", "OutputCharacteristicId1", "OutputCharacteristicId1Null", "OutputCharacteristicId2", "OutputCharacteristicId2Null", "OutputCharacteristicId3", "OutputCharacteristicId3Null", "CommunityBinaryCategoryId", "CommunityBinaryCategoryIdNull", "ExactMatching", "ExactMatchingNull", "OnlineStatusInsteadOfIsOnline", "OnlineStatusInsteadOfIsOnlineNull", "CharacteristicIdList", "CharacteristicIdListNull", "ConditionList", "ConditionListNull", "Country", "CountryNull", "OutputIntoOneId", "OutputIntoOneIdNull", "SearchOnlyMembersInOneId", "SearchOnlyMembersInOneIdNull", "FilterByBinaryCategoryId", "FilterByBinaryCategoryIdNull", "Count", "CountNull", "LastNickname", "LastNicknameNull", "Next", "NextNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", "SeparatorInConditionList", "SeparatorInConditionListNull", });
     internal_static_dstore_engine_co_SearchMembers_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_co_SearchMembers_Pu_Response_fieldAccessorTable = new

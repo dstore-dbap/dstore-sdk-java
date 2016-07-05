@@ -3666,7 +3666,9 @@ public final class OmGetTrolleyInfoTypesAd {
       "\033trolley_information_type_id\030\223N \001(\0132\033.ds" +
       "tore.values.integerValue\0225\n\020information_",
       "type\030\224N \001(\0132\032.dstore.values.stringValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "Z\n\033io.dstore.engine.proceduresZ;gosdk.ds" +
+      "tore.de/engine/procedures/om_GetTrolleyI" +
+      "nfoTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

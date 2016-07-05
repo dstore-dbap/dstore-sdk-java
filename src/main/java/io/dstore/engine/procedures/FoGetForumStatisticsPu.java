@@ -5880,8 +5880,9 @@ public final class FoGetForumStatisticsPu {
       "ue\022>\n\030statistic_information_id\030\223N \001(\0132\033." +
       "dstore.values.integerValue\022:\n\025statistic_" +
       "information\030\224N \001(\0132\032.dstore.values.strin" +
-      "gValueB\035\n\033io.dstore.engine.proceduresb\006p",
-      "roto3"
+      "gValueBY\n\033io.dstore.engine.proceduresZ:g",
+      "osdk.dstore.de/engine/procedures/fo_GetF" +
+      "orumStatistics_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

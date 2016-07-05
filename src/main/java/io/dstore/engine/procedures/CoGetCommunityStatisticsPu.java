@@ -4404,8 +4404,10 @@ public final class CoGetCommunityStatisticsPu {
       "\221N \001(\0132\032.dstore.values.stringValue\022>\n\030st" +
       "atistic_information_id\030\222N \001(\0132\033.dstore.v" +
       "alues.integerValue\022:\n\025statistic_informat" +
-      "ion\030\223N \001(\0132\032.dstore.values.stringValueB\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "ion\030\223N \001(\0132\032.dstore.values.stringValueB]" +
+      "\n\033io.dstore.engine.proceduresZ>gosdk.dst",
+      "ore.de/engine/procedures/co_GetCommunity" +
+      "Statistics_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

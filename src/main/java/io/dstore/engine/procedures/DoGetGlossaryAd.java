@@ -3909,8 +3909,9 @@ public final class DoGetGlossaryAd {
       "ription\030\221N \001(\0132\032.dstore.values.stringVal" +
       "ue\022,\n\007keyword\030\222N \001(\0132\032.dstore.values.str",
       "ingValue\0229\n\024detailed_description\030\223N \001(\0132" +
-      "\032.dstore.values.stringValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      "\032.dstore.values.stringValueBR\n\033io.dstore" +
+      ".engine.proceduresZ3gosdk.dstore.de/engi" +
+      "ne/procedures/do_GetGlossary_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

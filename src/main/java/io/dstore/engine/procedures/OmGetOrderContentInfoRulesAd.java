@@ -5143,8 +5143,9 @@ public final class OmGetOrderContentInfoRulesAd {
       "e.values.stringValue\0220\n\013order_state\030\226N \001" +
       "(\0132\032.dstore.values.stringValue\022:\n\024modifi",
       "cation_allowed\030\227N \001(\0132\033.dstore.values.in" +
-      "tegerValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tegerValueB_\n\033io.dstore.engine.procedure" +
+      "sZ@gosdk.dstore.de/engine/procedures/om_" +
+      "GetOrderContentInfoRules_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

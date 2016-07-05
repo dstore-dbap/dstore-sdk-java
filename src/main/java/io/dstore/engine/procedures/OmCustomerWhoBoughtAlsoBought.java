@@ -7606,8 +7606,9 @@ public final class OmCustomerWhoBoughtAlsoBought {
       ".integerValue\022:\n\023domain_tree_node_id\030\246\234\001" +
       " \001(\0132\033.dstore.values.integerValue\022/\n\010lev" +
       "el_id\030\253\234\001 \001(\0132\033.dstore.values.integerVal",
-      "ueB\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "ueB_\n\033io.dstore.engine.proceduresZ@gosdk" +
+      ".dstore.de/engine/procedures/om_Customer" +
+      "WhoBoughtAlsoBoughtb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

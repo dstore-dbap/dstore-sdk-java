@@ -4403,8 +4403,10 @@ public final class OmGetSetsForBonItBenefitsAd {
       "N \001(\0132\033.dstore.values.integerValue\022?\n\032it" +
       "em_condition_description\030\225N \001(\0132\032.dstore" +
       ".values.stringValue\022-\n\007sort_no\030\226N \001(\0132\033." +
-      "dstore.values.integerValueB\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "dstore.values.integerValueB^\n\033io.dstore." +
+      "engine.proceduresZ?gosdk.dstore.de/engin" +
+      "e/procedures/om_GetSetsForBonItBenefits_" +
+      "Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

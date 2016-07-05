@@ -3911,8 +3911,9 @@ public final class MiGetMetaInformationTypesAd {
       "tore.values.stringValue\0220\n\013description\030\224" +
       "N \001(\0132\032.dstore.values.stringValue\022:\n\025met",
       "a_information_type\030\225N \001(\0132\032.dstore.value" +
-      "s.stringValueB\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      "s.stringValueB^\n\033io.dstore.engine.proced" +
+      "uresZ?gosdk.dstore.de/engine/procedures/" +
+      "mi_GetMetaInformationTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

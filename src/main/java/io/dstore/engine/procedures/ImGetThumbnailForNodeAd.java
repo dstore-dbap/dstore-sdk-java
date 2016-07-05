@@ -3417,8 +3417,10 @@ public final class ImGetThumbnailForNodeAd {
       "esponse.Row\032\200\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\016" +
       "binary_code_id\030\221N \001(\0132\033.dstore.values.in" +
       "tegerValue\0222\n\016thumbnail_code\030\222N \001(\0132\031.ds" +
-      "tore.values.bytesValueB\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      "tore.values.bytesValueBZ\n\033io.dstore.engi" +
+      "ne.proceduresZ;gosdk.dstore.de/engine/pr",
+      "ocedures/im_GetThumbnailForNode_Adb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

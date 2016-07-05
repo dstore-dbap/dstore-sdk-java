@@ -121,56 +121,74 @@ public final class ImModifyNodePropertiesAd {
     boolean getValidToNull();
 
     /**
-     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+     */
+    boolean hasNewValueId();
+    /**
+     * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+     */
+    io.dstore.Values.integerValue getNewValueId();
+    /**
+     * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder();
+
+    /**
+     * <code>optional bool new_value_id_null = 1007;</code>
+     */
+    boolean getNewValueIdNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
      */
     boolean hasDeleteValueId();
     /**
-     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
      */
     io.dstore.Values.integerValue getDeleteValueId();
     /**
-     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
      */
     io.dstore.Values.integerValueOrBuilder getDeleteValueIdOrBuilder();
 
     /**
-     * <code>optional bool delete_value_id_null = 1007;</code>
+     * <code>optional bool delete_value_id_null = 1008;</code>
      */
     boolean getDeleteValueIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
      */
     boolean hasValueIdForPredefinedCharac();
     /**
-     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
      */
     io.dstore.Values.booleanValue getValueIdForPredefinedCharac();
     /**
-     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getValueIdForPredefinedCharacOrBuilder();
 
     /**
-     * <code>optional bool value_id_for_predefined_charac_null = 1008;</code>
+     * <code>optional bool value_id_for_predefined_charac_null = 1009;</code>
      */
     boolean getValueIdForPredefinedCharacNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
      */
     boolean hasUseDataFromdstoreifin();
     /**
-     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
      */
     io.dstore.Values.booleanValue getUseDataFromdstoreifin();
     /**
-     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getUseDataFromdstoreifinOrBuilder();
 
     /**
-     * <code>optional bool use_data_fromdstoreifin_null = 1009;</code>
+     * <code>optional bool use_data_fromdstoreifin_null = 1010;</code>
      */
     boolean getUseDataFromdstoreifinNull();
   }
@@ -192,6 +210,7 @@ public final class ImModifyNodePropertiesAd {
       valueNull_ = false;
       validFromNull_ = false;
       validToNull_ = false;
+      newValueIdNull_ = false;
       deleteValueIdNull_ = false;
       valueIdForPredefinedCharacNull_ = false;
       useDataFromdstoreifinNull_ = false;
@@ -301,6 +320,19 @@ public final class ImModifyNodePropertiesAd {
             }
             case 58: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (newValueId_ != null) {
+                subBuilder = newValueId_.toBuilder();
+              }
+              newValueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(newValueId_);
+                newValueId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 66: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (deleteValueId_ != null) {
                 subBuilder = deleteValueId_.toBuilder();
               }
@@ -312,7 +344,7 @@ public final class ImModifyNodePropertiesAd {
 
               break;
             }
-            case 66: {
+            case 74: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (valueIdForPredefinedCharac_ != null) {
                 subBuilder = valueIdForPredefinedCharac_.toBuilder();
@@ -325,7 +357,7 @@ public final class ImModifyNodePropertiesAd {
 
               break;
             }
-            case 74: {
+            case 82: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (useDataFromdstoreifin_ != null) {
                 subBuilder = useDataFromdstoreifin_.toBuilder();
@@ -370,15 +402,20 @@ public final class ImModifyNodePropertiesAd {
             }
             case 8056: {
 
-              deleteValueIdNull_ = input.readBool();
+              newValueIdNull_ = input.readBool();
               break;
             }
             case 8064: {
 
-              valueIdForPredefinedCharacNull_ = input.readBool();
+              deleteValueIdNull_ = input.readBool();
               break;
             }
             case 8072: {
+
+              valueIdForPredefinedCharacNull_ = input.readBool();
+              break;
+            }
+            case 8080: {
 
               useDataFromdstoreifinNull_ = input.readBool();
               break;
@@ -587,91 +624,121 @@ public final class ImModifyNodePropertiesAd {
       return validToNull_;
     }
 
-    public static final int DELETE_VALUE_ID_FIELD_NUMBER = 7;
+    public static final int NEW_VALUE_ID_FIELD_NUMBER = 7;
+    private io.dstore.Values.integerValue newValueId_;
+    /**
+     * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+     */
+    public boolean hasNewValueId() {
+      return newValueId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+     */
+    public io.dstore.Values.integerValue getNewValueId() {
+      return newValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
+      return getNewValueId();
+    }
+
+    public static final int NEW_VALUE_ID_NULL_FIELD_NUMBER = 1007;
+    private boolean newValueIdNull_;
+    /**
+     * <code>optional bool new_value_id_null = 1007;</code>
+     */
+    public boolean getNewValueIdNull() {
+      return newValueIdNull_;
+    }
+
+    public static final int DELETE_VALUE_ID_FIELD_NUMBER = 8;
     private io.dstore.Values.integerValue deleteValueId_;
     /**
-     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
      */
     public boolean hasDeleteValueId() {
       return deleteValueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
      */
     public io.dstore.Values.integerValue getDeleteValueId() {
       return deleteValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteValueId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getDeleteValueIdOrBuilder() {
       return getDeleteValueId();
     }
 
-    public static final int DELETE_VALUE_ID_NULL_FIELD_NUMBER = 1007;
+    public static final int DELETE_VALUE_ID_NULL_FIELD_NUMBER = 1008;
     private boolean deleteValueIdNull_;
     /**
-     * <code>optional bool delete_value_id_null = 1007;</code>
+     * <code>optional bool delete_value_id_null = 1008;</code>
      */
     public boolean getDeleteValueIdNull() {
       return deleteValueIdNull_;
     }
 
-    public static final int VALUE_ID_FOR_PREDEFINED_CHARAC_FIELD_NUMBER = 8;
+    public static final int VALUE_ID_FOR_PREDEFINED_CHARAC_FIELD_NUMBER = 9;
     private io.dstore.Values.booleanValue valueIdForPredefinedCharac_;
     /**
-     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
      */
     public boolean hasValueIdForPredefinedCharac() {
       return valueIdForPredefinedCharac_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
      */
     public io.dstore.Values.booleanValue getValueIdForPredefinedCharac() {
       return valueIdForPredefinedCharac_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : valueIdForPredefinedCharac_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getValueIdForPredefinedCharacOrBuilder() {
       return getValueIdForPredefinedCharac();
     }
 
-    public static final int VALUE_ID_FOR_PREDEFINED_CHARAC_NULL_FIELD_NUMBER = 1008;
+    public static final int VALUE_ID_FOR_PREDEFINED_CHARAC_NULL_FIELD_NUMBER = 1009;
     private boolean valueIdForPredefinedCharacNull_;
     /**
-     * <code>optional bool value_id_for_predefined_charac_null = 1008;</code>
+     * <code>optional bool value_id_for_predefined_charac_null = 1009;</code>
      */
     public boolean getValueIdForPredefinedCharacNull() {
       return valueIdForPredefinedCharacNull_;
     }
 
-    public static final int USE_DATA_FROMDSTOREIFIN_FIELD_NUMBER = 9;
+    public static final int USE_DATA_FROMDSTOREIFIN_FIELD_NUMBER = 10;
     private io.dstore.Values.booleanValue useDataFromdstoreifin_;
     /**
-     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
      */
     public boolean hasUseDataFromdstoreifin() {
       return useDataFromdstoreifin_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
      */
     public io.dstore.Values.booleanValue getUseDataFromdstoreifin() {
       return useDataFromdstoreifin_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : useDataFromdstoreifin_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getUseDataFromdstoreifinOrBuilder() {
       return getUseDataFromdstoreifin();
     }
 
-    public static final int USE_DATA_FROMDSTOREIFIN_NULL_FIELD_NUMBER = 1009;
+    public static final int USE_DATA_FROMDSTOREIFIN_NULL_FIELD_NUMBER = 1010;
     private boolean useDataFromdstoreifinNull_;
     /**
-     * <code>optional bool use_data_fromdstoreifin_null = 1009;</code>
+     * <code>optional bool use_data_fromdstoreifin_null = 1010;</code>
      */
     public boolean getUseDataFromdstoreifinNull() {
       return useDataFromdstoreifinNull_;
@@ -707,14 +774,17 @@ public final class ImModifyNodePropertiesAd {
       if (validTo_ != null) {
         output.writeMessage(6, getValidTo());
       }
+      if (newValueId_ != null) {
+        output.writeMessage(7, getNewValueId());
+      }
       if (deleteValueId_ != null) {
-        output.writeMessage(7, getDeleteValueId());
+        output.writeMessage(8, getDeleteValueId());
       }
       if (valueIdForPredefinedCharac_ != null) {
-        output.writeMessage(8, getValueIdForPredefinedCharac());
+        output.writeMessage(9, getValueIdForPredefinedCharac());
       }
       if (useDataFromdstoreifin_ != null) {
-        output.writeMessage(9, getUseDataFromdstoreifin());
+        output.writeMessage(10, getUseDataFromdstoreifin());
       }
       if (resultNull_ != false) {
         output.writeBool(1001, resultNull_);
@@ -734,14 +804,17 @@ public final class ImModifyNodePropertiesAd {
       if (validToNull_ != false) {
         output.writeBool(1006, validToNull_);
       }
+      if (newValueIdNull_ != false) {
+        output.writeBool(1007, newValueIdNull_);
+      }
       if (deleteValueIdNull_ != false) {
-        output.writeBool(1007, deleteValueIdNull_);
+        output.writeBool(1008, deleteValueIdNull_);
       }
       if (valueIdForPredefinedCharacNull_ != false) {
-        output.writeBool(1008, valueIdForPredefinedCharacNull_);
+        output.writeBool(1009, valueIdForPredefinedCharacNull_);
       }
       if (useDataFromdstoreifinNull_ != false) {
-        output.writeBool(1009, useDataFromdstoreifinNull_);
+        output.writeBool(1010, useDataFromdstoreifinNull_);
       }
     }
 
@@ -774,17 +847,21 @@ public final class ImModifyNodePropertiesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(6, getValidTo());
       }
+      if (newValueId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(7, getNewValueId());
+      }
       if (deleteValueId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getDeleteValueId());
+          .computeMessageSize(8, getDeleteValueId());
       }
       if (valueIdForPredefinedCharac_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getValueIdForPredefinedCharac());
+          .computeMessageSize(9, getValueIdForPredefinedCharac());
       }
       if (useDataFromdstoreifin_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getUseDataFromdstoreifin());
+          .computeMessageSize(10, getUseDataFromdstoreifin());
       }
       if (resultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -810,17 +887,21 @@ public final class ImModifyNodePropertiesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1006, validToNull_);
       }
+      if (newValueIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1007, newValueIdNull_);
+      }
       if (deleteValueIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1007, deleteValueIdNull_);
+          .computeBoolSize(1008, deleteValueIdNull_);
       }
       if (valueIdForPredefinedCharacNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1008, valueIdForPredefinedCharacNull_);
+          .computeBoolSize(1009, valueIdForPredefinedCharacNull_);
       }
       if (useDataFromdstoreifinNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1009, useDataFromdstoreifinNull_);
+          .computeBoolSize(1010, useDataFromdstoreifinNull_);
       }
       memoizedSize = size;
       return size;
@@ -981,6 +1062,14 @@ public final class ImModifyNodePropertiesAd {
         }
         validToNull_ = false;
 
+        if (newValueIdBuilder_ == null) {
+          newValueId_ = null;
+        } else {
+          newValueId_ = null;
+          newValueIdBuilder_ = null;
+        }
+        newValueIdNull_ = false;
+
         if (deleteValueIdBuilder_ == null) {
           deleteValueId_ = null;
         } else {
@@ -1063,6 +1152,12 @@ public final class ImModifyNodePropertiesAd {
           result.validTo_ = validToBuilder_.build();
         }
         result.validToNull_ = validToNull_;
+        if (newValueIdBuilder_ == null) {
+          result.newValueId_ = newValueId_;
+        } else {
+          result.newValueId_ = newValueIdBuilder_.build();
+        }
+        result.newValueIdNull_ = newValueIdNull_;
         if (deleteValueIdBuilder_ == null) {
           result.deleteValueId_ = deleteValueId_;
         } else {
@@ -1131,6 +1226,12 @@ public final class ImModifyNodePropertiesAd {
         }
         if (other.getValidToNull() != false) {
           setValidToNull(other.getValidToNull());
+        }
+        if (other.hasNewValueId()) {
+          mergeNewValueId(other.getNewValueId());
+        }
+        if (other.getNewValueIdNull() != false) {
+          setNewValueIdNull(other.getNewValueIdNull());
         }
         if (other.hasDeleteValueId()) {
           mergeDeleteValueId(other.getDeleteValueId());
@@ -2034,17 +2135,160 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue newValueId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newValueIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+       */
+      public boolean hasNewValueId() {
+        return newValueIdBuilder_ != null || newValueId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+       */
+      public io.dstore.Values.integerValue getNewValueId() {
+        if (newValueIdBuilder_ == null) {
+          return newValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+        } else {
+          return newValueIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+       */
+      public Builder setNewValueId(io.dstore.Values.integerValue value) {
+        if (newValueIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          newValueId_ = value;
+          onChanged();
+        } else {
+          newValueIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+       */
+      public Builder setNewValueId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (newValueIdBuilder_ == null) {
+          newValueId_ = builderForValue.build();
+          onChanged();
+        } else {
+          newValueIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+       */
+      public Builder mergeNewValueId(io.dstore.Values.integerValue value) {
+        if (newValueIdBuilder_ == null) {
+          if (newValueId_ != null) {
+            newValueId_ =
+              io.dstore.Values.integerValue.newBuilder(newValueId_).mergeFrom(value).buildPartial();
+          } else {
+            newValueId_ = value;
+          }
+          onChanged();
+        } else {
+          newValueIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+       */
+      public Builder clearNewValueId() {
+        if (newValueIdBuilder_ == null) {
+          newValueId_ = null;
+          onChanged();
+        } else {
+          newValueId_ = null;
+          newValueIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNewValueIdBuilder() {
+        
+        onChanged();
+        return getNewValueIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
+        if (newValueIdBuilder_ != null) {
+          return newValueIdBuilder_.getMessageOrBuilder();
+        } else {
+          return newValueId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNewValueIdFieldBuilder() {
+        if (newValueIdBuilder_ == null) {
+          newValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNewValueId(),
+                  getParentForChildren(),
+                  isClean());
+          newValueId_ = null;
+        }
+        return newValueIdBuilder_;
+      }
+
+      private boolean newValueIdNull_ ;
+      /**
+       * <code>optional bool new_value_id_null = 1007;</code>
+       */
+      public boolean getNewValueIdNull() {
+        return newValueIdNull_;
+      }
+      /**
+       * <code>optional bool new_value_id_null = 1007;</code>
+       */
+      public Builder setNewValueIdNull(boolean value) {
+        
+        newValueIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool new_value_id_null = 1007;</code>
+       */
+      public Builder clearNewValueIdNull() {
+        
+        newValueIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue deleteValueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteValueIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
        */
       public boolean hasDeleteValueId() {
         return deleteValueIdBuilder_ != null || deleteValueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
        */
       public io.dstore.Values.integerValue getDeleteValueId() {
         if (deleteValueIdBuilder_ == null) {
@@ -2054,7 +2298,7 @@ public final class ImModifyNodePropertiesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
        */
       public Builder setDeleteValueId(io.dstore.Values.integerValue value) {
         if (deleteValueIdBuilder_ == null) {
@@ -2070,7 +2314,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
        */
       public Builder setDeleteValueId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2084,7 +2328,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
        */
       public Builder mergeDeleteValueId(io.dstore.Values.integerValue value) {
         if (deleteValueIdBuilder_ == null) {
@@ -2102,7 +2346,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
        */
       public Builder clearDeleteValueId() {
         if (deleteValueIdBuilder_ == null) {
@@ -2116,7 +2360,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
        */
       public io.dstore.Values.integerValue.Builder getDeleteValueIdBuilder() {
         
@@ -2124,7 +2368,7 @@ public final class ImModifyNodePropertiesAd {
         return getDeleteValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getDeleteValueIdOrBuilder() {
         if (deleteValueIdBuilder_ != null) {
@@ -2135,7 +2379,7 @@ public final class ImModifyNodePropertiesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2153,13 +2397,13 @@ public final class ImModifyNodePropertiesAd {
 
       private boolean deleteValueIdNull_ ;
       /**
-       * <code>optional bool delete_value_id_null = 1007;</code>
+       * <code>optional bool delete_value_id_null = 1008;</code>
        */
       public boolean getDeleteValueIdNull() {
         return deleteValueIdNull_;
       }
       /**
-       * <code>optional bool delete_value_id_null = 1007;</code>
+       * <code>optional bool delete_value_id_null = 1008;</code>
        */
       public Builder setDeleteValueIdNull(boolean value) {
         
@@ -2168,7 +2412,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_value_id_null = 1007;</code>
+       * <code>optional bool delete_value_id_null = 1008;</code>
        */
       public Builder clearDeleteValueIdNull() {
         
@@ -2181,13 +2425,13 @@ public final class ImModifyNodePropertiesAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> valueIdForPredefinedCharacBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
        */
       public boolean hasValueIdForPredefinedCharac() {
         return valueIdForPredefinedCharacBuilder_ != null || valueIdForPredefinedCharac_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
        */
       public io.dstore.Values.booleanValue getValueIdForPredefinedCharac() {
         if (valueIdForPredefinedCharacBuilder_ == null) {
@@ -2197,7 +2441,7 @@ public final class ImModifyNodePropertiesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
        */
       public Builder setValueIdForPredefinedCharac(io.dstore.Values.booleanValue value) {
         if (valueIdForPredefinedCharacBuilder_ == null) {
@@ -2213,7 +2457,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
        */
       public Builder setValueIdForPredefinedCharac(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2227,7 +2471,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
        */
       public Builder mergeValueIdForPredefinedCharac(io.dstore.Values.booleanValue value) {
         if (valueIdForPredefinedCharacBuilder_ == null) {
@@ -2245,7 +2489,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
        */
       public Builder clearValueIdForPredefinedCharac() {
         if (valueIdForPredefinedCharacBuilder_ == null) {
@@ -2259,7 +2503,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
        */
       public io.dstore.Values.booleanValue.Builder getValueIdForPredefinedCharacBuilder() {
         
@@ -2267,7 +2511,7 @@ public final class ImModifyNodePropertiesAd {
         return getValueIdForPredefinedCharacFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getValueIdForPredefinedCharacOrBuilder() {
         if (valueIdForPredefinedCharacBuilder_ != null) {
@@ -2278,7 +2522,7 @@ public final class ImModifyNodePropertiesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2296,13 +2540,13 @@ public final class ImModifyNodePropertiesAd {
 
       private boolean valueIdForPredefinedCharacNull_ ;
       /**
-       * <code>optional bool value_id_for_predefined_charac_null = 1008;</code>
+       * <code>optional bool value_id_for_predefined_charac_null = 1009;</code>
        */
       public boolean getValueIdForPredefinedCharacNull() {
         return valueIdForPredefinedCharacNull_;
       }
       /**
-       * <code>optional bool value_id_for_predefined_charac_null = 1008;</code>
+       * <code>optional bool value_id_for_predefined_charac_null = 1009;</code>
        */
       public Builder setValueIdForPredefinedCharacNull(boolean value) {
         
@@ -2311,7 +2555,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional bool value_id_for_predefined_charac_null = 1008;</code>
+       * <code>optional bool value_id_for_predefined_charac_null = 1009;</code>
        */
       public Builder clearValueIdForPredefinedCharacNull() {
         
@@ -2324,13 +2568,13 @@ public final class ImModifyNodePropertiesAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> useDataFromdstoreifinBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
        */
       public boolean hasUseDataFromdstoreifin() {
         return useDataFromdstoreifinBuilder_ != null || useDataFromdstoreifin_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
        */
       public io.dstore.Values.booleanValue getUseDataFromdstoreifin() {
         if (useDataFromdstoreifinBuilder_ == null) {
@@ -2340,7 +2584,7 @@ public final class ImModifyNodePropertiesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
        */
       public Builder setUseDataFromdstoreifin(io.dstore.Values.booleanValue value) {
         if (useDataFromdstoreifinBuilder_ == null) {
@@ -2356,7 +2600,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
        */
       public Builder setUseDataFromdstoreifin(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2370,7 +2614,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
        */
       public Builder mergeUseDataFromdstoreifin(io.dstore.Values.booleanValue value) {
         if (useDataFromdstoreifinBuilder_ == null) {
@@ -2388,7 +2632,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
        */
       public Builder clearUseDataFromdstoreifin() {
         if (useDataFromdstoreifinBuilder_ == null) {
@@ -2402,7 +2646,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
        */
       public io.dstore.Values.booleanValue.Builder getUseDataFromdstoreifinBuilder() {
         
@@ -2410,7 +2654,7 @@ public final class ImModifyNodePropertiesAd {
         return getUseDataFromdstoreifinFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getUseDataFromdstoreifinOrBuilder() {
         if (useDataFromdstoreifinBuilder_ != null) {
@@ -2421,7 +2665,7 @@ public final class ImModifyNodePropertiesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2439,13 +2683,13 @@ public final class ImModifyNodePropertiesAd {
 
       private boolean useDataFromdstoreifinNull_ ;
       /**
-       * <code>optional bool use_data_fromdstoreifin_null = 1009;</code>
+       * <code>optional bool use_data_fromdstoreifin_null = 1010;</code>
        */
       public boolean getUseDataFromdstoreifinNull() {
         return useDataFromdstoreifinNull_;
       }
       /**
-       * <code>optional bool use_data_fromdstoreifin_null = 1009;</code>
+       * <code>optional bool use_data_fromdstoreifin_null = 1010;</code>
        */
       public Builder setUseDataFromdstoreifinNull(boolean value) {
         
@@ -2454,7 +2698,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional bool use_data_fromdstoreifin_null = 1009;</code>
+       * <code>optional bool use_data_fromdstoreifin_null = 1010;</code>
        */
       public Builder clearUseDataFromdstoreifinNull() {
         
@@ -5430,7 +5674,7 @@ public final class ImModifyNodePropertiesAd {
       "difyNodeProperties_Ad\032\023dstore/values.pro" +
       "to\032\031dstore/engine/error.proto\032\033dstore/en" +
       "gine/message.proto\032#dstore/engine/metain" +
-      "formation.proto\"\203\006\n\nParameters\022+\n\006result" +
+      "formation.proto\"\322\006\n\nParameters\022+\n\006result" +
       "\030\001 \001(\0132\033.dstore.values.integerValue\022\024\n\013r" +
       "esult_null\030\351\007 \001(\010\0220\n\014node_id_list\030\002 \001(\0132" +
       "\032.dstore.values.stringValue\022\032\n\021node_id_l" +
@@ -5442,27 +5686,31 @@ public final class ImModifyNodePropertiesAd {
       ".dstore.values.timestampValue\022\030\n\017valid_f" +
       "rom_null\030\355\007 \001(\010\022/\n\010valid_to\030\006 \001(\0132\035.dsto" +
       "re.values.timestampValue\022\026\n\rvalid_to_nul" +
-      "l\030\356\007 \001(\010\0224\n\017delete_value_id\030\007 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\035\n\024delete_value_i" +
-      "d_null\030\357\007 \001(\010\022C\n\036value_id_for_predefined",
-      "_charac\030\010 \001(\0132\033.dstore.values.booleanVal" +
-      "ue\022,\n#value_id_for_predefined_charac_nul" +
-      "l\030\360\007 \001(\010\022<\n\027use_data_fromdstoreifin\030\t \001(" +
-      "\0132\033.dstore.values.booleanValue\022%\n\034use_da" +
-      "ta_fromdstoreifin_null\030\361\007 \001(\010\"\340\003\n\010Respon" +
-      "se\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error." +
-      "Error\022H\n\020meta_information\030\002 \003(\0132..dstore" +
-      ".engine.metainformation.MetaInformation\022" +
-      "/\n\007message\030\003 \003(\0132\036.dstore.engine.message" +
-      ".Message\022C\n\003row\030\004 \003(\01326.dstore.engine.im",
-      "_ModifyNodeProperties_Ad.Response.Row\0221\n" +
-      "\014new_value_id\030e \001(\0132\033.dstore.values.inte" +
-      "gerValue\032\265\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022-\n\007nod" +
-      "e_id\030\221N \001(\0132\033.dstore.values.integerValue" +
-      "\022<\n\026node_characteristic_id\030\222N \001(\0132\033.dsto" +
-      "re.values.integerValue\0220\n\nerror_code\030\223N " +
-      "\001(\0132\033.dstore.values.integerValueB\035\n\033io.d" +
-      "store.engine.proceduresb\006proto3"
+      "l\030\356\007 \001(\010\0221\n\014new_value_id\030\007 \001(\0132\033.dstore." +
+      "values.integerValue\022\032\n\021new_value_id_null" +
+      "\030\357\007 \001(\010\0224\n\017delete_value_id\030\010 \001(\0132\033.dstor",
+      "e.values.integerValue\022\035\n\024delete_value_id" +
+      "_null\030\360\007 \001(\010\022C\n\036value_id_for_predefined_" +
+      "charac\030\t \001(\0132\033.dstore.values.booleanValu" +
+      "e\022,\n#value_id_for_predefined_charac_null" +
+      "\030\361\007 \001(\010\022<\n\027use_data_fromdstoreifin\030\n \001(\013" +
+      "2\033.dstore.values.booleanValue\022%\n\034use_dat" +
+      "a_fromdstoreifin_null\030\362\007 \001(\010\"\340\003\n\010Respons" +
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore." +
+      "engine.metainformation.MetaInformation\022/",
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022C\n\003row\030\004 \003(\01326.dstore.engine.im_" +
+      "ModifyNodeProperties_Ad.Response.Row\0221\n\014" +
+      "new_value_id\030e \001(\0132\033.dstore.values.integ" +
+      "erValue\032\265\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022-\n\007node" +
+      "_id\030\221N \001(\0132\033.dstore.values.integerValue\022" +
+      "<\n\026node_characteristic_id\030\222N \001(\0132\033.dstor" +
+      "e.values.integerValue\0220\n\nerror_code\030\223N \001" +
+      "(\0132\033.dstore.values.integerValueB[\n\033io.ds" +
+      "tore.engine.proceduresZ<gosdk.dstore.de/",
+      "engine/procedures/im_ModifyNodePropertie" +
+      "s_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5485,7 +5733,7 @@ public final class ImModifyNodePropertiesAd {
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_descriptor,
-        new java.lang.String[] { "Result", "ResultNull", "NodeIdList", "NodeIdListNull", "NodeCharacteristicId", "NodeCharacteristicIdNull", "Value", "ValueNull", "ValidFrom", "ValidFromNull", "ValidTo", "ValidToNull", "DeleteValueId", "DeleteValueIdNull", "ValueIdForPredefinedCharac", "ValueIdForPredefinedCharacNull", "UseDataFromdstoreifin", "UseDataFromdstoreifinNull", });
+        new java.lang.String[] { "Result", "ResultNull", "NodeIdList", "NodeIdListNull", "NodeCharacteristicId", "NodeCharacteristicIdNull", "Value", "ValueNull", "ValidFrom", "ValidFromNull", "ValidTo", "ValidToNull", "NewValueId", "NewValueIdNull", "DeleteValueId", "DeleteValueIdNull", "ValueIdForPredefinedCharac", "ValueIdForPredefinedCharacNull", "UseDataFromdstoreifin", "UseDataFromdstoreifinNull", });
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_fieldAccessorTable = new

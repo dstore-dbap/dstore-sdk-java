@@ -4405,8 +4405,10 @@ public final class DoGetProcedureDependenciesAd {
       "ce\030\221N \001(\0132\033.dstore.values.integerValue\0223" +
       "\n\016used_procedure\030\222N \001(\0132\032.dstore.values." +
       "stringValue\0223\n\016procedure_name\030\223N \001(\0132\032.d" +
-      "store.values.stringValueB\035\n\033io.dstore.en",
-      "gine.proceduresb\006proto3"
+      "store.values.stringValueB_\n\033io.dstore.en",
+      "gine.proceduresZ@gosdk.dstore.de/engine/" +
+      "procedures/do_GetProcedureDependencies_A" +
+      "db\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

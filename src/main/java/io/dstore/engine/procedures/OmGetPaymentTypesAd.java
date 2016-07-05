@@ -9084,8 +9084,9 @@ public final class OmGetPaymentTypesAd {
       "2\033.dstore.values.integerValue\0227\n\021surchar",
       "ge_type_id\030\246N \001(\0132\033.dstore.values.intege" +
       "rValue\0227\n\021surcharge_unit_id\030\247N \001(\0132\033.dst" +
-      "ore.values.integerValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "ore.values.integerValueBV\n\033io.dstore.eng" +
+      "ine.proceduresZ7gosdk.dstore.de/engine/p" +
+      "rocedures/om_GetPaymentTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

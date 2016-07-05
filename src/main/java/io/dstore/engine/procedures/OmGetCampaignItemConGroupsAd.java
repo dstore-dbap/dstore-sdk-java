@@ -11307,8 +11307,10 @@ public final class OmGetCampaignItemConGroupsAd {
       "\001(\0132\033.dstore.values.integerValue\0228\n\022from" +
       "_quantity_part\030\261N \001(\0132\033.dstore.values.in" +
       "tegerValue\0223\n\rinherit_depth\030\262N \001(\0132\033.dst" +
-      "ore.values.integerValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "ore.values.integerValueB_\n\033io.dstore.eng" +
+      "ine.proceduresZ@gosdk.dstore.de/engine/p" +
+      "rocedures/om_GetCampaignItemConGroups_Ad",
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

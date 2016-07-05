@@ -3419,8 +3419,9 @@ public final class OmGetBillInformationTypesAd {
       "lues.integerValue\022>\n\030bill_information_ty" +
       "pe_id\030\222N \001(\0132\033.dstore.values.integerValu" +
       "e\0225\n\020information_type\030\223N \001(\0132\032.dstore.va" +
-      "lues.stringValueB\035\n\033io.dstore.engine.pro",
-      "ceduresb\006proto3"
+      "lues.stringValueB^\n\033io.dstore.engine.pro",
+      "ceduresZ?gosdk.dstore.de/engine/procedur" +
+      "es/om_GetBillInformationTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

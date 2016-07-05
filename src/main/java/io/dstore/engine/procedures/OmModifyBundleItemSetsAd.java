@@ -13,74 +13,92 @@ public final class OmModifyBundleItemSetsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+     */
+    boolean hasItemSetId();
+    /**
+     * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+     */
+    io.dstore.Values.integerValue getItemSetId();
+    /**
+     * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder();
+
+    /**
+     * <code>optional bool item_set_id_null = 1001;</code>
+     */
+    boolean getItemSetIdNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
      */
     boolean hasItemConditionId();
     /**
-     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
      */
     io.dstore.Values.integerValue getItemConditionId();
     /**
-     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
      */
     io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder();
 
     /**
-     * <code>optional bool item_condition_id_null = 1001;</code>
+     * <code>optional bool item_condition_id_null = 1002;</code>
      */
     boolean getItemConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
     boolean hasQuantity();
     /**
-     * <code>optional .dstore.values.integerValue quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
     io.dstore.Values.integerValue getQuantity();
     /**
-     * <code>optional .dstore.values.integerValue quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
     io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder();
 
     /**
-     * <code>optional bool quantity_null = 1002;</code>
+     * <code>optional bool quantity_null = 1003;</code>
      */
     boolean getQuantityNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+     * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
      */
     boolean hasDistinctItemsOnly();
     /**
-     * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+     * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
      */
     io.dstore.Values.booleanValue getDistinctItemsOnly();
     /**
-     * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+     * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getDistinctItemsOnlyOrBuilder();
 
     /**
-     * <code>optional bool distinct_items_only_null = 1003;</code>
+     * <code>optional bool distinct_items_only_null = 1004;</code>
      */
     boolean getDistinctItemsOnlyNull();
 
     /**
-     * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 5;</code>
      */
     boolean hasDeleteSet();
     /**
-     * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 5;</code>
      */
     io.dstore.Values.integerValue getDeleteSet();
     /**
-     * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 5;</code>
      */
     io.dstore.Values.integerValueOrBuilder getDeleteSetOrBuilder();
 
     /**
-     * <code>optional bool delete_set_null = 1004;</code>
+     * <code>optional bool delete_set_null = 1005;</code>
      */
     boolean getDeleteSetNull();
   }
@@ -96,6 +114,7 @@ public final class OmModifyBundleItemSetsAd {
       super(builder);
     }
     private Parameters() {
+      itemSetIdNull_ = false;
       itemConditionIdNull_ = false;
       quantityNull_ = false;
       distinctItemsOnlyNull_ = false;
@@ -128,6 +147,19 @@ public final class OmModifyBundleItemSetsAd {
             }
             case 10: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (itemSetId_ != null) {
+                subBuilder = itemSetId_.toBuilder();
+              }
+              itemSetId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(itemSetId_);
+                itemSetId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 18: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (itemConditionId_ != null) {
                 subBuilder = itemConditionId_.toBuilder();
               }
@@ -139,7 +171,7 @@ public final class OmModifyBundleItemSetsAd {
 
               break;
             }
-            case 18: {
+            case 26: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (quantity_ != null) {
                 subBuilder = quantity_.toBuilder();
@@ -152,7 +184,7 @@ public final class OmModifyBundleItemSetsAd {
 
               break;
             }
-            case 26: {
+            case 34: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (distinctItemsOnly_ != null) {
                 subBuilder = distinctItemsOnly_.toBuilder();
@@ -165,7 +197,7 @@ public final class OmModifyBundleItemSetsAd {
 
               break;
             }
-            case 34: {
+            case 42: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (deleteSet_ != null) {
                 subBuilder = deleteSet_.toBuilder();
@@ -180,20 +212,25 @@ public final class OmModifyBundleItemSetsAd {
             }
             case 8008: {
 
-              itemConditionIdNull_ = input.readBool();
+              itemSetIdNull_ = input.readBool();
               break;
             }
             case 8016: {
 
-              quantityNull_ = input.readBool();
+              itemConditionIdNull_ = input.readBool();
               break;
             }
             case 8024: {
 
-              distinctItemsOnlyNull_ = input.readBool();
+              quantityNull_ = input.readBool();
               break;
             }
             case 8032: {
+
+              distinctItemsOnlyNull_ = input.readBool();
+              break;
+            }
+            case 8040: {
 
               deleteSetNull_ = input.readBool();
               break;
@@ -222,121 +259,151 @@ public final class OmModifyBundleItemSetsAd {
               io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Parameters.class, io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Parameters.Builder.class);
     }
 
-    public static final int ITEM_CONDITION_ID_FIELD_NUMBER = 1;
+    public static final int ITEM_SET_ID_FIELD_NUMBER = 1;
+    private io.dstore.Values.integerValue itemSetId_;
+    /**
+     * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+     */
+    public boolean hasItemSetId() {
+      return itemSetId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+     */
+    public io.dstore.Values.integerValue getItemSetId() {
+      return itemSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder() {
+      return getItemSetId();
+    }
+
+    public static final int ITEM_SET_ID_NULL_FIELD_NUMBER = 1001;
+    private boolean itemSetIdNull_;
+    /**
+     * <code>optional bool item_set_id_null = 1001;</code>
+     */
+    public boolean getItemSetIdNull() {
+      return itemSetIdNull_;
+    }
+
+    public static final int ITEM_CONDITION_ID_FIELD_NUMBER = 2;
     private io.dstore.Values.integerValue itemConditionId_;
     /**
-     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
      */
     public boolean hasItemConditionId() {
       return itemConditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
      */
     public io.dstore.Values.integerValue getItemConditionId() {
       return itemConditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
       return getItemConditionId();
     }
 
-    public static final int ITEM_CONDITION_ID_NULL_FIELD_NUMBER = 1001;
+    public static final int ITEM_CONDITION_ID_NULL_FIELD_NUMBER = 1002;
     private boolean itemConditionIdNull_;
     /**
-     * <code>optional bool item_condition_id_null = 1001;</code>
+     * <code>optional bool item_condition_id_null = 1002;</code>
      */
     public boolean getItemConditionIdNull() {
       return itemConditionIdNull_;
     }
 
-    public static final int QUANTITY_FIELD_NUMBER = 2;
+    public static final int QUANTITY_FIELD_NUMBER = 3;
     private io.dstore.Values.integerValue quantity_;
     /**
-     * <code>optional .dstore.values.integerValue quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
     public boolean hasQuantity() {
       return quantity_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
     public io.dstore.Values.integerValue getQuantity() {
       return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
     }
     /**
-     * <code>optional .dstore.values.integerValue quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
       return getQuantity();
     }
 
-    public static final int QUANTITY_NULL_FIELD_NUMBER = 1002;
+    public static final int QUANTITY_NULL_FIELD_NUMBER = 1003;
     private boolean quantityNull_;
     /**
-     * <code>optional bool quantity_null = 1002;</code>
+     * <code>optional bool quantity_null = 1003;</code>
      */
     public boolean getQuantityNull() {
       return quantityNull_;
     }
 
-    public static final int DISTINCT_ITEMS_ONLY_FIELD_NUMBER = 3;
+    public static final int DISTINCT_ITEMS_ONLY_FIELD_NUMBER = 4;
     private io.dstore.Values.booleanValue distinctItemsOnly_;
     /**
-     * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+     * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
      */
     public boolean hasDistinctItemsOnly() {
       return distinctItemsOnly_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+     * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
      */
     public io.dstore.Values.booleanValue getDistinctItemsOnly() {
       return distinctItemsOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : distinctItemsOnly_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+     * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getDistinctItemsOnlyOrBuilder() {
       return getDistinctItemsOnly();
     }
 
-    public static final int DISTINCT_ITEMS_ONLY_NULL_FIELD_NUMBER = 1003;
+    public static final int DISTINCT_ITEMS_ONLY_NULL_FIELD_NUMBER = 1004;
     private boolean distinctItemsOnlyNull_;
     /**
-     * <code>optional bool distinct_items_only_null = 1003;</code>
+     * <code>optional bool distinct_items_only_null = 1004;</code>
      */
     public boolean getDistinctItemsOnlyNull() {
       return distinctItemsOnlyNull_;
     }
 
-    public static final int DELETE_SET_FIELD_NUMBER = 4;
+    public static final int DELETE_SET_FIELD_NUMBER = 5;
     private io.dstore.Values.integerValue deleteSet_;
     /**
-     * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 5;</code>
      */
     public boolean hasDeleteSet() {
       return deleteSet_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 5;</code>
      */
     public io.dstore.Values.integerValue getDeleteSet() {
       return deleteSet_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteSet_;
     }
     /**
-     * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 5;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getDeleteSetOrBuilder() {
       return getDeleteSet();
     }
 
-    public static final int DELETE_SET_NULL_FIELD_NUMBER = 1004;
+    public static final int DELETE_SET_NULL_FIELD_NUMBER = 1005;
     private boolean deleteSetNull_;
     /**
-     * <code>optional bool delete_set_null = 1004;</code>
+     * <code>optional bool delete_set_null = 1005;</code>
      */
     public boolean getDeleteSetNull() {
       return deleteSetNull_;
@@ -354,29 +421,35 @@ public final class OmModifyBundleItemSetsAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (itemSetId_ != null) {
+        output.writeMessage(1, getItemSetId());
+      }
       if (itemConditionId_ != null) {
-        output.writeMessage(1, getItemConditionId());
+        output.writeMessage(2, getItemConditionId());
       }
       if (quantity_ != null) {
-        output.writeMessage(2, getQuantity());
+        output.writeMessage(3, getQuantity());
       }
       if (distinctItemsOnly_ != null) {
-        output.writeMessage(3, getDistinctItemsOnly());
+        output.writeMessage(4, getDistinctItemsOnly());
       }
       if (deleteSet_ != null) {
-        output.writeMessage(4, getDeleteSet());
+        output.writeMessage(5, getDeleteSet());
+      }
+      if (itemSetIdNull_ != false) {
+        output.writeBool(1001, itemSetIdNull_);
       }
       if (itemConditionIdNull_ != false) {
-        output.writeBool(1001, itemConditionIdNull_);
+        output.writeBool(1002, itemConditionIdNull_);
       }
       if (quantityNull_ != false) {
-        output.writeBool(1002, quantityNull_);
+        output.writeBool(1003, quantityNull_);
       }
       if (distinctItemsOnlyNull_ != false) {
-        output.writeBool(1003, distinctItemsOnlyNull_);
+        output.writeBool(1004, distinctItemsOnlyNull_);
       }
       if (deleteSetNull_ != false) {
-        output.writeBool(1004, deleteSetNull_);
+        output.writeBool(1005, deleteSetNull_);
       }
     }
 
@@ -385,37 +458,45 @@ public final class OmModifyBundleItemSetsAd {
       if (size != -1) return size;
 
       size = 0;
+      if (itemSetId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getItemSetId());
+      }
       if (itemConditionId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getItemConditionId());
+          .computeMessageSize(2, getItemConditionId());
       }
       if (quantity_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getQuantity());
+          .computeMessageSize(3, getQuantity());
       }
       if (distinctItemsOnly_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getDistinctItemsOnly());
+          .computeMessageSize(4, getDistinctItemsOnly());
       }
       if (deleteSet_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getDeleteSet());
+          .computeMessageSize(5, getDeleteSet());
+      }
+      if (itemSetIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1001, itemSetIdNull_);
       }
       if (itemConditionIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1001, itemConditionIdNull_);
+          .computeBoolSize(1002, itemConditionIdNull_);
       }
       if (quantityNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1002, quantityNull_);
+          .computeBoolSize(1003, quantityNull_);
       }
       if (distinctItemsOnlyNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, distinctItemsOnlyNull_);
+          .computeBoolSize(1004, distinctItemsOnlyNull_);
       }
       if (deleteSetNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, deleteSetNull_);
+          .computeBoolSize(1005, deleteSetNull_);
       }
       memoizedSize = size;
       return size;
@@ -528,6 +609,14 @@ public final class OmModifyBundleItemSetsAd {
       }
       public Builder clear() {
         super.clear();
+        if (itemSetIdBuilder_ == null) {
+          itemSetId_ = null;
+        } else {
+          itemSetId_ = null;
+          itemSetIdBuilder_ = null;
+        }
+        itemSetIdNull_ = false;
+
         if (itemConditionIdBuilder_ == null) {
           itemConditionId_ = null;
         } else {
@@ -582,6 +671,12 @@ public final class OmModifyBundleItemSetsAd {
 
       public io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Parameters buildPartial() {
         io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Parameters result = new io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Parameters(this);
+        if (itemSetIdBuilder_ == null) {
+          result.itemSetId_ = itemSetId_;
+        } else {
+          result.itemSetId_ = itemSetIdBuilder_.build();
+        }
+        result.itemSetIdNull_ = itemSetIdNull_;
         if (itemConditionIdBuilder_ == null) {
           result.itemConditionId_ = itemConditionId_;
         } else {
@@ -621,6 +716,12 @@ public final class OmModifyBundleItemSetsAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Parameters other) {
         if (other == io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Parameters.getDefaultInstance()) return this;
+        if (other.hasItemSetId()) {
+          mergeItemSetId(other.getItemSetId());
+        }
+        if (other.getItemSetIdNull() != false) {
+          setItemSetIdNull(other.getItemSetIdNull());
+        }
         if (other.hasItemConditionId()) {
           mergeItemConditionId(other.getItemConditionId());
         }
@@ -671,17 +772,160 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue itemSetId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemSetIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+       */
+      public boolean hasItemSetId() {
+        return itemSetIdBuilder_ != null || itemSetId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue getItemSetId() {
+        if (itemSetIdBuilder_ == null) {
+          return itemSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
+        } else {
+          return itemSetIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+       */
+      public Builder setItemSetId(io.dstore.Values.integerValue value) {
+        if (itemSetIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          itemSetId_ = value;
+          onChanged();
+        } else {
+          itemSetIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+       */
+      public Builder setItemSetId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (itemSetIdBuilder_ == null) {
+          itemSetId_ = builderForValue.build();
+          onChanged();
+        } else {
+          itemSetIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+       */
+      public Builder mergeItemSetId(io.dstore.Values.integerValue value) {
+        if (itemSetIdBuilder_ == null) {
+          if (itemSetId_ != null) {
+            itemSetId_ =
+              io.dstore.Values.integerValue.newBuilder(itemSetId_).mergeFrom(value).buildPartial();
+          } else {
+            itemSetId_ = value;
+          }
+          onChanged();
+        } else {
+          itemSetIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+       */
+      public Builder clearItemSetId() {
+        if (itemSetIdBuilder_ == null) {
+          itemSetId_ = null;
+          onChanged();
+        } else {
+          itemSetId_ = null;
+          itemSetIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getItemSetIdBuilder() {
+        
+        onChanged();
+        return getItemSetIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder() {
+        if (itemSetIdBuilder_ != null) {
+          return itemSetIdBuilder_.getMessageOrBuilder();
+        } else {
+          return itemSetId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue item_set_id = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getItemSetIdFieldBuilder() {
+        if (itemSetIdBuilder_ == null) {
+          itemSetIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getItemSetId(),
+                  getParentForChildren(),
+                  isClean());
+          itemSetId_ = null;
+        }
+        return itemSetIdBuilder_;
+      }
+
+      private boolean itemSetIdNull_ ;
+      /**
+       * <code>optional bool item_set_id_null = 1001;</code>
+       */
+      public boolean getItemSetIdNull() {
+        return itemSetIdNull_;
+      }
+      /**
+       * <code>optional bool item_set_id_null = 1001;</code>
+       */
+      public Builder setItemSetIdNull(boolean value) {
+        
+        itemSetIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool item_set_id_null = 1001;</code>
+       */
+      public Builder clearItemSetIdNull() {
+        
+        itemSetIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue itemConditionId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
        */
       public boolean hasItemConditionId() {
         return itemConditionIdBuilder_ != null || itemConditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
        */
       public io.dstore.Values.integerValue getItemConditionId() {
         if (itemConditionIdBuilder_ == null) {
@@ -691,7 +935,7 @@ public final class OmModifyBundleItemSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
        */
       public Builder setItemConditionId(io.dstore.Values.integerValue value) {
         if (itemConditionIdBuilder_ == null) {
@@ -707,7 +951,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
        */
       public Builder setItemConditionId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -721,7 +965,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
        */
       public Builder mergeItemConditionId(io.dstore.Values.integerValue value) {
         if (itemConditionIdBuilder_ == null) {
@@ -739,7 +983,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
        */
       public Builder clearItemConditionId() {
         if (itemConditionIdBuilder_ == null) {
@@ -753,7 +997,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
        */
       public io.dstore.Values.integerValue.Builder getItemConditionIdBuilder() {
         
@@ -761,7 +1005,7 @@ public final class OmModifyBundleItemSetsAd {
         return getItemConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
         if (itemConditionIdBuilder_ != null) {
@@ -772,7 +1016,7 @@ public final class OmModifyBundleItemSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -790,13 +1034,13 @@ public final class OmModifyBundleItemSetsAd {
 
       private boolean itemConditionIdNull_ ;
       /**
-       * <code>optional bool item_condition_id_null = 1001;</code>
+       * <code>optional bool item_condition_id_null = 1002;</code>
        */
       public boolean getItemConditionIdNull() {
         return itemConditionIdNull_;
       }
       /**
-       * <code>optional bool item_condition_id_null = 1001;</code>
+       * <code>optional bool item_condition_id_null = 1002;</code>
        */
       public Builder setItemConditionIdNull(boolean value) {
         
@@ -805,7 +1049,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional bool item_condition_id_null = 1001;</code>
+       * <code>optional bool item_condition_id_null = 1002;</code>
        */
       public Builder clearItemConditionIdNull() {
         
@@ -818,13 +1062,13 @@ public final class OmModifyBundleItemSetsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public boolean hasQuantity() {
         return quantityBuilder_ != null || quantity_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public io.dstore.Values.integerValue getQuantity() {
         if (quantityBuilder_ == null) {
@@ -834,7 +1078,7 @@ public final class OmModifyBundleItemSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public Builder setQuantity(io.dstore.Values.integerValue value) {
         if (quantityBuilder_ == null) {
@@ -850,7 +1094,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public Builder setQuantity(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -864,7 +1108,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public Builder mergeQuantity(io.dstore.Values.integerValue value) {
         if (quantityBuilder_ == null) {
@@ -882,7 +1126,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public Builder clearQuantity() {
         if (quantityBuilder_ == null) {
@@ -896,7 +1140,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public io.dstore.Values.integerValue.Builder getQuantityBuilder() {
         
@@ -904,7 +1148,7 @@ public final class OmModifyBundleItemSetsAd {
         return getQuantityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
         if (quantityBuilder_ != null) {
@@ -915,7 +1159,7 @@ public final class OmModifyBundleItemSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -933,13 +1177,13 @@ public final class OmModifyBundleItemSetsAd {
 
       private boolean quantityNull_ ;
       /**
-       * <code>optional bool quantity_null = 1002;</code>
+       * <code>optional bool quantity_null = 1003;</code>
        */
       public boolean getQuantityNull() {
         return quantityNull_;
       }
       /**
-       * <code>optional bool quantity_null = 1002;</code>
+       * <code>optional bool quantity_null = 1003;</code>
        */
       public Builder setQuantityNull(boolean value) {
         
@@ -948,7 +1192,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional bool quantity_null = 1002;</code>
+       * <code>optional bool quantity_null = 1003;</code>
        */
       public Builder clearQuantityNull() {
         
@@ -961,13 +1205,13 @@ public final class OmModifyBundleItemSetsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> distinctItemsOnlyBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+       * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
        */
       public boolean hasDistinctItemsOnly() {
         return distinctItemsOnlyBuilder_ != null || distinctItemsOnly_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+       * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
        */
       public io.dstore.Values.booleanValue getDistinctItemsOnly() {
         if (distinctItemsOnlyBuilder_ == null) {
@@ -977,7 +1221,7 @@ public final class OmModifyBundleItemSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+       * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
        */
       public Builder setDistinctItemsOnly(io.dstore.Values.booleanValue value) {
         if (distinctItemsOnlyBuilder_ == null) {
@@ -993,7 +1237,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+       * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
        */
       public Builder setDistinctItemsOnly(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1007,7 +1251,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+       * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
        */
       public Builder mergeDistinctItemsOnly(io.dstore.Values.booleanValue value) {
         if (distinctItemsOnlyBuilder_ == null) {
@@ -1025,7 +1269,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+       * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
        */
       public Builder clearDistinctItemsOnly() {
         if (distinctItemsOnlyBuilder_ == null) {
@@ -1039,7 +1283,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+       * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
        */
       public io.dstore.Values.booleanValue.Builder getDistinctItemsOnlyBuilder() {
         
@@ -1047,7 +1291,7 @@ public final class OmModifyBundleItemSetsAd {
         return getDistinctItemsOnlyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+       * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDistinctItemsOnlyOrBuilder() {
         if (distinctItemsOnlyBuilder_ != null) {
@@ -1058,7 +1302,7 @@ public final class OmModifyBundleItemSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue distinct_items_only = 3;</code>
+       * <code>optional .dstore.values.booleanValue distinct_items_only = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1076,13 +1320,13 @@ public final class OmModifyBundleItemSetsAd {
 
       private boolean distinctItemsOnlyNull_ ;
       /**
-       * <code>optional bool distinct_items_only_null = 1003;</code>
+       * <code>optional bool distinct_items_only_null = 1004;</code>
        */
       public boolean getDistinctItemsOnlyNull() {
         return distinctItemsOnlyNull_;
       }
       /**
-       * <code>optional bool distinct_items_only_null = 1003;</code>
+       * <code>optional bool distinct_items_only_null = 1004;</code>
        */
       public Builder setDistinctItemsOnlyNull(boolean value) {
         
@@ -1091,7 +1335,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional bool distinct_items_only_null = 1003;</code>
+       * <code>optional bool distinct_items_only_null = 1004;</code>
        */
       public Builder clearDistinctItemsOnlyNull() {
         
@@ -1104,13 +1348,13 @@ public final class OmModifyBundleItemSetsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteSetBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 5;</code>
        */
       public boolean hasDeleteSet() {
         return deleteSetBuilder_ != null || deleteSet_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 5;</code>
        */
       public io.dstore.Values.integerValue getDeleteSet() {
         if (deleteSetBuilder_ == null) {
@@ -1120,7 +1364,7 @@ public final class OmModifyBundleItemSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 5;</code>
        */
       public Builder setDeleteSet(io.dstore.Values.integerValue value) {
         if (deleteSetBuilder_ == null) {
@@ -1136,7 +1380,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 5;</code>
        */
       public Builder setDeleteSet(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1150,7 +1394,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 5;</code>
        */
       public Builder mergeDeleteSet(io.dstore.Values.integerValue value) {
         if (deleteSetBuilder_ == null) {
@@ -1168,7 +1412,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 5;</code>
        */
       public Builder clearDeleteSet() {
         if (deleteSetBuilder_ == null) {
@@ -1182,7 +1426,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 5;</code>
        */
       public io.dstore.Values.integerValue.Builder getDeleteSetBuilder() {
         
@@ -1190,7 +1434,7 @@ public final class OmModifyBundleItemSetsAd {
         return getDeleteSetFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 5;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getDeleteSetOrBuilder() {
         if (deleteSetBuilder_ != null) {
@@ -1201,7 +1445,7 @@ public final class OmModifyBundleItemSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_set = 4;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1219,13 +1463,13 @@ public final class OmModifyBundleItemSetsAd {
 
       private boolean deleteSetNull_ ;
       /**
-       * <code>optional bool delete_set_null = 1004;</code>
+       * <code>optional bool delete_set_null = 1005;</code>
        */
       public boolean getDeleteSetNull() {
         return deleteSetNull_;
       }
       /**
-       * <code>optional bool delete_set_null = 1004;</code>
+       * <code>optional bool delete_set_null = 1005;</code>
        */
       public Builder setDeleteSetNull(boolean value) {
         
@@ -1234,7 +1478,7 @@ public final class OmModifyBundleItemSetsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_set_null = 1004;</code>
+       * <code>optional bool delete_set_null = 1005;</code>
        */
       public Builder clearDeleteSetNull() {
         
@@ -3475,24 +3719,28 @@ public final class OmModifyBundleItemSetsAd {
       "difyBundleItemSets_Ad\032\023dstore/values.pro" +
       "to\032\031dstore/engine/error.proto\032\033dstore/en" +
       "gine/message.proto\032#dstore/engine/metain" +
-      "formation.proto\"\324\002\n\nParameters\0226\n\021item_c" +
-      "ondition_id\030\001 \001(\0132\033.dstore.values.intege" +
-      "rValue\022\037\n\026item_condition_id_null\030\351\007 \001(\010\022" +
-      "-\n\010quantity\030\002 \001(\0132\033.dstore.values.intege" +
-      "rValue\022\026\n\rquantity_null\030\352\007 \001(\010\0228\n\023distin",
-      "ct_items_only\030\003 \001(\0132\033.dstore.values.bool" +
-      "eanValue\022!\n\030distinct_items_only_null\030\353\007 " +
-      "\001(\010\022/\n\ndelete_set\030\004 \001(\0132\033.dstore.values." +
-      "integerValue\022\030\n\017delete_set_null\030\354\007 \001(\010\"\277" +
-      "\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engi" +
-      "ne.error.Error\022H\n\020meta_information\030\002 \003(\013" +
-      "2..dstore.engine.metainformation.MetaInf" +
-      "ormation\022/\n\007message\030\003 \003(\0132\036.dstore.engin" +
-      "e.message.Message\022C\n\003row\030\004 \003(\01326.dstore." +
-      "engine.om_ModifyBundleItemSets_Ad.Respon",
-      "se.Row\0220\n\013item_set_id\030e \001(\0132\033.dstore.val" +
-      "ues.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "formation.proto\"\241\003\n\nParameters\0220\n\013item_s" +
+      "et_id\030\001 \001(\0132\033.dstore.values.integerValue" +
+      "\022\031\n\020item_set_id_null\030\351\007 \001(\010\0226\n\021item_cond" +
+      "ition_id\030\002 \001(\0132\033.dstore.values.integerVa" +
+      "lue\022\037\n\026item_condition_id_null\030\352\007 \001(\010\022-\n\010",
+      "quantity\030\003 \001(\0132\033.dstore.values.integerVa" +
+      "lue\022\026\n\rquantity_null\030\353\007 \001(\010\0228\n\023distinct_" +
+      "items_only\030\004 \001(\0132\033.dstore.values.boolean" +
+      "Value\022!\n\030distinct_items_only_null\030\354\007 \001(\010" +
+      "\022/\n\ndelete_set\030\005 \001(\0132\033.dstore.values.int" +
+      "egerValue\022\030\n\017delete_set_null\030\355\007 \001(\010\"\277\002\n\010" +
+      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
+      "error.Error\022H\n\020meta_information\030\002 \003(\0132.." +
+      "dstore.engine.metainformation.MetaInform" +
+      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m",
+      "essage.Message\022C\n\003row\030\004 \003(\01326.dstore.eng" +
+      "ine.om_ModifyBundleItemSets_Ad.Response." +
+      "Row\0220\n\013item_set_id\030e \001(\0132\033.dstore.values" +
+      ".integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B[\n" +
+      "\033io.dstore.engine.proceduresZ<gosdk.dsto" +
+      "re.de/engine/procedures/om_ModifyBundleI" +
+      "temSets_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3515,7 +3763,7 @@ public final class OmModifyBundleItemSetsAd {
     internal_static_dstore_engine_om_ModifyBundleItemSets_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyBundleItemSets_Ad_Parameters_descriptor,
-        new java.lang.String[] { "ItemConditionId", "ItemConditionIdNull", "Quantity", "QuantityNull", "DistinctItemsOnly", "DistinctItemsOnlyNull", "DeleteSet", "DeleteSetNull", });
+        new java.lang.String[] { "ItemSetId", "ItemSetIdNull", "ItemConditionId", "ItemConditionIdNull", "Quantity", "QuantityNull", "DistinctItemsOnly", "DistinctItemsOnlyNull", "DeleteSet", "DeleteSetNull", });
     internal_static_dstore_engine_om_ModifyBundleItemSets_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_ModifyBundleItemSets_Ad_Response_fieldAccessorTable = new

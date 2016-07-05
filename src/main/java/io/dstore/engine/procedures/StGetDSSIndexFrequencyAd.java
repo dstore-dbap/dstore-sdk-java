@@ -7359,8 +7359,10 @@ public final class StGetDSSIndexFrequencyAd {
       "N \001(\0132\033.dstore.values.decimalValue\022=\n\030fr",
       "equency_of_description\030\225N \001(\0132\032.dstore.v" +
       "alues.stringValue\0226\n\020buying_interests\030\226N" +
-      " \001(\0132\033.dstore.values.decimalValueB\035\n\033io." +
-      "dstore.engine.proceduresb\006proto3"
+      " \001(\0132\033.dstore.values.decimalValueB]\n\033io." +
+      "dstore.engine.proceduresZ>gosdk.dstore.d" +
+      "e/engine/procedures/st_GetDSS_Index_Freq" +
+      "uency_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

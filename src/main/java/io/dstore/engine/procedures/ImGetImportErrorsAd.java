@@ -4156,8 +4156,9 @@ public final class ImGetImportErrorsAd {
       "ue\030\223N \001(\0132\032.dstore.values.stringValue\0225\n",
       "\rdate_and_time\030\224N \001(\0132\035.dstore.values.ti" +
       "mestampValue\0220\n\nerror_code\030\225N \001(\0132\033.dsto" +
-      "re.values.integerValueB\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      "re.values.integerValueBV\n\033io.dstore.engi" +
+      "ne.proceduresZ7gosdk.dstore.de/engine/pr" +
+      "ocedures/im_GetImportErrors_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

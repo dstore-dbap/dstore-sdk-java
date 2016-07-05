@@ -5145,8 +5145,10 @@ public final class MiGetAppPartsTreeSettingsPu {
       "tringValue\022>\n\030application_part_tree_id\030\224" +
       "N \001(\0132\033.dstore.values.integerValue\022D\n\036va" +
       "lue_derived_from_global_user\030\225N \001(\0132\033.ds" +
-      "tore.values.booleanValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "tore.values.booleanValueB^\n\033io.dstore.en" +
+      "gine.proceduresZ?gosdk.dstore.de/engine/" +
+      "procedures/mi_GetAppPartsTreeSettings_Pu" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

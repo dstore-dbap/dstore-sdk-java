@@ -31,74 +31,92 @@ public final class OmModifyCampBundlePricingAd {
     boolean getAbsDiscountSurchargeTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     */
+    boolean hasBenefitId();
+    /**
+     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     */
+    io.dstore.Values.integerValue getBenefitId();
+    /**
+     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder();
+
+    /**
+     * <code>optional bool benefit_id_null = 1002;</code>
+     */
+    boolean getBenefitIdNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
      */
     boolean hasBundlePricingTypeId();
     /**
-     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
      */
     io.dstore.Values.integerValue getBundlePricingTypeId();
     /**
-     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
      */
     io.dstore.Values.integerValueOrBuilder getBundlePricingTypeIdOrBuilder();
 
     /**
-     * <code>optional bool bundle_pricing_type_id_null = 1002;</code>
+     * <code>optional bool bundle_pricing_type_id_null = 1003;</code>
      */
     boolean getBundlePricingTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
      */
     boolean hasBundlePriceOrDiscount();
     /**
-     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
      */
     io.dstore.Values.decimalValue getBundlePriceOrDiscount();
     /**
-     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
      */
     io.dstore.Values.decimalValueOrBuilder getBundlePriceOrDiscountOrBuilder();
 
     /**
-     * <code>optional bool bundle_price_or_discount_null = 1003;</code>
+     * <code>optional bool bundle_price_or_discount_null = 1004;</code>
      */
     boolean getBundlePriceOrDiscountNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+     * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
      */
     boolean hasNetBasedPricing();
     /**
-     * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+     * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
      */
     io.dstore.Values.booleanValue getNetBasedPricing();
     /**
-     * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+     * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getNetBasedPricingOrBuilder();
 
     /**
-     * <code>optional bool net_based_pricing_null = 1004;</code>
+     * <code>optional bool net_based_pricing_null = 1005;</code>
      */
     boolean getNetBasedPricingNull();
 
     /**
-     * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
      */
     boolean hasDeleteBenefit();
     /**
-     * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
      */
     io.dstore.Values.integerValue getDeleteBenefit();
     /**
-     * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
      */
     io.dstore.Values.integerValueOrBuilder getDeleteBenefitOrBuilder();
 
     /**
-     * <code>optional bool delete_benefit_null = 1005;</code>
+     * <code>optional bool delete_benefit_null = 1006;</code>
      */
     boolean getDeleteBenefitNull();
   }
@@ -115,6 +133,7 @@ public final class OmModifyCampBundlePricingAd {
     }
     private Parameters() {
       absDiscountSurchargeTypeIdNull_ = false;
+      benefitIdNull_ = false;
       bundlePricingTypeIdNull_ = false;
       bundlePriceOrDiscountNull_ = false;
       netBasedPricingNull_ = false;
@@ -160,6 +179,19 @@ public final class OmModifyCampBundlePricingAd {
             }
             case 18: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (benefitId_ != null) {
+                subBuilder = benefitId_.toBuilder();
+              }
+              benefitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(benefitId_);
+                benefitId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 26: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (bundlePricingTypeId_ != null) {
                 subBuilder = bundlePricingTypeId_.toBuilder();
               }
@@ -171,7 +203,7 @@ public final class OmModifyCampBundlePricingAd {
 
               break;
             }
-            case 26: {
+            case 34: {
               io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (bundlePriceOrDiscount_ != null) {
                 subBuilder = bundlePriceOrDiscount_.toBuilder();
@@ -184,7 +216,7 @@ public final class OmModifyCampBundlePricingAd {
 
               break;
             }
-            case 34: {
+            case 42: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (netBasedPricing_ != null) {
                 subBuilder = netBasedPricing_.toBuilder();
@@ -197,7 +229,7 @@ public final class OmModifyCampBundlePricingAd {
 
               break;
             }
-            case 42: {
+            case 50: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (deleteBenefit_ != null) {
                 subBuilder = deleteBenefit_.toBuilder();
@@ -217,20 +249,25 @@ public final class OmModifyCampBundlePricingAd {
             }
             case 8016: {
 
-              bundlePricingTypeIdNull_ = input.readBool();
+              benefitIdNull_ = input.readBool();
               break;
             }
             case 8024: {
 
-              bundlePriceOrDiscountNull_ = input.readBool();
+              bundlePricingTypeIdNull_ = input.readBool();
               break;
             }
             case 8032: {
 
-              netBasedPricingNull_ = input.readBool();
+              bundlePriceOrDiscountNull_ = input.readBool();
               break;
             }
             case 8040: {
+
+              netBasedPricingNull_ = input.readBool();
+              break;
+            }
+            case 8048: {
 
               deleteBenefitNull_ = input.readBool();
               break;
@@ -289,121 +326,151 @@ public final class OmModifyCampBundlePricingAd {
       return absDiscountSurchargeTypeIdNull_;
     }
 
-    public static final int BUNDLE_PRICING_TYPE_ID_FIELD_NUMBER = 2;
+    public static final int BENEFIT_ID_FIELD_NUMBER = 2;
+    private io.dstore.Values.integerValue benefitId_;
+    /**
+     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     */
+    public boolean hasBenefitId() {
+      return benefitId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     */
+    public io.dstore.Values.integerValue getBenefitId() {
+      return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+      return getBenefitId();
+    }
+
+    public static final int BENEFIT_ID_NULL_FIELD_NUMBER = 1002;
+    private boolean benefitIdNull_;
+    /**
+     * <code>optional bool benefit_id_null = 1002;</code>
+     */
+    public boolean getBenefitIdNull() {
+      return benefitIdNull_;
+    }
+
+    public static final int BUNDLE_PRICING_TYPE_ID_FIELD_NUMBER = 3;
     private io.dstore.Values.integerValue bundlePricingTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
      */
     public boolean hasBundlePricingTypeId() {
       return bundlePricingTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
      */
     public io.dstore.Values.integerValue getBundlePricingTypeId() {
       return bundlePricingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : bundlePricingTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getBundlePricingTypeIdOrBuilder() {
       return getBundlePricingTypeId();
     }
 
-    public static final int BUNDLE_PRICING_TYPE_ID_NULL_FIELD_NUMBER = 1002;
+    public static final int BUNDLE_PRICING_TYPE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean bundlePricingTypeIdNull_;
     /**
-     * <code>optional bool bundle_pricing_type_id_null = 1002;</code>
+     * <code>optional bool bundle_pricing_type_id_null = 1003;</code>
      */
     public boolean getBundlePricingTypeIdNull() {
       return bundlePricingTypeIdNull_;
     }
 
-    public static final int BUNDLE_PRICE_OR_DISCOUNT_FIELD_NUMBER = 3;
+    public static final int BUNDLE_PRICE_OR_DISCOUNT_FIELD_NUMBER = 4;
     private io.dstore.Values.decimalValue bundlePriceOrDiscount_;
     /**
-     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
      */
     public boolean hasBundlePriceOrDiscount() {
       return bundlePriceOrDiscount_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
      */
     public io.dstore.Values.decimalValue getBundlePriceOrDiscount() {
       return bundlePriceOrDiscount_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bundlePriceOrDiscount_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+     * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
      */
     public io.dstore.Values.decimalValueOrBuilder getBundlePriceOrDiscountOrBuilder() {
       return getBundlePriceOrDiscount();
     }
 
-    public static final int BUNDLE_PRICE_OR_DISCOUNT_NULL_FIELD_NUMBER = 1003;
+    public static final int BUNDLE_PRICE_OR_DISCOUNT_NULL_FIELD_NUMBER = 1004;
     private boolean bundlePriceOrDiscountNull_;
     /**
-     * <code>optional bool bundle_price_or_discount_null = 1003;</code>
+     * <code>optional bool bundle_price_or_discount_null = 1004;</code>
      */
     public boolean getBundlePriceOrDiscountNull() {
       return bundlePriceOrDiscountNull_;
     }
 
-    public static final int NET_BASED_PRICING_FIELD_NUMBER = 4;
+    public static final int NET_BASED_PRICING_FIELD_NUMBER = 5;
     private io.dstore.Values.booleanValue netBasedPricing_;
     /**
-     * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+     * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
      */
     public boolean hasNetBasedPricing() {
       return netBasedPricing_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+     * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
      */
     public io.dstore.Values.booleanValue getNetBasedPricing() {
       return netBasedPricing_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : netBasedPricing_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+     * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getNetBasedPricingOrBuilder() {
       return getNetBasedPricing();
     }
 
-    public static final int NET_BASED_PRICING_NULL_FIELD_NUMBER = 1004;
+    public static final int NET_BASED_PRICING_NULL_FIELD_NUMBER = 1005;
     private boolean netBasedPricingNull_;
     /**
-     * <code>optional bool net_based_pricing_null = 1004;</code>
+     * <code>optional bool net_based_pricing_null = 1005;</code>
      */
     public boolean getNetBasedPricingNull() {
       return netBasedPricingNull_;
     }
 
-    public static final int DELETE_BENEFIT_FIELD_NUMBER = 5;
+    public static final int DELETE_BENEFIT_FIELD_NUMBER = 6;
     private io.dstore.Values.integerValue deleteBenefit_;
     /**
-     * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
      */
     public boolean hasDeleteBenefit() {
       return deleteBenefit_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
      */
     public io.dstore.Values.integerValue getDeleteBenefit() {
       return deleteBenefit_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteBenefit_;
     }
     /**
-     * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getDeleteBenefitOrBuilder() {
       return getDeleteBenefit();
     }
 
-    public static final int DELETE_BENEFIT_NULL_FIELD_NUMBER = 1005;
+    public static final int DELETE_BENEFIT_NULL_FIELD_NUMBER = 1006;
     private boolean deleteBenefitNull_;
     /**
-     * <code>optional bool delete_benefit_null = 1005;</code>
+     * <code>optional bool delete_benefit_null = 1006;</code>
      */
     public boolean getDeleteBenefitNull() {
       return deleteBenefitNull_;
@@ -424,32 +491,38 @@ public final class OmModifyCampBundlePricingAd {
       if (absDiscountSurchargeTypeId_ != null) {
         output.writeMessage(1, getAbsDiscountSurchargeTypeId());
       }
+      if (benefitId_ != null) {
+        output.writeMessage(2, getBenefitId());
+      }
       if (bundlePricingTypeId_ != null) {
-        output.writeMessage(2, getBundlePricingTypeId());
+        output.writeMessage(3, getBundlePricingTypeId());
       }
       if (bundlePriceOrDiscount_ != null) {
-        output.writeMessage(3, getBundlePriceOrDiscount());
+        output.writeMessage(4, getBundlePriceOrDiscount());
       }
       if (netBasedPricing_ != null) {
-        output.writeMessage(4, getNetBasedPricing());
+        output.writeMessage(5, getNetBasedPricing());
       }
       if (deleteBenefit_ != null) {
-        output.writeMessage(5, getDeleteBenefit());
+        output.writeMessage(6, getDeleteBenefit());
       }
       if (absDiscountSurchargeTypeIdNull_ != false) {
         output.writeBool(1001, absDiscountSurchargeTypeIdNull_);
       }
+      if (benefitIdNull_ != false) {
+        output.writeBool(1002, benefitIdNull_);
+      }
       if (bundlePricingTypeIdNull_ != false) {
-        output.writeBool(1002, bundlePricingTypeIdNull_);
+        output.writeBool(1003, bundlePricingTypeIdNull_);
       }
       if (bundlePriceOrDiscountNull_ != false) {
-        output.writeBool(1003, bundlePriceOrDiscountNull_);
+        output.writeBool(1004, bundlePriceOrDiscountNull_);
       }
       if (netBasedPricingNull_ != false) {
-        output.writeBool(1004, netBasedPricingNull_);
+        output.writeBool(1005, netBasedPricingNull_);
       }
       if (deleteBenefitNull_ != false) {
-        output.writeBool(1005, deleteBenefitNull_);
+        output.writeBool(1006, deleteBenefitNull_);
       }
     }
 
@@ -462,41 +535,49 @@ public final class OmModifyCampBundlePricingAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getAbsDiscountSurchargeTypeId());
       }
+      if (benefitId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getBenefitId());
+      }
       if (bundlePricingTypeId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getBundlePricingTypeId());
+          .computeMessageSize(3, getBundlePricingTypeId());
       }
       if (bundlePriceOrDiscount_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getBundlePriceOrDiscount());
+          .computeMessageSize(4, getBundlePriceOrDiscount());
       }
       if (netBasedPricing_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getNetBasedPricing());
+          .computeMessageSize(5, getNetBasedPricing());
       }
       if (deleteBenefit_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getDeleteBenefit());
+          .computeMessageSize(6, getDeleteBenefit());
       }
       if (absDiscountSurchargeTypeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, absDiscountSurchargeTypeIdNull_);
       }
+      if (benefitIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1002, benefitIdNull_);
+      }
       if (bundlePricingTypeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1002, bundlePricingTypeIdNull_);
+          .computeBoolSize(1003, bundlePricingTypeIdNull_);
       }
       if (bundlePriceOrDiscountNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, bundlePriceOrDiscountNull_);
+          .computeBoolSize(1004, bundlePriceOrDiscountNull_);
       }
       if (netBasedPricingNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, netBasedPricingNull_);
+          .computeBoolSize(1005, netBasedPricingNull_);
       }
       if (deleteBenefitNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, deleteBenefitNull_);
+          .computeBoolSize(1006, deleteBenefitNull_);
       }
       memoizedSize = size;
       return size;
@@ -617,6 +698,14 @@ public final class OmModifyCampBundlePricingAd {
         }
         absDiscountSurchargeTypeIdNull_ = false;
 
+        if (benefitIdBuilder_ == null) {
+          benefitId_ = null;
+        } else {
+          benefitId_ = null;
+          benefitIdBuilder_ = null;
+        }
+        benefitIdNull_ = false;
+
         if (bundlePricingTypeIdBuilder_ == null) {
           bundlePricingTypeId_ = null;
         } else {
@@ -677,6 +766,12 @@ public final class OmModifyCampBundlePricingAd {
           result.absDiscountSurchargeTypeId_ = absDiscountSurchargeTypeIdBuilder_.build();
         }
         result.absDiscountSurchargeTypeIdNull_ = absDiscountSurchargeTypeIdNull_;
+        if (benefitIdBuilder_ == null) {
+          result.benefitId_ = benefitId_;
+        } else {
+          result.benefitId_ = benefitIdBuilder_.build();
+        }
+        result.benefitIdNull_ = benefitIdNull_;
         if (bundlePricingTypeIdBuilder_ == null) {
           result.bundlePricingTypeId_ = bundlePricingTypeId_;
         } else {
@@ -721,6 +816,12 @@ public final class OmModifyCampBundlePricingAd {
         }
         if (other.getAbsDiscountSurchargeTypeIdNull() != false) {
           setAbsDiscountSurchargeTypeIdNull(other.getAbsDiscountSurchargeTypeIdNull());
+        }
+        if (other.hasBenefitId()) {
+          mergeBenefitId(other.getBenefitId());
+        }
+        if (other.getBenefitIdNull() != false) {
+          setBenefitIdNull(other.getBenefitIdNull());
         }
         if (other.hasBundlePricingTypeId()) {
           mergeBundlePricingTypeId(other.getBundlePricingTypeId());
@@ -915,17 +1016,160 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue benefitId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       */
+      public boolean hasBenefitId() {
+        return benefitIdBuilder_ != null || benefitId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       */
+      public io.dstore.Values.integerValue getBenefitId() {
+        if (benefitIdBuilder_ == null) {
+          return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+        } else {
+          return benefitIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       */
+      public Builder setBenefitId(io.dstore.Values.integerValue value) {
+        if (benefitIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          benefitId_ = value;
+          onChanged();
+        } else {
+          benefitIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       */
+      public Builder setBenefitId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (benefitIdBuilder_ == null) {
+          benefitId_ = builderForValue.build();
+          onChanged();
+        } else {
+          benefitIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       */
+      public Builder mergeBenefitId(io.dstore.Values.integerValue value) {
+        if (benefitIdBuilder_ == null) {
+          if (benefitId_ != null) {
+            benefitId_ =
+              io.dstore.Values.integerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
+          } else {
+            benefitId_ = value;
+          }
+          onChanged();
+        } else {
+          benefitIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       */
+      public Builder clearBenefitId() {
+        if (benefitIdBuilder_ == null) {
+          benefitId_ = null;
+          onChanged();
+        } else {
+          benefitId_ = null;
+          benefitIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getBenefitIdBuilder() {
+        
+        onChanged();
+        return getBenefitIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+        if (benefitIdBuilder_ != null) {
+          return benefitIdBuilder_.getMessageOrBuilder();
+        } else {
+          return benefitId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getBenefitIdFieldBuilder() {
+        if (benefitIdBuilder_ == null) {
+          benefitIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getBenefitId(),
+                  getParentForChildren(),
+                  isClean());
+          benefitId_ = null;
+        }
+        return benefitIdBuilder_;
+      }
+
+      private boolean benefitIdNull_ ;
+      /**
+       * <code>optional bool benefit_id_null = 1002;</code>
+       */
+      public boolean getBenefitIdNull() {
+        return benefitIdNull_;
+      }
+      /**
+       * <code>optional bool benefit_id_null = 1002;</code>
+       */
+      public Builder setBenefitIdNull(boolean value) {
+        
+        benefitIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool benefit_id_null = 1002;</code>
+       */
+      public Builder clearBenefitIdNull() {
+        
+        benefitIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue bundlePricingTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> bundlePricingTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
        */
       public boolean hasBundlePricingTypeId() {
         return bundlePricingTypeIdBuilder_ != null || bundlePricingTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
        */
       public io.dstore.Values.integerValue getBundlePricingTypeId() {
         if (bundlePricingTypeIdBuilder_ == null) {
@@ -935,7 +1179,7 @@ public final class OmModifyCampBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
        */
       public Builder setBundlePricingTypeId(io.dstore.Values.integerValue value) {
         if (bundlePricingTypeIdBuilder_ == null) {
@@ -951,7 +1195,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
        */
       public Builder setBundlePricingTypeId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -965,7 +1209,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
        */
       public Builder mergeBundlePricingTypeId(io.dstore.Values.integerValue value) {
         if (bundlePricingTypeIdBuilder_ == null) {
@@ -983,7 +1227,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
        */
       public Builder clearBundlePricingTypeId() {
         if (bundlePricingTypeIdBuilder_ == null) {
@@ -997,7 +1241,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
        */
       public io.dstore.Values.integerValue.Builder getBundlePricingTypeIdBuilder() {
         
@@ -1005,7 +1249,7 @@ public final class OmModifyCampBundlePricingAd {
         return getBundlePricingTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getBundlePricingTypeIdOrBuilder() {
         if (bundlePricingTypeIdBuilder_ != null) {
@@ -1016,7 +1260,7 @@ public final class OmModifyCampBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue bundle_pricing_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1034,13 +1278,13 @@ public final class OmModifyCampBundlePricingAd {
 
       private boolean bundlePricingTypeIdNull_ ;
       /**
-       * <code>optional bool bundle_pricing_type_id_null = 1002;</code>
+       * <code>optional bool bundle_pricing_type_id_null = 1003;</code>
        */
       public boolean getBundlePricingTypeIdNull() {
         return bundlePricingTypeIdNull_;
       }
       /**
-       * <code>optional bool bundle_pricing_type_id_null = 1002;</code>
+       * <code>optional bool bundle_pricing_type_id_null = 1003;</code>
        */
       public Builder setBundlePricingTypeIdNull(boolean value) {
         
@@ -1049,7 +1293,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional bool bundle_pricing_type_id_null = 1002;</code>
+       * <code>optional bool bundle_pricing_type_id_null = 1003;</code>
        */
       public Builder clearBundlePricingTypeIdNull() {
         
@@ -1062,13 +1306,13 @@ public final class OmModifyCampBundlePricingAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> bundlePriceOrDiscountBuilder_;
       /**
-       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
        */
       public boolean hasBundlePriceOrDiscount() {
         return bundlePriceOrDiscountBuilder_ != null || bundlePriceOrDiscount_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
        */
       public io.dstore.Values.decimalValue getBundlePriceOrDiscount() {
         if (bundlePriceOrDiscountBuilder_ == null) {
@@ -1078,7 +1322,7 @@ public final class OmModifyCampBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
        */
       public Builder setBundlePriceOrDiscount(io.dstore.Values.decimalValue value) {
         if (bundlePriceOrDiscountBuilder_ == null) {
@@ -1094,7 +1338,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
        */
       public Builder setBundlePriceOrDiscount(
           io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -1108,7 +1352,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
        */
       public Builder mergeBundlePriceOrDiscount(io.dstore.Values.decimalValue value) {
         if (bundlePriceOrDiscountBuilder_ == null) {
@@ -1126,7 +1370,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
        */
       public Builder clearBundlePriceOrDiscount() {
         if (bundlePriceOrDiscountBuilder_ == null) {
@@ -1140,7 +1384,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
        */
       public io.dstore.Values.decimalValue.Builder getBundlePriceOrDiscountBuilder() {
         
@@ -1148,7 +1392,7 @@ public final class OmModifyCampBundlePricingAd {
         return getBundlePriceOrDiscountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getBundlePriceOrDiscountOrBuilder() {
         if (bundlePriceOrDiscountBuilder_ != null) {
@@ -1159,7 +1403,7 @@ public final class OmModifyCampBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 3;</code>
+       * <code>optional .dstore.values.decimalValue bundle_price_or_discount = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -1177,13 +1421,13 @@ public final class OmModifyCampBundlePricingAd {
 
       private boolean bundlePriceOrDiscountNull_ ;
       /**
-       * <code>optional bool bundle_price_or_discount_null = 1003;</code>
+       * <code>optional bool bundle_price_or_discount_null = 1004;</code>
        */
       public boolean getBundlePriceOrDiscountNull() {
         return bundlePriceOrDiscountNull_;
       }
       /**
-       * <code>optional bool bundle_price_or_discount_null = 1003;</code>
+       * <code>optional bool bundle_price_or_discount_null = 1004;</code>
        */
       public Builder setBundlePriceOrDiscountNull(boolean value) {
         
@@ -1192,7 +1436,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional bool bundle_price_or_discount_null = 1003;</code>
+       * <code>optional bool bundle_price_or_discount_null = 1004;</code>
        */
       public Builder clearBundlePriceOrDiscountNull() {
         
@@ -1205,13 +1449,13 @@ public final class OmModifyCampBundlePricingAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> netBasedPricingBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+       * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
        */
       public boolean hasNetBasedPricing() {
         return netBasedPricingBuilder_ != null || netBasedPricing_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+       * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
        */
       public io.dstore.Values.booleanValue getNetBasedPricing() {
         if (netBasedPricingBuilder_ == null) {
@@ -1221,7 +1465,7 @@ public final class OmModifyCampBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+       * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
        */
       public Builder setNetBasedPricing(io.dstore.Values.booleanValue value) {
         if (netBasedPricingBuilder_ == null) {
@@ -1237,7 +1481,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+       * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
        */
       public Builder setNetBasedPricing(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1251,7 +1495,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+       * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
        */
       public Builder mergeNetBasedPricing(io.dstore.Values.booleanValue value) {
         if (netBasedPricingBuilder_ == null) {
@@ -1269,7 +1513,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+       * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
        */
       public Builder clearNetBasedPricing() {
         if (netBasedPricingBuilder_ == null) {
@@ -1283,7 +1527,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+       * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
        */
       public io.dstore.Values.booleanValue.Builder getNetBasedPricingBuilder() {
         
@@ -1291,7 +1535,7 @@ public final class OmModifyCampBundlePricingAd {
         return getNetBasedPricingFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+       * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getNetBasedPricingOrBuilder() {
         if (netBasedPricingBuilder_ != null) {
@@ -1302,7 +1546,7 @@ public final class OmModifyCampBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue net_based_pricing = 4;</code>
+       * <code>optional .dstore.values.booleanValue net_based_pricing = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1320,13 +1564,13 @@ public final class OmModifyCampBundlePricingAd {
 
       private boolean netBasedPricingNull_ ;
       /**
-       * <code>optional bool net_based_pricing_null = 1004;</code>
+       * <code>optional bool net_based_pricing_null = 1005;</code>
        */
       public boolean getNetBasedPricingNull() {
         return netBasedPricingNull_;
       }
       /**
-       * <code>optional bool net_based_pricing_null = 1004;</code>
+       * <code>optional bool net_based_pricing_null = 1005;</code>
        */
       public Builder setNetBasedPricingNull(boolean value) {
         
@@ -1335,7 +1579,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional bool net_based_pricing_null = 1004;</code>
+       * <code>optional bool net_based_pricing_null = 1005;</code>
        */
       public Builder clearNetBasedPricingNull() {
         
@@ -1348,13 +1592,13 @@ public final class OmModifyCampBundlePricingAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteBenefitBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
        */
       public boolean hasDeleteBenefit() {
         return deleteBenefitBuilder_ != null || deleteBenefit_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
        */
       public io.dstore.Values.integerValue getDeleteBenefit() {
         if (deleteBenefitBuilder_ == null) {
@@ -1364,7 +1608,7 @@ public final class OmModifyCampBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
        */
       public Builder setDeleteBenefit(io.dstore.Values.integerValue value) {
         if (deleteBenefitBuilder_ == null) {
@@ -1380,7 +1624,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
        */
       public Builder setDeleteBenefit(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1394,7 +1638,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
        */
       public Builder mergeDeleteBenefit(io.dstore.Values.integerValue value) {
         if (deleteBenefitBuilder_ == null) {
@@ -1412,7 +1656,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
        */
       public Builder clearDeleteBenefit() {
         if (deleteBenefitBuilder_ == null) {
@@ -1426,7 +1670,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
        */
       public io.dstore.Values.integerValue.Builder getDeleteBenefitBuilder() {
         
@@ -1434,7 +1678,7 @@ public final class OmModifyCampBundlePricingAd {
         return getDeleteBenefitFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getDeleteBenefitOrBuilder() {
         if (deleteBenefitBuilder_ != null) {
@@ -1445,7 +1689,7 @@ public final class OmModifyCampBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_benefit = 5;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1463,13 +1707,13 @@ public final class OmModifyCampBundlePricingAd {
 
       private boolean deleteBenefitNull_ ;
       /**
-       * <code>optional bool delete_benefit_null = 1005;</code>
+       * <code>optional bool delete_benefit_null = 1006;</code>
        */
       public boolean getDeleteBenefitNull() {
         return deleteBenefitNull_;
       }
       /**
-       * <code>optional bool delete_benefit_null = 1005;</code>
+       * <code>optional bool delete_benefit_null = 1006;</code>
        */
       public Builder setDeleteBenefitNull(boolean value) {
         
@@ -1478,7 +1722,7 @@ public final class OmModifyCampBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional bool delete_benefit_null = 1005;</code>
+       * <code>optional bool delete_benefit_null = 1006;</code>
        */
       public Builder clearDeleteBenefitNull() {
         
@@ -3719,29 +3963,32 @@ public final class OmModifyCampBundlePricingAd {
       "_ModifyCampBundlePricing_Ad\032\023dstore/valu" +
       "es.proto\032\031dstore/engine/error.proto\032\033dst" +
       "ore/engine/message.proto\032#dstore/engine/" +
-      "metainformation.proto\"\365\003\n\nParameters\022C\n\036" +
+      "metainformation.proto\"\300\004\n\nParameters\022C\n\036" +
       "abs_discount_surcharge_type_id\030\001 \001(\0132\033.d" +
       "store.values.integerValue\022,\n#abs_discoun" +
-      "t_surcharge_type_id_null\030\351\007 \001(\010\022;\n\026bundl" +
-      "e_pricing_type_id\030\002 \001(\0132\033.dstore.values.",
-      "integerValue\022$\n\033bundle_pricing_type_id_n" +
-      "ull\030\352\007 \001(\010\022=\n\030bundle_price_or_discount\030\003" +
-      " \001(\0132\033.dstore.values.decimalValue\022&\n\035bun" +
-      "dle_price_or_discount_null\030\353\007 \001(\010\0226\n\021net" +
-      "_based_pricing\030\004 \001(\0132\033.dstore.values.boo" +
-      "leanValue\022\037\n\026net_based_pricing_null\030\354\007 \001" +
-      "(\010\0223\n\016delete_benefit\030\005 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022\034\n\023delete_benefit_null\030\355" +
-      "\007 \001(\010\"\301\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
-      "re.engine.error.Error\022H\n\020meta_informatio",
-      "n\030\002 \003(\0132..dstore.engine.metainformation." +
-      "MetaInformation\022/\n\007message\030\003 \003(\0132\036.dstor" +
-      "e.engine.message.Message\022F\n\003row\030\004 \003(\01329." +
-      "dstore.engine.om_ModifyCampBundlePricing" +
-      "_Ad.Response.Row\022/\n\nbenefit_id\030e \001(\0132\033.d" +
-      "store.values.integerValue\032\026\n\003Row\022\017\n\006row_" +
-      "id\030\220N \001(\005B\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "t_surcharge_type_id_null\030\351\007 \001(\010\022/\n\nbenef" +
+      "it_id\030\002 \001(\0132\033.dstore.values.integerValue",
+      "\022\030\n\017benefit_id_null\030\352\007 \001(\010\022;\n\026bundle_pri" +
+      "cing_type_id\030\003 \001(\0132\033.dstore.values.integ" +
+      "erValue\022$\n\033bundle_pricing_type_id_null\030\353" +
+      "\007 \001(\010\022=\n\030bundle_price_or_discount\030\004 \001(\0132" +
+      "\033.dstore.values.decimalValue\022&\n\035bundle_p" +
+      "rice_or_discount_null\030\354\007 \001(\010\0226\n\021net_base" +
+      "d_pricing\030\005 \001(\0132\033.dstore.values.booleanV" +
+      "alue\022\037\n\026net_based_pricing_null\030\355\007 \001(\010\0223\n" +
+      "\016delete_benefit\030\006 \001(\0132\033.dstore.values.in" +
+      "tegerValue\022\034\n\023delete_benefit_null\030\356\007 \001(\010",
+      "\"\301\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.en" +
+      "gine.error.Error\022H\n\020meta_information\030\002 \003" +
+      "(\0132..dstore.engine.metainformation.MetaI" +
+      "nformation\022/\n\007message\030\003 \003(\0132\036.dstore.eng" +
+      "ine.message.Message\022F\n\003row\030\004 \003(\01329.dstor" +
+      "e.engine.om_ModifyCampBundlePricing_Ad.R" +
+      "esponse.Row\022/\n\nbenefit_id\030e \001(\0132\033.dstore" +
+      ".values.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N" +
+      " \001(\005B^\n\033io.dstore.engine.proceduresZ?gos" +
+      "dk.dstore.de/engine/procedures/om_Modify",
+      "CampBundlePricing_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3764,7 +4011,7 @@ public final class OmModifyCampBundlePricingAd {
     internal_static_dstore_engine_om_ModifyCampBundlePricing_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampBundlePricing_Ad_Parameters_descriptor,
-        new java.lang.String[] { "AbsDiscountSurchargeTypeId", "AbsDiscountSurchargeTypeIdNull", "BundlePricingTypeId", "BundlePricingTypeIdNull", "BundlePriceOrDiscount", "BundlePriceOrDiscountNull", "NetBasedPricing", "NetBasedPricingNull", "DeleteBenefit", "DeleteBenefitNull", });
+        new java.lang.String[] { "AbsDiscountSurchargeTypeId", "AbsDiscountSurchargeTypeIdNull", "BenefitId", "BenefitIdNull", "BundlePricingTypeId", "BundlePricingTypeIdNull", "BundlePriceOrDiscount", "BundlePriceOrDiscountNull", "NetBasedPricing", "NetBasedPricingNull", "DeleteBenefit", "DeleteBenefitNull", });
     internal_static_dstore_engine_om_ModifyCampBundlePricing_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_ModifyCampBundlePricing_Ad_Response_fieldAccessorTable = new

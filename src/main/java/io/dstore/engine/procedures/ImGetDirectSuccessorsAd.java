@@ -7852,8 +7852,9 @@ public final class ImGetDirectSuccessorsAd {
       "(\0132\033.dstore.values.integerValue\022/\n\010value" +
       "_id\030\244\234\001 \001(\0132\033.dstore.values.integerValue" +
       "\022+\n\005value\030\252\234\001 \001(\0132\032.dstore.values.string",
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "ValueBZ\n\033io.dstore.engine.proceduresZ;go" +
+      "sdk.dstore.de/engine/procedures/im_GetDi" +
+      "rectSuccessors_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

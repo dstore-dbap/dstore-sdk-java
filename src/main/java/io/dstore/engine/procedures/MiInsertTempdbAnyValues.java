@@ -3663,8 +3663,9 @@ public final class MiInsertTempdbAnyValues {
       "age\030\003 \003(\0132\036.dstore.engine.message.Messag",
       "e\022B\n\003row\030\004 \003(\01325.dstore.engine.mi_Insert" +
       "Tempdb_AnyValues.Response.Row\032\026\n\003Row\022\017\n\006" +
-      "row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      "row_id\030\220N \001(\005BZ\n\033io.dstore.engine.proced" +
+      "uresZ;gosdk.dstore.de/engine/procedures/" +
+      "mi_InsertTempdb_AnyValuesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5142,7 +5142,9 @@ public final class OmModifyTrolleyContentInfoPu {
       "es.integerValue\0224\n\016h_tree_node_id\030\222N \001(\013" +
       "2\033.dstore.values.integerValue\0220\n\nerror_c" +
       "ode\030\223N \001(\0132\033.dstore.values.integerValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "_\n\033io.dstore.engine.proceduresZ@gosdk.ds" +
+      "tore.de/engine/procedures/om_ModifyTroll" +
+      "eyContentInfo_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

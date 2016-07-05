@@ -4650,8 +4650,10 @@ public final class MiGetApplicationSettingsAd {
       "(\0132\032.dstore.values.stringValue\0224\n\016applic" +
       "ation_id\030\223N \001(\0132\033.dstore.values.integerV" +
       "alue\022D\n\036value_derived_from_global_user\030\224" +
-      "N \001(\0132\033.dstore.values.booleanValueB\035\n\033io",
-      ".dstore.engine.proceduresb\006proto3"
+      "N \001(\0132\033.dstore.values.booleanValueB]\n\033io",
+      ".dstore.engine.proceduresZ>gosdk.dstore." +
+      "de/engine/procedures/mi_GetApplicationSe" +
+      "ttings_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

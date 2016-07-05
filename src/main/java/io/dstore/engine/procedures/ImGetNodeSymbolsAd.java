@@ -3171,8 +3171,9 @@ public final class ImGetNodeSymbolsAd {
       "Response.Row\032s\n\003Row\022\017\n\006row_id\030\220N \001(\005\022*\n\006" +
       "symbol\030\221N \001(\0132\031.dstore.values.bytesValue" +
       "\022/\n\tsymbol_id\030\222N \001(\0132\033.dstore.values.int" +
-      "egerValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "egerValueBU\n\033io.dstore.engine.procedures" +
+      "Z6gosdk.dstore.de/engine/procedures/im_G" +
+      "etNodeSymbols_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

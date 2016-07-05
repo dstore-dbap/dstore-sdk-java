@@ -6619,8 +6619,9 @@ public final class StGetPersonPDStatisticsAd {
       "dstore.values.decimalValue\022+\n\003day\030\231N \001(\013" +
       "2\035.dstore.values.timestampValue\022A\n\033basic" +
       "_characteristic_number\030\232N \001(\0132\033.dstore.v",
-      "alues.integerValueB\035\n\033io.dstore.engine.p" +
-      "roceduresb\006proto3"
+      "alues.integerValueB\\\n\033io.dstore.engine.p" +
+      "roceduresZ=gosdk.dstore.de/engine/proced" +
+      "ures/st_GetPersonPDStatistics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

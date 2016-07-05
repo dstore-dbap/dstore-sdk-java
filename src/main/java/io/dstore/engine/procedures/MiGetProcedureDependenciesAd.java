@@ -4651,8 +4651,9 @@ public final class MiGetProcedureDependenciesAd {
       "re.values.integerValue\0223\n\016procedure_name" +
       "\030\224N \001(\0132\032.dstore.values.stringValue\0221\n\013s" +
       "tatus_code\030\225N \001(\0132\033.dstore.values.intege" +
-      "rValueB\035\n\033io.dstore.engine.proceduresb\006p",
-      "roto3"
+      "rValueB_\n\033io.dstore.engine.proceduresZ@g",
+      "osdk.dstore.de/engine/procedures/mi_GetP" +
+      "rocedureDependencies_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

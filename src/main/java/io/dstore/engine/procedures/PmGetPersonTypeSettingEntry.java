@@ -49,56 +49,74 @@ public final class PmGetPersonTypeSettingEntry {
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    boolean hasValue();
+    /**
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    io.dstore.Values.stringValue getValue();
+    /**
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+
+    /**
+     * <code>optional bool value_null = 1003;</code>
+     */
+    boolean getValueNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     io.dstore.Values.booleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
-     * <code>optional bool select_result_null = 1003;</code>
+     * <code>optional bool select_result_null = 1004;</code>
      */
     boolean getSelectResultNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     boolean hasPrintErrorMsgIfEntryIsMissing();
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     io.dstore.Values.booleanValue getPrintErrorMsgIfEntryIsMissing();
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder();
 
     /**
-     * <code>optional bool print_error_msg_if_entry_is_missing_null = 1004;</code>
+     * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
      */
     boolean getPrintErrorMsgIfEntryIsMissingNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
      */
     boolean hasTryGlobalSettingForMissingKey();
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
      */
     io.dstore.Values.booleanValue getTryGlobalSettingForMissingKey();
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getTryGlobalSettingForMissingKeyOrBuilder();
 
     /**
-     * <code>optional bool try_global_setting_for_missing_key_null = 1005;</code>
+     * <code>optional bool try_global_setting_for_missing_key_null = 1006;</code>
      */
     boolean getTryGlobalSettingForMissingKeyNull();
   }
@@ -116,6 +134,7 @@ public final class PmGetPersonTypeSettingEntry {
     private Parameters() {
       personTypeIdNull_ = false;
       keyVariableNull_ = false;
+      valueNull_ = false;
       selectResultNull_ = false;
       printErrorMsgIfEntryIsMissingNull_ = false;
       tryGlobalSettingForMissingKeyNull_ = false;
@@ -172,6 +191,19 @@ public final class PmGetPersonTypeSettingEntry {
               break;
             }
             case 26: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (value_ != null) {
+                subBuilder = value_.toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(value_);
+                value_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 34: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
@@ -184,7 +216,7 @@ public final class PmGetPersonTypeSettingEntry {
 
               break;
             }
-            case 34: {
+            case 42: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (printErrorMsgIfEntryIsMissing_ != null) {
                 subBuilder = printErrorMsgIfEntryIsMissing_.toBuilder();
@@ -197,7 +229,7 @@ public final class PmGetPersonTypeSettingEntry {
 
               break;
             }
-            case 42: {
+            case 50: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (tryGlobalSettingForMissingKey_ != null) {
                 subBuilder = tryGlobalSettingForMissingKey_.toBuilder();
@@ -222,15 +254,20 @@ public final class PmGetPersonTypeSettingEntry {
             }
             case 8024: {
 
-              selectResultNull_ = input.readBool();
+              valueNull_ = input.readBool();
               break;
             }
             case 8032: {
 
-              printErrorMsgIfEntryIsMissingNull_ = input.readBool();
+              selectResultNull_ = input.readBool();
               break;
             }
             case 8040: {
+
+              printErrorMsgIfEntryIsMissingNull_ = input.readBool();
+              break;
+            }
+            case 8048: {
 
               tryGlobalSettingForMissingKeyNull_ = input.readBool();
               break;
@@ -319,91 +356,121 @@ public final class PmGetPersonTypeSettingEntry {
       return keyVariableNull_;
     }
 
-    public static final int SELECT_RESULT_FIELD_NUMBER = 3;
+    public static final int VALUE_FIELD_NUMBER = 3;
+    private io.dstore.Values.stringValue value_;
+    /**
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    public boolean hasValue() {
+      return value_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    public io.dstore.Values.stringValue getValue() {
+      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      return getValue();
+    }
+
+    public static final int VALUE_NULL_FIELD_NUMBER = 1003;
+    private boolean valueNull_;
+    /**
+     * <code>optional bool value_null = 1003;</code>
+     */
+    public boolean getValueNull() {
+      return valueNull_;
+    }
+
+    public static final int SELECT_RESULT_FIELD_NUMBER = 4;
     private io.dstore.Values.booleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     public io.dstore.Values.booleanValue getSelectResult() {
       return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
-    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1003;
+    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1004;
     private boolean selectResultNull_;
     /**
-     * <code>optional bool select_result_null = 1003;</code>
+     * <code>optional bool select_result_null = 1004;</code>
      */
     public boolean getSelectResultNull() {
       return selectResultNull_;
     }
 
-    public static final int PRINT_ERROR_MSG_IF_ENTRY_IS_MISSING_FIELD_NUMBER = 4;
+    public static final int PRINT_ERROR_MSG_IF_ENTRY_IS_MISSING_FIELD_NUMBER = 5;
     private io.dstore.Values.booleanValue printErrorMsgIfEntryIsMissing_;
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     public boolean hasPrintErrorMsgIfEntryIsMissing() {
       return printErrorMsgIfEntryIsMissing_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     public io.dstore.Values.booleanValue getPrintErrorMsgIfEntryIsMissing() {
       return printErrorMsgIfEntryIsMissing_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : printErrorMsgIfEntryIsMissing_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder() {
       return getPrintErrorMsgIfEntryIsMissing();
     }
 
-    public static final int PRINT_ERROR_MSG_IF_ENTRY_IS_MISSING_NULL_FIELD_NUMBER = 1004;
+    public static final int PRINT_ERROR_MSG_IF_ENTRY_IS_MISSING_NULL_FIELD_NUMBER = 1005;
     private boolean printErrorMsgIfEntryIsMissingNull_;
     /**
-     * <code>optional bool print_error_msg_if_entry_is_missing_null = 1004;</code>
+     * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
      */
     public boolean getPrintErrorMsgIfEntryIsMissingNull() {
       return printErrorMsgIfEntryIsMissingNull_;
     }
 
-    public static final int TRY_GLOBAL_SETTING_FOR_MISSING_KEY_FIELD_NUMBER = 5;
+    public static final int TRY_GLOBAL_SETTING_FOR_MISSING_KEY_FIELD_NUMBER = 6;
     private io.dstore.Values.booleanValue tryGlobalSettingForMissingKey_;
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
      */
     public boolean hasTryGlobalSettingForMissingKey() {
       return tryGlobalSettingForMissingKey_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
      */
     public io.dstore.Values.booleanValue getTryGlobalSettingForMissingKey() {
       return tryGlobalSettingForMissingKey_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : tryGlobalSettingForMissingKey_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getTryGlobalSettingForMissingKeyOrBuilder() {
       return getTryGlobalSettingForMissingKey();
     }
 
-    public static final int TRY_GLOBAL_SETTING_FOR_MISSING_KEY_NULL_FIELD_NUMBER = 1005;
+    public static final int TRY_GLOBAL_SETTING_FOR_MISSING_KEY_NULL_FIELD_NUMBER = 1006;
     private boolean tryGlobalSettingForMissingKeyNull_;
     /**
-     * <code>optional bool try_global_setting_for_missing_key_null = 1005;</code>
+     * <code>optional bool try_global_setting_for_missing_key_null = 1006;</code>
      */
     public boolean getTryGlobalSettingForMissingKeyNull() {
       return tryGlobalSettingForMissingKeyNull_;
@@ -427,14 +494,17 @@ public final class PmGetPersonTypeSettingEntry {
       if (keyVariable_ != null) {
         output.writeMessage(2, getKeyVariable());
       }
+      if (value_ != null) {
+        output.writeMessage(3, getValue());
+      }
       if (selectResult_ != null) {
-        output.writeMessage(3, getSelectResult());
+        output.writeMessage(4, getSelectResult());
       }
       if (printErrorMsgIfEntryIsMissing_ != null) {
-        output.writeMessage(4, getPrintErrorMsgIfEntryIsMissing());
+        output.writeMessage(5, getPrintErrorMsgIfEntryIsMissing());
       }
       if (tryGlobalSettingForMissingKey_ != null) {
-        output.writeMessage(5, getTryGlobalSettingForMissingKey());
+        output.writeMessage(6, getTryGlobalSettingForMissingKey());
       }
       if (personTypeIdNull_ != false) {
         output.writeBool(1001, personTypeIdNull_);
@@ -442,14 +512,17 @@ public final class PmGetPersonTypeSettingEntry {
       if (keyVariableNull_ != false) {
         output.writeBool(1002, keyVariableNull_);
       }
+      if (valueNull_ != false) {
+        output.writeBool(1003, valueNull_);
+      }
       if (selectResultNull_ != false) {
-        output.writeBool(1003, selectResultNull_);
+        output.writeBool(1004, selectResultNull_);
       }
       if (printErrorMsgIfEntryIsMissingNull_ != false) {
-        output.writeBool(1004, printErrorMsgIfEntryIsMissingNull_);
+        output.writeBool(1005, printErrorMsgIfEntryIsMissingNull_);
       }
       if (tryGlobalSettingForMissingKeyNull_ != false) {
-        output.writeBool(1005, tryGlobalSettingForMissingKeyNull_);
+        output.writeBool(1006, tryGlobalSettingForMissingKeyNull_);
       }
     }
 
@@ -466,17 +539,21 @@ public final class PmGetPersonTypeSettingEntry {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, getKeyVariable());
       }
+      if (value_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getValue());
+      }
       if (selectResult_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getSelectResult());
+          .computeMessageSize(4, getSelectResult());
       }
       if (printErrorMsgIfEntryIsMissing_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getPrintErrorMsgIfEntryIsMissing());
+          .computeMessageSize(5, getPrintErrorMsgIfEntryIsMissing());
       }
       if (tryGlobalSettingForMissingKey_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getTryGlobalSettingForMissingKey());
+          .computeMessageSize(6, getTryGlobalSettingForMissingKey());
       }
       if (personTypeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -486,17 +563,21 @@ public final class PmGetPersonTypeSettingEntry {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1002, keyVariableNull_);
       }
+      if (valueNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1003, valueNull_);
+      }
       if (selectResultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, selectResultNull_);
+          .computeBoolSize(1004, selectResultNull_);
       }
       if (printErrorMsgIfEntryIsMissingNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, printErrorMsgIfEntryIsMissingNull_);
+          .computeBoolSize(1005, printErrorMsgIfEntryIsMissingNull_);
       }
       if (tryGlobalSettingForMissingKeyNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, tryGlobalSettingForMissingKeyNull_);
+          .computeBoolSize(1006, tryGlobalSettingForMissingKeyNull_);
       }
       memoizedSize = size;
       return size;
@@ -625,6 +706,14 @@ public final class PmGetPersonTypeSettingEntry {
         }
         keyVariableNull_ = false;
 
+        if (valueBuilder_ == null) {
+          value_ = null;
+        } else {
+          value_ = null;
+          valueBuilder_ = null;
+        }
+        valueNull_ = false;
+
         if (selectResultBuilder_ == null) {
           selectResult_ = null;
         } else {
@@ -683,6 +772,12 @@ public final class PmGetPersonTypeSettingEntry {
           result.keyVariable_ = keyVariableBuilder_.build();
         }
         result.keyVariableNull_ = keyVariableNull_;
+        if (valueBuilder_ == null) {
+          result.value_ = value_;
+        } else {
+          result.value_ = valueBuilder_.build();
+        }
+        result.valueNull_ = valueNull_;
         if (selectResultBuilder_ == null) {
           result.selectResult_ = selectResult_;
         } else {
@@ -727,6 +822,12 @@ public final class PmGetPersonTypeSettingEntry {
         }
         if (other.getKeyVariableNull() != false) {
           setKeyVariableNull(other.getKeyVariableNull());
+        }
+        if (other.hasValue()) {
+          mergeValue(other.getValue());
+        }
+        if (other.getValueNull() != false) {
+          setValueNull(other.getValueNull());
         }
         if (other.hasSelectResult()) {
           mergeSelectResult(other.getSelectResult());
@@ -1058,17 +1159,160 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
 
+      private io.dstore.Values.stringValue value_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public boolean hasValue() {
+        return valueBuilder_ != null || value_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public io.dstore.Values.stringValue getValue() {
+        if (valueBuilder_ == null) {
+          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+        } else {
+          return valueBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public Builder setValue(io.dstore.Values.stringValue value) {
+        if (valueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          valueBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public Builder setValue(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (valueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          valueBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public Builder mergeValue(io.dstore.Values.stringValue value) {
+        if (valueBuilder_ == null) {
+          if (value_ != null) {
+            value_ =
+              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          valueBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public Builder clearValue() {
+        if (valueBuilder_ == null) {
+          value_ = null;
+          onChanged();
+        } else {
+          value_ = null;
+          valueBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        
+        onChanged();
+        return getValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        if (valueBuilder_ != null) {
+          return valueBuilder_.getMessageOrBuilder();
+        } else {
+          return value_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getValueFieldBuilder() {
+        if (valueBuilder_ == null) {
+          valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getValue(),
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        return valueBuilder_;
+      }
+
+      private boolean valueNull_ ;
+      /**
+       * <code>optional bool value_null = 1003;</code>
+       */
+      public boolean getValueNull() {
+        return valueNull_;
+      }
+      /**
+       * <code>optional bool value_null = 1003;</code>
+       */
+      public Builder setValueNull(boolean value) {
+        
+        valueNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool value_null = 1003;</code>
+       */
+      public Builder clearValueNull() {
+        
+        valueNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public io.dstore.Values.booleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1078,7 +1322,7 @@ public final class PmGetPersonTypeSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder setSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1094,7 +1338,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder setSelectResult(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1108,7 +1352,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1126,7 +1370,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1140,7 +1384,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
         
@@ -1148,7 +1392,7 @@ public final class PmGetPersonTypeSettingEntry {
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
@@ -1159,7 +1403,7 @@ public final class PmGetPersonTypeSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1177,13 +1421,13 @@ public final class PmGetPersonTypeSettingEntry {
 
       private boolean selectResultNull_ ;
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>optional bool select_result_null = 1004;</code>
        */
       public boolean getSelectResultNull() {
         return selectResultNull_;
       }
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>optional bool select_result_null = 1004;</code>
        */
       public Builder setSelectResultNull(boolean value) {
         
@@ -1192,7 +1436,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>optional bool select_result_null = 1004;</code>
        */
       public Builder clearSelectResultNull() {
         
@@ -1205,13 +1449,13 @@ public final class PmGetPersonTypeSettingEntry {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> printErrorMsgIfEntryIsMissingBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public boolean hasPrintErrorMsgIfEntryIsMissing() {
         return printErrorMsgIfEntryIsMissingBuilder_ != null || printErrorMsgIfEntryIsMissing_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public io.dstore.Values.booleanValue getPrintErrorMsgIfEntryIsMissing() {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
@@ -1221,7 +1465,7 @@ public final class PmGetPersonTypeSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public Builder setPrintErrorMsgIfEntryIsMissing(io.dstore.Values.booleanValue value) {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
@@ -1237,7 +1481,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public Builder setPrintErrorMsgIfEntryIsMissing(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1251,7 +1495,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public Builder mergePrintErrorMsgIfEntryIsMissing(io.dstore.Values.booleanValue value) {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
@@ -1269,7 +1513,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public Builder clearPrintErrorMsgIfEntryIsMissing() {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
@@ -1283,7 +1527,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public io.dstore.Values.booleanValue.Builder getPrintErrorMsgIfEntryIsMissingBuilder() {
         
@@ -1291,7 +1535,7 @@ public final class PmGetPersonTypeSettingEntry {
         return getPrintErrorMsgIfEntryIsMissingFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder() {
         if (printErrorMsgIfEntryIsMissingBuilder_ != null) {
@@ -1302,7 +1546,7 @@ public final class PmGetPersonTypeSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1320,13 +1564,13 @@ public final class PmGetPersonTypeSettingEntry {
 
       private boolean printErrorMsgIfEntryIsMissingNull_ ;
       /**
-       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1004;</code>
+       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
        */
       public boolean getPrintErrorMsgIfEntryIsMissingNull() {
         return printErrorMsgIfEntryIsMissingNull_;
       }
       /**
-       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1004;</code>
+       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
        */
       public Builder setPrintErrorMsgIfEntryIsMissingNull(boolean value) {
         
@@ -1335,7 +1579,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1004;</code>
+       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
        */
       public Builder clearPrintErrorMsgIfEntryIsMissingNull() {
         
@@ -1348,13 +1592,13 @@ public final class PmGetPersonTypeSettingEntry {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> tryGlobalSettingForMissingKeyBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public boolean hasTryGlobalSettingForMissingKey() {
         return tryGlobalSettingForMissingKeyBuilder_ != null || tryGlobalSettingForMissingKey_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public io.dstore.Values.booleanValue getTryGlobalSettingForMissingKey() {
         if (tryGlobalSettingForMissingKeyBuilder_ == null) {
@@ -1364,7 +1608,7 @@ public final class PmGetPersonTypeSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public Builder setTryGlobalSettingForMissingKey(io.dstore.Values.booleanValue value) {
         if (tryGlobalSettingForMissingKeyBuilder_ == null) {
@@ -1380,7 +1624,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public Builder setTryGlobalSettingForMissingKey(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1394,7 +1638,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public Builder mergeTryGlobalSettingForMissingKey(io.dstore.Values.booleanValue value) {
         if (tryGlobalSettingForMissingKeyBuilder_ == null) {
@@ -1412,7 +1656,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public Builder clearTryGlobalSettingForMissingKey() {
         if (tryGlobalSettingForMissingKeyBuilder_ == null) {
@@ -1426,7 +1670,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public io.dstore.Values.booleanValue.Builder getTryGlobalSettingForMissingKeyBuilder() {
         
@@ -1434,7 +1678,7 @@ public final class PmGetPersonTypeSettingEntry {
         return getTryGlobalSettingForMissingKeyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getTryGlobalSettingForMissingKeyOrBuilder() {
         if (tryGlobalSettingForMissingKeyBuilder_ != null) {
@@ -1445,7 +1689,7 @@ public final class PmGetPersonTypeSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 5;</code>
+       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1463,13 +1707,13 @@ public final class PmGetPersonTypeSettingEntry {
 
       private boolean tryGlobalSettingForMissingKeyNull_ ;
       /**
-       * <code>optional bool try_global_setting_for_missing_key_null = 1005;</code>
+       * <code>optional bool try_global_setting_for_missing_key_null = 1006;</code>
        */
       public boolean getTryGlobalSettingForMissingKeyNull() {
         return tryGlobalSettingForMissingKeyNull_;
       }
       /**
-       * <code>optional bool try_global_setting_for_missing_key_null = 1005;</code>
+       * <code>optional bool try_global_setting_for_missing_key_null = 1006;</code>
        */
       public Builder setTryGlobalSettingForMissingKeyNull(boolean value) {
         
@@ -1478,7 +1722,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional bool try_global_setting_for_missing_key_null = 1005;</code>
+       * <code>optional bool try_global_setting_for_missing_key_null = 1006;</code>
        */
       public Builder clearTryGlobalSettingForMissingKeyNull() {
         
@@ -3964,30 +4208,33 @@ public final class PmGetPersonTypeSettingEntry {
       "GetPersonTypeSettingEntry\032\023dstore/values" +
       ".proto\032\031dstore/engine/error.proto\032\033dstor" +
       "e/engine/message.proto\032#dstore/engine/me" +
-      "tainformation.proto\"\366\003\n\nParameters\0223\n\016pe" +
+      "tainformation.proto\"\266\004\n\nParameters\0223\n\016pe" +
       "rson_type_id\030\001 \001(\0132\033.dstore.values.integ" +
       "erValue\022\034\n\023person_type_id_null\030\351\007 \001(\010\0220\n" +
       "\014key_variable\030\002 \001(\0132\032.dstore.values.stri" +
-      "ngValue\022\032\n\021key_variable_null\030\352\007 \001(\010\0222\n\rs",
-      "elect_result\030\003 \001(\0132\033.dstore.values.boole" +
-      "anValue\022\033\n\022select_result_null\030\353\007 \001(\010\022H\n#" +
-      "print_error_msg_if_entry_is_missing\030\004 \001(" +
-      "\0132\033.dstore.values.booleanValue\0221\n(print_" +
-      "error_msg_if_entry_is_missing_null\030\354\007 \001(" +
-      "\010\022G\n\"try_global_setting_for_missing_key\030" +
-      "\005 \001(\0132\033.dstore.values.booleanValue\0220\n\'tr" +
-      "y_global_setting_for_missing_key_null\030\355\007" +
-      " \001(\010\"\346\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
-      "e.engine.error.Error\022H\n\020meta_information",
-      "\030\002 \003(\0132..dstore.engine.metainformation.M" +
-      "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore" +
-      ".engine.message.Message\022E\n\003row\030\004 \003(\01328.d" +
-      "store.engine.pm_GetPersonTypeSettingEntr" +
-      "y.Response.Row\022)\n\005value\030e \001(\0132\032.dstore.v" +
-      "alues.stringValue\032B\n\003Row\022\017\n\006row_id\030\220N \001(" +
-      "\005\022*\n\005value\030\221N \001(\0132\032.dstore.values.string" +
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "ngValue\022\032\n\021key_variable_null\030\352\007 \001(\010\022)\n\005v",
+      "alue\030\003 \001(\0132\032.dstore.values.stringValue\022\023" +
+      "\n\nvalue_null\030\353\007 \001(\010\0222\n\rselect_result\030\004 \001" +
+      "(\0132\033.dstore.values.booleanValue\022\033\n\022selec" +
+      "t_result_null\030\354\007 \001(\010\022H\n#print_error_msg_" +
+      "if_entry_is_missing\030\005 \001(\0132\033.dstore.value" +
+      "s.booleanValue\0221\n(print_error_msg_if_ent" +
+      "ry_is_missing_null\030\355\007 \001(\010\022G\n\"try_global_" +
+      "setting_for_missing_key\030\006 \001(\0132\033.dstore.v" +
+      "alues.booleanValue\0220\n\'try_global_setting" +
+      "_for_missing_key_null\030\356\007 \001(\010\"\346\002\n\010Respons",
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore." +
+      "engine.metainformation.MetaInformation\022/" +
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022E\n\003row\030\004 \003(\01328.dstore.engine.pm_" +
+      "GetPersonTypeSettingEntry.Response.Row\022)" +
+      "\n\005value\030e \001(\0132\032.dstore.values.stringValu" +
+      "e\032B\n\003Row\022\017\n\006row_id\030\220N \001(\005\022*\n\005value\030\221N \001(" +
+      "\0132\032.dstore.values.stringValueB]\n\033io.dsto" +
+      "re.engine.proceduresZ>gosdk.dstore.de/en",
+      "gine/procedures/pm_GetPersonTypeSettingE" +
+      "ntryb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4010,7 +4257,7 @@ public final class PmGetPersonTypeSettingEntry {
     internal_static_dstore_engine_pm_GetPersonTypeSettingEntry_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersonTypeSettingEntry_Parameters_descriptor,
-        new java.lang.String[] { "PersonTypeId", "PersonTypeIdNull", "KeyVariable", "KeyVariableNull", "SelectResult", "SelectResultNull", "PrintErrorMsgIfEntryIsMissing", "PrintErrorMsgIfEntryIsMissingNull", "TryGlobalSettingForMissingKey", "TryGlobalSettingForMissingKeyNull", });
+        new java.lang.String[] { "PersonTypeId", "PersonTypeIdNull", "KeyVariable", "KeyVariableNull", "Value", "ValueNull", "SelectResult", "SelectResultNull", "PrintErrorMsgIfEntryIsMissing", "PrintErrorMsgIfEntryIsMissingNull", "TryGlobalSettingForMissingKey", "TryGlobalSettingForMissingKeyNull", });
     internal_static_dstore_engine_pm_GetPersonTypeSettingEntry_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_GetPersonTypeSettingEntry_Response_fieldAccessorTable = new

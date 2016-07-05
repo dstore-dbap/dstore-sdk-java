@@ -3418,8 +3418,10 @@ public final class PmGetPersonCharacValueIDAd {
       "esponse.Row\032\206\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022>\n\030" +
       "person_characteristic_id\030\221N \001(\0132\033.dstore" +
       ".values.integerValue\022.\n\010value_id\030\222N \001(\0132" +
-      "\033.dstore.values.integerValueB\035\n\033io.dstor",
-      "e.engine.proceduresb\006proto3"
+      "\033.dstore.values.integerValueB]\n\033io.dstor",
+      "e.engine.proceduresZ>gosdk.dstore.de/eng" +
+      "ine/procedures/pm_GetPersonCharacValueID" +
+      "_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

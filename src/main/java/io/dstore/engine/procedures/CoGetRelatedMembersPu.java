@@ -8346,8 +8346,10 @@ public final class CoGetRelatedMembersPu {
       "2\033.dstore.values.integerValue\022A\n\034value3_" +
       "restricted_by_pattern\030\234N \001(\0132\032.dstore.va" +
       "lues.stringValue\022-\n\010nickname\030\235N \001(\0132\032.ds" +
-      "tore.values.stringValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "tore.values.stringValueBX\n\033io.dstore.eng" +
+      "ine.proceduresZ9gosdk.dstore.de/engine/p" +
+      "rocedures/co_GetRelatedMembers_Pub\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

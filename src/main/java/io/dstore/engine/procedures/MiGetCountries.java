@@ -4647,8 +4647,10 @@ public final class MiGetCountries {
       "ingValue\022/\n\tregion_id\030\224N \001(\0132\033.dstore.va" +
       "lues.integerValue\0221\n\014country_code\030\225N \001(\013" +
       "2\032.dstore.values.stringValue\022-\n\007sort_no\030" +
-      "\226N \001(\0132\033.dstore.values.integerValueB\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\226N \001(\0132\033.dstore.values.integerValueBP\n\033i" +
+      "o.dstore.engine.proceduresZ1gosdk.dstore" +
+      ".de/engine/procedures/mi_GetCountriesb\006p" +
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

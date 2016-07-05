@@ -5142,8 +5142,10 @@ public final class CoGetMD5ForBinaryIDPu {
       "\234\001 \001(\0132\032.dstore.values.stringValue\022;\n\022fi" +
       "le_date_and_time\030\242\234\001 \001(\0132\035.dstore.values" +
       ".timestampValue\0226\n\017filesize_in_k_b\030\244\234\001 \001" +
-      "(\0132\033.dstore.values.integerValueB\035\n\033io.ds" +
-      "tore.engine.proceduresb\006proto3"
+      "(\0132\033.dstore.values.integerValueBX\n\033io.ds" +
+      "tore.engine.proceduresZ9gosdk.dstore.de/" +
+      "engine/procedures/co_GetMD5ForBinaryID_P" +
+      "ub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

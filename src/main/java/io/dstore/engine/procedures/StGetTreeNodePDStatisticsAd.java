@@ -4896,8 +4896,9 @@ public final class StGetTreeNodePDStatisticsAd {
       "decimalValue\022,\n\004date\030\224N \001(\0132\035.dstore.val" +
       "ues.timestampValue\022A\n\033basic_characterist" +
       "ic_number\030\225N \001(\0132\033.dstore.values.integer",
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "ValueB^\n\033io.dstore.engine.proceduresZ?go" +
+      "sdk.dstore.de/engine/procedures/st_GetTr" +
+      "eeNodePDStatistics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

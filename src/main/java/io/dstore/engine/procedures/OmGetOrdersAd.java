@@ -24612,8 +24612,9 @@ public final class OmGetOrdersAd {
       "alValue\022?\n\030precise_computed_net_sum\030\346\270\002 " +
       "\001(\0132\033.dstore.values.decimalValue\0227\n\020comp" +
       "uted_net_sum\030\350\270\002 \001(\0132\033.dstore.values.dec" +
-      "imalValueB\035\n\033io.dstore.engine.procedures",
-      "b\006proto3"
+      "imalValueBP\n\033io.dstore.engine.procedures",
+      "Z1gosdk.dstore.de/engine/procedures/om_G" +
+      "etOrders_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4158,8 +4158,10 @@ public final class ImGetNodeMetaInformationAd {
       "e.values.integerValue\0226\n\020meta_informatio" +
       "n\030\224N \001(\0132\033.dstore.values.decimalValue\022@\n" +
       "\033translated_meta_information\030\225N \001(\0132\032.ds" +
-      "tore.values.stringValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "tore.values.stringValueB]\n\033io.dstore.eng" +
+      "ine.proceduresZ>gosdk.dstore.de/engine/p" +
+      "rocedures/im_GetNodeMetaInformation_Adb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

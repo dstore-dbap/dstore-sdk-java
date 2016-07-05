@@ -4157,8 +4157,10 @@ public final class PmGetMostRecentUniqueIDPu {
       "ue_id\030\222N \001(\0132\032.dstore.values.stringValue" +
       "\022/\n\tperson_id\030\223N \001(\0132\033.dstore.values.int" +
       "egerValue\0222\n\nvalid_from\030\224N \001(\0132\035.dstore." +
-      "values.timestampValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "values.timestampValueB\\\n\033io.dstore.engin" +
+      "e.proceduresZ=gosdk.dstore.de/engine/pro" +
+      "cedures/pm_GetMostRecentUniqueID_Pub\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

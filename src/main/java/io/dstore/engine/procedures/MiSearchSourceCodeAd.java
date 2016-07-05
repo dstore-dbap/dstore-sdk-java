@@ -5144,8 +5144,9 @@ public final class MiSearchSourceCodeAd {
       "\001(\0132\033.dstore.values.integerValue\022.\n\tcode" +
       "_line\030\223N \001(\0132\032.dstore.values.stringValue" +
       "\0220\n\013object_name\030\224N \001(\0132\032.dstore.values.s" +
-      "tringValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tringValueBW\n\033io.dstore.engine.procedure" +
+      "sZ8gosdk.dstore.de/engine/procedures/mi_" +
+      "SearchSourceCode_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

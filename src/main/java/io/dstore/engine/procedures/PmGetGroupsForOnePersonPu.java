@@ -3910,8 +3910,10 @@ public final class PmGetGroupsForOnePersonPu {
       "rValue\022-\n\007sort_no\030\223N \001(\0132\033.dstore.values" +
       ".integerValue\0224\n\016person_type_id\030\224N \001(\0132\033" +
       ".dstore.values.integerValue\022.\n\010group_id\030",
-      "\225N \001(\0132\033.dstore.values.integerValueB\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\225N \001(\0132\033.dstore.values.integerValueB\\\n\033i" +
+      "o.dstore.engine.proceduresZ=gosdk.dstore" +
+      ".de/engine/procedures/pm_GetGroupsForOne" +
+      "Person_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

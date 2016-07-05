@@ -5632,8 +5632,9 @@ public final class ImGetTemplatesPu {
       "mplate\030\226N \001(\0132\033.dstore.values.booleanVal" +
       "ue\0221\n\013template_id\030\227N \001(\0132\033.dstore.values",
       ".integerValue\0221\n\013language_id\030\230N \001(\0132\033.ds" +
-      "tore.values.integerValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "tore.values.integerValueBS\n\033io.dstore.en" +
+      "gine.proceduresZ4gosdk.dstore.de/engine/" +
+      "procedures/im_GetTemplates_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

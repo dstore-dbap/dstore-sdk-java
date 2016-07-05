@@ -5882,8 +5882,9 @@ public final class PmGetPersonPredefinedValsAd {
       "\230N \001(\0132\033.dstore.values.integerValue\0222\n\014t" +
       "able_key_id\030\231N \001(\0132\033.dstore.values.integ" +
       "erValue\022.\n\010value_id\030\232N \001(\0132\033.dstore.valu" +
-      "es.integerValueB\035\n\033io.dstore.engine.proc" +
-      "eduresb\006proto3"
+      "es.integerValueB^\n\033io.dstore.engine.proc" +
+      "eduresZ?gosdk.dstore.de/engine/procedure" +
+      "s/pm_GetPersonPredefinedVals_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

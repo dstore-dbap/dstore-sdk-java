@@ -3664,8 +3664,10 @@ public final class MiGetTRITriggerWorkflowAd {
       "k_step\030\222N \001(\0132\032.dstore.values.stringValu" +
       "e\0220\n\013description\030\223N \001(\0132\032.dstore.values." +
       "stringValue\0222\n\014work_step_no\030\224N \001(\0132\033.dst" +
-      "ore.values.integerValueB\035\n\033io.dstore.eng",
-      "ine.proceduresb\006proto3"
+      "ore.values.integerValueB\\\n\033io.dstore.eng",
+      "ine.proceduresZ=gosdk.dstore.de/engine/p" +
+      "rocedures/mi_GetTRITriggerWorkflow_Adb\006p" +
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

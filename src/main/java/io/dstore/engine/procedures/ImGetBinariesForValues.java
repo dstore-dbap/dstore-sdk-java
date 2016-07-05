@@ -6128,7 +6128,9 @@ public final class ImGetBinariesForValues {
       "values.integerValue\0222\n\016thumbnail_code\030\227N" +
       " \001(\0132\031.dstore.values.bytesValue\022/\n\013binar" +
       "y_code\030\230N \001(\0132\031.dstore.values.bytesValue" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "BX\n\033io.dstore.engine.proceduresZ9gosdk.d",
+      "store.de/engine/procedures/im_GetBinarie" +
+      "sForValuesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

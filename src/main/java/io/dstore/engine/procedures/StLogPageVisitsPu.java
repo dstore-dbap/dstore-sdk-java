@@ -2924,8 +2924,9 @@ public final class StLogPageVisitsPu {
       "rmation\022/\n\007message\030\003 \003(\0132\036.dstore.engine" +
       ".message.Message\022<\n\003row\030\004 \003(\0132/.dstore.e" +
       "ngine.st_LogPageVisits_Pu.Response.Row\032\026" +
-      "\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      "\n\003Row\022\017\n\006row_id\030\220N \001(\005BT\n\033io.dstore.engi" +
+      "ne.proceduresZ5gosdk.dstore.de/engine/pr" +
+      "ocedures/st_LogPageVisits_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3418,8 +3418,9 @@ public final class MiGetTRITriggerTypesAd {
       "\030\221N \001(\0132\033.dstore.values.integerValue\0221\n\014" +
       "trigger_type\030\222N \001(\0132\032.dstore.values.stri" +
       "ngValue\0220\n\013description\030\223N \001(\0132\032.dstore.v" +
-      "alues.stringValueB\035\n\033io.dstore.engine.pr" +
-      "oceduresb\006proto3"
+      "alues.stringValueBY\n\033io.dstore.engine.pr" +
+      "oceduresZ:gosdk.dstore.de/engine/procedu",
+      "res/mi_GetTRITriggerTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

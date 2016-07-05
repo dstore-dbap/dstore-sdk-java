@@ -5389,8 +5389,10 @@ public final class PmGetRelationshipSettingsAd {
       "lue\030\226N \001(\0132\032.dstore.values.stringValue\0221",
       "\n\014key_variable\030\227N \001(\0132\032.dstore.values.st" +
       "ringValue\0227\n\021to_person_type_id\030\230N \001(\0132\033." +
-      "dstore.values.integerValueB\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "dstore.values.integerValueB^\n\033io.dstore." +
+      "engine.proceduresZ?gosdk.dstore.de/engin" +
+      "e/procedures/pm_GetRelationshipSettings_" +
+      "Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

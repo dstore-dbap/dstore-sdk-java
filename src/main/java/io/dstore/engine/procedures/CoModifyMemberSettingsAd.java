@@ -3417,8 +3417,9 @@ public final class CoModifyMemberSettingsAd {
       "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
       "age\022C\n\003row\030\004 \003(\01326.dstore.engine.co_Modi" +
       "fyMemberSettings_Ad.Response.Row\032\026\n\003Row\022",
-      "\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "\017\n\006row_id\030\220N \001(\005B[\n\033io.dstore.engine.pro" +
+      "ceduresZ<gosdk.dstore.de/engine/procedur" +
+      "es/co_ModifyMemberSettings_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

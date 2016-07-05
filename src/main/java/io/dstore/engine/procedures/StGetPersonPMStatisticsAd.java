@@ -7357,8 +7357,9 @@ public final class StGetPersonPMStatisticsAd {
       "ringValue\0222\n\014direct_value\030\232N \001(\0132\033.dstor" +
       "e.values.decimalValue\022A\n\033basic_character" +
       "istic_number\030\233N \001(\0132\033.dstore.values.inte" +
-      "gerValueB\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "gerValueB\\\n\033io.dstore.engine.proceduresZ" +
+      "=gosdk.dstore.de/engine/procedures/st_Ge" +
+      "tPersonPMStatistics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

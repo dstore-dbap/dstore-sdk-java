@@ -4648,8 +4648,9 @@ public final class MiGetSearchItemsAd {
       "ue\030\223N \001(\0132\032.dstore.values.stringValue\0227\n" +
       "\021characteristic_id\030\224N \001(\0132\033.dstore.value" +
       "s.integerValue\022.\n\010use_like\030\225N \001(\0132\033.dsto" +
-      "re.values.booleanValueB\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      "re.values.booleanValueBU\n\033io.dstore.engi" +
+      "ne.proceduresZ6gosdk.dstore.de/engine/pr" +
+      "ocedures/mi_GetSearchItems_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

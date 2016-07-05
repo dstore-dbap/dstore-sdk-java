@@ -5633,8 +5633,10 @@ public final class StGetTreeNodePWStatisticsAd {
       "\030\224N \001(\0132\033.dstore.values.decimalValue\022*\n\004" +
       "week\030\225N \001(\0132\033.dstore.values.integerValue" +
       "\022A\n\033basic_characteristic_number\030\226N \001(\0132\033" +
-      ".dstore.values.integerValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      ".dstore.values.integerValueB^\n\033io.dstore" +
+      ".engine.proceduresZ?gosdk.dstore.de/engi" +
+      "ne/procedures/st_GetTreeNodePWStatistics" +
+      "_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

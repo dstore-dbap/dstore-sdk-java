@@ -2924,8 +2924,10 @@ public final class MiGetSourceTemplatesAd {
       "SourceTemplates_Ad.Response.Row\032{\n\003Row\022\017" +
       "\n\006row_id\030\220N \001(\005\0220\n\013description\030\221N \001(\0132\032." +
       "dstore.values.stringValue\0221\n\013template_id" +
-      "\030\222N \001(\0132\033.dstore.values.integerValueB\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "\030\222N \001(\0132\033.dstore.values.integerValueBY\n\033" +
+      "io.dstore.engine.proceduresZ:gosdk.dstor" +
+      "e.de/engine/procedures/mi_GetSourceTempl" +
+      "ates_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

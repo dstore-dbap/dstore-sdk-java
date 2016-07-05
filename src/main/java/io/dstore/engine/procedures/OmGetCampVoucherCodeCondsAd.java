@@ -3665,8 +3665,10 @@ public final class OmGetCampVoucherCodeCondsAd {
       "\001(\0132\032.dstore.values.stringValue\022C\n\035valid" +
       "_code_of_voucher_type_id\030\222N \001(\0132\033.dstore",
       ".values.integerValue\0222\n\014condition_id\030\223N " +
-      "\001(\0132\033.dstore.values.integerValueB\035\n\033io.d" +
-      "store.engine.proceduresb\006proto3"
+      "\001(\0132\033.dstore.values.integerValueB^\n\033io.d" +
+      "store.engine.proceduresZ?gosdk.dstore.de" +
+      "/engine/procedures/om_GetCampVoucherCode" +
+      "Conds_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5144,8 +5144,10 @@ public final class PmGetPersonCharacsInCatsAd {
       "e.values.integerValue\022B\n\035def_val_restric" +
       "ted_by_pattern\030\230N \001(\0132\032.dstore.values.st" +
       "ringValue\022?\n\031person_charac_category_id\030\231",
-      "N \001(\0132\033.dstore.values.integerValueB\035\n\033io" +
-      ".dstore.engine.proceduresb\006proto3"
+      "N \001(\0132\033.dstore.values.integerValueB]\n\033io" +
+      ".dstore.engine.proceduresZ>gosdk.dstore." +
+      "de/engine/procedures/pm_GetPersonCharacs" +
+      "InCats_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

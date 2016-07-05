@@ -9579,8 +9579,9 @@ public final class OmGetTrolleyAsMatrixPu {
       ".values.stringValue\0225\n\017x_axis_value_id\030\242" +
       "N \001(\0132\033.dstore.values.integerValue\0228\n\022re" +
       "lative_surcharge\030\243N \001(\0132\033.dstore.values." +
-      "decimalValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      "decimalValueBY\n\033io.dstore.engine.procedu" +
+      "resZ:gosdk.dstore.de/engine/procedures/o" +
+      "m_GetTrolleyAsMatrix_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

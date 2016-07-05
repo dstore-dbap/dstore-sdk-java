@@ -4896,8 +4896,10 @@ public final class OmGetOrderStatesInCatsAd {
       " \001(\0132\033.dstore.values.integerValue\0220\n\013ord" +
       "er_state\030\226N \001(\0132\032.dstore.values.stringVa" +
       "lue\0229\n\024order_state_category\030\227N \001(\0132\032.dst" +
-      "ore.values.stringValueB\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      "ore.values.stringValueB[\n\033io.dstore.engi" +
+      "ne.proceduresZ<gosdk.dstore.de/engine/pr",
+      "ocedures/om_GetOrderStatesInCats_Adb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

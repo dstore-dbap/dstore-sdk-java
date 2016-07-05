@@ -3419,8 +3419,9 @@ public final class OmGetCampShippingTypeCondsAd {
       ".values.stringValue\0222\n\014condition_id\030\222N \001" +
       "(\0132\033.dstore.values.integerValue\0223\n\rnegat" +
       "e_filter\030\223N \001(\0132\033.dstore.values.booleanV" +
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro",
-      "to3"
+      "alueB_\n\033io.dstore.engine.proceduresZ@gos",
+      "dk.dstore.de/engine/procedures/om_GetCam" +
+      "pShippingTypeConds_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -7361,8 +7361,10 @@ public final class PmGetPersonRelationshipsPu {
       "e.values.integerValue\0225\n\017relationship_id" +
       "\030\234N \001(\0132\033.dstore.values.integerValue\022A\n\034" +
       "value3_restricted_by_pattern\030\235N \001(\0132\032.ds" +
-      "tore.values.stringValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "tore.values.stringValueB]\n\033io.dstore.eng" +
+      "ine.proceduresZ>gosdk.dstore.de/engine/p" +
+      "rocedures/pm_GetPersonRelationships_Pub\006",
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

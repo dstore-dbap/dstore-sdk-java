@@ -2925,8 +2925,9 @@ public final class ImGetHTreeNodeIDPu {
       "ow\030\004 \003(\01320.dstore.engine.im_GetHTreeNode" +
       "ID_Pu.Response.Row\032L\n\003Row\022\017\n\006row_id\030\220N \001" +
       "(\005\0224\n\016h_tree_node_id\030\221N \001(\0132\033.dstore.val" +
-      "ues.integerValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "ues.integerValueBU\n\033io.dstore.engine.pro" +
+      "ceduresZ6gosdk.dstore.de/engine/procedur" +
+      "es/im_GetHTreeNodeID_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4156,8 +4156,10 @@ public final class PmGetPersonTypesAd {
       "rson_type_description\030\222N \001(\0132\032.dstore.va" +
       "lues.stringValue\022-\n\007sort_no\030\223N \001(\0132\033.dst" +
       "ore.values.integerValue\0224\n\016person_type_i" +
-      "d\030\224N \001(\0132\033.dstore.values.integerValueB\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "d\030\224N \001(\0132\033.dstore.values.integerValueBU\n" +
+      "\033io.dstore.engine.proceduresZ6gosdk.dsto" +
+      "re.de/engine/procedures/pm_GetPersonType" +
+      "s_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

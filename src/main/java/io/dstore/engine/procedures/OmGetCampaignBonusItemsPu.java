@@ -11305,8 +11305,9 @@ public final class OmGetCampaignBonusItemsPu {
       "s.stringValue\022>\n\027item_condition_group_id" +
       "\030\304\352\001 \001(\0132\033.dstore.values.integerValue\0224\n",
       "\rinherit_depth\030\307\352\001 \001(\0132\033.dstore.values.i" +
-      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "ntegerValueB\\\n\033io.dstore.engine.procedur" +
+      "esZ=gosdk.dstore.de/engine/procedures/om" +
+      "_GetCampaignBonusItems_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

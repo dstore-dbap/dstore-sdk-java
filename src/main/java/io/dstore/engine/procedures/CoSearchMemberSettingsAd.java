@@ -4895,8 +4895,9 @@ public final class CoSearchMemberSettingsAd {
       "values.stringValue\0222\n\rsetting_value\030\222N \001" +
       "(\0132\032.dstore.values.stringValue\0229\n\023commun",
       "ity_member_id\030\223N \001(\0132\033.dstore.values.int" +
-      "egerValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "egerValueB[\n\033io.dstore.engine.procedures" +
+      "Z<gosdk.dstore.de/engine/procedures/co_S" +
+      "earchMemberSettings_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

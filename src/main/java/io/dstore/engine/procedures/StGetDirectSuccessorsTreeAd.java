@@ -10813,8 +10813,10 @@ public final class StGetDirectSuccessorsTreeAd {
       "_date\030\245N \001(\0132\032.dstore.values.stringValue" +
       "\0224\n\016has_successors\030\246N \001(\0132\033.dstore.value" +
       "s.booleanValue\022-\n\007deleted\030\247N \001(\0132\033.dstor" +
-      "e.values.booleanValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "e.values.booleanValueB_\n\033io.dstore.engin" +
+      "e.proceduresZ@gosdk.dstore.de/engine/pro" +
+      "cedures/st_GetDirectSuccessors_Tree_Adb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

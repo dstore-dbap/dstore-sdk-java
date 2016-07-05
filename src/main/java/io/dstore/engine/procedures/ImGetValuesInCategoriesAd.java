@@ -4650,8 +4650,10 @@ public final class ImGetValuesInCategoriesAd {
       "N \001(\0132\032.dstore.values.stringValue\022.\n\010val" +
       "ue_id\030\225N \001(\0132\033.dstore.values.integerValu" +
       "e\022?\n\032value_category_description\030\226N \001(\0132\032" +
-      ".dstore.values.stringValueB\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      ".dstore.values.stringValueB\\\n\033io.dstore." +
+      "engine.proceduresZ=gosdk.dstore.de/engin" +
+      "e/procedures/im_GetValuesInCategories_Ad",
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

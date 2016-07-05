@@ -5633,8 +5633,10 @@ public final class ImGetNodeCharacValuesAd {
       "ooleanValue\022-\n\007is_used\030\225N \001(\0132\033.dstore.v" +
       "alues.booleanValue\022.\n\010value_id\030\226N \001(\0132\033." +
       "dstore.values.integerValue\022-\n\007sort_no\030\227N" +
-      " \001(\0132\033.dstore.values.integerValueB\035\n\033io." +
-      "dstore.engine.proceduresb\006proto3"
+      " \001(\0132\033.dstore.values.integerValueBZ\n\033io." +
+      "dstore.engine.proceduresZ;gosdk.dstore.d" +
+      "e/engine/procedures/im_GetNodeCharacValu" +
+      "es_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3172,8 +3172,9 @@ public final class StGetPageCategoriesAd {
       "Row\022\017\n\006row_id\030\220N \001(\005\0226\n\020page_category_id" +
       "\030\221N \001(\0132\033.dstore.values.integerValue\022>\n\031" +
       "page_category_description\030\222N \001(\0132\032.dstor" +
-      "e.values.stringValueB\035\n\033io.dstore.engine" +
-      ".proceduresb\006proto3"
+      "e.values.stringValueBX\n\033io.dstore.engine" +
+      ".proceduresZ9gosdk.dstore.de/engine/proc" +
+      "edures/st_GetPageCategories_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

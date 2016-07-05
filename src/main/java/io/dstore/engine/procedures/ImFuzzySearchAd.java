@@ -7851,8 +7851,10 @@ public final class ImFuzzySearchAd {
       ".dstore.values.integerValue\022?\n\031predecess",
       "ors_tree_node_id\030\231N \001(\0132\033.dstore.values." +
       "integerValue\022=\n\030predecessors_description" +
-      "\030\232N \001(\0132\032.dstore.values.stringValueB\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\030\232N \001(\0132\032.dstore.values.stringValueBR\n\033i" +
+      "o.dstore.engine.proceduresZ3gosdk.dstore" +
+      ".de/engine/procedures/im_FuzzySearch_Adb" +
+      "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

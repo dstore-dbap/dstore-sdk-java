@@ -4159,7 +4159,9 @@ public final class PmGetPersonTypeMetaInfoAd {
       "e\0224\n\016person_type_id\030\224N \001(\0132\033.dstore.valu" +
       "es.integerValue\022@\n\033translated_meta_infor" +
       "mation\030\225N \001(\0132\032.dstore.values.stringValu" +
-      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "eB\\\n\033io.dstore.engine.proceduresZ=gosdk." +
+      "dstore.de/engine/procedures/pm_GetPerson" +
+      "TypeMetaInfo_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

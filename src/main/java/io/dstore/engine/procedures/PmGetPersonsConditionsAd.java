@@ -85,218 +85,236 @@ public final class PmGetPersonsConditionsAd {
     boolean getOutputCharacteristicIdsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    boolean hasCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    io.dstore.Values.integerValue getCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getCountOrBuilder();
+
+    /**
+     * <code>optional bool count_null = 1005;</code>
+     */
+    boolean getCountNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
      */
     io.dstore.Values.integerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
      */
     io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
-     * <code>optional bool person_type_id_null = 1005;</code>
+     * <code>optional bool person_type_id_null = 1006;</code>
      */
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     boolean hasLastValues();
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     io.dstore.Values.stringValue getLastValues();
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     io.dstore.Values.stringValueOrBuilder getLastValuesOrBuilder();
 
     /**
-     * <code>optional bool last_values_null = 1006;</code>
+     * <code>optional bool last_values_null = 1007;</code>
      */
     boolean getLastValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
      */
     boolean hasLastPersonId();
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
      */
     io.dstore.Values.integerValue getLastPersonId();
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
      */
     io.dstore.Values.integerValueOrBuilder getLastPersonIdOrBuilder();
 
     /**
-     * <code>optional bool last_person_id_null = 1007;</code>
+     * <code>optional bool last_person_id_null = 1008;</code>
      */
     boolean getLastPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     boolean hasNext();
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     io.dstore.Values.booleanValue getNext();
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getNextOrBuilder();
 
     /**
-     * <code>optional bool next_null = 1008;</code>
+     * <code>optional bool next_null = 1009;</code>
      */
     boolean getNextNull();
 
     /**
-     * <code>optional .dstore.values.integerValue row_number = 9;</code>
+     * <code>optional .dstore.values.integerValue row_number = 10;</code>
      */
     boolean hasRowNumber();
     /**
-     * <code>optional .dstore.values.integerValue row_number = 9;</code>
+     * <code>optional .dstore.values.integerValue row_number = 10;</code>
      */
     io.dstore.Values.integerValue getRowNumber();
     /**
-     * <code>optional .dstore.values.integerValue row_number = 9;</code>
+     * <code>optional .dstore.values.integerValue row_number = 10;</code>
      */
     io.dstore.Values.integerValueOrBuilder getRowNumberOrBuilder();
 
     /**
-     * <code>optional bool row_number_null = 1009;</code>
+     * <code>optional bool row_number_null = 1010;</code>
      */
     boolean getRowNumberNull();
 
     /**
-     * <code>optional .dstore.values.integerValue group_id = 10;</code>
+     * <code>optional .dstore.values.integerValue group_id = 11;</code>
      */
     boolean hasGroupId();
     /**
-     * <code>optional .dstore.values.integerValue group_id = 10;</code>
+     * <code>optional .dstore.values.integerValue group_id = 11;</code>
      */
     io.dstore.Values.integerValue getGroupId();
     /**
-     * <code>optional .dstore.values.integerValue group_id = 10;</code>
+     * <code>optional .dstore.values.integerValue group_id = 11;</code>
      */
     io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder();
 
     /**
-     * <code>optional bool group_id_null = 1010;</code>
+     * <code>optional bool group_id_null = 1011;</code>
      */
     boolean getGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
      */
     boolean hasCharacteristicIdList();
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
      */
     io.dstore.Values.stringValue getCharacteristicIdList();
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
      */
     io.dstore.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder();
 
     /**
-     * <code>optional bool characteristic_id_list_null = 1011;</code>
+     * <code>optional bool characteristic_id_list_null = 1012;</code>
      */
     boolean getCharacteristicIdListNull();
 
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
      */
     boolean hasConditionList();
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
      */
     io.dstore.Values.stringValue getConditionList();
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
      */
     io.dstore.Values.stringValueOrBuilder getConditionListOrBuilder();
 
     /**
-     * <code>optional bool condition_list_null = 1012;</code>
+     * <code>optional bool condition_list_null = 1013;</code>
      */
     boolean getConditionListNull();
 
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.stringValue country = 14;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.stringValue country = 14;</code>
      */
     io.dstore.Values.stringValue getCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.stringValue country = 14;</code>
      */
     io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
 
     /**
-     * <code>optional bool country_null = 1013;</code>
+     * <code>optional bool country_null = 1014;</code>
      */
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
      */
     boolean hasOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
      */
     io.dstore.Values.integerValue getOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
      */
     io.dstore.Values.integerValueOrBuilder getOutputIntoOneIdOrBuilder();
 
     /**
-     * <code>optional bool output_into_one_id_null = 1014;</code>
+     * <code>optional bool output_into_one_id_null = 1015;</code>
      */
     boolean getOutputIntoOneIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
      */
     boolean hasSeparatorInLastValues();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
      */
     io.dstore.Values.stringValue getSeparatorInLastValues();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
      */
     io.dstore.Values.stringValueOrBuilder getSeparatorInLastValuesOrBuilder();
 
     /**
-     * <code>optional bool separator_in_last_values_null = 1015;</code>
+     * <code>optional bool separator_in_last_values_null = 1016;</code>
      */
     boolean getSeparatorInLastValuesNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
      */
     boolean hasSeparatorInConditionList();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
      */
     io.dstore.Values.stringValue getSeparatorInConditionList();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
      */
     io.dstore.Values.stringValueOrBuilder getSeparatorInConditionListOrBuilder();
 
     /**
-     * <code>optional bool separator_in_condition_list_null = 1016;</code>
+     * <code>optional bool separator_in_condition_list_null = 1017;</code>
      */
     boolean getSeparatorInConditionListNull();
   }
@@ -316,6 +334,7 @@ public final class PmGetPersonsConditionsAd {
       sortOrder2Null_ = false;
       sortOrder3Null_ = false;
       outputCharacteristicIdsNull_ = false;
+      countNull_ = false;
       personTypeIdNull_ = false;
       lastValuesNull_ = false;
       lastPersonIdNull_ = false;
@@ -340,6 +359,7 @@ public final class PmGetPersonsConditionsAd {
         com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
       this();
       int mutable_bitField0_ = 0;
+      int mutable_bitField1_ = 0;
       try {
         boolean done = false;
         while (!done) {
@@ -408,6 +428,19 @@ public final class PmGetPersonsConditionsAd {
             }
             case 42: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (count_ != null) {
+                subBuilder = count_.toBuilder();
+              }
+              count_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(count_);
+                count_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 50: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
@@ -419,7 +452,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 50: {
+            case 58: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (lastValues_ != null) {
                 subBuilder = lastValues_.toBuilder();
@@ -432,7 +465,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 58: {
+            case 66: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (lastPersonId_ != null) {
                 subBuilder = lastPersonId_.toBuilder();
@@ -445,7 +478,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 66: {
+            case 74: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (next_ != null) {
                 subBuilder = next_.toBuilder();
@@ -458,7 +491,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 74: {
+            case 82: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (rowNumber_ != null) {
                 subBuilder = rowNumber_.toBuilder();
@@ -471,7 +504,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 82: {
+            case 90: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (groupId_ != null) {
                 subBuilder = groupId_.toBuilder();
@@ -484,7 +517,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 90: {
+            case 98: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (characteristicIdList_ != null) {
                 subBuilder = characteristicIdList_.toBuilder();
@@ -497,7 +530,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 98: {
+            case 106: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (conditionList_ != null) {
                 subBuilder = conditionList_.toBuilder();
@@ -510,7 +543,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 106: {
+            case 114: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
@@ -523,7 +556,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 114: {
+            case 122: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputIntoOneId_ != null) {
                 subBuilder = outputIntoOneId_.toBuilder();
@@ -536,7 +569,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 122: {
+            case 130: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInLastValues_ != null) {
                 subBuilder = separatorInLastValues_.toBuilder();
@@ -549,7 +582,7 @@ public final class PmGetPersonsConditionsAd {
 
               break;
             }
-            case 130: {
+            case 138: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInConditionList_ != null) {
                 subBuilder = separatorInConditionList_.toBuilder();
@@ -584,60 +617,65 @@ public final class PmGetPersonsConditionsAd {
             }
             case 8040: {
 
-              personTypeIdNull_ = input.readBool();
+              countNull_ = input.readBool();
               break;
             }
             case 8048: {
 
-              lastValuesNull_ = input.readBool();
+              personTypeIdNull_ = input.readBool();
               break;
             }
             case 8056: {
 
-              lastPersonIdNull_ = input.readBool();
+              lastValuesNull_ = input.readBool();
               break;
             }
             case 8064: {
 
-              nextNull_ = input.readBool();
+              lastPersonIdNull_ = input.readBool();
               break;
             }
             case 8072: {
 
-              rowNumberNull_ = input.readBool();
+              nextNull_ = input.readBool();
               break;
             }
             case 8080: {
 
-              groupIdNull_ = input.readBool();
+              rowNumberNull_ = input.readBool();
               break;
             }
             case 8088: {
 
-              characteristicIdListNull_ = input.readBool();
+              groupIdNull_ = input.readBool();
               break;
             }
             case 8096: {
 
-              conditionListNull_ = input.readBool();
+              characteristicIdListNull_ = input.readBool();
               break;
             }
             case 8104: {
 
-              countryNull_ = input.readBool();
+              conditionListNull_ = input.readBool();
               break;
             }
             case 8112: {
 
-              outputIntoOneIdNull_ = input.readBool();
+              countryNull_ = input.readBool();
               break;
             }
             case 8120: {
 
-              separatorInLastValuesNull_ = input.readBool();
+              outputIntoOneIdNull_ = input.readBool();
               break;
             }
             case 8128: {
+
+              separatorInLastValuesNull_ = input.readBool();
+              break;
+            }
+            case 8136: {
 
               separatorInConditionListNull_ = input.readBool();
               break;
@@ -786,361 +824,391 @@ public final class PmGetPersonsConditionsAd {
       return outputCharacteristicIdsNull_;
     }
 
-    public static final int PERSON_TYPE_ID_FIELD_NUMBER = 5;
+    public static final int COUNT_FIELD_NUMBER = 5;
+    private io.dstore.Values.integerValue count_;
+    /**
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    public boolean hasCount() {
+      return count_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    public io.dstore.Values.integerValue getCount() {
+      return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+      return getCount();
+    }
+
+    public static final int COUNT_NULL_FIELD_NUMBER = 1005;
+    private boolean countNull_;
+    /**
+     * <code>optional bool count_null = 1005;</code>
+     */
+    public boolean getCountNull() {
+      return countNull_;
+    }
+
+    public static final int PERSON_TYPE_ID_FIELD_NUMBER = 6;
     private io.dstore.Values.integerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
      */
     public io.dstore.Values.integerValue getPersonTypeId() {
       return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
-    public static final int PERSON_TYPE_ID_NULL_FIELD_NUMBER = 1005;
+    public static final int PERSON_TYPE_ID_NULL_FIELD_NUMBER = 1006;
     private boolean personTypeIdNull_;
     /**
-     * <code>optional bool person_type_id_null = 1005;</code>
+     * <code>optional bool person_type_id_null = 1006;</code>
      */
     public boolean getPersonTypeIdNull() {
       return personTypeIdNull_;
     }
 
-    public static final int LAST_VALUES_FIELD_NUMBER = 6;
+    public static final int LAST_VALUES_FIELD_NUMBER = 7;
     private io.dstore.Values.stringValue lastValues_;
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     public boolean hasLastValues() {
       return lastValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     public io.dstore.Values.stringValue getLastValues() {
       return lastValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lastValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getLastValuesOrBuilder() {
       return getLastValues();
     }
 
-    public static final int LAST_VALUES_NULL_FIELD_NUMBER = 1006;
+    public static final int LAST_VALUES_NULL_FIELD_NUMBER = 1007;
     private boolean lastValuesNull_;
     /**
-     * <code>optional bool last_values_null = 1006;</code>
+     * <code>optional bool last_values_null = 1007;</code>
      */
     public boolean getLastValuesNull() {
       return lastValuesNull_;
     }
 
-    public static final int LAST_PERSON_ID_FIELD_NUMBER = 7;
+    public static final int LAST_PERSON_ID_FIELD_NUMBER = 8;
     private io.dstore.Values.integerValue lastPersonId_;
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
      */
     public boolean hasLastPersonId() {
       return lastPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
      */
     public io.dstore.Values.integerValue getLastPersonId() {
       return lastPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lastPersonId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getLastPersonIdOrBuilder() {
       return getLastPersonId();
     }
 
-    public static final int LAST_PERSON_ID_NULL_FIELD_NUMBER = 1007;
+    public static final int LAST_PERSON_ID_NULL_FIELD_NUMBER = 1008;
     private boolean lastPersonIdNull_;
     /**
-     * <code>optional bool last_person_id_null = 1007;</code>
+     * <code>optional bool last_person_id_null = 1008;</code>
      */
     public boolean getLastPersonIdNull() {
       return lastPersonIdNull_;
     }
 
-    public static final int NEXT_FIELD_NUMBER = 8;
+    public static final int NEXT_FIELD_NUMBER = 9;
     private io.dstore.Values.booleanValue next_;
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     public boolean hasNext() {
       return next_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     public io.dstore.Values.booleanValue getNext() {
       return next_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : next_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getNextOrBuilder() {
       return getNext();
     }
 
-    public static final int NEXT_NULL_FIELD_NUMBER = 1008;
+    public static final int NEXT_NULL_FIELD_NUMBER = 1009;
     private boolean nextNull_;
     /**
-     * <code>optional bool next_null = 1008;</code>
+     * <code>optional bool next_null = 1009;</code>
      */
     public boolean getNextNull() {
       return nextNull_;
     }
 
-    public static final int ROW_NUMBER_FIELD_NUMBER = 9;
+    public static final int ROW_NUMBER_FIELD_NUMBER = 10;
     private io.dstore.Values.integerValue rowNumber_;
     /**
-     * <code>optional .dstore.values.integerValue row_number = 9;</code>
+     * <code>optional .dstore.values.integerValue row_number = 10;</code>
      */
     public boolean hasRowNumber() {
       return rowNumber_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue row_number = 9;</code>
+     * <code>optional .dstore.values.integerValue row_number = 10;</code>
      */
     public io.dstore.Values.integerValue getRowNumber() {
       return rowNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowNumber_;
     }
     /**
-     * <code>optional .dstore.values.integerValue row_number = 9;</code>
+     * <code>optional .dstore.values.integerValue row_number = 10;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getRowNumberOrBuilder() {
       return getRowNumber();
     }
 
-    public static final int ROW_NUMBER_NULL_FIELD_NUMBER = 1009;
+    public static final int ROW_NUMBER_NULL_FIELD_NUMBER = 1010;
     private boolean rowNumberNull_;
     /**
-     * <code>optional bool row_number_null = 1009;</code>
+     * <code>optional bool row_number_null = 1010;</code>
      */
     public boolean getRowNumberNull() {
       return rowNumberNull_;
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 10;
+    public static final int GROUP_ID_FIELD_NUMBER = 11;
     private io.dstore.Values.integerValue groupId_;
     /**
-     * <code>optional .dstore.values.integerValue group_id = 10;</code>
+     * <code>optional .dstore.values.integerValue group_id = 11;</code>
      */
     public boolean hasGroupId() {
       return groupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue group_id = 10;</code>
+     * <code>optional .dstore.values.integerValue group_id = 11;</code>
      */
     public io.dstore.Values.integerValue getGroupId() {
       return groupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue group_id = 10;</code>
+     * <code>optional .dstore.values.integerValue group_id = 11;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder() {
       return getGroupId();
     }
 
-    public static final int GROUP_ID_NULL_FIELD_NUMBER = 1010;
+    public static final int GROUP_ID_NULL_FIELD_NUMBER = 1011;
     private boolean groupIdNull_;
     /**
-     * <code>optional bool group_id_null = 1010;</code>
+     * <code>optional bool group_id_null = 1011;</code>
      */
     public boolean getGroupIdNull() {
       return groupIdNull_;
     }
 
-    public static final int CHARACTERISTIC_ID_LIST_FIELD_NUMBER = 11;
+    public static final int CHARACTERISTIC_ID_LIST_FIELD_NUMBER = 12;
     private io.dstore.Values.stringValue characteristicIdList_;
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
      */
     public boolean hasCharacteristicIdList() {
       return characteristicIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
      */
     public io.dstore.Values.stringValue getCharacteristicIdList() {
       return characteristicIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder() {
       return getCharacteristicIdList();
     }
 
-    public static final int CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER = 1011;
+    public static final int CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER = 1012;
     private boolean characteristicIdListNull_;
     /**
-     * <code>optional bool characteristic_id_list_null = 1011;</code>
+     * <code>optional bool characteristic_id_list_null = 1012;</code>
      */
     public boolean getCharacteristicIdListNull() {
       return characteristicIdListNull_;
     }
 
-    public static final int CONDITION_LIST_FIELD_NUMBER = 12;
+    public static final int CONDITION_LIST_FIELD_NUMBER = 13;
     private io.dstore.Values.stringValue conditionList_;
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
      */
     public boolean hasConditionList() {
       return conditionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
      */
     public io.dstore.Values.stringValue getConditionList() {
       return conditionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : conditionList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getConditionListOrBuilder() {
       return getConditionList();
     }
 
-    public static final int CONDITION_LIST_NULL_FIELD_NUMBER = 1012;
+    public static final int CONDITION_LIST_NULL_FIELD_NUMBER = 1013;
     private boolean conditionListNull_;
     /**
-     * <code>optional bool condition_list_null = 1012;</code>
+     * <code>optional bool condition_list_null = 1013;</code>
      */
     public boolean getConditionListNull() {
       return conditionListNull_;
     }
 
-    public static final int COUNTRY_FIELD_NUMBER = 13;
+    public static final int COUNTRY_FIELD_NUMBER = 14;
     private io.dstore.Values.stringValue country_;
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.stringValue country = 14;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.stringValue country = 14;</code>
      */
     public io.dstore.Values.stringValue getCountry() {
       return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.stringValue country = 14;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
-    public static final int COUNTRY_NULL_FIELD_NUMBER = 1013;
+    public static final int COUNTRY_NULL_FIELD_NUMBER = 1014;
     private boolean countryNull_;
     /**
-     * <code>optional bool country_null = 1013;</code>
+     * <code>optional bool country_null = 1014;</code>
      */
     public boolean getCountryNull() {
       return countryNull_;
     }
 
-    public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 14;
+    public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 15;
     private io.dstore.Values.integerValue outputIntoOneId_;
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
      */
     public boolean hasOutputIntoOneId() {
       return outputIntoOneId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
      */
     public io.dstore.Values.integerValue getOutputIntoOneId() {
       return outputIntoOneId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputIntoOneId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getOutputIntoOneIdOrBuilder() {
       return getOutputIntoOneId();
     }
 
-    public static final int OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER = 1014;
+    public static final int OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER = 1015;
     private boolean outputIntoOneIdNull_;
     /**
-     * <code>optional bool output_into_one_id_null = 1014;</code>
+     * <code>optional bool output_into_one_id_null = 1015;</code>
      */
     public boolean getOutputIntoOneIdNull() {
       return outputIntoOneIdNull_;
     }
 
-    public static final int SEPARATOR_IN_LAST_VALUES_FIELD_NUMBER = 15;
+    public static final int SEPARATOR_IN_LAST_VALUES_FIELD_NUMBER = 16;
     private io.dstore.Values.stringValue separatorInLastValues_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
      */
     public boolean hasSeparatorInLastValues() {
       return separatorInLastValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
      */
     public io.dstore.Values.stringValue getSeparatorInLastValues() {
       return separatorInLastValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInLastValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getSeparatorInLastValuesOrBuilder() {
       return getSeparatorInLastValues();
     }
 
-    public static final int SEPARATOR_IN_LAST_VALUES_NULL_FIELD_NUMBER = 1015;
+    public static final int SEPARATOR_IN_LAST_VALUES_NULL_FIELD_NUMBER = 1016;
     private boolean separatorInLastValuesNull_;
     /**
-     * <code>optional bool separator_in_last_values_null = 1015;</code>
+     * <code>optional bool separator_in_last_values_null = 1016;</code>
      */
     public boolean getSeparatorInLastValuesNull() {
       return separatorInLastValuesNull_;
     }
 
-    public static final int SEPARATOR_IN_CONDITION_LIST_FIELD_NUMBER = 16;
+    public static final int SEPARATOR_IN_CONDITION_LIST_FIELD_NUMBER = 17;
     private io.dstore.Values.stringValue separatorInConditionList_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
      */
     public boolean hasSeparatorInConditionList() {
       return separatorInConditionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
      */
     public io.dstore.Values.stringValue getSeparatorInConditionList() {
       return separatorInConditionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInConditionList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+     * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getSeparatorInConditionListOrBuilder() {
       return getSeparatorInConditionList();
     }
 
-    public static final int SEPARATOR_IN_CONDITION_LIST_NULL_FIELD_NUMBER = 1016;
+    public static final int SEPARATOR_IN_CONDITION_LIST_NULL_FIELD_NUMBER = 1017;
     private boolean separatorInConditionListNull_;
     /**
-     * <code>optional bool separator_in_condition_list_null = 1016;</code>
+     * <code>optional bool separator_in_condition_list_null = 1017;</code>
      */
     public boolean getSeparatorInConditionListNull() {
       return separatorInConditionListNull_;
@@ -1170,41 +1238,44 @@ public final class PmGetPersonsConditionsAd {
       if (outputCharacteristicIds_ != null) {
         output.writeMessage(4, getOutputCharacteristicIds());
       }
+      if (count_ != null) {
+        output.writeMessage(5, getCount());
+      }
       if (personTypeId_ != null) {
-        output.writeMessage(5, getPersonTypeId());
+        output.writeMessage(6, getPersonTypeId());
       }
       if (lastValues_ != null) {
-        output.writeMessage(6, getLastValues());
+        output.writeMessage(7, getLastValues());
       }
       if (lastPersonId_ != null) {
-        output.writeMessage(7, getLastPersonId());
+        output.writeMessage(8, getLastPersonId());
       }
       if (next_ != null) {
-        output.writeMessage(8, getNext());
+        output.writeMessage(9, getNext());
       }
       if (rowNumber_ != null) {
-        output.writeMessage(9, getRowNumber());
+        output.writeMessage(10, getRowNumber());
       }
       if (groupId_ != null) {
-        output.writeMessage(10, getGroupId());
+        output.writeMessage(11, getGroupId());
       }
       if (characteristicIdList_ != null) {
-        output.writeMessage(11, getCharacteristicIdList());
+        output.writeMessage(12, getCharacteristicIdList());
       }
       if (conditionList_ != null) {
-        output.writeMessage(12, getConditionList());
+        output.writeMessage(13, getConditionList());
       }
       if (country_ != null) {
-        output.writeMessage(13, getCountry());
+        output.writeMessage(14, getCountry());
       }
       if (outputIntoOneId_ != null) {
-        output.writeMessage(14, getOutputIntoOneId());
+        output.writeMessage(15, getOutputIntoOneId());
       }
       if (separatorInLastValues_ != null) {
-        output.writeMessage(15, getSeparatorInLastValues());
+        output.writeMessage(16, getSeparatorInLastValues());
       }
       if (separatorInConditionList_ != null) {
-        output.writeMessage(16, getSeparatorInConditionList());
+        output.writeMessage(17, getSeparatorInConditionList());
       }
       if (sortOrder1Null_ != false) {
         output.writeBool(1001, sortOrder1Null_);
@@ -1218,41 +1289,44 @@ public final class PmGetPersonsConditionsAd {
       if (outputCharacteristicIdsNull_ != false) {
         output.writeBool(1004, outputCharacteristicIdsNull_);
       }
+      if (countNull_ != false) {
+        output.writeBool(1005, countNull_);
+      }
       if (personTypeIdNull_ != false) {
-        output.writeBool(1005, personTypeIdNull_);
+        output.writeBool(1006, personTypeIdNull_);
       }
       if (lastValuesNull_ != false) {
-        output.writeBool(1006, lastValuesNull_);
+        output.writeBool(1007, lastValuesNull_);
       }
       if (lastPersonIdNull_ != false) {
-        output.writeBool(1007, lastPersonIdNull_);
+        output.writeBool(1008, lastPersonIdNull_);
       }
       if (nextNull_ != false) {
-        output.writeBool(1008, nextNull_);
+        output.writeBool(1009, nextNull_);
       }
       if (rowNumberNull_ != false) {
-        output.writeBool(1009, rowNumberNull_);
+        output.writeBool(1010, rowNumberNull_);
       }
       if (groupIdNull_ != false) {
-        output.writeBool(1010, groupIdNull_);
+        output.writeBool(1011, groupIdNull_);
       }
       if (characteristicIdListNull_ != false) {
-        output.writeBool(1011, characteristicIdListNull_);
+        output.writeBool(1012, characteristicIdListNull_);
       }
       if (conditionListNull_ != false) {
-        output.writeBool(1012, conditionListNull_);
+        output.writeBool(1013, conditionListNull_);
       }
       if (countryNull_ != false) {
-        output.writeBool(1013, countryNull_);
+        output.writeBool(1014, countryNull_);
       }
       if (outputIntoOneIdNull_ != false) {
-        output.writeBool(1014, outputIntoOneIdNull_);
+        output.writeBool(1015, outputIntoOneIdNull_);
       }
       if (separatorInLastValuesNull_ != false) {
-        output.writeBool(1015, separatorInLastValuesNull_);
+        output.writeBool(1016, separatorInLastValuesNull_);
       }
       if (separatorInConditionListNull_ != false) {
-        output.writeBool(1016, separatorInConditionListNull_);
+        output.writeBool(1017, separatorInConditionListNull_);
       }
     }
 
@@ -1277,53 +1351,57 @@ public final class PmGetPersonsConditionsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, getOutputCharacteristicIds());
       }
+      if (count_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(5, getCount());
+      }
       if (personTypeId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getPersonTypeId());
+          .computeMessageSize(6, getPersonTypeId());
       }
       if (lastValues_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getLastValues());
+          .computeMessageSize(7, getLastValues());
       }
       if (lastPersonId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getLastPersonId());
+          .computeMessageSize(8, getLastPersonId());
       }
       if (next_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getNext());
+          .computeMessageSize(9, getNext());
       }
       if (rowNumber_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getRowNumber());
+          .computeMessageSize(10, getRowNumber());
       }
       if (groupId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getGroupId());
+          .computeMessageSize(11, getGroupId());
       }
       if (characteristicIdList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getCharacteristicIdList());
+          .computeMessageSize(12, getCharacteristicIdList());
       }
       if (conditionList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getConditionList());
+          .computeMessageSize(13, getConditionList());
       }
       if (country_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getCountry());
+          .computeMessageSize(14, getCountry());
       }
       if (outputIntoOneId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, getOutputIntoOneId());
+          .computeMessageSize(15, getOutputIntoOneId());
       }
       if (separatorInLastValues_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getSeparatorInLastValues());
+          .computeMessageSize(16, getSeparatorInLastValues());
       }
       if (separatorInConditionList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16, getSeparatorInConditionList());
+          .computeMessageSize(17, getSeparatorInConditionList());
       }
       if (sortOrder1Null_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -1341,53 +1419,57 @@ public final class PmGetPersonsConditionsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, outputCharacteristicIdsNull_);
       }
+      if (countNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1005, countNull_);
+      }
       if (personTypeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, personTypeIdNull_);
+          .computeBoolSize(1006, personTypeIdNull_);
       }
       if (lastValuesNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, lastValuesNull_);
+          .computeBoolSize(1007, lastValuesNull_);
       }
       if (lastPersonIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1007, lastPersonIdNull_);
+          .computeBoolSize(1008, lastPersonIdNull_);
       }
       if (nextNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1008, nextNull_);
+          .computeBoolSize(1009, nextNull_);
       }
       if (rowNumberNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1009, rowNumberNull_);
+          .computeBoolSize(1010, rowNumberNull_);
       }
       if (groupIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1010, groupIdNull_);
+          .computeBoolSize(1011, groupIdNull_);
       }
       if (characteristicIdListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1011, characteristicIdListNull_);
+          .computeBoolSize(1012, characteristicIdListNull_);
       }
       if (conditionListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1012, conditionListNull_);
+          .computeBoolSize(1013, conditionListNull_);
       }
       if (countryNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1013, countryNull_);
+          .computeBoolSize(1014, countryNull_);
       }
       if (outputIntoOneIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1014, outputIntoOneIdNull_);
+          .computeBoolSize(1015, outputIntoOneIdNull_);
       }
       if (separatorInLastValuesNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1015, separatorInLastValuesNull_);
+          .computeBoolSize(1016, separatorInLastValuesNull_);
       }
       if (separatorInConditionListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1016, separatorInConditionListNull_);
+          .computeBoolSize(1017, separatorInConditionListNull_);
       }
       memoizedSize = size;
       return size;
@@ -1532,6 +1614,14 @@ public final class PmGetPersonsConditionsAd {
         }
         outputCharacteristicIdsNull_ = false;
 
+        if (countBuilder_ == null) {
+          count_ = null;
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+        countNull_ = false;
+
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = null;
         } else {
@@ -1674,6 +1764,12 @@ public final class PmGetPersonsConditionsAd {
           result.outputCharacteristicIds_ = outputCharacteristicIdsBuilder_.build();
         }
         result.outputCharacteristicIdsNull_ = outputCharacteristicIdsNull_;
+        if (countBuilder_ == null) {
+          result.count_ = count_;
+        } else {
+          result.count_ = countBuilder_.build();
+        }
+        result.countNull_ = countNull_;
         if (personTypeIdBuilder_ == null) {
           result.personTypeId_ = personTypeId_;
         } else {
@@ -1784,6 +1880,12 @@ public final class PmGetPersonsConditionsAd {
         }
         if (other.getOutputCharacteristicIdsNull() != false) {
           setOutputCharacteristicIdsNull(other.getOutputCharacteristicIdsNull());
+        }
+        if (other.hasCount()) {
+          mergeCount(other.getCount());
+        }
+        if (other.getCountNull() != false) {
+          setCountNull(other.getCountNull());
         }
         if (other.hasPersonTypeId()) {
           mergePersonTypeId(other.getPersonTypeId());
@@ -2455,17 +2557,160 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue count_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public boolean hasCount() {
+        return countBuilder_ != null || count_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public io.dstore.Values.integerValue getCount() {
+        if (countBuilder_ == null) {
+          return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        } else {
+          return countBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public Builder setCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          count_ = value;
+          onChanged();
+        } else {
+          countBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public Builder setCount(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (countBuilder_ == null) {
+          count_ = builderForValue.build();
+          onChanged();
+        } else {
+          countBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public Builder mergeCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (count_ != null) {
+            count_ =
+              io.dstore.Values.integerValue.newBuilder(count_).mergeFrom(value).buildPartial();
+          } else {
+            count_ = value;
+          }
+          onChanged();
+        } else {
+          countBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public Builder clearCount() {
+        if (countBuilder_ == null) {
+          count_ = null;
+          onChanged();
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getCountBuilder() {
+        
+        onChanged();
+        return getCountFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+        if (countBuilder_ != null) {
+          return countBuilder_.getMessageOrBuilder();
+        } else {
+          return count_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getCountFieldBuilder() {
+        if (countBuilder_ == null) {
+          countBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getCount(),
+                  getParentForChildren(),
+                  isClean());
+          count_ = null;
+        }
+        return countBuilder_;
+      }
+
+      private boolean countNull_ ;
+      /**
+       * <code>optional bool count_null = 1005;</code>
+       */
+      public boolean getCountNull() {
+        return countNull_;
+      }
+      /**
+       * <code>optional bool count_null = 1005;</code>
+       */
+      public Builder setCountNull(boolean value) {
+        
+        countNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool count_null = 1005;</code>
+       */
+      public Builder clearCountNull() {
+        
+        countNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
        */
       public io.dstore.Values.integerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -2475,7 +2720,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
        */
       public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -2491,7 +2736,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
        */
       public Builder setPersonTypeId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2505,7 +2750,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
        */
       public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -2523,7 +2768,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -2537,7 +2782,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
        */
       public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
         
@@ -2545,7 +2790,7 @@ public final class PmGetPersonsConditionsAd {
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
@@ -2556,7 +2801,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2574,13 +2819,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean personTypeIdNull_ ;
       /**
-       * <code>optional bool person_type_id_null = 1005;</code>
+       * <code>optional bool person_type_id_null = 1006;</code>
        */
       public boolean getPersonTypeIdNull() {
         return personTypeIdNull_;
       }
       /**
-       * <code>optional bool person_type_id_null = 1005;</code>
+       * <code>optional bool person_type_id_null = 1006;</code>
        */
       public Builder setPersonTypeIdNull(boolean value) {
         
@@ -2589,7 +2834,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool person_type_id_null = 1005;</code>
+       * <code>optional bool person_type_id_null = 1006;</code>
        */
       public Builder clearPersonTypeIdNull() {
         
@@ -2602,13 +2847,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> lastValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public boolean hasLastValues() {
         return lastValuesBuilder_ != null || lastValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public io.dstore.Values.stringValue getLastValues() {
         if (lastValuesBuilder_ == null) {
@@ -2618,7 +2863,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public Builder setLastValues(io.dstore.Values.stringValue value) {
         if (lastValuesBuilder_ == null) {
@@ -2634,7 +2879,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public Builder setLastValues(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2648,7 +2893,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public Builder mergeLastValues(io.dstore.Values.stringValue value) {
         if (lastValuesBuilder_ == null) {
@@ -2666,7 +2911,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public Builder clearLastValues() {
         if (lastValuesBuilder_ == null) {
@@ -2680,7 +2925,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public io.dstore.Values.stringValue.Builder getLastValuesBuilder() {
         
@@ -2688,7 +2933,7 @@ public final class PmGetPersonsConditionsAd {
         return getLastValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getLastValuesOrBuilder() {
         if (lastValuesBuilder_ != null) {
@@ -2699,7 +2944,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2717,13 +2962,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean lastValuesNull_ ;
       /**
-       * <code>optional bool last_values_null = 1006;</code>
+       * <code>optional bool last_values_null = 1007;</code>
        */
       public boolean getLastValuesNull() {
         return lastValuesNull_;
       }
       /**
-       * <code>optional bool last_values_null = 1006;</code>
+       * <code>optional bool last_values_null = 1007;</code>
        */
       public Builder setLastValuesNull(boolean value) {
         
@@ -2732,7 +2977,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool last_values_null = 1006;</code>
+       * <code>optional bool last_values_null = 1007;</code>
        */
       public Builder clearLastValuesNull() {
         
@@ -2745,13 +2990,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lastPersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
        */
       public boolean hasLastPersonId() {
         return lastPersonIdBuilder_ != null || lastPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
        */
       public io.dstore.Values.integerValue getLastPersonId() {
         if (lastPersonIdBuilder_ == null) {
@@ -2761,7 +3006,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
        */
       public Builder setLastPersonId(io.dstore.Values.integerValue value) {
         if (lastPersonIdBuilder_ == null) {
@@ -2777,7 +3022,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
        */
       public Builder setLastPersonId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2791,7 +3036,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
        */
       public Builder mergeLastPersonId(io.dstore.Values.integerValue value) {
         if (lastPersonIdBuilder_ == null) {
@@ -2809,7 +3054,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
        */
       public Builder clearLastPersonId() {
         if (lastPersonIdBuilder_ == null) {
@@ -2823,7 +3068,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
        */
       public io.dstore.Values.integerValue.Builder getLastPersonIdBuilder() {
         
@@ -2831,7 +3076,7 @@ public final class PmGetPersonsConditionsAd {
         return getLastPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getLastPersonIdOrBuilder() {
         if (lastPersonIdBuilder_ != null) {
@@ -2842,7 +3087,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 7;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2860,13 +3105,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean lastPersonIdNull_ ;
       /**
-       * <code>optional bool last_person_id_null = 1007;</code>
+       * <code>optional bool last_person_id_null = 1008;</code>
        */
       public boolean getLastPersonIdNull() {
         return lastPersonIdNull_;
       }
       /**
-       * <code>optional bool last_person_id_null = 1007;</code>
+       * <code>optional bool last_person_id_null = 1008;</code>
        */
       public Builder setLastPersonIdNull(boolean value) {
         
@@ -2875,7 +3120,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool last_person_id_null = 1007;</code>
+       * <code>optional bool last_person_id_null = 1008;</code>
        */
       public Builder clearLastPersonIdNull() {
         
@@ -2888,13 +3133,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> nextBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public boolean hasNext() {
         return nextBuilder_ != null || next_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public io.dstore.Values.booleanValue getNext() {
         if (nextBuilder_ == null) {
@@ -2904,7 +3149,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public Builder setNext(io.dstore.Values.booleanValue value) {
         if (nextBuilder_ == null) {
@@ -2920,7 +3165,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public Builder setNext(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2934,7 +3179,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public Builder mergeNext(io.dstore.Values.booleanValue value) {
         if (nextBuilder_ == null) {
@@ -2952,7 +3197,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public Builder clearNext() {
         if (nextBuilder_ == null) {
@@ -2966,7 +3211,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public io.dstore.Values.booleanValue.Builder getNextBuilder() {
         
@@ -2974,7 +3219,7 @@ public final class PmGetPersonsConditionsAd {
         return getNextFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getNextOrBuilder() {
         if (nextBuilder_ != null) {
@@ -2985,7 +3230,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -3003,13 +3248,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean nextNull_ ;
       /**
-       * <code>optional bool next_null = 1008;</code>
+       * <code>optional bool next_null = 1009;</code>
        */
       public boolean getNextNull() {
         return nextNull_;
       }
       /**
-       * <code>optional bool next_null = 1008;</code>
+       * <code>optional bool next_null = 1009;</code>
        */
       public Builder setNextNull(boolean value) {
         
@@ -3018,7 +3263,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool next_null = 1008;</code>
+       * <code>optional bool next_null = 1009;</code>
        */
       public Builder clearNextNull() {
         
@@ -3031,13 +3276,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowNumberBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue row_number = 9;</code>
+       * <code>optional .dstore.values.integerValue row_number = 10;</code>
        */
       public boolean hasRowNumber() {
         return rowNumberBuilder_ != null || rowNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 9;</code>
+       * <code>optional .dstore.values.integerValue row_number = 10;</code>
        */
       public io.dstore.Values.integerValue getRowNumber() {
         if (rowNumberBuilder_ == null) {
@@ -3047,7 +3292,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 9;</code>
+       * <code>optional .dstore.values.integerValue row_number = 10;</code>
        */
       public Builder setRowNumber(io.dstore.Values.integerValue value) {
         if (rowNumberBuilder_ == null) {
@@ -3063,7 +3308,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 9;</code>
+       * <code>optional .dstore.values.integerValue row_number = 10;</code>
        */
       public Builder setRowNumber(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3077,7 +3322,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 9;</code>
+       * <code>optional .dstore.values.integerValue row_number = 10;</code>
        */
       public Builder mergeRowNumber(io.dstore.Values.integerValue value) {
         if (rowNumberBuilder_ == null) {
@@ -3095,7 +3340,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 9;</code>
+       * <code>optional .dstore.values.integerValue row_number = 10;</code>
        */
       public Builder clearRowNumber() {
         if (rowNumberBuilder_ == null) {
@@ -3109,7 +3354,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 9;</code>
+       * <code>optional .dstore.values.integerValue row_number = 10;</code>
        */
       public io.dstore.Values.integerValue.Builder getRowNumberBuilder() {
         
@@ -3117,7 +3362,7 @@ public final class PmGetPersonsConditionsAd {
         return getRowNumberFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 9;</code>
+       * <code>optional .dstore.values.integerValue row_number = 10;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getRowNumberOrBuilder() {
         if (rowNumberBuilder_ != null) {
@@ -3128,7 +3373,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 9;</code>
+       * <code>optional .dstore.values.integerValue row_number = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3146,13 +3391,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean rowNumberNull_ ;
       /**
-       * <code>optional bool row_number_null = 1009;</code>
+       * <code>optional bool row_number_null = 1010;</code>
        */
       public boolean getRowNumberNull() {
         return rowNumberNull_;
       }
       /**
-       * <code>optional bool row_number_null = 1009;</code>
+       * <code>optional bool row_number_null = 1010;</code>
        */
       public Builder setRowNumberNull(boolean value) {
         
@@ -3161,7 +3406,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool row_number_null = 1009;</code>
+       * <code>optional bool row_number_null = 1010;</code>
        */
       public Builder clearRowNumberNull() {
         
@@ -3174,13 +3419,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10;</code>
+       * <code>optional .dstore.values.integerValue group_id = 11;</code>
        */
       public boolean hasGroupId() {
         return groupIdBuilder_ != null || groupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10;</code>
+       * <code>optional .dstore.values.integerValue group_id = 11;</code>
        */
       public io.dstore.Values.integerValue getGroupId() {
         if (groupIdBuilder_ == null) {
@@ -3190,7 +3435,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10;</code>
+       * <code>optional .dstore.values.integerValue group_id = 11;</code>
        */
       public Builder setGroupId(io.dstore.Values.integerValue value) {
         if (groupIdBuilder_ == null) {
@@ -3206,7 +3451,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10;</code>
+       * <code>optional .dstore.values.integerValue group_id = 11;</code>
        */
       public Builder setGroupId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3220,7 +3465,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10;</code>
+       * <code>optional .dstore.values.integerValue group_id = 11;</code>
        */
       public Builder mergeGroupId(io.dstore.Values.integerValue value) {
         if (groupIdBuilder_ == null) {
@@ -3238,7 +3483,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10;</code>
+       * <code>optional .dstore.values.integerValue group_id = 11;</code>
        */
       public Builder clearGroupId() {
         if (groupIdBuilder_ == null) {
@@ -3252,7 +3497,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10;</code>
+       * <code>optional .dstore.values.integerValue group_id = 11;</code>
        */
       public io.dstore.Values.integerValue.Builder getGroupIdBuilder() {
         
@@ -3260,7 +3505,7 @@ public final class PmGetPersonsConditionsAd {
         return getGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10;</code>
+       * <code>optional .dstore.values.integerValue group_id = 11;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder() {
         if (groupIdBuilder_ != null) {
@@ -3271,7 +3516,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10;</code>
+       * <code>optional .dstore.values.integerValue group_id = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3289,13 +3534,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean groupIdNull_ ;
       /**
-       * <code>optional bool group_id_null = 1010;</code>
+       * <code>optional bool group_id_null = 1011;</code>
        */
       public boolean getGroupIdNull() {
         return groupIdNull_;
       }
       /**
-       * <code>optional bool group_id_null = 1010;</code>
+       * <code>optional bool group_id_null = 1011;</code>
        */
       public Builder setGroupIdNull(boolean value) {
         
@@ -3304,7 +3549,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool group_id_null = 1010;</code>
+       * <code>optional bool group_id_null = 1011;</code>
        */
       public Builder clearGroupIdNull() {
         
@@ -3317,13 +3562,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
        */
       public boolean hasCharacteristicIdList() {
         return characteristicIdListBuilder_ != null || characteristicIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
        */
       public io.dstore.Values.stringValue getCharacteristicIdList() {
         if (characteristicIdListBuilder_ == null) {
@@ -3333,7 +3578,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
        */
       public Builder setCharacteristicIdList(io.dstore.Values.stringValue value) {
         if (characteristicIdListBuilder_ == null) {
@@ -3349,7 +3594,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
        */
       public Builder setCharacteristicIdList(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3363,7 +3608,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
        */
       public Builder mergeCharacteristicIdList(io.dstore.Values.stringValue value) {
         if (characteristicIdListBuilder_ == null) {
@@ -3381,7 +3626,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
        */
       public Builder clearCharacteristicIdList() {
         if (characteristicIdListBuilder_ == null) {
@@ -3395,7 +3640,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
        */
       public io.dstore.Values.stringValue.Builder getCharacteristicIdListBuilder() {
         
@@ -3403,7 +3648,7 @@ public final class PmGetPersonsConditionsAd {
         return getCharacteristicIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder() {
         if (characteristicIdListBuilder_ != null) {
@@ -3414,7 +3659,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 11;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3432,13 +3677,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean characteristicIdListNull_ ;
       /**
-       * <code>optional bool characteristic_id_list_null = 1011;</code>
+       * <code>optional bool characteristic_id_list_null = 1012;</code>
        */
       public boolean getCharacteristicIdListNull() {
         return characteristicIdListNull_;
       }
       /**
-       * <code>optional bool characteristic_id_list_null = 1011;</code>
+       * <code>optional bool characteristic_id_list_null = 1012;</code>
        */
       public Builder setCharacteristicIdListNull(boolean value) {
         
@@ -3447,7 +3692,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool characteristic_id_list_null = 1011;</code>
+       * <code>optional bool characteristic_id_list_null = 1012;</code>
        */
       public Builder clearCharacteristicIdListNull() {
         
@@ -3460,13 +3705,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
        */
       public boolean hasConditionList() {
         return conditionListBuilder_ != null || conditionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
        */
       public io.dstore.Values.stringValue getConditionList() {
         if (conditionListBuilder_ == null) {
@@ -3476,7 +3721,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
        */
       public Builder setConditionList(io.dstore.Values.stringValue value) {
         if (conditionListBuilder_ == null) {
@@ -3492,7 +3737,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
        */
       public Builder setConditionList(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3506,7 +3751,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
        */
       public Builder mergeConditionList(io.dstore.Values.stringValue value) {
         if (conditionListBuilder_ == null) {
@@ -3524,7 +3769,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
        */
       public Builder clearConditionList() {
         if (conditionListBuilder_ == null) {
@@ -3538,7 +3783,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
        */
       public io.dstore.Values.stringValue.Builder getConditionListBuilder() {
         
@@ -3546,7 +3791,7 @@ public final class PmGetPersonsConditionsAd {
         return getConditionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getConditionListOrBuilder() {
         if (conditionListBuilder_ != null) {
@@ -3557,7 +3802,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 12;</code>
+       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3575,13 +3820,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean conditionListNull_ ;
       /**
-       * <code>optional bool condition_list_null = 1012;</code>
+       * <code>optional bool condition_list_null = 1013;</code>
        */
       public boolean getConditionListNull() {
         return conditionListNull_;
       }
       /**
-       * <code>optional bool condition_list_null = 1012;</code>
+       * <code>optional bool condition_list_null = 1013;</code>
        */
       public Builder setConditionListNull(boolean value) {
         
@@ -3590,7 +3835,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool condition_list_null = 1012;</code>
+       * <code>optional bool condition_list_null = 1013;</code>
        */
       public Builder clearConditionListNull() {
         
@@ -3603,13 +3848,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.stringValue country = 14;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.stringValue country = 14;</code>
        */
       public io.dstore.Values.stringValue getCountry() {
         if (countryBuilder_ == null) {
@@ -3619,7 +3864,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.stringValue country = 14;</code>
        */
       public Builder setCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
@@ -3635,7 +3880,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.stringValue country = 14;</code>
        */
       public Builder setCountry(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3649,7 +3894,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.stringValue country = 14;</code>
        */
       public Builder mergeCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
@@ -3667,7 +3912,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.stringValue country = 14;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -3681,7 +3926,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.stringValue country = 14;</code>
        */
       public io.dstore.Values.stringValue.Builder getCountryBuilder() {
         
@@ -3689,7 +3934,7 @@ public final class PmGetPersonsConditionsAd {
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.stringValue country = 14;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
@@ -3700,7 +3945,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.stringValue country = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3718,13 +3963,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean countryNull_ ;
       /**
-       * <code>optional bool country_null = 1013;</code>
+       * <code>optional bool country_null = 1014;</code>
        */
       public boolean getCountryNull() {
         return countryNull_;
       }
       /**
-       * <code>optional bool country_null = 1013;</code>
+       * <code>optional bool country_null = 1014;</code>
        */
       public Builder setCountryNull(boolean value) {
         
@@ -3733,7 +3978,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool country_null = 1013;</code>
+       * <code>optional bool country_null = 1014;</code>
        */
       public Builder clearCountryNull() {
         
@@ -3746,13 +3991,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputIntoOneIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
        */
       public boolean hasOutputIntoOneId() {
         return outputIntoOneIdBuilder_ != null || outputIntoOneId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
        */
       public io.dstore.Values.integerValue getOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -3762,7 +4007,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
        */
       public Builder setOutputIntoOneId(io.dstore.Values.integerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -3778,7 +4023,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
        */
       public Builder setOutputIntoOneId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3792,7 +4037,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
        */
       public Builder mergeOutputIntoOneId(io.dstore.Values.integerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -3810,7 +4055,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
        */
       public Builder clearOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -3824,7 +4069,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
        */
       public io.dstore.Values.integerValue.Builder getOutputIntoOneIdBuilder() {
         
@@ -3832,7 +4077,7 @@ public final class PmGetPersonsConditionsAd {
         return getOutputIntoOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOutputIntoOneIdOrBuilder() {
         if (outputIntoOneIdBuilder_ != null) {
@@ -3843,7 +4088,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 14;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3861,13 +4106,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean outputIntoOneIdNull_ ;
       /**
-       * <code>optional bool output_into_one_id_null = 1014;</code>
+       * <code>optional bool output_into_one_id_null = 1015;</code>
        */
       public boolean getOutputIntoOneIdNull() {
         return outputIntoOneIdNull_;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1014;</code>
+       * <code>optional bool output_into_one_id_null = 1015;</code>
        */
       public Builder setOutputIntoOneIdNull(boolean value) {
         
@@ -3876,7 +4121,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1014;</code>
+       * <code>optional bool output_into_one_id_null = 1015;</code>
        */
       public Builder clearOutputIntoOneIdNull() {
         
@@ -3889,13 +4134,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInLastValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
        */
       public boolean hasSeparatorInLastValues() {
         return separatorInLastValuesBuilder_ != null || separatorInLastValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
        */
       public io.dstore.Values.stringValue getSeparatorInLastValues() {
         if (separatorInLastValuesBuilder_ == null) {
@@ -3905,7 +4150,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
        */
       public Builder setSeparatorInLastValues(io.dstore.Values.stringValue value) {
         if (separatorInLastValuesBuilder_ == null) {
@@ -3921,7 +4166,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
        */
       public Builder setSeparatorInLastValues(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3935,7 +4180,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
        */
       public Builder mergeSeparatorInLastValues(io.dstore.Values.stringValue value) {
         if (separatorInLastValuesBuilder_ == null) {
@@ -3953,7 +4198,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
        */
       public Builder clearSeparatorInLastValues() {
         if (separatorInLastValuesBuilder_ == null) {
@@ -3967,7 +4212,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
        */
       public io.dstore.Values.stringValue.Builder getSeparatorInLastValuesBuilder() {
         
@@ -3975,7 +4220,7 @@ public final class PmGetPersonsConditionsAd {
         return getSeparatorInLastValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSeparatorInLastValuesOrBuilder() {
         if (separatorInLastValuesBuilder_ != null) {
@@ -3986,7 +4231,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4004,13 +4249,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean separatorInLastValuesNull_ ;
       /**
-       * <code>optional bool separator_in_last_values_null = 1015;</code>
+       * <code>optional bool separator_in_last_values_null = 1016;</code>
        */
       public boolean getSeparatorInLastValuesNull() {
         return separatorInLastValuesNull_;
       }
       /**
-       * <code>optional bool separator_in_last_values_null = 1015;</code>
+       * <code>optional bool separator_in_last_values_null = 1016;</code>
        */
       public Builder setSeparatorInLastValuesNull(boolean value) {
         
@@ -4019,7 +4264,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool separator_in_last_values_null = 1015;</code>
+       * <code>optional bool separator_in_last_values_null = 1016;</code>
        */
       public Builder clearSeparatorInLastValuesNull() {
         
@@ -4032,13 +4277,13 @@ public final class PmGetPersonsConditionsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInConditionListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
        */
       public boolean hasSeparatorInConditionList() {
         return separatorInConditionListBuilder_ != null || separatorInConditionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
        */
       public io.dstore.Values.stringValue getSeparatorInConditionList() {
         if (separatorInConditionListBuilder_ == null) {
@@ -4048,7 +4293,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
        */
       public Builder setSeparatorInConditionList(io.dstore.Values.stringValue value) {
         if (separatorInConditionListBuilder_ == null) {
@@ -4064,7 +4309,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
        */
       public Builder setSeparatorInConditionList(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4078,7 +4323,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
        */
       public Builder mergeSeparatorInConditionList(io.dstore.Values.stringValue value) {
         if (separatorInConditionListBuilder_ == null) {
@@ -4096,7 +4341,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
        */
       public Builder clearSeparatorInConditionList() {
         if (separatorInConditionListBuilder_ == null) {
@@ -4110,7 +4355,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
        */
       public io.dstore.Values.stringValue.Builder getSeparatorInConditionListBuilder() {
         
@@ -4118,7 +4363,7 @@ public final class PmGetPersonsConditionsAd {
         return getSeparatorInConditionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSeparatorInConditionListOrBuilder() {
         if (separatorInConditionListBuilder_ != null) {
@@ -4129,7 +4374,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_condition_list = 16;</code>
+       * <code>optional .dstore.values.stringValue separator_in_condition_list = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4147,13 +4392,13 @@ public final class PmGetPersonsConditionsAd {
 
       private boolean separatorInConditionListNull_ ;
       /**
-       * <code>optional bool separator_in_condition_list_null = 1016;</code>
+       * <code>optional bool separator_in_condition_list_null = 1017;</code>
        */
       public boolean getSeparatorInConditionListNull() {
         return separatorInConditionListNull_;
       }
       /**
-       * <code>optional bool separator_in_condition_list_null = 1016;</code>
+       * <code>optional bool separator_in_condition_list_null = 1017;</code>
        */
       public Builder setSeparatorInConditionListNull(boolean value) {
         
@@ -4162,7 +4407,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool separator_in_condition_list_null = 1016;</code>
+       * <code>optional bool separator_in_condition_list_null = 1017;</code>
        */
       public Builder clearSeparatorInConditionListNull() {
         
@@ -7383,7 +7628,7 @@ public final class PmGetPersonsConditionsAd {
       "etPersons_Conditions_Ad\032\023dstore/values.p" +
       "roto\032\031dstore/engine/error.proto\032\033dstore/" +
       "engine/message.proto\032#dstore/engine/meta" +
-      "information.proto\"\303\n\n\nParameters\0220\n\013sort" +
+      "information.proto\"\204\013\n\nParameters\0220\n\013sort" +
       "_order1\030\001 \001(\0132\033.dstore.values.booleanVal" +
       "ue\022\031\n\020sort_order1_null\030\351\007 \001(\010\0220\n\013sort_or" +
       "der2\030\002 \001(\0132\033.dstore.values.booleanValue\022" +
@@ -7392,45 +7637,48 @@ public final class PmGetPersonsConditionsAd {
       "sort_order3_null\030\353\007 \001(\010\022=\n\031output_charac" +
       "teristic_ids\030\004 \001(\0132\032.dstore.values.strin" +
       "gValue\022\'\n\036output_characteristic_ids_null" +
-      "\030\354\007 \001(\010\0223\n\016person_type_id\030\005 \001(\0132\033.dstore" +
-      ".values.integerValue\022\034\n\023person_type_id_n" +
-      "ull\030\355\007 \001(\010\022/\n\013last_values\030\006 \001(\0132\032.dstore" +
-      ".values.stringValue\022\031\n\020last_values_null\030" +
-      "\356\007 \001(\010\0223\n\016last_person_id\030\007 \001(\0132\033.dstore." +
-      "values.integerValue\022\034\n\023last_person_id_nu",
-      "ll\030\357\007 \001(\010\022)\n\004next\030\010 \001(\0132\033.dstore.values." +
-      "booleanValue\022\022\n\tnext_null\030\360\007 \001(\010\022/\n\nrow_" +
-      "number\030\t \001(\0132\033.dstore.values.integerValu" +
-      "e\022\030\n\017row_number_null\030\361\007 \001(\010\022-\n\010group_id\030" +
-      "\n \001(\0132\033.dstore.values.integerValue\022\026\n\rgr" +
-      "oup_id_null\030\362\007 \001(\010\022:\n\026characteristic_id_" +
-      "list\030\013 \001(\0132\032.dstore.values.stringValue\022$" +
-      "\n\033characteristic_id_list_null\030\363\007 \001(\010\0222\n\016" +
-      "condition_list\030\014 \001(\0132\032.dstore.values.str" +
-      "ingValue\022\034\n\023condition_list_null\030\364\007 \001(\010\022+",
-      "\n\007country\030\r \001(\0132\032.dstore.values.stringVa" +
-      "lue\022\025\n\014country_null\030\365\007 \001(\010\0227\n\022output_int" +
-      "o_one_id\030\016 \001(\0132\033.dstore.values.integerVa" +
-      "lue\022 \n\027output_into_one_id_null\030\366\007 \001(\010\022<\n" +
-      "\030separator_in_last_values\030\017 \001(\0132\032.dstore" +
-      ".values.stringValue\022&\n\035separator_in_last" +
-      "_values_null\030\367\007 \001(\010\022?\n\033separator_in_cond" +
-      "ition_list\030\020 \001(\0132\032.dstore.values.stringV" +
-      "alue\022)\n separator_in_condition_list_null" +
-      "\030\370\007 \001(\010\"\366\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds",
-      "tore.engine.error.Error\022H\n\020meta_informat" +
-      "ion\030\002 \003(\0132..dstore.engine.metainformatio" +
-      "n.MetaInformation\022/\n\007message\030\003 \003(\0132\036.dst" +
-      "ore.engine.message.Message\022D\n\003row\030\004 \003(\0132" +
-      "7.dstore.engine.pm_GetPersons_Conditions" +
-      "_Ad.Response.Row\022*\n\005count\030e \001(\0132\033.dstore" +
-      ".values.integerValue\032\321\001\n\003Row\022\017\n\006row_id\030\220" +
-      "N \001(\005\022/\n\tperson_id\030\221N \001(\0132\033.dstore.value" +
-      "s.integerValue\022,\n\006value1\030\242\234\001 \001(\0132\032.dstor" +
-      "e.values.stringValue\022,\n\006value2\030\263\352\001 \001(\0132\032",
-      ".dstore.values.stringValue\022,\n\006value3\030\302\270\002" +
-      " \001(\0132\032.dstore.values.stringValueB\035\n\033io.d" +
-      "store.engine.proceduresb\006proto3"
+      "\030\354\007 \001(\010\022*\n\005count\030\005 \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022\023\n\ncount_null\030\355\007 \001(\010\0223\n\016pers" +
+      "on_type_id\030\006 \001(\0132\033.dstore.values.integer" +
+      "Value\022\034\n\023person_type_id_null\030\356\007 \001(\010\022/\n\013l" +
+      "ast_values\030\007 \001(\0132\032.dstore.values.stringV" +
+      "alue\022\031\n\020last_values_null\030\357\007 \001(\010\0223\n\016last_",
+      "person_id\030\010 \001(\0132\033.dstore.values.integerV" +
+      "alue\022\034\n\023last_person_id_null\030\360\007 \001(\010\022)\n\004ne" +
+      "xt\030\t \001(\0132\033.dstore.values.booleanValue\022\022\n" +
+      "\tnext_null\030\361\007 \001(\010\022/\n\nrow_number\030\n \001(\0132\033." +
+      "dstore.values.integerValue\022\030\n\017row_number" +
+      "_null\030\362\007 \001(\010\022-\n\010group_id\030\013 \001(\0132\033.dstore." +
+      "values.integerValue\022\026\n\rgroup_id_null\030\363\007 " +
+      "\001(\010\022:\n\026characteristic_id_list\030\014 \001(\0132\032.ds" +
+      "tore.values.stringValue\022$\n\033characteristi" +
+      "c_id_list_null\030\364\007 \001(\010\0222\n\016condition_list\030",
+      "\r \001(\0132\032.dstore.values.stringValue\022\034\n\023con" +
+      "dition_list_null\030\365\007 \001(\010\022+\n\007country\030\016 \001(\013" +
+      "2\032.dstore.values.stringValue\022\025\n\014country_" +
+      "null\030\366\007 \001(\010\0227\n\022output_into_one_id\030\017 \001(\0132" +
+      "\033.dstore.values.integerValue\022 \n\027output_i" +
+      "nto_one_id_null\030\367\007 \001(\010\022<\n\030separator_in_l" +
+      "ast_values\030\020 \001(\0132\032.dstore.values.stringV" +
+      "alue\022&\n\035separator_in_last_values_null\030\370\007" +
+      " \001(\010\022?\n\033separator_in_condition_list\030\021 \001(" +
+      "\0132\032.dstore.values.stringValue\022)\n separat",
+      "or_in_condition_list_null\030\371\007 \001(\010\"\366\003\n\010Res" +
+      "ponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.err" +
+      "or.Error\022H\n\020meta_information\030\002 \003(\0132..dst" +
+      "ore.engine.metainformation.MetaInformati" +
+      "on\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mess" +
+      "age.Message\022D\n\003row\030\004 \003(\01327.dstore.engine" +
+      ".pm_GetPersons_Conditions_Ad.Response.Ro" +
+      "w\022*\n\005count\030e \001(\0132\033.dstore.values.integer" +
+      "Value\032\321\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022/\n\tperson" +
+      "_id\030\221N \001(\0132\033.dstore.values.integerValue\022",
+      ",\n\006value1\030\242\234\001 \001(\0132\032.dstore.values.string" +
+      "Value\022,\n\006value2\030\263\352\001 \001(\0132\032.dstore.values." +
+      "stringValue\022,\n\006value3\030\302\270\002 \001(\0132\032.dstore.v" +
+      "alues.stringValueB\\\n\033io.dstore.engine.pr" +
+      "oceduresZ=gosdk.dstore.de/engine/procedu" +
+      "res/pm_GetPersons_Conditions_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -7453,7 +7701,7 @@ public final class PmGetPersonsConditionsAd {
     internal_static_dstore_engine_pm_GetPersons_Conditions_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersons_Conditions_Ad_Parameters_descriptor,
-        new java.lang.String[] { "SortOrder1", "SortOrder1Null", "SortOrder2", "SortOrder2Null", "SortOrder3", "SortOrder3Null", "OutputCharacteristicIds", "OutputCharacteristicIdsNull", "PersonTypeId", "PersonTypeIdNull", "LastValues", "LastValuesNull", "LastPersonId", "LastPersonIdNull", "Next", "NextNull", "RowNumber", "RowNumberNull", "GroupId", "GroupIdNull", "CharacteristicIdList", "CharacteristicIdListNull", "ConditionList", "ConditionListNull", "Country", "CountryNull", "OutputIntoOneId", "OutputIntoOneIdNull", "SeparatorInLastValues", "SeparatorInLastValuesNull", "SeparatorInConditionList", "SeparatorInConditionListNull", });
+        new java.lang.String[] { "SortOrder1", "SortOrder1Null", "SortOrder2", "SortOrder2Null", "SortOrder3", "SortOrder3Null", "OutputCharacteristicIds", "OutputCharacteristicIdsNull", "Count", "CountNull", "PersonTypeId", "PersonTypeIdNull", "LastValues", "LastValuesNull", "LastPersonId", "LastPersonIdNull", "Next", "NextNull", "RowNumber", "RowNumberNull", "GroupId", "GroupIdNull", "CharacteristicIdList", "CharacteristicIdListNull", "ConditionList", "ConditionListNull", "Country", "CountryNull", "OutputIntoOneId", "OutputIntoOneIdNull", "SeparatorInLastValues", "SeparatorInLastValuesNull", "SeparatorInConditionList", "SeparatorInConditionListNull", });
     internal_static_dstore_engine_pm_GetPersons_Conditions_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_GetPersons_Conditions_Ad_Response_fieldAccessorTable = new

@@ -7849,8 +7849,10 @@ public final class FoGetPostingPu {
       "ngValue\0224\n\016has_successors\030\236N \001(\0132\033.dstor" +
       "e.values.booleanValue\022.\n\tpost_date\030\237N \001(" +
       "\0132\032.dstore.values.stringValue\022)\n\004body\030\240N" +
-      " \001(\0132\032.dstore.values.stringValueB\035\n\033io.d" +
-      "store.engine.proceduresb\006proto3"
+      " \001(\0132\032.dstore.values.stringValueBQ\n\033io.d" +
+      "store.engine.proceduresZ2gosdk.dstore.de" +
+      "/engine/procedures/fo_GetPosting_Pub\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

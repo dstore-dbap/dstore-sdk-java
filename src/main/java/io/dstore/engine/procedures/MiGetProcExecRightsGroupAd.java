@@ -4403,8 +4403,10 @@ public final class MiGetProcExecRightsGroupAd {
       "cedure_id\030\223N \001(\0132\033.dstore.values.integer" +
       "Value\0223\n\016procedure_name\030\224N \001(\0132\032.dstore." +
       "values.stringValue\0223\n\ruser_group_id\030\225N \001" +
-      "(\0132\033.dstore.values.integerValueB\035\n\033io.ds" +
-      "tore.engine.proceduresb\006proto3"
+      "(\0132\033.dstore.values.integerValueB^\n\033io.ds" +
+      "tore.engine.proceduresZ?gosdk.dstore.de/" +
+      "engine/procedures/mi_GetProcExecRights_G" +
+      "roup_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

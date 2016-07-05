@@ -5140,8 +5140,10 @@ public final class OmGetSurchargesPu {
       "escription\030\226N \001(\0132\032.dstore.values.string" +
       "Value\0225\n\017surcharge_value\030\227N \001(\0132\033.dstore" +
       ".values.decimalValue\0227\n\021surcharge_type_i" +
-      "d\030\230N \001(\0132\033.dstore.values.integerValueB\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "d\030\230N \001(\0132\033.dstore.values.integerValueBT\n" +
+      "\033io.dstore.engine.proceduresZ5gosdk.dsto" +
+      "re.de/engine/procedures/om_GetSurcharges",
+      "_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4404,8 +4404,9 @@ public final class PmGetGroupConditionsAd {
       "tegerValue\022@\n\032characteristic_description" +
       "\030\244\234\001 \001(\0132\032.dstore.values.stringValue\022?\n\030" +
       "person_characteristic_id\030\245\234\001 \001(\0132\033.dstor" +
-      "e.values.integerValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "e.values.integerValueBY\n\033io.dstore.engin" +
+      "e.proceduresZ:gosdk.dstore.de/engine/pro" +
+      "cedures/pm_GetGroupConditions_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

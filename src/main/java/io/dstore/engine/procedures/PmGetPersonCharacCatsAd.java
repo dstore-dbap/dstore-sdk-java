@@ -4405,8 +4405,9 @@ public final class PmGetPersonCharacCatsAd {
       "alues.stringValue\0224\n\016person_type_id\030\224N \001" +
       "(\0132\033.dstore.values.integerValue\022?\n\031perso" +
       "n_charac_category_id\030\225N \001(\0132\033.dstore.val" +
-      "ues.integerValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "ues.integerValueBZ\n\033io.dstore.engine.pro" +
+      "ceduresZ;gosdk.dstore.de/engine/procedur" +
+      "es/pm_GetPersonCharacCats_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

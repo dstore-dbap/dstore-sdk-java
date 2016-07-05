@@ -4156,8 +4156,9 @@ public final class OmGetOrderStatesAd {
       "id\030\223N \001(\0132\033.dstore.values.integerValue\0227",
       "\n\022public_description\030\224N \001(\0132\032.dstore.val" +
       "ues.stringValue\0220\n\013order_state\030\225N \001(\0132\032." +
-      "dstore.values.stringValueB\035\n\033io.dstore.e" +
-      "ngine.proceduresb\006proto3"
+      "dstore.values.stringValueBU\n\033io.dstore.e" +
+      "ngine.proceduresZ6gosdk.dstore.de/engine" +
+      "/procedures/om_GetOrderStates_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

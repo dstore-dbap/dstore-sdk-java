@@ -3173,7 +3173,9 @@ public final class CoGetBinaryCatAccessLevels {
       "\n\006row_id\030\220N \001(\005\0225\n\017access_level_id\030\221N \001(" +
       "\0132\033.dstore.values.integerValue\0220\n\013descri" +
       "ption\030\222N \001(\0132\032.dstore.values.stringValue" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "B\\\n\033io.dstore.engine.proceduresZ=gosdk.d" +
+      "store.de/engine/procedures/co_GetBinaryC",
+      "atAccessLevelsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3419,7 +3419,9 @@ public final class OmGetCampPaymentTypeCondsAd {
       "ues.stringValue\0222\n\014condition_id\030\222N \001(\0132\033" +
       ".dstore.values.integerValue\0223\n\rnegate_fi" +
       "lter\030\223N \001(\0132\033.dstore.values.booleanValue" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "B^\n\033io.dstore.engine.proceduresZ?gosdk.d",
+      "store.de/engine/procedures/om_GetCampPay" +
+      "mentTypeConds_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3418,8 +3418,10 @@ public final class OmGetCampTrolleyValueCondAd {
       "lley_value\030\221N \001(\0132\033.dstore.values.decima" +
       "lValue\0222\n\014condition_id\030\222N \001(\0132\033.dstore.v" +
       "alues.integerValue\0228\n\022from_trolley_value" +
-      "\030\223N \001(\0132\033.dstore.values.decimalValueB\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "\030\223N \001(\0132\033.dstore.values.decimalValueB^\n\033" +
+      "io.dstore.engine.proceduresZ?gosdk.dstor",
+      "e.de/engine/procedures/om_GetCampTrolley" +
+      "ValueCond_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

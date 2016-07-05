@@ -5880,8 +5880,9 @@ public final class ImGetPredecessors {
       "node_id\030\223N \001(\0132\033.dstore.values.integerVa" +
       "lue\022-\n\007node_id\030\224N \001(\0132\033.dstore.values.in" +
       "tegerValue\0222\n\013predecessor\030\241\234\001 \001(\0132\033.dsto" +
-      "re.values.integerValueB\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      "re.values.integerValueBS\n\033io.dstore.engi" +
+      "ne.proceduresZ4gosdk.dstore.de/engine/pr",
+      "ocedures/im_GetPredecessorsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

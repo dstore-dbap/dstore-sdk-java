@@ -103,128 +103,146 @@ public final class ImSearchBinariesAd {
     boolean getRowCountNull();
 
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     */
+    boolean hasNumberOfElementsInResult();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     */
+    io.dstore.Values.integerValue getNumberOfElementsInResult();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder();
+
+    /**
+     * <code>optional bool number_of_elements_in_result_null = 1006;</code>
+     */
+    boolean getNumberOfElementsInResultNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
      */
     boolean hasOutputBinaryCharacId1();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
      */
     io.dstore.Values.integerValue getOutputBinaryCharacId1();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
      */
     io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId1OrBuilder();
 
     /**
-     * <code>optional bool output_binary_charac_id1_null = 1006;</code>
+     * <code>optional bool output_binary_charac_id1_null = 1007;</code>
      */
     boolean getOutputBinaryCharacId1Null();
 
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
      */
     boolean hasOutputBinaryCharacId2();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
      */
     io.dstore.Values.integerValue getOutputBinaryCharacId2();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
      */
     io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId2OrBuilder();
 
     /**
-     * <code>optional bool output_binary_charac_id2_null = 1007;</code>
+     * <code>optional bool output_binary_charac_id2_null = 1008;</code>
      */
     boolean getOutputBinaryCharacId2Null();
 
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
      */
     boolean hasOutputBinaryCharacId3();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
      */
     io.dstore.Values.integerValue getOutputBinaryCharacId3();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
      */
     io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId3OrBuilder();
 
     /**
-     * <code>optional bool output_binary_charac_id3_null = 1008;</code>
+     * <code>optional bool output_binary_charac_id3_null = 1009;</code>
      */
     boolean getOutputBinaryCharacId3Null();
 
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
      */
     boolean hasIncludeBinaryCode();
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
      */
     io.dstore.Values.booleanValue getIncludeBinaryCode();
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getIncludeBinaryCodeOrBuilder();
 
     /**
-     * <code>optional bool include_binary_code_null = 1009;</code>
+     * <code>optional bool include_binary_code_null = 1010;</code>
      */
     boolean getIncludeBinaryCodeNull();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
      */
     boolean hasNodeCharacteristicId1();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
      */
     io.dstore.Values.integerValue getNodeCharacteristicId1();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
      */
     io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId1OrBuilder();
 
     /**
-     * <code>optional bool node_characteristic_id1_null = 1010;</code>
+     * <code>optional bool node_characteristic_id1_null = 1011;</code>
      */
     boolean getNodeCharacteristicId1Null();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
      */
     boolean hasNodeCharacteristicId2();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
      */
     io.dstore.Values.integerValue getNodeCharacteristicId2();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
      */
     io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId2OrBuilder();
 
     /**
-     * <code>optional bool node_characteristic_id2_null = 1011;</code>
+     * <code>optional bool node_characteristic_id2_null = 1012;</code>
      */
     boolean getNodeCharacteristicId2Null();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
      */
     boolean hasNodeCharacteristicId3();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
      */
     io.dstore.Values.integerValue getNodeCharacteristicId3();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
      */
     io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId3OrBuilder();
 
     /**
-     * <code>optional bool node_characteristic_id3_null = 1012;</code>
+     * <code>optional bool node_characteristic_id3_null = 1013;</code>
      */
     boolean getNodeCharacteristicId3Null();
   }
@@ -245,6 +263,7 @@ public final class ImSearchBinariesAd {
       valueSeparatorINOperatorNull_ = false;
       startAtRowNoNull_ = false;
       rowCountNull_ = false;
+      numberOfElementsInResultNull_ = false;
       outputBinaryCharacId1Null_ = false;
       outputBinaryCharacId2Null_ = false;
       outputBinaryCharacId3Null_ = false;
@@ -345,6 +364,19 @@ public final class ImSearchBinariesAd {
             }
             case 50: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (numberOfElementsInResult_ != null) {
+                subBuilder = numberOfElementsInResult_.toBuilder();
+              }
+              numberOfElementsInResult_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(numberOfElementsInResult_);
+                numberOfElementsInResult_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 58: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputBinaryCharacId1_ != null) {
                 subBuilder = outputBinaryCharacId1_.toBuilder();
               }
@@ -356,7 +388,7 @@ public final class ImSearchBinariesAd {
 
               break;
             }
-            case 58: {
+            case 66: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputBinaryCharacId2_ != null) {
                 subBuilder = outputBinaryCharacId2_.toBuilder();
@@ -369,7 +401,7 @@ public final class ImSearchBinariesAd {
 
               break;
             }
-            case 66: {
+            case 74: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputBinaryCharacId3_ != null) {
                 subBuilder = outputBinaryCharacId3_.toBuilder();
@@ -382,7 +414,7 @@ public final class ImSearchBinariesAd {
 
               break;
             }
-            case 74: {
+            case 82: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeBinaryCode_ != null) {
                 subBuilder = includeBinaryCode_.toBuilder();
@@ -395,7 +427,7 @@ public final class ImSearchBinariesAd {
 
               break;
             }
-            case 82: {
+            case 90: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (nodeCharacteristicId1_ != null) {
                 subBuilder = nodeCharacteristicId1_.toBuilder();
@@ -408,7 +440,7 @@ public final class ImSearchBinariesAd {
 
               break;
             }
-            case 90: {
+            case 98: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (nodeCharacteristicId2_ != null) {
                 subBuilder = nodeCharacteristicId2_.toBuilder();
@@ -421,7 +453,7 @@ public final class ImSearchBinariesAd {
 
               break;
             }
-            case 98: {
+            case 106: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (nodeCharacteristicId3_ != null) {
                 subBuilder = nodeCharacteristicId3_.toBuilder();
@@ -461,35 +493,40 @@ public final class ImSearchBinariesAd {
             }
             case 8048: {
 
-              outputBinaryCharacId1Null_ = input.readBool();
+              numberOfElementsInResultNull_ = input.readBool();
               break;
             }
             case 8056: {
 
-              outputBinaryCharacId2Null_ = input.readBool();
+              outputBinaryCharacId1Null_ = input.readBool();
               break;
             }
             case 8064: {
 
-              outputBinaryCharacId3Null_ = input.readBool();
+              outputBinaryCharacId2Null_ = input.readBool();
               break;
             }
             case 8072: {
 
-              includeBinaryCodeNull_ = input.readBool();
+              outputBinaryCharacId3Null_ = input.readBool();
               break;
             }
             case 8080: {
 
-              nodeCharacteristicId1Null_ = input.readBool();
+              includeBinaryCodeNull_ = input.readBool();
               break;
             }
             case 8088: {
 
-              nodeCharacteristicId2Null_ = input.readBool();
+              nodeCharacteristicId1Null_ = input.readBool();
               break;
             }
             case 8096: {
+
+              nodeCharacteristicId2Null_ = input.readBool();
+              break;
+            }
+            case 8104: {
 
               nodeCharacteristicId3Null_ = input.readBool();
               break;
@@ -668,211 +705,241 @@ public final class ImSearchBinariesAd {
       return rowCountNull_;
     }
 
-    public static final int OUTPUT_BINARY_CHARAC_ID1_FIELD_NUMBER = 6;
+    public static final int NUMBER_OF_ELEMENTS_IN_RESULT_FIELD_NUMBER = 6;
+    private io.dstore.Values.integerValue numberOfElementsInResult_;
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     */
+    public boolean hasNumberOfElementsInResult() {
+      return numberOfElementsInResult_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     */
+    public io.dstore.Values.integerValue getNumberOfElementsInResult() {
+      return numberOfElementsInResult_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
+      return getNumberOfElementsInResult();
+    }
+
+    public static final int NUMBER_OF_ELEMENTS_IN_RESULT_NULL_FIELD_NUMBER = 1006;
+    private boolean numberOfElementsInResultNull_;
+    /**
+     * <code>optional bool number_of_elements_in_result_null = 1006;</code>
+     */
+    public boolean getNumberOfElementsInResultNull() {
+      return numberOfElementsInResultNull_;
+    }
+
+    public static final int OUTPUT_BINARY_CHARAC_ID1_FIELD_NUMBER = 7;
     private io.dstore.Values.integerValue outputBinaryCharacId1_;
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
      */
     public boolean hasOutputBinaryCharacId1() {
       return outputBinaryCharacId1_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
      */
     public io.dstore.Values.integerValue getOutputBinaryCharacId1() {
       return outputBinaryCharacId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId1_;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId1OrBuilder() {
       return getOutputBinaryCharacId1();
     }
 
-    public static final int OUTPUT_BINARY_CHARAC_ID1_NULL_FIELD_NUMBER = 1006;
+    public static final int OUTPUT_BINARY_CHARAC_ID1_NULL_FIELD_NUMBER = 1007;
     private boolean outputBinaryCharacId1Null_;
     /**
-     * <code>optional bool output_binary_charac_id1_null = 1006;</code>
+     * <code>optional bool output_binary_charac_id1_null = 1007;</code>
      */
     public boolean getOutputBinaryCharacId1Null() {
       return outputBinaryCharacId1Null_;
     }
 
-    public static final int OUTPUT_BINARY_CHARAC_ID2_FIELD_NUMBER = 7;
+    public static final int OUTPUT_BINARY_CHARAC_ID2_FIELD_NUMBER = 8;
     private io.dstore.Values.integerValue outputBinaryCharacId2_;
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
      */
     public boolean hasOutputBinaryCharacId2() {
       return outputBinaryCharacId2_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
      */
     public io.dstore.Values.integerValue getOutputBinaryCharacId2() {
       return outputBinaryCharacId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId2_;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId2OrBuilder() {
       return getOutputBinaryCharacId2();
     }
 
-    public static final int OUTPUT_BINARY_CHARAC_ID2_NULL_FIELD_NUMBER = 1007;
+    public static final int OUTPUT_BINARY_CHARAC_ID2_NULL_FIELD_NUMBER = 1008;
     private boolean outputBinaryCharacId2Null_;
     /**
-     * <code>optional bool output_binary_charac_id2_null = 1007;</code>
+     * <code>optional bool output_binary_charac_id2_null = 1008;</code>
      */
     public boolean getOutputBinaryCharacId2Null() {
       return outputBinaryCharacId2Null_;
     }
 
-    public static final int OUTPUT_BINARY_CHARAC_ID3_FIELD_NUMBER = 8;
+    public static final int OUTPUT_BINARY_CHARAC_ID3_FIELD_NUMBER = 9;
     private io.dstore.Values.integerValue outputBinaryCharacId3_;
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
      */
     public boolean hasOutputBinaryCharacId3() {
       return outputBinaryCharacId3_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
      */
     public io.dstore.Values.integerValue getOutputBinaryCharacId3() {
       return outputBinaryCharacId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId3_;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId3OrBuilder() {
       return getOutputBinaryCharacId3();
     }
 
-    public static final int OUTPUT_BINARY_CHARAC_ID3_NULL_FIELD_NUMBER = 1008;
+    public static final int OUTPUT_BINARY_CHARAC_ID3_NULL_FIELD_NUMBER = 1009;
     private boolean outputBinaryCharacId3Null_;
     /**
-     * <code>optional bool output_binary_charac_id3_null = 1008;</code>
+     * <code>optional bool output_binary_charac_id3_null = 1009;</code>
      */
     public boolean getOutputBinaryCharacId3Null() {
       return outputBinaryCharacId3Null_;
     }
 
-    public static final int INCLUDE_BINARY_CODE_FIELD_NUMBER = 9;
+    public static final int INCLUDE_BINARY_CODE_FIELD_NUMBER = 10;
     private io.dstore.Values.booleanValue includeBinaryCode_;
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
      */
     public boolean hasIncludeBinaryCode() {
       return includeBinaryCode_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
      */
     public io.dstore.Values.booleanValue getIncludeBinaryCode() {
       return includeBinaryCode_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeBinaryCode_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getIncludeBinaryCodeOrBuilder() {
       return getIncludeBinaryCode();
     }
 
-    public static final int INCLUDE_BINARY_CODE_NULL_FIELD_NUMBER = 1009;
+    public static final int INCLUDE_BINARY_CODE_NULL_FIELD_NUMBER = 1010;
     private boolean includeBinaryCodeNull_;
     /**
-     * <code>optional bool include_binary_code_null = 1009;</code>
+     * <code>optional bool include_binary_code_null = 1010;</code>
      */
     public boolean getIncludeBinaryCodeNull() {
       return includeBinaryCodeNull_;
     }
 
-    public static final int NODE_CHARACTERISTIC_ID1_FIELD_NUMBER = 10;
+    public static final int NODE_CHARACTERISTIC_ID1_FIELD_NUMBER = 11;
     private io.dstore.Values.integerValue nodeCharacteristicId1_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
      */
     public boolean hasNodeCharacteristicId1() {
       return nodeCharacteristicId1_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
      */
     public io.dstore.Values.integerValue getNodeCharacteristicId1() {
       return nodeCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId1_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId1OrBuilder() {
       return getNodeCharacteristicId1();
     }
 
-    public static final int NODE_CHARACTERISTIC_ID1_NULL_FIELD_NUMBER = 1010;
+    public static final int NODE_CHARACTERISTIC_ID1_NULL_FIELD_NUMBER = 1011;
     private boolean nodeCharacteristicId1Null_;
     /**
-     * <code>optional bool node_characteristic_id1_null = 1010;</code>
+     * <code>optional bool node_characteristic_id1_null = 1011;</code>
      */
     public boolean getNodeCharacteristicId1Null() {
       return nodeCharacteristicId1Null_;
     }
 
-    public static final int NODE_CHARACTERISTIC_ID2_FIELD_NUMBER = 11;
+    public static final int NODE_CHARACTERISTIC_ID2_FIELD_NUMBER = 12;
     private io.dstore.Values.integerValue nodeCharacteristicId2_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
      */
     public boolean hasNodeCharacteristicId2() {
       return nodeCharacteristicId2_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
      */
     public io.dstore.Values.integerValue getNodeCharacteristicId2() {
       return nodeCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId2_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId2OrBuilder() {
       return getNodeCharacteristicId2();
     }
 
-    public static final int NODE_CHARACTERISTIC_ID2_NULL_FIELD_NUMBER = 1011;
+    public static final int NODE_CHARACTERISTIC_ID2_NULL_FIELD_NUMBER = 1012;
     private boolean nodeCharacteristicId2Null_;
     /**
-     * <code>optional bool node_characteristic_id2_null = 1011;</code>
+     * <code>optional bool node_characteristic_id2_null = 1012;</code>
      */
     public boolean getNodeCharacteristicId2Null() {
       return nodeCharacteristicId2Null_;
     }
 
-    public static final int NODE_CHARACTERISTIC_ID3_FIELD_NUMBER = 12;
+    public static final int NODE_CHARACTERISTIC_ID3_FIELD_NUMBER = 13;
     private io.dstore.Values.integerValue nodeCharacteristicId3_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
      */
     public boolean hasNodeCharacteristicId3() {
       return nodeCharacteristicId3_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
      */
     public io.dstore.Values.integerValue getNodeCharacteristicId3() {
       return nodeCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId3_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId3OrBuilder() {
       return getNodeCharacteristicId3();
     }
 
-    public static final int NODE_CHARACTERISTIC_ID3_NULL_FIELD_NUMBER = 1012;
+    public static final int NODE_CHARACTERISTIC_ID3_NULL_FIELD_NUMBER = 1013;
     private boolean nodeCharacteristicId3Null_;
     /**
-     * <code>optional bool node_characteristic_id3_null = 1012;</code>
+     * <code>optional bool node_characteristic_id3_null = 1013;</code>
      */
     public boolean getNodeCharacteristicId3Null() {
       return nodeCharacteristicId3Null_;
@@ -905,26 +972,29 @@ public final class ImSearchBinariesAd {
       if (rowCount_ != null) {
         output.writeMessage(5, getRowCount());
       }
+      if (numberOfElementsInResult_ != null) {
+        output.writeMessage(6, getNumberOfElementsInResult());
+      }
       if (outputBinaryCharacId1_ != null) {
-        output.writeMessage(6, getOutputBinaryCharacId1());
+        output.writeMessage(7, getOutputBinaryCharacId1());
       }
       if (outputBinaryCharacId2_ != null) {
-        output.writeMessage(7, getOutputBinaryCharacId2());
+        output.writeMessage(8, getOutputBinaryCharacId2());
       }
       if (outputBinaryCharacId3_ != null) {
-        output.writeMessage(8, getOutputBinaryCharacId3());
+        output.writeMessage(9, getOutputBinaryCharacId3());
       }
       if (includeBinaryCode_ != null) {
-        output.writeMessage(9, getIncludeBinaryCode());
+        output.writeMessage(10, getIncludeBinaryCode());
       }
       if (nodeCharacteristicId1_ != null) {
-        output.writeMessage(10, getNodeCharacteristicId1());
+        output.writeMessage(11, getNodeCharacteristicId1());
       }
       if (nodeCharacteristicId2_ != null) {
-        output.writeMessage(11, getNodeCharacteristicId2());
+        output.writeMessage(12, getNodeCharacteristicId2());
       }
       if (nodeCharacteristicId3_ != null) {
-        output.writeMessage(12, getNodeCharacteristicId3());
+        output.writeMessage(13, getNodeCharacteristicId3());
       }
       if (assignedToTableNull_ != false) {
         output.writeBool(1001, assignedToTableNull_);
@@ -941,26 +1011,29 @@ public final class ImSearchBinariesAd {
       if (rowCountNull_ != false) {
         output.writeBool(1005, rowCountNull_);
       }
+      if (numberOfElementsInResultNull_ != false) {
+        output.writeBool(1006, numberOfElementsInResultNull_);
+      }
       if (outputBinaryCharacId1Null_ != false) {
-        output.writeBool(1006, outputBinaryCharacId1Null_);
+        output.writeBool(1007, outputBinaryCharacId1Null_);
       }
       if (outputBinaryCharacId2Null_ != false) {
-        output.writeBool(1007, outputBinaryCharacId2Null_);
+        output.writeBool(1008, outputBinaryCharacId2Null_);
       }
       if (outputBinaryCharacId3Null_ != false) {
-        output.writeBool(1008, outputBinaryCharacId3Null_);
+        output.writeBool(1009, outputBinaryCharacId3Null_);
       }
       if (includeBinaryCodeNull_ != false) {
-        output.writeBool(1009, includeBinaryCodeNull_);
+        output.writeBool(1010, includeBinaryCodeNull_);
       }
       if (nodeCharacteristicId1Null_ != false) {
-        output.writeBool(1010, nodeCharacteristicId1Null_);
+        output.writeBool(1011, nodeCharacteristicId1Null_);
       }
       if (nodeCharacteristicId2Null_ != false) {
-        output.writeBool(1011, nodeCharacteristicId2Null_);
+        output.writeBool(1012, nodeCharacteristicId2Null_);
       }
       if (nodeCharacteristicId3Null_ != false) {
-        output.writeBool(1012, nodeCharacteristicId3Null_);
+        output.writeBool(1013, nodeCharacteristicId3Null_);
       }
     }
 
@@ -989,33 +1062,37 @@ public final class ImSearchBinariesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, getRowCount());
       }
+      if (numberOfElementsInResult_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getNumberOfElementsInResult());
+      }
       if (outputBinaryCharacId1_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getOutputBinaryCharacId1());
+          .computeMessageSize(7, getOutputBinaryCharacId1());
       }
       if (outputBinaryCharacId2_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getOutputBinaryCharacId2());
+          .computeMessageSize(8, getOutputBinaryCharacId2());
       }
       if (outputBinaryCharacId3_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getOutputBinaryCharacId3());
+          .computeMessageSize(9, getOutputBinaryCharacId3());
       }
       if (includeBinaryCode_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getIncludeBinaryCode());
+          .computeMessageSize(10, getIncludeBinaryCode());
       }
       if (nodeCharacteristicId1_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getNodeCharacteristicId1());
+          .computeMessageSize(11, getNodeCharacteristicId1());
       }
       if (nodeCharacteristicId2_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getNodeCharacteristicId2());
+          .computeMessageSize(12, getNodeCharacteristicId2());
       }
       if (nodeCharacteristicId3_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getNodeCharacteristicId3());
+          .computeMessageSize(13, getNodeCharacteristicId3());
       }
       if (assignedToTableNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -1037,33 +1114,37 @@ public final class ImSearchBinariesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, rowCountNull_);
       }
+      if (numberOfElementsInResultNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1006, numberOfElementsInResultNull_);
+      }
       if (outputBinaryCharacId1Null_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, outputBinaryCharacId1Null_);
+          .computeBoolSize(1007, outputBinaryCharacId1Null_);
       }
       if (outputBinaryCharacId2Null_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1007, outputBinaryCharacId2Null_);
+          .computeBoolSize(1008, outputBinaryCharacId2Null_);
       }
       if (outputBinaryCharacId3Null_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1008, outputBinaryCharacId3Null_);
+          .computeBoolSize(1009, outputBinaryCharacId3Null_);
       }
       if (includeBinaryCodeNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1009, includeBinaryCodeNull_);
+          .computeBoolSize(1010, includeBinaryCodeNull_);
       }
       if (nodeCharacteristicId1Null_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1010, nodeCharacteristicId1Null_);
+          .computeBoolSize(1011, nodeCharacteristicId1Null_);
       }
       if (nodeCharacteristicId2Null_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1011, nodeCharacteristicId2Null_);
+          .computeBoolSize(1012, nodeCharacteristicId2Null_);
       }
       if (nodeCharacteristicId3Null_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1012, nodeCharacteristicId3Null_);
+          .computeBoolSize(1013, nodeCharacteristicId3Null_);
       }
       memoizedSize = size;
       return size;
@@ -1216,6 +1297,14 @@ public final class ImSearchBinariesAd {
         }
         rowCountNull_ = false;
 
+        if (numberOfElementsInResultBuilder_ == null) {
+          numberOfElementsInResult_ = null;
+        } else {
+          numberOfElementsInResult_ = null;
+          numberOfElementsInResultBuilder_ = null;
+        }
+        numberOfElementsInResultNull_ = false;
+
         if (outputBinaryCharacId1Builder_ == null) {
           outputBinaryCharacId1_ = null;
         } else {
@@ -1324,6 +1413,12 @@ public final class ImSearchBinariesAd {
           result.rowCount_ = rowCountBuilder_.build();
         }
         result.rowCountNull_ = rowCountNull_;
+        if (numberOfElementsInResultBuilder_ == null) {
+          result.numberOfElementsInResult_ = numberOfElementsInResult_;
+        } else {
+          result.numberOfElementsInResult_ = numberOfElementsInResultBuilder_.build();
+        }
+        result.numberOfElementsInResultNull_ = numberOfElementsInResultNull_;
         if (outputBinaryCharacId1Builder_ == null) {
           result.outputBinaryCharacId1_ = outputBinaryCharacId1_;
         } else {
@@ -1410,6 +1505,12 @@ public final class ImSearchBinariesAd {
         }
         if (other.getRowCountNull() != false) {
           setRowCountNull(other.getRowCountNull());
+        }
+        if (other.hasNumberOfElementsInResult()) {
+          mergeNumberOfElementsInResult(other.getNumberOfElementsInResult());
+        }
+        if (other.getNumberOfElementsInResultNull() != false) {
+          setNumberOfElementsInResultNull(other.getNumberOfElementsInResultNull());
         }
         if (other.hasOutputBinaryCharacId1()) {
           mergeOutputBinaryCharacId1(other.getOutputBinaryCharacId1());
@@ -2194,17 +2295,160 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue numberOfElementsInResult_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfElementsInResultBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       */
+      public boolean hasNumberOfElementsInResult() {
+        return numberOfElementsInResultBuilder_ != null || numberOfElementsInResult_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       */
+      public io.dstore.Values.integerValue getNumberOfElementsInResult() {
+        if (numberOfElementsInResultBuilder_ == null) {
+          return numberOfElementsInResult_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+        } else {
+          return numberOfElementsInResultBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       */
+      public Builder setNumberOfElementsInResult(io.dstore.Values.integerValue value) {
+        if (numberOfElementsInResultBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          numberOfElementsInResult_ = value;
+          onChanged();
+        } else {
+          numberOfElementsInResultBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       */
+      public Builder setNumberOfElementsInResult(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (numberOfElementsInResultBuilder_ == null) {
+          numberOfElementsInResult_ = builderForValue.build();
+          onChanged();
+        } else {
+          numberOfElementsInResultBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       */
+      public Builder mergeNumberOfElementsInResult(io.dstore.Values.integerValue value) {
+        if (numberOfElementsInResultBuilder_ == null) {
+          if (numberOfElementsInResult_ != null) {
+            numberOfElementsInResult_ =
+              io.dstore.Values.integerValue.newBuilder(numberOfElementsInResult_).mergeFrom(value).buildPartial();
+          } else {
+            numberOfElementsInResult_ = value;
+          }
+          onChanged();
+        } else {
+          numberOfElementsInResultBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       */
+      public Builder clearNumberOfElementsInResult() {
+        if (numberOfElementsInResultBuilder_ == null) {
+          numberOfElementsInResult_ = null;
+          onChanged();
+        } else {
+          numberOfElementsInResult_ = null;
+          numberOfElementsInResultBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNumberOfElementsInResultBuilder() {
+        
+        onChanged();
+        return getNumberOfElementsInResultFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
+        if (numberOfElementsInResultBuilder_ != null) {
+          return numberOfElementsInResultBuilder_.getMessageOrBuilder();
+        } else {
+          return numberOfElementsInResult_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNumberOfElementsInResultFieldBuilder() {
+        if (numberOfElementsInResultBuilder_ == null) {
+          numberOfElementsInResultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNumberOfElementsInResult(),
+                  getParentForChildren(),
+                  isClean());
+          numberOfElementsInResult_ = null;
+        }
+        return numberOfElementsInResultBuilder_;
+      }
+
+      private boolean numberOfElementsInResultNull_ ;
+      /**
+       * <code>optional bool number_of_elements_in_result_null = 1006;</code>
+       */
+      public boolean getNumberOfElementsInResultNull() {
+        return numberOfElementsInResultNull_;
+      }
+      /**
+       * <code>optional bool number_of_elements_in_result_null = 1006;</code>
+       */
+      public Builder setNumberOfElementsInResultNull(boolean value) {
+        
+        numberOfElementsInResultNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool number_of_elements_in_result_null = 1006;</code>
+       */
+      public Builder clearNumberOfElementsInResultNull() {
+        
+        numberOfElementsInResultNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue outputBinaryCharacId1_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputBinaryCharacId1Builder_;
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
        */
       public boolean hasOutputBinaryCharacId1() {
         return outputBinaryCharacId1Builder_ != null || outputBinaryCharacId1_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
        */
       public io.dstore.Values.integerValue getOutputBinaryCharacId1() {
         if (outputBinaryCharacId1Builder_ == null) {
@@ -2214,7 +2458,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
        */
       public Builder setOutputBinaryCharacId1(io.dstore.Values.integerValue value) {
         if (outputBinaryCharacId1Builder_ == null) {
@@ -2230,7 +2474,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
        */
       public Builder setOutputBinaryCharacId1(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2244,7 +2488,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
        */
       public Builder mergeOutputBinaryCharacId1(io.dstore.Values.integerValue value) {
         if (outputBinaryCharacId1Builder_ == null) {
@@ -2262,7 +2506,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
        */
       public Builder clearOutputBinaryCharacId1() {
         if (outputBinaryCharacId1Builder_ == null) {
@@ -2276,7 +2520,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
        */
       public io.dstore.Values.integerValue.Builder getOutputBinaryCharacId1Builder() {
         
@@ -2284,7 +2528,7 @@ public final class ImSearchBinariesAd {
         return getOutputBinaryCharacId1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId1OrBuilder() {
         if (outputBinaryCharacId1Builder_ != null) {
@@ -2295,7 +2539,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2313,13 +2557,13 @@ public final class ImSearchBinariesAd {
 
       private boolean outputBinaryCharacId1Null_ ;
       /**
-       * <code>optional bool output_binary_charac_id1_null = 1006;</code>
+       * <code>optional bool output_binary_charac_id1_null = 1007;</code>
        */
       public boolean getOutputBinaryCharacId1Null() {
         return outputBinaryCharacId1Null_;
       }
       /**
-       * <code>optional bool output_binary_charac_id1_null = 1006;</code>
+       * <code>optional bool output_binary_charac_id1_null = 1007;</code>
        */
       public Builder setOutputBinaryCharacId1Null(boolean value) {
         
@@ -2328,7 +2572,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional bool output_binary_charac_id1_null = 1006;</code>
+       * <code>optional bool output_binary_charac_id1_null = 1007;</code>
        */
       public Builder clearOutputBinaryCharacId1Null() {
         
@@ -2341,13 +2585,13 @@ public final class ImSearchBinariesAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputBinaryCharacId2Builder_;
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
        */
       public boolean hasOutputBinaryCharacId2() {
         return outputBinaryCharacId2Builder_ != null || outputBinaryCharacId2_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
        */
       public io.dstore.Values.integerValue getOutputBinaryCharacId2() {
         if (outputBinaryCharacId2Builder_ == null) {
@@ -2357,7 +2601,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
        */
       public Builder setOutputBinaryCharacId2(io.dstore.Values.integerValue value) {
         if (outputBinaryCharacId2Builder_ == null) {
@@ -2373,7 +2617,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
        */
       public Builder setOutputBinaryCharacId2(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2387,7 +2631,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
        */
       public Builder mergeOutputBinaryCharacId2(io.dstore.Values.integerValue value) {
         if (outputBinaryCharacId2Builder_ == null) {
@@ -2405,7 +2649,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
        */
       public Builder clearOutputBinaryCharacId2() {
         if (outputBinaryCharacId2Builder_ == null) {
@@ -2419,7 +2663,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
        */
       public io.dstore.Values.integerValue.Builder getOutputBinaryCharacId2Builder() {
         
@@ -2427,7 +2671,7 @@ public final class ImSearchBinariesAd {
         return getOutputBinaryCharacId2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId2OrBuilder() {
         if (outputBinaryCharacId2Builder_ != null) {
@@ -2438,7 +2682,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2456,13 +2700,13 @@ public final class ImSearchBinariesAd {
 
       private boolean outputBinaryCharacId2Null_ ;
       /**
-       * <code>optional bool output_binary_charac_id2_null = 1007;</code>
+       * <code>optional bool output_binary_charac_id2_null = 1008;</code>
        */
       public boolean getOutputBinaryCharacId2Null() {
         return outputBinaryCharacId2Null_;
       }
       /**
-       * <code>optional bool output_binary_charac_id2_null = 1007;</code>
+       * <code>optional bool output_binary_charac_id2_null = 1008;</code>
        */
       public Builder setOutputBinaryCharacId2Null(boolean value) {
         
@@ -2471,7 +2715,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional bool output_binary_charac_id2_null = 1007;</code>
+       * <code>optional bool output_binary_charac_id2_null = 1008;</code>
        */
       public Builder clearOutputBinaryCharacId2Null() {
         
@@ -2484,13 +2728,13 @@ public final class ImSearchBinariesAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputBinaryCharacId3Builder_;
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
        */
       public boolean hasOutputBinaryCharacId3() {
         return outputBinaryCharacId3Builder_ != null || outputBinaryCharacId3_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
        */
       public io.dstore.Values.integerValue getOutputBinaryCharacId3() {
         if (outputBinaryCharacId3Builder_ == null) {
@@ -2500,7 +2744,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
        */
       public Builder setOutputBinaryCharacId3(io.dstore.Values.integerValue value) {
         if (outputBinaryCharacId3Builder_ == null) {
@@ -2516,7 +2760,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
        */
       public Builder setOutputBinaryCharacId3(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2530,7 +2774,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
        */
       public Builder mergeOutputBinaryCharacId3(io.dstore.Values.integerValue value) {
         if (outputBinaryCharacId3Builder_ == null) {
@@ -2548,7 +2792,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
        */
       public Builder clearOutputBinaryCharacId3() {
         if (outputBinaryCharacId3Builder_ == null) {
@@ -2562,7 +2806,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
        */
       public io.dstore.Values.integerValue.Builder getOutputBinaryCharacId3Builder() {
         
@@ -2570,7 +2814,7 @@ public final class ImSearchBinariesAd {
         return getOutputBinaryCharacId3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId3OrBuilder() {
         if (outputBinaryCharacId3Builder_ != null) {
@@ -2581,7 +2825,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2599,13 +2843,13 @@ public final class ImSearchBinariesAd {
 
       private boolean outputBinaryCharacId3Null_ ;
       /**
-       * <code>optional bool output_binary_charac_id3_null = 1008;</code>
+       * <code>optional bool output_binary_charac_id3_null = 1009;</code>
        */
       public boolean getOutputBinaryCharacId3Null() {
         return outputBinaryCharacId3Null_;
       }
       /**
-       * <code>optional bool output_binary_charac_id3_null = 1008;</code>
+       * <code>optional bool output_binary_charac_id3_null = 1009;</code>
        */
       public Builder setOutputBinaryCharacId3Null(boolean value) {
         
@@ -2614,7 +2858,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional bool output_binary_charac_id3_null = 1008;</code>
+       * <code>optional bool output_binary_charac_id3_null = 1009;</code>
        */
       public Builder clearOutputBinaryCharacId3Null() {
         
@@ -2627,13 +2871,13 @@ public final class ImSearchBinariesAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeBinaryCodeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
        */
       public boolean hasIncludeBinaryCode() {
         return includeBinaryCodeBuilder_ != null || includeBinaryCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
        */
       public io.dstore.Values.booleanValue getIncludeBinaryCode() {
         if (includeBinaryCodeBuilder_ == null) {
@@ -2643,7 +2887,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
        */
       public Builder setIncludeBinaryCode(io.dstore.Values.booleanValue value) {
         if (includeBinaryCodeBuilder_ == null) {
@@ -2659,7 +2903,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
        */
       public Builder setIncludeBinaryCode(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2673,7 +2917,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
        */
       public Builder mergeIncludeBinaryCode(io.dstore.Values.booleanValue value) {
         if (includeBinaryCodeBuilder_ == null) {
@@ -2691,7 +2935,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
        */
       public Builder clearIncludeBinaryCode() {
         if (includeBinaryCodeBuilder_ == null) {
@@ -2705,7 +2949,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
        */
       public io.dstore.Values.booleanValue.Builder getIncludeBinaryCodeBuilder() {
         
@@ -2713,7 +2957,7 @@ public final class ImSearchBinariesAd {
         return getIncludeBinaryCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getIncludeBinaryCodeOrBuilder() {
         if (includeBinaryCodeBuilder_ != null) {
@@ -2724,7 +2968,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 9;</code>
+       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2742,13 +2986,13 @@ public final class ImSearchBinariesAd {
 
       private boolean includeBinaryCodeNull_ ;
       /**
-       * <code>optional bool include_binary_code_null = 1009;</code>
+       * <code>optional bool include_binary_code_null = 1010;</code>
        */
       public boolean getIncludeBinaryCodeNull() {
         return includeBinaryCodeNull_;
       }
       /**
-       * <code>optional bool include_binary_code_null = 1009;</code>
+       * <code>optional bool include_binary_code_null = 1010;</code>
        */
       public Builder setIncludeBinaryCodeNull(boolean value) {
         
@@ -2757,7 +3001,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional bool include_binary_code_null = 1009;</code>
+       * <code>optional bool include_binary_code_null = 1010;</code>
        */
       public Builder clearIncludeBinaryCodeNull() {
         
@@ -2770,13 +3014,13 @@ public final class ImSearchBinariesAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicId1Builder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
        */
       public boolean hasNodeCharacteristicId1() {
         return nodeCharacteristicId1Builder_ != null || nodeCharacteristicId1_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
        */
       public io.dstore.Values.integerValue getNodeCharacteristicId1() {
         if (nodeCharacteristicId1Builder_ == null) {
@@ -2786,7 +3030,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
        */
       public Builder setNodeCharacteristicId1(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicId1Builder_ == null) {
@@ -2802,7 +3046,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
        */
       public Builder setNodeCharacteristicId1(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2816,7 +3060,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
        */
       public Builder mergeNodeCharacteristicId1(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicId1Builder_ == null) {
@@ -2834,7 +3078,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
        */
       public Builder clearNodeCharacteristicId1() {
         if (nodeCharacteristicId1Builder_ == null) {
@@ -2848,7 +3092,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
        */
       public io.dstore.Values.integerValue.Builder getNodeCharacteristicId1Builder() {
         
@@ -2856,7 +3100,7 @@ public final class ImSearchBinariesAd {
         return getNodeCharacteristicId1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId1OrBuilder() {
         if (nodeCharacteristicId1Builder_ != null) {
@@ -2867,7 +3111,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 10;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2885,13 +3129,13 @@ public final class ImSearchBinariesAd {
 
       private boolean nodeCharacteristicId1Null_ ;
       /**
-       * <code>optional bool node_characteristic_id1_null = 1010;</code>
+       * <code>optional bool node_characteristic_id1_null = 1011;</code>
        */
       public boolean getNodeCharacteristicId1Null() {
         return nodeCharacteristicId1Null_;
       }
       /**
-       * <code>optional bool node_characteristic_id1_null = 1010;</code>
+       * <code>optional bool node_characteristic_id1_null = 1011;</code>
        */
       public Builder setNodeCharacteristicId1Null(boolean value) {
         
@@ -2900,7 +3144,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional bool node_characteristic_id1_null = 1010;</code>
+       * <code>optional bool node_characteristic_id1_null = 1011;</code>
        */
       public Builder clearNodeCharacteristicId1Null() {
         
@@ -2913,13 +3157,13 @@ public final class ImSearchBinariesAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicId2Builder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
        */
       public boolean hasNodeCharacteristicId2() {
         return nodeCharacteristicId2Builder_ != null || nodeCharacteristicId2_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
        */
       public io.dstore.Values.integerValue getNodeCharacteristicId2() {
         if (nodeCharacteristicId2Builder_ == null) {
@@ -2929,7 +3173,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
        */
       public Builder setNodeCharacteristicId2(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicId2Builder_ == null) {
@@ -2945,7 +3189,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
        */
       public Builder setNodeCharacteristicId2(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2959,7 +3203,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
        */
       public Builder mergeNodeCharacteristicId2(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicId2Builder_ == null) {
@@ -2977,7 +3221,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
        */
       public Builder clearNodeCharacteristicId2() {
         if (nodeCharacteristicId2Builder_ == null) {
@@ -2991,7 +3235,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
        */
       public io.dstore.Values.integerValue.Builder getNodeCharacteristicId2Builder() {
         
@@ -2999,7 +3243,7 @@ public final class ImSearchBinariesAd {
         return getNodeCharacteristicId2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId2OrBuilder() {
         if (nodeCharacteristicId2Builder_ != null) {
@@ -3010,7 +3254,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 11;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3028,13 +3272,13 @@ public final class ImSearchBinariesAd {
 
       private boolean nodeCharacteristicId2Null_ ;
       /**
-       * <code>optional bool node_characteristic_id2_null = 1011;</code>
+       * <code>optional bool node_characteristic_id2_null = 1012;</code>
        */
       public boolean getNodeCharacteristicId2Null() {
         return nodeCharacteristicId2Null_;
       }
       /**
-       * <code>optional bool node_characteristic_id2_null = 1011;</code>
+       * <code>optional bool node_characteristic_id2_null = 1012;</code>
        */
       public Builder setNodeCharacteristicId2Null(boolean value) {
         
@@ -3043,7 +3287,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional bool node_characteristic_id2_null = 1011;</code>
+       * <code>optional bool node_characteristic_id2_null = 1012;</code>
        */
       public Builder clearNodeCharacteristicId2Null() {
         
@@ -3056,13 +3300,13 @@ public final class ImSearchBinariesAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicId3Builder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
        */
       public boolean hasNodeCharacteristicId3() {
         return nodeCharacteristicId3Builder_ != null || nodeCharacteristicId3_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
        */
       public io.dstore.Values.integerValue getNodeCharacteristicId3() {
         if (nodeCharacteristicId3Builder_ == null) {
@@ -3072,7 +3316,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
        */
       public Builder setNodeCharacteristicId3(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicId3Builder_ == null) {
@@ -3088,7 +3332,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
        */
       public Builder setNodeCharacteristicId3(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3102,7 +3346,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
        */
       public Builder mergeNodeCharacteristicId3(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicId3Builder_ == null) {
@@ -3120,7 +3364,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
        */
       public Builder clearNodeCharacteristicId3() {
         if (nodeCharacteristicId3Builder_ == null) {
@@ -3134,7 +3378,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
        */
       public io.dstore.Values.integerValue.Builder getNodeCharacteristicId3Builder() {
         
@@ -3142,7 +3386,7 @@ public final class ImSearchBinariesAd {
         return getNodeCharacteristicId3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId3OrBuilder() {
         if (nodeCharacteristicId3Builder_ != null) {
@@ -3153,7 +3397,7 @@ public final class ImSearchBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 12;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3171,13 +3415,13 @@ public final class ImSearchBinariesAd {
 
       private boolean nodeCharacteristicId3Null_ ;
       /**
-       * <code>optional bool node_characteristic_id3_null = 1012;</code>
+       * <code>optional bool node_characteristic_id3_null = 1013;</code>
        */
       public boolean getNodeCharacteristicId3Null() {
         return nodeCharacteristicId3Null_;
       }
       /**
-       * <code>optional bool node_characteristic_id3_null = 1012;</code>
+       * <code>optional bool node_characteristic_id3_null = 1013;</code>
        */
       public Builder setNodeCharacteristicId3Null(boolean value) {
         
@@ -3186,7 +3430,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional bool node_characteristic_id3_null = 1012;</code>
+       * <code>optional bool node_characteristic_id3_null = 1013;</code>
        */
       public Builder clearNodeCharacteristicId3Null() {
         
@@ -8857,7 +9101,7 @@ public final class ImSearchBinariesAd {
       "naries_Ad\032\023dstore/values.proto\032\031dstore/e" +
       "ngine/error.proto\032\033dstore/engine/message" +
       ".proto\032#dstore/engine/metainformation.pr" +
-      "oto\"\225\t\n\nParameters\0226\n\021assigned_to_table\030" +
+      "oto\"\204\n\n\nParameters\0226\n\021assigned_to_table\030" +
       "\001 \001(\0132\033.dstore.values.integerValue\022\037\n\026as" +
       "signed_to_table_null\030\351\007 \001(\010\022;\n\026input_nes" +
       "t_level_conds\030\002 \001(\0132\033.dstore.values.inte" +
@@ -8868,52 +9112,56 @@ public final class ImSearchBinariesAd {
       "start_at_row_no\030\004 \001(\0132\033.dstore.values.in" +
       "tegerValue\022\035\n\024start_at_row_no_null\030\354\007 \001(" +
       "\010\022.\n\trow_count\030\005 \001(\0132\033.dstore.values.int" +
-      "egerValue\022\027\n\016row_count_null\030\355\007 \001(\010\022=\n\030ou" +
-      "tput_binary_charac_id1\030\006 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022&\n\035output_binary_chara" +
-      "c_id1_null\030\356\007 \001(\010\022=\n\030output_binary_chara",
-      "c_id2\030\007 \001(\0132\033.dstore.values.integerValue" +
-      "\022&\n\035output_binary_charac_id2_null\030\357\007 \001(\010" +
-      "\022=\n\030output_binary_charac_id3\030\010 \001(\0132\033.dst" +
-      "ore.values.integerValue\022&\n\035output_binary" +
-      "_charac_id3_null\030\360\007 \001(\010\0228\n\023include_binar" +
-      "y_code\030\t \001(\0132\033.dstore.values.booleanValu" +
-      "e\022!\n\030include_binary_code_null\030\361\007 \001(\010\022<\n\027" +
-      "node_characteristic_id1\030\n \001(\0132\033.dstore.v" +
-      "alues.integerValue\022%\n\034node_characteristi" +
-      "c_id1_null\030\362\007 \001(\010\022<\n\027node_characteristic",
-      "_id2\030\013 \001(\0132\033.dstore.values.integerValue\022" +
-      "%\n\034node_characteristic_id2_null\030\363\007 \001(\010\022<" +
-      "\n\027node_characteristic_id3\030\014 \001(\0132\033.dstore" +
-      ".values.integerValue\022%\n\034node_characteris" +
-      "tic_id3_null\030\364\007 \001(\010\"\222\010\n\010Response\022)\n\005erro" +
-      "r\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020m" +
-      "eta_information\030\002 \003(\0132..dstore.engine.me" +
-      "tainformation.MetaInformation\022/\n\007message" +
-      "\030\003 \003(\0132\036.dstore.engine.message.Message\022=" +
-      "\n\003row\030\004 \003(\01320.dstore.engine.im_SearchBin",
-      "aries_Ad.Response.Row\022A\n\034number_of_eleme" +
-      "nts_in_result\030e \001(\0132\033.dstore.values.inte" +
-      "gerValue\032\335\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\016bin" +
-      "ary_code_id\030\221N \001(\0132\033.dstore.values.integ" +
-      "erValue\022-\n\007node_id\030\222N \001(\0132\033.dstore.value" +
-      "s.integerValue\0229\n\023chosen_tree_node_id\030\223N" +
-      " \001(\0132\033.dstore.values.integerValue\022+\n\006val" +
-      "ue3\030\224N \001(\0132\032.dstore.values.stringValue\0222" +
-      "\n\rbinary_value1\030\225N \001(\0132\032.dstore.values.s" +
-      "tringValue\022+\n\006value1\030\226N \001(\0132\032.dstore.val",
-      "ues.stringValue\0222\n\rbinary_value3\030\227N \001(\0132" +
-      "\032.dstore.values.stringValue\022+\n\006value2\030\230N" +
-      " \001(\0132\032.dstore.values.stringValue\0222\n\rbina" +
-      "ry_value2\030\231N \001(\0132\032.dstore.values.stringV" +
-      "alue\0223\n\016thumbnail_code\030\250\234\001 \001(\0132\031.dstore." +
-      "values.bytesValue\0220\n\013binary_code\030\253\234\001 \001(\013" +
-      "2\031.dstore.values.bytesValue\022=\n\026node_char" +
-      "acteristic_id\030\262\352\001 \001(\0132\033.dstore.values.in" +
-      "tegerValue\022+\n\005value\030\263\352\001 \001(\0132\032.dstore.val" +
-      "ues.stringValue\022/\n\010value_id\030\265\352\001 \001(\0132\033.ds",
-      "tore.values.integerValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "egerValue\022\027\n\016row_count_null\030\355\007 \001(\010\022A\n\034nu" +
+      "mber_of_elements_in_result\030\006 \001(\0132\033.dstor" +
+      "e.values.integerValue\022*\n!number_of_eleme" +
+      "nts_in_result_null\030\356\007 \001(\010\022=\n\030output_bina",
+      "ry_charac_id1\030\007 \001(\0132\033.dstore.values.inte" +
+      "gerValue\022&\n\035output_binary_charac_id1_nul" +
+      "l\030\357\007 \001(\010\022=\n\030output_binary_charac_id2\030\010 \001" +
+      "(\0132\033.dstore.values.integerValue\022&\n\035outpu" +
+      "t_binary_charac_id2_null\030\360\007 \001(\010\022=\n\030outpu" +
+      "t_binary_charac_id3\030\t \001(\0132\033.dstore.value" +
+      "s.integerValue\022&\n\035output_binary_charac_i" +
+      "d3_null\030\361\007 \001(\010\0228\n\023include_binary_code\030\n " +
+      "\001(\0132\033.dstore.values.booleanValue\022!\n\030incl" +
+      "ude_binary_code_null\030\362\007 \001(\010\022<\n\027node_char",
+      "acteristic_id1\030\013 \001(\0132\033.dstore.values.int" +
+      "egerValue\022%\n\034node_characteristic_id1_nul" +
+      "l\030\363\007 \001(\010\022<\n\027node_characteristic_id2\030\014 \001(" +
+      "\0132\033.dstore.values.integerValue\022%\n\034node_c" +
+      "haracteristic_id2_null\030\364\007 \001(\010\022<\n\027node_ch" +
+      "aracteristic_id3\030\r \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022%\n\034node_characteristic_id3_n" +
+      "ull\030\365\007 \001(\010\"\222\010\n\010Response\022)\n\005error\030\001 \001(\0132\032" +
+      ".dstore.engine.error.Error\022H\n\020meta_infor" +
+      "mation\030\002 \003(\0132..dstore.engine.metainforma",
+      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036." +
+      "dstore.engine.message.Message\022=\n\003row\030\004 \003" +
+      "(\01320.dstore.engine.im_SearchBinaries_Ad." +
+      "Response.Row\022A\n\034number_of_elements_in_re" +
+      "sult\030e \001(\0132\033.dstore.values.integerValue\032" +
+      "\335\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\016binary_code_" +
+      "id\030\221N \001(\0132\033.dstore.values.integerValue\022-" +
+      "\n\007node_id\030\222N \001(\0132\033.dstore.values.integer" +
+      "Value\0229\n\023chosen_tree_node_id\030\223N \001(\0132\033.ds" +
+      "tore.values.integerValue\022+\n\006value3\030\224N \001(",
+      "\0132\032.dstore.values.stringValue\0222\n\rbinary_" +
+      "value1\030\225N \001(\0132\032.dstore.values.stringValu" +
+      "e\022+\n\006value1\030\226N \001(\0132\032.dstore.values.strin" +
+      "gValue\0222\n\rbinary_value3\030\227N \001(\0132\032.dstore." +
+      "values.stringValue\022+\n\006value2\030\230N \001(\0132\032.ds" +
+      "tore.values.stringValue\0222\n\rbinary_value2" +
+      "\030\231N \001(\0132\032.dstore.values.stringValue\0223\n\016t" +
+      "humbnail_code\030\250\234\001 \001(\0132\031.dstore.values.by" +
+      "tesValue\0220\n\013binary_code\030\253\234\001 \001(\0132\031.dstore" +
+      ".values.bytesValue\022=\n\026node_characteristi",
+      "c_id\030\262\352\001 \001(\0132\033.dstore.values.integerValu" +
+      "e\022+\n\005value\030\263\352\001 \001(\0132\032.dstore.values.strin" +
+      "gValue\022/\n\010value_id\030\265\352\001 \001(\0132\033.dstore.valu" +
+      "es.integerValueBU\n\033io.dstore.engine.proc" +
+      "eduresZ6gosdk.dstore.de/engine/procedure" +
+      "s/im_SearchBinaries_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8936,7 +9184,7 @@ public final class ImSearchBinariesAd {
     internal_static_dstore_engine_im_SearchBinaries_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_SearchBinaries_Ad_Parameters_descriptor,
-        new java.lang.String[] { "AssignedToTable", "AssignedToTableNull", "InputNestLevelConds", "InputNestLevelCondsNull", "ValueSeparatorINOperator", "ValueSeparatorINOperatorNull", "StartAtRowNo", "StartAtRowNoNull", "RowCount", "RowCountNull", "OutputBinaryCharacId1", "OutputBinaryCharacId1Null", "OutputBinaryCharacId2", "OutputBinaryCharacId2Null", "OutputBinaryCharacId3", "OutputBinaryCharacId3Null", "IncludeBinaryCode", "IncludeBinaryCodeNull", "NodeCharacteristicId1", "NodeCharacteristicId1Null", "NodeCharacteristicId2", "NodeCharacteristicId2Null", "NodeCharacteristicId3", "NodeCharacteristicId3Null", });
+        new java.lang.String[] { "AssignedToTable", "AssignedToTableNull", "InputNestLevelConds", "InputNestLevelCondsNull", "ValueSeparatorINOperator", "ValueSeparatorINOperatorNull", "StartAtRowNo", "StartAtRowNoNull", "RowCount", "RowCountNull", "NumberOfElementsInResult", "NumberOfElementsInResultNull", "OutputBinaryCharacId1", "OutputBinaryCharacId1Null", "OutputBinaryCharacId2", "OutputBinaryCharacId2Null", "OutputBinaryCharacId3", "OutputBinaryCharacId3Null", "IncludeBinaryCode", "IncludeBinaryCodeNull", "NodeCharacteristicId1", "NodeCharacteristicId1Null", "NodeCharacteristicId2", "NodeCharacteristicId2Null", "NodeCharacteristicId3", "NodeCharacteristicId3Null", });
     internal_static_dstore_engine_im_SearchBinaries_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_SearchBinaries_Ad_Response_fieldAccessorTable = new

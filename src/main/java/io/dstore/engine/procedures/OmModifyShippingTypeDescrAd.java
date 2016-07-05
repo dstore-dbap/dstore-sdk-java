@@ -3172,8 +3172,10 @@ public final class OmModifyShippingTypeDescrAd {
       "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
       "age\022F\n\003row\030\004 \003(\01329.dstore.engine.om_Modi" +
       "fyShippingTypeDescr_Ad.Response.Row\032\026\n\003R" +
-      "ow\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.",
-      "proceduresb\006proto3"
+      "ow\022\017\n\006row_id\030\220N \001(\005B^\n\033io.dstore.engine.",
+      "proceduresZ?gosdk.dstore.de/engine/proce" +
+      "dures/om_ModifyShippingTypeDescr_Adb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4156,8 +4156,9 @@ public final class CoCreateNewMessagePu {
       "ion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mes" +
       "sage.Message\022?\n\003row\030\004 \003(\01322.dstore.engin" +
       "e.co_CreateNewMessage_Pu.Response.Row\032\026\n" +
-      "\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "\003Row\022\017\n\006row_id\030\220N \001(\005BW\n\033io.dstore.engin" +
+      "e.proceduresZ8gosdk.dstore.de/engine/pro" +
+      "cedures/co_CreateNewMessage_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

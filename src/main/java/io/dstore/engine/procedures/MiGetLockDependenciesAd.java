@@ -3910,8 +3910,9 @@ public final class MiGetLockDependenciesAd {
       "\0132\033.dstore.values.integerValue\0222\n\rdataba" +
       "se_name\030\225N \001(\0132\032.dstore.values.stringVal" +
       "ue\022.\n\tlock_type\030\226N \001(\0132\032.dstore.values.s",
-      "tringValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tringValueBZ\n\033io.dstore.engine.procedure" +
+      "sZ;gosdk.dstore.de/engine/procedures/mi_" +
+      "GetLockDependencies_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

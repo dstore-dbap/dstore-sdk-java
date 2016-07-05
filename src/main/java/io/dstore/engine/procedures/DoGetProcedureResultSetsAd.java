@@ -6376,8 +6376,9 @@ public final class DoGetProcedureResultSetsAd {
       "ues.stringValue\022.\n\tdata_type\030\235N \001(\0132\032.ds" +
       "tore.values.stringValue\022A\n\034proc_result_c" +
       "ond_description\030\236N \001(\0132\032.dstore.values.s" +
-      "tringValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tringValueB]\n\033io.dstore.engine.procedure" +
+      "sZ>gosdk.dstore.de/engine/procedures/do_" +
+      "GetProcedureResultSets_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

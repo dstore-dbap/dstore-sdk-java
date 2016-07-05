@@ -5391,8 +5391,9 @@ public final class FoGetMainPostSortCriteriaAd {
       "tegerValue\022:\n\024sorting_optionsthird\030\231N \001(",
       "\0132\033.dstore.values.integerValue\022<\n\026sortin" +
       "g_criteriasecond\030\232N \001(\0132\033.dstore.values." +
-      "integerValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      "integerValueB^\n\033io.dstore.engine.procedu" +
+      "resZ?gosdk.dstore.de/engine/procedures/f" +
+      "o_GetMainPostSortCriteria_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

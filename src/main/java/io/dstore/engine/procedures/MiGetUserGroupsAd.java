@@ -4156,8 +4156,10 @@ public final class MiGetUserGroupsAd {
       "3\n\ruser_group_id\030\223N \001(\0132\033.dstore.values.",
       "integerValue\022/\n\tuser_name\030\243\234\001 \001(\0132\032.dsto" +
       "re.values.stringValue\022.\n\007user_id\030\244\234\001 \001(\013" +
-      "2\033.dstore.values.integerValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "2\033.dstore.values.integerValueBT\n\033io.dsto" +
+      "re.engine.proceduresZ5gosdk.dstore.de/en" +
+      "gine/procedures/mi_GetUserGroups_Adb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

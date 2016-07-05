@@ -3416,8 +3416,9 @@ public final class MiInsertTempdbImageData {
       ".dstore.engine.message.Message\022B\n\003row\030\004 " +
       "\003(\01325.dstore.engine.mi_InsertTempdb_Imag" +
       "eData.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001" +
-      "(\005B\035\n\033io.dstore.engine.proceduresb\006proto",
-      "3"
+      "(\005BZ\n\033io.dstore.engine.proceduresZ;gosdk",
+      ".dstore.de/engine/procedures/mi_InsertTe" +
+      "mpdb_ImageDatab\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

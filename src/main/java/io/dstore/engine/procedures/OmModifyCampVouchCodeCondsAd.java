@@ -13,38 +13,56 @@ public final class OmModifyCampVouchCodeCondsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    boolean hasConditionId();
+    /**
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    io.dstore.Values.integerValue getConditionId();
+    /**
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+
+    /**
+     * <code>optional bool condition_id_null = 1001;</code>
+     */
+    boolean getConditionIdNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
      */
     boolean hasValidCodeOfVoucherTypeId();
     /**
-     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
      */
     io.dstore.Values.integerValue getValidCodeOfVoucherTypeId();
     /**
-     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
      */
     io.dstore.Values.integerValueOrBuilder getValidCodeOfVoucherTypeIdOrBuilder();
 
     /**
-     * <code>optional bool valid_code_of_voucher_type_id_null = 1001;</code>
+     * <code>optional bool valid_code_of_voucher_type_id_null = 1002;</code>
      */
     boolean getValidCodeOfVoucherTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
      */
     boolean hasDeleteVoucherCodeCondition();
     /**
-     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
      */
     io.dstore.Values.booleanValue getDeleteVoucherCodeCondition();
     /**
-     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getDeleteVoucherCodeConditionOrBuilder();
 
     /**
-     * <code>optional bool delete_voucher_code_condition_null = 1002;</code>
+     * <code>optional bool delete_voucher_code_condition_null = 1003;</code>
      */
     boolean getDeleteVoucherCodeConditionNull();
   }
@@ -60,6 +78,7 @@ public final class OmModifyCampVouchCodeCondsAd {
       super(builder);
     }
     private Parameters() {
+      conditionIdNull_ = false;
       validCodeOfVoucherTypeIdNull_ = false;
       deleteVoucherCodeConditionNull_ = false;
     }
@@ -90,6 +109,19 @@ public final class OmModifyCampVouchCodeCondsAd {
             }
             case 10: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (conditionId_ != null) {
+                subBuilder = conditionId_.toBuilder();
+              }
+              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(conditionId_);
+                conditionId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 18: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (validCodeOfVoucherTypeId_ != null) {
                 subBuilder = validCodeOfVoucherTypeId_.toBuilder();
               }
@@ -101,7 +133,7 @@ public final class OmModifyCampVouchCodeCondsAd {
 
               break;
             }
-            case 18: {
+            case 26: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deleteVoucherCodeCondition_ != null) {
                 subBuilder = deleteVoucherCodeCondition_.toBuilder();
@@ -116,10 +148,15 @@ public final class OmModifyCampVouchCodeCondsAd {
             }
             case 8008: {
 
-              validCodeOfVoucherTypeIdNull_ = input.readBool();
+              conditionIdNull_ = input.readBool();
               break;
             }
             case 8016: {
+
+              validCodeOfVoucherTypeIdNull_ = input.readBool();
+              break;
+            }
+            case 8024: {
 
               deleteVoucherCodeConditionNull_ = input.readBool();
               break;
@@ -148,61 +185,91 @@ public final class OmModifyCampVouchCodeCondsAd {
               io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Parameters.class, io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Parameters.Builder.class);
     }
 
-    public static final int VALID_CODE_OF_VOUCHER_TYPE_ID_FIELD_NUMBER = 1;
+    public static final int CONDITION_ID_FIELD_NUMBER = 1;
+    private io.dstore.Values.integerValue conditionId_;
+    /**
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    public boolean hasConditionId() {
+      return conditionId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    public io.dstore.Values.integerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      return getConditionId();
+    }
+
+    public static final int CONDITION_ID_NULL_FIELD_NUMBER = 1001;
+    private boolean conditionIdNull_;
+    /**
+     * <code>optional bool condition_id_null = 1001;</code>
+     */
+    public boolean getConditionIdNull() {
+      return conditionIdNull_;
+    }
+
+    public static final int VALID_CODE_OF_VOUCHER_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.Values.integerValue validCodeOfVoucherTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
      */
     public boolean hasValidCodeOfVoucherTypeId() {
       return validCodeOfVoucherTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
      */
     public io.dstore.Values.integerValue getValidCodeOfVoucherTypeId() {
       return validCodeOfVoucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : validCodeOfVoucherTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getValidCodeOfVoucherTypeIdOrBuilder() {
       return getValidCodeOfVoucherTypeId();
     }
 
-    public static final int VALID_CODE_OF_VOUCHER_TYPE_ID_NULL_FIELD_NUMBER = 1001;
+    public static final int VALID_CODE_OF_VOUCHER_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean validCodeOfVoucherTypeIdNull_;
     /**
-     * <code>optional bool valid_code_of_voucher_type_id_null = 1001;</code>
+     * <code>optional bool valid_code_of_voucher_type_id_null = 1002;</code>
      */
     public boolean getValidCodeOfVoucherTypeIdNull() {
       return validCodeOfVoucherTypeIdNull_;
     }
 
-    public static final int DELETE_VOUCHER_CODE_CONDITION_FIELD_NUMBER = 2;
+    public static final int DELETE_VOUCHER_CODE_CONDITION_FIELD_NUMBER = 3;
     private io.dstore.Values.booleanValue deleteVoucherCodeCondition_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
      */
     public boolean hasDeleteVoucherCodeCondition() {
       return deleteVoucherCodeCondition_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
      */
     public io.dstore.Values.booleanValue getDeleteVoucherCodeCondition() {
       return deleteVoucherCodeCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteVoucherCodeCondition_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getDeleteVoucherCodeConditionOrBuilder() {
       return getDeleteVoucherCodeCondition();
     }
 
-    public static final int DELETE_VOUCHER_CODE_CONDITION_NULL_FIELD_NUMBER = 1002;
+    public static final int DELETE_VOUCHER_CODE_CONDITION_NULL_FIELD_NUMBER = 1003;
     private boolean deleteVoucherCodeConditionNull_;
     /**
-     * <code>optional bool delete_voucher_code_condition_null = 1002;</code>
+     * <code>optional bool delete_voucher_code_condition_null = 1003;</code>
      */
     public boolean getDeleteVoucherCodeConditionNull() {
       return deleteVoucherCodeConditionNull_;
@@ -220,17 +287,23 @@ public final class OmModifyCampVouchCodeCondsAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (conditionId_ != null) {
+        output.writeMessage(1, getConditionId());
+      }
       if (validCodeOfVoucherTypeId_ != null) {
-        output.writeMessage(1, getValidCodeOfVoucherTypeId());
+        output.writeMessage(2, getValidCodeOfVoucherTypeId());
       }
       if (deleteVoucherCodeCondition_ != null) {
-        output.writeMessage(2, getDeleteVoucherCodeCondition());
+        output.writeMessage(3, getDeleteVoucherCodeCondition());
+      }
+      if (conditionIdNull_ != false) {
+        output.writeBool(1001, conditionIdNull_);
       }
       if (validCodeOfVoucherTypeIdNull_ != false) {
-        output.writeBool(1001, validCodeOfVoucherTypeIdNull_);
+        output.writeBool(1002, validCodeOfVoucherTypeIdNull_);
       }
       if (deleteVoucherCodeConditionNull_ != false) {
-        output.writeBool(1002, deleteVoucherCodeConditionNull_);
+        output.writeBool(1003, deleteVoucherCodeConditionNull_);
       }
     }
 
@@ -239,21 +312,29 @@ public final class OmModifyCampVouchCodeCondsAd {
       if (size != -1) return size;
 
       size = 0;
+      if (conditionId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getConditionId());
+      }
       if (validCodeOfVoucherTypeId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getValidCodeOfVoucherTypeId());
+          .computeMessageSize(2, getValidCodeOfVoucherTypeId());
       }
       if (deleteVoucherCodeCondition_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getDeleteVoucherCodeCondition());
+          .computeMessageSize(3, getDeleteVoucherCodeCondition());
+      }
+      if (conditionIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1001, conditionIdNull_);
       }
       if (validCodeOfVoucherTypeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1001, validCodeOfVoucherTypeIdNull_);
+          .computeBoolSize(1002, validCodeOfVoucherTypeIdNull_);
       }
       if (deleteVoucherCodeConditionNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1002, deleteVoucherCodeConditionNull_);
+          .computeBoolSize(1003, deleteVoucherCodeConditionNull_);
       }
       memoizedSize = size;
       return size;
@@ -366,6 +447,14 @@ public final class OmModifyCampVouchCodeCondsAd {
       }
       public Builder clear() {
         super.clear();
+        if (conditionIdBuilder_ == null) {
+          conditionId_ = null;
+        } else {
+          conditionId_ = null;
+          conditionIdBuilder_ = null;
+        }
+        conditionIdNull_ = false;
+
         if (validCodeOfVoucherTypeIdBuilder_ == null) {
           validCodeOfVoucherTypeId_ = null;
         } else {
@@ -404,6 +493,12 @@ public final class OmModifyCampVouchCodeCondsAd {
 
       public io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Parameters buildPartial() {
         io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Parameters result = new io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Parameters(this);
+        if (conditionIdBuilder_ == null) {
+          result.conditionId_ = conditionId_;
+        } else {
+          result.conditionId_ = conditionIdBuilder_.build();
+        }
+        result.conditionIdNull_ = conditionIdNull_;
         if (validCodeOfVoucherTypeIdBuilder_ == null) {
           result.validCodeOfVoucherTypeId_ = validCodeOfVoucherTypeId_;
         } else {
@@ -431,6 +526,12 @@ public final class OmModifyCampVouchCodeCondsAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Parameters other) {
         if (other == io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Parameters.getDefaultInstance()) return this;
+        if (other.hasConditionId()) {
+          mergeConditionId(other.getConditionId());
+        }
+        if (other.getConditionIdNull() != false) {
+          setConditionIdNull(other.getConditionIdNull());
+        }
         if (other.hasValidCodeOfVoucherTypeId()) {
           mergeValidCodeOfVoucherTypeId(other.getValidCodeOfVoucherTypeId());
         }
@@ -469,17 +570,160 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue conditionId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public boolean hasConditionId() {
+        return conditionIdBuilder_ != null || conditionId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue getConditionId() {
+        if (conditionIdBuilder_ == null) {
+          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+        } else {
+          return conditionIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public Builder setConditionId(io.dstore.Values.integerValue value) {
+        if (conditionIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          conditionId_ = value;
+          onChanged();
+        } else {
+          conditionIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public Builder setConditionId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (conditionIdBuilder_ == null) {
+          conditionId_ = builderForValue.build();
+          onChanged();
+        } else {
+          conditionIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+        if (conditionIdBuilder_ == null) {
+          if (conditionId_ != null) {
+            conditionId_ =
+              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+          } else {
+            conditionId_ = value;
+          }
+          onChanged();
+        } else {
+          conditionIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public Builder clearConditionId() {
+        if (conditionIdBuilder_ == null) {
+          conditionId_ = null;
+          onChanged();
+        } else {
+          conditionId_ = null;
+          conditionIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+        
+        onChanged();
+        return getConditionIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+        if (conditionIdBuilder_ != null) {
+          return conditionIdBuilder_.getMessageOrBuilder();
+        } else {
+          return conditionId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getConditionIdFieldBuilder() {
+        if (conditionIdBuilder_ == null) {
+          conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getConditionId(),
+                  getParentForChildren(),
+                  isClean());
+          conditionId_ = null;
+        }
+        return conditionIdBuilder_;
+      }
+
+      private boolean conditionIdNull_ ;
+      /**
+       * <code>optional bool condition_id_null = 1001;</code>
+       */
+      public boolean getConditionIdNull() {
+        return conditionIdNull_;
+      }
+      /**
+       * <code>optional bool condition_id_null = 1001;</code>
+       */
+      public Builder setConditionIdNull(boolean value) {
+        
+        conditionIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool condition_id_null = 1001;</code>
+       */
+      public Builder clearConditionIdNull() {
+        
+        conditionIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue validCodeOfVoucherTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> validCodeOfVoucherTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
        */
       public boolean hasValidCodeOfVoucherTypeId() {
         return validCodeOfVoucherTypeIdBuilder_ != null || validCodeOfVoucherTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
        */
       public io.dstore.Values.integerValue getValidCodeOfVoucherTypeId() {
         if (validCodeOfVoucherTypeIdBuilder_ == null) {
@@ -489,7 +733,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
        */
       public Builder setValidCodeOfVoucherTypeId(io.dstore.Values.integerValue value) {
         if (validCodeOfVoucherTypeIdBuilder_ == null) {
@@ -505,7 +749,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
        */
       public Builder setValidCodeOfVoucherTypeId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -519,7 +763,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
        */
       public Builder mergeValidCodeOfVoucherTypeId(io.dstore.Values.integerValue value) {
         if (validCodeOfVoucherTypeIdBuilder_ == null) {
@@ -537,7 +781,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
        */
       public Builder clearValidCodeOfVoucherTypeId() {
         if (validCodeOfVoucherTypeIdBuilder_ == null) {
@@ -551,7 +795,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
        */
       public io.dstore.Values.integerValue.Builder getValidCodeOfVoucherTypeIdBuilder() {
         
@@ -559,7 +803,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return getValidCodeOfVoucherTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getValidCodeOfVoucherTypeIdOrBuilder() {
         if (validCodeOfVoucherTypeIdBuilder_ != null) {
@@ -570,7 +814,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue valid_code_of_voucher_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -588,13 +832,13 @@ public final class OmModifyCampVouchCodeCondsAd {
 
       private boolean validCodeOfVoucherTypeIdNull_ ;
       /**
-       * <code>optional bool valid_code_of_voucher_type_id_null = 1001;</code>
+       * <code>optional bool valid_code_of_voucher_type_id_null = 1002;</code>
        */
       public boolean getValidCodeOfVoucherTypeIdNull() {
         return validCodeOfVoucherTypeIdNull_;
       }
       /**
-       * <code>optional bool valid_code_of_voucher_type_id_null = 1001;</code>
+       * <code>optional bool valid_code_of_voucher_type_id_null = 1002;</code>
        */
       public Builder setValidCodeOfVoucherTypeIdNull(boolean value) {
         
@@ -603,7 +847,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional bool valid_code_of_voucher_type_id_null = 1001;</code>
+       * <code>optional bool valid_code_of_voucher_type_id_null = 1002;</code>
        */
       public Builder clearValidCodeOfVoucherTypeIdNull() {
         
@@ -616,13 +860,13 @@ public final class OmModifyCampVouchCodeCondsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteVoucherCodeConditionBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
        */
       public boolean hasDeleteVoucherCodeCondition() {
         return deleteVoucherCodeConditionBuilder_ != null || deleteVoucherCodeCondition_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
        */
       public io.dstore.Values.booleanValue getDeleteVoucherCodeCondition() {
         if (deleteVoucherCodeConditionBuilder_ == null) {
@@ -632,7 +876,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
        */
       public Builder setDeleteVoucherCodeCondition(io.dstore.Values.booleanValue value) {
         if (deleteVoucherCodeConditionBuilder_ == null) {
@@ -648,7 +892,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
        */
       public Builder setDeleteVoucherCodeCondition(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -662,7 +906,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
        */
       public Builder mergeDeleteVoucherCodeCondition(io.dstore.Values.booleanValue value) {
         if (deleteVoucherCodeConditionBuilder_ == null) {
@@ -680,7 +924,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
        */
       public Builder clearDeleteVoucherCodeCondition() {
         if (deleteVoucherCodeConditionBuilder_ == null) {
@@ -694,7 +938,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
        */
       public io.dstore.Values.booleanValue.Builder getDeleteVoucherCodeConditionBuilder() {
         
@@ -702,7 +946,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return getDeleteVoucherCodeConditionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDeleteVoucherCodeConditionOrBuilder() {
         if (deleteVoucherCodeConditionBuilder_ != null) {
@@ -713,7 +957,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_voucher_code_condition = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -731,13 +975,13 @@ public final class OmModifyCampVouchCodeCondsAd {
 
       private boolean deleteVoucherCodeConditionNull_ ;
       /**
-       * <code>optional bool delete_voucher_code_condition_null = 1002;</code>
+       * <code>optional bool delete_voucher_code_condition_null = 1003;</code>
        */
       public boolean getDeleteVoucherCodeConditionNull() {
         return deleteVoucherCodeConditionNull_;
       }
       /**
-       * <code>optional bool delete_voucher_code_condition_null = 1002;</code>
+       * <code>optional bool delete_voucher_code_condition_null = 1003;</code>
        */
       public Builder setDeleteVoucherCodeConditionNull(boolean value) {
         
@@ -746,7 +990,7 @@ public final class OmModifyCampVouchCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_voucher_code_condition_null = 1002;</code>
+       * <code>optional bool delete_voucher_code_condition_null = 1003;</code>
        */
       public Builder clearDeleteVoucherCodeConditionNull() {
         
@@ -2987,22 +3231,26 @@ public final class OmModifyCampVouchCodeCondsAd {
       "m_ModifyCampVouchCodeConds_Ad\032\023dstore/va" +
       "lues.proto\032\031dstore/engine/error.proto\032\033d" +
       "store/engine/message.proto\032#dstore/engin" +
-      "e/metainformation.proto\"\356\001\n\nParameters\022B" +
-      "\n\035valid_code_of_voucher_type_id\030\001 \001(\0132\033." +
-      "dstore.values.integerValue\022+\n\"valid_code" +
-      "_of_voucher_type_id_null\030\351\007 \001(\010\022B\n\035delet" +
-      "e_voucher_code_condition\030\002 \001(\0132\033.dstore.",
-      "values.booleanValue\022+\n\"delete_voucher_co" +
-      "de_condition_null\030\352\007 \001(\010\"\304\002\n\010Response\022)\n" +
-      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error" +
-      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi" +
-      "ne.metainformation.MetaInformation\022/\n\007me" +
-      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
-      "age\022G\n\003row\030\004 \003(\0132:.dstore.engine.om_Modi" +
-      "fyCampVouchCodeConds_Ad.Response.Row\0221\n\014" +
-      "condition_id\030e \001(\0132\033.dstore.values.integ" +
-      "erValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.ds",
-      "tore.engine.proceduresb\006proto3"
+      "e/metainformation.proto\"\275\002\n\nParameters\0221" +
+      "\n\014condition_id\030\001 \001(\0132\033.dstore.values.int" +
+      "egerValue\022\032\n\021condition_id_null\030\351\007 \001(\010\022B\n" +
+      "\035valid_code_of_voucher_type_id\030\002 \001(\0132\033.d" +
+      "store.values.integerValue\022+\n\"valid_code_",
+      "of_voucher_type_id_null\030\352\007 \001(\010\022B\n\035delete" +
+      "_voucher_code_condition\030\003 \001(\0132\033.dstore.v" +
+      "alues.booleanValue\022+\n\"delete_voucher_cod" +
+      "e_condition_null\030\353\007 \001(\010\"\304\002\n\010Response\022)\n\005" +
+      "error\030\001 \001(\0132\032.dstore.engine.error.Error\022" +
+      "H\n\020meta_information\030\002 \003(\0132..dstore.engin" +
+      "e.metainformation.MetaInformation\022/\n\007mes" +
+      "sage\030\003 \003(\0132\036.dstore.engine.message.Messa" +
+      "ge\022G\n\003row\030\004 \003(\0132:.dstore.engine.om_Modif" +
+      "yCampVouchCodeConds_Ad.Response.Row\0221\n\014c",
+      "ondition_id\030e \001(\0132\033.dstore.values.intege" +
+      "rValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B_\n\033io.dst" +
+      "ore.engine.proceduresZ@gosdk.dstore.de/e" +
+      "ngine/procedures/om_ModifyCampVouchCodeC" +
+      "onds_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3025,7 +3273,7 @@ public final class OmModifyCampVouchCodeCondsAd {
     internal_static_dstore_engine_om_ModifyCampVouchCodeConds_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampVouchCodeConds_Ad_Parameters_descriptor,
-        new java.lang.String[] { "ValidCodeOfVoucherTypeId", "ValidCodeOfVoucherTypeIdNull", "DeleteVoucherCodeCondition", "DeleteVoucherCodeConditionNull", });
+        new java.lang.String[] { "ConditionId", "ConditionIdNull", "ValidCodeOfVoucherTypeId", "ValidCodeOfVoucherTypeIdNull", "DeleteVoucherCodeCondition", "DeleteVoucherCodeConditionNull", });
     internal_static_dstore_engine_om_ModifyCampVouchCodeConds_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_ModifyCampVouchCodeConds_Ad_Response_fieldAccessorTable = new

@@ -4403,8 +4403,10 @@ public final class CoGetMemberSettingsPu {
       "emberSettings_Pu.Response.Row\032u\n\003Row\022\017\n\006" +
       "row_id\030\220N \001(\005\022*\n\005value\030\221N \001(\0132\032.dstore.v" +
       "alues.stringValue\0221\n\014key_variable\030\222N \001(\013" +
-      "2\032.dstore.values.stringValueB\035\n\033io.dstor" +
-      "e.engine.proceduresb\006proto3"
+      "2\032.dstore.values.stringValueBX\n\033io.dstor" +
+      "e.engine.proceduresZ9gosdk.dstore.de/eng",
+      "ine/procedures/co_GetMemberSettings_Pub\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

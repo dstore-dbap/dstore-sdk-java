@@ -4156,8 +4156,9 @@ public final class FoMovePostingPu {
       "message\030\003 \003(\0132\036.dstore.engine.message.Me" +
       "ssage\022:\n\003row\030\004 \003(\0132-.dstore.engine.fo_Mo" +
       "vePosting_Pu.Response.Row\032\026\n\003Row\022\017\n\006row_" +
-      "id\030\220N \001(\005B\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "id\030\220N \001(\005BR\n\033io.dstore.engine.procedures" +
+      "Z3gosdk.dstore.de/engine/procedures/fo_M" +
+      "ovePosting_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

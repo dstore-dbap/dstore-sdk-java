@@ -4894,8 +4894,10 @@ public final class OmUpdateTrolleyPu {
       "nformation_type_id\030\221N \001(\0132\033.dstore.value" +
       "s.integerValue\0224\n\016h_tree_node_id\030\222N \001(\0132" +
       "\033.dstore.values.integerValue\0220\n\nerror_co",
-      "de\030\223N \001(\0132\033.dstore.values.integerValueB\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "de\030\223N \001(\0132\033.dstore.values.integerValueBT" +
+      "\n\033io.dstore.engine.proceduresZ5gosdk.dst" +
+      "ore.de/engine/procedures/om_UpdateTrolle" +
+      "y_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -7365,8 +7365,9 @@ public final class MiGetTabsRefInOtherTabsAd {
       "\027used_in_rating_subjects\030\232N \001(\0132\033.dstore" +
       ".values.booleanValue\022C\n\035used_in_cash_acc" +
       "_transactions\030\233N \001(\0132\033.dstore.values.boo" +
-      "leanValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "leanValueB\\\n\033io.dstore.engine.procedures" +
+      "Z=gosdk.dstore.de/engine/procedures/mi_G" +
+      "etTabsRefInOtherTabs_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

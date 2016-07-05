@@ -2679,8 +2679,10 @@ public final class PmUpdatePossibleDuplicatesAd {
       "\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messag" +
       "e.Message\022G\n\003row\030\004 \003(\0132:.dstore.engine.p" +
       "m_UpdatePossibleDuplicates_Ad.Response.R" +
-      "ow\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "ow\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B_\n\033io.dstore." +
+      "engine.proceduresZ@gosdk.dstore.de/engin" +
+      "e/procedures/pm_UpdatePossibleDuplicates" +
+      "_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

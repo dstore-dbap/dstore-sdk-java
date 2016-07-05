@@ -3910,8 +3910,9 @@ public final class DoGetdStoreTablesAd {
       "d\030\222N \001(\0132\033.dstore.values.integerValue\0220\n" +
       "\013description\030\223N \001(\0132\032.dstore.values.stri",
       "ngValue\0223\n\016table_category\030\224N \001(\0132\032.dstor" +
-      "e.values.stringValueB\035\n\033io.dstore.engine" +
-      ".proceduresb\006proto3"
+      "e.values.stringValueBV\n\033io.dstore.engine" +
+      ".proceduresZ7gosdk.dstore.de/engine/proc" +
+      "edures/do_GetdStoreTables_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

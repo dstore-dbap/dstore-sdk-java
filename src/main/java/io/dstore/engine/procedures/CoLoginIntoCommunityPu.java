@@ -3911,8 +3911,9 @@ public final class CoLoginIntoCommunityPu {
       "w\022\017\n\006row_id\030\220N \001(\005\0229\n\023community_member_i" +
       "d\030\221N \001(\0132\033.dstore.values.integerValue\0220\n" +
       "\nerror_code\030\222N \001(\0132\033.dstore.values.integ" +
-      "erValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "erValueBY\n\033io.dstore.engine.proceduresZ:" +
+      "gosdk.dstore.de/engine/procedures/co_Log" +
+      "inIntoCommunity_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

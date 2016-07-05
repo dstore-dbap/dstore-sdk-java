@@ -3663,8 +3663,9 @@ public final class ImGetLevelForNodePu {
       "l_no\030\221N \001(\0132\033.dstore.values.integerValue" +
       "\0226\n\021level_description\030\222N \001(\0132\032.dstore.va" +
       "lues.stringValue\022.\n\010level_id\030\223N \001(\0132\033.ds" +
-      "tore.values.integerValueB\035\n\033io.dstore.en",
-      "gine.proceduresb\006proto3"
+      "tore.values.integerValueBV\n\033io.dstore.en",
+      "gine.proceduresZ7gosdk.dstore.de/engine/" +
+      "procedures/im_GetLevelForNode_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

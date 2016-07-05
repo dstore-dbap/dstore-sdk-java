@@ -3909,8 +3909,10 @@ public final class ImGetValueDetailsPu {
       "_id\030\220N \001(\005\022,\n\007details\030\221N \001(\0132\032.dstore.va" +
       "lues.stringValue\022*\n\005value\030\222N \001(\0132\032.dstor",
       "e.values.stringValue\022.\n\010value_id\030\223N \001(\0132" +
-      "\033.dstore.values.integerValueB\035\n\033io.dstor" +
-      "e.engine.proceduresb\006proto3"
+      "\033.dstore.values.integerValueBV\n\033io.dstor" +
+      "e.engine.proceduresZ7gosdk.dstore.de/eng" +
+      "ine/procedures/im_GetValueDetails_Pub\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -6128,8 +6128,9 @@ public final class OmGetPaymentTypeSurchargesAd {
       "values.decimalValue\0225\n\017payment_type_id\030\232" +
       "N \001(\0132\033.dstore.values.integerValue\0227\n\021su" +
       "rcharge_type_id\030\233N \001(\0132\033.dstore.values.i" +
-      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "ntegerValueB_\n\033io.dstore.engine.procedur" +
+      "esZ@gosdk.dstore.de/engine/procedures/om" +
+      "_GetPaymentTypeSurcharges_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

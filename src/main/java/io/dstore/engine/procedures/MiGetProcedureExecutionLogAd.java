@@ -9084,8 +9084,10 @@ public final class MiGetProcedureExecutionLogAd {
       "t_name\030\234N \001(\0132\032.dstore.values.stringValu" +
       "e\0225\n\017parameter_value\030\244\234\001 \001(\0132\032.dstore.va",
       "lues.stringValue\0224\n\016parameter_name\030\245\234\001 \001" +
-      "(\0132\032.dstore.values.stringValueB\035\n\033io.dst" +
-      "ore.engine.proceduresb\006proto3"
+      "(\0132\032.dstore.values.stringValueB_\n\033io.dst" +
+      "ore.engine.proceduresZ@gosdk.dstore.de/e" +
+      "ngine/procedures/mi_GetProcedureExecutio" +
+      "nLog_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

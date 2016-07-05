@@ -5141,8 +5141,9 @@ public final class MiGetUnitConvertsAd {
       "lues.stringValue\0223\n\016to_unit_symbol\030\226N \001(" +
       "\0132\032.dstore.values.stringValue\0225\n\020to_date" +
       "_and_time\030\227N \001(\0132\032.dstore.values.stringV" +
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro",
-      "to3"
+      "alueBV\n\033io.dstore.engine.proceduresZ7gos",
+      "dk.dstore.de/engine/procedures/mi_GetUni" +
+      "tConverts_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

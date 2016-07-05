@@ -3666,8 +3666,9 @@ public final class MiGetTemplateCombinationsAd {
       "\n\033target_template_description\030\223N \001(\0132\032.d" +
       "store.values.stringValue\022@\n\033source_templ",
       "ate_description\030\224N \001(\0132\032.dstore.values.s" +
-      "tringValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tringValueB^\n\033io.dstore.engine.procedure" +
+      "sZ?gosdk.dstore.de/engine/procedures/mi_" +
+      "GetTemplateCombinations_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

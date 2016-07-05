@@ -3171,8 +3171,10 @@ public final class OmGetBundlePricingTypesAd {
       "\030\221N \001(\0132\032.dstore.values.stringValue\022<\n\026b" +
       "undle_pricing_type_id\030\222N \001(\0132\033.dstore.va" +
       "lues.integerValue\0228\n\023bundle_pricing_type" +
-      "\030\223N \001(\0132\032.dstore.values.stringValueB\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\030\223N \001(\0132\032.dstore.values.stringValueB\\\n\033i" +
+      "o.dstore.engine.proceduresZ=gosdk.dstore" +
+      ".de/engine/procedures/om_GetBundlePricin" +
+      "gTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3912,8 +3912,10 @@ public final class ImGetBinaryCharacteristicsAd {
       "\001(\0132\033.dstore.values.booleanValue\022-\n\007sort",
       "_no\030\224N \001(\0132\033.dstore.values.integerValue\022" +
       "7\n\021predefined_values\030\225N \001(\0132\033.dstore.val" +
-      "ues.booleanValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "ues.booleanValueB_\n\033io.dstore.engine.pro" +
+      "ceduresZ@gosdk.dstore.de/engine/procedur" +
+      "es/im_GetBinaryCharacteristics_Adb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

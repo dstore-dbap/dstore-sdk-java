@@ -49,20 +49,38 @@ public final class ImInsertNodePredefinedValAd {
     boolean getNewValueNull();
 
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     */
+    boolean hasNewValueId();
+    /**
+     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     */
+    io.dstore.Values.integerValue getNewValueId();
+    /**
+     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder();
+
+    /**
+     * <code>optional bool new_value_id_null = 1003;</code>
+     */
+    boolean getNewValueIdNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue country = 4;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.stringValue country = 4;</code>
      */
     io.dstore.Values.stringValue getCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.stringValue country = 4;</code>
      */
     io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
 
     /**
-     * <code>optional bool country_null = 1003;</code>
+     * <code>optional bool country_null = 1004;</code>
      */
     boolean getCountryNull();
   }
@@ -80,6 +98,7 @@ public final class ImInsertNodePredefinedValAd {
     private Parameters() {
       nodeCharacteristicIdNull_ = false;
       newValueNull_ = false;
+      newValueIdNull_ = false;
       countryNull_ = false;
     }
 
@@ -134,6 +153,19 @@ public final class ImInsertNodePredefinedValAd {
               break;
             }
             case 26: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (newValueId_ != null) {
+                subBuilder = newValueId_.toBuilder();
+              }
+              newValueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(newValueId_);
+                newValueId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 34: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
@@ -157,6 +189,11 @@ public final class ImInsertNodePredefinedValAd {
               break;
             }
             case 8024: {
+
+              newValueIdNull_ = input.readBool();
+              break;
+            }
+            case 8032: {
 
               countryNull_ = input.readBool();
               break;
@@ -245,31 +282,61 @@ public final class ImInsertNodePredefinedValAd {
       return newValueNull_;
     }
 
-    public static final int COUNTRY_FIELD_NUMBER = 3;
+    public static final int NEW_VALUE_ID_FIELD_NUMBER = 3;
+    private io.dstore.Values.integerValue newValueId_;
+    /**
+     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     */
+    public boolean hasNewValueId() {
+      return newValueId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     */
+    public io.dstore.Values.integerValue getNewValueId() {
+      return newValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
+      return getNewValueId();
+    }
+
+    public static final int NEW_VALUE_ID_NULL_FIELD_NUMBER = 1003;
+    private boolean newValueIdNull_;
+    /**
+     * <code>optional bool new_value_id_null = 1003;</code>
+     */
+    public boolean getNewValueIdNull() {
+      return newValueIdNull_;
+    }
+
+    public static final int COUNTRY_FIELD_NUMBER = 4;
     private io.dstore.Values.stringValue country_;
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.stringValue country = 4;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.stringValue country = 4;</code>
      */
     public io.dstore.Values.stringValue getCountry() {
       return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.stringValue country = 4;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
-    public static final int COUNTRY_NULL_FIELD_NUMBER = 1003;
+    public static final int COUNTRY_NULL_FIELD_NUMBER = 1004;
     private boolean countryNull_;
     /**
-     * <code>optional bool country_null = 1003;</code>
+     * <code>optional bool country_null = 1004;</code>
      */
     public boolean getCountryNull() {
       return countryNull_;
@@ -293,8 +360,11 @@ public final class ImInsertNodePredefinedValAd {
       if (newValue_ != null) {
         output.writeMessage(2, getNewValue());
       }
+      if (newValueId_ != null) {
+        output.writeMessage(3, getNewValueId());
+      }
       if (country_ != null) {
-        output.writeMessage(3, getCountry());
+        output.writeMessage(4, getCountry());
       }
       if (nodeCharacteristicIdNull_ != false) {
         output.writeBool(1001, nodeCharacteristicIdNull_);
@@ -302,8 +372,11 @@ public final class ImInsertNodePredefinedValAd {
       if (newValueNull_ != false) {
         output.writeBool(1002, newValueNull_);
       }
+      if (newValueIdNull_ != false) {
+        output.writeBool(1003, newValueIdNull_);
+      }
       if (countryNull_ != false) {
-        output.writeBool(1003, countryNull_);
+        output.writeBool(1004, countryNull_);
       }
     }
 
@@ -320,9 +393,13 @@ public final class ImInsertNodePredefinedValAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, getNewValue());
       }
+      if (newValueId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getNewValueId());
+      }
       if (country_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getCountry());
+          .computeMessageSize(4, getCountry());
       }
       if (nodeCharacteristicIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -332,9 +409,13 @@ public final class ImInsertNodePredefinedValAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1002, newValueNull_);
       }
+      if (newValueIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1003, newValueIdNull_);
+      }
       if (countryNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, countryNull_);
+          .computeBoolSize(1004, countryNull_);
       }
       memoizedSize = size;
       return size;
@@ -463,6 +544,14 @@ public final class ImInsertNodePredefinedValAd {
         }
         newValueNull_ = false;
 
+        if (newValueIdBuilder_ == null) {
+          newValueId_ = null;
+        } else {
+          newValueId_ = null;
+          newValueIdBuilder_ = null;
+        }
+        newValueIdNull_ = false;
+
         if (countryBuilder_ == null) {
           country_ = null;
         } else {
@@ -505,6 +594,12 @@ public final class ImInsertNodePredefinedValAd {
           result.newValue_ = newValueBuilder_.build();
         }
         result.newValueNull_ = newValueNull_;
+        if (newValueIdBuilder_ == null) {
+          result.newValueId_ = newValueId_;
+        } else {
+          result.newValueId_ = newValueIdBuilder_.build();
+        }
+        result.newValueIdNull_ = newValueIdNull_;
         if (countryBuilder_ == null) {
           result.country_ = country_;
         } else {
@@ -537,6 +632,12 @@ public final class ImInsertNodePredefinedValAd {
         }
         if (other.getNewValueNull() != false) {
           setNewValueNull(other.getNewValueNull());
+        }
+        if (other.hasNewValueId()) {
+          mergeNewValueId(other.getNewValueId());
+        }
+        if (other.getNewValueIdNull() != false) {
+          setNewValueIdNull(other.getNewValueIdNull());
         }
         if (other.hasCountry()) {
           mergeCountry(other.getCountry());
@@ -856,17 +957,160 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue newValueId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newValueIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       */
+      public boolean hasNewValueId() {
+        return newValueIdBuilder_ != null || newValueId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       */
+      public io.dstore.Values.integerValue getNewValueId() {
+        if (newValueIdBuilder_ == null) {
+          return newValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+        } else {
+          return newValueIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       */
+      public Builder setNewValueId(io.dstore.Values.integerValue value) {
+        if (newValueIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          newValueId_ = value;
+          onChanged();
+        } else {
+          newValueIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       */
+      public Builder setNewValueId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (newValueIdBuilder_ == null) {
+          newValueId_ = builderForValue.build();
+          onChanged();
+        } else {
+          newValueIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       */
+      public Builder mergeNewValueId(io.dstore.Values.integerValue value) {
+        if (newValueIdBuilder_ == null) {
+          if (newValueId_ != null) {
+            newValueId_ =
+              io.dstore.Values.integerValue.newBuilder(newValueId_).mergeFrom(value).buildPartial();
+          } else {
+            newValueId_ = value;
+          }
+          onChanged();
+        } else {
+          newValueIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       */
+      public Builder clearNewValueId() {
+        if (newValueIdBuilder_ == null) {
+          newValueId_ = null;
+          onChanged();
+        } else {
+          newValueId_ = null;
+          newValueIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNewValueIdBuilder() {
+        
+        onChanged();
+        return getNewValueIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
+        if (newValueIdBuilder_ != null) {
+          return newValueIdBuilder_.getMessageOrBuilder();
+        } else {
+          return newValueId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNewValueIdFieldBuilder() {
+        if (newValueIdBuilder_ == null) {
+          newValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNewValueId(),
+                  getParentForChildren(),
+                  isClean());
+          newValueId_ = null;
+        }
+        return newValueIdBuilder_;
+      }
+
+      private boolean newValueIdNull_ ;
+      /**
+       * <code>optional bool new_value_id_null = 1003;</code>
+       */
+      public boolean getNewValueIdNull() {
+        return newValueIdNull_;
+      }
+      /**
+       * <code>optional bool new_value_id_null = 1003;</code>
+       */
+      public Builder setNewValueIdNull(boolean value) {
+        
+        newValueIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool new_value_id_null = 1003;</code>
+       */
+      public Builder clearNewValueIdNull() {
+        
+        newValueIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.stringValue country_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.stringValue country = 4;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.stringValue country = 4;</code>
        */
       public io.dstore.Values.stringValue getCountry() {
         if (countryBuilder_ == null) {
@@ -876,7 +1120,7 @@ public final class ImInsertNodePredefinedValAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.stringValue country = 4;</code>
        */
       public Builder setCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
@@ -892,7 +1136,7 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.stringValue country = 4;</code>
        */
       public Builder setCountry(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -906,7 +1150,7 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.stringValue country = 4;</code>
        */
       public Builder mergeCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
@@ -924,7 +1168,7 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.stringValue country = 4;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -938,7 +1182,7 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.stringValue country = 4;</code>
        */
       public io.dstore.Values.stringValue.Builder getCountryBuilder() {
         
@@ -946,7 +1190,7 @@ public final class ImInsertNodePredefinedValAd {
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.stringValue country = 4;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
@@ -957,7 +1201,7 @@ public final class ImInsertNodePredefinedValAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.stringValue country = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -975,13 +1219,13 @@ public final class ImInsertNodePredefinedValAd {
 
       private boolean countryNull_ ;
       /**
-       * <code>optional bool country_null = 1003;</code>
+       * <code>optional bool country_null = 1004;</code>
        */
       public boolean getCountryNull() {
         return countryNull_;
       }
       /**
-       * <code>optional bool country_null = 1003;</code>
+       * <code>optional bool country_null = 1004;</code>
        */
       public Builder setCountryNull(boolean value) {
         
@@ -990,7 +1234,7 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional bool country_null = 1003;</code>
+       * <code>optional bool country_null = 1004;</code>
        */
       public Builder clearCountryNull() {
         
@@ -3231,22 +3475,26 @@ public final class ImInsertNodePredefinedValAd {
       "_InsertNodePredefinedVal_Ad\032\023dstore/valu" +
       "es.proto\032\031dstore/engine/error.proto\032\033dst" +
       "ore/engine/message.proto\032#dstore/engine/" +
-      "metainformation.proto\"\373\001\n\nParameters\022;\n\026" +
+      "metainformation.proto\"\312\002\n\nParameters\022;\n\026" +
       "node_characteristic_id\030\001 \001(\0132\033.dstore.va" +
       "lues.integerValue\022$\n\033node_characteristic" +
       "_id_null\030\351\007 \001(\010\022-\n\tnew_value\030\002 \001(\0132\032.dst" +
       "ore.values.stringValue\022\027\n\016new_value_null",
-      "\030\352\007 \001(\010\022+\n\007country\030\003 \001(\0132\032.dstore.values" +
-      ".stringValue\022\025\n\014country_null\030\353\007 \001(\010\"\303\002\n\010" +
-      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
-      "error.Error\022H\n\020meta_information\030\002 \003(\0132.." +
-      "dstore.engine.metainformation.MetaInform" +
-      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
-      "essage.Message\022F\n\003row\030\004 \003(\01329.dstore.eng" +
-      "ine.im_InsertNodePredefinedVal_Ad.Respon" +
-      "se.Row\0221\n\014new_value_id\030e \001(\0132\033.dstore.va" +
-      "lues.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(",
-      "\005B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "\030\352\007 \001(\010\0221\n\014new_value_id\030\003 \001(\0132\033.dstore.v" +
+      "alues.integerValue\022\032\n\021new_value_id_null\030" +
+      "\353\007 \001(\010\022+\n\007country\030\004 \001(\0132\032.dstore.values." +
+      "stringValue\022\025\n\014country_null\030\354\007 \001(\010\"\303\002\n\010R" +
+      "esponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.e" +
+      "rror.Error\022H\n\020meta_information\030\002 \003(\0132..d" +
+      "store.engine.metainformation.MetaInforma" +
+      "tion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.me" +
+      "ssage.Message\022F\n\003row\030\004 \003(\01329.dstore.engi" +
+      "ne.im_InsertNodePredefinedVal_Ad.Respons",
+      "e.Row\0221\n\014new_value_id\030e \001(\0132\033.dstore.val" +
+      "ues.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
+      "B^\n\033io.dstore.engine.proceduresZ?gosdk.d" +
+      "store.de/engine/procedures/im_InsertNode" +
+      "PredefinedVal_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3269,7 +3517,7 @@ public final class ImInsertNodePredefinedValAd {
     internal_static_dstore_engine_im_InsertNodePredefinedVal_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_InsertNodePredefinedVal_Ad_Parameters_descriptor,
-        new java.lang.String[] { "NodeCharacteristicId", "NodeCharacteristicIdNull", "NewValue", "NewValueNull", "Country", "CountryNull", });
+        new java.lang.String[] { "NodeCharacteristicId", "NodeCharacteristicIdNull", "NewValue", "NewValueNull", "NewValueId", "NewValueIdNull", "Country", "CountryNull", });
     internal_static_dstore_engine_im_InsertNodePredefinedVal_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_InsertNodePredefinedVal_Ad_Response_fieldAccessorTable = new

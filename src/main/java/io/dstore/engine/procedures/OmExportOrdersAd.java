@@ -17218,8 +17218,9 @@ public final class OmExportOrdersAd {
       "e\022@\n\032precise_gross_position_sum\030\301N \001(\0132\033" +
       ".dstore.values.decimalValue\0229\n\023netto_shi" +
       "pping_cost\030\302N \001(\0132\033.dstore.values.decima" +
-      "lValueB\035\n\033io.dstore.engine.proceduresb\006p" +
-      "roto3"
+      "lValueBS\n\033io.dstore.engine.proceduresZ4g" +
+      "osdk.dstore.de/engine/procedures/om_Expo" +
+      "rtOrders_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

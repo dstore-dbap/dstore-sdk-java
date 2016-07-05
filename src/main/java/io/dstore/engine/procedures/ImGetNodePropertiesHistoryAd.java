@@ -5634,8 +5634,10 @@ public final class ImGetNodePropertiesHistoryAd {
       "\001(\0132\035.dstore.values.timestampValue\022.\n\010va" +
       "lue_id\030\227N \001(\0132\033.dstore.values.integerVal" +
       "ue\0224\n\017valid_from_char\030\230N \001(\0132\032.dstore.va" +
-      "lues.stringValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "lues.stringValueB_\n\033io.dstore.engine.pro" +
+      "ceduresZ@gosdk.dstore.de/engine/procedur" +
+      "es/im_GetNodePropertiesHistory_Adb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

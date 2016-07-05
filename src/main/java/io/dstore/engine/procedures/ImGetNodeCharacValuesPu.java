@@ -3911,8 +3911,9 @@ public final class ImGetNodeCharacValuesPu {
       "\222N \001(\0132\032.dstore.values.stringValue\022.\n\010va",
       "lue_id\030\223N \001(\0132\033.dstore.values.integerVal" +
       "ue\022-\n\007sort_no\030\224N \001(\0132\033.dstore.values.int" +
-      "egerValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "egerValueBZ\n\033io.dstore.engine.procedures" +
+      "Z;gosdk.dstore.de/engine/procedures/im_G" +
+      "etNodeCharacValues_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3172,8 +3172,9 @@ public final class OmGetCampaignTypesAd {
       "\022\017\n\006row_id\030\220N \001(\005\0226\n\020campaign_type_id\030\221N" +
       " \001(\0132\033.dstore.values.integerValue\0222\n\rcam" +
       "paign_type\030\222N \001(\0132\032.dstore.values.string" +
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "ValueBW\n\033io.dstore.engine.proceduresZ8go" +
+      "sdk.dstore.de/engine/procedures/om_GetCa" +
+      "mpaignTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

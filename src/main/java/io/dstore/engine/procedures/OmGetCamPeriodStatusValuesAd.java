@@ -2925,8 +2925,10 @@ public final class OmGetCamPeriodStatusValuesAd {
       "ponse.Row\032\216\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022>\n\031pe" +
       "riod_status_description\030\221N \001(\0132\032.dstore." +
       "values.stringValue\0226\n\020period_status_id\030\222" +
-      "N \001(\0132\033.dstore.values.integerValueB\035\n\033io" +
-      ".dstore.engine.proceduresb\006proto3"
+      "N \001(\0132\033.dstore.values.integerValueB_\n\033io" +
+      ".dstore.engine.proceduresZ@gosdk.dstore." +
+      "de/engine/procedures/om_GetCamPeriodStat" +
+      "usValues_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -6867,8 +6867,9 @@ public final class OmGetOrderStateHistoryAd {
       "es.stringValue\0226\n\020order_content_id\030\232N \001(" +
       "\0132\033.dstore.values.integerValue\0225\n\020from_o" +
       "rder_state\030\233N \001(\0132\032.dstore.values.string" +
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "ValueB[\n\033io.dstore.engine.proceduresZ<go" +
+      "sdk.dstore.de/engine/procedures/om_GetOr" +
+      "derStateHistory_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

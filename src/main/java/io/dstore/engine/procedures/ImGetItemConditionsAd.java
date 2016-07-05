@@ -9579,8 +9579,9 @@ public final class ImGetItemConditionsAd {
       "e.values.stringValue\0223\n\rinherit_depth\030\247N" +
       " \001(\0132\033.dstore.values.integerValue\0223\n\014con" +
       "dition_id\030\246\234\001 \001(\0132\033.dstore.values.intege" +
-      "rValueB\035\n\033io.dstore.engine.proceduresb\006p" +
-      "roto3"
+      "rValueBX\n\033io.dstore.engine.proceduresZ9g" +
+      "osdk.dstore.de/engine/procedures/im_GetI",
+      "temConditions_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

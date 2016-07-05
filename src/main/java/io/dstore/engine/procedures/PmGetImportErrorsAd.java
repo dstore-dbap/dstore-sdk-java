@@ -4895,7 +4895,9 @@ public final class PmGetImportErrorsAd {
       "mestampValue\0220\n\nerror_code\030\226N \001(\0132\033.dsto" +
       "re.values.integerValue\0227\n\021identifying_va" +
       "lue\030\241\234\001 \001(\0132\032.dstore.values.stringValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "V\n\033io.dstore.engine.proceduresZ7gosdk.ds" +
+      "tore.de/engine/procedures/pm_GetImportEr" +
+      "rors_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

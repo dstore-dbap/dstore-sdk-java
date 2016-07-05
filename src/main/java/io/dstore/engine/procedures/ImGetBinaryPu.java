@@ -3417,8 +3417,9 @@ public final class ImGetBinaryPu {
       "GetBinary_Pu.Response.Row\032y\n\003Row\022\017\n\006row_" +
       "id\030\220N \001(\005\0220\n\013binary_type\030\221N \001(\0132\032.dstore" +
       ".values.stringValue\022/\n\013binary_code\030\222N \001(" +
-      "\0132\031.dstore.values.bytesValueB\035\n\033io.dstor" +
-      "e.engine.proceduresb\006proto3"
+      "\0132\031.dstore.values.bytesValueBP\n\033io.dstor" +
+      "e.engine.proceduresZ1gosdk.dstore.de/eng",
+      "ine/procedures/im_GetBinary_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

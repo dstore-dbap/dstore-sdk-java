@@ -31,74 +31,92 @@ public final class MiGetDBObjectsAd {
     boolean getObjectTypeNull();
 
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+     * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+     */
+    boolean hasDefinedInSystemTable();
+    /**
+     * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+     */
+    io.dstore.Values.stringValue getDefinedInSystemTable();
+    /**
+     * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getDefinedInSystemTableOrBuilder();
+
+    /**
+     * <code>optional bool defined_in_system_table_null = 1002;</code>
+     */
+    boolean getDefinedInSystemTableNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
      */
     boolean hasOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
      */
     io.dstore.Values.integerValue getOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
      */
     io.dstore.Values.integerValueOrBuilder getOutputIntoOneIdOrBuilder();
 
     /**
-     * <code>optional bool output_into_one_id_null = 1002;</code>
+     * <code>optional bool output_into_one_id_null = 1003;</code>
      */
     boolean getOutputIntoOneIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+     * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
      */
     boolean hasObjectNameLike();
     /**
-     * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+     * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
      */
     io.dstore.Values.stringValue getObjectNameLike();
     /**
-     * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+     * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
      */
     io.dstore.Values.stringValueOrBuilder getObjectNameLikeOrBuilder();
 
     /**
-     * <code>optional bool object_name_like_null = 1003;</code>
+     * <code>optional bool object_name_like_null = 1004;</code>
      */
     boolean getObjectNameLikeNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
      */
     boolean hasGetDependentObjects();
     /**
-     * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
      */
     io.dstore.Values.booleanValue getGetDependentObjects();
     /**
-     * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getGetDependentObjectsOrBuilder();
 
     /**
-     * <code>optional bool get_dependent_objects_null = 1004;</code>
+     * <code>optional bool get_dependent_objects_null = 1005;</code>
      */
     boolean getGetDependentObjectsNull();
 
     /**
-     * <code>optional .dstore.values.stringValue database_name = 5;</code>
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
      */
     boolean hasDatabaseName();
     /**
-     * <code>optional .dstore.values.stringValue database_name = 5;</code>
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
      */
     io.dstore.Values.stringValue getDatabaseName();
     /**
-     * <code>optional .dstore.values.stringValue database_name = 5;</code>
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
      */
     io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
 
     /**
-     * <code>optional bool database_name_null = 1005;</code>
+     * <code>optional bool database_name_null = 1006;</code>
      */
     boolean getDatabaseNameNull();
   }
@@ -115,6 +133,7 @@ public final class MiGetDBObjectsAd {
     }
     private Parameters() {
       objectTypeNull_ = false;
+      definedInSystemTableNull_ = false;
       outputIntoOneIdNull_ = false;
       objectNameLikeNull_ = false;
       getDependentObjectsNull_ = false;
@@ -159,6 +178,19 @@ public final class MiGetDBObjectsAd {
               break;
             }
             case 18: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (definedInSystemTable_ != null) {
+                subBuilder = definedInSystemTable_.toBuilder();
+              }
+              definedInSystemTable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(definedInSystemTable_);
+                definedInSystemTable_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 26: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputIntoOneId_ != null) {
                 subBuilder = outputIntoOneId_.toBuilder();
@@ -171,7 +203,7 @@ public final class MiGetDBObjectsAd {
 
               break;
             }
-            case 26: {
+            case 34: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (objectNameLike_ != null) {
                 subBuilder = objectNameLike_.toBuilder();
@@ -184,7 +216,7 @@ public final class MiGetDBObjectsAd {
 
               break;
             }
-            case 34: {
+            case 42: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (getDependentObjects_ != null) {
                 subBuilder = getDependentObjects_.toBuilder();
@@ -197,7 +229,7 @@ public final class MiGetDBObjectsAd {
 
               break;
             }
-            case 42: {
+            case 50: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (databaseName_ != null) {
                 subBuilder = databaseName_.toBuilder();
@@ -217,20 +249,25 @@ public final class MiGetDBObjectsAd {
             }
             case 8016: {
 
-              outputIntoOneIdNull_ = input.readBool();
+              definedInSystemTableNull_ = input.readBool();
               break;
             }
             case 8024: {
 
-              objectNameLikeNull_ = input.readBool();
+              outputIntoOneIdNull_ = input.readBool();
               break;
             }
             case 8032: {
 
-              getDependentObjectsNull_ = input.readBool();
+              objectNameLikeNull_ = input.readBool();
               break;
             }
             case 8040: {
+
+              getDependentObjectsNull_ = input.readBool();
+              break;
+            }
+            case 8048: {
 
               databaseNameNull_ = input.readBool();
               break;
@@ -289,121 +326,151 @@ public final class MiGetDBObjectsAd {
       return objectTypeNull_;
     }
 
-    public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 2;
+    public static final int DEFINED_IN_SYSTEM_TABLE_FIELD_NUMBER = 2;
+    private io.dstore.Values.stringValue definedInSystemTable_;
+    /**
+     * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+     */
+    public boolean hasDefinedInSystemTable() {
+      return definedInSystemTable_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+     */
+    public io.dstore.Values.stringValue getDefinedInSystemTable() {
+      return definedInSystemTable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : definedInSystemTable_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getDefinedInSystemTableOrBuilder() {
+      return getDefinedInSystemTable();
+    }
+
+    public static final int DEFINED_IN_SYSTEM_TABLE_NULL_FIELD_NUMBER = 1002;
+    private boolean definedInSystemTableNull_;
+    /**
+     * <code>optional bool defined_in_system_table_null = 1002;</code>
+     */
+    public boolean getDefinedInSystemTableNull() {
+      return definedInSystemTableNull_;
+    }
+
+    public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 3;
     private io.dstore.Values.integerValue outputIntoOneId_;
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
      */
     public boolean hasOutputIntoOneId() {
       return outputIntoOneId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
      */
     public io.dstore.Values.integerValue getOutputIntoOneId() {
       return outputIntoOneId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputIntoOneId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getOutputIntoOneIdOrBuilder() {
       return getOutputIntoOneId();
     }
 
-    public static final int OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER = 1002;
+    public static final int OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean outputIntoOneIdNull_;
     /**
-     * <code>optional bool output_into_one_id_null = 1002;</code>
+     * <code>optional bool output_into_one_id_null = 1003;</code>
      */
     public boolean getOutputIntoOneIdNull() {
       return outputIntoOneIdNull_;
     }
 
-    public static final int OBJECT_NAME_LIKE_FIELD_NUMBER = 3;
+    public static final int OBJECT_NAME_LIKE_FIELD_NUMBER = 4;
     private io.dstore.Values.stringValue objectNameLike_;
     /**
-     * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+     * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
      */
     public boolean hasObjectNameLike() {
       return objectNameLike_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+     * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
      */
     public io.dstore.Values.stringValue getObjectNameLike() {
       return objectNameLike_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectNameLike_;
     }
     /**
-     * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+     * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getObjectNameLikeOrBuilder() {
       return getObjectNameLike();
     }
 
-    public static final int OBJECT_NAME_LIKE_NULL_FIELD_NUMBER = 1003;
+    public static final int OBJECT_NAME_LIKE_NULL_FIELD_NUMBER = 1004;
     private boolean objectNameLikeNull_;
     /**
-     * <code>optional bool object_name_like_null = 1003;</code>
+     * <code>optional bool object_name_like_null = 1004;</code>
      */
     public boolean getObjectNameLikeNull() {
       return objectNameLikeNull_;
     }
 
-    public static final int GET_DEPENDENT_OBJECTS_FIELD_NUMBER = 4;
+    public static final int GET_DEPENDENT_OBJECTS_FIELD_NUMBER = 5;
     private io.dstore.Values.booleanValue getDependentObjects_;
     /**
-     * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
      */
     public boolean hasGetDependentObjects() {
       return getDependentObjects_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
      */
     public io.dstore.Values.booleanValue getGetDependentObjects() {
       return getDependentObjects_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getDependentObjects_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getGetDependentObjectsOrBuilder() {
       return getGetDependentObjects();
     }
 
-    public static final int GET_DEPENDENT_OBJECTS_NULL_FIELD_NUMBER = 1004;
+    public static final int GET_DEPENDENT_OBJECTS_NULL_FIELD_NUMBER = 1005;
     private boolean getDependentObjectsNull_;
     /**
-     * <code>optional bool get_dependent_objects_null = 1004;</code>
+     * <code>optional bool get_dependent_objects_null = 1005;</code>
      */
     public boolean getGetDependentObjectsNull() {
       return getDependentObjectsNull_;
     }
 
-    public static final int DATABASE_NAME_FIELD_NUMBER = 5;
+    public static final int DATABASE_NAME_FIELD_NUMBER = 6;
     private io.dstore.Values.stringValue databaseName_;
     /**
-     * <code>optional .dstore.values.stringValue database_name = 5;</code>
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
      */
     public boolean hasDatabaseName() {
       return databaseName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue database_name = 5;</code>
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
      */
     public io.dstore.Values.stringValue getDatabaseName() {
       return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue database_name = 5;</code>
+     * <code>optional .dstore.values.stringValue database_name = 6;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
       return getDatabaseName();
     }
 
-    public static final int DATABASE_NAME_NULL_FIELD_NUMBER = 1005;
+    public static final int DATABASE_NAME_NULL_FIELD_NUMBER = 1006;
     private boolean databaseNameNull_;
     /**
-     * <code>optional bool database_name_null = 1005;</code>
+     * <code>optional bool database_name_null = 1006;</code>
      */
     public boolean getDatabaseNameNull() {
       return databaseNameNull_;
@@ -424,32 +491,38 @@ public final class MiGetDBObjectsAd {
       if (objectType_ != null) {
         output.writeMessage(1, getObjectType());
       }
+      if (definedInSystemTable_ != null) {
+        output.writeMessage(2, getDefinedInSystemTable());
+      }
       if (outputIntoOneId_ != null) {
-        output.writeMessage(2, getOutputIntoOneId());
+        output.writeMessage(3, getOutputIntoOneId());
       }
       if (objectNameLike_ != null) {
-        output.writeMessage(3, getObjectNameLike());
+        output.writeMessage(4, getObjectNameLike());
       }
       if (getDependentObjects_ != null) {
-        output.writeMessage(4, getGetDependentObjects());
+        output.writeMessage(5, getGetDependentObjects());
       }
       if (databaseName_ != null) {
-        output.writeMessage(5, getDatabaseName());
+        output.writeMessage(6, getDatabaseName());
       }
       if (objectTypeNull_ != false) {
         output.writeBool(1001, objectTypeNull_);
       }
+      if (definedInSystemTableNull_ != false) {
+        output.writeBool(1002, definedInSystemTableNull_);
+      }
       if (outputIntoOneIdNull_ != false) {
-        output.writeBool(1002, outputIntoOneIdNull_);
+        output.writeBool(1003, outputIntoOneIdNull_);
       }
       if (objectNameLikeNull_ != false) {
-        output.writeBool(1003, objectNameLikeNull_);
+        output.writeBool(1004, objectNameLikeNull_);
       }
       if (getDependentObjectsNull_ != false) {
-        output.writeBool(1004, getDependentObjectsNull_);
+        output.writeBool(1005, getDependentObjectsNull_);
       }
       if (databaseNameNull_ != false) {
-        output.writeBool(1005, databaseNameNull_);
+        output.writeBool(1006, databaseNameNull_);
       }
     }
 
@@ -462,41 +535,49 @@ public final class MiGetDBObjectsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getObjectType());
       }
+      if (definedInSystemTable_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getDefinedInSystemTable());
+      }
       if (outputIntoOneId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getOutputIntoOneId());
+          .computeMessageSize(3, getOutputIntoOneId());
       }
       if (objectNameLike_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getObjectNameLike());
+          .computeMessageSize(4, getObjectNameLike());
       }
       if (getDependentObjects_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getGetDependentObjects());
+          .computeMessageSize(5, getGetDependentObjects());
       }
       if (databaseName_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getDatabaseName());
+          .computeMessageSize(6, getDatabaseName());
       }
       if (objectTypeNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, objectTypeNull_);
       }
+      if (definedInSystemTableNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1002, definedInSystemTableNull_);
+      }
       if (outputIntoOneIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1002, outputIntoOneIdNull_);
+          .computeBoolSize(1003, outputIntoOneIdNull_);
       }
       if (objectNameLikeNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, objectNameLikeNull_);
+          .computeBoolSize(1004, objectNameLikeNull_);
       }
       if (getDependentObjectsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, getDependentObjectsNull_);
+          .computeBoolSize(1005, getDependentObjectsNull_);
       }
       if (databaseNameNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, databaseNameNull_);
+          .computeBoolSize(1006, databaseNameNull_);
       }
       memoizedSize = size;
       return size;
@@ -617,6 +698,14 @@ public final class MiGetDBObjectsAd {
         }
         objectTypeNull_ = false;
 
+        if (definedInSystemTableBuilder_ == null) {
+          definedInSystemTable_ = null;
+        } else {
+          definedInSystemTable_ = null;
+          definedInSystemTableBuilder_ = null;
+        }
+        definedInSystemTableNull_ = false;
+
         if (outputIntoOneIdBuilder_ == null) {
           outputIntoOneId_ = null;
         } else {
@@ -677,6 +766,12 @@ public final class MiGetDBObjectsAd {
           result.objectType_ = objectTypeBuilder_.build();
         }
         result.objectTypeNull_ = objectTypeNull_;
+        if (definedInSystemTableBuilder_ == null) {
+          result.definedInSystemTable_ = definedInSystemTable_;
+        } else {
+          result.definedInSystemTable_ = definedInSystemTableBuilder_.build();
+        }
+        result.definedInSystemTableNull_ = definedInSystemTableNull_;
         if (outputIntoOneIdBuilder_ == null) {
           result.outputIntoOneId_ = outputIntoOneId_;
         } else {
@@ -721,6 +816,12 @@ public final class MiGetDBObjectsAd {
         }
         if (other.getObjectTypeNull() != false) {
           setObjectTypeNull(other.getObjectTypeNull());
+        }
+        if (other.hasDefinedInSystemTable()) {
+          mergeDefinedInSystemTable(other.getDefinedInSystemTable());
+        }
+        if (other.getDefinedInSystemTableNull() != false) {
+          setDefinedInSystemTableNull(other.getDefinedInSystemTableNull());
         }
         if (other.hasOutputIntoOneId()) {
           mergeOutputIntoOneId(other.getOutputIntoOneId());
@@ -915,17 +1016,160 @@ public final class MiGetDBObjectsAd {
         return this;
       }
 
+      private io.dstore.Values.stringValue definedInSystemTable_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> definedInSystemTableBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+       */
+      public boolean hasDefinedInSystemTable() {
+        return definedInSystemTableBuilder_ != null || definedInSystemTable_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+       */
+      public io.dstore.Values.stringValue getDefinedInSystemTable() {
+        if (definedInSystemTableBuilder_ == null) {
+          return definedInSystemTable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : definedInSystemTable_;
+        } else {
+          return definedInSystemTableBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+       */
+      public Builder setDefinedInSystemTable(io.dstore.Values.stringValue value) {
+        if (definedInSystemTableBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          definedInSystemTable_ = value;
+          onChanged();
+        } else {
+          definedInSystemTableBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+       */
+      public Builder setDefinedInSystemTable(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (definedInSystemTableBuilder_ == null) {
+          definedInSystemTable_ = builderForValue.build();
+          onChanged();
+        } else {
+          definedInSystemTableBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+       */
+      public Builder mergeDefinedInSystemTable(io.dstore.Values.stringValue value) {
+        if (definedInSystemTableBuilder_ == null) {
+          if (definedInSystemTable_ != null) {
+            definedInSystemTable_ =
+              io.dstore.Values.stringValue.newBuilder(definedInSystemTable_).mergeFrom(value).buildPartial();
+          } else {
+            definedInSystemTable_ = value;
+          }
+          onChanged();
+        } else {
+          definedInSystemTableBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+       */
+      public Builder clearDefinedInSystemTable() {
+        if (definedInSystemTableBuilder_ == null) {
+          definedInSystemTable_ = null;
+          onChanged();
+        } else {
+          definedInSystemTable_ = null;
+          definedInSystemTableBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getDefinedInSystemTableBuilder() {
+        
+        onChanged();
+        return getDefinedInSystemTableFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getDefinedInSystemTableOrBuilder() {
+        if (definedInSystemTableBuilder_ != null) {
+          return definedInSystemTableBuilder_.getMessageOrBuilder();
+        } else {
+          return definedInSystemTable_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : definedInSystemTable_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue defined_in_system_table = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getDefinedInSystemTableFieldBuilder() {
+        if (definedInSystemTableBuilder_ == null) {
+          definedInSystemTableBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getDefinedInSystemTable(),
+                  getParentForChildren(),
+                  isClean());
+          definedInSystemTable_ = null;
+        }
+        return definedInSystemTableBuilder_;
+      }
+
+      private boolean definedInSystemTableNull_ ;
+      /**
+       * <code>optional bool defined_in_system_table_null = 1002;</code>
+       */
+      public boolean getDefinedInSystemTableNull() {
+        return definedInSystemTableNull_;
+      }
+      /**
+       * <code>optional bool defined_in_system_table_null = 1002;</code>
+       */
+      public Builder setDefinedInSystemTableNull(boolean value) {
+        
+        definedInSystemTableNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool defined_in_system_table_null = 1002;</code>
+       */
+      public Builder clearDefinedInSystemTableNull() {
+        
+        definedInSystemTableNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue outputIntoOneId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputIntoOneIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
        */
       public boolean hasOutputIntoOneId() {
         return outputIntoOneIdBuilder_ != null || outputIntoOneId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
        */
       public io.dstore.Values.integerValue getOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -935,7 +1179,7 @@ public final class MiGetDBObjectsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
        */
       public Builder setOutputIntoOneId(io.dstore.Values.integerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -951,7 +1195,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
        */
       public Builder setOutputIntoOneId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -965,7 +1209,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
        */
       public Builder mergeOutputIntoOneId(io.dstore.Values.integerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -983,7 +1227,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
        */
       public Builder clearOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -997,7 +1241,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
        */
       public io.dstore.Values.integerValue.Builder getOutputIntoOneIdBuilder() {
         
@@ -1005,7 +1249,7 @@ public final class MiGetDBObjectsAd {
         return getOutputIntoOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOutputIntoOneIdOrBuilder() {
         if (outputIntoOneIdBuilder_ != null) {
@@ -1016,7 +1260,7 @@ public final class MiGetDBObjectsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 2;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1034,13 +1278,13 @@ public final class MiGetDBObjectsAd {
 
       private boolean outputIntoOneIdNull_ ;
       /**
-       * <code>optional bool output_into_one_id_null = 1002;</code>
+       * <code>optional bool output_into_one_id_null = 1003;</code>
        */
       public boolean getOutputIntoOneIdNull() {
         return outputIntoOneIdNull_;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1002;</code>
+       * <code>optional bool output_into_one_id_null = 1003;</code>
        */
       public Builder setOutputIntoOneIdNull(boolean value) {
         
@@ -1049,7 +1293,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1002;</code>
+       * <code>optional bool output_into_one_id_null = 1003;</code>
        */
       public Builder clearOutputIntoOneIdNull() {
         
@@ -1062,13 +1306,13 @@ public final class MiGetDBObjectsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectNameLikeBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+       * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
        */
       public boolean hasObjectNameLike() {
         return objectNameLikeBuilder_ != null || objectNameLike_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+       * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
        */
       public io.dstore.Values.stringValue getObjectNameLike() {
         if (objectNameLikeBuilder_ == null) {
@@ -1078,7 +1322,7 @@ public final class MiGetDBObjectsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+       * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
        */
       public Builder setObjectNameLike(io.dstore.Values.stringValue value) {
         if (objectNameLikeBuilder_ == null) {
@@ -1094,7 +1338,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+       * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
        */
       public Builder setObjectNameLike(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1108,7 +1352,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+       * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
        */
       public Builder mergeObjectNameLike(io.dstore.Values.stringValue value) {
         if (objectNameLikeBuilder_ == null) {
@@ -1126,7 +1370,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+       * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
        */
       public Builder clearObjectNameLike() {
         if (objectNameLikeBuilder_ == null) {
@@ -1140,7 +1384,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+       * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
        */
       public io.dstore.Values.stringValue.Builder getObjectNameLikeBuilder() {
         
@@ -1148,7 +1392,7 @@ public final class MiGetDBObjectsAd {
         return getObjectNameLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+       * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getObjectNameLikeOrBuilder() {
         if (objectNameLikeBuilder_ != null) {
@@ -1159,7 +1403,7 @@ public final class MiGetDBObjectsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_like = 3;</code>
+       * <code>optional .dstore.values.stringValue object_name_like = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1177,13 +1421,13 @@ public final class MiGetDBObjectsAd {
 
       private boolean objectNameLikeNull_ ;
       /**
-       * <code>optional bool object_name_like_null = 1003;</code>
+       * <code>optional bool object_name_like_null = 1004;</code>
        */
       public boolean getObjectNameLikeNull() {
         return objectNameLikeNull_;
       }
       /**
-       * <code>optional bool object_name_like_null = 1003;</code>
+       * <code>optional bool object_name_like_null = 1004;</code>
        */
       public Builder setObjectNameLikeNull(boolean value) {
         
@@ -1192,7 +1436,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional bool object_name_like_null = 1003;</code>
+       * <code>optional bool object_name_like_null = 1004;</code>
        */
       public Builder clearObjectNameLikeNull() {
         
@@ -1205,13 +1449,13 @@ public final class MiGetDBObjectsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getDependentObjectsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
        */
       public boolean hasGetDependentObjects() {
         return getDependentObjectsBuilder_ != null || getDependentObjects_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
        */
       public io.dstore.Values.booleanValue getGetDependentObjects() {
         if (getDependentObjectsBuilder_ == null) {
@@ -1221,7 +1465,7 @@ public final class MiGetDBObjectsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
        */
       public Builder setGetDependentObjects(io.dstore.Values.booleanValue value) {
         if (getDependentObjectsBuilder_ == null) {
@@ -1237,7 +1481,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
        */
       public Builder setGetDependentObjects(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1251,7 +1495,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
        */
       public Builder mergeGetDependentObjects(io.dstore.Values.booleanValue value) {
         if (getDependentObjectsBuilder_ == null) {
@@ -1269,7 +1513,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
        */
       public Builder clearGetDependentObjects() {
         if (getDependentObjectsBuilder_ == null) {
@@ -1283,7 +1527,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
        */
       public io.dstore.Values.booleanValue.Builder getGetDependentObjectsBuilder() {
         
@@ -1291,7 +1535,7 @@ public final class MiGetDBObjectsAd {
         return getGetDependentObjectsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getGetDependentObjectsOrBuilder() {
         if (getDependentObjectsBuilder_ != null) {
@@ -1302,7 +1546,7 @@ public final class MiGetDBObjectsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_dependent_objects = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_dependent_objects = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1320,13 +1564,13 @@ public final class MiGetDBObjectsAd {
 
       private boolean getDependentObjectsNull_ ;
       /**
-       * <code>optional bool get_dependent_objects_null = 1004;</code>
+       * <code>optional bool get_dependent_objects_null = 1005;</code>
        */
       public boolean getGetDependentObjectsNull() {
         return getDependentObjectsNull_;
       }
       /**
-       * <code>optional bool get_dependent_objects_null = 1004;</code>
+       * <code>optional bool get_dependent_objects_null = 1005;</code>
        */
       public Builder setGetDependentObjectsNull(boolean value) {
         
@@ -1335,7 +1579,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional bool get_dependent_objects_null = 1004;</code>
+       * <code>optional bool get_dependent_objects_null = 1005;</code>
        */
       public Builder clearGetDependentObjectsNull() {
         
@@ -1348,13 +1592,13 @@ public final class MiGetDBObjectsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue database_name = 5;</code>
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
        */
       public boolean hasDatabaseName() {
         return databaseNameBuilder_ != null || databaseName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 5;</code>
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
        */
       public io.dstore.Values.stringValue getDatabaseName() {
         if (databaseNameBuilder_ == null) {
@@ -1364,7 +1608,7 @@ public final class MiGetDBObjectsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 5;</code>
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
        */
       public Builder setDatabaseName(io.dstore.Values.stringValue value) {
         if (databaseNameBuilder_ == null) {
@@ -1380,7 +1624,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 5;</code>
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
        */
       public Builder setDatabaseName(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1394,7 +1638,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 5;</code>
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
        */
       public Builder mergeDatabaseName(io.dstore.Values.stringValue value) {
         if (databaseNameBuilder_ == null) {
@@ -1412,7 +1656,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 5;</code>
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
        */
       public Builder clearDatabaseName() {
         if (databaseNameBuilder_ == null) {
@@ -1426,7 +1670,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 5;</code>
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
        */
       public io.dstore.Values.stringValue.Builder getDatabaseNameBuilder() {
         
@@ -1434,7 +1678,7 @@ public final class MiGetDBObjectsAd {
         return getDatabaseNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 5;</code>
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
         if (databaseNameBuilder_ != null) {
@@ -1445,7 +1689,7 @@ public final class MiGetDBObjectsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 5;</code>
+       * <code>optional .dstore.values.stringValue database_name = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1463,13 +1707,13 @@ public final class MiGetDBObjectsAd {
 
       private boolean databaseNameNull_ ;
       /**
-       * <code>optional bool database_name_null = 1005;</code>
+       * <code>optional bool database_name_null = 1006;</code>
        */
       public boolean getDatabaseNameNull() {
         return databaseNameNull_;
       }
       /**
-       * <code>optional bool database_name_null = 1005;</code>
+       * <code>optional bool database_name_null = 1006;</code>
        */
       public Builder setDatabaseNameNull(boolean value) {
         
@@ -1478,7 +1722,7 @@ public final class MiGetDBObjectsAd {
         return this;
       }
       /**
-       * <code>optional bool database_name_null = 1005;</code>
+       * <code>optional bool database_name_null = 1006;</code>
        */
       public Builder clearDatabaseNameNull() {
         
@@ -5924,39 +6168,43 @@ public final class MiGetDBObjectsAd {
       "ts_Ad\032\023dstore/values.proto\032\031dstore/engin" +
       "e/error.proto\032\033dstore/engine/message.pro" +
       "to\032#dstore/engine/metainformation.proto\"" +
-      "\272\003\n\nParameters\022/\n\013object_type\030\001 \001(\0132\032.ds" +
+      "\236\004\n\nParameters\022/\n\013object_type\030\001 \001(\0132\032.ds" +
       "tore.values.stringValue\022\031\n\020object_type_n" +
-      "ull\030\351\007 \001(\010\0227\n\022output_into_one_id\030\002 \001(\0132\033" +
-      ".dstore.values.integerValue\022 \n\027output_in" +
-      "to_one_id_null\030\352\007 \001(\010\0224\n\020object_name_lik",
-      "e\030\003 \001(\0132\032.dstore.values.stringValue\022\036\n\025o" +
-      "bject_name_like_null\030\353\007 \001(\010\022:\n\025get_depen" +
-      "dent_objects\030\004 \001(\0132\033.dstore.values.boole" +
-      "anValue\022#\n\032get_dependent_objects_null\030\354\007" +
-      " \001(\010\0221\n\rdatabase_name\030\005 \001(\0132\032.dstore.val" +
-      "ues.stringValue\022\033\n\022database_name_null\030\355\007" +
-      " \001(\010\"\275\006\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
-      "e.engine.error.Error\022H\n\020meta_information" +
-      "\030\002 \003(\0132..dstore.engine.metainformation.M" +
-      "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore",
-      ".engine.message.Message\022;\n\003row\030\004 \003(\0132..d" +
-      "store.engine.mi_GetDBObjects_Ad.Response" +
-      ".Row\022;\n\027defined_in_system_table\030e \001(\0132\032." +
-      "dstore.values.stringValue\032\220\004\n\003Row\022\017\n\006row" +
-      "_id\030\220N \001(\005\022:\n\025dependent_object_type\030\221N \001" +
-      "(\0132\032.dstore.values.stringValue\0220\n\013object" +
-      "_type\030\222N \001(\0132\032.dstore.values.stringValue" +
-      "\022/\n\tobject_id\030\223N \001(\0132\033.dstore.values.int" +
-      "egerValue\0222\n\rdatabase_name\030\224N \001(\0132\032.dsto" +
-      "re.values.stringValue\022>\n\026object_last_cre",
-      "ated_at\030\225N \001(\0132\035.dstore.values.timestamp" +
-      "Value\022<\n\027defined_in_system_table\030\226N \001(\0132" +
-      "\032.dstore.values.stringValue\022:\n\025dependent" +
-      "_object_name\030\227N \001(\0132\032.dstore.values.stri" +
-      "ngValue\0220\n\013object_name\030\230N \001(\0132\032.dstore.v" +
-      "alues.stringValue\0229\n\023dependent_object_id" +
-      "\030\231N \001(\0132\033.dstore.values.integerValueB\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "ull\030\351\007 \001(\010\022;\n\027defined_in_system_table\030\002 " +
+      "\001(\0132\032.dstore.values.stringValue\022%\n\034defin" +
+      "ed_in_system_table_null\030\352\007 \001(\010\0227\n\022output",
+      "_into_one_id\030\003 \001(\0132\033.dstore.values.integ" +
+      "erValue\022 \n\027output_into_one_id_null\030\353\007 \001(" +
+      "\010\0224\n\020object_name_like\030\004 \001(\0132\032.dstore.val" +
+      "ues.stringValue\022\036\n\025object_name_like_null" +
+      "\030\354\007 \001(\010\022:\n\025get_dependent_objects\030\005 \001(\0132\033" +
+      ".dstore.values.booleanValue\022#\n\032get_depen" +
+      "dent_objects_null\030\355\007 \001(\010\0221\n\rdatabase_nam" +
+      "e\030\006 \001(\0132\032.dstore.values.stringValue\022\033\n\022d" +
+      "atabase_name_null\030\356\007 \001(\010\"\275\006\n\010Response\022)\n" +
+      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error",
+      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi" +
+      "ne.metainformation.MetaInformation\022/\n\007me" +
+      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
+      "age\022;\n\003row\030\004 \003(\0132..dstore.engine.mi_GetD" +
+      "BObjects_Ad.Response.Row\022;\n\027defined_in_s" +
+      "ystem_table\030e \001(\0132\032.dstore.values.string" +
+      "Value\032\220\004\n\003Row\022\017\n\006row_id\030\220N \001(\005\022:\n\025depend" +
+      "ent_object_type\030\221N \001(\0132\032.dstore.values.s" +
+      "tringValue\0220\n\013object_type\030\222N \001(\0132\032.dstor" +
+      "e.values.stringValue\022/\n\tobject_id\030\223N \001(\013",
+      "2\033.dstore.values.integerValue\0222\n\rdatabas" +
+      "e_name\030\224N \001(\0132\032.dstore.values.stringValu" +
+      "e\022>\n\026object_last_created_at\030\225N \001(\0132\035.dst" +
+      "ore.values.timestampValue\022<\n\027defined_in_" +
+      "system_table\030\226N \001(\0132\032.dstore.values.stri" +
+      "ngValue\022:\n\025dependent_object_name\030\227N \001(\0132" +
+      "\032.dstore.values.stringValue\0220\n\013object_na" +
+      "me\030\230N \001(\0132\032.dstore.values.stringValue\0229\n" +
+      "\023dependent_object_id\030\231N \001(\0132\033.dstore.val" +
+      "ues.integerValueBS\n\033io.dstore.engine.pro",
+      "ceduresZ4gosdk.dstore.de/engine/procedur" +
+      "es/mi_GetDBObjects_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5979,7 +6227,7 @@ public final class MiGetDBObjectsAd {
     internal_static_dstore_engine_mi_GetDBObjects_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetDBObjects_Ad_Parameters_descriptor,
-        new java.lang.String[] { "ObjectType", "ObjectTypeNull", "OutputIntoOneId", "OutputIntoOneIdNull", "ObjectNameLike", "ObjectNameLikeNull", "GetDependentObjects", "GetDependentObjectsNull", "DatabaseName", "DatabaseNameNull", });
+        new java.lang.String[] { "ObjectType", "ObjectTypeNull", "DefinedInSystemTable", "DefinedInSystemTableNull", "OutputIntoOneId", "OutputIntoOneIdNull", "ObjectNameLike", "ObjectNameLikeNull", "GetDependentObjects", "GetDependentObjectsNull", "DatabaseName", "DatabaseNameNull", });
     internal_static_dstore_engine_mi_GetDBObjects_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetDBObjects_Ad_Response_fieldAccessorTable = new

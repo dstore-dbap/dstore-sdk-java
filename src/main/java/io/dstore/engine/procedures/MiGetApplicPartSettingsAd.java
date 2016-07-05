@@ -4651,8 +4651,9 @@ public final class MiGetApplicPartSettingsAd {
       "\023application_part_id\030\223N \001(\0132\033.dstore.val" +
       "ues.integerValue\022D\n\036value_derived_from_g" +
       "lobal_user\030\224N \001(\0132\033.dstore.values.boolea",
-      "nValueB\035\n\033io.dstore.engine.proceduresb\006p" +
-      "roto3"
+      "nValueB\\\n\033io.dstore.engine.proceduresZ=g" +
+      "osdk.dstore.de/engine/procedures/mi_GetA" +
+      "pplicPartSettings_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5142,8 +5142,9 @@ public final class CoInsertNewMemberBinaryPu {
       "(\0132\036.dstore.engine.message.Message\022D\n\003ro" +
       "w\030\004 \003(\01327.dstore.engine.co_InsertNewMemb" +
       "erBinary_Pu.Response.Row\032\026\n\003Row\022\017\n\006row_i" +
-      "d\030\220N \001(\005B\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "d\030\220N \001(\005B\\\n\033io.dstore.engine.proceduresZ" +
+      "=gosdk.dstore.de/engine/procedures/co_In" +
+      "sertNewMemberBinary_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

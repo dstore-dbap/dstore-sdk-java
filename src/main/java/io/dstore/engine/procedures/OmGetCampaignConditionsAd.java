@@ -3418,8 +3418,10 @@ public final class OmGetCampaignConditionsAd {
       "id\030\221N \001(\0132\033.dstore.values.integerValue\0222" +
       "\n\rcriteria_type\030\222N \001(\0132\032.dstore.values.s" +
       "tringValue\0222\n\014condition_id\030\223N \001(\0132\033.dsto" +
-      "re.values.integerValueB\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      "re.values.integerValueB\\\n\033io.dstore.engi" +
+      "ne.proceduresZ=gosdk.dstore.de/engine/pr",
+      "ocedures/om_GetCampaignConditions_Adb\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

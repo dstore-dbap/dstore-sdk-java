@@ -5881,8 +5881,9 @@ public final class MiGetLocales {
       "\0132\032.dstore.values.stringValue\022E\n country" +
       "_descr_in_locale_language\030\232N \001(\0132\032.dstor" +
       "e.values.stringValue\0221\n\013language_id\030\233N \001" +
-      "(\0132\033.dstore.values.integerValueB\035\n\033io.ds" +
-      "tore.engine.proceduresb\006proto3"
+      "(\0132\033.dstore.values.integerValueBN\n\033io.ds" +
+      "tore.engine.proceduresZ/gosdk.dstore.de/" +
+      "engine/procedures/mi_GetLocalesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

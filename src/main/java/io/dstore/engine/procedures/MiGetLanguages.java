@@ -3910,8 +3910,9 @@ public final class MiGetLanguages {
       "\0132\032.dstore.values.stringValue\0221\n\013languag" +
       "e_id\030\223N \001(\0132\033.dstore.values.integerValue",
       "\0228\n\023local_language_name\030\224N \001(\0132\032.dstore." +
-      "values.stringValueB\035\n\033io.dstore.engine.p" +
-      "roceduresb\006proto3"
+      "values.stringValueBP\n\033io.dstore.engine.p" +
+      "roceduresZ1gosdk.dstore.de/engine/proced" +
+      "ures/mi_GetLanguagesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -18449,8 +18449,10 @@ public final class OmSearchOrderNoAd {
       "(\0132\032.dstore.values.stringValue\022<\n\025precis" +
       "e_net_order_sum\030\314\234\001 \001(\0132\033.dstore.values.",
       "decimalValue\0227\n\020brutto_order_sum\030\316\234\001 \001(\013" +
-      "2\033.dstore.values.decimalValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "2\033.dstore.values.decimalValueBT\n\033io.dsto" +
+      "re.engine.proceduresZ5gosdk.dstore.de/en" +
+      "gine/procedures/om_SearchOrderNo_Adb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

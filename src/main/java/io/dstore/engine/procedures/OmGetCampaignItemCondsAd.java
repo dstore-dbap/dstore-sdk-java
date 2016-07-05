@@ -14759,8 +14759,9 @@ public final class OmGetCampaignItemCondsAd {
       ".integerValue\022?\n\031min_number_of_items_gro" +
       "up\030\276N \001(\0132\033.dstore.values.integerValue\0223" +
       "\n\rinherit_depth\030\277N \001(\0132\033.dstore.values.i",
-      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "ntegerValueB[\n\033io.dstore.engine.procedur" +
+      "esZ<gosdk.dstore.de/engine/procedures/om" +
+      "_GetCampaignItemConds_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

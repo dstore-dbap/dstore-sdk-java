@@ -4402,8 +4402,9 @@ public final class MiGetBatchJobsAd {
       "er\030\223N \001(\0132\032.dstore.values.stringValue\0223\n" +
       "\016procedure_name\030\224N \001(\0132\032.dstore.values.s" +
       "tringValue\022-\n\010last_run\030\225N \001(\0132\032.dstore.v" +
-      "alues.stringValueB\035\n\033io.dstore.engine.pr" +
-      "oceduresb\006proto3"
+      "alues.stringValueBS\n\033io.dstore.engine.pr" +
+      "oceduresZ4gosdk.dstore.de/engine/procedu" +
+      "res/mi_GetBatchJobs_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

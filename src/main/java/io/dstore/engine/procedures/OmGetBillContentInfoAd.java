@@ -4404,8 +4404,10 @@ public final class OmGetBillContentInfoAd {
       "\001(\0132\032.dstore.values.stringValue\0220\n\013infor" +
       "mation\030\225N \001(\0132\032.dstore.values.stringValu" +
       "e\022@\n\030created_at_date_and_time\030\226N \001(\0132\035.d" +
-      "store.values.timestampValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      "store.values.timestampValueBY\n\033io.dstore" +
+      ".engine.proceduresZ:gosdk.dstore.de/engi" +
+      "ne/procedures/om_GetBillContentInfo_Adb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

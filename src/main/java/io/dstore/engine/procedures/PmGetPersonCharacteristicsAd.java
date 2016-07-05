@@ -8347,8 +8347,9 @@ public final class PmGetPersonCharacteristicsAd {
       "\031person_charac_category_id\030\272\352\001 \001(\0132\033.dst" +
       "ore.values.integerValue\022:\n\024category_desc" +
       "ription\030\303\352\001 \001(\0132\032.dstore.values.stringVa",
-      "lueB\035\n\033io.dstore.engine.proceduresb\006prot" +
-      "o3"
+      "lueB_\n\033io.dstore.engine.proceduresZ@gosd" +
+      "k.dstore.de/engine/procedures/pm_GetPers" +
+      "onCharacteristics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

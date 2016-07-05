@@ -5144,8 +5144,9 @@ public final class OmGetCampaignPeriodDefsAd {
       "values.stringValue\022.\n\ttime_unit\030\231N \001(\0132\032" +
       ".dstore.values.stringValue\022:\n\024period_def" +
       "inition_id\030\232N \001(\0132\033.dstore.values.intege" +
-      "rValueB\035\n\033io.dstore.engine.proceduresb\006p",
-      "roto3"
+      "rValueB\\\n\033io.dstore.engine.proceduresZ=g",
+      "osdk.dstore.de/engine/procedures/om_GetC" +
+      "ampaignPeriodDefs_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

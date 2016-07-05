@@ -5637,8 +5637,9 @@ public final class OmGetPaymentForShippingAd {
       "tore.values.stringValue\0225\n\017payment_type_" +
       "id\030\231N \001(\0132\033.dstore.values.integerValue\0229" +
       "\n\024detailed_description\030\232N \001(\0132\032.dstore.v" +
-      "alues.stringValueB\035\n\033io.dstore.engine.pr" +
-      "oceduresb\006proto3"
+      "alues.stringValueB\\\n\033io.dstore.engine.pr" +
+      "oceduresZ=gosdk.dstore.de/engine/procedu" +
+      "res/om_GetPaymentForShipping_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

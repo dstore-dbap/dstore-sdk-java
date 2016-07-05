@@ -3664,8 +3664,10 @@ public final class OmGetShippingTypeDescrAd {
       "\221N \001(\0132\032.dstore.values.stringValue\022>\n\031sh" +
       "ipping_type_description\030\222N \001(\0132\032.dstore." +
       "values.stringValue\0221\n\013language_id\030\223N \001(\013",
-      "2\033.dstore.values.integerValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "2\033.dstore.values.integerValueB[\n\033io.dsto" +
+      "re.engine.proceduresZ<gosdk.dstore.de/en" +
+      "gine/procedures/om_GetShippingTypeDescr_" +
+      "Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

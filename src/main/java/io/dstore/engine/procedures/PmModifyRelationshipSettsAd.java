@@ -3664,7 +3664,9 @@ public final class PmModifyRelationshipSettsAd {
       "e.engine.message.Message\022F\n\003row\030\004 \003(\01329." +
       "dstore.engine.pm_ModifyRelationshipSetts" +
       "_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "B^\n\033io.dstore.engine.proceduresZ?gosdk.d" +
+      "store.de/engine/procedures/pm_ModifyRela" +
+      "tionshipSetts_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

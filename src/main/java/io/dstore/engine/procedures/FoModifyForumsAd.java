@@ -13,56 +13,74 @@ public final class FoModifyForumsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     */
+    boolean hasForumId();
+    /**
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     */
+    io.dstore.Values.integerValue getForumId();
+    /**
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
+
+    /**
+     * <code>optional bool forum_id_null = 1001;</code>
+     */
+    boolean getForumIdNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     io.dstore.Values.integerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1001;</code>
+     * <code>optional bool language_id_null = 1002;</code>
      */
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+     * <code>optional .dstore.values.stringValue forum_name = 3;</code>
      */
     boolean hasForumName();
     /**
-     * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+     * <code>optional .dstore.values.stringValue forum_name = 3;</code>
      */
     io.dstore.Values.stringValue getForumName();
     /**
-     * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+     * <code>optional .dstore.values.stringValue forum_name = 3;</code>
      */
     io.dstore.Values.stringValueOrBuilder getForumNameOrBuilder();
 
     /**
-     * <code>optional bool forum_name_null = 1002;</code>
+     * <code>optional bool forum_name_null = 1003;</code>
      */
     boolean getForumNameNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
      */
     boolean hasDeleteForum();
     /**
-     * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
      */
     io.dstore.Values.booleanValue getDeleteForum();
     /**
-     * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getDeleteForumOrBuilder();
 
     /**
-     * <code>optional bool delete_forum_null = 1003;</code>
+     * <code>optional bool delete_forum_null = 1004;</code>
      */
     boolean getDeleteForumNull();
   }
@@ -78,6 +96,7 @@ public final class FoModifyForumsAd {
       super(builder);
     }
     private Parameters() {
+      forumIdNull_ = false;
       languageIdNull_ = false;
       forumNameNull_ = false;
       deleteForumNull_ = false;
@@ -109,6 +128,19 @@ public final class FoModifyForumsAd {
             }
             case 10: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (forumId_ != null) {
+                subBuilder = forumId_.toBuilder();
+              }
+              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(forumId_);
+                forumId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 18: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
@@ -120,7 +152,7 @@ public final class FoModifyForumsAd {
 
               break;
             }
-            case 18: {
+            case 26: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (forumName_ != null) {
                 subBuilder = forumName_.toBuilder();
@@ -133,7 +165,7 @@ public final class FoModifyForumsAd {
 
               break;
             }
-            case 26: {
+            case 34: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deleteForum_ != null) {
                 subBuilder = deleteForum_.toBuilder();
@@ -148,15 +180,20 @@ public final class FoModifyForumsAd {
             }
             case 8008: {
 
-              languageIdNull_ = input.readBool();
+              forumIdNull_ = input.readBool();
               break;
             }
             case 8016: {
 
-              forumNameNull_ = input.readBool();
+              languageIdNull_ = input.readBool();
               break;
             }
             case 8024: {
+
+              forumNameNull_ = input.readBool();
+              break;
+            }
+            case 8032: {
 
               deleteForumNull_ = input.readBool();
               break;
@@ -185,91 +222,121 @@ public final class FoModifyForumsAd {
               io.dstore.engine.procedures.FoModifyForumsAd.Parameters.class, io.dstore.engine.procedures.FoModifyForumsAd.Parameters.Builder.class);
     }
 
-    public static final int LANGUAGE_ID_FIELD_NUMBER = 1;
+    public static final int FORUM_ID_FIELD_NUMBER = 1;
+    private io.dstore.Values.integerValue forumId_;
+    /**
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     */
+    public boolean hasForumId() {
+      return forumId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     */
+    public io.dstore.Values.integerValue getForumId() {
+      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      return getForumId();
+    }
+
+    public static final int FORUM_ID_NULL_FIELD_NUMBER = 1001;
+    private boolean forumIdNull_;
+    /**
+     * <code>optional bool forum_id_null = 1001;</code>
+     */
+    public boolean getForumIdNull() {
+      return forumIdNull_;
+    }
+
+    public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
     private io.dstore.Values.integerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     public io.dstore.Values.integerValue getLanguageId() {
       return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
-    public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1001;
+    public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1001;</code>
+     * <code>optional bool language_id_null = 1002;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
     }
 
-    public static final int FORUM_NAME_FIELD_NUMBER = 2;
+    public static final int FORUM_NAME_FIELD_NUMBER = 3;
     private io.dstore.Values.stringValue forumName_;
     /**
-     * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+     * <code>optional .dstore.values.stringValue forum_name = 3;</code>
      */
     public boolean hasForumName() {
       return forumName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+     * <code>optional .dstore.values.stringValue forum_name = 3;</code>
      */
     public io.dstore.Values.stringValue getForumName() {
       return forumName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : forumName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+     * <code>optional .dstore.values.stringValue forum_name = 3;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getForumNameOrBuilder() {
       return getForumName();
     }
 
-    public static final int FORUM_NAME_NULL_FIELD_NUMBER = 1002;
+    public static final int FORUM_NAME_NULL_FIELD_NUMBER = 1003;
     private boolean forumNameNull_;
     /**
-     * <code>optional bool forum_name_null = 1002;</code>
+     * <code>optional bool forum_name_null = 1003;</code>
      */
     public boolean getForumNameNull() {
       return forumNameNull_;
     }
 
-    public static final int DELETE_FORUM_FIELD_NUMBER = 3;
+    public static final int DELETE_FORUM_FIELD_NUMBER = 4;
     private io.dstore.Values.booleanValue deleteForum_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
      */
     public boolean hasDeleteForum() {
       return deleteForum_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
      */
     public io.dstore.Values.booleanValue getDeleteForum() {
       return deleteForum_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteForum_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getDeleteForumOrBuilder() {
       return getDeleteForum();
     }
 
-    public static final int DELETE_FORUM_NULL_FIELD_NUMBER = 1003;
+    public static final int DELETE_FORUM_NULL_FIELD_NUMBER = 1004;
     private boolean deleteForumNull_;
     /**
-     * <code>optional bool delete_forum_null = 1003;</code>
+     * <code>optional bool delete_forum_null = 1004;</code>
      */
     public boolean getDeleteForumNull() {
       return deleteForumNull_;
@@ -287,23 +354,29 @@ public final class FoModifyForumsAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (forumId_ != null) {
+        output.writeMessage(1, getForumId());
+      }
       if (languageId_ != null) {
-        output.writeMessage(1, getLanguageId());
+        output.writeMessage(2, getLanguageId());
       }
       if (forumName_ != null) {
-        output.writeMessage(2, getForumName());
+        output.writeMessage(3, getForumName());
       }
       if (deleteForum_ != null) {
-        output.writeMessage(3, getDeleteForum());
+        output.writeMessage(4, getDeleteForum());
+      }
+      if (forumIdNull_ != false) {
+        output.writeBool(1001, forumIdNull_);
       }
       if (languageIdNull_ != false) {
-        output.writeBool(1001, languageIdNull_);
+        output.writeBool(1002, languageIdNull_);
       }
       if (forumNameNull_ != false) {
-        output.writeBool(1002, forumNameNull_);
+        output.writeBool(1003, forumNameNull_);
       }
       if (deleteForumNull_ != false) {
-        output.writeBool(1003, deleteForumNull_);
+        output.writeBool(1004, deleteForumNull_);
       }
     }
 
@@ -312,29 +385,37 @@ public final class FoModifyForumsAd {
       if (size != -1) return size;
 
       size = 0;
+      if (forumId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getForumId());
+      }
       if (languageId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getLanguageId());
+          .computeMessageSize(2, getLanguageId());
       }
       if (forumName_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getForumName());
+          .computeMessageSize(3, getForumName());
       }
       if (deleteForum_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getDeleteForum());
+          .computeMessageSize(4, getDeleteForum());
+      }
+      if (forumIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1001, forumIdNull_);
       }
       if (languageIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1001, languageIdNull_);
+          .computeBoolSize(1002, languageIdNull_);
       }
       if (forumNameNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1002, forumNameNull_);
+          .computeBoolSize(1003, forumNameNull_);
       }
       if (deleteForumNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, deleteForumNull_);
+          .computeBoolSize(1004, deleteForumNull_);
       }
       memoizedSize = size;
       return size;
@@ -447,6 +528,14 @@ public final class FoModifyForumsAd {
       }
       public Builder clear() {
         super.clear();
+        if (forumIdBuilder_ == null) {
+          forumId_ = null;
+        } else {
+          forumId_ = null;
+          forumIdBuilder_ = null;
+        }
+        forumIdNull_ = false;
+
         if (languageIdBuilder_ == null) {
           languageId_ = null;
         } else {
@@ -493,6 +582,12 @@ public final class FoModifyForumsAd {
 
       public io.dstore.engine.procedures.FoModifyForumsAd.Parameters buildPartial() {
         io.dstore.engine.procedures.FoModifyForumsAd.Parameters result = new io.dstore.engine.procedures.FoModifyForumsAd.Parameters(this);
+        if (forumIdBuilder_ == null) {
+          result.forumId_ = forumId_;
+        } else {
+          result.forumId_ = forumIdBuilder_.build();
+        }
+        result.forumIdNull_ = forumIdNull_;
         if (languageIdBuilder_ == null) {
           result.languageId_ = languageId_;
         } else {
@@ -526,6 +621,12 @@ public final class FoModifyForumsAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.FoModifyForumsAd.Parameters other) {
         if (other == io.dstore.engine.procedures.FoModifyForumsAd.Parameters.getDefaultInstance()) return this;
+        if (other.hasForumId()) {
+          mergeForumId(other.getForumId());
+        }
+        if (other.getForumIdNull() != false) {
+          setForumIdNull(other.getForumIdNull());
+        }
         if (other.hasLanguageId()) {
           mergeLanguageId(other.getLanguageId());
         }
@@ -570,17 +671,160 @@ public final class FoModifyForumsAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue forumId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       */
+      public boolean hasForumId() {
+        return forumIdBuilder_ != null || forumId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue getForumId() {
+        if (forumIdBuilder_ == null) {
+          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+        } else {
+          return forumIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       */
+      public Builder setForumId(io.dstore.Values.integerValue value) {
+        if (forumIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          forumId_ = value;
+          onChanged();
+        } else {
+          forumIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       */
+      public Builder setForumId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (forumIdBuilder_ == null) {
+          forumId_ = builderForValue.build();
+          onChanged();
+        } else {
+          forumIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       */
+      public Builder mergeForumId(io.dstore.Values.integerValue value) {
+        if (forumIdBuilder_ == null) {
+          if (forumId_ != null) {
+            forumId_ =
+              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+          } else {
+            forumId_ = value;
+          }
+          onChanged();
+        } else {
+          forumIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       */
+      public Builder clearForumId() {
+        if (forumIdBuilder_ == null) {
+          forumId_ = null;
+          onChanged();
+        } else {
+          forumId_ = null;
+          forumIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
+        
+        onChanged();
+        return getForumIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+        if (forumIdBuilder_ != null) {
+          return forumIdBuilder_.getMessageOrBuilder();
+        } else {
+          return forumId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getForumIdFieldBuilder() {
+        if (forumIdBuilder_ == null) {
+          forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getForumId(),
+                  getParentForChildren(),
+                  isClean());
+          forumId_ = null;
+        }
+        return forumIdBuilder_;
+      }
+
+      private boolean forumIdNull_ ;
+      /**
+       * <code>optional bool forum_id_null = 1001;</code>
+       */
+      public boolean getForumIdNull() {
+        return forumIdNull_;
+      }
+      /**
+       * <code>optional bool forum_id_null = 1001;</code>
+       */
+      public Builder setForumIdNull(boolean value) {
+        
+        forumIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool forum_id_null = 1001;</code>
+       */
+      public Builder clearForumIdNull() {
+        
+        forumIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public io.dstore.Values.integerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -590,7 +834,7 @@ public final class FoModifyForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder setLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
@@ -606,7 +850,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -620,7 +864,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
@@ -638,7 +882,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -652,7 +896,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
         
@@ -660,7 +904,7 @@ public final class FoModifyForumsAd {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -671,7 +915,7 @@ public final class FoModifyForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -689,13 +933,13 @@ public final class FoModifyForumsAd {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>optional bool language_id_null = 1002;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>optional bool language_id_null = 1002;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -704,7 +948,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>optional bool language_id_null = 1002;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -717,13 +961,13 @@ public final class FoModifyForumsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> forumNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+       * <code>optional .dstore.values.stringValue forum_name = 3;</code>
        */
       public boolean hasForumName() {
         return forumNameBuilder_ != null || forumName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+       * <code>optional .dstore.values.stringValue forum_name = 3;</code>
        */
       public io.dstore.Values.stringValue getForumName() {
         if (forumNameBuilder_ == null) {
@@ -733,7 +977,7 @@ public final class FoModifyForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+       * <code>optional .dstore.values.stringValue forum_name = 3;</code>
        */
       public Builder setForumName(io.dstore.Values.stringValue value) {
         if (forumNameBuilder_ == null) {
@@ -749,7 +993,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+       * <code>optional .dstore.values.stringValue forum_name = 3;</code>
        */
       public Builder setForumName(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -763,7 +1007,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+       * <code>optional .dstore.values.stringValue forum_name = 3;</code>
        */
       public Builder mergeForumName(io.dstore.Values.stringValue value) {
         if (forumNameBuilder_ == null) {
@@ -781,7 +1025,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+       * <code>optional .dstore.values.stringValue forum_name = 3;</code>
        */
       public Builder clearForumName() {
         if (forumNameBuilder_ == null) {
@@ -795,7 +1039,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+       * <code>optional .dstore.values.stringValue forum_name = 3;</code>
        */
       public io.dstore.Values.stringValue.Builder getForumNameBuilder() {
         
@@ -803,7 +1047,7 @@ public final class FoModifyForumsAd {
         return getForumNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+       * <code>optional .dstore.values.stringValue forum_name = 3;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getForumNameOrBuilder() {
         if (forumNameBuilder_ != null) {
@@ -814,7 +1058,7 @@ public final class FoModifyForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_name = 2;</code>
+       * <code>optional .dstore.values.stringValue forum_name = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -832,13 +1076,13 @@ public final class FoModifyForumsAd {
 
       private boolean forumNameNull_ ;
       /**
-       * <code>optional bool forum_name_null = 1002;</code>
+       * <code>optional bool forum_name_null = 1003;</code>
        */
       public boolean getForumNameNull() {
         return forumNameNull_;
       }
       /**
-       * <code>optional bool forum_name_null = 1002;</code>
+       * <code>optional bool forum_name_null = 1003;</code>
        */
       public Builder setForumNameNull(boolean value) {
         
@@ -847,7 +1091,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional bool forum_name_null = 1002;</code>
+       * <code>optional bool forum_name_null = 1003;</code>
        */
       public Builder clearForumNameNull() {
         
@@ -860,13 +1104,13 @@ public final class FoModifyForumsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteForumBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
        */
       public boolean hasDeleteForum() {
         return deleteForumBuilder_ != null || deleteForum_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
        */
       public io.dstore.Values.booleanValue getDeleteForum() {
         if (deleteForumBuilder_ == null) {
@@ -876,7 +1120,7 @@ public final class FoModifyForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
        */
       public Builder setDeleteForum(io.dstore.Values.booleanValue value) {
         if (deleteForumBuilder_ == null) {
@@ -892,7 +1136,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
        */
       public Builder setDeleteForum(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -906,7 +1150,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
        */
       public Builder mergeDeleteForum(io.dstore.Values.booleanValue value) {
         if (deleteForumBuilder_ == null) {
@@ -924,7 +1168,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
        */
       public Builder clearDeleteForum() {
         if (deleteForumBuilder_ == null) {
@@ -938,7 +1182,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
        */
       public io.dstore.Values.booleanValue.Builder getDeleteForumBuilder() {
         
@@ -946,7 +1190,7 @@ public final class FoModifyForumsAd {
         return getDeleteForumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDeleteForumOrBuilder() {
         if (deleteForumBuilder_ != null) {
@@ -957,7 +1201,7 @@ public final class FoModifyForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_forum = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_forum = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -975,13 +1219,13 @@ public final class FoModifyForumsAd {
 
       private boolean deleteForumNull_ ;
       /**
-       * <code>optional bool delete_forum_null = 1003;</code>
+       * <code>optional bool delete_forum_null = 1004;</code>
        */
       public boolean getDeleteForumNull() {
         return deleteForumNull_;
       }
       /**
-       * <code>optional bool delete_forum_null = 1003;</code>
+       * <code>optional bool delete_forum_null = 1004;</code>
        */
       public Builder setDeleteForumNull(boolean value) {
         
@@ -990,7 +1234,7 @@ public final class FoModifyForumsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_forum_null = 1003;</code>
+       * <code>optional bool delete_forum_null = 1004;</code>
        */
       public Builder clearDeleteForumNull() {
         
@@ -3231,21 +3475,24 @@ public final class FoModifyForumsAd {
       "ms_Ad\032\023dstore/values.proto\032\031dstore/engin" +
       "e/error.proto\032\033dstore/engine/message.pro" +
       "to\032#dstore/engine/metainformation.proto\"" +
-      "\362\001\n\nParameters\0220\n\013language_id\030\001 \001(\0132\033.ds" +
-      "tore.values.integerValue\022\031\n\020language_id_" +
-      "null\030\351\007 \001(\010\022.\n\nforum_name\030\002 \001(\0132\032.dstore" +
-      ".values.stringValue\022\030\n\017forum_name_null\030\352" +
-      "\007 \001(\010\0221\n\014delete_forum\030\003 \001(\0132\033.dstore.val",
-      "ues.booleanValue\022\032\n\021delete_forum_null\030\353\007" +
-      " \001(\010\"\264\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
-      "e.engine.error.Error\022H\n\020meta_information" +
-      "\030\002 \003(\0132..dstore.engine.metainformation.M" +
-      "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore" +
-      ".engine.message.Message\022;\n\003row\030\004 \003(\0132..d" +
-      "store.engine.fo_ModifyForums_Ad.Response" +
-      ".Row\022-\n\010forum_id\030e \001(\0132\033.dstore.values.i" +
-      "ntegerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\271\002\n\nParameters\022-\n\010forum_id\030\001 \001(\0132\033.dstor" +
+      "e.values.integerValue\022\026\n\rforum_id_null\030\351" +
+      "\007 \001(\010\0220\n\013language_id\030\002 \001(\0132\033.dstore.valu" +
+      "es.integerValue\022\031\n\020language_id_null\030\352\007 \001" +
+      "(\010\022.\n\nforum_name\030\003 \001(\0132\032.dstore.values.s",
+      "tringValue\022\030\n\017forum_name_null\030\353\007 \001(\010\0221\n\014" +
+      "delete_forum\030\004 \001(\0132\033.dstore.values.boole" +
+      "anValue\022\032\n\021delete_forum_null\030\354\007 \001(\010\"\264\002\n\010" +
+      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
+      "error.Error\022H\n\020meta_information\030\002 \003(\0132.." +
+      "dstore.engine.metainformation.MetaInform" +
+      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
+      "essage.Message\022;\n\003row\030\004 \003(\0132..dstore.eng" +
+      "ine.fo_ModifyForums_Ad.Response.Row\022-\n\010f" +
+      "orum_id\030e \001(\0132\033.dstore.values.integerVal",
+      "ue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005BS\n\033io.dstore." +
+      "engine.proceduresZ4gosdk.dstore.de/engin" +
+      "e/procedures/fo_ModifyForums_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3268,7 +3515,7 @@ public final class FoModifyForumsAd {
     internal_static_dstore_engine_fo_ModifyForums_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_fo_ModifyForums_Ad_Parameters_descriptor,
-        new java.lang.String[] { "LanguageId", "LanguageIdNull", "ForumName", "ForumNameNull", "DeleteForum", "DeleteForumNull", });
+        new java.lang.String[] { "ForumId", "ForumIdNull", "LanguageId", "LanguageIdNull", "ForumName", "ForumNameNull", "DeleteForum", "DeleteForumNull", });
     internal_static_dstore_engine_fo_ModifyForums_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_fo_ModifyForums_Ad_Response_fieldAccessorTable = new

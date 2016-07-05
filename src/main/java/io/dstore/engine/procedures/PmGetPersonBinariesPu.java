@@ -5388,8 +5388,9 @@ public final class PmGetPersonBinariesPu {
       "ore.values.integerValue\0222\n\016thumbnail_cod" +
       "e\030\224N \001(\0132\031.dstore.values.bytesValue\022/\n\013b" +
       "inary_code\030\225N \001(\0132\031.dstore.values.bytesV" +
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro" +
-      "to3"
+      "alueBX\n\033io.dstore.engine.proceduresZ9gos" +
+      "dk.dstore.de/engine/procedures/pm_GetPer" +
+      "sonBinaries_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

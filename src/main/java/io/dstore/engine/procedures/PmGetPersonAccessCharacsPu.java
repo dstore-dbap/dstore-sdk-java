@@ -6127,8 +6127,10 @@ public final class PmGetPersonAccessCharacsPu {
       "asic_field_type_id\030\234N \001(\0132\033.dstore.value",
       "s.integerValue\022(\n\002id\030\235N \001(\0132\033.dstore.val" +
       "ues.integerValue\0221\n\013language_id\030\236N \001(\0132\033" +
-      ".dstore.values.integerValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      ".dstore.values.integerValueB]\n\033io.dstore" +
+      ".engine.proceduresZ>gosdk.dstore.de/engi" +
+      "ne/procedures/pm_GetPersonAccessCharacs_" +
+      "Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5390,8 +5390,10 @@ public final class ImGetNodeCharacteristicsPu {
       "\007sort_no\030\226N \001(\0132\033.dstore.values.integerV" +
       "alue\022/\n\trecursive\030\227N \001(\0132\033.dstore.values" +
       ".booleanValue\0227\n\021predefined_values\030\230N \001(" +
-      "\0132\033.dstore.values.booleanValueB\035\n\033io.dst" +
-      "ore.engine.proceduresb\006proto3"
+      "\0132\033.dstore.values.booleanValueB]\n\033io.dst" +
+      "ore.engine.proceduresZ>gosdk.dstore.de/e" +
+      "ngine/procedures/im_GetNodeCharacteristi" +
+      "cs_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

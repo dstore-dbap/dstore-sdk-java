@@ -5143,8 +5143,10 @@ public final class PmGetPersonPredefinedValsPu {
       "nValue\0222\n\014table_key_id\030\225N \001(\0132\033.dstore.v" +
       "alues.integerValue\022.\n\010value_id\030\226N \001(\0132\033.",
       "dstore.values.integerValue\022-\n\007sort_no\030\227N" +
-      " \001(\0132\033.dstore.values.integerValueB\035\n\033io." +
-      "dstore.engine.proceduresb\006proto3"
+      " \001(\0132\033.dstore.values.integerValueB^\n\033io." +
+      "dstore.engine.proceduresZ?gosdk.dstore.d" +
+      "e/engine/procedures/pm_GetPersonPredefin" +
+      "edVals_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

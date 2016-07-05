@@ -2925,8 +2925,9 @@ public final class MiGetInformationTypesAd {
       "ow\022\017\n\006row_id\030\220N \001(\005\0229\n\023information_type_" +
       "id\030\221N \001(\0132\033.dstore.values.integerValue\0225" +
       "\n\020information_type\030\222N \001(\0132\032.dstore.value" +
-      "s.stringValueB\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      "s.stringValueBZ\n\033io.dstore.engine.proced" +
+      "uresZ;gosdk.dstore.de/engine/procedures/" +
+      "mi_GetInformationTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

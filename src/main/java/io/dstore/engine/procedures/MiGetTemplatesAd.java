@@ -4403,8 +4403,9 @@ public final class MiGetTemplatesAd {
       "store.values.booleanValue\0221\n\013template_id" +
       "\030\226N \001(\0132\033.dstore.values.integerValue\0221\n\013" +
       "language_id\030\227N \001(\0132\033.dstore.values.integ" +
-      "erValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "erValueBS\n\033io.dstore.engine.proceduresZ4" +
+      "gosdk.dstore.de/engine/procedures/mi_Get" +
+      "Templates_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4157,8 +4157,10 @@ public final class PmGetPersonDetailsAd {
       ".dstore.values.stringValue\022?\n\032characteri" +
       "stic_description\030\222N \001(\0132\032.dstore.values." +
       "stringValue\0227\n\021characteristic_id\030\223N \001(\0132" +
-      "\033.dstore.values.integerValueB\035\n\033io.dstor" +
-      "e.engine.proceduresb\006proto3"
+      "\033.dstore.values.integerValueBW\n\033io.dstor" +
+      "e.engine.proceduresZ8gosdk.dstore.de/eng" +
+      "ine/procedures/pm_GetPersonDetails_Adb\006p" +
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

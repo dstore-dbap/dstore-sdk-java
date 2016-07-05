@@ -7359,8 +7359,10 @@ public final class OmGetTrolleySurchargesPu {
       "re.values.integerValue\022B\n\034surcharge_appl" +
       "ied_on_net_sum\030\231N \001(\0132\033.dstore.values.de" +
       "cimalValue\0227\n\020taxes_multiplier\030\242\234\001 \001(\0132\033" +
-      ".dstore.values.decimalValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      ".dstore.values.decimalValueB[\n\033io.dstore" +
+      ".engine.proceduresZ<gosdk.dstore.de/engi",
+      "ne/procedures/om_GetTrolleySurcharges_Pu" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

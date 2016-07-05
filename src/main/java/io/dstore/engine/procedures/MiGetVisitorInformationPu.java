@@ -5388,8 +5388,10 @@ public final class MiGetVisitorInformationPu {
       "ation_type\030\224N \001(\0132\032.dstore.values.string" +
       "Value\0220\n\013information\030\225N \001(\0132\032.dstore.val" +
       "ues.stringValue\022<\n\027info_date_and_time_ch" +
-      "ar\030\226N \001(\0132\032.dstore.values.stringValueB\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "ar\030\226N \001(\0132\032.dstore.values.stringValueB\\\n" +
+      "\033io.dstore.engine.proceduresZ=gosdk.dsto" +
+      "re.de/engine/procedures/mi_GetVisitorInf" +
+      "ormation_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5143,8 +5143,9 @@ public final class ImGetSimpleProductInfoPu {
       "lue\022?\n\030binary_property_value_id\030\261\352\001 \001(\0132" +
       "\033.dstore.values.integerValue\0225\n\016binary_c" +
       "ode_id\030\262\352\001 \001(\0132\033.dstore.values.integerVa",
-      "lueB\035\n\033io.dstore.engine.proceduresb\006prot" +
-      "o3"
+      "lueB[\n\033io.dstore.engine.proceduresZ<gosd" +
+      "k.dstore.de/engine/procedures/im_GetSimp" +
+      "leProductInfo_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4650,8 +4650,10 @@ public final class ImGetBinaryCodeIDsForNodePu {
       "store.values.integerValue\022?\n\030binary_prop" +
       "erty_value_id\030\241\234\001 \001(\0132\033.dstore.values.in" +
       "tegerValue\022;\n\025binary_property_value\030\245\234\001 " +
-      "\001(\0132\032.dstore.values.stringValueB\035\n\033io.ds" +
-      "tore.engine.proceduresb\006proto3"
+      "\001(\0132\032.dstore.values.stringValueB^\n\033io.ds" +
+      "tore.engine.proceduresZ?gosdk.dstore.de/",
+      "engine/procedures/im_GetBinaryCodeIDsFor" +
+      "Node_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

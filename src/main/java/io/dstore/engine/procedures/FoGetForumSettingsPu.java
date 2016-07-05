@@ -103,38 +103,56 @@ public final class FoGetForumSettingsPu {
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.stringValue value = 6;</code>
+     */
+    boolean hasValue();
+    /**
+     * <code>optional .dstore.values.stringValue value = 6;</code>
+     */
+    io.dstore.Values.stringValue getValue();
+    /**
+     * <code>optional .dstore.values.stringValue value = 6;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+
+    /**
+     * <code>optional bool value_null = 1006;</code>
+     */
+    boolean getValueNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue select_result = 7;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 7;</code>
      */
     io.dstore.Values.booleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 7;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
-     * <code>optional bool select_result_null = 1006;</code>
+     * <code>optional bool select_result_null = 1007;</code>
      */
     boolean getSelectResultNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
      */
     io.dstore.Values.stringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
      */
     io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1007;</code>
+     * <code>optional bool separator_in_ident_vals_null = 1008;</code>
      */
     boolean getSeparatorInIdentValsNull();
   }
@@ -155,6 +173,7 @@ public final class FoGetForumSettingsPu {
       uniqueIdNull_ = false;
       forumIdNull_ = false;
       keyVariableNull_ = false;
+      valueNull_ = false;
       selectResultNull_ = false;
       separatorInIdentValsNull_ = false;
     }
@@ -249,6 +268,19 @@ public final class FoGetForumSettingsPu {
               break;
             }
             case 50: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (value_ != null) {
+                subBuilder = value_.toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(value_);
+                value_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 58: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
@@ -261,7 +293,7 @@ public final class FoGetForumSettingsPu {
 
               break;
             }
-            case 58: {
+            case 66: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
@@ -301,10 +333,15 @@ public final class FoGetForumSettingsPu {
             }
             case 8048: {
 
-              selectResultNull_ = input.readBool();
+              valueNull_ = input.readBool();
               break;
             }
             case 8056: {
+
+              selectResultNull_ = input.readBool();
+              break;
+            }
+            case 8064: {
 
               separatorInIdentValsNull_ = input.readBool();
               break;
@@ -483,61 +520,91 @@ public final class FoGetForumSettingsPu {
       return keyVariableNull_;
     }
 
-    public static final int SELECT_RESULT_FIELD_NUMBER = 6;
+    public static final int VALUE_FIELD_NUMBER = 6;
+    private io.dstore.Values.stringValue value_;
+    /**
+     * <code>optional .dstore.values.stringValue value = 6;</code>
+     */
+    public boolean hasValue() {
+      return value_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue value = 6;</code>
+     */
+    public io.dstore.Values.stringValue getValue() {
+      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue value = 6;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      return getValue();
+    }
+
+    public static final int VALUE_NULL_FIELD_NUMBER = 1006;
+    private boolean valueNull_;
+    /**
+     * <code>optional bool value_null = 1006;</code>
+     */
+    public boolean getValueNull() {
+      return valueNull_;
+    }
+
+    public static final int SELECT_RESULT_FIELD_NUMBER = 7;
     private io.dstore.Values.booleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 7;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 7;</code>
      */
     public io.dstore.Values.booleanValue getSelectResult() {
       return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 7;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
-    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1006;
+    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1007;
     private boolean selectResultNull_;
     /**
-     * <code>optional bool select_result_null = 1006;</code>
+     * <code>optional bool select_result_null = 1007;</code>
      */
     public boolean getSelectResultNull() {
       return selectResultNull_;
     }
 
-    public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 7;
+    public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 8;
     private io.dstore.Values.stringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
      */
     public io.dstore.Values.stringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
-    public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1007;
+    public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1008;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1007;</code>
+     * <code>optional bool separator_in_ident_vals_null = 1008;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
@@ -570,11 +637,14 @@ public final class FoGetForumSettingsPu {
       if (keyVariable_ != null) {
         output.writeMessage(5, getKeyVariable());
       }
+      if (value_ != null) {
+        output.writeMessage(6, getValue());
+      }
       if (selectResult_ != null) {
-        output.writeMessage(6, getSelectResult());
+        output.writeMessage(7, getSelectResult());
       }
       if (separatorInIdentVals_ != null) {
-        output.writeMessage(7, getSeparatorInIdentVals());
+        output.writeMessage(8, getSeparatorInIdentVals());
       }
       if (personIdentificationValuesNull_ != false) {
         output.writeBool(1001, personIdentificationValuesNull_);
@@ -591,11 +661,14 @@ public final class FoGetForumSettingsPu {
       if (keyVariableNull_ != false) {
         output.writeBool(1005, keyVariableNull_);
       }
+      if (valueNull_ != false) {
+        output.writeBool(1006, valueNull_);
+      }
       if (selectResultNull_ != false) {
-        output.writeBool(1006, selectResultNull_);
+        output.writeBool(1007, selectResultNull_);
       }
       if (separatorInIdentValsNull_ != false) {
-        output.writeBool(1007, separatorInIdentValsNull_);
+        output.writeBool(1008, separatorInIdentValsNull_);
       }
     }
 
@@ -624,13 +697,17 @@ public final class FoGetForumSettingsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, getKeyVariable());
       }
+      if (value_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getValue());
+      }
       if (selectResult_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getSelectResult());
+          .computeMessageSize(7, getSelectResult());
       }
       if (separatorInIdentVals_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getSeparatorInIdentVals());
+          .computeMessageSize(8, getSeparatorInIdentVals());
       }
       if (personIdentificationValuesNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -652,13 +729,17 @@ public final class FoGetForumSettingsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, keyVariableNull_);
       }
+      if (valueNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1006, valueNull_);
+      }
       if (selectResultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, selectResultNull_);
+          .computeBoolSize(1007, selectResultNull_);
       }
       if (separatorInIdentValsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1007, separatorInIdentValsNull_);
+          .computeBoolSize(1008, separatorInIdentValsNull_);
       }
       memoizedSize = size;
       return size;
@@ -811,6 +892,14 @@ public final class FoGetForumSettingsPu {
         }
         keyVariableNull_ = false;
 
+        if (valueBuilder_ == null) {
+          value_ = null;
+        } else {
+          value_ = null;
+          valueBuilder_ = null;
+        }
+        valueNull_ = false;
+
         if (selectResultBuilder_ == null) {
           selectResult_ = null;
         } else {
@@ -879,6 +968,12 @@ public final class FoGetForumSettingsPu {
           result.keyVariable_ = keyVariableBuilder_.build();
         }
         result.keyVariableNull_ = keyVariableNull_;
+        if (valueBuilder_ == null) {
+          result.value_ = value_;
+        } else {
+          result.value_ = valueBuilder_.build();
+        }
+        result.valueNull_ = valueNull_;
         if (selectResultBuilder_ == null) {
           result.selectResult_ = selectResult_;
         } else {
@@ -935,6 +1030,12 @@ public final class FoGetForumSettingsPu {
         }
         if (other.getKeyVariableNull() != false) {
           setKeyVariableNull(other.getKeyVariableNull());
+        }
+        if (other.hasValue()) {
+          mergeValue(other.getValue());
+        }
+        if (other.getValueNull() != false) {
+          setValueNull(other.getValueNull());
         }
         if (other.hasSelectResult()) {
           mergeSelectResult(other.getSelectResult());
@@ -1689,17 +1790,160 @@ public final class FoGetForumSettingsPu {
         return this;
       }
 
+      private io.dstore.Values.stringValue value_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue value = 6;</code>
+       */
+      public boolean hasValue() {
+        return valueBuilder_ != null || value_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 6;</code>
+       */
+      public io.dstore.Values.stringValue getValue() {
+        if (valueBuilder_ == null) {
+          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+        } else {
+          return valueBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 6;</code>
+       */
+      public Builder setValue(io.dstore.Values.stringValue value) {
+        if (valueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          valueBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 6;</code>
+       */
+      public Builder setValue(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (valueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          valueBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 6;</code>
+       */
+      public Builder mergeValue(io.dstore.Values.stringValue value) {
+        if (valueBuilder_ == null) {
+          if (value_ != null) {
+            value_ =
+              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          valueBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 6;</code>
+       */
+      public Builder clearValue() {
+        if (valueBuilder_ == null) {
+          value_ = null;
+          onChanged();
+        } else {
+          value_ = null;
+          valueBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 6;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        
+        onChanged();
+        return getValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 6;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        if (valueBuilder_ != null) {
+          return valueBuilder_.getMessageOrBuilder();
+        } else {
+          return value_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getValueFieldBuilder() {
+        if (valueBuilder_ == null) {
+          valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getValue(),
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        return valueBuilder_;
+      }
+
+      private boolean valueNull_ ;
+      /**
+       * <code>optional bool value_null = 1006;</code>
+       */
+      public boolean getValueNull() {
+        return valueNull_;
+      }
+      /**
+       * <code>optional bool value_null = 1006;</code>
+       */
+      public Builder setValueNull(boolean value) {
+        
+        valueNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool value_null = 1006;</code>
+       */
+      public Builder clearValueNull() {
+        
+        valueNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 7;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 7;</code>
        */
       public io.dstore.Values.booleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1709,7 +1953,7 @@ public final class FoGetForumSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 7;</code>
        */
       public Builder setSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1725,7 +1969,7 @@ public final class FoGetForumSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 7;</code>
        */
       public Builder setSelectResult(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1739,7 +1983,7 @@ public final class FoGetForumSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 7;</code>
        */
       public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1757,7 +2001,7 @@ public final class FoGetForumSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 7;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1771,7 +2015,7 @@ public final class FoGetForumSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 7;</code>
        */
       public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
         
@@ -1779,7 +2023,7 @@ public final class FoGetForumSettingsPu {
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 7;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
@@ -1790,7 +2034,7 @@ public final class FoGetForumSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1808,13 +2052,13 @@ public final class FoGetForumSettingsPu {
 
       private boolean selectResultNull_ ;
       /**
-       * <code>optional bool select_result_null = 1006;</code>
+       * <code>optional bool select_result_null = 1007;</code>
        */
       public boolean getSelectResultNull() {
         return selectResultNull_;
       }
       /**
-       * <code>optional bool select_result_null = 1006;</code>
+       * <code>optional bool select_result_null = 1007;</code>
        */
       public Builder setSelectResultNull(boolean value) {
         
@@ -1823,7 +2067,7 @@ public final class FoGetForumSettingsPu {
         return this;
       }
       /**
-       * <code>optional bool select_result_null = 1006;</code>
+       * <code>optional bool select_result_null = 1007;</code>
        */
       public Builder clearSelectResultNull() {
         
@@ -1836,13 +2080,13 @@ public final class FoGetForumSettingsPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
        */
       public io.dstore.Values.stringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1852,7 +2096,7 @@ public final class FoGetForumSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1868,7 +2112,7 @@ public final class FoGetForumSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1882,7 +2126,7 @@ public final class FoGetForumSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1900,7 +2144,7 @@ public final class FoGetForumSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1914,7 +2158,7 @@ public final class FoGetForumSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
        */
       public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -1922,7 +2166,7 @@ public final class FoGetForumSettingsPu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -1933,7 +2177,7 @@ public final class FoGetForumSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1951,13 +2195,13 @@ public final class FoGetForumSettingsPu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1007;</code>
+       * <code>optional bool separator_in_ident_vals_null = 1008;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1007;</code>
+       * <code>optional bool separator_in_ident_vals_null = 1008;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -1966,7 +2210,7 @@ public final class FoGetForumSettingsPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1007;</code>
+       * <code>optional bool separator_in_ident_vals_null = 1008;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -4697,7 +4941,7 @@ public final class FoGetForumSettingsPu {
       "umSettings_Pu\032\023dstore/values.proto\032\031dsto" +
       "re/engine/error.proto\032\033dstore/engine/mes" +
       "sage.proto\032#dstore/engine/metainformatio" +
-      "n.proto\"\337\004\n\nParameters\022@\n\034person_identif" +
+      "n.proto\"\237\005\n\nParameters\022@\n\034person_identif" +
       "ication_values\030\001 \001(\0132\032.dstore.values.str" +
       "ingValue\022*\n!person_identification_values" +
       "_null\030\351\007 \001(\010\0223\n\016person_type_id\030\002 \001(\0132\033.d" +
@@ -4707,23 +4951,26 @@ public final class FoGetForumSettingsPu {
       "\030\353\007 \001(\010\022-\n\010forum_id\030\004 \001(\0132\033.dstore.value" +
       "s.integerValue\022\026\n\rforum_id_null\030\354\007 \001(\010\0220" +
       "\n\014key_variable\030\005 \001(\0132\032.dstore.values.str" +
-      "ingValue\022\032\n\021key_variable_null\030\355\007 \001(\010\0222\n\r" +
-      "select_result\030\006 \001(\0132\033.dstore.values.bool" +
-      "eanValue\022\033\n\022select_result_null\030\356\007 \001(\010\022;\n" +
-      "\027separator_in_ident_vals\030\007 \001(\0132\032.dstore." +
-      "values.stringValue\022%\n\034separator_in_ident",
-      "_vals_null\030\357\007 \001(\010\"\224\003\n\010Response\022)\n\005error\030" +
-      "\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020met" +
-      "a_information\030\002 \003(\0132..dstore.engine.meta" +
-      "information.MetaInformation\022/\n\007message\030\003" +
-      " \003(\0132\036.dstore.engine.message.Message\022?\n\003" +
-      "row\030\004 \003(\01322.dstore.engine.fo_GetForumSet" +
-      "tings_Pu.Response.Row\022)\n\005value\030e \001(\0132\032.d" +
-      "store.values.stringValue\032v\n\003Row\022\017\n\006row_i" +
-      "d\030\220N \001(\005\022*\n\005value\030\221N \001(\0132\032.dstore.values" +
-      ".stringValue\0222\n\014key_variable\030\242\234\001 \001(\0132\032.d",
-      "store.values.stringValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "ingValue\022\032\n\021key_variable_null\030\355\007 \001(\010\022)\n\005" +
+      "value\030\006 \001(\0132\032.dstore.values.stringValue\022" +
+      "\023\n\nvalue_null\030\356\007 \001(\010\0222\n\rselect_result\030\007 " +
+      "\001(\0132\033.dstore.values.booleanValue\022\033\n\022sele" +
+      "ct_result_null\030\357\007 \001(\010\022;\n\027separator_in_id",
+      "ent_vals\030\010 \001(\0132\032.dstore.values.stringVal" +
+      "ue\022%\n\034separator_in_ident_vals_null\030\360\007 \001(" +
+      "\010\"\224\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.e" +
+      "ngine.error.Error\022H\n\020meta_information\030\002 " +
+      "\003(\0132..dstore.engine.metainformation.Meta" +
+      "Information\022/\n\007message\030\003 \003(\0132\036.dstore.en" +
+      "gine.message.Message\022?\n\003row\030\004 \003(\01322.dsto" +
+      "re.engine.fo_GetForumSettings_Pu.Respons" +
+      "e.Row\022)\n\005value\030e \001(\0132\032.dstore.values.str" +
+      "ingValue\032v\n\003Row\022\017\n\006row_id\030\220N \001(\005\022*\n\005valu",
+      "e\030\221N \001(\0132\032.dstore.values.stringValue\0222\n\014" +
+      "key_variable\030\242\234\001 \001(\0132\032.dstore.values.str" +
+      "ingValueBW\n\033io.dstore.engine.proceduresZ" +
+      "8gosdk.dstore.de/engine/procedures/fo_Ge" +
+      "tForumSettings_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4746,7 +4993,7 @@ public final class FoGetForumSettingsPu {
     internal_static_dstore_engine_fo_GetForumSettings_Pu_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetForumSettings_Pu_Parameters_descriptor,
-        new java.lang.String[] { "PersonIdentificationValues", "PersonIdentificationValuesNull", "PersonTypeId", "PersonTypeIdNull", "UniqueId", "UniqueIdNull", "ForumId", "ForumIdNull", "KeyVariable", "KeyVariableNull", "SelectResult", "SelectResultNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", });
+        new java.lang.String[] { "PersonIdentificationValues", "PersonIdentificationValuesNull", "PersonTypeId", "PersonTypeIdNull", "UniqueId", "UniqueIdNull", "ForumId", "ForumIdNull", "KeyVariable", "KeyVariableNull", "Value", "ValueNull", "SelectResult", "SelectResultNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", });
     internal_static_dstore_engine_fo_GetForumSettings_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_fo_GetForumSettings_Pu_Response_fieldAccessorTable = new

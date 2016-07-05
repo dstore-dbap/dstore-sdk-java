@@ -3910,8 +3910,9 @@ public final class DoGetProcedureDocuAd {
       "\0132\032.dstore.values.stringValue\0222\n\rdocumen",
       "tation\030\222N \001(\0132\032.dstore.values.stringValu" +
       "e\0223\n\013last_edited\030\223N \001(\0132\035.dstore.values." +
-      "timestampValueB\035\n\033io.dstore.engine.proce" +
-      "duresb\006proto3"
+      "timestampValueBW\n\033io.dstore.engine.proce" +
+      "duresZ8gosdk.dstore.de/engine/procedures" +
+      "/do_GetProcedureDocu_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

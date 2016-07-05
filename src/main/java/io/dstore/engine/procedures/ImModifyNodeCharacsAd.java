@@ -13,182 +13,200 @@ public final class ImModifyNodeCharacsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     */
+    boolean hasNodeCharacteristicId();
+    /**
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     */
+    io.dstore.Values.integerValue getNodeCharacteristicId();
+    /**
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+
+    /**
+     * <code>optional bool node_characteristic_id_null = 1001;</code>
+     */
+    boolean getNodeCharacteristicIdNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
      */
     boolean hasCharacteristicDescription();
     /**
-     * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
      */
     io.dstore.Values.stringValue getCharacteristicDescription();
     /**
-     * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
      */
     io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
     /**
-     * <code>optional bool characteristic_description_null = 1001;</code>
+     * <code>optional bool characteristic_description_null = 1002;</code>
      */
     boolean getCharacteristicDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
      */
     boolean hasValueLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
      */
     io.dstore.Values.integerValue getValueLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
      */
     io.dstore.Values.integerValueOrBuilder getValueLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool value_language_id_null = 1002;</code>
+     * <code>optional bool value_language_id_null = 1003;</code>
      */
     boolean getValueLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+     * <code>optional .dstore.values.integerValue unit_id = 4;</code>
      */
     boolean hasUnitId();
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+     * <code>optional .dstore.values.integerValue unit_id = 4;</code>
      */
     io.dstore.Values.integerValue getUnitId();
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+     * <code>optional .dstore.values.integerValue unit_id = 4;</code>
      */
     io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder();
 
     /**
-     * <code>optional bool unit_id_null = 1003;</code>
+     * <code>optional bool unit_id_null = 1004;</code>
      */
     boolean getUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+     * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
      */
     boolean hasPredefinedValues();
     /**
-     * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+     * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
      */
     io.dstore.Values.booleanValue getPredefinedValues();
     /**
-     * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+     * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder();
 
     /**
-     * <code>optional bool predefined_values_null = 1004;</code>
+     * <code>optional bool predefined_values_null = 1005;</code>
      */
     boolean getPredefinedValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 6;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 6;</code>
      */
     io.dstore.Values.integerValue getSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 6;</code>
      */
     io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
 
     /**
-     * <code>optional bool sort_no_null = 1005;</code>
+     * <code>optional bool sort_no_null = 1006;</code>
      */
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
      */
     boolean hasFieldTypeId();
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
      */
     io.dstore.Values.integerValue getFieldTypeId();
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
      */
     io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder();
 
     /**
-     * <code>optional bool field_type_id_null = 1006;</code>
+     * <code>optional bool field_type_id_null = 1007;</code>
      */
     boolean getFieldTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+     * <code>optional .dstore.values.booleanValue recursive = 8;</code>
      */
     boolean hasRecursive();
     /**
-     * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+     * <code>optional .dstore.values.booleanValue recursive = 8;</code>
      */
     io.dstore.Values.booleanValue getRecursive();
     /**
-     * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+     * <code>optional .dstore.values.booleanValue recursive = 8;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getRecursiveOrBuilder();
 
     /**
-     * <code>optional bool recursive_null = 1007;</code>
+     * <code>optional bool recursive_null = 1008;</code>
      */
     boolean getRecursiveNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+     * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
      */
     boolean hasDeleteCharacteristic();
     /**
-     * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+     * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
      */
     io.dstore.Values.booleanValue getDeleteCharacteristic();
     /**
-     * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+     * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getDeleteCharacteristicOrBuilder();
 
     /**
-     * <code>optional bool delete_characteristic_null = 1008;</code>
+     * <code>optional bool delete_characteristic_null = 1009;</code>
      */
     boolean getDeleteCharacteristicNull();
 
     /**
-     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
      */
     boolean hasKeepPropertiesHistoryInHours();
     /**
-     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
      */
     io.dstore.Values.integerValue getKeepPropertiesHistoryInHours();
     /**
-     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
      */
     io.dstore.Values.integerValueOrBuilder getKeepPropertiesHistoryInHoursOrBuilder();
 
     /**
-     * <code>optional bool keep_properties_history_in_hours_null = 1009;</code>
+     * <code>optional bool keep_properties_history_in_hours_null = 1010;</code>
      */
     boolean getKeepPropertiesHistoryInHoursNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
      */
     boolean hasImportConfiguration();
     /**
-     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
      */
     io.dstore.Values.booleanValue getImportConfiguration();
     /**
-     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getImportConfigurationOrBuilder();
 
     /**
-     * <code>optional bool import_configuration_null = 1010;</code>
+     * <code>optional bool import_configuration_null = 1011;</code>
      */
     boolean getImportConfigurationNull();
   }
@@ -204,6 +222,7 @@ public final class ImModifyNodeCharacsAd {
       super(builder);
     }
     private Parameters() {
+      nodeCharacteristicIdNull_ = false;
       characteristicDescriptionNull_ = false;
       valueLanguageIdNull_ = false;
       unitIdNull_ = false;
@@ -241,6 +260,19 @@ public final class ImModifyNodeCharacsAd {
               break;
             }
             case 10: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (nodeCharacteristicId_ != null) {
+                subBuilder = nodeCharacteristicId_.toBuilder();
+              }
+              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(nodeCharacteristicId_);
+                nodeCharacteristicId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 18: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (characteristicDescription_ != null) {
                 subBuilder = characteristicDescription_.toBuilder();
@@ -253,7 +285,7 @@ public final class ImModifyNodeCharacsAd {
 
               break;
             }
-            case 18: {
+            case 26: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (valueLanguageId_ != null) {
                 subBuilder = valueLanguageId_.toBuilder();
@@ -266,7 +298,7 @@ public final class ImModifyNodeCharacsAd {
 
               break;
             }
-            case 26: {
+            case 34: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (unitId_ != null) {
                 subBuilder = unitId_.toBuilder();
@@ -279,7 +311,7 @@ public final class ImModifyNodeCharacsAd {
 
               break;
             }
-            case 34: {
+            case 42: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (predefinedValues_ != null) {
                 subBuilder = predefinedValues_.toBuilder();
@@ -292,7 +324,7 @@ public final class ImModifyNodeCharacsAd {
 
               break;
             }
-            case 42: {
+            case 50: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (sortNo_ != null) {
                 subBuilder = sortNo_.toBuilder();
@@ -305,7 +337,7 @@ public final class ImModifyNodeCharacsAd {
 
               break;
             }
-            case 50: {
+            case 58: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (fieldTypeId_ != null) {
                 subBuilder = fieldTypeId_.toBuilder();
@@ -318,7 +350,7 @@ public final class ImModifyNodeCharacsAd {
 
               break;
             }
-            case 58: {
+            case 66: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (recursive_ != null) {
                 subBuilder = recursive_.toBuilder();
@@ -331,7 +363,7 @@ public final class ImModifyNodeCharacsAd {
 
               break;
             }
-            case 66: {
+            case 74: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deleteCharacteristic_ != null) {
                 subBuilder = deleteCharacteristic_.toBuilder();
@@ -344,7 +376,7 @@ public final class ImModifyNodeCharacsAd {
 
               break;
             }
-            case 74: {
+            case 82: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (keepPropertiesHistoryInHours_ != null) {
                 subBuilder = keepPropertiesHistoryInHours_.toBuilder();
@@ -357,7 +389,7 @@ public final class ImModifyNodeCharacsAd {
 
               break;
             }
-            case 82: {
+            case 90: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (importConfiguration_ != null) {
                 subBuilder = importConfiguration_.toBuilder();
@@ -372,50 +404,55 @@ public final class ImModifyNodeCharacsAd {
             }
             case 8008: {
 
-              characteristicDescriptionNull_ = input.readBool();
+              nodeCharacteristicIdNull_ = input.readBool();
               break;
             }
             case 8016: {
 
-              valueLanguageIdNull_ = input.readBool();
+              characteristicDescriptionNull_ = input.readBool();
               break;
             }
             case 8024: {
 
-              unitIdNull_ = input.readBool();
+              valueLanguageIdNull_ = input.readBool();
               break;
             }
             case 8032: {
 
-              predefinedValuesNull_ = input.readBool();
+              unitIdNull_ = input.readBool();
               break;
             }
             case 8040: {
 
-              sortNoNull_ = input.readBool();
+              predefinedValuesNull_ = input.readBool();
               break;
             }
             case 8048: {
 
-              fieldTypeIdNull_ = input.readBool();
+              sortNoNull_ = input.readBool();
               break;
             }
             case 8056: {
 
-              recursiveNull_ = input.readBool();
+              fieldTypeIdNull_ = input.readBool();
               break;
             }
             case 8064: {
 
-              deleteCharacteristicNull_ = input.readBool();
+              recursiveNull_ = input.readBool();
               break;
             }
             case 8072: {
 
-              keepPropertiesHistoryInHoursNull_ = input.readBool();
+              deleteCharacteristicNull_ = input.readBool();
               break;
             }
             case 8080: {
+
+              keepPropertiesHistoryInHoursNull_ = input.readBool();
+              break;
+            }
+            case 8088: {
 
               importConfigurationNull_ = input.readBool();
               break;
@@ -444,301 +481,331 @@ public final class ImModifyNodeCharacsAd {
               io.dstore.engine.procedures.ImModifyNodeCharacsAd.Parameters.class, io.dstore.engine.procedures.ImModifyNodeCharacsAd.Parameters.Builder.class);
     }
 
-    public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 1;
+    public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
+    private io.dstore.Values.integerValue nodeCharacteristicId_;
+    /**
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     */
+    public boolean hasNodeCharacteristicId() {
+      return nodeCharacteristicId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     */
+    public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      return getNodeCharacteristicId();
+    }
+
+    public static final int NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1001;
+    private boolean nodeCharacteristicIdNull_;
+    /**
+     * <code>optional bool node_characteristic_id_null = 1001;</code>
+     */
+    public boolean getNodeCharacteristicIdNull() {
+      return nodeCharacteristicIdNull_;
+    }
+
+    public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 2;
     private io.dstore.Values.stringValue characteristicDescription_;
     /**
-     * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
      */
     public boolean hasCharacteristicDescription() {
       return characteristicDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
      */
     public io.dstore.Values.stringValue getCharacteristicDescription() {
       return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
       return getCharacteristicDescription();
     }
 
-    public static final int CHARACTERISTIC_DESCRIPTION_NULL_FIELD_NUMBER = 1001;
+    public static final int CHARACTERISTIC_DESCRIPTION_NULL_FIELD_NUMBER = 1002;
     private boolean characteristicDescriptionNull_;
     /**
-     * <code>optional bool characteristic_description_null = 1001;</code>
+     * <code>optional bool characteristic_description_null = 1002;</code>
      */
     public boolean getCharacteristicDescriptionNull() {
       return characteristicDescriptionNull_;
     }
 
-    public static final int VALUE_LANGUAGE_ID_FIELD_NUMBER = 2;
+    public static final int VALUE_LANGUAGE_ID_FIELD_NUMBER = 3;
     private io.dstore.Values.integerValue valueLanguageId_;
     /**
-     * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
      */
     public boolean hasValueLanguageId() {
       return valueLanguageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
      */
     public io.dstore.Values.integerValue getValueLanguageId() {
       return valueLanguageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueLanguageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getValueLanguageIdOrBuilder() {
       return getValueLanguageId();
     }
 
-    public static final int VALUE_LANGUAGE_ID_NULL_FIELD_NUMBER = 1002;
+    public static final int VALUE_LANGUAGE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean valueLanguageIdNull_;
     /**
-     * <code>optional bool value_language_id_null = 1002;</code>
+     * <code>optional bool value_language_id_null = 1003;</code>
      */
     public boolean getValueLanguageIdNull() {
       return valueLanguageIdNull_;
     }
 
-    public static final int UNIT_ID_FIELD_NUMBER = 3;
+    public static final int UNIT_ID_FIELD_NUMBER = 4;
     private io.dstore.Values.integerValue unitId_;
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+     * <code>optional .dstore.values.integerValue unit_id = 4;</code>
      */
     public boolean hasUnitId() {
       return unitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+     * <code>optional .dstore.values.integerValue unit_id = 4;</code>
      */
     public io.dstore.Values.integerValue getUnitId() {
       return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+     * <code>optional .dstore.values.integerValue unit_id = 4;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
       return getUnitId();
     }
 
-    public static final int UNIT_ID_NULL_FIELD_NUMBER = 1003;
+    public static final int UNIT_ID_NULL_FIELD_NUMBER = 1004;
     private boolean unitIdNull_;
     /**
-     * <code>optional bool unit_id_null = 1003;</code>
+     * <code>optional bool unit_id_null = 1004;</code>
      */
     public boolean getUnitIdNull() {
       return unitIdNull_;
     }
 
-    public static final int PREDEFINED_VALUES_FIELD_NUMBER = 4;
+    public static final int PREDEFINED_VALUES_FIELD_NUMBER = 5;
     private io.dstore.Values.booleanValue predefinedValues_;
     /**
-     * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+     * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
      */
     public boolean hasPredefinedValues() {
       return predefinedValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+     * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
      */
     public io.dstore.Values.booleanValue getPredefinedValues() {
       return predefinedValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : predefinedValues_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+     * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder() {
       return getPredefinedValues();
     }
 
-    public static final int PREDEFINED_VALUES_NULL_FIELD_NUMBER = 1004;
+    public static final int PREDEFINED_VALUES_NULL_FIELD_NUMBER = 1005;
     private boolean predefinedValuesNull_;
     /**
-     * <code>optional bool predefined_values_null = 1004;</code>
+     * <code>optional bool predefined_values_null = 1005;</code>
      */
     public boolean getPredefinedValuesNull() {
       return predefinedValuesNull_;
     }
 
-    public static final int SORT_NO_FIELD_NUMBER = 5;
+    public static final int SORT_NO_FIELD_NUMBER = 6;
     private io.dstore.Values.integerValue sortNo_;
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 6;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 6;</code>
      */
     public io.dstore.Values.integerValue getSortNo() {
       return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 6;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
     }
 
-    public static final int SORT_NO_NULL_FIELD_NUMBER = 1005;
+    public static final int SORT_NO_NULL_FIELD_NUMBER = 1006;
     private boolean sortNoNull_;
     /**
-     * <code>optional bool sort_no_null = 1005;</code>
+     * <code>optional bool sort_no_null = 1006;</code>
      */
     public boolean getSortNoNull() {
       return sortNoNull_;
     }
 
-    public static final int FIELD_TYPE_ID_FIELD_NUMBER = 6;
+    public static final int FIELD_TYPE_ID_FIELD_NUMBER = 7;
     private io.dstore.Values.integerValue fieldTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
      */
     public boolean hasFieldTypeId() {
       return fieldTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
      */
     public io.dstore.Values.integerValue getFieldTypeId() {
       return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
       return getFieldTypeId();
     }
 
-    public static final int FIELD_TYPE_ID_NULL_FIELD_NUMBER = 1006;
+    public static final int FIELD_TYPE_ID_NULL_FIELD_NUMBER = 1007;
     private boolean fieldTypeIdNull_;
     /**
-     * <code>optional bool field_type_id_null = 1006;</code>
+     * <code>optional bool field_type_id_null = 1007;</code>
      */
     public boolean getFieldTypeIdNull() {
       return fieldTypeIdNull_;
     }
 
-    public static final int RECURSIVE_FIELD_NUMBER = 7;
+    public static final int RECURSIVE_FIELD_NUMBER = 8;
     private io.dstore.Values.booleanValue recursive_;
     /**
-     * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+     * <code>optional .dstore.values.booleanValue recursive = 8;</code>
      */
     public boolean hasRecursive() {
       return recursive_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+     * <code>optional .dstore.values.booleanValue recursive = 8;</code>
      */
     public io.dstore.Values.booleanValue getRecursive() {
       return recursive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : recursive_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+     * <code>optional .dstore.values.booleanValue recursive = 8;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getRecursiveOrBuilder() {
       return getRecursive();
     }
 
-    public static final int RECURSIVE_NULL_FIELD_NUMBER = 1007;
+    public static final int RECURSIVE_NULL_FIELD_NUMBER = 1008;
     private boolean recursiveNull_;
     /**
-     * <code>optional bool recursive_null = 1007;</code>
+     * <code>optional bool recursive_null = 1008;</code>
      */
     public boolean getRecursiveNull() {
       return recursiveNull_;
     }
 
-    public static final int DELETE_CHARACTERISTIC_FIELD_NUMBER = 8;
+    public static final int DELETE_CHARACTERISTIC_FIELD_NUMBER = 9;
     private io.dstore.Values.booleanValue deleteCharacteristic_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+     * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
      */
     public boolean hasDeleteCharacteristic() {
       return deleteCharacteristic_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+     * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
      */
     public io.dstore.Values.booleanValue getDeleteCharacteristic() {
       return deleteCharacteristic_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteCharacteristic_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+     * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getDeleteCharacteristicOrBuilder() {
       return getDeleteCharacteristic();
     }
 
-    public static final int DELETE_CHARACTERISTIC_NULL_FIELD_NUMBER = 1008;
+    public static final int DELETE_CHARACTERISTIC_NULL_FIELD_NUMBER = 1009;
     private boolean deleteCharacteristicNull_;
     /**
-     * <code>optional bool delete_characteristic_null = 1008;</code>
+     * <code>optional bool delete_characteristic_null = 1009;</code>
      */
     public boolean getDeleteCharacteristicNull() {
       return deleteCharacteristicNull_;
     }
 
-    public static final int KEEP_PROPERTIES_HISTORY_IN_HOURS_FIELD_NUMBER = 9;
+    public static final int KEEP_PROPERTIES_HISTORY_IN_HOURS_FIELD_NUMBER = 10;
     private io.dstore.Values.integerValue keepPropertiesHistoryInHours_;
     /**
-     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
      */
     public boolean hasKeepPropertiesHistoryInHours() {
       return keepPropertiesHistoryInHours_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
      */
     public io.dstore.Values.integerValue getKeepPropertiesHistoryInHours() {
       return keepPropertiesHistoryInHours_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepPropertiesHistoryInHours_;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+     * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getKeepPropertiesHistoryInHoursOrBuilder() {
       return getKeepPropertiesHistoryInHours();
     }
 
-    public static final int KEEP_PROPERTIES_HISTORY_IN_HOURS_NULL_FIELD_NUMBER = 1009;
+    public static final int KEEP_PROPERTIES_HISTORY_IN_HOURS_NULL_FIELD_NUMBER = 1010;
     private boolean keepPropertiesHistoryInHoursNull_;
     /**
-     * <code>optional bool keep_properties_history_in_hours_null = 1009;</code>
+     * <code>optional bool keep_properties_history_in_hours_null = 1010;</code>
      */
     public boolean getKeepPropertiesHistoryInHoursNull() {
       return keepPropertiesHistoryInHoursNull_;
     }
 
-    public static final int IMPORT_CONFIGURATION_FIELD_NUMBER = 10;
+    public static final int IMPORT_CONFIGURATION_FIELD_NUMBER = 11;
     private io.dstore.Values.booleanValue importConfiguration_;
     /**
-     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
      */
     public boolean hasImportConfiguration() {
       return importConfiguration_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
      */
     public io.dstore.Values.booleanValue getImportConfiguration() {
       return importConfiguration_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : importConfiguration_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+     * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getImportConfigurationOrBuilder() {
       return getImportConfiguration();
     }
 
-    public static final int IMPORT_CONFIGURATION_NULL_FIELD_NUMBER = 1010;
+    public static final int IMPORT_CONFIGURATION_NULL_FIELD_NUMBER = 1011;
     private boolean importConfigurationNull_;
     /**
-     * <code>optional bool import_configuration_null = 1010;</code>
+     * <code>optional bool import_configuration_null = 1011;</code>
      */
     public boolean getImportConfigurationNull() {
       return importConfigurationNull_;
@@ -756,65 +823,71 @@ public final class ImModifyNodeCharacsAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (nodeCharacteristicId_ != null) {
+        output.writeMessage(1, getNodeCharacteristicId());
+      }
       if (characteristicDescription_ != null) {
-        output.writeMessage(1, getCharacteristicDescription());
+        output.writeMessage(2, getCharacteristicDescription());
       }
       if (valueLanguageId_ != null) {
-        output.writeMessage(2, getValueLanguageId());
+        output.writeMessage(3, getValueLanguageId());
       }
       if (unitId_ != null) {
-        output.writeMessage(3, getUnitId());
+        output.writeMessage(4, getUnitId());
       }
       if (predefinedValues_ != null) {
-        output.writeMessage(4, getPredefinedValues());
+        output.writeMessage(5, getPredefinedValues());
       }
       if (sortNo_ != null) {
-        output.writeMessage(5, getSortNo());
+        output.writeMessage(6, getSortNo());
       }
       if (fieldTypeId_ != null) {
-        output.writeMessage(6, getFieldTypeId());
+        output.writeMessage(7, getFieldTypeId());
       }
       if (recursive_ != null) {
-        output.writeMessage(7, getRecursive());
+        output.writeMessage(8, getRecursive());
       }
       if (deleteCharacteristic_ != null) {
-        output.writeMessage(8, getDeleteCharacteristic());
+        output.writeMessage(9, getDeleteCharacteristic());
       }
       if (keepPropertiesHistoryInHours_ != null) {
-        output.writeMessage(9, getKeepPropertiesHistoryInHours());
+        output.writeMessage(10, getKeepPropertiesHistoryInHours());
       }
       if (importConfiguration_ != null) {
-        output.writeMessage(10, getImportConfiguration());
+        output.writeMessage(11, getImportConfiguration());
+      }
+      if (nodeCharacteristicIdNull_ != false) {
+        output.writeBool(1001, nodeCharacteristicIdNull_);
       }
       if (characteristicDescriptionNull_ != false) {
-        output.writeBool(1001, characteristicDescriptionNull_);
+        output.writeBool(1002, characteristicDescriptionNull_);
       }
       if (valueLanguageIdNull_ != false) {
-        output.writeBool(1002, valueLanguageIdNull_);
+        output.writeBool(1003, valueLanguageIdNull_);
       }
       if (unitIdNull_ != false) {
-        output.writeBool(1003, unitIdNull_);
+        output.writeBool(1004, unitIdNull_);
       }
       if (predefinedValuesNull_ != false) {
-        output.writeBool(1004, predefinedValuesNull_);
+        output.writeBool(1005, predefinedValuesNull_);
       }
       if (sortNoNull_ != false) {
-        output.writeBool(1005, sortNoNull_);
+        output.writeBool(1006, sortNoNull_);
       }
       if (fieldTypeIdNull_ != false) {
-        output.writeBool(1006, fieldTypeIdNull_);
+        output.writeBool(1007, fieldTypeIdNull_);
       }
       if (recursiveNull_ != false) {
-        output.writeBool(1007, recursiveNull_);
+        output.writeBool(1008, recursiveNull_);
       }
       if (deleteCharacteristicNull_ != false) {
-        output.writeBool(1008, deleteCharacteristicNull_);
+        output.writeBool(1009, deleteCharacteristicNull_);
       }
       if (keepPropertiesHistoryInHoursNull_ != false) {
-        output.writeBool(1009, keepPropertiesHistoryInHoursNull_);
+        output.writeBool(1010, keepPropertiesHistoryInHoursNull_);
       }
       if (importConfigurationNull_ != false) {
-        output.writeBool(1010, importConfigurationNull_);
+        output.writeBool(1011, importConfigurationNull_);
       }
     }
 
@@ -823,85 +896,93 @@ public final class ImModifyNodeCharacsAd {
       if (size != -1) return size;
 
       size = 0;
+      if (nodeCharacteristicId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getNodeCharacteristicId());
+      }
       if (characteristicDescription_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getCharacteristicDescription());
+          .computeMessageSize(2, getCharacteristicDescription());
       }
       if (valueLanguageId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getValueLanguageId());
+          .computeMessageSize(3, getValueLanguageId());
       }
       if (unitId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getUnitId());
+          .computeMessageSize(4, getUnitId());
       }
       if (predefinedValues_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getPredefinedValues());
+          .computeMessageSize(5, getPredefinedValues());
       }
       if (sortNo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getSortNo());
+          .computeMessageSize(6, getSortNo());
       }
       if (fieldTypeId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getFieldTypeId());
+          .computeMessageSize(7, getFieldTypeId());
       }
       if (recursive_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getRecursive());
+          .computeMessageSize(8, getRecursive());
       }
       if (deleteCharacteristic_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getDeleteCharacteristic());
+          .computeMessageSize(9, getDeleteCharacteristic());
       }
       if (keepPropertiesHistoryInHours_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getKeepPropertiesHistoryInHours());
+          .computeMessageSize(10, getKeepPropertiesHistoryInHours());
       }
       if (importConfiguration_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getImportConfiguration());
+          .computeMessageSize(11, getImportConfiguration());
+      }
+      if (nodeCharacteristicIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1001, nodeCharacteristicIdNull_);
       }
       if (characteristicDescriptionNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1001, characteristicDescriptionNull_);
+          .computeBoolSize(1002, characteristicDescriptionNull_);
       }
       if (valueLanguageIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1002, valueLanguageIdNull_);
+          .computeBoolSize(1003, valueLanguageIdNull_);
       }
       if (unitIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, unitIdNull_);
+          .computeBoolSize(1004, unitIdNull_);
       }
       if (predefinedValuesNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, predefinedValuesNull_);
+          .computeBoolSize(1005, predefinedValuesNull_);
       }
       if (sortNoNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, sortNoNull_);
+          .computeBoolSize(1006, sortNoNull_);
       }
       if (fieldTypeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, fieldTypeIdNull_);
+          .computeBoolSize(1007, fieldTypeIdNull_);
       }
       if (recursiveNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1007, recursiveNull_);
+          .computeBoolSize(1008, recursiveNull_);
       }
       if (deleteCharacteristicNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1008, deleteCharacteristicNull_);
+          .computeBoolSize(1009, deleteCharacteristicNull_);
       }
       if (keepPropertiesHistoryInHoursNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1009, keepPropertiesHistoryInHoursNull_);
+          .computeBoolSize(1010, keepPropertiesHistoryInHoursNull_);
       }
       if (importConfigurationNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1010, importConfigurationNull_);
+          .computeBoolSize(1011, importConfigurationNull_);
       }
       memoizedSize = size;
       return size;
@@ -1014,6 +1095,14 @@ public final class ImModifyNodeCharacsAd {
       }
       public Builder clear() {
         super.clear();
+        if (nodeCharacteristicIdBuilder_ == null) {
+          nodeCharacteristicId_ = null;
+        } else {
+          nodeCharacteristicId_ = null;
+          nodeCharacteristicIdBuilder_ = null;
+        }
+        nodeCharacteristicIdNull_ = false;
+
         if (characteristicDescriptionBuilder_ == null) {
           characteristicDescription_ = null;
         } else {
@@ -1116,6 +1205,12 @@ public final class ImModifyNodeCharacsAd {
 
       public io.dstore.engine.procedures.ImModifyNodeCharacsAd.Parameters buildPartial() {
         io.dstore.engine.procedures.ImModifyNodeCharacsAd.Parameters result = new io.dstore.engine.procedures.ImModifyNodeCharacsAd.Parameters(this);
+        if (nodeCharacteristicIdBuilder_ == null) {
+          result.nodeCharacteristicId_ = nodeCharacteristicId_;
+        } else {
+          result.nodeCharacteristicId_ = nodeCharacteristicIdBuilder_.build();
+        }
+        result.nodeCharacteristicIdNull_ = nodeCharacteristicIdNull_;
         if (characteristicDescriptionBuilder_ == null) {
           result.characteristicDescription_ = characteristicDescription_;
         } else {
@@ -1191,6 +1286,12 @@ public final class ImModifyNodeCharacsAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.ImModifyNodeCharacsAd.Parameters other) {
         if (other == io.dstore.engine.procedures.ImModifyNodeCharacsAd.Parameters.getDefaultInstance()) return this;
+        if (other.hasNodeCharacteristicId()) {
+          mergeNodeCharacteristicId(other.getNodeCharacteristicId());
+        }
+        if (other.getNodeCharacteristicIdNull() != false) {
+          setNodeCharacteristicIdNull(other.getNodeCharacteristicIdNull());
+        }
         if (other.hasCharacteristicDescription()) {
           mergeCharacteristicDescription(other.getCharacteristicDescription());
         }
@@ -1277,17 +1378,160 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       */
+      public boolean hasNodeCharacteristicId() {
+        return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        if (nodeCharacteristicIdBuilder_ == null) {
+          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+        } else {
+          return nodeCharacteristicIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       */
+      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        if (nodeCharacteristicIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          nodeCharacteristicId_ = value;
+          onChanged();
+        } else {
+          nodeCharacteristicIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       */
+      public Builder setNodeCharacteristicId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (nodeCharacteristicIdBuilder_ == null) {
+          nodeCharacteristicId_ = builderForValue.build();
+          onChanged();
+        } else {
+          nodeCharacteristicIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       */
+      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        if (nodeCharacteristicIdBuilder_ == null) {
+          if (nodeCharacteristicId_ != null) {
+            nodeCharacteristicId_ =
+              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+          } else {
+            nodeCharacteristicId_ = value;
+          }
+          onChanged();
+        } else {
+          nodeCharacteristicIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       */
+      public Builder clearNodeCharacteristicId() {
+        if (nodeCharacteristicIdBuilder_ == null) {
+          nodeCharacteristicId_ = null;
+          onChanged();
+        } else {
+          nodeCharacteristicId_ = null;
+          nodeCharacteristicIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        
+        onChanged();
+        return getNodeCharacteristicIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        if (nodeCharacteristicIdBuilder_ != null) {
+          return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
+        } else {
+          return nodeCharacteristicId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNodeCharacteristicIdFieldBuilder() {
+        if (nodeCharacteristicIdBuilder_ == null) {
+          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNodeCharacteristicId(),
+                  getParentForChildren(),
+                  isClean());
+          nodeCharacteristicId_ = null;
+        }
+        return nodeCharacteristicIdBuilder_;
+      }
+
+      private boolean nodeCharacteristicIdNull_ ;
+      /**
+       * <code>optional bool node_characteristic_id_null = 1001;</code>
+       */
+      public boolean getNodeCharacteristicIdNull() {
+        return nodeCharacteristicIdNull_;
+      }
+      /**
+       * <code>optional bool node_characteristic_id_null = 1001;</code>
+       */
+      public Builder setNodeCharacteristicIdNull(boolean value) {
+        
+        nodeCharacteristicIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool node_characteristic_id_null = 1001;</code>
+       */
+      public Builder clearNodeCharacteristicIdNull() {
+        
+        nodeCharacteristicIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.stringValue characteristicDescription_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
        */
       public io.dstore.Values.stringValue getCharacteristicDescription() {
         if (characteristicDescriptionBuilder_ == null) {
@@ -1297,7 +1541,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
        */
       public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
         if (characteristicDescriptionBuilder_ == null) {
@@ -1313,7 +1557,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
        */
       public Builder setCharacteristicDescription(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1327,7 +1571,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
        */
       public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
         if (characteristicDescriptionBuilder_ == null) {
@@ -1345,7 +1589,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
        */
       public Builder clearCharacteristicDescription() {
         if (characteristicDescriptionBuilder_ == null) {
@@ -1359,7 +1603,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
        */
       public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
         
@@ -1367,7 +1611,7 @@ public final class ImModifyNodeCharacsAd {
         return getCharacteristicDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         if (characteristicDescriptionBuilder_ != null) {
@@ -1378,7 +1622,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 1;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1396,13 +1640,13 @@ public final class ImModifyNodeCharacsAd {
 
       private boolean characteristicDescriptionNull_ ;
       /**
-       * <code>optional bool characteristic_description_null = 1001;</code>
+       * <code>optional bool characteristic_description_null = 1002;</code>
        */
       public boolean getCharacteristicDescriptionNull() {
         return characteristicDescriptionNull_;
       }
       /**
-       * <code>optional bool characteristic_description_null = 1001;</code>
+       * <code>optional bool characteristic_description_null = 1002;</code>
        */
       public Builder setCharacteristicDescriptionNull(boolean value) {
         
@@ -1411,7 +1655,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool characteristic_description_null = 1001;</code>
+       * <code>optional bool characteristic_description_null = 1002;</code>
        */
       public Builder clearCharacteristicDescriptionNull() {
         
@@ -1424,13 +1668,13 @@ public final class ImModifyNodeCharacsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueLanguageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
        */
       public boolean hasValueLanguageId() {
         return valueLanguageIdBuilder_ != null || valueLanguageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
        */
       public io.dstore.Values.integerValue getValueLanguageId() {
         if (valueLanguageIdBuilder_ == null) {
@@ -1440,7 +1684,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
        */
       public Builder setValueLanguageId(io.dstore.Values.integerValue value) {
         if (valueLanguageIdBuilder_ == null) {
@@ -1456,7 +1700,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
        */
       public Builder setValueLanguageId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1470,7 +1714,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
        */
       public Builder mergeValueLanguageId(io.dstore.Values.integerValue value) {
         if (valueLanguageIdBuilder_ == null) {
@@ -1488,7 +1732,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
        */
       public Builder clearValueLanguageId() {
         if (valueLanguageIdBuilder_ == null) {
@@ -1502,7 +1746,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
        */
       public io.dstore.Values.integerValue.Builder getValueLanguageIdBuilder() {
         
@@ -1510,7 +1754,7 @@ public final class ImModifyNodeCharacsAd {
         return getValueLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getValueLanguageIdOrBuilder() {
         if (valueLanguageIdBuilder_ != null) {
@@ -1521,7 +1765,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue value_language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_language_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1539,13 +1783,13 @@ public final class ImModifyNodeCharacsAd {
 
       private boolean valueLanguageIdNull_ ;
       /**
-       * <code>optional bool value_language_id_null = 1002;</code>
+       * <code>optional bool value_language_id_null = 1003;</code>
        */
       public boolean getValueLanguageIdNull() {
         return valueLanguageIdNull_;
       }
       /**
-       * <code>optional bool value_language_id_null = 1002;</code>
+       * <code>optional bool value_language_id_null = 1003;</code>
        */
       public Builder setValueLanguageIdNull(boolean value) {
         
@@ -1554,7 +1798,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool value_language_id_null = 1002;</code>
+       * <code>optional bool value_language_id_null = 1003;</code>
        */
       public Builder clearValueLanguageIdNull() {
         
@@ -1567,13 +1811,13 @@ public final class ImModifyNodeCharacsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 4;</code>
        */
       public boolean hasUnitId() {
         return unitIdBuilder_ != null || unitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 4;</code>
        */
       public io.dstore.Values.integerValue getUnitId() {
         if (unitIdBuilder_ == null) {
@@ -1583,7 +1827,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 4;</code>
        */
       public Builder setUnitId(io.dstore.Values.integerValue value) {
         if (unitIdBuilder_ == null) {
@@ -1599,7 +1843,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 4;</code>
        */
       public Builder setUnitId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1613,7 +1857,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 4;</code>
        */
       public Builder mergeUnitId(io.dstore.Values.integerValue value) {
         if (unitIdBuilder_ == null) {
@@ -1631,7 +1875,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 4;</code>
        */
       public Builder clearUnitId() {
         if (unitIdBuilder_ == null) {
@@ -1645,7 +1889,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 4;</code>
        */
       public io.dstore.Values.integerValue.Builder getUnitIdBuilder() {
         
@@ -1653,7 +1897,7 @@ public final class ImModifyNodeCharacsAd {
         return getUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 4;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
         if (unitIdBuilder_ != null) {
@@ -1664,7 +1908,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 3;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1682,13 +1926,13 @@ public final class ImModifyNodeCharacsAd {
 
       private boolean unitIdNull_ ;
       /**
-       * <code>optional bool unit_id_null = 1003;</code>
+       * <code>optional bool unit_id_null = 1004;</code>
        */
       public boolean getUnitIdNull() {
         return unitIdNull_;
       }
       /**
-       * <code>optional bool unit_id_null = 1003;</code>
+       * <code>optional bool unit_id_null = 1004;</code>
        */
       public Builder setUnitIdNull(boolean value) {
         
@@ -1697,7 +1941,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool unit_id_null = 1003;</code>
+       * <code>optional bool unit_id_null = 1004;</code>
        */
       public Builder clearUnitIdNull() {
         
@@ -1710,13 +1954,13 @@ public final class ImModifyNodeCharacsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> predefinedValuesBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
        */
       public boolean hasPredefinedValues() {
         return predefinedValuesBuilder_ != null || predefinedValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
        */
       public io.dstore.Values.booleanValue getPredefinedValues() {
         if (predefinedValuesBuilder_ == null) {
@@ -1726,7 +1970,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
        */
       public Builder setPredefinedValues(io.dstore.Values.booleanValue value) {
         if (predefinedValuesBuilder_ == null) {
@@ -1742,7 +1986,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
        */
       public Builder setPredefinedValues(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1756,7 +2000,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
        */
       public Builder mergePredefinedValues(io.dstore.Values.booleanValue value) {
         if (predefinedValuesBuilder_ == null) {
@@ -1774,7 +2018,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
        */
       public Builder clearPredefinedValues() {
         if (predefinedValuesBuilder_ == null) {
@@ -1788,7 +2032,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
        */
       public io.dstore.Values.booleanValue.Builder getPredefinedValuesBuilder() {
         
@@ -1796,7 +2040,7 @@ public final class ImModifyNodeCharacsAd {
         return getPredefinedValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder() {
         if (predefinedValuesBuilder_ != null) {
@@ -1807,7 +2051,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 4;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1825,13 +2069,13 @@ public final class ImModifyNodeCharacsAd {
 
       private boolean predefinedValuesNull_ ;
       /**
-       * <code>optional bool predefined_values_null = 1004;</code>
+       * <code>optional bool predefined_values_null = 1005;</code>
        */
       public boolean getPredefinedValuesNull() {
         return predefinedValuesNull_;
       }
       /**
-       * <code>optional bool predefined_values_null = 1004;</code>
+       * <code>optional bool predefined_values_null = 1005;</code>
        */
       public Builder setPredefinedValuesNull(boolean value) {
         
@@ -1840,7 +2084,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool predefined_values_null = 1004;</code>
+       * <code>optional bool predefined_values_null = 1005;</code>
        */
       public Builder clearPredefinedValuesNull() {
         
@@ -1853,13 +2097,13 @@ public final class ImModifyNodeCharacsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 6;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 6;</code>
        */
       public io.dstore.Values.integerValue getSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1869,7 +2113,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 6;</code>
        */
       public Builder setSortNo(io.dstore.Values.integerValue value) {
         if (sortNoBuilder_ == null) {
@@ -1885,7 +2129,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 6;</code>
        */
       public Builder setSortNo(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1899,7 +2143,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 6;</code>
        */
       public Builder mergeSortNo(io.dstore.Values.integerValue value) {
         if (sortNoBuilder_ == null) {
@@ -1917,7 +2161,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 6;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1931,7 +2175,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 6;</code>
        */
       public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
         
@@ -1939,7 +2183,7 @@ public final class ImModifyNodeCharacsAd {
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 6;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
@@ -1950,7 +2194,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 5;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1968,13 +2212,13 @@ public final class ImModifyNodeCharacsAd {
 
       private boolean sortNoNull_ ;
       /**
-       * <code>optional bool sort_no_null = 1005;</code>
+       * <code>optional bool sort_no_null = 1006;</code>
        */
       public boolean getSortNoNull() {
         return sortNoNull_;
       }
       /**
-       * <code>optional bool sort_no_null = 1005;</code>
+       * <code>optional bool sort_no_null = 1006;</code>
        */
       public Builder setSortNoNull(boolean value) {
         
@@ -1983,7 +2227,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool sort_no_null = 1005;</code>
+       * <code>optional bool sort_no_null = 1006;</code>
        */
       public Builder clearSortNoNull() {
         
@@ -1996,13 +2240,13 @@ public final class ImModifyNodeCharacsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
        */
       public boolean hasFieldTypeId() {
         return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
        */
       public io.dstore.Values.integerValue getFieldTypeId() {
         if (fieldTypeIdBuilder_ == null) {
@@ -2012,7 +2256,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
        */
       public Builder setFieldTypeId(io.dstore.Values.integerValue value) {
         if (fieldTypeIdBuilder_ == null) {
@@ -2028,7 +2272,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
        */
       public Builder setFieldTypeId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2042,7 +2286,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
        */
       public Builder mergeFieldTypeId(io.dstore.Values.integerValue value) {
         if (fieldTypeIdBuilder_ == null) {
@@ -2060,7 +2304,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
        */
       public Builder clearFieldTypeId() {
         if (fieldTypeIdBuilder_ == null) {
@@ -2074,7 +2318,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
        */
       public io.dstore.Values.integerValue.Builder getFieldTypeIdBuilder() {
         
@@ -2082,7 +2326,7 @@ public final class ImModifyNodeCharacsAd {
         return getFieldTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
         if (fieldTypeIdBuilder_ != null) {
@@ -2093,7 +2337,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2111,13 +2355,13 @@ public final class ImModifyNodeCharacsAd {
 
       private boolean fieldTypeIdNull_ ;
       /**
-       * <code>optional bool field_type_id_null = 1006;</code>
+       * <code>optional bool field_type_id_null = 1007;</code>
        */
       public boolean getFieldTypeIdNull() {
         return fieldTypeIdNull_;
       }
       /**
-       * <code>optional bool field_type_id_null = 1006;</code>
+       * <code>optional bool field_type_id_null = 1007;</code>
        */
       public Builder setFieldTypeIdNull(boolean value) {
         
@@ -2126,7 +2370,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool field_type_id_null = 1006;</code>
+       * <code>optional bool field_type_id_null = 1007;</code>
        */
       public Builder clearFieldTypeIdNull() {
         
@@ -2139,13 +2383,13 @@ public final class ImModifyNodeCharacsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> recursiveBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+       * <code>optional .dstore.values.booleanValue recursive = 8;</code>
        */
       public boolean hasRecursive() {
         return recursiveBuilder_ != null || recursive_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+       * <code>optional .dstore.values.booleanValue recursive = 8;</code>
        */
       public io.dstore.Values.booleanValue getRecursive() {
         if (recursiveBuilder_ == null) {
@@ -2155,7 +2399,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+       * <code>optional .dstore.values.booleanValue recursive = 8;</code>
        */
       public Builder setRecursive(io.dstore.Values.booleanValue value) {
         if (recursiveBuilder_ == null) {
@@ -2171,7 +2415,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+       * <code>optional .dstore.values.booleanValue recursive = 8;</code>
        */
       public Builder setRecursive(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2185,7 +2429,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+       * <code>optional .dstore.values.booleanValue recursive = 8;</code>
        */
       public Builder mergeRecursive(io.dstore.Values.booleanValue value) {
         if (recursiveBuilder_ == null) {
@@ -2203,7 +2447,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+       * <code>optional .dstore.values.booleanValue recursive = 8;</code>
        */
       public Builder clearRecursive() {
         if (recursiveBuilder_ == null) {
@@ -2217,7 +2461,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+       * <code>optional .dstore.values.booleanValue recursive = 8;</code>
        */
       public io.dstore.Values.booleanValue.Builder getRecursiveBuilder() {
         
@@ -2225,7 +2469,7 @@ public final class ImModifyNodeCharacsAd {
         return getRecursiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+       * <code>optional .dstore.values.booleanValue recursive = 8;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getRecursiveOrBuilder() {
         if (recursiveBuilder_ != null) {
@@ -2236,7 +2480,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue recursive = 7;</code>
+       * <code>optional .dstore.values.booleanValue recursive = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2254,13 +2498,13 @@ public final class ImModifyNodeCharacsAd {
 
       private boolean recursiveNull_ ;
       /**
-       * <code>optional bool recursive_null = 1007;</code>
+       * <code>optional bool recursive_null = 1008;</code>
        */
       public boolean getRecursiveNull() {
         return recursiveNull_;
       }
       /**
-       * <code>optional bool recursive_null = 1007;</code>
+       * <code>optional bool recursive_null = 1008;</code>
        */
       public Builder setRecursiveNull(boolean value) {
         
@@ -2269,7 +2513,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool recursive_null = 1007;</code>
+       * <code>optional bool recursive_null = 1008;</code>
        */
       public Builder clearRecursiveNull() {
         
@@ -2282,13 +2526,13 @@ public final class ImModifyNodeCharacsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteCharacteristicBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+       * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
        */
       public boolean hasDeleteCharacteristic() {
         return deleteCharacteristicBuilder_ != null || deleteCharacteristic_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+       * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
        */
       public io.dstore.Values.booleanValue getDeleteCharacteristic() {
         if (deleteCharacteristicBuilder_ == null) {
@@ -2298,7 +2542,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+       * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
        */
       public Builder setDeleteCharacteristic(io.dstore.Values.booleanValue value) {
         if (deleteCharacteristicBuilder_ == null) {
@@ -2314,7 +2558,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+       * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
        */
       public Builder setDeleteCharacteristic(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2328,7 +2572,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+       * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
        */
       public Builder mergeDeleteCharacteristic(io.dstore.Values.booleanValue value) {
         if (deleteCharacteristicBuilder_ == null) {
@@ -2346,7 +2590,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+       * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
        */
       public Builder clearDeleteCharacteristic() {
         if (deleteCharacteristicBuilder_ == null) {
@@ -2360,7 +2604,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+       * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
        */
       public io.dstore.Values.booleanValue.Builder getDeleteCharacteristicBuilder() {
         
@@ -2368,7 +2612,7 @@ public final class ImModifyNodeCharacsAd {
         return getDeleteCharacteristicFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+       * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDeleteCharacteristicOrBuilder() {
         if (deleteCharacteristicBuilder_ != null) {
@@ -2379,7 +2623,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_characteristic = 8;</code>
+       * <code>optional .dstore.values.booleanValue delete_characteristic = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2397,13 +2641,13 @@ public final class ImModifyNodeCharacsAd {
 
       private boolean deleteCharacteristicNull_ ;
       /**
-       * <code>optional bool delete_characteristic_null = 1008;</code>
+       * <code>optional bool delete_characteristic_null = 1009;</code>
        */
       public boolean getDeleteCharacteristicNull() {
         return deleteCharacteristicNull_;
       }
       /**
-       * <code>optional bool delete_characteristic_null = 1008;</code>
+       * <code>optional bool delete_characteristic_null = 1009;</code>
        */
       public Builder setDeleteCharacteristicNull(boolean value) {
         
@@ -2412,7 +2656,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_characteristic_null = 1008;</code>
+       * <code>optional bool delete_characteristic_null = 1009;</code>
        */
       public Builder clearDeleteCharacteristicNull() {
         
@@ -2425,13 +2669,13 @@ public final class ImModifyNodeCharacsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> keepPropertiesHistoryInHoursBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
        */
       public boolean hasKeepPropertiesHistoryInHours() {
         return keepPropertiesHistoryInHoursBuilder_ != null || keepPropertiesHistoryInHours_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
        */
       public io.dstore.Values.integerValue getKeepPropertiesHistoryInHours() {
         if (keepPropertiesHistoryInHoursBuilder_ == null) {
@@ -2441,7 +2685,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
        */
       public Builder setKeepPropertiesHistoryInHours(io.dstore.Values.integerValue value) {
         if (keepPropertiesHistoryInHoursBuilder_ == null) {
@@ -2457,7 +2701,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
        */
       public Builder setKeepPropertiesHistoryInHours(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2471,7 +2715,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
        */
       public Builder mergeKeepPropertiesHistoryInHours(io.dstore.Values.integerValue value) {
         if (keepPropertiesHistoryInHoursBuilder_ == null) {
@@ -2489,7 +2733,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
        */
       public Builder clearKeepPropertiesHistoryInHours() {
         if (keepPropertiesHistoryInHoursBuilder_ == null) {
@@ -2503,7 +2747,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
        */
       public io.dstore.Values.integerValue.Builder getKeepPropertiesHistoryInHoursBuilder() {
         
@@ -2511,7 +2755,7 @@ public final class ImModifyNodeCharacsAd {
         return getKeepPropertiesHistoryInHoursFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getKeepPropertiesHistoryInHoursOrBuilder() {
         if (keepPropertiesHistoryInHoursBuilder_ != null) {
@@ -2522,7 +2766,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 9;</code>
+       * <code>optional .dstore.values.integerValue keep_properties_history_in_hours = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2540,13 +2784,13 @@ public final class ImModifyNodeCharacsAd {
 
       private boolean keepPropertiesHistoryInHoursNull_ ;
       /**
-       * <code>optional bool keep_properties_history_in_hours_null = 1009;</code>
+       * <code>optional bool keep_properties_history_in_hours_null = 1010;</code>
        */
       public boolean getKeepPropertiesHistoryInHoursNull() {
         return keepPropertiesHistoryInHoursNull_;
       }
       /**
-       * <code>optional bool keep_properties_history_in_hours_null = 1009;</code>
+       * <code>optional bool keep_properties_history_in_hours_null = 1010;</code>
        */
       public Builder setKeepPropertiesHistoryInHoursNull(boolean value) {
         
@@ -2555,7 +2799,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool keep_properties_history_in_hours_null = 1009;</code>
+       * <code>optional bool keep_properties_history_in_hours_null = 1010;</code>
        */
       public Builder clearKeepPropertiesHistoryInHoursNull() {
         
@@ -2568,13 +2812,13 @@ public final class ImModifyNodeCharacsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> importConfigurationBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
        */
       public boolean hasImportConfiguration() {
         return importConfigurationBuilder_ != null || importConfiguration_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
        */
       public io.dstore.Values.booleanValue getImportConfiguration() {
         if (importConfigurationBuilder_ == null) {
@@ -2584,7 +2828,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
        */
       public Builder setImportConfiguration(io.dstore.Values.booleanValue value) {
         if (importConfigurationBuilder_ == null) {
@@ -2600,7 +2844,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
        */
       public Builder setImportConfiguration(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2614,7 +2858,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
        */
       public Builder mergeImportConfiguration(io.dstore.Values.booleanValue value) {
         if (importConfigurationBuilder_ == null) {
@@ -2632,7 +2876,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
        */
       public Builder clearImportConfiguration() {
         if (importConfigurationBuilder_ == null) {
@@ -2646,7 +2890,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
        */
       public io.dstore.Values.booleanValue.Builder getImportConfigurationBuilder() {
         
@@ -2654,7 +2898,7 @@ public final class ImModifyNodeCharacsAd {
         return getImportConfigurationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getImportConfigurationOrBuilder() {
         if (importConfigurationBuilder_ != null) {
@@ -2665,7 +2909,7 @@ public final class ImModifyNodeCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue import_configuration = 10;</code>
+       * <code>optional .dstore.values.booleanValue import_configuration = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2683,13 +2927,13 @@ public final class ImModifyNodeCharacsAd {
 
       private boolean importConfigurationNull_ ;
       /**
-       * <code>optional bool import_configuration_null = 1010;</code>
+       * <code>optional bool import_configuration_null = 1011;</code>
        */
       public boolean getImportConfigurationNull() {
         return importConfigurationNull_;
       }
       /**
-       * <code>optional bool import_configuration_null = 1010;</code>
+       * <code>optional bool import_configuration_null = 1011;</code>
        */
       public Builder setImportConfigurationNull(boolean value) {
         
@@ -2698,7 +2942,7 @@ public final class ImModifyNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool import_configuration_null = 1010;</code>
+       * <code>optional bool import_configuration_null = 1011;</code>
        */
       public Builder clearImportConfigurationNull() {
         
@@ -4939,38 +5183,42 @@ public final class ImModifyNodeCharacsAd {
       "yNodeCharacs_Ad\032\023dstore/values.proto\032\031ds" +
       "tore/engine/error.proto\032\033dstore/engine/m" +
       "essage.proto\032#dstore/engine/metainformat" +
-      "ion.proto\"\203\007\n\nParameters\022>\n\032characterist" +
-      "ic_description\030\001 \001(\0132\032.dstore.values.str" +
-      "ingValue\022(\n\037characteristic_description_n" +
-      "ull\030\351\007 \001(\010\0226\n\021value_language_id\030\002 \001(\0132\033." +
-      "dstore.values.integerValue\022\037\n\026value_lang",
-      "uage_id_null\030\352\007 \001(\010\022,\n\007unit_id\030\003 \001(\0132\033.d" +
-      "store.values.integerValue\022\025\n\014unit_id_nul" +
-      "l\030\353\007 \001(\010\0226\n\021predefined_values\030\004 \001(\0132\033.ds" +
-      "tore.values.booleanValue\022\037\n\026predefined_v" +
-      "alues_null\030\354\007 \001(\010\022,\n\007sort_no\030\005 \001(\0132\033.dst" +
-      "ore.values.integerValue\022\025\n\014sort_no_null\030" +
-      "\355\007 \001(\010\0222\n\rfield_type_id\030\006 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\033\n\022field_type_id_null" +
-      "\030\356\007 \001(\010\022.\n\trecursive\030\007 \001(\0132\033.dstore.valu" +
-      "es.booleanValue\022\027\n\016recursive_null\030\357\007 \001(\010",
-      "\022:\n\025delete_characteristic\030\010 \001(\0132\033.dstore" +
-      ".values.booleanValue\022#\n\032delete_character" +
-      "istic_null\030\360\007 \001(\010\022E\n keep_properties_his" +
-      "tory_in_hours\030\t \001(\0132\033.dstore.values.inte" +
-      "gerValue\022.\n%keep_properties_history_in_h" +
-      "ours_null\030\361\007 \001(\010\0229\n\024import_configuration" +
-      "\030\n \001(\0132\033.dstore.values.booleanValue\022\"\n\031i" +
-      "mport_configuration_null\030\362\007 \001(\010\"\307\002\n\010Resp" +
-      "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro" +
-      "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto",
-      "re.engine.metainformation.MetaInformatio" +
-      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa" +
-      "ge.Message\022@\n\003row\030\004 \003(\01323.dstore.engine." +
-      "im_ModifyNodeCharacs_Ad.Response.Row\022;\n\026" +
-      "node_characteristic_id\030e \001(\0132\033.dstore.va" +
-      "lues.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(" +
-      "\005B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "ion.proto\"\346\007\n\nParameters\022;\n\026node_charact" +
+      "eristic_id\030\001 \001(\0132\033.dstore.values.integer" +
+      "Value\022$\n\033node_characteristic_id_null\030\351\007 " +
+      "\001(\010\022>\n\032characteristic_description\030\002 \001(\0132" +
+      "\032.dstore.values.stringValue\022(\n\037character",
+      "istic_description_null\030\352\007 \001(\010\0226\n\021value_l" +
+      "anguage_id\030\003 \001(\0132\033.dstore.values.integer" +
+      "Value\022\037\n\026value_language_id_null\030\353\007 \001(\010\022," +
+      "\n\007unit_id\030\004 \001(\0132\033.dstore.values.integerV" +
+      "alue\022\025\n\014unit_id_null\030\354\007 \001(\010\0226\n\021predefine" +
+      "d_values\030\005 \001(\0132\033.dstore.values.booleanVa" +
+      "lue\022\037\n\026predefined_values_null\030\355\007 \001(\010\022,\n\007" +
+      "sort_no\030\006 \001(\0132\033.dstore.values.integerVal" +
+      "ue\022\025\n\014sort_no_null\030\356\007 \001(\010\0222\n\rfield_type_" +
+      "id\030\007 \001(\0132\033.dstore.values.integerValue\022\033\n",
+      "\022field_type_id_null\030\357\007 \001(\010\022.\n\trecursive\030" +
+      "\010 \001(\0132\033.dstore.values.booleanValue\022\027\n\016re" +
+      "cursive_null\030\360\007 \001(\010\022:\n\025delete_characteri" +
+      "stic\030\t \001(\0132\033.dstore.values.booleanValue\022" +
+      "#\n\032delete_characteristic_null\030\361\007 \001(\010\022E\n " +
+      "keep_properties_history_in_hours\030\n \001(\0132\033" +
+      ".dstore.values.integerValue\022.\n%keep_prop" +
+      "erties_history_in_hours_null\030\362\007 \001(\010\0229\n\024i" +
+      "mport_configuration\030\013 \001(\0132\033.dstore.value" +
+      "s.booleanValue\022\"\n\031import_configuration_n",
+      "ull\030\363\007 \001(\010\"\307\002\n\010Response\022)\n\005error\030\001 \001(\0132\032" +
+      ".dstore.engine.error.Error\022H\n\020meta_infor" +
+      "mation\030\002 \003(\0132..dstore.engine.metainforma" +
+      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036." +
+      "dstore.engine.message.Message\022@\n\003row\030\004 \003" +
+      "(\01323.dstore.engine.im_ModifyNodeCharacs_" +
+      "Ad.Response.Row\022;\n\026node_characteristic_i" +
+      "d\030e \001(\0132\033.dstore.values.integerValue\032\026\n\003" +
+      "Row\022\017\n\006row_id\030\220N \001(\005BX\n\033io.dstore.engine" +
+      ".proceduresZ9gosdk.dstore.de/engine/proc",
+      "edures/im_ModifyNodeCharacs_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4993,7 +5241,7 @@ public final class ImModifyNodeCharacsAd {
     internal_static_dstore_engine_im_ModifyNodeCharacs_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyNodeCharacs_Ad_Parameters_descriptor,
-        new java.lang.String[] { "CharacteristicDescription", "CharacteristicDescriptionNull", "ValueLanguageId", "ValueLanguageIdNull", "UnitId", "UnitIdNull", "PredefinedValues", "PredefinedValuesNull", "SortNo", "SortNoNull", "FieldTypeId", "FieldTypeIdNull", "Recursive", "RecursiveNull", "DeleteCharacteristic", "DeleteCharacteristicNull", "KeepPropertiesHistoryInHours", "KeepPropertiesHistoryInHoursNull", "ImportConfiguration", "ImportConfigurationNull", });
+        new java.lang.String[] { "NodeCharacteristicId", "NodeCharacteristicIdNull", "CharacteristicDescription", "CharacteristicDescriptionNull", "ValueLanguageId", "ValueLanguageIdNull", "UnitId", "UnitIdNull", "PredefinedValues", "PredefinedValuesNull", "SortNo", "SortNoNull", "FieldTypeId", "FieldTypeIdNull", "Recursive", "RecursiveNull", "DeleteCharacteristic", "DeleteCharacteristicNull", "KeepPropertiesHistoryInHours", "KeepPropertiesHistoryInHoursNull", "ImportConfiguration", "ImportConfigurationNull", });
     internal_static_dstore_engine_im_ModifyNodeCharacs_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_ModifyNodeCharacs_Ad_Response_fieldAccessorTable = new

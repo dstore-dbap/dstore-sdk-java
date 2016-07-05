@@ -3173,7 +3173,9 @@ public final class OmGetCampaignCategoriesAd {
       "\0229\n\024category_description\030\221N \001(\0132\032.dstore" +
       ".values.stringValue\022:\n\024campaign_category" +
       "_id\030\222N \001(\0132\033.dstore.values.integerValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "\\\n\033io.dstore.engine.proceduresZ=gosdk.ds" +
+      "tore.de/engine/procedures/om_GetCampaign",
+      "Categories_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3666,7 +3666,9 @@ public final class FoGetForumCategoriesAd {
       "Value\022-\n\007sort_no\030\223N \001(\0132\033.dstore.values." +
       "integerValue\022C\n\035contains_categories_or_f",
       "orums\030\224N \001(\0132\033.dstore.values.integerValu" +
-      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "eBY\n\033io.dstore.engine.proceduresZ:gosdk." +
+      "dstore.de/engine/procedures/fo_GetForumC" +
+      "ategories_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

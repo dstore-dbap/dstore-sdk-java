@@ -67,20 +67,38 @@ public final class CoGetCommunityMemberSettings {
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.stringValue value = 4;</code>
+     */
+    boolean hasValue();
+    /**
+     * <code>optional .dstore.values.stringValue value = 4;</code>
+     */
+    io.dstore.Values.stringValue getValue();
+    /**
+     * <code>optional .dstore.values.stringValue value = 4;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+
+    /**
+     * <code>optional bool value_null = 1004;</code>
+     */
+    boolean getValueNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
     io.dstore.Values.booleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
-     * <code>optional bool select_result_null = 1004;</code>
+     * <code>optional bool select_result_null = 1005;</code>
      */
     boolean getSelectResultNull();
   }
@@ -99,6 +117,7 @@ public final class CoGetCommunityMemberSettings {
       communityMemberIdNull_ = false;
       communityIdNull_ = false;
       keyVariableNull_ = false;
+      valueNull_ = false;
       selectResultNull_ = false;
     }
 
@@ -166,6 +185,19 @@ public final class CoGetCommunityMemberSettings {
               break;
             }
             case 34: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (value_ != null) {
+                subBuilder = value_.toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(value_);
+                value_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 42: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
@@ -194,6 +226,11 @@ public final class CoGetCommunityMemberSettings {
               break;
             }
             case 8032: {
+
+              valueNull_ = input.readBool();
+              break;
+            }
+            case 8040: {
 
               selectResultNull_ = input.readBool();
               break;
@@ -312,31 +349,61 @@ public final class CoGetCommunityMemberSettings {
       return keyVariableNull_;
     }
 
-    public static final int SELECT_RESULT_FIELD_NUMBER = 4;
+    public static final int VALUE_FIELD_NUMBER = 4;
+    private io.dstore.Values.stringValue value_;
+    /**
+     * <code>optional .dstore.values.stringValue value = 4;</code>
+     */
+    public boolean hasValue() {
+      return value_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue value = 4;</code>
+     */
+    public io.dstore.Values.stringValue getValue() {
+      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue value = 4;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      return getValue();
+    }
+
+    public static final int VALUE_NULL_FIELD_NUMBER = 1004;
+    private boolean valueNull_;
+    /**
+     * <code>optional bool value_null = 1004;</code>
+     */
+    public boolean getValueNull() {
+      return valueNull_;
+    }
+
+    public static final int SELECT_RESULT_FIELD_NUMBER = 5;
     private io.dstore.Values.booleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
     public io.dstore.Values.booleanValue getSelectResult() {
       return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
-    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1004;
+    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1005;
     private boolean selectResultNull_;
     /**
-     * <code>optional bool select_result_null = 1004;</code>
+     * <code>optional bool select_result_null = 1005;</code>
      */
     public boolean getSelectResultNull() {
       return selectResultNull_;
@@ -363,8 +430,11 @@ public final class CoGetCommunityMemberSettings {
       if (keyVariable_ != null) {
         output.writeMessage(3, getKeyVariable());
       }
+      if (value_ != null) {
+        output.writeMessage(4, getValue());
+      }
       if (selectResult_ != null) {
-        output.writeMessage(4, getSelectResult());
+        output.writeMessage(5, getSelectResult());
       }
       if (communityMemberIdNull_ != false) {
         output.writeBool(1001, communityMemberIdNull_);
@@ -375,8 +445,11 @@ public final class CoGetCommunityMemberSettings {
       if (keyVariableNull_ != false) {
         output.writeBool(1003, keyVariableNull_);
       }
+      if (valueNull_ != false) {
+        output.writeBool(1004, valueNull_);
+      }
       if (selectResultNull_ != false) {
-        output.writeBool(1004, selectResultNull_);
+        output.writeBool(1005, selectResultNull_);
       }
     }
 
@@ -397,9 +470,13 @@ public final class CoGetCommunityMemberSettings {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, getKeyVariable());
       }
+      if (value_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getValue());
+      }
       if (selectResult_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getSelectResult());
+          .computeMessageSize(5, getSelectResult());
       }
       if (communityMemberIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -413,9 +490,13 @@ public final class CoGetCommunityMemberSettings {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, keyVariableNull_);
       }
+      if (valueNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1004, valueNull_);
+      }
       if (selectResultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, selectResultNull_);
+          .computeBoolSize(1005, selectResultNull_);
       }
       memoizedSize = size;
       return size;
@@ -552,6 +633,14 @@ public final class CoGetCommunityMemberSettings {
         }
         keyVariableNull_ = false;
 
+        if (valueBuilder_ == null) {
+          value_ = null;
+        } else {
+          value_ = null;
+          valueBuilder_ = null;
+        }
+        valueNull_ = false;
+
         if (selectResultBuilder_ == null) {
           selectResult_ = null;
         } else {
@@ -600,6 +689,12 @@ public final class CoGetCommunityMemberSettings {
           result.keyVariable_ = keyVariableBuilder_.build();
         }
         result.keyVariableNull_ = keyVariableNull_;
+        if (valueBuilder_ == null) {
+          result.value_ = value_;
+        } else {
+          result.value_ = valueBuilder_.build();
+        }
+        result.valueNull_ = valueNull_;
         if (selectResultBuilder_ == null) {
           result.selectResult_ = selectResult_;
         } else {
@@ -638,6 +733,12 @@ public final class CoGetCommunityMemberSettings {
         }
         if (other.getKeyVariableNull() != false) {
           setKeyVariableNull(other.getKeyVariableNull());
+        }
+        if (other.hasValue()) {
+          mergeValue(other.getValue());
+        }
+        if (other.getValueNull() != false) {
+          setValueNull(other.getValueNull());
         }
         if (other.hasSelectResult()) {
           mergeSelectResult(other.getSelectResult());
@@ -1100,17 +1201,160 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
 
+      private io.dstore.Values.stringValue value_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue value = 4;</code>
+       */
+      public boolean hasValue() {
+        return valueBuilder_ != null || value_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 4;</code>
+       */
+      public io.dstore.Values.stringValue getValue() {
+        if (valueBuilder_ == null) {
+          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+        } else {
+          return valueBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 4;</code>
+       */
+      public Builder setValue(io.dstore.Values.stringValue value) {
+        if (valueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          valueBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 4;</code>
+       */
+      public Builder setValue(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (valueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          valueBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 4;</code>
+       */
+      public Builder mergeValue(io.dstore.Values.stringValue value) {
+        if (valueBuilder_ == null) {
+          if (value_ != null) {
+            value_ =
+              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          valueBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 4;</code>
+       */
+      public Builder clearValue() {
+        if (valueBuilder_ == null) {
+          value_ = null;
+          onChanged();
+        } else {
+          value_ = null;
+          valueBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 4;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        
+        onChanged();
+        return getValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 4;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        if (valueBuilder_ != null) {
+          return valueBuilder_.getMessageOrBuilder();
+        } else {
+          return value_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 4;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getValueFieldBuilder() {
+        if (valueBuilder_ == null) {
+          valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getValue(),
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        return valueBuilder_;
+      }
+
+      private boolean valueNull_ ;
+      /**
+       * <code>optional bool value_null = 1004;</code>
+       */
+      public boolean getValueNull() {
+        return valueNull_;
+      }
+      /**
+       * <code>optional bool value_null = 1004;</code>
+       */
+      public Builder setValueNull(boolean value) {
+        
+        valueNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool value_null = 1004;</code>
+       */
+      public Builder clearValueNull() {
+        
+        valueNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public io.dstore.Values.booleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1120,7 +1364,7 @@ public final class CoGetCommunityMemberSettings {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public Builder setSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1136,7 +1380,7 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public Builder setSelectResult(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1150,7 +1394,7 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1168,7 +1412,7 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1182,7 +1426,7 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
         
@@ -1190,7 +1434,7 @@ public final class CoGetCommunityMemberSettings {
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
@@ -1201,7 +1445,7 @@ public final class CoGetCommunityMemberSettings {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1219,13 +1463,13 @@ public final class CoGetCommunityMemberSettings {
 
       private boolean selectResultNull_ ;
       /**
-       * <code>optional bool select_result_null = 1004;</code>
+       * <code>optional bool select_result_null = 1005;</code>
        */
       public boolean getSelectResultNull() {
         return selectResultNull_;
       }
       /**
-       * <code>optional bool select_result_null = 1004;</code>
+       * <code>optional bool select_result_null = 1005;</code>
        */
       public Builder setSelectResultNull(boolean value) {
         
@@ -1234,7 +1478,7 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional bool select_result_null = 1004;</code>
+       * <code>optional bool select_result_null = 1005;</code>
        */
       public Builder clearSelectResultNull() {
         
@@ -3965,27 +4209,30 @@ public final class CoGetCommunityMemberSettings {
       "_GetCommunityMemberSettings\032\023dstore/valu" +
       "es.proto\032\031dstore/engine/error.proto\032\033dst" +
       "ore/engine/message.proto\032#dstore/engine/" +
-      "metainformation.proto\"\327\002\n\nParameters\0228\n\023" +
+      "metainformation.proto\"\227\003\n\nParameters\0228\n\023" +
       "community_member_id\030\001 \001(\0132\033.dstore.value" +
       "s.integerValue\022!\n\030community_member_id_nu" +
       "ll\030\351\007 \001(\010\0221\n\014community_id\030\002 \001(\0132\033.dstore" +
       ".values.integerValue\022\032\n\021community_id_nul",
       "l\030\352\007 \001(\010\0220\n\014key_variable\030\003 \001(\0132\032.dstore." +
       "values.stringValue\022\032\n\021key_variable_null\030" +
-      "\353\007 \001(\010\0222\n\rselect_result\030\004 \001(\0132\033.dstore.v" +
-      "alues.booleanValue\022\033\n\022select_result_null" +
-      "\030\354\007 \001(\010\"\233\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds" +
-      "tore.engine.error.Error\022H\n\020meta_informat" +
-      "ion\030\002 \003(\0132..dstore.engine.metainformatio" +
-      "n.MetaInformation\022/\n\007message\030\003 \003(\0132\036.dst" +
-      "ore.engine.message.Message\022F\n\003row\030\004 \003(\0132" +
-      "9.dstore.engine.co_GetCommunityMemberSet",
-      "tings.Response.Row\022)\n\005value\030e \001(\0132\032.dsto" +
-      "re.values.stringValue\032v\n\003Row\022\017\n\006row_id\030\220" +
-      "N \001(\005\022*\n\005value\030\221N \001(\0132\032.dstore.values.st" +
-      "ringValue\0222\n\014key_variable\030\242\234\001 \001(\0132\032.dsto" +
-      "re.values.stringValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "\353\007 \001(\010\022)\n\005value\030\004 \001(\0132\032.dstore.values.st" +
+      "ringValue\022\023\n\nvalue_null\030\354\007 \001(\010\0222\n\rselect" +
+      "_result\030\005 \001(\0132\033.dstore.values.booleanVal" +
+      "ue\022\033\n\022select_result_null\030\355\007 \001(\010\"\233\003\n\010Resp" +
+      "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro" +
+      "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto" +
+      "re.engine.metainformation.MetaInformatio" +
+      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa",
+      "ge.Message\022F\n\003row\030\004 \003(\01329.dstore.engine." +
+      "co_GetCommunityMemberSettings.Response.R" +
+      "ow\022)\n\005value\030e \001(\0132\032.dstore.values.string" +
+      "Value\032v\n\003Row\022\017\n\006row_id\030\220N \001(\005\022*\n\005value\030\221" +
+      "N \001(\0132\032.dstore.values.stringValue\0222\n\014key" +
+      "_variable\030\242\234\001 \001(\0132\032.dstore.values.string" +
+      "ValueB^\n\033io.dstore.engine.proceduresZ?go" +
+      "sdk.dstore.de/engine/procedures/co_GetCo" +
+      "mmunityMemberSettingsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4008,7 +4255,7 @@ public final class CoGetCommunityMemberSettings {
     internal_static_dstore_engine_co_GetCommunityMemberSettings_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_GetCommunityMemberSettings_Parameters_descriptor,
-        new java.lang.String[] { "CommunityMemberId", "CommunityMemberIdNull", "CommunityId", "CommunityIdNull", "KeyVariable", "KeyVariableNull", "SelectResult", "SelectResultNull", });
+        new java.lang.String[] { "CommunityMemberId", "CommunityMemberIdNull", "CommunityId", "CommunityIdNull", "KeyVariable", "KeyVariableNull", "Value", "ValueNull", "SelectResult", "SelectResultNull", });
     internal_static_dstore_engine_co_GetCommunityMemberSettings_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_co_GetCommunityMemberSettings_Response_fieldAccessorTable = new

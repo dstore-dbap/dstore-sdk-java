@@ -5880,8 +5880,9 @@ public final class FoGetForumsAd {
       "id\030\243\234\001 \001(\0132\033.dstore.values.integerValue\022" +
       ":\n\024category_description\030\246\234\001 \001(\0132\032.dstore" +
       ".values.stringValue\022.\n\007sort_no\030\247\234\001 \001(\0132\033" +
-      ".dstore.values.integerValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      ".dstore.values.integerValueBP\n\033io.dstore" +
+      ".engine.proceduresZ1gosdk.dstore.de/engi" +
+      "ne/procedures/fo_GetForums_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

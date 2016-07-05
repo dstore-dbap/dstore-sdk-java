@@ -4649,8 +4649,9 @@ public final class PmGetPersonBinariesAd {
       ".dstore.values.integerValue\0222\n\016thumbnail" +
       "_code\030\224N \001(\0132\031.dstore.values.bytesValue\022" +
       "/\n\013binary_code\030\225N \001(\0132\031.dstore.values.by" +
-      "tesValueB\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "tesValueBX\n\033io.dstore.engine.proceduresZ" +
+      "9gosdk.dstore.de/engine/procedures/pm_Ge" +
+      "tPersonBinaries_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

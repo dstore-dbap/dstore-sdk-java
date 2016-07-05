@@ -211,38 +211,56 @@ public final class ImImportItemDataAd {
     boolean getEmptyStringToDeletePropertyNull();
 
     /**
-     * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+     * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+     */
+    boolean hasErrorDateAndTime();
+    /**
+     * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+     */
+    io.dstore.Values.timestampValue getErrorDateAndTime();
+    /**
+     * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+     */
+    io.dstore.Values.timestampValueOrBuilder getErrorDateAndTimeOrBuilder();
+
+    /**
+     * <code>optional bool error_date_and_time_null = 1012;</code>
+     */
+    boolean getErrorDateAndTimeNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
      */
     boolean hasImportFromTableName();
     /**
-     * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+     * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
      */
     io.dstore.Values.stringValue getImportFromTableName();
     /**
-     * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+     * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
      */
     io.dstore.Values.stringValueOrBuilder getImportFromTableNameOrBuilder();
 
     /**
-     * <code>optional bool import_from_table_name_null = 1012;</code>
+     * <code>optional bool import_from_table_name_null = 1013;</code>
      */
     boolean getImportFromTableNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+     * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
      */
     boolean hasDebugMode();
     /**
-     * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+     * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
      */
     io.dstore.Values.stringValue getDebugMode();
     /**
-     * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+     * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
      */
     io.dstore.Values.stringValueOrBuilder getDebugModeOrBuilder();
 
     /**
-     * <code>optional bool debug_mode_null = 1013;</code>
+     * <code>optional bool debug_mode_null = 1014;</code>
      */
     boolean getDebugModeNull();
   }
@@ -269,6 +287,7 @@ public final class ImImportItemDataAd {
       countryNull_ = false;
       emptyStringToDeleteDetailsNull_ = false;
       emptyStringToDeletePropertyNull_ = false;
+      errorDateAndTimeNull_ = false;
       importFromTableNameNull_ = false;
       debugModeNull_ = false;
     }
@@ -441,6 +460,19 @@ public final class ImImportItemDataAd {
               break;
             }
             case 98: {
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              if (errorDateAndTime_ != null) {
+                subBuilder = errorDateAndTime_.toBuilder();
+              }
+              errorDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(errorDateAndTime_);
+                errorDateAndTime_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 106: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (importFromTableName_ != null) {
                 subBuilder = importFromTableName_.toBuilder();
@@ -453,7 +485,7 @@ public final class ImImportItemDataAd {
 
               break;
             }
-            case 106: {
+            case 114: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (debugMode_ != null) {
                 subBuilder = debugMode_.toBuilder();
@@ -523,10 +555,15 @@ public final class ImImportItemDataAd {
             }
             case 8096: {
 
-              importFromTableNameNull_ = input.readBool();
+              errorDateAndTimeNull_ = input.readBool();
               break;
             }
             case 8104: {
+
+              importFromTableNameNull_ = input.readBool();
+              break;
+            }
+            case 8112: {
 
               debugModeNull_ = input.readBool();
               break;
@@ -885,61 +922,91 @@ public final class ImImportItemDataAd {
       return emptyStringToDeletePropertyNull_;
     }
 
-    public static final int IMPORT_FROM_TABLE_NAME_FIELD_NUMBER = 12;
+    public static final int ERROR_DATE_AND_TIME_FIELD_NUMBER = 12;
+    private io.dstore.Values.timestampValue errorDateAndTime_;
+    /**
+     * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+     */
+    public boolean hasErrorDateAndTime() {
+      return errorDateAndTime_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+     */
+    public io.dstore.Values.timestampValue getErrorDateAndTime() {
+      return errorDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : errorDateAndTime_;
+    }
+    /**
+     * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+     */
+    public io.dstore.Values.timestampValueOrBuilder getErrorDateAndTimeOrBuilder() {
+      return getErrorDateAndTime();
+    }
+
+    public static final int ERROR_DATE_AND_TIME_NULL_FIELD_NUMBER = 1012;
+    private boolean errorDateAndTimeNull_;
+    /**
+     * <code>optional bool error_date_and_time_null = 1012;</code>
+     */
+    public boolean getErrorDateAndTimeNull() {
+      return errorDateAndTimeNull_;
+    }
+
+    public static final int IMPORT_FROM_TABLE_NAME_FIELD_NUMBER = 13;
     private io.dstore.Values.stringValue importFromTableName_;
     /**
-     * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+     * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
      */
     public boolean hasImportFromTableName() {
       return importFromTableName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+     * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
      */
     public io.dstore.Values.stringValue getImportFromTableName() {
       return importFromTableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : importFromTableName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+     * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getImportFromTableNameOrBuilder() {
       return getImportFromTableName();
     }
 
-    public static final int IMPORT_FROM_TABLE_NAME_NULL_FIELD_NUMBER = 1012;
+    public static final int IMPORT_FROM_TABLE_NAME_NULL_FIELD_NUMBER = 1013;
     private boolean importFromTableNameNull_;
     /**
-     * <code>optional bool import_from_table_name_null = 1012;</code>
+     * <code>optional bool import_from_table_name_null = 1013;</code>
      */
     public boolean getImportFromTableNameNull() {
       return importFromTableNameNull_;
     }
 
-    public static final int DEBUG_MODE_FIELD_NUMBER = 13;
+    public static final int DEBUG_MODE_FIELD_NUMBER = 14;
     private io.dstore.Values.stringValue debugMode_;
     /**
-     * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+     * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
      */
     public boolean hasDebugMode() {
       return debugMode_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+     * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
      */
     public io.dstore.Values.stringValue getDebugMode() {
       return debugMode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : debugMode_;
     }
     /**
-     * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+     * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getDebugModeOrBuilder() {
       return getDebugMode();
     }
 
-    public static final int DEBUG_MODE_NULL_FIELD_NUMBER = 1013;
+    public static final int DEBUG_MODE_NULL_FIELD_NUMBER = 1014;
     private boolean debugModeNull_;
     /**
-     * <code>optional bool debug_mode_null = 1013;</code>
+     * <code>optional bool debug_mode_null = 1014;</code>
      */
     public boolean getDebugModeNull() {
       return debugModeNull_;
@@ -990,11 +1057,14 @@ public final class ImImportItemDataAd {
       if (emptyStringToDeleteProperty_ != null) {
         output.writeMessage(11, getEmptyStringToDeleteProperty());
       }
+      if (errorDateAndTime_ != null) {
+        output.writeMessage(12, getErrorDateAndTime());
+      }
       if (importFromTableName_ != null) {
-        output.writeMessage(12, getImportFromTableName());
+        output.writeMessage(13, getImportFromTableName());
       }
       if (debugMode_ != null) {
-        output.writeMessage(13, getDebugMode());
+        output.writeMessage(14, getDebugMode());
       }
       if (logErrorsNull_ != false) {
         output.writeBool(1001, logErrorsNull_);
@@ -1029,11 +1099,14 @@ public final class ImImportItemDataAd {
       if (emptyStringToDeletePropertyNull_ != false) {
         output.writeBool(1011, emptyStringToDeletePropertyNull_);
       }
+      if (errorDateAndTimeNull_ != false) {
+        output.writeBool(1012, errorDateAndTimeNull_);
+      }
       if (importFromTableNameNull_ != false) {
-        output.writeBool(1012, importFromTableNameNull_);
+        output.writeBool(1013, importFromTableNameNull_);
       }
       if (debugModeNull_ != false) {
-        output.writeBool(1013, debugModeNull_);
+        output.writeBool(1014, debugModeNull_);
       }
     }
 
@@ -1086,13 +1159,17 @@ public final class ImImportItemDataAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(11, getEmptyStringToDeleteProperty());
       }
+      if (errorDateAndTime_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, getErrorDateAndTime());
+      }
       if (importFromTableName_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getImportFromTableName());
+          .computeMessageSize(13, getImportFromTableName());
       }
       if (debugMode_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getDebugMode());
+          .computeMessageSize(14, getDebugMode());
       }
       if (logErrorsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -1138,13 +1215,17 @@ public final class ImImportItemDataAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1011, emptyStringToDeletePropertyNull_);
       }
+      if (errorDateAndTimeNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1012, errorDateAndTimeNull_);
+      }
       if (importFromTableNameNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1012, importFromTableNameNull_);
+          .computeBoolSize(1013, importFromTableNameNull_);
       }
       if (debugModeNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1013, debugModeNull_);
+          .computeBoolSize(1014, debugModeNull_);
       }
       memoizedSize = size;
       return size;
@@ -1345,6 +1426,14 @@ public final class ImImportItemDataAd {
         }
         emptyStringToDeletePropertyNull_ = false;
 
+        if (errorDateAndTimeBuilder_ == null) {
+          errorDateAndTime_ = null;
+        } else {
+          errorDateAndTime_ = null;
+          errorDateAndTimeBuilder_ = null;
+        }
+        errorDateAndTimeNull_ = false;
+
         if (importFromTableNameBuilder_ == null) {
           importFromTableName_ = null;
         } else {
@@ -1449,6 +1538,12 @@ public final class ImImportItemDataAd {
           result.emptyStringToDeleteProperty_ = emptyStringToDeletePropertyBuilder_.build();
         }
         result.emptyStringToDeletePropertyNull_ = emptyStringToDeletePropertyNull_;
+        if (errorDateAndTimeBuilder_ == null) {
+          result.errorDateAndTime_ = errorDateAndTime_;
+        } else {
+          result.errorDateAndTime_ = errorDateAndTimeBuilder_.build();
+        }
+        result.errorDateAndTimeNull_ = errorDateAndTimeNull_;
         if (importFromTableNameBuilder_ == null) {
           result.importFromTableName_ = importFromTableName_;
         } else {
@@ -1541,6 +1636,12 @@ public final class ImImportItemDataAd {
         }
         if (other.getEmptyStringToDeletePropertyNull() != false) {
           setEmptyStringToDeletePropertyNull(other.getEmptyStringToDeletePropertyNull());
+        }
+        if (other.hasErrorDateAndTime()) {
+          mergeErrorDateAndTime(other.getErrorDateAndTime());
+        }
+        if (other.getErrorDateAndTimeNull() != false) {
+          setErrorDateAndTimeNull(other.getErrorDateAndTimeNull());
         }
         if (other.hasImportFromTableName()) {
           mergeImportFromTableName(other.getImportFromTableName());
@@ -3153,17 +3254,160 @@ public final class ImImportItemDataAd {
         return this;
       }
 
+      private io.dstore.Values.timestampValue errorDateAndTime_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> errorDateAndTimeBuilder_;
+      /**
+       * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+       */
+      public boolean hasErrorDateAndTime() {
+        return errorDateAndTimeBuilder_ != null || errorDateAndTime_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+       */
+      public io.dstore.Values.timestampValue getErrorDateAndTime() {
+        if (errorDateAndTimeBuilder_ == null) {
+          return errorDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : errorDateAndTime_;
+        } else {
+          return errorDateAndTimeBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+       */
+      public Builder setErrorDateAndTime(io.dstore.Values.timestampValue value) {
+        if (errorDateAndTimeBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          errorDateAndTime_ = value;
+          onChanged();
+        } else {
+          errorDateAndTimeBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+       */
+      public Builder setErrorDateAndTime(
+          io.dstore.Values.timestampValue.Builder builderForValue) {
+        if (errorDateAndTimeBuilder_ == null) {
+          errorDateAndTime_ = builderForValue.build();
+          onChanged();
+        } else {
+          errorDateAndTimeBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+       */
+      public Builder mergeErrorDateAndTime(io.dstore.Values.timestampValue value) {
+        if (errorDateAndTimeBuilder_ == null) {
+          if (errorDateAndTime_ != null) {
+            errorDateAndTime_ =
+              io.dstore.Values.timestampValue.newBuilder(errorDateAndTime_).mergeFrom(value).buildPartial();
+          } else {
+            errorDateAndTime_ = value;
+          }
+          onChanged();
+        } else {
+          errorDateAndTimeBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+       */
+      public Builder clearErrorDateAndTime() {
+        if (errorDateAndTimeBuilder_ == null) {
+          errorDateAndTime_ = null;
+          onChanged();
+        } else {
+          errorDateAndTime_ = null;
+          errorDateAndTimeBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+       */
+      public io.dstore.Values.timestampValue.Builder getErrorDateAndTimeBuilder() {
+        
+        onChanged();
+        return getErrorDateAndTimeFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+       */
+      public io.dstore.Values.timestampValueOrBuilder getErrorDateAndTimeOrBuilder() {
+        if (errorDateAndTimeBuilder_ != null) {
+          return errorDateAndTimeBuilder_.getMessageOrBuilder();
+        } else {
+          return errorDateAndTime_ == null ?
+              io.dstore.Values.timestampValue.getDefaultInstance() : errorDateAndTime_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue error_date_and_time = 12;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          getErrorDateAndTimeFieldBuilder() {
+        if (errorDateAndTimeBuilder_ == null) {
+          errorDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                  getErrorDateAndTime(),
+                  getParentForChildren(),
+                  isClean());
+          errorDateAndTime_ = null;
+        }
+        return errorDateAndTimeBuilder_;
+      }
+
+      private boolean errorDateAndTimeNull_ ;
+      /**
+       * <code>optional bool error_date_and_time_null = 1012;</code>
+       */
+      public boolean getErrorDateAndTimeNull() {
+        return errorDateAndTimeNull_;
+      }
+      /**
+       * <code>optional bool error_date_and_time_null = 1012;</code>
+       */
+      public Builder setErrorDateAndTimeNull(boolean value) {
+        
+        errorDateAndTimeNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool error_date_and_time_null = 1012;</code>
+       */
+      public Builder clearErrorDateAndTimeNull() {
+        
+        errorDateAndTimeNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.stringValue importFromTableName_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> importFromTableNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+       * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
        */
       public boolean hasImportFromTableName() {
         return importFromTableNameBuilder_ != null || importFromTableName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+       * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
        */
       public io.dstore.Values.stringValue getImportFromTableName() {
         if (importFromTableNameBuilder_ == null) {
@@ -3173,7 +3417,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+       * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
        */
       public Builder setImportFromTableName(io.dstore.Values.stringValue value) {
         if (importFromTableNameBuilder_ == null) {
@@ -3189,7 +3433,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+       * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
        */
       public Builder setImportFromTableName(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3203,7 +3447,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+       * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
        */
       public Builder mergeImportFromTableName(io.dstore.Values.stringValue value) {
         if (importFromTableNameBuilder_ == null) {
@@ -3221,7 +3465,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+       * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
        */
       public Builder clearImportFromTableName() {
         if (importFromTableNameBuilder_ == null) {
@@ -3235,7 +3479,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+       * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
        */
       public io.dstore.Values.stringValue.Builder getImportFromTableNameBuilder() {
         
@@ -3243,7 +3487,7 @@ public final class ImImportItemDataAd {
         return getImportFromTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+       * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getImportFromTableNameOrBuilder() {
         if (importFromTableNameBuilder_ != null) {
@@ -3254,7 +3498,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue import_from_table_name = 12;</code>
+       * <code>optional .dstore.values.stringValue import_from_table_name = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3272,13 +3516,13 @@ public final class ImImportItemDataAd {
 
       private boolean importFromTableNameNull_ ;
       /**
-       * <code>optional bool import_from_table_name_null = 1012;</code>
+       * <code>optional bool import_from_table_name_null = 1013;</code>
        */
       public boolean getImportFromTableNameNull() {
         return importFromTableNameNull_;
       }
       /**
-       * <code>optional bool import_from_table_name_null = 1012;</code>
+       * <code>optional bool import_from_table_name_null = 1013;</code>
        */
       public Builder setImportFromTableNameNull(boolean value) {
         
@@ -3287,7 +3531,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool import_from_table_name_null = 1012;</code>
+       * <code>optional bool import_from_table_name_null = 1013;</code>
        */
       public Builder clearImportFromTableNameNull() {
         
@@ -3300,13 +3544,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> debugModeBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+       * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
        */
       public boolean hasDebugMode() {
         return debugModeBuilder_ != null || debugMode_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+       * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
        */
       public io.dstore.Values.stringValue getDebugMode() {
         if (debugModeBuilder_ == null) {
@@ -3316,7 +3560,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+       * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
        */
       public Builder setDebugMode(io.dstore.Values.stringValue value) {
         if (debugModeBuilder_ == null) {
@@ -3332,7 +3576,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+       * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
        */
       public Builder setDebugMode(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3346,7 +3590,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+       * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
        */
       public Builder mergeDebugMode(io.dstore.Values.stringValue value) {
         if (debugModeBuilder_ == null) {
@@ -3364,7 +3608,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+       * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
        */
       public Builder clearDebugMode() {
         if (debugModeBuilder_ == null) {
@@ -3378,7 +3622,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+       * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
        */
       public io.dstore.Values.stringValue.Builder getDebugModeBuilder() {
         
@@ -3386,7 +3630,7 @@ public final class ImImportItemDataAd {
         return getDebugModeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+       * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDebugModeOrBuilder() {
         if (debugModeBuilder_ != null) {
@@ -3397,7 +3641,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue debug_mode = 13;</code>
+       * <code>optional .dstore.values.stringValue debug_mode = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3415,13 +3659,13 @@ public final class ImImportItemDataAd {
 
       private boolean debugModeNull_ ;
       /**
-       * <code>optional bool debug_mode_null = 1013;</code>
+       * <code>optional bool debug_mode_null = 1014;</code>
        */
       public boolean getDebugModeNull() {
         return debugModeNull_;
       }
       /**
-       * <code>optional bool debug_mode_null = 1013;</code>
+       * <code>optional bool debug_mode_null = 1014;</code>
        */
       public Builder setDebugModeNull(boolean value) {
         
@@ -3430,7 +3674,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool debug_mode_null = 1013;</code>
+       * <code>optional bool debug_mode_null = 1014;</code>
        */
       public Builder clearDebugModeNull() {
         
@@ -5671,7 +5915,7 @@ public final class ImImportItemDataAd {
       "emData_Ad\032\023dstore/values.proto\032\031dstore/e" +
       "ngine/error.proto\032\033dstore/engine/message" +
       ".proto\032#dstore/engine/metainformation.pr" +
-      "oto\"\366\t\n\nParameters\022/\n\nlog_errors\030\001 \001(\0132\033" +
+      "oto\"\325\n\n\nParameters\022/\n\nlog_errors\030\001 \001(\0132\033" +
       ".dstore.values.booleanValue\022\030\n\017log_error" +
       "s_null\030\351\007 \001(\010\0223\n\016update_sort_no\030\002 \001(\0132\033." +
       "dstore.values.booleanValue\022\034\n\023update_sor" +
@@ -5698,21 +5942,24 @@ public final class ImImportItemDataAd {
       "_delete_details_null\030\362\007 \001(\010\022D\n\037empty_str",
       "ing_to_delete_property\030\013 \001(\0132\033.dstore.va" +
       "lues.booleanValue\022-\n$empty_string_to_del" +
-      "ete_property_null\030\363\007 \001(\010\022:\n\026import_from_" +
-      "table_name\030\014 \001(\0132\032.dstore.values.stringV" +
-      "alue\022$\n\033import_from_table_name_null\030\364\007 \001" +
-      "(\010\022.\n\ndebug_mode\030\r \001(\0132\032.dstore.values.s" +
-      "tringValue\022\030\n\017debug_mode_null\030\365\007 \001(\010\"\303\002\n" +
-      "\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine" +
-      ".error.Error\022H\n\020meta_information\030\002 \003(\0132." +
-      ".dstore.engine.metainformation.MetaInfor",
-      "mation\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
-      "message.Message\022=\n\003row\030\004 \003(\01320.dstore.en" +
-      "gine.im_ImportItemData_Ad.Response.Row\022:" +
-      "\n\023error_date_and_time\030e \001(\0132\035.dstore.val" +
-      "ues.timestampValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001" +
-      "(\005B\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "ete_property_null\030\363\007 \001(\010\022:\n\023error_date_a" +
+      "nd_time\030\014 \001(\0132\035.dstore.values.timestampV" +
+      "alue\022!\n\030error_date_and_time_null\030\364\007 \001(\010\022" +
+      ":\n\026import_from_table_name\030\r \001(\0132\032.dstore" +
+      ".values.stringValue\022$\n\033import_from_table" +
+      "_name_null\030\365\007 \001(\010\022.\n\ndebug_mode\030\016 \001(\0132\032." +
+      "dstore.values.stringValue\022\030\n\017debug_mode_" +
+      "null\030\366\007 \001(\010\"\303\002\n\010Response\022)\n\005error\030\001 \001(\0132",
+      "\032.dstore.engine.error.Error\022H\n\020meta_info" +
+      "rmation\030\002 \003(\0132..dstore.engine.metainform" +
+      "ation.MetaInformation\022/\n\007message\030\003 \003(\0132\036" +
+      ".dstore.engine.message.Message\022=\n\003row\030\004 " +
+      "\003(\01320.dstore.engine.im_ImportItemData_Ad" +
+      ".Response.Row\022:\n\023error_date_and_time\030e \001" +
+      "(\0132\035.dstore.values.timestampValue\032\026\n\003Row" +
+      "\022\017\n\006row_id\030\220N \001(\005BU\n\033io.dstore.engine.pr" +
+      "oceduresZ6gosdk.dstore.de/engine/procedu" +
+      "res/im_ImportItemData_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5735,7 +5982,7 @@ public final class ImImportItemDataAd {
     internal_static_dstore_engine_im_ImportItemData_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_ImportItemData_Ad_Parameters_descriptor,
-        new java.lang.String[] { "LogErrors", "LogErrorsNull", "UpdateSortNo", "UpdateSortNoNull", "CheckTextAndBitCharacs", "CheckTextAndBitCharacsNull", "CheckExceptTextAndBitCharacs", "CheckExceptTextAndBitCharacsNull", "PerformanceTuning", "PerformanceTuningNull", "ActivateImportedItems", "ActivateImportedItemsNull", "HandleExistingItemNotImported", "HandleExistingItemNotImportedNull", "DumpTransaction", "DumpTransactionNull", "Country", "CountryNull", "EmptyStringToDeleteDetails", "EmptyStringToDeleteDetailsNull", "EmptyStringToDeleteProperty", "EmptyStringToDeletePropertyNull", "ImportFromTableName", "ImportFromTableNameNull", "DebugMode", "DebugModeNull", });
+        new java.lang.String[] { "LogErrors", "LogErrorsNull", "UpdateSortNo", "UpdateSortNoNull", "CheckTextAndBitCharacs", "CheckTextAndBitCharacsNull", "CheckExceptTextAndBitCharacs", "CheckExceptTextAndBitCharacsNull", "PerformanceTuning", "PerformanceTuningNull", "ActivateImportedItems", "ActivateImportedItemsNull", "HandleExistingItemNotImported", "HandleExistingItemNotImportedNull", "DumpTransaction", "DumpTransactionNull", "Country", "CountryNull", "EmptyStringToDeleteDetails", "EmptyStringToDeleteDetailsNull", "EmptyStringToDeleteProperty", "EmptyStringToDeletePropertyNull", "ErrorDateAndTime", "ErrorDateAndTimeNull", "ImportFromTableName", "ImportFromTableNameNull", "DebugMode", "DebugModeNull", });
     internal_static_dstore_engine_im_ImportItemData_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_ImportItemData_Ad_Response_fieldAccessorTable = new

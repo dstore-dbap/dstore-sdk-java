@@ -25,8 +25,9 @@ public final class Elasticservice {
       "vigation.Request\032*.dstore.elastic.facete" +
       "dnavigation.Response\"\0000\001\022R\n\013itemSuggest\022" +
       "\037.dstore.elastic.suggest.Request\032 .dstor" +
-      "e.elastic.suggest.Response\"\000B\023\n\021io.dstor" +
-      "e.elasticb\006proto3"
+      "e.elastic.suggest.Response\"\000B<\n\021io.dstor" +
+      "e.elasticZ\'gosdk.dstore.de/elastic/elast",
+      "ic_serviceb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

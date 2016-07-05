@@ -4158,8 +4158,10 @@ public final class OmGetGroupPaymentForShipAd {
       "e.values.stringValue\022E\n payment_for_ship" +
       "ping_description\030\224N \001(\0132\032.dstore.values." +
       "stringValue\022.\n\010group_id\030\225N \001(\0132\033.dstore." +
-      "values.integerValueB\035\n\033io.dstore.engine." +
-      "proceduresb\006proto3"
+      "values.integerValueB]\n\033io.dstore.engine." +
+      "proceduresZ>gosdk.dstore.de/engine/proce" +
+      "dures/om_GetGroupPaymentForShip_Adb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

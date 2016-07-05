@@ -6620,8 +6620,10 @@ public final class FoGetPostingBinariesPu {
       "(\0132\033.dstore.values.integerValue\022F\n\036last_",
       "modified_at_date_and_time\030\230N \001(\0132\035.dstor" +
       "e.values.timestampValue\0220\n\013binary_code\030\251" +
-      "\234\001 \001(\0132\031.dstore.values.bytesValueB\035\n\033io." +
-      "dstore.engine.proceduresb\006proto3"
+      "\234\001 \001(\0132\031.dstore.values.bytesValueBY\n\033io." +
+      "dstore.engine.proceduresZ:gosdk.dstore.d" +
+      "e/engine/procedures/fo_GetPostingBinarie" +
+      "s_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

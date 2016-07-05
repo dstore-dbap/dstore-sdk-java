@@ -4403,7 +4403,9 @@ public final class ImGetPageTreeNodesAd {
       "tore.values.booleanValue\022.\n\010level_id\030\226N " +
       "\001(\0132\033.dstore.values.integerValue\022/\n\tsymb" +
       "ol_id\030\227N \001(\0132\033.dstore.values.integerValu" +
-      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "eBW\n\033io.dstore.engine.proceduresZ8gosdk." +
+      "dstore.de/engine/procedures/im_GetPageTr" +
+      "eeNodes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

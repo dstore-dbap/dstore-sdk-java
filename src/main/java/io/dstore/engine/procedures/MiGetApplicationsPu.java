@@ -2925,8 +2925,10 @@ public final class MiGetApplicationsPu {
       "sage\022>\n\003row\030\004 \003(\01321.dstore.engine.mi_Get" +
       "Applications_Pu.Response.Row\032L\n\003Row\022\017\n\006r" +
       "ow_id\030\220N \001(\005\0224\n\016application_id\030\221N \001(\0132\033." +
-      "dstore.values.integerValueB\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "dstore.values.integerValueBV\n\033io.dstore." +
+      "engine.proceduresZ7gosdk.dstore.de/engin" +
+      "e/procedures/mi_GetApplications_Pub\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

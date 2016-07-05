@@ -5635,8 +5635,10 @@ public final class OmGetVoucherCodesAd {
       "\035.dstore.values.timestampValue\0221\n\013usage_" +
       "count\030\227N \001(\0132\033.dstore.values.integerValu" +
       "e\022@\n\030created_at_date_and_time\030\230N \001(\0132\035.d" +
-      "store.values.timestampValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      "store.values.timestampValueBV\n\033io.dstore" +
+      ".engine.proceduresZ7gosdk.dstore.de/engi" +
+      "ne/procedures/om_GetVoucherCodes_Adb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

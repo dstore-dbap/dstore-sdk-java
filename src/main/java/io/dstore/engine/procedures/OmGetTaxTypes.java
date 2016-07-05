@@ -3171,7 +3171,9 @@ public final class OmGetTaxTypes {
       "\n\003Row\022\017\n\006row_id\030\220N \001(\005\022-\n\010tax_type\030\221N \001(" +
       "\0132\032.dstore.values.stringValue\0221\n\013tax_typ" +
       "e_id\030\222N \001(\0132\033.dstore.values.integerValue" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "BO\n\033io.dstore.engine.proceduresZ0gosdk.d" +
+      "store.de/engine/procedures/om_GetTaxType" +
+      "sb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

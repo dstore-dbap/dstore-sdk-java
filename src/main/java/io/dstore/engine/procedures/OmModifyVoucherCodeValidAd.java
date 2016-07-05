@@ -2926,8 +2926,9 @@ public final class OmModifyVoucherCodeValidAd {
       "ge\030\003 \003(\0132\036.dstore.engine.message.Message" +
       "\022E\n\003row\030\004 \003(\01328.dstore.engine.om_ModifyV" +
       "oucherCodeValid_Ad.Response.Row\032\026\n\003Row\022\017" +
-      "\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proc" +
-      "eduresb\006proto3"
+      "\n\006row_id\030\220N \001(\005B]\n\033io.dstore.engine.proc" +
+      "eduresZ>gosdk.dstore.de/engine/procedure" +
+      "s/om_ModifyVoucherCodeValid_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

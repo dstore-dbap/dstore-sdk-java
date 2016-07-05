@@ -3663,8 +3663,10 @@ public final class AcGetCommandSettingsAd {
       "_id\030\220N \001(\005\022*\n\005value\030\221N \001(\0132\032.dstore.valu" +
       "es.stringValue\0221\n\014key_variable\030\222N \001(\0132\032." +
       "dstore.values.stringValue\0220\n\ncommand_id\030" +
-      "\223N \001(\0132\033.dstore.values.integerValueB\035\n\033i",
-      "o.dstore.engine.proceduresb\006proto3"
+      "\223N \001(\0132\033.dstore.values.integerValueBY\n\033i",
+      "o.dstore.engine.proceduresZ:gosdk.dstore" +
+      ".de/engine/procedures/ac_GetCommandSetti" +
+      "ngs_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

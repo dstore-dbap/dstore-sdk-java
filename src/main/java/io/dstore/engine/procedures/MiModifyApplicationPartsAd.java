@@ -13,74 +13,92 @@ public final class MiModifyApplicationPartsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+     */
+    boolean hasApplicationPartId();
+    /**
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+     */
+    io.dstore.Values.integerValue getApplicationPartId();
+    /**
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder();
+
+    /**
+     * <code>optional bool application_part_id_null = 1001;</code>
+     */
+    boolean getApplicationPartIdNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue application_id = 2;</code>
      */
     boolean hasApplicationId();
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_id = 2;</code>
      */
     io.dstore.Values.integerValue getApplicationId();
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_id = 2;</code>
      */
     io.dstore.Values.integerValueOrBuilder getApplicationIdOrBuilder();
 
     /**
-     * <code>optional bool application_id_null = 1001;</code>
+     * <code>optional bool application_id_null = 1002;</code>
      */
     boolean getApplicationIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.integerValue user_id = 3;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.integerValue user_id = 3;</code>
      */
     io.dstore.Values.integerValue getUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.integerValue user_id = 3;</code>
      */
     io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
 
     /**
-     * <code>optional bool user_id_null = 1002;</code>
+     * <code>optional bool user_id_null = 1003;</code>
      */
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue application_part = 3;</code>
+     * <code>optional .dstore.values.stringValue application_part = 4;</code>
      */
     boolean hasApplicationPart();
     /**
-     * <code>optional .dstore.values.stringValue application_part = 3;</code>
+     * <code>optional .dstore.values.stringValue application_part = 4;</code>
      */
     io.dstore.Values.stringValue getApplicationPart();
     /**
-     * <code>optional .dstore.values.stringValue application_part = 3;</code>
+     * <code>optional .dstore.values.stringValue application_part = 4;</code>
      */
     io.dstore.Values.stringValueOrBuilder getApplicationPartOrBuilder();
 
     /**
-     * <code>optional bool application_part_null = 1003;</code>
+     * <code>optional bool application_part_null = 1004;</code>
      */
     boolean getApplicationPartNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 5;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 5;</code>
      */
     io.dstore.Values.booleanValue getDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 5;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1004;</code>
+     * <code>optional bool delete_null = 1005;</code>
      */
     boolean getDeleteNull();
   }
@@ -96,6 +114,7 @@ public final class MiModifyApplicationPartsAd {
       super(builder);
     }
     private Parameters() {
+      applicationPartIdNull_ = false;
       applicationIdNull_ = false;
       userIdNull_ = false;
       applicationPartNull_ = false;
@@ -128,6 +147,19 @@ public final class MiModifyApplicationPartsAd {
             }
             case 10: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (applicationPartId_ != null) {
+                subBuilder = applicationPartId_.toBuilder();
+              }
+              applicationPartId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(applicationPartId_);
+                applicationPartId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 18: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (applicationId_ != null) {
                 subBuilder = applicationId_.toBuilder();
               }
@@ -139,7 +171,7 @@ public final class MiModifyApplicationPartsAd {
 
               break;
             }
-            case 18: {
+            case 26: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
@@ -152,7 +184,7 @@ public final class MiModifyApplicationPartsAd {
 
               break;
             }
-            case 26: {
+            case 34: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (applicationPart_ != null) {
                 subBuilder = applicationPart_.toBuilder();
@@ -165,7 +197,7 @@ public final class MiModifyApplicationPartsAd {
 
               break;
             }
-            case 34: {
+            case 42: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
@@ -180,20 +212,25 @@ public final class MiModifyApplicationPartsAd {
             }
             case 8008: {
 
-              applicationIdNull_ = input.readBool();
+              applicationPartIdNull_ = input.readBool();
               break;
             }
             case 8016: {
 
-              userIdNull_ = input.readBool();
+              applicationIdNull_ = input.readBool();
               break;
             }
             case 8024: {
 
-              applicationPartNull_ = input.readBool();
+              userIdNull_ = input.readBool();
               break;
             }
             case 8032: {
+
+              applicationPartNull_ = input.readBool();
+              break;
+            }
+            case 8040: {
 
               deleteNull_ = input.readBool();
               break;
@@ -222,121 +259,151 @@ public final class MiModifyApplicationPartsAd {
               io.dstore.engine.procedures.MiModifyApplicationPartsAd.Parameters.class, io.dstore.engine.procedures.MiModifyApplicationPartsAd.Parameters.Builder.class);
     }
 
-    public static final int APPLICATION_ID_FIELD_NUMBER = 1;
+    public static final int APPLICATION_PART_ID_FIELD_NUMBER = 1;
+    private io.dstore.Values.integerValue applicationPartId_;
+    /**
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+     */
+    public boolean hasApplicationPartId() {
+      return applicationPartId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+     */
+    public io.dstore.Values.integerValue getApplicationPartId() {
+      return applicationPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
+      return getApplicationPartId();
+    }
+
+    public static final int APPLICATION_PART_ID_NULL_FIELD_NUMBER = 1001;
+    private boolean applicationPartIdNull_;
+    /**
+     * <code>optional bool application_part_id_null = 1001;</code>
+     */
+    public boolean getApplicationPartIdNull() {
+      return applicationPartIdNull_;
+    }
+
+    public static final int APPLICATION_ID_FIELD_NUMBER = 2;
     private io.dstore.Values.integerValue applicationId_;
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_id = 2;</code>
      */
     public boolean hasApplicationId() {
       return applicationId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_id = 2;</code>
      */
     public io.dstore.Values.integerValue getApplicationId() {
       return applicationId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_id = 2;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getApplicationIdOrBuilder() {
       return getApplicationId();
     }
 
-    public static final int APPLICATION_ID_NULL_FIELD_NUMBER = 1001;
+    public static final int APPLICATION_ID_NULL_FIELD_NUMBER = 1002;
     private boolean applicationIdNull_;
     /**
-     * <code>optional bool application_id_null = 1001;</code>
+     * <code>optional bool application_id_null = 1002;</code>
      */
     public boolean getApplicationIdNull() {
       return applicationIdNull_;
     }
 
-    public static final int USER_ID_FIELD_NUMBER = 2;
+    public static final int USER_ID_FIELD_NUMBER = 3;
     private io.dstore.Values.integerValue userId_;
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.integerValue user_id = 3;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.integerValue user_id = 3;</code>
      */
     public io.dstore.Values.integerValue getUserId() {
       return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.integerValue user_id = 3;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
-    public static final int USER_ID_NULL_FIELD_NUMBER = 1002;
+    public static final int USER_ID_NULL_FIELD_NUMBER = 1003;
     private boolean userIdNull_;
     /**
-     * <code>optional bool user_id_null = 1002;</code>
+     * <code>optional bool user_id_null = 1003;</code>
      */
     public boolean getUserIdNull() {
       return userIdNull_;
     }
 
-    public static final int APPLICATION_PART_FIELD_NUMBER = 3;
+    public static final int APPLICATION_PART_FIELD_NUMBER = 4;
     private io.dstore.Values.stringValue applicationPart_;
     /**
-     * <code>optional .dstore.values.stringValue application_part = 3;</code>
+     * <code>optional .dstore.values.stringValue application_part = 4;</code>
      */
     public boolean hasApplicationPart() {
       return applicationPart_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue application_part = 3;</code>
+     * <code>optional .dstore.values.stringValue application_part = 4;</code>
      */
     public io.dstore.Values.stringValue getApplicationPart() {
       return applicationPart_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : applicationPart_;
     }
     /**
-     * <code>optional .dstore.values.stringValue application_part = 3;</code>
+     * <code>optional .dstore.values.stringValue application_part = 4;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getApplicationPartOrBuilder() {
       return getApplicationPart();
     }
 
-    public static final int APPLICATION_PART_NULL_FIELD_NUMBER = 1003;
+    public static final int APPLICATION_PART_NULL_FIELD_NUMBER = 1004;
     private boolean applicationPartNull_;
     /**
-     * <code>optional bool application_part_null = 1003;</code>
+     * <code>optional bool application_part_null = 1004;</code>
      */
     public boolean getApplicationPartNull() {
       return applicationPartNull_;
     }
 
-    public static final int DELETE_FIELD_NUMBER = 4;
+    public static final int DELETE_FIELD_NUMBER = 5;
     private io.dstore.Values.booleanValue delete_;
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 5;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 5;</code>
      */
     public io.dstore.Values.booleanValue getDelete() {
       return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 5;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
-    public static final int DELETE_NULL_FIELD_NUMBER = 1004;
+    public static final int DELETE_NULL_FIELD_NUMBER = 1005;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1004;</code>
+     * <code>optional bool delete_null = 1005;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -354,29 +421,35 @@ public final class MiModifyApplicationPartsAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (applicationPartId_ != null) {
+        output.writeMessage(1, getApplicationPartId());
+      }
       if (applicationId_ != null) {
-        output.writeMessage(1, getApplicationId());
+        output.writeMessage(2, getApplicationId());
       }
       if (userId_ != null) {
-        output.writeMessage(2, getUserId());
+        output.writeMessage(3, getUserId());
       }
       if (applicationPart_ != null) {
-        output.writeMessage(3, getApplicationPart());
+        output.writeMessage(4, getApplicationPart());
       }
       if (delete_ != null) {
-        output.writeMessage(4, getDelete());
+        output.writeMessage(5, getDelete());
+      }
+      if (applicationPartIdNull_ != false) {
+        output.writeBool(1001, applicationPartIdNull_);
       }
       if (applicationIdNull_ != false) {
-        output.writeBool(1001, applicationIdNull_);
+        output.writeBool(1002, applicationIdNull_);
       }
       if (userIdNull_ != false) {
-        output.writeBool(1002, userIdNull_);
+        output.writeBool(1003, userIdNull_);
       }
       if (applicationPartNull_ != false) {
-        output.writeBool(1003, applicationPartNull_);
+        output.writeBool(1004, applicationPartNull_);
       }
       if (deleteNull_ != false) {
-        output.writeBool(1004, deleteNull_);
+        output.writeBool(1005, deleteNull_);
       }
     }
 
@@ -385,37 +458,45 @@ public final class MiModifyApplicationPartsAd {
       if (size != -1) return size;
 
       size = 0;
+      if (applicationPartId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getApplicationPartId());
+      }
       if (applicationId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getApplicationId());
+          .computeMessageSize(2, getApplicationId());
       }
       if (userId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getUserId());
+          .computeMessageSize(3, getUserId());
       }
       if (applicationPart_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getApplicationPart());
+          .computeMessageSize(4, getApplicationPart());
       }
       if (delete_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getDelete());
+          .computeMessageSize(5, getDelete());
+      }
+      if (applicationPartIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1001, applicationPartIdNull_);
       }
       if (applicationIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1001, applicationIdNull_);
+          .computeBoolSize(1002, applicationIdNull_);
       }
       if (userIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1002, userIdNull_);
+          .computeBoolSize(1003, userIdNull_);
       }
       if (applicationPartNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, applicationPartNull_);
+          .computeBoolSize(1004, applicationPartNull_);
       }
       if (deleteNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, deleteNull_);
+          .computeBoolSize(1005, deleteNull_);
       }
       memoizedSize = size;
       return size;
@@ -528,6 +609,14 @@ public final class MiModifyApplicationPartsAd {
       }
       public Builder clear() {
         super.clear();
+        if (applicationPartIdBuilder_ == null) {
+          applicationPartId_ = null;
+        } else {
+          applicationPartId_ = null;
+          applicationPartIdBuilder_ = null;
+        }
+        applicationPartIdNull_ = false;
+
         if (applicationIdBuilder_ == null) {
           applicationId_ = null;
         } else {
@@ -582,6 +671,12 @@ public final class MiModifyApplicationPartsAd {
 
       public io.dstore.engine.procedures.MiModifyApplicationPartsAd.Parameters buildPartial() {
         io.dstore.engine.procedures.MiModifyApplicationPartsAd.Parameters result = new io.dstore.engine.procedures.MiModifyApplicationPartsAd.Parameters(this);
+        if (applicationPartIdBuilder_ == null) {
+          result.applicationPartId_ = applicationPartId_;
+        } else {
+          result.applicationPartId_ = applicationPartIdBuilder_.build();
+        }
+        result.applicationPartIdNull_ = applicationPartIdNull_;
         if (applicationIdBuilder_ == null) {
           result.applicationId_ = applicationId_;
         } else {
@@ -621,6 +716,12 @@ public final class MiModifyApplicationPartsAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.MiModifyApplicationPartsAd.Parameters other) {
         if (other == io.dstore.engine.procedures.MiModifyApplicationPartsAd.Parameters.getDefaultInstance()) return this;
+        if (other.hasApplicationPartId()) {
+          mergeApplicationPartId(other.getApplicationPartId());
+        }
+        if (other.getApplicationPartIdNull() != false) {
+          setApplicationPartIdNull(other.getApplicationPartIdNull());
+        }
         if (other.hasApplicationId()) {
           mergeApplicationId(other.getApplicationId());
         }
@@ -671,17 +772,160 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue applicationPartId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applicationPartIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+       */
+      public boolean hasApplicationPartId() {
+        return applicationPartIdBuilder_ != null || applicationPartId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue getApplicationPartId() {
+        if (applicationPartIdBuilder_ == null) {
+          return applicationPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
+        } else {
+          return applicationPartIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+       */
+      public Builder setApplicationPartId(io.dstore.Values.integerValue value) {
+        if (applicationPartIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          applicationPartId_ = value;
+          onChanged();
+        } else {
+          applicationPartIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+       */
+      public Builder setApplicationPartId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (applicationPartIdBuilder_ == null) {
+          applicationPartId_ = builderForValue.build();
+          onChanged();
+        } else {
+          applicationPartIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+       */
+      public Builder mergeApplicationPartId(io.dstore.Values.integerValue value) {
+        if (applicationPartIdBuilder_ == null) {
+          if (applicationPartId_ != null) {
+            applicationPartId_ =
+              io.dstore.Values.integerValue.newBuilder(applicationPartId_).mergeFrom(value).buildPartial();
+          } else {
+            applicationPartId_ = value;
+          }
+          onChanged();
+        } else {
+          applicationPartIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+       */
+      public Builder clearApplicationPartId() {
+        if (applicationPartIdBuilder_ == null) {
+          applicationPartId_ = null;
+          onChanged();
+        } else {
+          applicationPartId_ = null;
+          applicationPartIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getApplicationPartIdBuilder() {
+        
+        onChanged();
+        return getApplicationPartIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
+        if (applicationPartIdBuilder_ != null) {
+          return applicationPartIdBuilder_.getMessageOrBuilder();
+        } else {
+          return applicationPartId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getApplicationPartIdFieldBuilder() {
+        if (applicationPartIdBuilder_ == null) {
+          applicationPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getApplicationPartId(),
+                  getParentForChildren(),
+                  isClean());
+          applicationPartId_ = null;
+        }
+        return applicationPartIdBuilder_;
+      }
+
+      private boolean applicationPartIdNull_ ;
+      /**
+       * <code>optional bool application_part_id_null = 1001;</code>
+       */
+      public boolean getApplicationPartIdNull() {
+        return applicationPartIdNull_;
+      }
+      /**
+       * <code>optional bool application_part_id_null = 1001;</code>
+       */
+      public Builder setApplicationPartIdNull(boolean value) {
+        
+        applicationPartIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool application_part_id_null = 1001;</code>
+       */
+      public Builder clearApplicationPartIdNull() {
+        
+        applicationPartIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue applicationId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applicationIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_id = 2;</code>
        */
       public boolean hasApplicationId() {
         return applicationIdBuilder_ != null || applicationId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_id = 2;</code>
        */
       public io.dstore.Values.integerValue getApplicationId() {
         if (applicationIdBuilder_ == null) {
@@ -691,7 +935,7 @@ public final class MiModifyApplicationPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_id = 2;</code>
        */
       public Builder setApplicationId(io.dstore.Values.integerValue value) {
         if (applicationIdBuilder_ == null) {
@@ -707,7 +951,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_id = 2;</code>
        */
       public Builder setApplicationId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -721,7 +965,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_id = 2;</code>
        */
       public Builder mergeApplicationId(io.dstore.Values.integerValue value) {
         if (applicationIdBuilder_ == null) {
@@ -739,7 +983,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_id = 2;</code>
        */
       public Builder clearApplicationId() {
         if (applicationIdBuilder_ == null) {
@@ -753,7 +997,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_id = 2;</code>
        */
       public io.dstore.Values.integerValue.Builder getApplicationIdBuilder() {
         
@@ -761,7 +1005,7 @@ public final class MiModifyApplicationPartsAd {
         return getApplicationIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_id = 2;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getApplicationIdOrBuilder() {
         if (applicationIdBuilder_ != null) {
@@ -772,7 +1016,7 @@ public final class MiModifyApplicationPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -790,13 +1034,13 @@ public final class MiModifyApplicationPartsAd {
 
       private boolean applicationIdNull_ ;
       /**
-       * <code>optional bool application_id_null = 1001;</code>
+       * <code>optional bool application_id_null = 1002;</code>
        */
       public boolean getApplicationIdNull() {
         return applicationIdNull_;
       }
       /**
-       * <code>optional bool application_id_null = 1001;</code>
+       * <code>optional bool application_id_null = 1002;</code>
        */
       public Builder setApplicationIdNull(boolean value) {
         
@@ -805,7 +1049,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional bool application_id_null = 1001;</code>
+       * <code>optional bool application_id_null = 1002;</code>
        */
       public Builder clearApplicationIdNull() {
         
@@ -818,13 +1062,13 @@ public final class MiModifyApplicationPartsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.integerValue user_id = 3;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.integerValue user_id = 3;</code>
        */
       public io.dstore.Values.integerValue getUserId() {
         if (userIdBuilder_ == null) {
@@ -834,7 +1078,7 @@ public final class MiModifyApplicationPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.integerValue user_id = 3;</code>
        */
       public Builder setUserId(io.dstore.Values.integerValue value) {
         if (userIdBuilder_ == null) {
@@ -850,7 +1094,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.integerValue user_id = 3;</code>
        */
       public Builder setUserId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -864,7 +1108,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.integerValue user_id = 3;</code>
        */
       public Builder mergeUserId(io.dstore.Values.integerValue value) {
         if (userIdBuilder_ == null) {
@@ -882,7 +1126,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.integerValue user_id = 3;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -896,7 +1140,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.integerValue user_id = 3;</code>
        */
       public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
         
@@ -904,7 +1148,7 @@ public final class MiModifyApplicationPartsAd {
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.integerValue user_id = 3;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
@@ -915,7 +1159,7 @@ public final class MiModifyApplicationPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.integerValue user_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -933,13 +1177,13 @@ public final class MiModifyApplicationPartsAd {
 
       private boolean userIdNull_ ;
       /**
-       * <code>optional bool user_id_null = 1002;</code>
+       * <code>optional bool user_id_null = 1003;</code>
        */
       public boolean getUserIdNull() {
         return userIdNull_;
       }
       /**
-       * <code>optional bool user_id_null = 1002;</code>
+       * <code>optional bool user_id_null = 1003;</code>
        */
       public Builder setUserIdNull(boolean value) {
         
@@ -948,7 +1192,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional bool user_id_null = 1002;</code>
+       * <code>optional bool user_id_null = 1003;</code>
        */
       public Builder clearUserIdNull() {
         
@@ -961,13 +1205,13 @@ public final class MiModifyApplicationPartsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> applicationPartBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue application_part = 3;</code>
+       * <code>optional .dstore.values.stringValue application_part = 4;</code>
        */
       public boolean hasApplicationPart() {
         return applicationPartBuilder_ != null || applicationPart_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue application_part = 3;</code>
+       * <code>optional .dstore.values.stringValue application_part = 4;</code>
        */
       public io.dstore.Values.stringValue getApplicationPart() {
         if (applicationPartBuilder_ == null) {
@@ -977,7 +1221,7 @@ public final class MiModifyApplicationPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue application_part = 3;</code>
+       * <code>optional .dstore.values.stringValue application_part = 4;</code>
        */
       public Builder setApplicationPart(io.dstore.Values.stringValue value) {
         if (applicationPartBuilder_ == null) {
@@ -993,7 +1237,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue application_part = 3;</code>
+       * <code>optional .dstore.values.stringValue application_part = 4;</code>
        */
       public Builder setApplicationPart(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1007,7 +1251,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue application_part = 3;</code>
+       * <code>optional .dstore.values.stringValue application_part = 4;</code>
        */
       public Builder mergeApplicationPart(io.dstore.Values.stringValue value) {
         if (applicationPartBuilder_ == null) {
@@ -1025,7 +1269,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue application_part = 3;</code>
+       * <code>optional .dstore.values.stringValue application_part = 4;</code>
        */
       public Builder clearApplicationPart() {
         if (applicationPartBuilder_ == null) {
@@ -1039,7 +1283,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue application_part = 3;</code>
+       * <code>optional .dstore.values.stringValue application_part = 4;</code>
        */
       public io.dstore.Values.stringValue.Builder getApplicationPartBuilder() {
         
@@ -1047,7 +1291,7 @@ public final class MiModifyApplicationPartsAd {
         return getApplicationPartFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue application_part = 3;</code>
+       * <code>optional .dstore.values.stringValue application_part = 4;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getApplicationPartOrBuilder() {
         if (applicationPartBuilder_ != null) {
@@ -1058,7 +1302,7 @@ public final class MiModifyApplicationPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue application_part = 3;</code>
+       * <code>optional .dstore.values.stringValue application_part = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1076,13 +1320,13 @@ public final class MiModifyApplicationPartsAd {
 
       private boolean applicationPartNull_ ;
       /**
-       * <code>optional bool application_part_null = 1003;</code>
+       * <code>optional bool application_part_null = 1004;</code>
        */
       public boolean getApplicationPartNull() {
         return applicationPartNull_;
       }
       /**
-       * <code>optional bool application_part_null = 1003;</code>
+       * <code>optional bool application_part_null = 1004;</code>
        */
       public Builder setApplicationPartNull(boolean value) {
         
@@ -1091,7 +1335,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional bool application_part_null = 1003;</code>
+       * <code>optional bool application_part_null = 1004;</code>
        */
       public Builder clearApplicationPartNull() {
         
@@ -1104,13 +1348,13 @@ public final class MiModifyApplicationPartsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 5;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 5;</code>
        */
       public io.dstore.Values.booleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -1120,7 +1364,7 @@ public final class MiModifyApplicationPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 5;</code>
        */
       public Builder setDelete(io.dstore.Values.booleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1136,7 +1380,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 5;</code>
        */
       public Builder setDelete(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1150,7 +1394,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 5;</code>
        */
       public Builder mergeDelete(io.dstore.Values.booleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1168,7 +1412,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 5;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1182,7 +1426,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 5;</code>
        */
       public io.dstore.Values.booleanValue.Builder getDeleteBuilder() {
         
@@ -1190,7 +1434,7 @@ public final class MiModifyApplicationPartsAd {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 5;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1201,7 +1445,7 @@ public final class MiModifyApplicationPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1219,13 +1463,13 @@ public final class MiModifyApplicationPartsAd {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>optional bool delete_null = 1005;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>optional bool delete_null = 1005;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1234,7 +1478,7 @@ public final class MiModifyApplicationPartsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>optional bool delete_null = 1005;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -3475,24 +3719,28 @@ public final class MiModifyApplicationPartsAd {
       "ModifyApplicationParts_Ad\032\023dstore/values" +
       ".proto\032\031dstore/engine/error.proto\032\033dstor" +
       "e/engine/message.proto\032#dstore/engine/me" +
-      "tainformation.proto\"\275\002\n\nParameters\0223\n\016ap" +
-      "plication_id\030\001 \001(\0132\033.dstore.values.integ" +
-      "erValue\022\034\n\023application_id_null\030\351\007 \001(\010\022,\n" +
-      "\007user_id\030\002 \001(\0132\033.dstore.values.integerVa" +
-      "lue\022\025\n\014user_id_null\030\352\007 \001(\010\0224\n\020applicatio",
-      "n_part\030\003 \001(\0132\032.dstore.values.stringValue" +
-      "\022\036\n\025application_part_null\030\353\007 \001(\010\022+\n\006dele" +
-      "te\030\004 \001(\0132\033.dstore.values.booleanValue\022\024\n" +
-      "\013delete_null\030\354\007 \001(\010\"\311\002\n\010Response\022)\n\005erro" +
-      "r\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020m" +
-      "eta_information\030\002 \003(\0132..dstore.engine.me" +
-      "tainformation.MetaInformation\022/\n\007message" +
-      "\030\003 \003(\0132\036.dstore.engine.message.Message\022E" +
-      "\n\003row\030\004 \003(\01328.dstore.engine.mi_ModifyApp" +
-      "licationParts_Ad.Response.Row\0228\n\023applica",
-      "tion_part_id\030e \001(\0132\033.dstore.values.integ" +
-      "erValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.ds" +
-      "tore.engine.proceduresb\006proto3"
+      "tainformation.proto\"\232\003\n\nParameters\0228\n\023ap" +
+      "plication_part_id\030\001 \001(\0132\033.dstore.values." +
+      "integerValue\022!\n\030application_part_id_null" +
+      "\030\351\007 \001(\010\0223\n\016application_id\030\002 \001(\0132\033.dstore" +
+      ".values.integerValue\022\034\n\023application_id_n",
+      "ull\030\352\007 \001(\010\022,\n\007user_id\030\003 \001(\0132\033.dstore.val" +
+      "ues.integerValue\022\025\n\014user_id_null\030\353\007 \001(\010\022" +
+      "4\n\020application_part\030\004 \001(\0132\032.dstore.value" +
+      "s.stringValue\022\036\n\025application_part_null\030\354" +
+      "\007 \001(\010\022+\n\006delete\030\005 \001(\0132\033.dstore.values.bo" +
+      "oleanValue\022\024\n\013delete_null\030\355\007 \001(\010\"\311\002\n\010Res" +
+      "ponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.err" +
+      "or.Error\022H\n\020meta_information\030\002 \003(\0132..dst" +
+      "ore.engine.metainformation.MetaInformati" +
+      "on\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mess",
+      "age.Message\022E\n\003row\030\004 \003(\01328.dstore.engine" +
+      ".mi_ModifyApplicationParts_Ad.Response.R" +
+      "ow\0228\n\023application_part_id\030e \001(\0132\033.dstore" +
+      ".values.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N" +
+      " \001(\005B]\n\033io.dstore.engine.proceduresZ>gos" +
+      "dk.dstore.de/engine/procedures/mi_Modify" +
+      "ApplicationParts_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3515,7 +3763,7 @@ public final class MiModifyApplicationPartsAd {
     internal_static_dstore_engine_mi_ModifyApplicationParts_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyApplicationParts_Ad_Parameters_descriptor,
-        new java.lang.String[] { "ApplicationId", "ApplicationIdNull", "UserId", "UserIdNull", "ApplicationPart", "ApplicationPartNull", "Delete", "DeleteNull", });
+        new java.lang.String[] { "ApplicationPartId", "ApplicationPartIdNull", "ApplicationId", "ApplicationIdNull", "UserId", "UserIdNull", "ApplicationPart", "ApplicationPartNull", "Delete", "DeleteNull", });
     internal_static_dstore_engine_mi_ModifyApplicationParts_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_ModifyApplicationParts_Ad_Response_fieldAccessorTable = new

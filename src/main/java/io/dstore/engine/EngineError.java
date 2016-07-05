@@ -858,8 +858,9 @@ public final class EngineError {
       ".engine.error.Types\022\014\n\004code\030\002 \001(\005\022\017\n\007mes" +
       "sage\030\003 \001(\t\022\017\n\007details\030\004 \001(\t*B\n\005Types\022\n\n\006" +
       "UNKOWN\020\000\022\032\n\026RETURN_STATUS_NOT_ZERO\020\001\022\021\n\r" +
-      "SQL_EXCEPTION\020\002B\037\n\020io.dstore.engineB\013Eng" +
-      "ineErrorb\006proto3"
+      "SQL_EXCEPTION\020\002B=\n\020io.dstore.engineB\013Eng" +
+      "ineErrorZ\034gosdk.dstore.de/engine/errorb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5142,8 +5142,10 @@ public final class MiGetProcedureCodeAd {
       "tegerValue\022.\n\tcode_line\030\223N \001(\0132\032.dstore.",
       "values.stringValue\0221\n\014comment_part\030\224N \001(" +
       "\0132\032.dstore.values.stringValue\022.\n\tcode_pa" +
-      "rt\030\225N \001(\0132\032.dstore.values.stringValueB\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "rt\030\225N \001(\0132\032.dstore.values.stringValueBW\n" +
+      "\033io.dstore.engine.proceduresZ8gosdk.dsto" +
+      "re.de/engine/procedures/mi_GetProcedureC" +
+      "ode_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4896,8 +4896,9 @@ public final class OmGetCampaignBonusItemsAd {
       "ore.values.integerValue\022@\n\032item_conditio" +
       "n_description\030\246\234\001 \001(\0132\032.dstore.values.st" +
       "ringValue\022.\n\007sort_no\030\247\234\001 \001(\0132\033.dstore.va" +
-      "lues.integerValueB\035\n\033io.dstore.engine.pr" +
-      "oceduresb\006proto3"
+      "lues.integerValueB\\\n\033io.dstore.engine.pr" +
+      "oceduresZ=gosdk.dstore.de/engine/procedu",
+      "res/om_GetCampaignBonusItems_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

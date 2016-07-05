@@ -65,6 +65,24 @@ public final class OmGetTrolleysAd {
      * <code>optional bool only_for_identified_persons_null = 1003;</code>
      */
     boolean getOnlyForIdentifiedPersonsNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     */
+    boolean hasNumberOfTrolleys();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     */
+    io.dstore.Values.integerValue getNumberOfTrolleys();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNumberOfTrolleysOrBuilder();
+
+    /**
+     * <code>optional bool number_of_trolleys_null = 1004;</code>
+     */
+    boolean getNumberOfTrolleysNull();
   }
   /**
    * Protobuf type {@code dstore.engine.om_GetTrolleys_Ad.Parameters}
@@ -81,6 +99,7 @@ public final class OmGetTrolleysAd {
       fromDateAndTimeNull_ = false;
       toDateAndTimeNull_ = false;
       onlyForIdentifiedPersonsNull_ = false;
+      numberOfTrolleysNull_ = false;
     }
 
     @java.lang.Override
@@ -146,6 +165,19 @@ public final class OmGetTrolleysAd {
 
               break;
             }
+            case 34: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (numberOfTrolleys_ != null) {
+                subBuilder = numberOfTrolleys_.toBuilder();
+              }
+              numberOfTrolleys_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(numberOfTrolleys_);
+                numberOfTrolleys_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               fromDateAndTimeNull_ = input.readBool();
@@ -159,6 +191,11 @@ public final class OmGetTrolleysAd {
             case 8024: {
 
               onlyForIdentifiedPersonsNull_ = input.readBool();
+              break;
+            }
+            case 8032: {
+
+              numberOfTrolleysNull_ = input.readBool();
               break;
             }
           }
@@ -275,6 +312,36 @@ public final class OmGetTrolleysAd {
       return onlyForIdentifiedPersonsNull_;
     }
 
+    public static final int NUMBER_OF_TROLLEYS_FIELD_NUMBER = 4;
+    private io.dstore.Values.integerValue numberOfTrolleys_;
+    /**
+     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     */
+    public boolean hasNumberOfTrolleys() {
+      return numberOfTrolleys_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     */
+    public io.dstore.Values.integerValue getNumberOfTrolleys() {
+      return numberOfTrolleys_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfTrolleys_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNumberOfTrolleysOrBuilder() {
+      return getNumberOfTrolleys();
+    }
+
+    public static final int NUMBER_OF_TROLLEYS_NULL_FIELD_NUMBER = 1004;
+    private boolean numberOfTrolleysNull_;
+    /**
+     * <code>optional bool number_of_trolleys_null = 1004;</code>
+     */
+    public boolean getNumberOfTrolleysNull() {
+      return numberOfTrolleysNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -296,6 +363,9 @@ public final class OmGetTrolleysAd {
       if (onlyForIdentifiedPersons_ != null) {
         output.writeMessage(3, getOnlyForIdentifiedPersons());
       }
+      if (numberOfTrolleys_ != null) {
+        output.writeMessage(4, getNumberOfTrolleys());
+      }
       if (fromDateAndTimeNull_ != false) {
         output.writeBool(1001, fromDateAndTimeNull_);
       }
@@ -304,6 +374,9 @@ public final class OmGetTrolleysAd {
       }
       if (onlyForIdentifiedPersonsNull_ != false) {
         output.writeBool(1003, onlyForIdentifiedPersonsNull_);
+      }
+      if (numberOfTrolleysNull_ != false) {
+        output.writeBool(1004, numberOfTrolleysNull_);
       }
     }
 
@@ -324,6 +397,10 @@ public final class OmGetTrolleysAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, getOnlyForIdentifiedPersons());
       }
+      if (numberOfTrolleys_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getNumberOfTrolleys());
+      }
       if (fromDateAndTimeNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, fromDateAndTimeNull_);
@@ -335,6 +412,10 @@ public final class OmGetTrolleysAd {
       if (onlyForIdentifiedPersonsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, onlyForIdentifiedPersonsNull_);
+      }
+      if (numberOfTrolleysNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1004, numberOfTrolleysNull_);
       }
       memoizedSize = size;
       return size;
@@ -471,6 +552,14 @@ public final class OmGetTrolleysAd {
         }
         onlyForIdentifiedPersonsNull_ = false;
 
+        if (numberOfTrolleysBuilder_ == null) {
+          numberOfTrolleys_ = null;
+        } else {
+          numberOfTrolleys_ = null;
+          numberOfTrolleysBuilder_ = null;
+        }
+        numberOfTrolleysNull_ = false;
+
         return this;
       }
 
@@ -511,6 +600,12 @@ public final class OmGetTrolleysAd {
           result.onlyForIdentifiedPersons_ = onlyForIdentifiedPersonsBuilder_.build();
         }
         result.onlyForIdentifiedPersonsNull_ = onlyForIdentifiedPersonsNull_;
+        if (numberOfTrolleysBuilder_ == null) {
+          result.numberOfTrolleys_ = numberOfTrolleys_;
+        } else {
+          result.numberOfTrolleys_ = numberOfTrolleysBuilder_.build();
+        }
+        result.numberOfTrolleysNull_ = numberOfTrolleysNull_;
         onBuilt();
         return result;
       }
@@ -543,6 +638,12 @@ public final class OmGetTrolleysAd {
         }
         if (other.getOnlyForIdentifiedPersonsNull() != false) {
           setOnlyForIdentifiedPersonsNull(other.getOnlyForIdentifiedPersonsNull());
+        }
+        if (other.hasNumberOfTrolleys()) {
+          mergeNumberOfTrolleys(other.getNumberOfTrolleys());
+        }
+        if (other.getNumberOfTrolleysNull() != false) {
+          setNumberOfTrolleysNull(other.getNumberOfTrolleysNull());
         }
         onChanged();
         return this;
@@ -995,6 +1096,149 @@ public final class OmGetTrolleysAd {
       public Builder clearOnlyForIdentifiedPersonsNull() {
         
         onlyForIdentifiedPersonsNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue numberOfTrolleys_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfTrolleysBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       */
+      public boolean hasNumberOfTrolleys() {
+        return numberOfTrolleysBuilder_ != null || numberOfTrolleys_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       */
+      public io.dstore.Values.integerValue getNumberOfTrolleys() {
+        if (numberOfTrolleysBuilder_ == null) {
+          return numberOfTrolleys_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfTrolleys_;
+        } else {
+          return numberOfTrolleysBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       */
+      public Builder setNumberOfTrolleys(io.dstore.Values.integerValue value) {
+        if (numberOfTrolleysBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          numberOfTrolleys_ = value;
+          onChanged();
+        } else {
+          numberOfTrolleysBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       */
+      public Builder setNumberOfTrolleys(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (numberOfTrolleysBuilder_ == null) {
+          numberOfTrolleys_ = builderForValue.build();
+          onChanged();
+        } else {
+          numberOfTrolleysBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       */
+      public Builder mergeNumberOfTrolleys(io.dstore.Values.integerValue value) {
+        if (numberOfTrolleysBuilder_ == null) {
+          if (numberOfTrolleys_ != null) {
+            numberOfTrolleys_ =
+              io.dstore.Values.integerValue.newBuilder(numberOfTrolleys_).mergeFrom(value).buildPartial();
+          } else {
+            numberOfTrolleys_ = value;
+          }
+          onChanged();
+        } else {
+          numberOfTrolleysBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       */
+      public Builder clearNumberOfTrolleys() {
+        if (numberOfTrolleysBuilder_ == null) {
+          numberOfTrolleys_ = null;
+          onChanged();
+        } else {
+          numberOfTrolleys_ = null;
+          numberOfTrolleysBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNumberOfTrolleysBuilder() {
+        
+        onChanged();
+        return getNumberOfTrolleysFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNumberOfTrolleysOrBuilder() {
+        if (numberOfTrolleysBuilder_ != null) {
+          return numberOfTrolleysBuilder_.getMessageOrBuilder();
+        } else {
+          return numberOfTrolleys_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : numberOfTrolleys_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNumberOfTrolleysFieldBuilder() {
+        if (numberOfTrolleysBuilder_ == null) {
+          numberOfTrolleysBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNumberOfTrolleys(),
+                  getParentForChildren(),
+                  isClean());
+          numberOfTrolleys_ = null;
+        }
+        return numberOfTrolleysBuilder_;
+      }
+
+      private boolean numberOfTrolleysNull_ ;
+      /**
+       * <code>optional bool number_of_trolleys_null = 1004;</code>
+       */
+      public boolean getNumberOfTrolleysNull() {
+        return numberOfTrolleysNull_;
+      }
+      /**
+       * <code>optional bool number_of_trolleys_null = 1004;</code>
+       */
+      public Builder setNumberOfTrolleysNull(boolean value) {
+        
+        numberOfTrolleysNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool number_of_trolleys_null = 1004;</code>
+       */
+      public Builder clearNumberOfTrolleysNull() {
+        
+        numberOfTrolleysNull_ = false;
         onChanged();
         return this;
       }
@@ -5435,7 +5679,7 @@ public final class OmGetTrolleysAd {
       "s_Ad.proto\022\037dstore.engine.om_GetTrolleys" +
       "_Ad\032\023dstore/values.proto\032\031dstore/engine/" +
       "error.proto\032\033dstore/engine/message.proto" +
-      "\032#dstore/engine/metainformation.proto\"\257\002" +
+      "\032#dstore/engine/metainformation.proto\"\212\003" +
       "\n\nParameters\0229\n\022from_date_and_time\030\001 \001(\013" +
       "2\035.dstore.values.timestampValue\022 \n\027from_" +
       "date_and_time_null\030\351\007 \001(\010\0227\n\020to_date_and" +
@@ -5443,28 +5687,32 @@ public final class OmGetTrolleysAd {
       "ue\022\036\n\025to_date_and_time_null\030\352\007 \001(\010\022@\n\033on",
       "ly_for_identified_persons\030\003 \001(\0132\033.dstore" +
       ".values.booleanValue\022)\n only_for_identif" +
-      "ied_persons_null\030\353\007 \001(\010\"\237\006\n\010Response\022)\n\005" +
-      "error\030\001 \001(\0132\032.dstore.engine.error.Error\022" +
-      "H\n\020meta_information\030\002 \003(\0132..dstore.engin" +
-      "e.metainformation.MetaInformation\022/\n\007mes" +
-      "sage\030\003 \003(\0132\036.dstore.engine.message.Messa" +
-      "ge\022:\n\003row\030\004 \003(\0132-.dstore.engine.om_GetTr" +
-      "olleys_Ad.Response.Row\0227\n\022number_of_trol" +
-      "leys\030e \001(\0132\033.dstore.values.integerValue\032",
-      "\367\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\nvisitor_id\030\221" +
-      "N \001(\0132\033.dstore.values.integerValue\0226\n\021id" +
-      "entifying_value\030\222N \001(\0132\032.dstore.values.s" +
-      "tringValue\022/\n\tperson_id\030\223N \001(\0132\033.dstore." +
-      "values.integerValue\022;\n\023input_date_and_ti" +
-      "me\030\224N \001(\0132\035.dstore.values.timestampValue" +
-      "\0224\n\016h_tree_node_id\030\225N \001(\0132\033.dstore.value" +
-      "s.integerValue\022,\n\007item_no\030\226N \001(\0132\032.dstor" +
-      "e.values.stringValue\0222\n\014tree_node_id\030\227N " +
-      "\001(\0132\033.dstore.values.integerValue\022?\n\032iden",
-      "t_val_restr_by_pattern\030\230N \001(\0132\032.dstore.v" +
-      "alues.stringValue\022.\n\010quantity\030\231N \001(\0132\033.d" +
-      "store.values.integerValueB\035\n\033io.dstore.e" +
-      "ngine.proceduresb\006proto3"
+      "ied_persons_null\030\353\007 \001(\010\0227\n\022number_of_tro" +
+      "lleys\030\004 \001(\0132\033.dstore.values.integerValue" +
+      "\022 \n\027number_of_trolleys_null\030\354\007 \001(\010\"\237\006\n\010R" +
+      "esponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.e" +
+      "rror.Error\022H\n\020meta_information\030\002 \003(\0132..d" +
+      "store.engine.metainformation.MetaInforma" +
+      "tion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.me" +
+      "ssage.Message\022:\n\003row\030\004 \003(\0132-.dstore.engi",
+      "ne.om_GetTrolleys_Ad.Response.Row\0227\n\022num" +
+      "ber_of_trolleys\030e \001(\0132\033.dstore.values.in" +
+      "tegerValue\032\367\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\nv" +
+      "isitor_id\030\221N \001(\0132\033.dstore.values.integer" +
+      "Value\0226\n\021identifying_value\030\222N \001(\0132\032.dsto" +
+      "re.values.stringValue\022/\n\tperson_id\030\223N \001(" +
+      "\0132\033.dstore.values.integerValue\022;\n\023input_" +
+      "date_and_time\030\224N \001(\0132\035.dstore.values.tim" +
+      "estampValue\0224\n\016h_tree_node_id\030\225N \001(\0132\033.d" +
+      "store.values.integerValue\022,\n\007item_no\030\226N ",
+      "\001(\0132\032.dstore.values.stringValue\0222\n\014tree_" +
+      "node_id\030\227N \001(\0132\033.dstore.values.integerVa" +
+      "lue\022?\n\032ident_val_restr_by_pattern\030\230N \001(\013" +
+      "2\032.dstore.values.stringValue\022.\n\010quantity" +
+      "\030\231N \001(\0132\033.dstore.values.integerValueBR\n\033" +
+      "io.dstore.engine.proceduresZ3gosdk.dstor" +
+      "e.de/engine/procedures/om_GetTrolleys_Ad" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5487,7 +5735,7 @@ public final class OmGetTrolleysAd {
     internal_static_dstore_engine_om_GetTrolleys_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTrolleys_Ad_Parameters_descriptor,
-        new java.lang.String[] { "FromDateAndTime", "FromDateAndTimeNull", "ToDateAndTime", "ToDateAndTimeNull", "OnlyForIdentifiedPersons", "OnlyForIdentifiedPersonsNull", });
+        new java.lang.String[] { "FromDateAndTime", "FromDateAndTimeNull", "ToDateAndTime", "ToDateAndTimeNull", "OnlyForIdentifiedPersons", "OnlyForIdentifiedPersonsNull", "NumberOfTrolleys", "NumberOfTrolleysNull", });
     internal_static_dstore_engine_om_GetTrolleys_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetTrolleys_Ad_Response_fieldAccessorTable = new

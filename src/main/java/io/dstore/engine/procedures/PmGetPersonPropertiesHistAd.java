@@ -5142,7 +5142,9 @@ public final class PmGetPersonPropertiesHistAd {
       "ues.timestampValue\022.\n\010value_id\030\226N \001(\0132\033." +
       "dstore.values.integerValue\0224\n\017valid_from" +
       "_char\030\227N \001(\0132\032.dstore.values.stringValue",
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "B^\n\033io.dstore.engine.proceduresZ?gosdk.d" +
+      "store.de/engine/procedures/pm_GetPersonP" +
+      "ropertiesHist_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5388,8 +5388,9 @@ public final class MiGetProcedureParameters {
       "dstore.values.integerValue\0229\n\023j_d_b_c_da" +
       "tatype_id\030\230N \001(\0132\033.dstore.values.integer" +
       "Value\022-\n\010datatype\030\231N \001(\0132\032.dstore.values",
-      ".stringValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      ".stringValueBZ\n\033io.dstore.engine.procedu" +
+      "resZ;gosdk.dstore.de/engine/procedures/m" +
+      "i_GetProcedureParametersb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

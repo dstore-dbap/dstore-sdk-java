@@ -4651,7 +4651,9 @@ public final class OmGetNodePaymentForShipAd {
       "alue\022,\n\006always\030\227N \001(\0132\033.dstore.values.bo" +
       "oleanValue\022E\n payment_for_shipping_descr" +
       "iption\030\230N \001(\0132\032.dstore.values.stringValu" +
-      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "eB\\\n\033io.dstore.engine.proceduresZ=gosdk." +
+      "dstore.de/engine/procedures/om_GetNodePa" +
+      "ymentForShip_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

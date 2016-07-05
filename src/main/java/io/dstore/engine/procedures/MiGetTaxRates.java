@@ -4402,8 +4402,9 @@ public final class MiGetTaxRates {
       "\0132\033.dstore.values.decimalValue\0221\n\013tax_ra" +
       "te_id\030\225N \001(\0132\033.dstore.values.integerValu" +
       "e\0225\n\017use_as_fallback\030\226N \001(\0132\033.dstore.val" +
-      "ues.booleanValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "ues.booleanValueBO\n\033io.dstore.engine.pro" +
+      "ceduresZ0gosdk.dstore.de/engine/procedur" +
+      "es/mi_GetTaxRatesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

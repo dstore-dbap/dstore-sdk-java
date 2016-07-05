@@ -799,8 +799,9 @@ public final class EngineMetaInformation {
       "rmation\0222\n\004type\030\001 \001(\0162$.dstore.engine.me" +
       "tainformation.Types\022\023\n\013information\030\002 \001(\t" +
       "\022\017\n\007details\030\003 \001(\t*2\n\005Types\022\n\n\006UNKOWN\020\000\022\016" +
-      "\n\nSQL_STRING\020\001\022\r\n\tEXEC_TIME\020\002B)\n\020io.dsto" +
-      "re.engineB\025EngineMetaInformationb\006proto3"
+      "\n\nSQL_STRING\020\001\022\r\n\tEXEC_TIME\020\002BQ\n\020io.dsto" +
+      "re.engineB\025EngineMetaInformationZ&gosdk." +
+      "dstore.de/engine/metainformationb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

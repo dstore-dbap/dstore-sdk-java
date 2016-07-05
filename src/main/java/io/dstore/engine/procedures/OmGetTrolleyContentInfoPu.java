@@ -4157,8 +4157,9 @@ public final class OmGetTrolleyContentInfoPu {
       "ore.values.integerValue\0224\n\016h_tree_node_i" +
       "d\030\223N \001(\0132\033.dstore.values.integerValue\0220\n" +
       "\013information\030\224N \001(\0132\032.dstore.values.stri" +
-      "ngValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "ngValueB\\\n\033io.dstore.engine.proceduresZ=" +
+      "gosdk.dstore.de/engine/procedures/om_Get" +
+      "TrolleyContentInfo_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

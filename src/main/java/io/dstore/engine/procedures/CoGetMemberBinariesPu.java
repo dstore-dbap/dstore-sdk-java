@@ -9577,8 +9577,10 @@ public final class CoGetMemberBinariesPu {
       "d_by_pattern\030\240N \001(\0132\032.dstore.values.stri",
       "ngValue\022=\n\030input_date_and_time_char\030\241N \001" +
       "(\0132\032.dstore.values.stringValue\022-\n\010nickna" +
-      "me\030\242N \001(\0132\032.dstore.values.stringValueB\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "me\030\242N \001(\0132\032.dstore.values.stringValueBX\n" +
+      "\033io.dstore.engine.proceduresZ9gosdk.dsto" +
+      "re.de/engine/procedures/co_GetMemberBina" +
+      "ries_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

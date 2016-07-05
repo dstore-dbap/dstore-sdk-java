@@ -4898,8 +4898,10 @@ public final class OmGetVoucherTypeSurchargesAd {
       ".decimalValue\0227\n\021surcharge_type_id\030\227N \001(" +
       "\0132\033.dstore.values.integerValue\022@\n\032surcha" +
       "rge_type_category_id\030\230N \001(\0132\033.dstore.val" +
-      "ues.integerValueB\035\n\033io.dstore.engine.pro",
-      "ceduresb\006proto3"
+      "ues.integerValueB_\n\033io.dstore.engine.pro",
+      "ceduresZ@gosdk.dstore.de/engine/procedur" +
+      "es/om_GetVoucherTypeSurcharges_Adb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -9573,8 +9573,9 @@ public final class FoGetPostingsOfOnePersonPu {
       "\033.dstore.values.booleanValue\0223\n\014has_bina" +
       "ries\030\252\234\001 \001(\0132\033.dstore.values.booleanValu",
       "e\0225\n\016has_successors\030\255\234\001 \001(\0132\033.dstore.val" +
-      "ues.booleanValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "ues.booleanValueB]\n\033io.dstore.engine.pro" +
+      "ceduresZ>gosdk.dstore.de/engine/procedur" +
+      "es/fo_GetPostingsOfOnePerson_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

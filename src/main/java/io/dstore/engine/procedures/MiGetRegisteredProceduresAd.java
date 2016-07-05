@@ -4404,8 +4404,9 @@ public final class MiGetRegisteredProceduresAd {
       "store.values.integerValue\0224\n\016log_executi" +
       "ons\030\223N \001(\0132\033.dstore.values.integerValue\022" +
       "3\n\016procedure_name\030\224N \001(\0132\032.dstore.values" +
-      ".stringValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      ".stringValueB^\n\033io.dstore.engine.procedu" +
+      "resZ?gosdk.dstore.de/engine/procedures/m" +
+      "i_GetRegisteredProcedures_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

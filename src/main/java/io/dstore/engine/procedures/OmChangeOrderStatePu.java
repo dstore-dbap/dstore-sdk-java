@@ -4895,7 +4895,9 @@ public final class OmChangeOrderStatePu {
       "\017\n\006row_id\030\220N \001(\005\022.\n\010order_id\030\221N \001(\0132\033.ds",
       "tore.values.integerValue\0226\n\020order_conten" +
       "t_id\030\222N \001(\0132\033.dstore.values.integerValue" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "BW\n\033io.dstore.engine.proceduresZ8gosdk.d" +
+      "store.de/engine/procedures/om_ChangeOrde" +
+      "rState_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

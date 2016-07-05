@@ -5636,8 +5636,9 @@ public final class ImGetDirectSuccessorsTreePu {
       "dstore.values.booleanValue\0222\n\014tree_node_" +
       "id\030\226N \001(\0132\033.dstore.values.integerValue\0224" +
       "\n\016has_successors\030\227N \001(\0132\033.dstore.values." +
-      "booleanValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      "booleanValueB_\n\033io.dstore.engine.procedu" +
+      "resZ@gosdk.dstore.de/engine/procedures/i" +
+      "m_GetDirectSuccessors_Tree_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

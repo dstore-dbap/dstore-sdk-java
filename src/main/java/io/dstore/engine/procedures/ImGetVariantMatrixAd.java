@@ -6128,8 +6128,9 @@ public final class ImGetVariantMatrixAd {
       "tore.values.integerValue\0221\n\014y_axis_value" +
       "\030\227N \001(\0132\032.dstore.values.stringValue\0225\n\017x" +
       "_axis_value_id\030\230N \001(\0132\033.dstore.values.in" +
-      "tegerValueB\035\n\033io.dstore.engine.procedure",
-      "sb\006proto3"
+      "tegerValueBW\n\033io.dstore.engine.procedure",
+      "sZ8gosdk.dstore.de/engine/procedures/im_" +
+      "GetVariantMatrix_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3417,8 +3417,9 @@ public final class AcGetCommandsAd {
       "d\030\221N \001(\0132\032.dstore.values.stringValue\0228\n\023" +
       "command_description\030\222N \001(\0132\032.dstore.valu" +
       "es.stringValue\0220\n\ncommand_id\030\223N \001(\0132\033.ds" +
-      "tore.values.integerValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "tore.values.integerValueBR\n\033io.dstore.en" +
+      "gine.proceduresZ3gosdk.dstore.de/engine/" +
+      "procedures/ac_GetCommands_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

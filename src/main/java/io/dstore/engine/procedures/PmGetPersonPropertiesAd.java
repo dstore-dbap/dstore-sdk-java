@@ -11303,8 +11303,10 @@ public final class PmGetPersonPropertiesAd {
       "ion\030\245N \001(\0132\032.dstore.values.stringValue\022=" +
       "\n\027person_type_description\030\241\234\001 \001(\0132\032.dsto" +
       "re.values.stringValue\0225\n\016person_type_id\030" +
-      "\243\234\001 \001(\0132\033.dstore.values.integerValueB\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "\243\234\001 \001(\0132\033.dstore.values.integerValueBZ\n\033" +
+      "io.dstore.engine.proceduresZ;gosdk.dstor" +
+      "e.de/engine/procedures/pm_GetPersonPrope" +
+      "rties_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

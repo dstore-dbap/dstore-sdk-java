@@ -5389,8 +5389,9 @@ public final class OmGetPricesAd {
       "absolute_unit_gross_surcharge\030\227N \001(\0132\033.d",
       "store.values.decimalValue\0228\n\022relative_su" +
       "rcharge\030\230N \001(\0132\033.dstore.values.decimalVa" +
-      "lueB\035\n\033io.dstore.engine.proceduresb\006prot" +
-      "o3"
+      "lueBP\n\033io.dstore.engine.proceduresZ1gosd" +
+      "k.dstore.de/engine/procedures/om_GetPric" +
+      "es_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

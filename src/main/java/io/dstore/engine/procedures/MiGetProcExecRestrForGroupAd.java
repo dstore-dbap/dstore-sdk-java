@@ -4897,8 +4897,10 @@ public final class MiGetProcExecRestrForGroupAd {
       "2\033.dstore.values.integerValue\0223\n\016paramet" +
       "er_name\030\227N \001(\0132\032.dstore.values.stringVal" +
       "ue\022C\n\035restriction_for_user_group_id\030\230N \001" +
-      "(\0132\033.dstore.values.integerValueB\035\n\033io.ds" +
-      "tore.engine.proceduresb\006proto3"
+      "(\0132\033.dstore.values.integerValueB_\n\033io.ds" +
+      "tore.engine.proceduresZ@gosdk.dstore.de/",
+      "engine/procedures/mi_GetProcExecRestrFor" +
+      "Group_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

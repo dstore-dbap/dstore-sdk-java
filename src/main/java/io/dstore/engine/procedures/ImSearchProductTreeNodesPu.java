@@ -283,110 +283,128 @@ public final class ImSearchProductTreeNodesPu {
     boolean getNegateFilterByParamsNull();
 
     /**
-     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    boolean hasCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    io.dstore.Values.integerValue getCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getCountOrBuilder();
+
+    /**
+     * <code>optional bool count_null = 1016;</code>
+     */
+    boolean getCountNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
      */
     boolean hasSortByCharacteristicIdList();
     /**
-     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
      */
     io.dstore.Values.stringValue getSortByCharacteristicIdList();
     /**
-     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
      */
     io.dstore.Values.stringValueOrBuilder getSortByCharacteristicIdListOrBuilder();
 
     /**
-     * <code>optional bool sort_by_characteristic_id_list_null = 1016;</code>
+     * <code>optional bool sort_by_characteristic_id_list_null = 1017;</code>
      */
     boolean getSortByCharacteristicIdListNull();
 
     /**
-     * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
      */
     boolean hasSortOptionList();
     /**
-     * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
      */
     io.dstore.Values.stringValue getSortOptionList();
     /**
-     * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
      */
     io.dstore.Values.stringValueOrBuilder getSortOptionListOrBuilder();
 
     /**
-     * <code>optional bool sort_option_list_null = 1017;</code>
+     * <code>optional bool sort_option_list_null = 1018;</code>
      */
     boolean getSortOptionListNull();
 
     /**
-     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
      */
     boolean hasInheritDepthOptionList();
     /**
-     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
      */
     io.dstore.Values.stringValue getInheritDepthOptionList();
     /**
-     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
      */
     io.dstore.Values.stringValueOrBuilder getInheritDepthOptionListOrBuilder();
 
     /**
-     * <code>optional bool inherit_depth_option_list_null = 1018;</code>
+     * <code>optional bool inherit_depth_option_list_null = 1019;</code>
      */
     boolean getInheritDepthOptionListNull();
 
     /**
-     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
      */
     boolean hasRecursiveEvaluationOptionList();
     /**
-     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
      */
     io.dstore.Values.stringValue getRecursiveEvaluationOptionList();
     /**
-     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
      */
     io.dstore.Values.stringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder();
 
     /**
-     * <code>optional bool recursive_evaluation_option_list_null = 1019;</code>
+     * <code>optional bool recursive_evaluation_option_list_null = 1020;</code>
      */
     boolean getRecursiveEvaluationOptionListNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
      */
     boolean hasGetValuesForSortByCharacs();
     /**
-     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
      */
     io.dstore.Values.booleanValue getGetValuesForSortByCharacs();
     /**
-     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder();
 
     /**
-     * <code>optional bool get_values_for_sort_by_characs_null = 1020;</code>
+     * <code>optional bool get_values_for_sort_by_characs_null = 1021;</code>
      */
     boolean getGetValuesForSortByCharacsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
      */
     boolean hasOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
      */
     io.dstore.Values.integerValue getOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
      */
     io.dstore.Values.integerValueOrBuilder getOutputIntoOneIdOrBuilder();
 
     /**
-     * <code>optional bool output_into_one_id_null = 1021;</code>
+     * <code>optional bool output_into_one_id_null = 1022;</code>
      */
     boolean getOutputIntoOneIdNull();
   }
@@ -417,6 +435,7 @@ public final class ImSearchProductTreeNodesPu {
       filterByCharacValueNull_ = false;
       countryNull_ = false;
       negateFilterByParamsNull_ = false;
+      countNull_ = false;
       sortByCharacteristicIdListNull_ = false;
       sortOptionListNull_ = false;
       inheritDepthOptionListNull_ = false;
@@ -646,6 +665,19 @@ public final class ImSearchProductTreeNodesPu {
               break;
             }
             case 130: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (count_ != null) {
+                subBuilder = count_.toBuilder();
+              }
+              count_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(count_);
+                count_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 138: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (sortByCharacteristicIdList_ != null) {
                 subBuilder = sortByCharacteristicIdList_.toBuilder();
@@ -658,7 +690,7 @@ public final class ImSearchProductTreeNodesPu {
 
               break;
             }
-            case 138: {
+            case 146: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (sortOptionList_ != null) {
                 subBuilder = sortOptionList_.toBuilder();
@@ -671,7 +703,7 @@ public final class ImSearchProductTreeNodesPu {
 
               break;
             }
-            case 146: {
+            case 154: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (inheritDepthOptionList_ != null) {
                 subBuilder = inheritDepthOptionList_.toBuilder();
@@ -684,7 +716,7 @@ public final class ImSearchProductTreeNodesPu {
 
               break;
             }
-            case 154: {
+            case 162: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (recursiveEvaluationOptionList_ != null) {
                 subBuilder = recursiveEvaluationOptionList_.toBuilder();
@@ -697,7 +729,7 @@ public final class ImSearchProductTreeNodesPu {
 
               break;
             }
-            case 162: {
+            case 170: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (getValuesForSortByCharacs_ != null) {
                 subBuilder = getValuesForSortByCharacs_.toBuilder();
@@ -710,7 +742,7 @@ public final class ImSearchProductTreeNodesPu {
 
               break;
             }
-            case 170: {
+            case 178: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputIntoOneId_ != null) {
                 subBuilder = outputIntoOneId_.toBuilder();
@@ -800,30 +832,35 @@ public final class ImSearchProductTreeNodesPu {
             }
             case 8128: {
 
-              sortByCharacteristicIdListNull_ = input.readBool();
+              countNull_ = input.readBool();
               break;
             }
             case 8136: {
 
-              sortOptionListNull_ = input.readBool();
+              sortByCharacteristicIdListNull_ = input.readBool();
               break;
             }
             case 8144: {
 
-              inheritDepthOptionListNull_ = input.readBool();
+              sortOptionListNull_ = input.readBool();
               break;
             }
             case 8152: {
 
-              recursiveEvaluationOptionListNull_ = input.readBool();
+              inheritDepthOptionListNull_ = input.readBool();
               break;
             }
             case 8160: {
 
-              getValuesForSortByCharacsNull_ = input.readBool();
+              recursiveEvaluationOptionListNull_ = input.readBool();
               break;
             }
             case 8168: {
+
+              getValuesForSortByCharacsNull_ = input.readBool();
+              break;
+            }
+            case 8176: {
 
               outputIntoOneIdNull_ = input.readBool();
               break;
@@ -1302,181 +1339,211 @@ public final class ImSearchProductTreeNodesPu {
       return negateFilterByParamsNull_;
     }
 
-    public static final int SORT_BY_CHARACTERISTIC_ID_LIST_FIELD_NUMBER = 16;
+    public static final int COUNT_FIELD_NUMBER = 16;
+    private io.dstore.Values.integerValue count_;
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    public boolean hasCount() {
+      return count_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    public io.dstore.Values.integerValue getCount() {
+      return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+      return getCount();
+    }
+
+    public static final int COUNT_NULL_FIELD_NUMBER = 1016;
+    private boolean countNull_;
+    /**
+     * <code>optional bool count_null = 1016;</code>
+     */
+    public boolean getCountNull() {
+      return countNull_;
+    }
+
+    public static final int SORT_BY_CHARACTERISTIC_ID_LIST_FIELD_NUMBER = 17;
     private io.dstore.Values.stringValue sortByCharacteristicIdList_;
     /**
-     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
      */
     public boolean hasSortByCharacteristicIdList() {
       return sortByCharacteristicIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
      */
     public io.dstore.Values.stringValue getSortByCharacteristicIdList() {
       return sortByCharacteristicIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sortByCharacteristicIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getSortByCharacteristicIdListOrBuilder() {
       return getSortByCharacteristicIdList();
     }
 
-    public static final int SORT_BY_CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER = 1016;
+    public static final int SORT_BY_CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER = 1017;
     private boolean sortByCharacteristicIdListNull_;
     /**
-     * <code>optional bool sort_by_characteristic_id_list_null = 1016;</code>
+     * <code>optional bool sort_by_characteristic_id_list_null = 1017;</code>
      */
     public boolean getSortByCharacteristicIdListNull() {
       return sortByCharacteristicIdListNull_;
     }
 
-    public static final int SORT_OPTION_LIST_FIELD_NUMBER = 17;
+    public static final int SORT_OPTION_LIST_FIELD_NUMBER = 18;
     private io.dstore.Values.stringValue sortOptionList_;
     /**
-     * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
      */
     public boolean hasSortOptionList() {
       return sortOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
      */
     public io.dstore.Values.stringValue getSortOptionList() {
       return sortOptionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sortOptionList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getSortOptionListOrBuilder() {
       return getSortOptionList();
     }
 
-    public static final int SORT_OPTION_LIST_NULL_FIELD_NUMBER = 1017;
+    public static final int SORT_OPTION_LIST_NULL_FIELD_NUMBER = 1018;
     private boolean sortOptionListNull_;
     /**
-     * <code>optional bool sort_option_list_null = 1017;</code>
+     * <code>optional bool sort_option_list_null = 1018;</code>
      */
     public boolean getSortOptionListNull() {
       return sortOptionListNull_;
     }
 
-    public static final int INHERIT_DEPTH_OPTION_LIST_FIELD_NUMBER = 18;
+    public static final int INHERIT_DEPTH_OPTION_LIST_FIELD_NUMBER = 19;
     private io.dstore.Values.stringValue inheritDepthOptionList_;
     /**
-     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
      */
     public boolean hasInheritDepthOptionList() {
       return inheritDepthOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
      */
     public io.dstore.Values.stringValue getInheritDepthOptionList() {
       return inheritDepthOptionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : inheritDepthOptionList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getInheritDepthOptionListOrBuilder() {
       return getInheritDepthOptionList();
     }
 
-    public static final int INHERIT_DEPTH_OPTION_LIST_NULL_FIELD_NUMBER = 1018;
+    public static final int INHERIT_DEPTH_OPTION_LIST_NULL_FIELD_NUMBER = 1019;
     private boolean inheritDepthOptionListNull_;
     /**
-     * <code>optional bool inherit_depth_option_list_null = 1018;</code>
+     * <code>optional bool inherit_depth_option_list_null = 1019;</code>
      */
     public boolean getInheritDepthOptionListNull() {
       return inheritDepthOptionListNull_;
     }
 
-    public static final int RECURSIVE_EVALUATION_OPTION_LIST_FIELD_NUMBER = 19;
+    public static final int RECURSIVE_EVALUATION_OPTION_LIST_FIELD_NUMBER = 20;
     private io.dstore.Values.stringValue recursiveEvaluationOptionList_;
     /**
-     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
      */
     public boolean hasRecursiveEvaluationOptionList() {
       return recursiveEvaluationOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
      */
     public io.dstore.Values.stringValue getRecursiveEvaluationOptionList() {
       return recursiveEvaluationOptionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : recursiveEvaluationOptionList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder() {
       return getRecursiveEvaluationOptionList();
     }
 
-    public static final int RECURSIVE_EVALUATION_OPTION_LIST_NULL_FIELD_NUMBER = 1019;
+    public static final int RECURSIVE_EVALUATION_OPTION_LIST_NULL_FIELD_NUMBER = 1020;
     private boolean recursiveEvaluationOptionListNull_;
     /**
-     * <code>optional bool recursive_evaluation_option_list_null = 1019;</code>
+     * <code>optional bool recursive_evaluation_option_list_null = 1020;</code>
      */
     public boolean getRecursiveEvaluationOptionListNull() {
       return recursiveEvaluationOptionListNull_;
     }
 
-    public static final int GET_VALUES_FOR_SORT_BY_CHARACS_FIELD_NUMBER = 20;
+    public static final int GET_VALUES_FOR_SORT_BY_CHARACS_FIELD_NUMBER = 21;
     private io.dstore.Values.booleanValue getValuesForSortByCharacs_;
     /**
-     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
      */
     public boolean hasGetValuesForSortByCharacs() {
       return getValuesForSortByCharacs_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
      */
     public io.dstore.Values.booleanValue getGetValuesForSortByCharacs() {
       return getValuesForSortByCharacs_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getValuesForSortByCharacs_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder() {
       return getGetValuesForSortByCharacs();
     }
 
-    public static final int GET_VALUES_FOR_SORT_BY_CHARACS_NULL_FIELD_NUMBER = 1020;
+    public static final int GET_VALUES_FOR_SORT_BY_CHARACS_NULL_FIELD_NUMBER = 1021;
     private boolean getValuesForSortByCharacsNull_;
     /**
-     * <code>optional bool get_values_for_sort_by_characs_null = 1020;</code>
+     * <code>optional bool get_values_for_sort_by_characs_null = 1021;</code>
      */
     public boolean getGetValuesForSortByCharacsNull() {
       return getValuesForSortByCharacsNull_;
     }
 
-    public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 21;
+    public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 22;
     private io.dstore.Values.integerValue outputIntoOneId_;
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
      */
     public boolean hasOutputIntoOneId() {
       return outputIntoOneId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
      */
     public io.dstore.Values.integerValue getOutputIntoOneId() {
       return outputIntoOneId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputIntoOneId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+     * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getOutputIntoOneIdOrBuilder() {
       return getOutputIntoOneId();
     }
 
-    public static final int OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER = 1021;
+    public static final int OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER = 1022;
     private boolean outputIntoOneIdNull_;
     /**
-     * <code>optional bool output_into_one_id_null = 1021;</code>
+     * <code>optional bool output_into_one_id_null = 1022;</code>
      */
     public boolean getOutputIntoOneIdNull() {
       return outputIntoOneIdNull_;
@@ -1539,23 +1606,26 @@ public final class ImSearchProductTreeNodesPu {
       if (negateFilterByParams_ != null) {
         output.writeMessage(15, getNegateFilterByParams());
       }
+      if (count_ != null) {
+        output.writeMessage(16, getCount());
+      }
       if (sortByCharacteristicIdList_ != null) {
-        output.writeMessage(16, getSortByCharacteristicIdList());
+        output.writeMessage(17, getSortByCharacteristicIdList());
       }
       if (sortOptionList_ != null) {
-        output.writeMessage(17, getSortOptionList());
+        output.writeMessage(18, getSortOptionList());
       }
       if (inheritDepthOptionList_ != null) {
-        output.writeMessage(18, getInheritDepthOptionList());
+        output.writeMessage(19, getInheritDepthOptionList());
       }
       if (recursiveEvaluationOptionList_ != null) {
-        output.writeMessage(19, getRecursiveEvaluationOptionList());
+        output.writeMessage(20, getRecursiveEvaluationOptionList());
       }
       if (getValuesForSortByCharacs_ != null) {
-        output.writeMessage(20, getGetValuesForSortByCharacs());
+        output.writeMessage(21, getGetValuesForSortByCharacs());
       }
       if (outputIntoOneId_ != null) {
-        output.writeMessage(21, getOutputIntoOneId());
+        output.writeMessage(22, getOutputIntoOneId());
       }
       if (domainTreeNodeIdNull_ != false) {
         output.writeBool(1001, domainTreeNodeIdNull_);
@@ -1602,23 +1672,26 @@ public final class ImSearchProductTreeNodesPu {
       if (negateFilterByParamsNull_ != false) {
         output.writeBool(1015, negateFilterByParamsNull_);
       }
+      if (countNull_ != false) {
+        output.writeBool(1016, countNull_);
+      }
       if (sortByCharacteristicIdListNull_ != false) {
-        output.writeBool(1016, sortByCharacteristicIdListNull_);
+        output.writeBool(1017, sortByCharacteristicIdListNull_);
       }
       if (sortOptionListNull_ != false) {
-        output.writeBool(1017, sortOptionListNull_);
+        output.writeBool(1018, sortOptionListNull_);
       }
       if (inheritDepthOptionListNull_ != false) {
-        output.writeBool(1018, inheritDepthOptionListNull_);
+        output.writeBool(1019, inheritDepthOptionListNull_);
       }
       if (recursiveEvaluationOptionListNull_ != false) {
-        output.writeBool(1019, recursiveEvaluationOptionListNull_);
+        output.writeBool(1020, recursiveEvaluationOptionListNull_);
       }
       if (getValuesForSortByCharacsNull_ != false) {
-        output.writeBool(1020, getValuesForSortByCharacsNull_);
+        output.writeBool(1021, getValuesForSortByCharacsNull_);
       }
       if (outputIntoOneIdNull_ != false) {
-        output.writeBool(1021, outputIntoOneIdNull_);
+        output.writeBool(1022, outputIntoOneIdNull_);
       }
     }
 
@@ -1687,29 +1760,33 @@ public final class ImSearchProductTreeNodesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(15, getNegateFilterByParams());
       }
+      if (count_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(16, getCount());
+      }
       if (sortByCharacteristicIdList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16, getSortByCharacteristicIdList());
+          .computeMessageSize(17, getSortByCharacteristicIdList());
       }
       if (sortOptionList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17, getSortOptionList());
+          .computeMessageSize(18, getSortOptionList());
       }
       if (inheritDepthOptionList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(18, getInheritDepthOptionList());
+          .computeMessageSize(19, getInheritDepthOptionList());
       }
       if (recursiveEvaluationOptionList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(19, getRecursiveEvaluationOptionList());
+          .computeMessageSize(20, getRecursiveEvaluationOptionList());
       }
       if (getValuesForSortByCharacs_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(20, getGetValuesForSortByCharacs());
+          .computeMessageSize(21, getGetValuesForSortByCharacs());
       }
       if (outputIntoOneId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(21, getOutputIntoOneId());
+          .computeMessageSize(22, getOutputIntoOneId());
       }
       if (domainTreeNodeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -1771,29 +1848,33 @@ public final class ImSearchProductTreeNodesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1015, negateFilterByParamsNull_);
       }
+      if (countNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1016, countNull_);
+      }
       if (sortByCharacteristicIdListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1016, sortByCharacteristicIdListNull_);
+          .computeBoolSize(1017, sortByCharacteristicIdListNull_);
       }
       if (sortOptionListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1017, sortOptionListNull_);
+          .computeBoolSize(1018, sortOptionListNull_);
       }
       if (inheritDepthOptionListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1018, inheritDepthOptionListNull_);
+          .computeBoolSize(1019, inheritDepthOptionListNull_);
       }
       if (recursiveEvaluationOptionListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1019, recursiveEvaluationOptionListNull_);
+          .computeBoolSize(1020, recursiveEvaluationOptionListNull_);
       }
       if (getValuesForSortByCharacsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1020, getValuesForSortByCharacsNull_);
+          .computeBoolSize(1021, getValuesForSortByCharacsNull_);
       }
       if (outputIntoOneIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1021, outputIntoOneIdNull_);
+          .computeBoolSize(1022, outputIntoOneIdNull_);
       }
       memoizedSize = size;
       return size;
@@ -2026,6 +2107,14 @@ public final class ImSearchProductTreeNodesPu {
         }
         negateFilterByParamsNull_ = false;
 
+        if (countBuilder_ == null) {
+          count_ = null;
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+        countNull_ = false;
+
         if (sortByCharacteristicIdListBuilder_ == null) {
           sortByCharacteristicIdList_ = null;
         } else {
@@ -2186,6 +2275,12 @@ public final class ImSearchProductTreeNodesPu {
           result.negateFilterByParams_ = negateFilterByParamsBuilder_.build();
         }
         result.negateFilterByParamsNull_ = negateFilterByParamsNull_;
+        if (countBuilder_ == null) {
+          result.count_ = count_;
+        } else {
+          result.count_ = countBuilder_.build();
+        }
+        result.countNull_ = countNull_;
         if (sortByCharacteristicIdListBuilder_ == null) {
           result.sortByCharacteristicIdList_ = sortByCharacteristicIdList_;
         } else {
@@ -2326,6 +2421,12 @@ public final class ImSearchProductTreeNodesPu {
         }
         if (other.getNegateFilterByParamsNull() != false) {
           setNegateFilterByParamsNull(other.getNegateFilterByParamsNull());
+        }
+        if (other.hasCount()) {
+          mergeCount(other.getCount());
+        }
+        if (other.getCountNull() != false) {
+          setCountNull(other.getCountNull());
         }
         if (other.hasSortByCharacteristicIdList()) {
           mergeSortByCharacteristicIdList(other.getSortByCharacteristicIdList());
@@ -4534,17 +4635,160 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
 
+      private io.dstore.Values.integerValue count_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public boolean hasCount() {
+        return countBuilder_ != null || count_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public io.dstore.Values.integerValue getCount() {
+        if (countBuilder_ == null) {
+          return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        } else {
+          return countBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public Builder setCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          count_ = value;
+          onChanged();
+        } else {
+          countBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public Builder setCount(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (countBuilder_ == null) {
+          count_ = builderForValue.build();
+          onChanged();
+        } else {
+          countBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public Builder mergeCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (count_ != null) {
+            count_ =
+              io.dstore.Values.integerValue.newBuilder(count_).mergeFrom(value).buildPartial();
+          } else {
+            count_ = value;
+          }
+          onChanged();
+        } else {
+          countBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public Builder clearCount() {
+        if (countBuilder_ == null) {
+          count_ = null;
+          onChanged();
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getCountBuilder() {
+        
+        onChanged();
+        return getCountFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+        if (countBuilder_ != null) {
+          return countBuilder_.getMessageOrBuilder();
+        } else {
+          return count_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getCountFieldBuilder() {
+        if (countBuilder_ == null) {
+          countBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getCount(),
+                  getParentForChildren(),
+                  isClean());
+          count_ = null;
+        }
+        return countBuilder_;
+      }
+
+      private boolean countNull_ ;
+      /**
+       * <code>optional bool count_null = 1016;</code>
+       */
+      public boolean getCountNull() {
+        return countNull_;
+      }
+      /**
+       * <code>optional bool count_null = 1016;</code>
+       */
+      public Builder setCountNull(boolean value) {
+        
+        countNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool count_null = 1016;</code>
+       */
+      public Builder clearCountNull() {
+        
+        countNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.stringValue sortByCharacteristicIdList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> sortByCharacteristicIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
        */
       public boolean hasSortByCharacteristicIdList() {
         return sortByCharacteristicIdListBuilder_ != null || sortByCharacteristicIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
        */
       public io.dstore.Values.stringValue getSortByCharacteristicIdList() {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -4554,7 +4798,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
        */
       public Builder setSortByCharacteristicIdList(io.dstore.Values.stringValue value) {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -4570,7 +4814,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
        */
       public Builder setSortByCharacteristicIdList(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4584,7 +4828,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
        */
       public Builder mergeSortByCharacteristicIdList(io.dstore.Values.stringValue value) {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -4602,7 +4846,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
        */
       public Builder clearSortByCharacteristicIdList() {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -4616,7 +4860,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
        */
       public io.dstore.Values.stringValue.Builder getSortByCharacteristicIdListBuilder() {
         
@@ -4624,7 +4868,7 @@ public final class ImSearchProductTreeNodesPu {
         return getSortByCharacteristicIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSortByCharacteristicIdListOrBuilder() {
         if (sortByCharacteristicIdListBuilder_ != null) {
@@ -4635,7 +4879,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 16;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4653,13 +4897,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean sortByCharacteristicIdListNull_ ;
       /**
-       * <code>optional bool sort_by_characteristic_id_list_null = 1016;</code>
+       * <code>optional bool sort_by_characteristic_id_list_null = 1017;</code>
        */
       public boolean getSortByCharacteristicIdListNull() {
         return sortByCharacteristicIdListNull_;
       }
       /**
-       * <code>optional bool sort_by_characteristic_id_list_null = 1016;</code>
+       * <code>optional bool sort_by_characteristic_id_list_null = 1017;</code>
        */
       public Builder setSortByCharacteristicIdListNull(boolean value) {
         
@@ -4668,7 +4912,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool sort_by_characteristic_id_list_null = 1016;</code>
+       * <code>optional bool sort_by_characteristic_id_list_null = 1017;</code>
        */
       public Builder clearSortByCharacteristicIdListNull() {
         
@@ -4681,13 +4925,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> sortOptionListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
        */
       public boolean hasSortOptionList() {
         return sortOptionListBuilder_ != null || sortOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
        */
       public io.dstore.Values.stringValue getSortOptionList() {
         if (sortOptionListBuilder_ == null) {
@@ -4697,7 +4941,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
        */
       public Builder setSortOptionList(io.dstore.Values.stringValue value) {
         if (sortOptionListBuilder_ == null) {
@@ -4713,7 +4957,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
        */
       public Builder setSortOptionList(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4727,7 +4971,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
        */
       public Builder mergeSortOptionList(io.dstore.Values.stringValue value) {
         if (sortOptionListBuilder_ == null) {
@@ -4745,7 +4989,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
        */
       public Builder clearSortOptionList() {
         if (sortOptionListBuilder_ == null) {
@@ -4759,7 +5003,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
        */
       public io.dstore.Values.stringValue.Builder getSortOptionListBuilder() {
         
@@ -4767,7 +5011,7 @@ public final class ImSearchProductTreeNodesPu {
         return getSortOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSortOptionListOrBuilder() {
         if (sortOptionListBuilder_ != null) {
@@ -4778,7 +5022,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue sort_option_list = 17;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4796,13 +5040,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean sortOptionListNull_ ;
       /**
-       * <code>optional bool sort_option_list_null = 1017;</code>
+       * <code>optional bool sort_option_list_null = 1018;</code>
        */
       public boolean getSortOptionListNull() {
         return sortOptionListNull_;
       }
       /**
-       * <code>optional bool sort_option_list_null = 1017;</code>
+       * <code>optional bool sort_option_list_null = 1018;</code>
        */
       public Builder setSortOptionListNull(boolean value) {
         
@@ -4811,7 +5055,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool sort_option_list_null = 1017;</code>
+       * <code>optional bool sort_option_list_null = 1018;</code>
        */
       public Builder clearSortOptionListNull() {
         
@@ -4824,13 +5068,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> inheritDepthOptionListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
        */
       public boolean hasInheritDepthOptionList() {
         return inheritDepthOptionListBuilder_ != null || inheritDepthOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
        */
       public io.dstore.Values.stringValue getInheritDepthOptionList() {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -4840,7 +5084,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
        */
       public Builder setInheritDepthOptionList(io.dstore.Values.stringValue value) {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -4856,7 +5100,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
        */
       public Builder setInheritDepthOptionList(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4870,7 +5114,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
        */
       public Builder mergeInheritDepthOptionList(io.dstore.Values.stringValue value) {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -4888,7 +5132,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
        */
       public Builder clearInheritDepthOptionList() {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -4902,7 +5146,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
        */
       public io.dstore.Values.stringValue.Builder getInheritDepthOptionListBuilder() {
         
@@ -4910,7 +5154,7 @@ public final class ImSearchProductTreeNodesPu {
         return getInheritDepthOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getInheritDepthOptionListOrBuilder() {
         if (inheritDepthOptionListBuilder_ != null) {
@@ -4921,7 +5165,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 18;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 19;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4939,13 +5183,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean inheritDepthOptionListNull_ ;
       /**
-       * <code>optional bool inherit_depth_option_list_null = 1018;</code>
+       * <code>optional bool inherit_depth_option_list_null = 1019;</code>
        */
       public boolean getInheritDepthOptionListNull() {
         return inheritDepthOptionListNull_;
       }
       /**
-       * <code>optional bool inherit_depth_option_list_null = 1018;</code>
+       * <code>optional bool inherit_depth_option_list_null = 1019;</code>
        */
       public Builder setInheritDepthOptionListNull(boolean value) {
         
@@ -4954,7 +5198,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool inherit_depth_option_list_null = 1018;</code>
+       * <code>optional bool inherit_depth_option_list_null = 1019;</code>
        */
       public Builder clearInheritDepthOptionListNull() {
         
@@ -4967,13 +5211,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> recursiveEvaluationOptionListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
        */
       public boolean hasRecursiveEvaluationOptionList() {
         return recursiveEvaluationOptionListBuilder_ != null || recursiveEvaluationOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
        */
       public io.dstore.Values.stringValue getRecursiveEvaluationOptionList() {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -4983,7 +5227,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
        */
       public Builder setRecursiveEvaluationOptionList(io.dstore.Values.stringValue value) {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -4999,7 +5243,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
        */
       public Builder setRecursiveEvaluationOptionList(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5013,7 +5257,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
        */
       public Builder mergeRecursiveEvaluationOptionList(io.dstore.Values.stringValue value) {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -5031,7 +5275,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
        */
       public Builder clearRecursiveEvaluationOptionList() {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -5045,7 +5289,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
        */
       public io.dstore.Values.stringValue.Builder getRecursiveEvaluationOptionListBuilder() {
         
@@ -5053,7 +5297,7 @@ public final class ImSearchProductTreeNodesPu {
         return getRecursiveEvaluationOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder() {
         if (recursiveEvaluationOptionListBuilder_ != null) {
@@ -5064,7 +5308,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 19;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5082,13 +5326,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean recursiveEvaluationOptionListNull_ ;
       /**
-       * <code>optional bool recursive_evaluation_option_list_null = 1019;</code>
+       * <code>optional bool recursive_evaluation_option_list_null = 1020;</code>
        */
       public boolean getRecursiveEvaluationOptionListNull() {
         return recursiveEvaluationOptionListNull_;
       }
       /**
-       * <code>optional bool recursive_evaluation_option_list_null = 1019;</code>
+       * <code>optional bool recursive_evaluation_option_list_null = 1020;</code>
        */
       public Builder setRecursiveEvaluationOptionListNull(boolean value) {
         
@@ -5097,7 +5341,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool recursive_evaluation_option_list_null = 1019;</code>
+       * <code>optional bool recursive_evaluation_option_list_null = 1020;</code>
        */
       public Builder clearRecursiveEvaluationOptionListNull() {
         
@@ -5110,13 +5354,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getValuesForSortByCharacsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public boolean hasGetValuesForSortByCharacs() {
         return getValuesForSortByCharacsBuilder_ != null || getValuesForSortByCharacs_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public io.dstore.Values.booleanValue getGetValuesForSortByCharacs() {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -5126,7 +5370,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public Builder setGetValuesForSortByCharacs(io.dstore.Values.booleanValue value) {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -5142,7 +5386,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public Builder setGetValuesForSortByCharacs(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -5156,7 +5400,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public Builder mergeGetValuesForSortByCharacs(io.dstore.Values.booleanValue value) {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -5174,7 +5418,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public Builder clearGetValuesForSortByCharacs() {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -5188,7 +5432,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public io.dstore.Values.booleanValue.Builder getGetValuesForSortByCharacsBuilder() {
         
@@ -5196,7 +5440,7 @@ public final class ImSearchProductTreeNodesPu {
         return getGetValuesForSortByCharacsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder() {
         if (getValuesForSortByCharacsBuilder_ != null) {
@@ -5207,7 +5451,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 20;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -5225,13 +5469,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean getValuesForSortByCharacsNull_ ;
       /**
-       * <code>optional bool get_values_for_sort_by_characs_null = 1020;</code>
+       * <code>optional bool get_values_for_sort_by_characs_null = 1021;</code>
        */
       public boolean getGetValuesForSortByCharacsNull() {
         return getValuesForSortByCharacsNull_;
       }
       /**
-       * <code>optional bool get_values_for_sort_by_characs_null = 1020;</code>
+       * <code>optional bool get_values_for_sort_by_characs_null = 1021;</code>
        */
       public Builder setGetValuesForSortByCharacsNull(boolean value) {
         
@@ -5240,7 +5484,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool get_values_for_sort_by_characs_null = 1020;</code>
+       * <code>optional bool get_values_for_sort_by_characs_null = 1021;</code>
        */
       public Builder clearGetValuesForSortByCharacsNull() {
         
@@ -5253,13 +5497,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputIntoOneIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
        */
       public boolean hasOutputIntoOneId() {
         return outputIntoOneIdBuilder_ != null || outputIntoOneId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
        */
       public io.dstore.Values.integerValue getOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -5269,7 +5513,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
        */
       public Builder setOutputIntoOneId(io.dstore.Values.integerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -5285,7 +5529,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
        */
       public Builder setOutputIntoOneId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5299,7 +5543,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
        */
       public Builder mergeOutputIntoOneId(io.dstore.Values.integerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -5317,7 +5561,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
        */
       public Builder clearOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -5331,7 +5575,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
        */
       public io.dstore.Values.integerValue.Builder getOutputIntoOneIdBuilder() {
         
@@ -5339,7 +5583,7 @@ public final class ImSearchProductTreeNodesPu {
         return getOutputIntoOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOutputIntoOneIdOrBuilder() {
         if (outputIntoOneIdBuilder_ != null) {
@@ -5350,7 +5594,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_into_one_id = 21;</code>
+       * <code>optional .dstore.values.integerValue output_into_one_id = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5368,13 +5612,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean outputIntoOneIdNull_ ;
       /**
-       * <code>optional bool output_into_one_id_null = 1021;</code>
+       * <code>optional bool output_into_one_id_null = 1022;</code>
        */
       public boolean getOutputIntoOneIdNull() {
         return outputIntoOneIdNull_;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1021;</code>
+       * <code>optional bool output_into_one_id_null = 1022;</code>
        */
       public Builder setOutputIntoOneIdNull(boolean value) {
         
@@ -5383,7 +5627,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1021;</code>
+       * <code>optional bool output_into_one_id_null = 1022;</code>
        */
       public Builder clearOutputIntoOneIdNull() {
         
@@ -10564,7 +10808,7 @@ public final class ImSearchProductTreeNodesPu {
       "SearchProductTreeNodes_Pu\032\023dstore/values" +
       ".proto\032\031dstore/engine/error.proto\032\033dstor" +
       "e/engine/message.proto\032#dstore/engine/me" +
-      "tainformation.proto\"\313\017\n\nParameters\0228\n\023do" +
+      "tainformation.proto\"\214\020\n\nParameters\0228\n\023do" +
       "main_tree_node_id\030\001 \001(\0132\033.dstore.values." +
       "integerValue\022!\n\030domain_tree_node_id_null" +
       "\030\351\007 \001(\010\022;\n\027node_characteristic_ids\030\002 \001(\013" +
@@ -10598,48 +10842,51 @@ public final class ImSearchProductTreeNodesPu {
       "dstore.values.stringValue\022\025\n\014country_nul" +
       "l\030\366\007 \001(\010\022<\n\027negate_filter_by_params\030\017 \001(" +
       "\0132\033.dstore.values.booleanValue\022%\n\034negate" +
-      "_filter_by_params_null\030\367\007 \001(\010\022B\n\036sort_by",
-      "_characteristic_id_list\030\020 \001(\0132\032.dstore.v" +
-      "alues.stringValue\022,\n#sort_by_characteris" +
-      "tic_id_list_null\030\370\007 \001(\010\0224\n\020sort_option_l" +
-      "ist\030\021 \001(\0132\032.dstore.values.stringValue\022\036\n" +
-      "\025sort_option_list_null\030\371\007 \001(\010\022=\n\031inherit" +
-      "_depth_option_list\030\022 \001(\0132\032.dstore.values" +
-      ".stringValue\022\'\n\036inherit_depth_option_lis" +
-      "t_null\030\372\007 \001(\010\022D\n recursive_evaluation_op" +
-      "tion_list\030\023 \001(\0132\032.dstore.values.stringVa" +
-      "lue\022.\n%recursive_evaluation_option_list_",
-      "null\030\373\007 \001(\010\022C\n\036get_values_for_sort_by_ch" +
-      "aracs\030\024 \001(\0132\033.dstore.values.booleanValue" +
-      "\022,\n#get_values_for_sort_by_characs_null\030" +
-      "\374\007 \001(\010\0227\n\022output_into_one_id\030\025 \001(\0132\033.dst" +
-      "ore.values.integerValue\022 \n\027output_into_o" +
-      "ne_id_null\030\375\007 \001(\010\"\307\007\n\010Response\022)\n\005error\030" +
-      "\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020met" +
-      "a_information\030\002 \003(\0132..dstore.engine.meta" +
-      "information.MetaInformation\022/\n\007message\030\003" +
-      " \003(\0132\036.dstore.engine.message.Message\022E\n\003",
-      "row\030\004 \003(\01328.dstore.engine.im_SearchProdu" +
-      "ctTreeNodes_Pu.Response.Row\022*\n\005count\030e \001" +
-      "(\0132\033.dstore.values.integerValue\032\241\005\n\003Row\022" +
-      "\017\n\006row_id\030\220N \001(\005\022+\n\006value2\030\221N \001(\0132\032.dsto" +
-      "re.values.stringValue\022+\n\006value3\030\222N \001(\0132\032" +
-      ".dstore.values.stringValue\022+\n\006value1\030\223N " +
-      "\001(\0132\032.dstore.values.stringValue\0223\n\016match" +
-      "ing_value\030\224N \001(\0132\032.dstore.values.stringV" +
-      "alue\0224\n\016binary_code_id\030\225N \001(\0132\033.dstore.v" +
-      "alues.integerValue\0222\n\014tree_node_id\030\226N \001(",
-      "\0132\033.dstore.values.integerValue\022-\n\007node_i" +
-      "d\030\227N \001(\0132\033.dstore.values.integerValue\022A\n" +
-      "\034pre_predecessors_description\030\230N \001(\0132\032.d" +
-      "store.values.stringValue\022,\n\007product\030\231N \001" +
-      "(\0132\032.dstore.values.stringValue\022C\n\035pre_pr" +
-      "edecessors_tree_node_id\030\232N \001(\0132\033.dstore." +
-      "values.integerValue\022?\n\031predecessors_tree" +
-      "_node_id\030\233N \001(\0132\033.dstore.values.integerV" +
-      "alue\022=\n\030predecessors_description\030\234N \001(\0132" +
-      "\032.dstore.values.stringValueB\035\n\033io.dstore",
-      ".engine.proceduresb\006proto3"
+      "_filter_by_params_null\030\367\007 \001(\010\022*\n\005count\030\020",
+      " \001(\0132\033.dstore.values.integerValue\022\023\n\ncou" +
+      "nt_null\030\370\007 \001(\010\022B\n\036sort_by_characteristic" +
+      "_id_list\030\021 \001(\0132\032.dstore.values.stringVal" +
+      "ue\022,\n#sort_by_characteristic_id_list_nul" +
+      "l\030\371\007 \001(\010\0224\n\020sort_option_list\030\022 \001(\0132\032.dst" +
+      "ore.values.stringValue\022\036\n\025sort_option_li" +
+      "st_null\030\372\007 \001(\010\022=\n\031inherit_depth_option_l" +
+      "ist\030\023 \001(\0132\032.dstore.values.stringValue\022\'\n" +
+      "\036inherit_depth_option_list_null\030\373\007 \001(\010\022D" +
+      "\n recursive_evaluation_option_list\030\024 \001(\013",
+      "2\032.dstore.values.stringValue\022.\n%recursiv" +
+      "e_evaluation_option_list_null\030\374\007 \001(\010\022C\n\036" +
+      "get_values_for_sort_by_characs\030\025 \001(\0132\033.d" +
+      "store.values.booleanValue\022,\n#get_values_" +
+      "for_sort_by_characs_null\030\375\007 \001(\010\0227\n\022outpu" +
+      "t_into_one_id\030\026 \001(\0132\033.dstore.values.inte" +
+      "gerValue\022 \n\027output_into_one_id_null\030\376\007 \001" +
+      "(\010\"\307\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
+      "engine.error.Error\022H\n\020meta_information\030\002" +
+      " \003(\0132..dstore.engine.metainformation.Met",
+      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
+      "ngine.message.Message\022E\n\003row\030\004 \003(\01328.dst" +
+      "ore.engine.im_SearchProductTreeNodes_Pu." +
+      "Response.Row\022*\n\005count\030e \001(\0132\033.dstore.val" +
+      "ues.integerValue\032\241\005\n\003Row\022\017\n\006row_id\030\220N \001(" +
+      "\005\022+\n\006value2\030\221N \001(\0132\032.dstore.values.strin" +
+      "gValue\022+\n\006value3\030\222N \001(\0132\032.dstore.values." +
+      "stringValue\022+\n\006value1\030\223N \001(\0132\032.dstore.va" +
+      "lues.stringValue\0223\n\016matching_value\030\224N \001(" +
+      "\0132\032.dstore.values.stringValue\0224\n\016binary_",
+      "code_id\030\225N \001(\0132\033.dstore.values.integerVa" +
+      "lue\0222\n\014tree_node_id\030\226N \001(\0132\033.dstore.valu" +
+      "es.integerValue\022-\n\007node_id\030\227N \001(\0132\033.dsto" +
+      "re.values.integerValue\022A\n\034pre_predecesso" +
+      "rs_description\030\230N \001(\0132\032.dstore.values.st" +
+      "ringValue\022,\n\007product\030\231N \001(\0132\032.dstore.val" +
+      "ues.stringValue\022C\n\035pre_predecessors_tree" +
+      "_node_id\030\232N \001(\0132\033.dstore.values.integerV" +
+      "alue\022?\n\031predecessors_tree_node_id\030\233N \001(\013" +
+      "2\033.dstore.values.integerValue\022=\n\030predece",
+      "ssors_description\030\234N \001(\0132\032.dstore.values" +
+      ".stringValueB]\n\033io.dstore.engine.procedu" +
+      "resZ>gosdk.dstore.de/engine/procedures/i" +
+      "m_SearchProductTreeNodes_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -10662,7 +10909,7 @@ public final class ImSearchProductTreeNodesPu {
     internal_static_dstore_engine_im_SearchProductTreeNodes_Pu_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_SearchProductTreeNodes_Pu_Parameters_descriptor,
-        new java.lang.String[] { "DomainTreeNodeId", "DomainTreeNodeIdNull", "NodeCharacteristicIds", "NodeCharacteristicIdsNull", "Value", "ValueNull", "IsLike", "IsLikeNull", "IncludeInherited", "IncludeInheritedNull", "StartAtRowNo", "StartAtRowNoNull", "RowCount", "RowCountNull", "IncludeValueDetails", "IncludeValueDetailsNull", "IncludeVariants", "IncludeVariantsNull", "MaintainSearchItemLacks", "MaintainSearchItemLacksNull", "BinaryCharacteristicValueId", "BinaryCharacteristicValueIdNull", "FilterByCharacteristicId", "FilterByCharacteristicIdNull", "FilterByCharacValue", "FilterByCharacValueNull", "Country", "CountryNull", "NegateFilterByParams", "NegateFilterByParamsNull", "SortByCharacteristicIdList", "SortByCharacteristicIdListNull", "SortOptionList", "SortOptionListNull", "InheritDepthOptionList", "InheritDepthOptionListNull", "RecursiveEvaluationOptionList", "RecursiveEvaluationOptionListNull", "GetValuesForSortByCharacs", "GetValuesForSortByCharacsNull", "OutputIntoOneId", "OutputIntoOneIdNull", });
+        new java.lang.String[] { "DomainTreeNodeId", "DomainTreeNodeIdNull", "NodeCharacteristicIds", "NodeCharacteristicIdsNull", "Value", "ValueNull", "IsLike", "IsLikeNull", "IncludeInherited", "IncludeInheritedNull", "StartAtRowNo", "StartAtRowNoNull", "RowCount", "RowCountNull", "IncludeValueDetails", "IncludeValueDetailsNull", "IncludeVariants", "IncludeVariantsNull", "MaintainSearchItemLacks", "MaintainSearchItemLacksNull", "BinaryCharacteristicValueId", "BinaryCharacteristicValueIdNull", "FilterByCharacteristicId", "FilterByCharacteristicIdNull", "FilterByCharacValue", "FilterByCharacValueNull", "Country", "CountryNull", "NegateFilterByParams", "NegateFilterByParamsNull", "Count", "CountNull", "SortByCharacteristicIdList", "SortByCharacteristicIdListNull", "SortOptionList", "SortOptionListNull", "InheritDepthOptionList", "InheritDepthOptionListNull", "RecursiveEvaluationOptionList", "RecursiveEvaluationOptionListNull", "GetValuesForSortByCharacs", "GetValuesForSortByCharacsNull", "OutputIntoOneId", "OutputIntoOneIdNull", });
     internal_static_dstore_engine_im_SearchProductTreeNodes_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_SearchProductTreeNodes_Pu_Response_fieldAccessorTable = new

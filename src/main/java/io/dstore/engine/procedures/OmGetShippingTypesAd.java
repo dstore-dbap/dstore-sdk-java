@@ -9084,8 +9084,10 @@ public final class OmGetShippingTypesAd {
       "n\030\245N \001(\0132\032.dstore.values.stringValue\0227\n\021",
       "surcharge_type_id\030\246N \001(\0132\033.dstore.values" +
       ".integerValue\0227\n\021surcharge_unit_id\030\247N \001(" +
-      "\0132\033.dstore.values.integerValueB\035\n\033io.dst" +
-      "ore.engine.proceduresb\006proto3"
+      "\0132\033.dstore.values.integerValueBW\n\033io.dst" +
+      "ore.engine.proceduresZ8gosdk.dstore.de/e" +
+      "ngine/procedures/om_GetShippingTypes_Adb" +
+      "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

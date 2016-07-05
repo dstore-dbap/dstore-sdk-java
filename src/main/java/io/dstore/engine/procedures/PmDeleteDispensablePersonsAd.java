@@ -3173,8 +3173,10 @@ public final class PmDeleteDispensablePersonsAd {
       "Information\022/\n\007message\030\003 \003(\0132\036.dstore.en" +
       "gine.message.Message\022G\n\003row\030\004 \003(\0132:.dsto" +
       "re.engine.pm_DeleteDispensablePersons_Ad",
-      ".Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      ".Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B_\n" +
+      "\033io.dstore.engine.proceduresZ@gosdk.dsto" +
+      "re.de/engine/procedures/pm_DeleteDispens" +
+      "ablePersons_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

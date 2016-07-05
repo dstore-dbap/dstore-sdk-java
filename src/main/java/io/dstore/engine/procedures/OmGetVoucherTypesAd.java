@@ -6868,8 +6868,10 @@ public final class OmGetVoucherTypesAd {
       "2\032.dstore.values.stringValue\0225\n\017benefit_",
       "type_id\030\234N \001(\0132\033.dstore.values.integerVa" +
       "lue\022=\n\024last_code_created_at\030\252\234\001 \001(\0132\035.ds" +
-      "tore.values.timestampValueB\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "tore.values.timestampValueBV\n\033io.dstore." +
+      "engine.proceduresZ7gosdk.dstore.de/engin" +
+      "e/procedures/om_GetVoucherTypes_Adb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

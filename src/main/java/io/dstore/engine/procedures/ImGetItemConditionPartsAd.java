@@ -8596,8 +8596,10 @@ public final class ImGetItemConditionPartsAd {
       "racteristic_id\030\270\352\001 \001(\0132\033.dstore.values.i" +
       "ntegerValue\022/\n\tlevel_ids\030\273\352\001 \001(\0132\032.dstor" +
       "e.values.stringValue\0224\n\rinherit_depth\030\276\352",
-      "\001 \001(\0132\033.dstore.values.integerValueB\035\n\033io" +
-      ".dstore.engine.proceduresb\006proto3"
+      "\001 \001(\0132\033.dstore.values.integerValueB\\\n\033io" +
+      ".dstore.engine.proceduresZ=gosdk.dstore." +
+      "de/engine/procedures/im_GetItemCondition" +
+      "Parts_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

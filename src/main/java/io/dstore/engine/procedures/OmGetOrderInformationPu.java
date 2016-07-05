@@ -4896,8 +4896,9 @@ public final class OmGetOrderInformationPu {
       "re.values.integerValue\0225\n\020information_ty" +
       "pe\030\224N \001(\0132\032.dstore.values.stringValue\0220\n" +
       "\013information\030\225N \001(\0132\032.dstore.values.stri",
-      "ngValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "ngValueBZ\n\033io.dstore.engine.proceduresZ;" +
+      "gosdk.dstore.de/engine/procedures/om_Get" +
+      "OrderInformation_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

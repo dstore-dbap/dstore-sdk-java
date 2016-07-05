@@ -13,74 +13,92 @@ public final class OmModifyCampPersGroupCondAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    boolean hasConditionId();
+    /**
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    io.dstore.Values.integerValue getConditionId();
+    /**
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+
+    /**
+     * <code>optional bool condition_id_null = 1001;</code>
+     */
+    boolean getConditionIdNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
      */
     boolean hasFilterByPersonGroupIds();
     /**
-     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
      */
     io.dstore.Values.stringValue getFilterByPersonGroupIds();
     /**
-     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
      */
     io.dstore.Values.stringValueOrBuilder getFilterByPersonGroupIdsOrBuilder();
 
     /**
-     * <code>optional bool filter_by_person_group_ids_null = 1001;</code>
+     * <code>optional bool filter_by_person_group_ids_null = 1002;</code>
      */
     boolean getFilterByPersonGroupIdsNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
      */
     boolean hasAnyIdInFilter();
     /**
-     * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
      */
     io.dstore.Values.booleanValue getAnyIdInFilter();
     /**
-     * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getAnyIdInFilterOrBuilder();
 
     /**
-     * <code>optional bool any_id_in_filter_null = 1002;</code>
+     * <code>optional bool any_id_in_filter_null = 1003;</code>
      */
     boolean getAnyIdInFilterNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
      */
     boolean hasNegateFilter();
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
      */
     io.dstore.Values.booleanValue getNegateFilter();
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder();
 
     /**
-     * <code>optional bool negate_filter_null = 1003;</code>
+     * <code>optional bool negate_filter_null = 1004;</code>
      */
     boolean getNegateFilterNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
      */
     boolean hasDeletePersonGroupCondition();
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
      */
     io.dstore.Values.booleanValue getDeletePersonGroupCondition();
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getDeletePersonGroupConditionOrBuilder();
 
     /**
-     * <code>optional bool delete_person_group_condition_null = 1004;</code>
+     * <code>optional bool delete_person_group_condition_null = 1005;</code>
      */
     boolean getDeletePersonGroupConditionNull();
   }
@@ -96,6 +114,7 @@ public final class OmModifyCampPersGroupCondAd {
       super(builder);
     }
     private Parameters() {
+      conditionIdNull_ = false;
       filterByPersonGroupIdsNull_ = false;
       anyIdInFilterNull_ = false;
       negateFilterNull_ = false;
@@ -127,6 +146,19 @@ public final class OmModifyCampPersGroupCondAd {
               break;
             }
             case 10: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (conditionId_ != null) {
+                subBuilder = conditionId_.toBuilder();
+              }
+              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(conditionId_);
+                conditionId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 18: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (filterByPersonGroupIds_ != null) {
                 subBuilder = filterByPersonGroupIds_.toBuilder();
@@ -139,7 +171,7 @@ public final class OmModifyCampPersGroupCondAd {
 
               break;
             }
-            case 18: {
+            case 26: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (anyIdInFilter_ != null) {
                 subBuilder = anyIdInFilter_.toBuilder();
@@ -152,7 +184,7 @@ public final class OmModifyCampPersGroupCondAd {
 
               break;
             }
-            case 26: {
+            case 34: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (negateFilter_ != null) {
                 subBuilder = negateFilter_.toBuilder();
@@ -165,7 +197,7 @@ public final class OmModifyCampPersGroupCondAd {
 
               break;
             }
-            case 34: {
+            case 42: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deletePersonGroupCondition_ != null) {
                 subBuilder = deletePersonGroupCondition_.toBuilder();
@@ -180,20 +212,25 @@ public final class OmModifyCampPersGroupCondAd {
             }
             case 8008: {
 
-              filterByPersonGroupIdsNull_ = input.readBool();
+              conditionIdNull_ = input.readBool();
               break;
             }
             case 8016: {
 
-              anyIdInFilterNull_ = input.readBool();
+              filterByPersonGroupIdsNull_ = input.readBool();
               break;
             }
             case 8024: {
 
-              negateFilterNull_ = input.readBool();
+              anyIdInFilterNull_ = input.readBool();
               break;
             }
             case 8032: {
+
+              negateFilterNull_ = input.readBool();
+              break;
+            }
+            case 8040: {
 
               deletePersonGroupConditionNull_ = input.readBool();
               break;
@@ -222,121 +259,151 @@ public final class OmModifyCampPersGroupCondAd {
               io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Parameters.class, io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Parameters.Builder.class);
     }
 
-    public static final int FILTER_BY_PERSON_GROUP_IDS_FIELD_NUMBER = 1;
+    public static final int CONDITION_ID_FIELD_NUMBER = 1;
+    private io.dstore.Values.integerValue conditionId_;
+    /**
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    public boolean hasConditionId() {
+      return conditionId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    public io.dstore.Values.integerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      return getConditionId();
+    }
+
+    public static final int CONDITION_ID_NULL_FIELD_NUMBER = 1001;
+    private boolean conditionIdNull_;
+    /**
+     * <code>optional bool condition_id_null = 1001;</code>
+     */
+    public boolean getConditionIdNull() {
+      return conditionIdNull_;
+    }
+
+    public static final int FILTER_BY_PERSON_GROUP_IDS_FIELD_NUMBER = 2;
     private io.dstore.Values.stringValue filterByPersonGroupIds_;
     /**
-     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
      */
     public boolean hasFilterByPersonGroupIds() {
       return filterByPersonGroupIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
      */
     public io.dstore.Values.stringValue getFilterByPersonGroupIds() {
       return filterByPersonGroupIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByPersonGroupIds_;
     }
     /**
-     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getFilterByPersonGroupIdsOrBuilder() {
       return getFilterByPersonGroupIds();
     }
 
-    public static final int FILTER_BY_PERSON_GROUP_IDS_NULL_FIELD_NUMBER = 1001;
+    public static final int FILTER_BY_PERSON_GROUP_IDS_NULL_FIELD_NUMBER = 1002;
     private boolean filterByPersonGroupIdsNull_;
     /**
-     * <code>optional bool filter_by_person_group_ids_null = 1001;</code>
+     * <code>optional bool filter_by_person_group_ids_null = 1002;</code>
      */
     public boolean getFilterByPersonGroupIdsNull() {
       return filterByPersonGroupIdsNull_;
     }
 
-    public static final int ANY_ID_IN_FILTER_FIELD_NUMBER = 2;
+    public static final int ANY_ID_IN_FILTER_FIELD_NUMBER = 3;
     private io.dstore.Values.booleanValue anyIdInFilter_;
     /**
-     * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
      */
     public boolean hasAnyIdInFilter() {
       return anyIdInFilter_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
      */
     public io.dstore.Values.booleanValue getAnyIdInFilter() {
       return anyIdInFilter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : anyIdInFilter_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getAnyIdInFilterOrBuilder() {
       return getAnyIdInFilter();
     }
 
-    public static final int ANY_ID_IN_FILTER_NULL_FIELD_NUMBER = 1002;
+    public static final int ANY_ID_IN_FILTER_NULL_FIELD_NUMBER = 1003;
     private boolean anyIdInFilterNull_;
     /**
-     * <code>optional bool any_id_in_filter_null = 1002;</code>
+     * <code>optional bool any_id_in_filter_null = 1003;</code>
      */
     public boolean getAnyIdInFilterNull() {
       return anyIdInFilterNull_;
     }
 
-    public static final int NEGATE_FILTER_FIELD_NUMBER = 3;
+    public static final int NEGATE_FILTER_FIELD_NUMBER = 4;
     private io.dstore.Values.booleanValue negateFilter_;
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
      */
     public boolean hasNegateFilter() {
       return negateFilter_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
      */
     public io.dstore.Values.booleanValue getNegateFilter() {
       return negateFilter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
       return getNegateFilter();
     }
 
-    public static final int NEGATE_FILTER_NULL_FIELD_NUMBER = 1003;
+    public static final int NEGATE_FILTER_NULL_FIELD_NUMBER = 1004;
     private boolean negateFilterNull_;
     /**
-     * <code>optional bool negate_filter_null = 1003;</code>
+     * <code>optional bool negate_filter_null = 1004;</code>
      */
     public boolean getNegateFilterNull() {
       return negateFilterNull_;
     }
 
-    public static final int DELETE_PERSON_GROUP_CONDITION_FIELD_NUMBER = 4;
+    public static final int DELETE_PERSON_GROUP_CONDITION_FIELD_NUMBER = 5;
     private io.dstore.Values.booleanValue deletePersonGroupCondition_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
      */
     public boolean hasDeletePersonGroupCondition() {
       return deletePersonGroupCondition_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
      */
     public io.dstore.Values.booleanValue getDeletePersonGroupCondition() {
       return deletePersonGroupCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deletePersonGroupCondition_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getDeletePersonGroupConditionOrBuilder() {
       return getDeletePersonGroupCondition();
     }
 
-    public static final int DELETE_PERSON_GROUP_CONDITION_NULL_FIELD_NUMBER = 1004;
+    public static final int DELETE_PERSON_GROUP_CONDITION_NULL_FIELD_NUMBER = 1005;
     private boolean deletePersonGroupConditionNull_;
     /**
-     * <code>optional bool delete_person_group_condition_null = 1004;</code>
+     * <code>optional bool delete_person_group_condition_null = 1005;</code>
      */
     public boolean getDeletePersonGroupConditionNull() {
       return deletePersonGroupConditionNull_;
@@ -354,29 +421,35 @@ public final class OmModifyCampPersGroupCondAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (conditionId_ != null) {
+        output.writeMessage(1, getConditionId());
+      }
       if (filterByPersonGroupIds_ != null) {
-        output.writeMessage(1, getFilterByPersonGroupIds());
+        output.writeMessage(2, getFilterByPersonGroupIds());
       }
       if (anyIdInFilter_ != null) {
-        output.writeMessage(2, getAnyIdInFilter());
+        output.writeMessage(3, getAnyIdInFilter());
       }
       if (negateFilter_ != null) {
-        output.writeMessage(3, getNegateFilter());
+        output.writeMessage(4, getNegateFilter());
       }
       if (deletePersonGroupCondition_ != null) {
-        output.writeMessage(4, getDeletePersonGroupCondition());
+        output.writeMessage(5, getDeletePersonGroupCondition());
+      }
+      if (conditionIdNull_ != false) {
+        output.writeBool(1001, conditionIdNull_);
       }
       if (filterByPersonGroupIdsNull_ != false) {
-        output.writeBool(1001, filterByPersonGroupIdsNull_);
+        output.writeBool(1002, filterByPersonGroupIdsNull_);
       }
       if (anyIdInFilterNull_ != false) {
-        output.writeBool(1002, anyIdInFilterNull_);
+        output.writeBool(1003, anyIdInFilterNull_);
       }
       if (negateFilterNull_ != false) {
-        output.writeBool(1003, negateFilterNull_);
+        output.writeBool(1004, negateFilterNull_);
       }
       if (deletePersonGroupConditionNull_ != false) {
-        output.writeBool(1004, deletePersonGroupConditionNull_);
+        output.writeBool(1005, deletePersonGroupConditionNull_);
       }
     }
 
@@ -385,37 +458,45 @@ public final class OmModifyCampPersGroupCondAd {
       if (size != -1) return size;
 
       size = 0;
+      if (conditionId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getConditionId());
+      }
       if (filterByPersonGroupIds_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getFilterByPersonGroupIds());
+          .computeMessageSize(2, getFilterByPersonGroupIds());
       }
       if (anyIdInFilter_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getAnyIdInFilter());
+          .computeMessageSize(3, getAnyIdInFilter());
       }
       if (negateFilter_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getNegateFilter());
+          .computeMessageSize(4, getNegateFilter());
       }
       if (deletePersonGroupCondition_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getDeletePersonGroupCondition());
+          .computeMessageSize(5, getDeletePersonGroupCondition());
+      }
+      if (conditionIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1001, conditionIdNull_);
       }
       if (filterByPersonGroupIdsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1001, filterByPersonGroupIdsNull_);
+          .computeBoolSize(1002, filterByPersonGroupIdsNull_);
       }
       if (anyIdInFilterNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1002, anyIdInFilterNull_);
+          .computeBoolSize(1003, anyIdInFilterNull_);
       }
       if (negateFilterNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, negateFilterNull_);
+          .computeBoolSize(1004, negateFilterNull_);
       }
       if (deletePersonGroupConditionNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, deletePersonGroupConditionNull_);
+          .computeBoolSize(1005, deletePersonGroupConditionNull_);
       }
       memoizedSize = size;
       return size;
@@ -528,6 +609,14 @@ public final class OmModifyCampPersGroupCondAd {
       }
       public Builder clear() {
         super.clear();
+        if (conditionIdBuilder_ == null) {
+          conditionId_ = null;
+        } else {
+          conditionId_ = null;
+          conditionIdBuilder_ = null;
+        }
+        conditionIdNull_ = false;
+
         if (filterByPersonGroupIdsBuilder_ == null) {
           filterByPersonGroupIds_ = null;
         } else {
@@ -582,6 +671,12 @@ public final class OmModifyCampPersGroupCondAd {
 
       public io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Parameters buildPartial() {
         io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Parameters result = new io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Parameters(this);
+        if (conditionIdBuilder_ == null) {
+          result.conditionId_ = conditionId_;
+        } else {
+          result.conditionId_ = conditionIdBuilder_.build();
+        }
+        result.conditionIdNull_ = conditionIdNull_;
         if (filterByPersonGroupIdsBuilder_ == null) {
           result.filterByPersonGroupIds_ = filterByPersonGroupIds_;
         } else {
@@ -621,6 +716,12 @@ public final class OmModifyCampPersGroupCondAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Parameters other) {
         if (other == io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Parameters.getDefaultInstance()) return this;
+        if (other.hasConditionId()) {
+          mergeConditionId(other.getConditionId());
+        }
+        if (other.getConditionIdNull() != false) {
+          setConditionIdNull(other.getConditionIdNull());
+        }
         if (other.hasFilterByPersonGroupIds()) {
           mergeFilterByPersonGroupIds(other.getFilterByPersonGroupIds());
         }
@@ -671,17 +772,160 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue conditionId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public boolean hasConditionId() {
+        return conditionIdBuilder_ != null || conditionId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue getConditionId() {
+        if (conditionIdBuilder_ == null) {
+          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+        } else {
+          return conditionIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public Builder setConditionId(io.dstore.Values.integerValue value) {
+        if (conditionIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          conditionId_ = value;
+          onChanged();
+        } else {
+          conditionIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public Builder setConditionId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (conditionIdBuilder_ == null) {
+          conditionId_ = builderForValue.build();
+          onChanged();
+        } else {
+          conditionIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+        if (conditionIdBuilder_ == null) {
+          if (conditionId_ != null) {
+            conditionId_ =
+              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+          } else {
+            conditionId_ = value;
+          }
+          onChanged();
+        } else {
+          conditionIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public Builder clearConditionId() {
+        if (conditionIdBuilder_ == null) {
+          conditionId_ = null;
+          onChanged();
+        } else {
+          conditionId_ = null;
+          conditionIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+        
+        onChanged();
+        return getConditionIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+        if (conditionIdBuilder_ != null) {
+          return conditionIdBuilder_.getMessageOrBuilder();
+        } else {
+          return conditionId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getConditionIdFieldBuilder() {
+        if (conditionIdBuilder_ == null) {
+          conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getConditionId(),
+                  getParentForChildren(),
+                  isClean());
+          conditionId_ = null;
+        }
+        return conditionIdBuilder_;
+      }
+
+      private boolean conditionIdNull_ ;
+      /**
+       * <code>optional bool condition_id_null = 1001;</code>
+       */
+      public boolean getConditionIdNull() {
+        return conditionIdNull_;
+      }
+      /**
+       * <code>optional bool condition_id_null = 1001;</code>
+       */
+      public Builder setConditionIdNull(boolean value) {
+        
+        conditionIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool condition_id_null = 1001;</code>
+       */
+      public Builder clearConditionIdNull() {
+        
+        conditionIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.stringValue filterByPersonGroupIds_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filterByPersonGroupIdsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
        */
       public boolean hasFilterByPersonGroupIds() {
         return filterByPersonGroupIdsBuilder_ != null || filterByPersonGroupIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
        */
       public io.dstore.Values.stringValue getFilterByPersonGroupIds() {
         if (filterByPersonGroupIdsBuilder_ == null) {
@@ -691,7 +935,7 @@ public final class OmModifyCampPersGroupCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
        */
       public Builder setFilterByPersonGroupIds(io.dstore.Values.stringValue value) {
         if (filterByPersonGroupIdsBuilder_ == null) {
@@ -707,7 +951,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
        */
       public Builder setFilterByPersonGroupIds(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -721,7 +965,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
        */
       public Builder mergeFilterByPersonGroupIds(io.dstore.Values.stringValue value) {
         if (filterByPersonGroupIdsBuilder_ == null) {
@@ -739,7 +983,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
        */
       public Builder clearFilterByPersonGroupIds() {
         if (filterByPersonGroupIdsBuilder_ == null) {
@@ -753,7 +997,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
        */
       public io.dstore.Values.stringValue.Builder getFilterByPersonGroupIdsBuilder() {
         
@@ -761,7 +1005,7 @@ public final class OmModifyCampPersGroupCondAd {
         return getFilterByPersonGroupIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFilterByPersonGroupIdsOrBuilder() {
         if (filterByPersonGroupIdsBuilder_ != null) {
@@ -772,7 +1016,7 @@ public final class OmModifyCampPersGroupCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -790,13 +1034,13 @@ public final class OmModifyCampPersGroupCondAd {
 
       private boolean filterByPersonGroupIdsNull_ ;
       /**
-       * <code>optional bool filter_by_person_group_ids_null = 1001;</code>
+       * <code>optional bool filter_by_person_group_ids_null = 1002;</code>
        */
       public boolean getFilterByPersonGroupIdsNull() {
         return filterByPersonGroupIdsNull_;
       }
       /**
-       * <code>optional bool filter_by_person_group_ids_null = 1001;</code>
+       * <code>optional bool filter_by_person_group_ids_null = 1002;</code>
        */
       public Builder setFilterByPersonGroupIdsNull(boolean value) {
         
@@ -805,7 +1049,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional bool filter_by_person_group_ids_null = 1001;</code>
+       * <code>optional bool filter_by_person_group_ids_null = 1002;</code>
        */
       public Builder clearFilterByPersonGroupIdsNull() {
         
@@ -818,13 +1062,13 @@ public final class OmModifyCampPersGroupCondAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> anyIdInFilterBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
        */
       public boolean hasAnyIdInFilter() {
         return anyIdInFilterBuilder_ != null || anyIdInFilter_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
        */
       public io.dstore.Values.booleanValue getAnyIdInFilter() {
         if (anyIdInFilterBuilder_ == null) {
@@ -834,7 +1078,7 @@ public final class OmModifyCampPersGroupCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
        */
       public Builder setAnyIdInFilter(io.dstore.Values.booleanValue value) {
         if (anyIdInFilterBuilder_ == null) {
@@ -850,7 +1094,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
        */
       public Builder setAnyIdInFilter(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -864,7 +1108,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
        */
       public Builder mergeAnyIdInFilter(io.dstore.Values.booleanValue value) {
         if (anyIdInFilterBuilder_ == null) {
@@ -882,7 +1126,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
        */
       public Builder clearAnyIdInFilter() {
         if (anyIdInFilterBuilder_ == null) {
@@ -896,7 +1140,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
        */
       public io.dstore.Values.booleanValue.Builder getAnyIdInFilterBuilder() {
         
@@ -904,7 +1148,7 @@ public final class OmModifyCampPersGroupCondAd {
         return getAnyIdInFilterFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getAnyIdInFilterOrBuilder() {
         if (anyIdInFilterBuilder_ != null) {
@@ -915,7 +1159,7 @@ public final class OmModifyCampPersGroupCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -933,13 +1177,13 @@ public final class OmModifyCampPersGroupCondAd {
 
       private boolean anyIdInFilterNull_ ;
       /**
-       * <code>optional bool any_id_in_filter_null = 1002;</code>
+       * <code>optional bool any_id_in_filter_null = 1003;</code>
        */
       public boolean getAnyIdInFilterNull() {
         return anyIdInFilterNull_;
       }
       /**
-       * <code>optional bool any_id_in_filter_null = 1002;</code>
+       * <code>optional bool any_id_in_filter_null = 1003;</code>
        */
       public Builder setAnyIdInFilterNull(boolean value) {
         
@@ -948,7 +1192,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional bool any_id_in_filter_null = 1002;</code>
+       * <code>optional bool any_id_in_filter_null = 1003;</code>
        */
       public Builder clearAnyIdInFilterNull() {
         
@@ -961,13 +1205,13 @@ public final class OmModifyCampPersGroupCondAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateFilterBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
        */
       public boolean hasNegateFilter() {
         return negateFilterBuilder_ != null || negateFilter_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
        */
       public io.dstore.Values.booleanValue getNegateFilter() {
         if (negateFilterBuilder_ == null) {
@@ -977,7 +1221,7 @@ public final class OmModifyCampPersGroupCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
        */
       public Builder setNegateFilter(io.dstore.Values.booleanValue value) {
         if (negateFilterBuilder_ == null) {
@@ -993,7 +1237,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
        */
       public Builder setNegateFilter(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1007,7 +1251,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
        */
       public Builder mergeNegateFilter(io.dstore.Values.booleanValue value) {
         if (negateFilterBuilder_ == null) {
@@ -1025,7 +1269,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
        */
       public Builder clearNegateFilter() {
         if (negateFilterBuilder_ == null) {
@@ -1039,7 +1283,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
        */
       public io.dstore.Values.booleanValue.Builder getNegateFilterBuilder() {
         
@@ -1047,7 +1291,7 @@ public final class OmModifyCampPersGroupCondAd {
         return getNegateFilterFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
         if (negateFilterBuilder_ != null) {
@@ -1058,7 +1302,7 @@ public final class OmModifyCampPersGroupCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1076,13 +1320,13 @@ public final class OmModifyCampPersGroupCondAd {
 
       private boolean negateFilterNull_ ;
       /**
-       * <code>optional bool negate_filter_null = 1003;</code>
+       * <code>optional bool negate_filter_null = 1004;</code>
        */
       public boolean getNegateFilterNull() {
         return negateFilterNull_;
       }
       /**
-       * <code>optional bool negate_filter_null = 1003;</code>
+       * <code>optional bool negate_filter_null = 1004;</code>
        */
       public Builder setNegateFilterNull(boolean value) {
         
@@ -1091,7 +1335,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional bool negate_filter_null = 1003;</code>
+       * <code>optional bool negate_filter_null = 1004;</code>
        */
       public Builder clearNegateFilterNull() {
         
@@ -1104,13 +1348,13 @@ public final class OmModifyCampPersGroupCondAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deletePersonGroupConditionBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
        */
       public boolean hasDeletePersonGroupCondition() {
         return deletePersonGroupConditionBuilder_ != null || deletePersonGroupCondition_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
        */
       public io.dstore.Values.booleanValue getDeletePersonGroupCondition() {
         if (deletePersonGroupConditionBuilder_ == null) {
@@ -1120,7 +1364,7 @@ public final class OmModifyCampPersGroupCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
        */
       public Builder setDeletePersonGroupCondition(io.dstore.Values.booleanValue value) {
         if (deletePersonGroupConditionBuilder_ == null) {
@@ -1136,7 +1380,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
        */
       public Builder setDeletePersonGroupCondition(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1150,7 +1394,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
        */
       public Builder mergeDeletePersonGroupCondition(io.dstore.Values.booleanValue value) {
         if (deletePersonGroupConditionBuilder_ == null) {
@@ -1168,7 +1412,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
        */
       public Builder clearDeletePersonGroupCondition() {
         if (deletePersonGroupConditionBuilder_ == null) {
@@ -1182,7 +1426,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
        */
       public io.dstore.Values.booleanValue.Builder getDeletePersonGroupConditionBuilder() {
         
@@ -1190,7 +1434,7 @@ public final class OmModifyCampPersGroupCondAd {
         return getDeletePersonGroupConditionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDeletePersonGroupConditionOrBuilder() {
         if (deletePersonGroupConditionBuilder_ != null) {
@@ -1201,7 +1445,7 @@ public final class OmModifyCampPersGroupCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete_person_group_condition = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1219,13 +1463,13 @@ public final class OmModifyCampPersGroupCondAd {
 
       private boolean deletePersonGroupConditionNull_ ;
       /**
-       * <code>optional bool delete_person_group_condition_null = 1004;</code>
+       * <code>optional bool delete_person_group_condition_null = 1005;</code>
        */
       public boolean getDeletePersonGroupConditionNull() {
         return deletePersonGroupConditionNull_;
       }
       /**
-       * <code>optional bool delete_person_group_condition_null = 1004;</code>
+       * <code>optional bool delete_person_group_condition_null = 1005;</code>
        */
       public Builder setDeletePersonGroupConditionNull(boolean value) {
         
@@ -1234,7 +1478,7 @@ public final class OmModifyCampPersGroupCondAd {
         return this;
       }
       /**
-       * <code>optional bool delete_person_group_condition_null = 1004;</code>
+       * <code>optional bool delete_person_group_condition_null = 1005;</code>
        */
       public Builder clearDeletePersonGroupConditionNull() {
         
@@ -3475,26 +3719,30 @@ public final class OmModifyCampPersGroupCondAd {
       "_ModifyCampPersGroupCond_Ad\032\023dstore/valu" +
       "es.proto\032\031dstore/engine/error.proto\032\033dst" +
       "ore/engine/message.proto\032#dstore/engine/" +
-      "metainformation.proto\"\217\003\n\nParameters\022>\n\032" +
-      "filter_by_person_group_ids\030\001 \001(\0132\032.dstor" +
-      "e.values.stringValue\022(\n\037filter_by_person" +
-      "_group_ids_null\030\351\007 \001(\010\0225\n\020any_id_in_filt" +
-      "er\030\002 \001(\0132\033.dstore.values.booleanValue\022\036\n",
-      "\025any_id_in_filter_null\030\352\007 \001(\010\0222\n\rnegate_" +
-      "filter\030\003 \001(\0132\033.dstore.values.booleanValu" +
-      "e\022\033\n\022negate_filter_null\030\353\007 \001(\010\022B\n\035delete" +
-      "_person_group_condition\030\004 \001(\0132\033.dstore.v" +
-      "alues.booleanValue\022+\n\"delete_person_grou" +
-      "p_condition_null\030\354\007 \001(\010\"\303\002\n\010Response\022)\n\005" +
-      "error\030\001 \001(\0132\032.dstore.engine.error.Error\022" +
-      "H\n\020meta_information\030\002 \003(\0132..dstore.engin" +
-      "e.metainformation.MetaInformation\022/\n\007mes" +
-      "sage\030\003 \003(\0132\036.dstore.engine.message.Messa",
-      "ge\022F\n\003row\030\004 \003(\01329.dstore.engine.om_Modif" +
-      "yCampPersGroupCond_Ad.Response.Row\0221\n\014co" +
-      "ndition_id\030e \001(\0132\033.dstore.values.integer" +
-      "Value\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "metainformation.proto\"\336\003\n\nParameters\0221\n\014" +
+      "condition_id\030\001 \001(\0132\033.dstore.values.integ" +
+      "erValue\022\032\n\021condition_id_null\030\351\007 \001(\010\022>\n\032f" +
+      "ilter_by_person_group_ids\030\002 \001(\0132\032.dstore" +
+      ".values.stringValue\022(\n\037filter_by_person_",
+      "group_ids_null\030\352\007 \001(\010\0225\n\020any_id_in_filte" +
+      "r\030\003 \001(\0132\033.dstore.values.booleanValue\022\036\n\025" +
+      "any_id_in_filter_null\030\353\007 \001(\010\0222\n\rnegate_f" +
+      "ilter\030\004 \001(\0132\033.dstore.values.booleanValue" +
+      "\022\033\n\022negate_filter_null\030\354\007 \001(\010\022B\n\035delete_" +
+      "person_group_condition\030\005 \001(\0132\033.dstore.va" +
+      "lues.booleanValue\022+\n\"delete_person_group" +
+      "_condition_null\030\355\007 \001(\010\"\303\002\n\010Response\022)\n\005e" +
+      "rror\030\001 \001(\0132\032.dstore.engine.error.Error\022H" +
+      "\n\020meta_information\030\002 \003(\0132..dstore.engine",
+      ".metainformation.MetaInformation\022/\n\007mess" +
+      "age\030\003 \003(\0132\036.dstore.engine.message.Messag" +
+      "e\022F\n\003row\030\004 \003(\01329.dstore.engine.om_Modify" +
+      "CampPersGroupCond_Ad.Response.Row\0221\n\014con" +
+      "dition_id\030e \001(\0132\033.dstore.values.integerV" +
+      "alue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B^\n\033io.dstor" +
+      "e.engine.proceduresZ?gosdk.dstore.de/eng" +
+      "ine/procedures/om_ModifyCampPersGroupCon" +
+      "d_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3517,7 +3765,7 @@ public final class OmModifyCampPersGroupCondAd {
     internal_static_dstore_engine_om_ModifyCampPersGroupCond_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampPersGroupCond_Ad_Parameters_descriptor,
-        new java.lang.String[] { "FilterByPersonGroupIds", "FilterByPersonGroupIdsNull", "AnyIdInFilter", "AnyIdInFilterNull", "NegateFilter", "NegateFilterNull", "DeletePersonGroupCondition", "DeletePersonGroupConditionNull", });
+        new java.lang.String[] { "ConditionId", "ConditionIdNull", "FilterByPersonGroupIds", "FilterByPersonGroupIdsNull", "AnyIdInFilter", "AnyIdInFilterNull", "NegateFilter", "NegateFilterNull", "DeletePersonGroupCondition", "DeletePersonGroupConditionNull", });
     internal_static_dstore_engine_om_ModifyCampPersGroupCond_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_ModifyCampPersGroupCond_Ad_Response_fieldAccessorTable = new

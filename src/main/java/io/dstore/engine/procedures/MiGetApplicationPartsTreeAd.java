@@ -6868,8 +6868,10 @@ public final class MiGetApplicationPartsTreeAd {
       "lues.integerValue\022C\n\035successor_applic_pa" +
       "rt_tree_id\030\227N \001(\0132\033.dstore.values.intege" +
       "rValue\022>\n\030application_part_tree_id\030\230N \001(" +
-      "\0132\033.dstore.values.integerValueB\035\n\033io.dst" +
-      "ore.engine.proceduresb\006proto3"
+      "\0132\033.dstore.values.integerValueB^\n\033io.dst" +
+      "ore.engine.proceduresZ?gosdk.dstore.de/e" +
+      "ngine/procedures/mi_GetApplicationPartsT",
+      "ree_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

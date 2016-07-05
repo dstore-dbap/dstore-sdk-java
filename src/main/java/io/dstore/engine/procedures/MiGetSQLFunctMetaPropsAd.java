@@ -3664,8 +3664,10 @@ public final class MiGetSQLFunctMetaPropsAd {
       "\020code_line_number\030\221N \001(\0132\033.dstore.values" +
       ".integerValue\0223\n\016meta_info_type\030\222N \001(\0132\032" +
       ".dstore.values.stringValue\0220\n\013informatio",
-      "n\030\223N \001(\0132\032.dstore.values.stringValueB\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "n\030\223N \001(\0132\032.dstore.values.stringValueB[\n\033" +
+      "io.dstore.engine.proceduresZ<gosdk.dstor" +
+      "e.de/engine/procedures/mi_GetSQLFunctMet" +
+      "aProps_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -2925,8 +2925,9 @@ public final class OmGetTimeUnitsForCPeriodsAd {
       "se.Row\032z\n\003Row\022\017\n\006row_id\030\220N \001(\005\0222\n\014time_u" +
       "nit_id\030\221N \001(\0132\033.dstore.values.integerVal" +
       "ue\022.\n\ttime_unit\030\222N \001(\0132\032.dstore.values.s" +
-      "tringValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tringValueB^\n\033io.dstore.engine.procedure" +
+      "sZ?gosdk.dstore.de/engine/procedures/om_" +
+      "GetTimeUnitsForCPeriods_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

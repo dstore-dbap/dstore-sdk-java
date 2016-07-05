@@ -5881,8 +5881,9 @@ public final class OmGetPersonInfoForOrdersAd {
       "ore.values.stringValue\022-\n\007sort_no\030\230N \001(\013" +
       "2\033.dstore.values.integerValue\0224\n\016person_" +
       "type_id\030\231N \001(\0132\033.dstore.values.integerVa" +
-      "lueB\035\n\033io.dstore.engine.proceduresb\006prot" +
-      "o3"
+      "lueB]\n\033io.dstore.engine.proceduresZ>gosd" +
+      "k.dstore.de/engine/procedures/om_GetPers" +
+      "onInfoForOrders_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -27,8 +27,9 @@ public final class EngineOuterClass {
       "\n\016createUniqueID\022\032.dstore.values.stringV" +
       "alue\032\032.dstore.values.stringValue\"\000\022L\n\017is" +
       "ValidUniqueID\022\032.dstore.values.stringValu",
-      "e\032\033.dstore.values.booleanValue\"\000B\022\n\020io.d" +
-      "store.engineb\006proto3"
+      "e\032\033.dstore.values.booleanValue\"\000B*\n\020io.d" +
+      "store.engineZ\026gosdk.dstore.de/engineb\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -85,20 +85,38 @@ public final class PmGetRelationshipSettingEntry {
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.stringValue value = 5;</code>
+     */
+    boolean hasValue();
+    /**
+     * <code>optional .dstore.values.stringValue value = 5;</code>
+     */
+    io.dstore.Values.stringValue getValue();
+    /**
+     * <code>optional .dstore.values.stringValue value = 5;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+
+    /**
+     * <code>optional bool value_null = 1005;</code>
+     */
+    boolean getValueNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
      */
     io.dstore.Values.booleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
-     * <code>optional bool select_result_null = 1005;</code>
+     * <code>optional bool select_result_null = 1006;</code>
      */
     boolean getSelectResultNull();
   }
@@ -118,6 +136,7 @@ public final class PmGetRelationshipSettingEntry {
       fromPersonTypeIdNull_ = false;
       toPersonTypeIdNull_ = false;
       keyVariableNull_ = false;
+      valueNull_ = false;
       selectResultNull_ = false;
     }
 
@@ -198,6 +217,19 @@ public final class PmGetRelationshipSettingEntry {
               break;
             }
             case 42: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (value_ != null) {
+                subBuilder = value_.toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(value_);
+                value_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 50: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
@@ -231,6 +263,11 @@ public final class PmGetRelationshipSettingEntry {
               break;
             }
             case 8040: {
+
+              valueNull_ = input.readBool();
+              break;
+            }
+            case 8048: {
 
               selectResultNull_ = input.readBool();
               break;
@@ -379,31 +416,61 @@ public final class PmGetRelationshipSettingEntry {
       return keyVariableNull_;
     }
 
-    public static final int SELECT_RESULT_FIELD_NUMBER = 5;
+    public static final int VALUE_FIELD_NUMBER = 5;
+    private io.dstore.Values.stringValue value_;
+    /**
+     * <code>optional .dstore.values.stringValue value = 5;</code>
+     */
+    public boolean hasValue() {
+      return value_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue value = 5;</code>
+     */
+    public io.dstore.Values.stringValue getValue() {
+      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue value = 5;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      return getValue();
+    }
+
+    public static final int VALUE_NULL_FIELD_NUMBER = 1005;
+    private boolean valueNull_;
+    /**
+     * <code>optional bool value_null = 1005;</code>
+     */
+    public boolean getValueNull() {
+      return valueNull_;
+    }
+
+    public static final int SELECT_RESULT_FIELD_NUMBER = 6;
     private io.dstore.Values.booleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
      */
     public io.dstore.Values.booleanValue getSelectResult() {
       return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
-    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1005;
+    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1006;
     private boolean selectResultNull_;
     /**
-     * <code>optional bool select_result_null = 1005;</code>
+     * <code>optional bool select_result_null = 1006;</code>
      */
     public boolean getSelectResultNull() {
       return selectResultNull_;
@@ -433,8 +500,11 @@ public final class PmGetRelationshipSettingEntry {
       if (keyVariable_ != null) {
         output.writeMessage(4, getKeyVariable());
       }
+      if (value_ != null) {
+        output.writeMessage(5, getValue());
+      }
       if (selectResult_ != null) {
-        output.writeMessage(5, getSelectResult());
+        output.writeMessage(6, getSelectResult());
       }
       if (relationshipIdNull_ != false) {
         output.writeBool(1001, relationshipIdNull_);
@@ -448,8 +518,11 @@ public final class PmGetRelationshipSettingEntry {
       if (keyVariableNull_ != false) {
         output.writeBool(1004, keyVariableNull_);
       }
+      if (valueNull_ != false) {
+        output.writeBool(1005, valueNull_);
+      }
       if (selectResultNull_ != false) {
-        output.writeBool(1005, selectResultNull_);
+        output.writeBool(1006, selectResultNull_);
       }
     }
 
@@ -474,9 +547,13 @@ public final class PmGetRelationshipSettingEntry {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, getKeyVariable());
       }
+      if (value_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(5, getValue());
+      }
       if (selectResult_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getSelectResult());
+          .computeMessageSize(6, getSelectResult());
       }
       if (relationshipIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -494,9 +571,13 @@ public final class PmGetRelationshipSettingEntry {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, keyVariableNull_);
       }
+      if (valueNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1005, valueNull_);
+      }
       if (selectResultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, selectResultNull_);
+          .computeBoolSize(1006, selectResultNull_);
       }
       memoizedSize = size;
       return size;
@@ -641,6 +722,14 @@ public final class PmGetRelationshipSettingEntry {
         }
         keyVariableNull_ = false;
 
+        if (valueBuilder_ == null) {
+          value_ = null;
+        } else {
+          value_ = null;
+          valueBuilder_ = null;
+        }
+        valueNull_ = false;
+
         if (selectResultBuilder_ == null) {
           selectResult_ = null;
         } else {
@@ -695,6 +784,12 @@ public final class PmGetRelationshipSettingEntry {
           result.keyVariable_ = keyVariableBuilder_.build();
         }
         result.keyVariableNull_ = keyVariableNull_;
+        if (valueBuilder_ == null) {
+          result.value_ = value_;
+        } else {
+          result.value_ = valueBuilder_.build();
+        }
+        result.valueNull_ = valueNull_;
         if (selectResultBuilder_ == null) {
           result.selectResult_ = selectResult_;
         } else {
@@ -739,6 +834,12 @@ public final class PmGetRelationshipSettingEntry {
         }
         if (other.getKeyVariableNull() != false) {
           setKeyVariableNull(other.getKeyVariableNull());
+        }
+        if (other.hasValue()) {
+          mergeValue(other.getValue());
+        }
+        if (other.getValueNull() != false) {
+          setValueNull(other.getValueNull());
         }
         if (other.hasSelectResult()) {
           mergeSelectResult(other.getSelectResult());
@@ -1344,17 +1445,160 @@ public final class PmGetRelationshipSettingEntry {
         return this;
       }
 
+      private io.dstore.Values.stringValue value_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue value = 5;</code>
+       */
+      public boolean hasValue() {
+        return valueBuilder_ != null || value_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 5;</code>
+       */
+      public io.dstore.Values.stringValue getValue() {
+        if (valueBuilder_ == null) {
+          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+        } else {
+          return valueBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 5;</code>
+       */
+      public Builder setValue(io.dstore.Values.stringValue value) {
+        if (valueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          valueBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 5;</code>
+       */
+      public Builder setValue(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (valueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          valueBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 5;</code>
+       */
+      public Builder mergeValue(io.dstore.Values.stringValue value) {
+        if (valueBuilder_ == null) {
+          if (value_ != null) {
+            value_ =
+              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          valueBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 5;</code>
+       */
+      public Builder clearValue() {
+        if (valueBuilder_ == null) {
+          value_ = null;
+          onChanged();
+        } else {
+          value_ = null;
+          valueBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 5;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        
+        onChanged();
+        return getValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 5;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        if (valueBuilder_ != null) {
+          return valueBuilder_.getMessageOrBuilder();
+        } else {
+          return value_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 5;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getValueFieldBuilder() {
+        if (valueBuilder_ == null) {
+          valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getValue(),
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        return valueBuilder_;
+      }
+
+      private boolean valueNull_ ;
+      /**
+       * <code>optional bool value_null = 1005;</code>
+       */
+      public boolean getValueNull() {
+        return valueNull_;
+      }
+      /**
+       * <code>optional bool value_null = 1005;</code>
+       */
+      public Builder setValueNull(boolean value) {
+        
+        valueNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool value_null = 1005;</code>
+       */
+      public Builder clearValueNull() {
+        
+        valueNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
        */
       public io.dstore.Values.booleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1364,7 +1608,7 @@ public final class PmGetRelationshipSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
        */
       public Builder setSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1380,7 +1624,7 @@ public final class PmGetRelationshipSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
        */
       public Builder setSelectResult(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1394,7 +1638,7 @@ public final class PmGetRelationshipSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
        */
       public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1412,7 +1656,7 @@ public final class PmGetRelationshipSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1426,7 +1670,7 @@ public final class PmGetRelationshipSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
        */
       public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
         
@@ -1434,7 +1678,7 @@ public final class PmGetRelationshipSettingEntry {
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
@@ -1445,7 +1689,7 @@ public final class PmGetRelationshipSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1463,13 +1707,13 @@ public final class PmGetRelationshipSettingEntry {
 
       private boolean selectResultNull_ ;
       /**
-       * <code>optional bool select_result_null = 1005;</code>
+       * <code>optional bool select_result_null = 1006;</code>
        */
       public boolean getSelectResultNull() {
         return selectResultNull_;
       }
       /**
-       * <code>optional bool select_result_null = 1005;</code>
+       * <code>optional bool select_result_null = 1006;</code>
        */
       public Builder setSelectResultNull(boolean value) {
         
@@ -1478,7 +1722,7 @@ public final class PmGetRelationshipSettingEntry {
         return this;
       }
       /**
-       * <code>optional bool select_result_null = 1005;</code>
+       * <code>optional bool select_result_null = 1006;</code>
        */
       public Builder clearSelectResultNull() {
         
@@ -3964,7 +4208,7 @@ public final class PmGetRelationshipSettingEntry {
       "m_GetRelationshipSettingEntry\032\023dstore/va" +
       "lues.proto\032\031dstore/engine/error.proto\032\033d" +
       "store/engine/message.proto\032#dstore/engin" +
-      "e/metainformation.proto\"\266\003\n\nParameters\0224" +
+      "e/metainformation.proto\"\366\003\n\nParameters\0224" +
       "\n\017relationship_id\030\001 \001(\0132\033.dstore.values." +
       "integerValue\022\035\n\024relationship_id_null\030\351\007 " +
       "\001(\010\0228\n\023from_person_type_id\030\002 \001(\0132\033.dstor" +
@@ -3973,19 +4217,22 @@ public final class PmGetRelationshipSettingEntry {
       "\001(\0132\033.dstore.values.integerValue\022\037\n\026to_p" +
       "erson_type_id_null\030\353\007 \001(\010\0220\n\014key_variabl" +
       "e\030\004 \001(\0132\032.dstore.values.stringValue\022\032\n\021k" +
-      "ey_variable_null\030\354\007 \001(\010\0222\n\rselect_result" +
-      "\030\005 \001(\0132\033.dstore.values.booleanValue\022\033\n\022s" +
-      "elect_result_null\030\355\007 \001(\010\"\350\002\n\010Response\022)\n" +
-      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error" +
-      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi" +
-      "ne.metainformation.MetaInformation\022/\n\007me",
-      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
-      "age\022G\n\003row\030\004 \003(\0132:.dstore.engine.pm_GetR" +
-      "elationshipSettingEntry.Response.Row\022)\n\005" +
-      "value\030e \001(\0132\032.dstore.values.stringValue\032" +
-      "B\n\003Row\022\017\n\006row_id\030\220N \001(\005\022*\n\005value\030\221N \001(\0132" +
-      "\032.dstore.values.stringValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      "ey_variable_null\030\354\007 \001(\010\022)\n\005value\030\005 \001(\0132\032" +
+      ".dstore.values.stringValue\022\023\n\nvalue_null" +
+      "\030\355\007 \001(\010\0222\n\rselect_result\030\006 \001(\0132\033.dstore." +
+      "values.booleanValue\022\033\n\022select_result_nul" +
+      "l\030\356\007 \001(\010\"\350\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.d" +
+      "store.engine.error.Error\022H\n\020meta_informa",
+      "tion\030\002 \003(\0132..dstore.engine.metainformati" +
+      "on.MetaInformation\022/\n\007message\030\003 \003(\0132\036.ds" +
+      "tore.engine.message.Message\022G\n\003row\030\004 \003(\013" +
+      "2:.dstore.engine.pm_GetRelationshipSetti" +
+      "ngEntry.Response.Row\022)\n\005value\030e \001(\0132\032.ds" +
+      "tore.values.stringValue\032B\n\003Row\022\017\n\006row_id" +
+      "\030\220N \001(\005\022*\n\005value\030\221N \001(\0132\032.dstore.values." +
+      "stringValueB_\n\033io.dstore.engine.procedur" +
+      "esZ@gosdk.dstore.de/engine/procedures/pm" +
+      "_GetRelationshipSettingEntryb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4008,7 +4255,7 @@ public final class PmGetRelationshipSettingEntry {
     internal_static_dstore_engine_pm_GetRelationshipSettingEntry_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetRelationshipSettingEntry_Parameters_descriptor,
-        new java.lang.String[] { "RelationshipId", "RelationshipIdNull", "FromPersonTypeId", "FromPersonTypeIdNull", "ToPersonTypeId", "ToPersonTypeIdNull", "KeyVariable", "KeyVariableNull", "SelectResult", "SelectResultNull", });
+        new java.lang.String[] { "RelationshipId", "RelationshipIdNull", "FromPersonTypeId", "FromPersonTypeIdNull", "ToPersonTypeId", "ToPersonTypeIdNull", "KeyVariable", "KeyVariableNull", "Value", "ValueNull", "SelectResult", "SelectResultNull", });
     internal_static_dstore_engine_pm_GetRelationshipSettingEntry_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_GetRelationshipSettingEntry_Response_fieldAccessorTable = new

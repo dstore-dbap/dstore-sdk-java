@@ -4404,8 +4404,9 @@ public final class MiGetBinaryPropertiesPu {
       ".dstore.values.integerValue\022,\n\006modify\030\225N" +
       " \001(\0132\033.dstore.values.booleanValue\0227\n\021pre" +
       "defined_values\030\226N \001(\0132\033.dstore.values.bo" +
-      "oleanValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "oleanValueBZ\n\033io.dstore.engine.procedure" +
+      "sZ;gosdk.dstore.de/engine/procedures/mi_" +
+      "GetBinaryProperties_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

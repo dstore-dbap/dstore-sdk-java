@@ -3416,8 +3416,9 @@ public final class OmModifyTaxesAd {
       "\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messag" +
       "e.Message\022:\n\003row\030\004 \003(\0132-.dstore.engine.o" +
       "m_ModifyTaxes_Ad.Response.Row\032\026\n\003Row\022\017\n\006" +
-      "row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proced",
-      "uresb\006proto3"
+      "row_id\030\220N \001(\005BR\n\033io.dstore.engine.proced",
+      "uresZ3gosdk.dstore.de/engine/procedures/" +
+      "om_ModifyTaxes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

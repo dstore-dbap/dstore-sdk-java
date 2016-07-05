@@ -3664,8 +3664,10 @@ public final class OmGetTrolleyInformationPu {
       "or_id\030\221N \001(\0132\033.dstore.values.integerValu" +
       "e\0229\n\023information_type_id\030\222N \001(\0132\033.dstore" +
       ".values.integerValue\0220\n\013information\030\223N \001",
-      "(\0132\032.dstore.values.stringValueB\035\n\033io.dst" +
-      "ore.engine.proceduresb\006proto3"
+      "(\0132\032.dstore.values.stringValueB\\\n\033io.dst" +
+      "ore.engine.proceduresZ=gosdk.dstore.de/e" +
+      "ngine/procedures/om_GetTrolleyInformatio" +
+      "n_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

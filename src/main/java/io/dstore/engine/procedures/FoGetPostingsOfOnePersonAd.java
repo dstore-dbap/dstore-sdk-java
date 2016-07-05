@@ -6864,8 +6864,9 @@ public final class FoGetPostingsOfOnePersonAd {
       "hor\030\233N \001(\0132\032.dstore.values.stringValue\0221" +
       "\n\tpost_date\030\234N \001(\0132\035.dstore.values.times" +
       "tampValue\022)\n\004body\030\235N \001(\0132\032.dstore.values" +
-      ".stringValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      ".stringValueB]\n\033io.dstore.engine.procedu" +
+      "resZ>gosdk.dstore.de/engine/procedures/f",
+      "o_GetPostingsOfOnePerson_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

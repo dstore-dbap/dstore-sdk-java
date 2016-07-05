@@ -103,38 +103,56 @@ public final class PmAdressenCheckPu {
     boolean getReturnResultNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+     * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+     */
+    boolean hasCorrectAdress();
+    /**
+     * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+     */
+    io.dstore.Values.integerValue getCorrectAdress();
+    /**
+     * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getCorrectAdressOrBuilder();
+
+    /**
+     * <code>optional bool correct_adress_null = 1006;</code>
+     */
+    boolean getCorrectAdressNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
      */
     boolean hasOrtVorPLZ();
     /**
-     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
      */
     io.dstore.Values.booleanValue getOrtVorPLZ();
     /**
-     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getOrtVorPLZOrBuilder();
 
     /**
-     * <code>optional bool ort_vor_p_l_z_null = 1006;</code>
+     * <code>optional bool ort_vor_p_l_z_null = 1007;</code>
      */
     boolean getOrtVorPLZNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
      */
     boolean hasStrasseVorPLZ();
     /**
-     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
      */
     io.dstore.Values.booleanValue getStrasseVorPLZ();
     /**
-     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getStrasseVorPLZOrBuilder();
 
     /**
-     * <code>optional bool strasse_vor_p_l_z_null = 1007;</code>
+     * <code>optional bool strasse_vor_p_l_z_null = 1008;</code>
      */
     boolean getStrasseVorPLZNull();
   }
@@ -155,6 +173,7 @@ public final class PmAdressenCheckPu {
       strasseNull_ = false;
       hausnummerNull_ = false;
       returnResultNull_ = false;
+      correctAdressNull_ = false;
       ortVorPLZNull_ = false;
       strasseVorPLZNull_ = false;
     }
@@ -249,6 +268,19 @@ public final class PmAdressenCheckPu {
               break;
             }
             case 50: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (correctAdress_ != null) {
+                subBuilder = correctAdress_.toBuilder();
+              }
+              correctAdress_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(correctAdress_);
+                correctAdress_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 58: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (ortVorPLZ_ != null) {
                 subBuilder = ortVorPLZ_.toBuilder();
@@ -261,7 +293,7 @@ public final class PmAdressenCheckPu {
 
               break;
             }
-            case 58: {
+            case 66: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (strasseVorPLZ_ != null) {
                 subBuilder = strasseVorPLZ_.toBuilder();
@@ -301,10 +333,15 @@ public final class PmAdressenCheckPu {
             }
             case 8048: {
 
-              ortVorPLZNull_ = input.readBool();
+              correctAdressNull_ = input.readBool();
               break;
             }
             case 8056: {
+
+              ortVorPLZNull_ = input.readBool();
+              break;
+            }
+            case 8064: {
 
               strasseVorPLZNull_ = input.readBool();
               break;
@@ -483,61 +520,91 @@ public final class PmAdressenCheckPu {
       return returnResultNull_;
     }
 
-    public static final int ORT_VOR_P_L_Z_FIELD_NUMBER = 6;
+    public static final int CORRECT_ADRESS_FIELD_NUMBER = 6;
+    private io.dstore.Values.integerValue correctAdress_;
+    /**
+     * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+     */
+    public boolean hasCorrectAdress() {
+      return correctAdress_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+     */
+    public io.dstore.Values.integerValue getCorrectAdress() {
+      return correctAdress_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correctAdress_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getCorrectAdressOrBuilder() {
+      return getCorrectAdress();
+    }
+
+    public static final int CORRECT_ADRESS_NULL_FIELD_NUMBER = 1006;
+    private boolean correctAdressNull_;
+    /**
+     * <code>optional bool correct_adress_null = 1006;</code>
+     */
+    public boolean getCorrectAdressNull() {
+      return correctAdressNull_;
+    }
+
+    public static final int ORT_VOR_P_L_Z_FIELD_NUMBER = 7;
     private io.dstore.Values.booleanValue ortVorPLZ_;
     /**
-     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
      */
     public boolean hasOrtVorPLZ() {
       return ortVorPLZ_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
      */
     public io.dstore.Values.booleanValue getOrtVorPLZ() {
       return ortVorPLZ_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : ortVorPLZ_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+     * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getOrtVorPLZOrBuilder() {
       return getOrtVorPLZ();
     }
 
-    public static final int ORT_VOR_P_L_Z_NULL_FIELD_NUMBER = 1006;
+    public static final int ORT_VOR_P_L_Z_NULL_FIELD_NUMBER = 1007;
     private boolean ortVorPLZNull_;
     /**
-     * <code>optional bool ort_vor_p_l_z_null = 1006;</code>
+     * <code>optional bool ort_vor_p_l_z_null = 1007;</code>
      */
     public boolean getOrtVorPLZNull() {
       return ortVorPLZNull_;
     }
 
-    public static final int STRASSE_VOR_P_L_Z_FIELD_NUMBER = 7;
+    public static final int STRASSE_VOR_P_L_Z_FIELD_NUMBER = 8;
     private io.dstore.Values.booleanValue strasseVorPLZ_;
     /**
-     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
      */
     public boolean hasStrasseVorPLZ() {
       return strasseVorPLZ_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
      */
     public io.dstore.Values.booleanValue getStrasseVorPLZ() {
       return strasseVorPLZ_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : strasseVorPLZ_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+     * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getStrasseVorPLZOrBuilder() {
       return getStrasseVorPLZ();
     }
 
-    public static final int STRASSE_VOR_P_L_Z_NULL_FIELD_NUMBER = 1007;
+    public static final int STRASSE_VOR_P_L_Z_NULL_FIELD_NUMBER = 1008;
     private boolean strasseVorPLZNull_;
     /**
-     * <code>optional bool strasse_vor_p_l_z_null = 1007;</code>
+     * <code>optional bool strasse_vor_p_l_z_null = 1008;</code>
      */
     public boolean getStrasseVorPLZNull() {
       return strasseVorPLZNull_;
@@ -570,11 +637,14 @@ public final class PmAdressenCheckPu {
       if (returnResult_ != null) {
         output.writeMessage(5, getReturnResult());
       }
+      if (correctAdress_ != null) {
+        output.writeMessage(6, getCorrectAdress());
+      }
       if (ortVorPLZ_ != null) {
-        output.writeMessage(6, getOrtVorPLZ());
+        output.writeMessage(7, getOrtVorPLZ());
       }
       if (strasseVorPLZ_ != null) {
-        output.writeMessage(7, getStrasseVorPLZ());
+        output.writeMessage(8, getStrasseVorPLZ());
       }
       if (pLZNull_ != false) {
         output.writeBool(1001, pLZNull_);
@@ -591,11 +661,14 @@ public final class PmAdressenCheckPu {
       if (returnResultNull_ != false) {
         output.writeBool(1005, returnResultNull_);
       }
+      if (correctAdressNull_ != false) {
+        output.writeBool(1006, correctAdressNull_);
+      }
       if (ortVorPLZNull_ != false) {
-        output.writeBool(1006, ortVorPLZNull_);
+        output.writeBool(1007, ortVorPLZNull_);
       }
       if (strasseVorPLZNull_ != false) {
-        output.writeBool(1007, strasseVorPLZNull_);
+        output.writeBool(1008, strasseVorPLZNull_);
       }
     }
 
@@ -624,13 +697,17 @@ public final class PmAdressenCheckPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, getReturnResult());
       }
+      if (correctAdress_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getCorrectAdress());
+      }
       if (ortVorPLZ_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getOrtVorPLZ());
+          .computeMessageSize(7, getOrtVorPLZ());
       }
       if (strasseVorPLZ_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getStrasseVorPLZ());
+          .computeMessageSize(8, getStrasseVorPLZ());
       }
       if (pLZNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -652,13 +729,17 @@ public final class PmAdressenCheckPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, returnResultNull_);
       }
+      if (correctAdressNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1006, correctAdressNull_);
+      }
       if (ortVorPLZNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, ortVorPLZNull_);
+          .computeBoolSize(1007, ortVorPLZNull_);
       }
       if (strasseVorPLZNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1007, strasseVorPLZNull_);
+          .computeBoolSize(1008, strasseVorPLZNull_);
       }
       memoizedSize = size;
       return size;
@@ -811,6 +892,14 @@ public final class PmAdressenCheckPu {
         }
         returnResultNull_ = false;
 
+        if (correctAdressBuilder_ == null) {
+          correctAdress_ = null;
+        } else {
+          correctAdress_ = null;
+          correctAdressBuilder_ = null;
+        }
+        correctAdressNull_ = false;
+
         if (ortVorPLZBuilder_ == null) {
           ortVorPLZ_ = null;
         } else {
@@ -879,6 +968,12 @@ public final class PmAdressenCheckPu {
           result.returnResult_ = returnResultBuilder_.build();
         }
         result.returnResultNull_ = returnResultNull_;
+        if (correctAdressBuilder_ == null) {
+          result.correctAdress_ = correctAdress_;
+        } else {
+          result.correctAdress_ = correctAdressBuilder_.build();
+        }
+        result.correctAdressNull_ = correctAdressNull_;
         if (ortVorPLZBuilder_ == null) {
           result.ortVorPLZ_ = ortVorPLZ_;
         } else {
@@ -935,6 +1030,12 @@ public final class PmAdressenCheckPu {
         }
         if (other.getReturnResultNull() != false) {
           setReturnResultNull(other.getReturnResultNull());
+        }
+        if (other.hasCorrectAdress()) {
+          mergeCorrectAdress(other.getCorrectAdress());
+        }
+        if (other.getCorrectAdressNull() != false) {
+          setCorrectAdressNull(other.getCorrectAdressNull());
         }
         if (other.hasOrtVorPLZ()) {
           mergeOrtVorPLZ(other.getOrtVorPLZ());
@@ -1689,17 +1790,160 @@ public final class PmAdressenCheckPu {
         return this;
       }
 
+      private io.dstore.Values.integerValue correctAdress_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> correctAdressBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+       */
+      public boolean hasCorrectAdress() {
+        return correctAdressBuilder_ != null || correctAdress_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+       */
+      public io.dstore.Values.integerValue getCorrectAdress() {
+        if (correctAdressBuilder_ == null) {
+          return correctAdress_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correctAdress_;
+        } else {
+          return correctAdressBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+       */
+      public Builder setCorrectAdress(io.dstore.Values.integerValue value) {
+        if (correctAdressBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          correctAdress_ = value;
+          onChanged();
+        } else {
+          correctAdressBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+       */
+      public Builder setCorrectAdress(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (correctAdressBuilder_ == null) {
+          correctAdress_ = builderForValue.build();
+          onChanged();
+        } else {
+          correctAdressBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+       */
+      public Builder mergeCorrectAdress(io.dstore.Values.integerValue value) {
+        if (correctAdressBuilder_ == null) {
+          if (correctAdress_ != null) {
+            correctAdress_ =
+              io.dstore.Values.integerValue.newBuilder(correctAdress_).mergeFrom(value).buildPartial();
+          } else {
+            correctAdress_ = value;
+          }
+          onChanged();
+        } else {
+          correctAdressBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+       */
+      public Builder clearCorrectAdress() {
+        if (correctAdressBuilder_ == null) {
+          correctAdress_ = null;
+          onChanged();
+        } else {
+          correctAdress_ = null;
+          correctAdressBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getCorrectAdressBuilder() {
+        
+        onChanged();
+        return getCorrectAdressFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getCorrectAdressOrBuilder() {
+        if (correctAdressBuilder_ != null) {
+          return correctAdressBuilder_.getMessageOrBuilder();
+        } else {
+          return correctAdress_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : correctAdress_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue correct_adress = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getCorrectAdressFieldBuilder() {
+        if (correctAdressBuilder_ == null) {
+          correctAdressBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getCorrectAdress(),
+                  getParentForChildren(),
+                  isClean());
+          correctAdress_ = null;
+        }
+        return correctAdressBuilder_;
+      }
+
+      private boolean correctAdressNull_ ;
+      /**
+       * <code>optional bool correct_adress_null = 1006;</code>
+       */
+      public boolean getCorrectAdressNull() {
+        return correctAdressNull_;
+      }
+      /**
+       * <code>optional bool correct_adress_null = 1006;</code>
+       */
+      public Builder setCorrectAdressNull(boolean value) {
+        
+        correctAdressNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool correct_adress_null = 1006;</code>
+       */
+      public Builder clearCorrectAdressNull() {
+        
+        correctAdressNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue ortVorPLZ_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> ortVorPLZBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
        */
       public boolean hasOrtVorPLZ() {
         return ortVorPLZBuilder_ != null || ortVorPLZ_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
        */
       public io.dstore.Values.booleanValue getOrtVorPLZ() {
         if (ortVorPLZBuilder_ == null) {
@@ -1709,7 +1953,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
        */
       public Builder setOrtVorPLZ(io.dstore.Values.booleanValue value) {
         if (ortVorPLZBuilder_ == null) {
@@ -1725,7 +1969,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
        */
       public Builder setOrtVorPLZ(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1739,7 +1983,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
        */
       public Builder mergeOrtVorPLZ(io.dstore.Values.booleanValue value) {
         if (ortVorPLZBuilder_ == null) {
@@ -1757,7 +2001,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
        */
       public Builder clearOrtVorPLZ() {
         if (ortVorPLZBuilder_ == null) {
@@ -1771,7 +2015,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
        */
       public io.dstore.Values.booleanValue.Builder getOrtVorPLZBuilder() {
         
@@ -1779,7 +2023,7 @@ public final class PmAdressenCheckPu {
         return getOrtVorPLZFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getOrtVorPLZOrBuilder() {
         if (ortVorPLZBuilder_ != null) {
@@ -1790,7 +2034,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 6;</code>
+       * <code>optional .dstore.values.booleanValue ort_vor_p_l_z = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1808,13 +2052,13 @@ public final class PmAdressenCheckPu {
 
       private boolean ortVorPLZNull_ ;
       /**
-       * <code>optional bool ort_vor_p_l_z_null = 1006;</code>
+       * <code>optional bool ort_vor_p_l_z_null = 1007;</code>
        */
       public boolean getOrtVorPLZNull() {
         return ortVorPLZNull_;
       }
       /**
-       * <code>optional bool ort_vor_p_l_z_null = 1006;</code>
+       * <code>optional bool ort_vor_p_l_z_null = 1007;</code>
        */
       public Builder setOrtVorPLZNull(boolean value) {
         
@@ -1823,7 +2067,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional bool ort_vor_p_l_z_null = 1006;</code>
+       * <code>optional bool ort_vor_p_l_z_null = 1007;</code>
        */
       public Builder clearOrtVorPLZNull() {
         
@@ -1836,13 +2080,13 @@ public final class PmAdressenCheckPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> strasseVorPLZBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
        */
       public boolean hasStrasseVorPLZ() {
         return strasseVorPLZBuilder_ != null || strasseVorPLZ_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
        */
       public io.dstore.Values.booleanValue getStrasseVorPLZ() {
         if (strasseVorPLZBuilder_ == null) {
@@ -1852,7 +2096,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
        */
       public Builder setStrasseVorPLZ(io.dstore.Values.booleanValue value) {
         if (strasseVorPLZBuilder_ == null) {
@@ -1868,7 +2112,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
        */
       public Builder setStrasseVorPLZ(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1882,7 +2126,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
        */
       public Builder mergeStrasseVorPLZ(io.dstore.Values.booleanValue value) {
         if (strasseVorPLZBuilder_ == null) {
@@ -1900,7 +2144,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
        */
       public Builder clearStrasseVorPLZ() {
         if (strasseVorPLZBuilder_ == null) {
@@ -1914,7 +2158,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
        */
       public io.dstore.Values.booleanValue.Builder getStrasseVorPLZBuilder() {
         
@@ -1922,7 +2166,7 @@ public final class PmAdressenCheckPu {
         return getStrasseVorPLZFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getStrasseVorPLZOrBuilder() {
         if (strasseVorPLZBuilder_ != null) {
@@ -1933,7 +2177,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 7;</code>
+       * <code>optional .dstore.values.booleanValue strasse_vor_p_l_z = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1951,13 +2195,13 @@ public final class PmAdressenCheckPu {
 
       private boolean strasseVorPLZNull_ ;
       /**
-       * <code>optional bool strasse_vor_p_l_z_null = 1007;</code>
+       * <code>optional bool strasse_vor_p_l_z_null = 1008;</code>
        */
       public boolean getStrasseVorPLZNull() {
         return strasseVorPLZNull_;
       }
       /**
-       * <code>optional bool strasse_vor_p_l_z_null = 1007;</code>
+       * <code>optional bool strasse_vor_p_l_z_null = 1008;</code>
        */
       public Builder setStrasseVorPLZNull(boolean value) {
         
@@ -1966,7 +2210,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional bool strasse_vor_p_l_z_null = 1007;</code>
+       * <code>optional bool strasse_vor_p_l_z_null = 1008;</code>
        */
       public Builder clearStrasseVorPLZNull() {
         
@@ -6412,7 +6656,7 @@ public final class PmAdressenCheckPu {
       "heck_Pu\032\023dstore/values.proto\032\031dstore/eng" +
       "ine/error.proto\032\033dstore/engine/message.p" +
       "roto\032#dstore/engine/metainformation.prot" +
-      "o\"\221\004\n\nParameters\022)\n\005p_l_z\030\001 \001(\0132\032.dstore" +
+      "o\"\344\004\n\nParameters\022)\n\005p_l_z\030\001 \001(\0132\032.dstore" +
       ".values.stringValue\022\023\n\np_l_z_null\030\351\007 \001(\010" +
       "\022\'\n\003ort\030\002 \001(\0132\032.dstore.values.stringValu" +
       "e\022\021\n\010ort_null\030\352\007 \001(\010\022+\n\007strasse\030\003 \001(\0132\032." +
@@ -6421,31 +6665,34 @@ public final class PmAdressenCheckPu {
       "lues.stringValue\022\030\n\017hausnummer_null\030\354\007 \001" +
       "(\010\0222\n\rreturn_result\030\005 \001(\0132\033.dstore.value" +
       "s.booleanValue\022\033\n\022return_result_null\030\355\007 " +
-      "\001(\010\0222\n\rort_vor_p_l_z\030\006 \001(\0132\033.dstore.valu" +
-      "es.booleanValue\022\033\n\022ort_vor_p_l_z_null\030\356\007" +
-      " \001(\010\0226\n\021strasse_vor_p_l_z\030\007 \001(\0132\033.dstore" +
-      ".values.booleanValue\022\037\n\026strasse_vor_p_l_" +
-      "z_null\030\357\007 \001(\010\"\367\005\n\010Response\022)\n\005error\030\001 \001(" +
-      "\0132\032.dstore.engine.error.Error\022H\n\020meta_in",
-      "formation\030\002 \003(\0132..dstore.engine.metainfo" +
-      "rmation.MetaInformation\022/\n\007message\030\003 \003(\013" +
-      "2\036.dstore.engine.message.Message\022<\n\003row\030" +
-      "\004 \003(\0132/.dstore.engine.pm_AdressenCheck_P" +
-      "u.Response.Row\0223\n\016correct_adress\030e \001(\0132\033" +
-      ".dstore.values.integerValue\032\321\003\n\003Row\022\017\n\006r" +
-      "ow_id\030\220N \001(\005\022(\n\003ort\030\221N \001(\0132\032.dstore.valu" +
-      "es.stringValue\022/\n\nort_zusatz\030\222N \001(\0132\032.ds" +
-      "tore.values.stringValue\0222\n\014p_l_z_status\030" +
-      "\223N \001(\0132\033.dstore.values.integerValue\0224\n\016s",
-      "trasse_status\030\224N \001(\0132\033.dstore.values.int" +
-      "egerValue\0227\n\021hausnummer_status\030\225N \001(\0132\033." +
-      "dstore.values.integerValue\0220\n\nort_status" +
-      "\030\226N \001(\0132\033.dstore.values.integerValue\022,\n\007" +
-      "strasse\030\227N \001(\0132\032.dstore.values.stringVal" +
-      "ue\022/\n\nhausnummer\030\230N \001(\0132\032.dstore.values." +
-      "stringValue\022*\n\005p_l_z\030\231N \001(\0132\032.dstore.val" +
-      "ues.stringValueB\035\n\033io.dstore.engine.proc" +
-      "eduresb\006proto3"
+      "\001(\010\0223\n\016correct_adress\030\006 \001(\0132\033.dstore.val" +
+      "ues.integerValue\022\034\n\023correct_adress_null\030" +
+      "\356\007 \001(\010\0222\n\rort_vor_p_l_z\030\007 \001(\0132\033.dstore.v" +
+      "alues.booleanValue\022\033\n\022ort_vor_p_l_z_null" +
+      "\030\357\007 \001(\010\0226\n\021strasse_vor_p_l_z\030\010 \001(\0132\033.dst" +
+      "ore.values.booleanValue\022\037\n\026strasse_vor_p",
+      "_l_z_null\030\360\007 \001(\010\"\367\005\n\010Response\022)\n\005error\030\001" +
+      " \001(\0132\032.dstore.engine.error.Error\022H\n\020meta" +
+      "_information\030\002 \003(\0132..dstore.engine.metai" +
+      "nformation.MetaInformation\022/\n\007message\030\003 " +
+      "\003(\0132\036.dstore.engine.message.Message\022<\n\003r" +
+      "ow\030\004 \003(\0132/.dstore.engine.pm_AdressenChec" +
+      "k_Pu.Response.Row\0223\n\016correct_adress\030e \001(" +
+      "\0132\033.dstore.values.integerValue\032\321\003\n\003Row\022\017" +
+      "\n\006row_id\030\220N \001(\005\022(\n\003ort\030\221N \001(\0132\032.dstore.v" +
+      "alues.stringValue\022/\n\nort_zusatz\030\222N \001(\0132\032",
+      ".dstore.values.stringValue\0222\n\014p_l_z_stat" +
+      "us\030\223N \001(\0132\033.dstore.values.integerValue\0224" +
+      "\n\016strasse_status\030\224N \001(\0132\033.dstore.values." +
+      "integerValue\0227\n\021hausnummer_status\030\225N \001(\013" +
+      "2\033.dstore.values.integerValue\0220\n\nort_sta" +
+      "tus\030\226N \001(\0132\033.dstore.values.integerValue\022" +
+      ",\n\007strasse\030\227N \001(\0132\032.dstore.values.string" +
+      "Value\022/\n\nhausnummer\030\230N \001(\0132\032.dstore.valu" +
+      "es.stringValue\022*\n\005p_l_z\030\231N \001(\0132\032.dstore." +
+      "values.stringValueBT\n\033io.dstore.engine.p",
+      "roceduresZ5gosdk.dstore.de/engine/proced" +
+      "ures/pm_AdressenCheck_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -6468,7 +6715,7 @@ public final class PmAdressenCheckPu {
     internal_static_dstore_engine_pm_AdressenCheck_Pu_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_AdressenCheck_Pu_Parameters_descriptor,
-        new java.lang.String[] { "PLZ", "PLZNull", "Ort", "OrtNull", "Strasse", "StrasseNull", "Hausnummer", "HausnummerNull", "ReturnResult", "ReturnResultNull", "OrtVorPLZ", "OrtVorPLZNull", "StrasseVorPLZ", "StrasseVorPLZNull", });
+        new java.lang.String[] { "PLZ", "PLZNull", "Ort", "OrtNull", "Strasse", "StrasseNull", "Hausnummer", "HausnummerNull", "ReturnResult", "ReturnResultNull", "CorrectAdress", "CorrectAdressNull", "OrtVorPLZ", "OrtVorPLZNull", "StrasseVorPLZ", "StrasseVorPLZNull", });
     internal_static_dstore_engine_pm_AdressenCheck_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_AdressenCheck_Pu_Response_fieldAccessorTable = new

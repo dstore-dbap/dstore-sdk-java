@@ -10313,8 +10313,9 @@ public final class FoGetPostingThreadPu {
       " \001(\0132\032.dstore.values.stringValue\022<\n\026new_" +
       "postings_in_thread\030\241N \001(\0132\033.dstore.value" +
       "s.integerValue\022)\n\004body\030\242N \001(\0132\032.dstore.v" +
-      "alues.stringValueB\035\n\033io.dstore.engine.pr" +
-      "oceduresb\006proto3"
+      "alues.stringValueBW\n\033io.dstore.engine.pr" +
+      "oceduresZ8gosdk.dstore.de/engine/procedu" +
+      "res/fo_GetPostingThread_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

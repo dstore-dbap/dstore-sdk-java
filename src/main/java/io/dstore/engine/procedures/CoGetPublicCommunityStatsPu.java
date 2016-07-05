@@ -3666,7 +3666,9 @@ public final class CoGetPublicCommunityStatsPu {
       "tatistic_information_id\030\222N \001(\0132\033.dstore.",
       "values.integerValue\022:\n\025statistic_informa" +
       "tion\030\223N \001(\0132\032.dstore.values.stringValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "^\n\033io.dstore.engine.proceduresZ?gosdk.ds" +
+      "tore.de/engine/procedures/co_GetPublicCo" +
+      "mmunityStats_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

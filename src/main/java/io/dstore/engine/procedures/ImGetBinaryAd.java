@@ -2925,7 +2925,9 @@ public final class ImGetBinaryAd {
       "(\0132+.dstore.engine.im_GetBinary_Ad.Respo" +
       "nse.Row\032G\n\003Row\022\017\n\006row_id\030\220N \001(\005\022/\n\013binar" +
       "y_code\030\221N \001(\0132\031.dstore.values.bytesValue" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "BP\n\033io.dstore.engine.proceduresZ1gosdk.d" +
+      "store.de/engine/procedures/im_GetBinary_" +
+      "Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

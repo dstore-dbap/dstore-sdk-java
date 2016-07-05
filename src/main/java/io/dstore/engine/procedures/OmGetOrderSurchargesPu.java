@@ -7608,8 +7608,10 @@ public final class OmGetOrderSurchargesPu {
       "es.decimalValue\022;\n\024applied_on_gross_sum\030" +
       "\250\234\001 \001(\0132\033.dstore.values.decimalValue\022A\n\032" +
       "orig_surch_val_is_absolute\030\253\234\001 \001(\0132\033.dst" +
-      "ore.values.integerValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "ore.values.integerValueBY\n\033io.dstore.eng" +
+      "ine.proceduresZ:gosdk.dstore.de/engine/p" +
+      "rocedures/om_GetOrderSurcharges_Pub\006prot",
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

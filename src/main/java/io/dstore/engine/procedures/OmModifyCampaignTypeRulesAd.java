@@ -3417,8 +3417,9 @@ public final class OmModifyCampaignTypeRulesAd {
       "\003 \003(\0132\036.dstore.engine.message.Message\022F\n" +
       "\003row\030\004 \003(\01329.dstore.engine.om_ModifyCamp" +
       "aignTypeRules_Ad.Response.Row\032\026\n\003Row\022\017\n\006",
-      "row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      "row_id\030\220N \001(\005B^\n\033io.dstore.engine.proced" +
+      "uresZ?gosdk.dstore.de/engine/procedures/" +
+      "om_ModifyCampaignTypeRules_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

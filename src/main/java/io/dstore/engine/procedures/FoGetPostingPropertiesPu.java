@@ -7360,8 +7360,10 @@ public final class FoGetPostingPropertiesPu {
       "ore.values.integerValue\022?\n\030max_number_of" +
       "_properties\030\252\234\001 \001(\0132\033.dstore.values.inte" +
       "gerValue\0228\n\021predefined_values\030\253\234\001 \001(\0132\033." +
-      "dstore.values.booleanValueB\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "dstore.values.booleanValueB[\n\033io.dstore." +
+      "engine.proceduresZ<gosdk.dstore.de/engin",
+      "e/procedures/fo_GetPostingProperties_Pub" +
+      "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

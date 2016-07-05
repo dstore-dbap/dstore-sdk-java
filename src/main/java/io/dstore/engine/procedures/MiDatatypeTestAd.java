@@ -47,6 +47,204 @@ public final class MiDatatypeTestAd {
      * <code>optional bool get_result_set_null = 1002;</code>
      */
     boolean getGetResultSetNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+     */
+    boolean hasTestBit();
+    /**
+     * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+     */
+    io.dstore.Values.booleanValue getTestBit();
+    /**
+     * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+     */
+    io.dstore.Values.booleanValueOrBuilder getTestBitOrBuilder();
+
+    /**
+     * <code>optional bool test_bit_null = 1003;</code>
+     */
+    boolean getTestBitNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue test_char = 4;</code>
+     */
+    boolean hasTestChar();
+    /**
+     * <code>optional .dstore.values.stringValue test_char = 4;</code>
+     */
+    io.dstore.Values.stringValue getTestChar();
+    /**
+     * <code>optional .dstore.values.stringValue test_char = 4;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getTestCharOrBuilder();
+
+    /**
+     * <code>optional bool test_char_null = 1004;</code>
+     */
+    boolean getTestCharNull();
+
+    /**
+     * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+     */
+    boolean hasTestDatetime();
+    /**
+     * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+     */
+    io.dstore.Values.timestampValue getTestDatetime();
+    /**
+     * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+     */
+    io.dstore.Values.timestampValueOrBuilder getTestDatetimeOrBuilder();
+
+    /**
+     * <code>optional bool test_datetime_null = 1005;</code>
+     */
+    boolean getTestDatetimeNull();
+
+    /**
+     * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+     */
+    boolean hasTestDecimal();
+    /**
+     * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+     */
+    io.dstore.Values.decimalValue getTestDecimal();
+    /**
+     * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+     */
+    io.dstore.Values.decimalValueOrBuilder getTestDecimalOrBuilder();
+
+    /**
+     * <code>optional bool test_decimal_null = 1006;</code>
+     */
+    boolean getTestDecimalNull();
+
+    /**
+     * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+     */
+    boolean hasTestImage();
+    /**
+     * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+     */
+    io.dstore.Values.bytesValue getTestImage();
+    /**
+     * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+     */
+    io.dstore.Values.bytesValueOrBuilder getTestImageOrBuilder();
+
+    /**
+     * <code>optional bool test_image_null = 1007;</code>
+     */
+    boolean getTestImageNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+     */
+    boolean hasTestInteger();
+    /**
+     * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+     */
+    io.dstore.Values.integerValue getTestInteger();
+    /**
+     * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getTestIntegerOrBuilder();
+
+    /**
+     * <code>optional bool test_integer_null = 1008;</code>
+     */
+    boolean getTestIntegerNull();
+
+    /**
+     * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+     */
+    boolean hasTestMoney();
+    /**
+     * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+     */
+    io.dstore.Values.decimalValue getTestMoney();
+    /**
+     * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+     */
+    io.dstore.Values.decimalValueOrBuilder getTestMoneyOrBuilder();
+
+    /**
+     * <code>optional bool test_money_null = 1009;</code>
+     */
+    boolean getTestMoneyNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+     */
+    boolean hasTestSmallint();
+    /**
+     * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+     */
+    io.dstore.Values.integerValue getTestSmallint();
+    /**
+     * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getTestSmallintOrBuilder();
+
+    /**
+     * <code>optional bool test_smallint_null = 1010;</code>
+     */
+    boolean getTestSmallintNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue test_text = 11;</code>
+     */
+    boolean hasTestText();
+    /**
+     * <code>optional .dstore.values.stringValue test_text = 11;</code>
+     */
+    io.dstore.Values.stringValue getTestText();
+    /**
+     * <code>optional .dstore.values.stringValue test_text = 11;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getTestTextOrBuilder();
+
+    /**
+     * <code>optional bool test_text_null = 1011;</code>
+     */
+    boolean getTestTextNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+     */
+    boolean hasTestTinyint();
+    /**
+     * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+     */
+    io.dstore.Values.integerValue getTestTinyint();
+    /**
+     * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getTestTinyintOrBuilder();
+
+    /**
+     * <code>optional bool test_tinyint_null = 1012;</code>
+     */
+    boolean getTestTinyintNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+     */
+    boolean hasTestVarchar();
+    /**
+     * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+     */
+    io.dstore.Values.stringValue getTestVarchar();
+    /**
+     * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getTestVarcharOrBuilder();
+
+    /**
+     * <code>optional bool test_varchar_null = 1013;</code>
+     */
+    boolean getTestVarcharNull();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_DatatypeTest_Ad.Parameters}
@@ -62,6 +260,17 @@ public final class MiDatatypeTestAd {
     private Parameters() {
       setOutputParamsNull_ = false;
       getResultSetNull_ = false;
+      testBitNull_ = false;
+      testCharNull_ = false;
+      testDatetimeNull_ = false;
+      testDecimalNull_ = false;
+      testImageNull_ = false;
+      testIntegerNull_ = false;
+      testMoneyNull_ = false;
+      testSmallintNull_ = false;
+      testTextNull_ = false;
+      testTinyintNull_ = false;
+      testVarcharNull_ = false;
     }
 
     @java.lang.Override
@@ -114,6 +323,149 @@ public final class MiDatatypeTestAd {
 
               break;
             }
+            case 26: {
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              if (testBit_ != null) {
+                subBuilder = testBit_.toBuilder();
+              }
+              testBit_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testBit_);
+                testBit_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 34: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (testChar_ != null) {
+                subBuilder = testChar_.toBuilder();
+              }
+              testChar_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testChar_);
+                testChar_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 42: {
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              if (testDatetime_ != null) {
+                subBuilder = testDatetime_.toBuilder();
+              }
+              testDatetime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testDatetime_);
+                testDatetime_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 50: {
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              if (testDecimal_ != null) {
+                subBuilder = testDecimal_.toBuilder();
+              }
+              testDecimal_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testDecimal_);
+                testDecimal_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 58: {
+              io.dstore.Values.bytesValue.Builder subBuilder = null;
+              if (testImage_ != null) {
+                subBuilder = testImage_.toBuilder();
+              }
+              testImage_ = input.readMessage(io.dstore.Values.bytesValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testImage_);
+                testImage_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 66: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (testInteger_ != null) {
+                subBuilder = testInteger_.toBuilder();
+              }
+              testInteger_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testInteger_);
+                testInteger_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 74: {
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              if (testMoney_ != null) {
+                subBuilder = testMoney_.toBuilder();
+              }
+              testMoney_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testMoney_);
+                testMoney_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 82: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (testSmallint_ != null) {
+                subBuilder = testSmallint_.toBuilder();
+              }
+              testSmallint_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testSmallint_);
+                testSmallint_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 90: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (testText_ != null) {
+                subBuilder = testText_.toBuilder();
+              }
+              testText_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testText_);
+                testText_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 98: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (testTinyint_ != null) {
+                subBuilder = testTinyint_.toBuilder();
+              }
+              testTinyint_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testTinyint_);
+                testTinyint_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 106: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (testVarchar_ != null) {
+                subBuilder = testVarchar_.toBuilder();
+              }
+              testVarchar_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(testVarchar_);
+                testVarchar_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               setOutputParamsNull_ = input.readBool();
@@ -122,6 +474,61 @@ public final class MiDatatypeTestAd {
             case 8016: {
 
               getResultSetNull_ = input.readBool();
+              break;
+            }
+            case 8024: {
+
+              testBitNull_ = input.readBool();
+              break;
+            }
+            case 8032: {
+
+              testCharNull_ = input.readBool();
+              break;
+            }
+            case 8040: {
+
+              testDatetimeNull_ = input.readBool();
+              break;
+            }
+            case 8048: {
+
+              testDecimalNull_ = input.readBool();
+              break;
+            }
+            case 8056: {
+
+              testImageNull_ = input.readBool();
+              break;
+            }
+            case 8064: {
+
+              testIntegerNull_ = input.readBool();
+              break;
+            }
+            case 8072: {
+
+              testMoneyNull_ = input.readBool();
+              break;
+            }
+            case 8080: {
+
+              testSmallintNull_ = input.readBool();
+              break;
+            }
+            case 8088: {
+
+              testTextNull_ = input.readBool();
+              break;
+            }
+            case 8096: {
+
+              testTinyintNull_ = input.readBool();
+              break;
+            }
+            case 8104: {
+
+              testVarcharNull_ = input.readBool();
               break;
             }
           }
@@ -208,6 +615,336 @@ public final class MiDatatypeTestAd {
       return getResultSetNull_;
     }
 
+    public static final int TEST_BIT_FIELD_NUMBER = 3;
+    private io.dstore.Values.booleanValue testBit_;
+    /**
+     * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+     */
+    public boolean hasTestBit() {
+      return testBit_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+     */
+    public io.dstore.Values.booleanValue getTestBit() {
+      return testBit_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : testBit_;
+    }
+    /**
+     * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+     */
+    public io.dstore.Values.booleanValueOrBuilder getTestBitOrBuilder() {
+      return getTestBit();
+    }
+
+    public static final int TEST_BIT_NULL_FIELD_NUMBER = 1003;
+    private boolean testBitNull_;
+    /**
+     * <code>optional bool test_bit_null = 1003;</code>
+     */
+    public boolean getTestBitNull() {
+      return testBitNull_;
+    }
+
+    public static final int TEST_CHAR_FIELD_NUMBER = 4;
+    private io.dstore.Values.stringValue testChar_;
+    /**
+     * <code>optional .dstore.values.stringValue test_char = 4;</code>
+     */
+    public boolean hasTestChar() {
+      return testChar_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue test_char = 4;</code>
+     */
+    public io.dstore.Values.stringValue getTestChar() {
+      return testChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testChar_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue test_char = 4;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getTestCharOrBuilder() {
+      return getTestChar();
+    }
+
+    public static final int TEST_CHAR_NULL_FIELD_NUMBER = 1004;
+    private boolean testCharNull_;
+    /**
+     * <code>optional bool test_char_null = 1004;</code>
+     */
+    public boolean getTestCharNull() {
+      return testCharNull_;
+    }
+
+    public static final int TEST_DATETIME_FIELD_NUMBER = 5;
+    private io.dstore.Values.timestampValue testDatetime_;
+    /**
+     * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+     */
+    public boolean hasTestDatetime() {
+      return testDatetime_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+     */
+    public io.dstore.Values.timestampValue getTestDatetime() {
+      return testDatetime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : testDatetime_;
+    }
+    /**
+     * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+     */
+    public io.dstore.Values.timestampValueOrBuilder getTestDatetimeOrBuilder() {
+      return getTestDatetime();
+    }
+
+    public static final int TEST_DATETIME_NULL_FIELD_NUMBER = 1005;
+    private boolean testDatetimeNull_;
+    /**
+     * <code>optional bool test_datetime_null = 1005;</code>
+     */
+    public boolean getTestDatetimeNull() {
+      return testDatetimeNull_;
+    }
+
+    public static final int TEST_DECIMAL_FIELD_NUMBER = 6;
+    private io.dstore.Values.decimalValue testDecimal_;
+    /**
+     * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+     */
+    public boolean hasTestDecimal() {
+      return testDecimal_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+     */
+    public io.dstore.Values.decimalValue getTestDecimal() {
+      return testDecimal_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : testDecimal_;
+    }
+    /**
+     * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+     */
+    public io.dstore.Values.decimalValueOrBuilder getTestDecimalOrBuilder() {
+      return getTestDecimal();
+    }
+
+    public static final int TEST_DECIMAL_NULL_FIELD_NUMBER = 1006;
+    private boolean testDecimalNull_;
+    /**
+     * <code>optional bool test_decimal_null = 1006;</code>
+     */
+    public boolean getTestDecimalNull() {
+      return testDecimalNull_;
+    }
+
+    public static final int TEST_IMAGE_FIELD_NUMBER = 7;
+    private io.dstore.Values.bytesValue testImage_;
+    /**
+     * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+     */
+    public boolean hasTestImage() {
+      return testImage_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+     */
+    public io.dstore.Values.bytesValue getTestImage() {
+      return testImage_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : testImage_;
+    }
+    /**
+     * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+     */
+    public io.dstore.Values.bytesValueOrBuilder getTestImageOrBuilder() {
+      return getTestImage();
+    }
+
+    public static final int TEST_IMAGE_NULL_FIELD_NUMBER = 1007;
+    private boolean testImageNull_;
+    /**
+     * <code>optional bool test_image_null = 1007;</code>
+     */
+    public boolean getTestImageNull() {
+      return testImageNull_;
+    }
+
+    public static final int TEST_INTEGER_FIELD_NUMBER = 8;
+    private io.dstore.Values.integerValue testInteger_;
+    /**
+     * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+     */
+    public boolean hasTestInteger() {
+      return testInteger_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+     */
+    public io.dstore.Values.integerValue getTestInteger() {
+      return testInteger_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testInteger_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getTestIntegerOrBuilder() {
+      return getTestInteger();
+    }
+
+    public static final int TEST_INTEGER_NULL_FIELD_NUMBER = 1008;
+    private boolean testIntegerNull_;
+    /**
+     * <code>optional bool test_integer_null = 1008;</code>
+     */
+    public boolean getTestIntegerNull() {
+      return testIntegerNull_;
+    }
+
+    public static final int TEST_MONEY_FIELD_NUMBER = 9;
+    private io.dstore.Values.decimalValue testMoney_;
+    /**
+     * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+     */
+    public boolean hasTestMoney() {
+      return testMoney_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+     */
+    public io.dstore.Values.decimalValue getTestMoney() {
+      return testMoney_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : testMoney_;
+    }
+    /**
+     * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+     */
+    public io.dstore.Values.decimalValueOrBuilder getTestMoneyOrBuilder() {
+      return getTestMoney();
+    }
+
+    public static final int TEST_MONEY_NULL_FIELD_NUMBER = 1009;
+    private boolean testMoneyNull_;
+    /**
+     * <code>optional bool test_money_null = 1009;</code>
+     */
+    public boolean getTestMoneyNull() {
+      return testMoneyNull_;
+    }
+
+    public static final int TEST_SMALLINT_FIELD_NUMBER = 10;
+    private io.dstore.Values.integerValue testSmallint_;
+    /**
+     * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+     */
+    public boolean hasTestSmallint() {
+      return testSmallint_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+     */
+    public io.dstore.Values.integerValue getTestSmallint() {
+      return testSmallint_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testSmallint_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getTestSmallintOrBuilder() {
+      return getTestSmallint();
+    }
+
+    public static final int TEST_SMALLINT_NULL_FIELD_NUMBER = 1010;
+    private boolean testSmallintNull_;
+    /**
+     * <code>optional bool test_smallint_null = 1010;</code>
+     */
+    public boolean getTestSmallintNull() {
+      return testSmallintNull_;
+    }
+
+    public static final int TEST_TEXT_FIELD_NUMBER = 11;
+    private io.dstore.Values.stringValue testText_;
+    /**
+     * <code>optional .dstore.values.stringValue test_text = 11;</code>
+     */
+    public boolean hasTestText() {
+      return testText_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue test_text = 11;</code>
+     */
+    public io.dstore.Values.stringValue getTestText() {
+      return testText_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testText_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue test_text = 11;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getTestTextOrBuilder() {
+      return getTestText();
+    }
+
+    public static final int TEST_TEXT_NULL_FIELD_NUMBER = 1011;
+    private boolean testTextNull_;
+    /**
+     * <code>optional bool test_text_null = 1011;</code>
+     */
+    public boolean getTestTextNull() {
+      return testTextNull_;
+    }
+
+    public static final int TEST_TINYINT_FIELD_NUMBER = 12;
+    private io.dstore.Values.integerValue testTinyint_;
+    /**
+     * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+     */
+    public boolean hasTestTinyint() {
+      return testTinyint_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+     */
+    public io.dstore.Values.integerValue getTestTinyint() {
+      return testTinyint_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testTinyint_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getTestTinyintOrBuilder() {
+      return getTestTinyint();
+    }
+
+    public static final int TEST_TINYINT_NULL_FIELD_NUMBER = 1012;
+    private boolean testTinyintNull_;
+    /**
+     * <code>optional bool test_tinyint_null = 1012;</code>
+     */
+    public boolean getTestTinyintNull() {
+      return testTinyintNull_;
+    }
+
+    public static final int TEST_VARCHAR_FIELD_NUMBER = 13;
+    private io.dstore.Values.stringValue testVarchar_;
+    /**
+     * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+     */
+    public boolean hasTestVarchar() {
+      return testVarchar_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+     */
+    public io.dstore.Values.stringValue getTestVarchar() {
+      return testVarchar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testVarchar_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getTestVarcharOrBuilder() {
+      return getTestVarchar();
+    }
+
+    public static final int TEST_VARCHAR_NULL_FIELD_NUMBER = 1013;
+    private boolean testVarcharNull_;
+    /**
+     * <code>optional bool test_varchar_null = 1013;</code>
+     */
+    public boolean getTestVarcharNull() {
+      return testVarcharNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -226,11 +963,77 @@ public final class MiDatatypeTestAd {
       if (getResultSet_ != null) {
         output.writeMessage(2, getGetResultSet());
       }
+      if (testBit_ != null) {
+        output.writeMessage(3, getTestBit());
+      }
+      if (testChar_ != null) {
+        output.writeMessage(4, getTestChar());
+      }
+      if (testDatetime_ != null) {
+        output.writeMessage(5, getTestDatetime());
+      }
+      if (testDecimal_ != null) {
+        output.writeMessage(6, getTestDecimal());
+      }
+      if (testImage_ != null) {
+        output.writeMessage(7, getTestImage());
+      }
+      if (testInteger_ != null) {
+        output.writeMessage(8, getTestInteger());
+      }
+      if (testMoney_ != null) {
+        output.writeMessage(9, getTestMoney());
+      }
+      if (testSmallint_ != null) {
+        output.writeMessage(10, getTestSmallint());
+      }
+      if (testText_ != null) {
+        output.writeMessage(11, getTestText());
+      }
+      if (testTinyint_ != null) {
+        output.writeMessage(12, getTestTinyint());
+      }
+      if (testVarchar_ != null) {
+        output.writeMessage(13, getTestVarchar());
+      }
       if (setOutputParamsNull_ != false) {
         output.writeBool(1001, setOutputParamsNull_);
       }
       if (getResultSetNull_ != false) {
         output.writeBool(1002, getResultSetNull_);
+      }
+      if (testBitNull_ != false) {
+        output.writeBool(1003, testBitNull_);
+      }
+      if (testCharNull_ != false) {
+        output.writeBool(1004, testCharNull_);
+      }
+      if (testDatetimeNull_ != false) {
+        output.writeBool(1005, testDatetimeNull_);
+      }
+      if (testDecimalNull_ != false) {
+        output.writeBool(1006, testDecimalNull_);
+      }
+      if (testImageNull_ != false) {
+        output.writeBool(1007, testImageNull_);
+      }
+      if (testIntegerNull_ != false) {
+        output.writeBool(1008, testIntegerNull_);
+      }
+      if (testMoneyNull_ != false) {
+        output.writeBool(1009, testMoneyNull_);
+      }
+      if (testSmallintNull_ != false) {
+        output.writeBool(1010, testSmallintNull_);
+      }
+      if (testTextNull_ != false) {
+        output.writeBool(1011, testTextNull_);
+      }
+      if (testTinyintNull_ != false) {
+        output.writeBool(1012, testTinyintNull_);
+      }
+      if (testVarcharNull_ != false) {
+        output.writeBool(1013, testVarcharNull_);
       }
     }
 
@@ -247,6 +1050,50 @@ public final class MiDatatypeTestAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, getGetResultSet());
       }
+      if (testBit_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getTestBit());
+      }
+      if (testChar_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getTestChar());
+      }
+      if (testDatetime_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(5, getTestDatetime());
+      }
+      if (testDecimal_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getTestDecimal());
+      }
+      if (testImage_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(7, getTestImage());
+      }
+      if (testInteger_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(8, getTestInteger());
+      }
+      if (testMoney_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, getTestMoney());
+      }
+      if (testSmallint_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, getTestSmallint());
+      }
+      if (testText_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(11, getTestText());
+      }
+      if (testTinyint_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, getTestTinyint());
+      }
+      if (testVarchar_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, getTestVarchar());
+      }
       if (setOutputParamsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, setOutputParamsNull_);
@@ -254,6 +1101,50 @@ public final class MiDatatypeTestAd {
       if (getResultSetNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1002, getResultSetNull_);
+      }
+      if (testBitNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1003, testBitNull_);
+      }
+      if (testCharNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1004, testCharNull_);
+      }
+      if (testDatetimeNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1005, testDatetimeNull_);
+      }
+      if (testDecimalNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1006, testDecimalNull_);
+      }
+      if (testImageNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1007, testImageNull_);
+      }
+      if (testIntegerNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1008, testIntegerNull_);
+      }
+      if (testMoneyNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1009, testMoneyNull_);
+      }
+      if (testSmallintNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1010, testSmallintNull_);
+      }
+      if (testTextNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1011, testTextNull_);
+      }
+      if (testTinyintNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1012, testTinyintNull_);
+      }
+      if (testVarcharNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1013, testVarcharNull_);
       }
       memoizedSize = size;
       return size;
@@ -382,6 +1273,94 @@ public final class MiDatatypeTestAd {
         }
         getResultSetNull_ = false;
 
+        if (testBitBuilder_ == null) {
+          testBit_ = null;
+        } else {
+          testBit_ = null;
+          testBitBuilder_ = null;
+        }
+        testBitNull_ = false;
+
+        if (testCharBuilder_ == null) {
+          testChar_ = null;
+        } else {
+          testChar_ = null;
+          testCharBuilder_ = null;
+        }
+        testCharNull_ = false;
+
+        if (testDatetimeBuilder_ == null) {
+          testDatetime_ = null;
+        } else {
+          testDatetime_ = null;
+          testDatetimeBuilder_ = null;
+        }
+        testDatetimeNull_ = false;
+
+        if (testDecimalBuilder_ == null) {
+          testDecimal_ = null;
+        } else {
+          testDecimal_ = null;
+          testDecimalBuilder_ = null;
+        }
+        testDecimalNull_ = false;
+
+        if (testImageBuilder_ == null) {
+          testImage_ = null;
+        } else {
+          testImage_ = null;
+          testImageBuilder_ = null;
+        }
+        testImageNull_ = false;
+
+        if (testIntegerBuilder_ == null) {
+          testInteger_ = null;
+        } else {
+          testInteger_ = null;
+          testIntegerBuilder_ = null;
+        }
+        testIntegerNull_ = false;
+
+        if (testMoneyBuilder_ == null) {
+          testMoney_ = null;
+        } else {
+          testMoney_ = null;
+          testMoneyBuilder_ = null;
+        }
+        testMoneyNull_ = false;
+
+        if (testSmallintBuilder_ == null) {
+          testSmallint_ = null;
+        } else {
+          testSmallint_ = null;
+          testSmallintBuilder_ = null;
+        }
+        testSmallintNull_ = false;
+
+        if (testTextBuilder_ == null) {
+          testText_ = null;
+        } else {
+          testText_ = null;
+          testTextBuilder_ = null;
+        }
+        testTextNull_ = false;
+
+        if (testTinyintBuilder_ == null) {
+          testTinyint_ = null;
+        } else {
+          testTinyint_ = null;
+          testTinyintBuilder_ = null;
+        }
+        testTinyintNull_ = false;
+
+        if (testVarcharBuilder_ == null) {
+          testVarchar_ = null;
+        } else {
+          testVarchar_ = null;
+          testVarcharBuilder_ = null;
+        }
+        testVarcharNull_ = false;
+
         return this;
       }
 
@@ -416,6 +1395,72 @@ public final class MiDatatypeTestAd {
           result.getResultSet_ = getResultSetBuilder_.build();
         }
         result.getResultSetNull_ = getResultSetNull_;
+        if (testBitBuilder_ == null) {
+          result.testBit_ = testBit_;
+        } else {
+          result.testBit_ = testBitBuilder_.build();
+        }
+        result.testBitNull_ = testBitNull_;
+        if (testCharBuilder_ == null) {
+          result.testChar_ = testChar_;
+        } else {
+          result.testChar_ = testCharBuilder_.build();
+        }
+        result.testCharNull_ = testCharNull_;
+        if (testDatetimeBuilder_ == null) {
+          result.testDatetime_ = testDatetime_;
+        } else {
+          result.testDatetime_ = testDatetimeBuilder_.build();
+        }
+        result.testDatetimeNull_ = testDatetimeNull_;
+        if (testDecimalBuilder_ == null) {
+          result.testDecimal_ = testDecimal_;
+        } else {
+          result.testDecimal_ = testDecimalBuilder_.build();
+        }
+        result.testDecimalNull_ = testDecimalNull_;
+        if (testImageBuilder_ == null) {
+          result.testImage_ = testImage_;
+        } else {
+          result.testImage_ = testImageBuilder_.build();
+        }
+        result.testImageNull_ = testImageNull_;
+        if (testIntegerBuilder_ == null) {
+          result.testInteger_ = testInteger_;
+        } else {
+          result.testInteger_ = testIntegerBuilder_.build();
+        }
+        result.testIntegerNull_ = testIntegerNull_;
+        if (testMoneyBuilder_ == null) {
+          result.testMoney_ = testMoney_;
+        } else {
+          result.testMoney_ = testMoneyBuilder_.build();
+        }
+        result.testMoneyNull_ = testMoneyNull_;
+        if (testSmallintBuilder_ == null) {
+          result.testSmallint_ = testSmallint_;
+        } else {
+          result.testSmallint_ = testSmallintBuilder_.build();
+        }
+        result.testSmallintNull_ = testSmallintNull_;
+        if (testTextBuilder_ == null) {
+          result.testText_ = testText_;
+        } else {
+          result.testText_ = testTextBuilder_.build();
+        }
+        result.testTextNull_ = testTextNull_;
+        if (testTinyintBuilder_ == null) {
+          result.testTinyint_ = testTinyint_;
+        } else {
+          result.testTinyint_ = testTinyintBuilder_.build();
+        }
+        result.testTinyintNull_ = testTinyintNull_;
+        if (testVarcharBuilder_ == null) {
+          result.testVarchar_ = testVarchar_;
+        } else {
+          result.testVarchar_ = testVarcharBuilder_.build();
+        }
+        result.testVarcharNull_ = testVarcharNull_;
         onBuilt();
         return result;
       }
@@ -442,6 +1487,72 @@ public final class MiDatatypeTestAd {
         }
         if (other.getGetResultSetNull() != false) {
           setGetResultSetNull(other.getGetResultSetNull());
+        }
+        if (other.hasTestBit()) {
+          mergeTestBit(other.getTestBit());
+        }
+        if (other.getTestBitNull() != false) {
+          setTestBitNull(other.getTestBitNull());
+        }
+        if (other.hasTestChar()) {
+          mergeTestChar(other.getTestChar());
+        }
+        if (other.getTestCharNull() != false) {
+          setTestCharNull(other.getTestCharNull());
+        }
+        if (other.hasTestDatetime()) {
+          mergeTestDatetime(other.getTestDatetime());
+        }
+        if (other.getTestDatetimeNull() != false) {
+          setTestDatetimeNull(other.getTestDatetimeNull());
+        }
+        if (other.hasTestDecimal()) {
+          mergeTestDecimal(other.getTestDecimal());
+        }
+        if (other.getTestDecimalNull() != false) {
+          setTestDecimalNull(other.getTestDecimalNull());
+        }
+        if (other.hasTestImage()) {
+          mergeTestImage(other.getTestImage());
+        }
+        if (other.getTestImageNull() != false) {
+          setTestImageNull(other.getTestImageNull());
+        }
+        if (other.hasTestInteger()) {
+          mergeTestInteger(other.getTestInteger());
+        }
+        if (other.getTestIntegerNull() != false) {
+          setTestIntegerNull(other.getTestIntegerNull());
+        }
+        if (other.hasTestMoney()) {
+          mergeTestMoney(other.getTestMoney());
+        }
+        if (other.getTestMoneyNull() != false) {
+          setTestMoneyNull(other.getTestMoneyNull());
+        }
+        if (other.hasTestSmallint()) {
+          mergeTestSmallint(other.getTestSmallint());
+        }
+        if (other.getTestSmallintNull() != false) {
+          setTestSmallintNull(other.getTestSmallintNull());
+        }
+        if (other.hasTestText()) {
+          mergeTestText(other.getTestText());
+        }
+        if (other.getTestTextNull() != false) {
+          setTestTextNull(other.getTestTextNull());
+        }
+        if (other.hasTestTinyint()) {
+          mergeTestTinyint(other.getTestTinyint());
+        }
+        if (other.getTestTinyintNull() != false) {
+          setTestTinyintNull(other.getTestTinyintNull());
+        }
+        if (other.hasTestVarchar()) {
+          mergeTestVarchar(other.getTestVarchar());
+        }
+        if (other.getTestVarcharNull() != false) {
+          setTestVarcharNull(other.getTestVarcharNull());
         }
         onChanged();
         return this;
@@ -751,6 +1862,1579 @@ public final class MiDatatypeTestAd {
       public Builder clearGetResultSetNull() {
         
         getResultSetNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.booleanValue testBit_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> testBitBuilder_;
+      /**
+       * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+       */
+      public boolean hasTestBit() {
+        return testBitBuilder_ != null || testBit_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+       */
+      public io.dstore.Values.booleanValue getTestBit() {
+        if (testBitBuilder_ == null) {
+          return testBit_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : testBit_;
+        } else {
+          return testBitBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+       */
+      public Builder setTestBit(io.dstore.Values.booleanValue value) {
+        if (testBitBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testBit_ = value;
+          onChanged();
+        } else {
+          testBitBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+       */
+      public Builder setTestBit(
+          io.dstore.Values.booleanValue.Builder builderForValue) {
+        if (testBitBuilder_ == null) {
+          testBit_ = builderForValue.build();
+          onChanged();
+        } else {
+          testBitBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+       */
+      public Builder mergeTestBit(io.dstore.Values.booleanValue value) {
+        if (testBitBuilder_ == null) {
+          if (testBit_ != null) {
+            testBit_ =
+              io.dstore.Values.booleanValue.newBuilder(testBit_).mergeFrom(value).buildPartial();
+          } else {
+            testBit_ = value;
+          }
+          onChanged();
+        } else {
+          testBitBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+       */
+      public Builder clearTestBit() {
+        if (testBitBuilder_ == null) {
+          testBit_ = null;
+          onChanged();
+        } else {
+          testBit_ = null;
+          testBitBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+       */
+      public io.dstore.Values.booleanValue.Builder getTestBitBuilder() {
+        
+        onChanged();
+        return getTestBitFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+       */
+      public io.dstore.Values.booleanValueOrBuilder getTestBitOrBuilder() {
+        if (testBitBuilder_ != null) {
+          return testBitBuilder_.getMessageOrBuilder();
+        } else {
+          return testBit_ == null ?
+              io.dstore.Values.booleanValue.getDefaultInstance() : testBit_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          getTestBitFieldBuilder() {
+        if (testBitBuilder_ == null) {
+          testBitBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                  getTestBit(),
+                  getParentForChildren(),
+                  isClean());
+          testBit_ = null;
+        }
+        return testBitBuilder_;
+      }
+
+      private boolean testBitNull_ ;
+      /**
+       * <code>optional bool test_bit_null = 1003;</code>
+       */
+      public boolean getTestBitNull() {
+        return testBitNull_;
+      }
+      /**
+       * <code>optional bool test_bit_null = 1003;</code>
+       */
+      public Builder setTestBitNull(boolean value) {
+        
+        testBitNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_bit_null = 1003;</code>
+       */
+      public Builder clearTestBitNull() {
+        
+        testBitNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.stringValue testChar_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testCharBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue test_char = 4;</code>
+       */
+      public boolean hasTestChar() {
+        return testCharBuilder_ != null || testChar_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_char = 4;</code>
+       */
+      public io.dstore.Values.stringValue getTestChar() {
+        if (testCharBuilder_ == null) {
+          return testChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testChar_;
+        } else {
+          return testCharBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_char = 4;</code>
+       */
+      public Builder setTestChar(io.dstore.Values.stringValue value) {
+        if (testCharBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testChar_ = value;
+          onChanged();
+        } else {
+          testCharBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_char = 4;</code>
+       */
+      public Builder setTestChar(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (testCharBuilder_ == null) {
+          testChar_ = builderForValue.build();
+          onChanged();
+        } else {
+          testCharBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_char = 4;</code>
+       */
+      public Builder mergeTestChar(io.dstore.Values.stringValue value) {
+        if (testCharBuilder_ == null) {
+          if (testChar_ != null) {
+            testChar_ =
+              io.dstore.Values.stringValue.newBuilder(testChar_).mergeFrom(value).buildPartial();
+          } else {
+            testChar_ = value;
+          }
+          onChanged();
+        } else {
+          testCharBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_char = 4;</code>
+       */
+      public Builder clearTestChar() {
+        if (testCharBuilder_ == null) {
+          testChar_ = null;
+          onChanged();
+        } else {
+          testChar_ = null;
+          testCharBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_char = 4;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getTestCharBuilder() {
+        
+        onChanged();
+        return getTestCharFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_char = 4;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getTestCharOrBuilder() {
+        if (testCharBuilder_ != null) {
+          return testCharBuilder_.getMessageOrBuilder();
+        } else {
+          return testChar_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : testChar_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_char = 4;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getTestCharFieldBuilder() {
+        if (testCharBuilder_ == null) {
+          testCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getTestChar(),
+                  getParentForChildren(),
+                  isClean());
+          testChar_ = null;
+        }
+        return testCharBuilder_;
+      }
+
+      private boolean testCharNull_ ;
+      /**
+       * <code>optional bool test_char_null = 1004;</code>
+       */
+      public boolean getTestCharNull() {
+        return testCharNull_;
+      }
+      /**
+       * <code>optional bool test_char_null = 1004;</code>
+       */
+      public Builder setTestCharNull(boolean value) {
+        
+        testCharNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_char_null = 1004;</code>
+       */
+      public Builder clearTestCharNull() {
+        
+        testCharNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.timestampValue testDatetime_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> testDatetimeBuilder_;
+      /**
+       * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+       */
+      public boolean hasTestDatetime() {
+        return testDatetimeBuilder_ != null || testDatetime_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+       */
+      public io.dstore.Values.timestampValue getTestDatetime() {
+        if (testDatetimeBuilder_ == null) {
+          return testDatetime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : testDatetime_;
+        } else {
+          return testDatetimeBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+       */
+      public Builder setTestDatetime(io.dstore.Values.timestampValue value) {
+        if (testDatetimeBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testDatetime_ = value;
+          onChanged();
+        } else {
+          testDatetimeBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+       */
+      public Builder setTestDatetime(
+          io.dstore.Values.timestampValue.Builder builderForValue) {
+        if (testDatetimeBuilder_ == null) {
+          testDatetime_ = builderForValue.build();
+          onChanged();
+        } else {
+          testDatetimeBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+       */
+      public Builder mergeTestDatetime(io.dstore.Values.timestampValue value) {
+        if (testDatetimeBuilder_ == null) {
+          if (testDatetime_ != null) {
+            testDatetime_ =
+              io.dstore.Values.timestampValue.newBuilder(testDatetime_).mergeFrom(value).buildPartial();
+          } else {
+            testDatetime_ = value;
+          }
+          onChanged();
+        } else {
+          testDatetimeBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+       */
+      public Builder clearTestDatetime() {
+        if (testDatetimeBuilder_ == null) {
+          testDatetime_ = null;
+          onChanged();
+        } else {
+          testDatetime_ = null;
+          testDatetimeBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+       */
+      public io.dstore.Values.timestampValue.Builder getTestDatetimeBuilder() {
+        
+        onChanged();
+        return getTestDatetimeFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+       */
+      public io.dstore.Values.timestampValueOrBuilder getTestDatetimeOrBuilder() {
+        if (testDatetimeBuilder_ != null) {
+          return testDatetimeBuilder_.getMessageOrBuilder();
+        } else {
+          return testDatetime_ == null ?
+              io.dstore.Values.timestampValue.getDefaultInstance() : testDatetime_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          getTestDatetimeFieldBuilder() {
+        if (testDatetimeBuilder_ == null) {
+          testDatetimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                  getTestDatetime(),
+                  getParentForChildren(),
+                  isClean());
+          testDatetime_ = null;
+        }
+        return testDatetimeBuilder_;
+      }
+
+      private boolean testDatetimeNull_ ;
+      /**
+       * <code>optional bool test_datetime_null = 1005;</code>
+       */
+      public boolean getTestDatetimeNull() {
+        return testDatetimeNull_;
+      }
+      /**
+       * <code>optional bool test_datetime_null = 1005;</code>
+       */
+      public Builder setTestDatetimeNull(boolean value) {
+        
+        testDatetimeNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_datetime_null = 1005;</code>
+       */
+      public Builder clearTestDatetimeNull() {
+        
+        testDatetimeNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.decimalValue testDecimal_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testDecimalBuilder_;
+      /**
+       * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+       */
+      public boolean hasTestDecimal() {
+        return testDecimalBuilder_ != null || testDecimal_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+       */
+      public io.dstore.Values.decimalValue getTestDecimal() {
+        if (testDecimalBuilder_ == null) {
+          return testDecimal_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : testDecimal_;
+        } else {
+          return testDecimalBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+       */
+      public Builder setTestDecimal(io.dstore.Values.decimalValue value) {
+        if (testDecimalBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testDecimal_ = value;
+          onChanged();
+        } else {
+          testDecimalBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+       */
+      public Builder setTestDecimal(
+          io.dstore.Values.decimalValue.Builder builderForValue) {
+        if (testDecimalBuilder_ == null) {
+          testDecimal_ = builderForValue.build();
+          onChanged();
+        } else {
+          testDecimalBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+       */
+      public Builder mergeTestDecimal(io.dstore.Values.decimalValue value) {
+        if (testDecimalBuilder_ == null) {
+          if (testDecimal_ != null) {
+            testDecimal_ =
+              io.dstore.Values.decimalValue.newBuilder(testDecimal_).mergeFrom(value).buildPartial();
+          } else {
+            testDecimal_ = value;
+          }
+          onChanged();
+        } else {
+          testDecimalBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+       */
+      public Builder clearTestDecimal() {
+        if (testDecimalBuilder_ == null) {
+          testDecimal_ = null;
+          onChanged();
+        } else {
+          testDecimal_ = null;
+          testDecimalBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+       */
+      public io.dstore.Values.decimalValue.Builder getTestDecimalBuilder() {
+        
+        onChanged();
+        return getTestDecimalFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+       */
+      public io.dstore.Values.decimalValueOrBuilder getTestDecimalOrBuilder() {
+        if (testDecimalBuilder_ != null) {
+          return testDecimalBuilder_.getMessageOrBuilder();
+        } else {
+          return testDecimal_ == null ?
+              io.dstore.Values.decimalValue.getDefaultInstance() : testDecimal_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          getTestDecimalFieldBuilder() {
+        if (testDecimalBuilder_ == null) {
+          testDecimalBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                  getTestDecimal(),
+                  getParentForChildren(),
+                  isClean());
+          testDecimal_ = null;
+        }
+        return testDecimalBuilder_;
+      }
+
+      private boolean testDecimalNull_ ;
+      /**
+       * <code>optional bool test_decimal_null = 1006;</code>
+       */
+      public boolean getTestDecimalNull() {
+        return testDecimalNull_;
+      }
+      /**
+       * <code>optional bool test_decimal_null = 1006;</code>
+       */
+      public Builder setTestDecimalNull(boolean value) {
+        
+        testDecimalNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_decimal_null = 1006;</code>
+       */
+      public Builder clearTestDecimalNull() {
+        
+        testDecimalNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.bytesValue testImage_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> testImageBuilder_;
+      /**
+       * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+       */
+      public boolean hasTestImage() {
+        return testImageBuilder_ != null || testImage_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+       */
+      public io.dstore.Values.bytesValue getTestImage() {
+        if (testImageBuilder_ == null) {
+          return testImage_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : testImage_;
+        } else {
+          return testImageBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+       */
+      public Builder setTestImage(io.dstore.Values.bytesValue value) {
+        if (testImageBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testImage_ = value;
+          onChanged();
+        } else {
+          testImageBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+       */
+      public Builder setTestImage(
+          io.dstore.Values.bytesValue.Builder builderForValue) {
+        if (testImageBuilder_ == null) {
+          testImage_ = builderForValue.build();
+          onChanged();
+        } else {
+          testImageBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+       */
+      public Builder mergeTestImage(io.dstore.Values.bytesValue value) {
+        if (testImageBuilder_ == null) {
+          if (testImage_ != null) {
+            testImage_ =
+              io.dstore.Values.bytesValue.newBuilder(testImage_).mergeFrom(value).buildPartial();
+          } else {
+            testImage_ = value;
+          }
+          onChanged();
+        } else {
+          testImageBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+       */
+      public Builder clearTestImage() {
+        if (testImageBuilder_ == null) {
+          testImage_ = null;
+          onChanged();
+        } else {
+          testImage_ = null;
+          testImageBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+       */
+      public io.dstore.Values.bytesValue.Builder getTestImageBuilder() {
+        
+        onChanged();
+        return getTestImageFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+       */
+      public io.dstore.Values.bytesValueOrBuilder getTestImageOrBuilder() {
+        if (testImageBuilder_ != null) {
+          return testImageBuilder_.getMessageOrBuilder();
+        } else {
+          return testImage_ == null ?
+              io.dstore.Values.bytesValue.getDefaultInstance() : testImage_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.bytesValue test_image = 7;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
+          getTestImageFieldBuilder() {
+        if (testImageBuilder_ == null) {
+          testImageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
+                  getTestImage(),
+                  getParentForChildren(),
+                  isClean());
+          testImage_ = null;
+        }
+        return testImageBuilder_;
+      }
+
+      private boolean testImageNull_ ;
+      /**
+       * <code>optional bool test_image_null = 1007;</code>
+       */
+      public boolean getTestImageNull() {
+        return testImageNull_;
+      }
+      /**
+       * <code>optional bool test_image_null = 1007;</code>
+       */
+      public Builder setTestImageNull(boolean value) {
+        
+        testImageNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_image_null = 1007;</code>
+       */
+      public Builder clearTestImageNull() {
+        
+        testImageNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue testInteger_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testIntegerBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+       */
+      public boolean hasTestInteger() {
+        return testIntegerBuilder_ != null || testInteger_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+       */
+      public io.dstore.Values.integerValue getTestInteger() {
+        if (testIntegerBuilder_ == null) {
+          return testInteger_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testInteger_;
+        } else {
+          return testIntegerBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+       */
+      public Builder setTestInteger(io.dstore.Values.integerValue value) {
+        if (testIntegerBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testInteger_ = value;
+          onChanged();
+        } else {
+          testIntegerBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+       */
+      public Builder setTestInteger(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (testIntegerBuilder_ == null) {
+          testInteger_ = builderForValue.build();
+          onChanged();
+        } else {
+          testIntegerBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+       */
+      public Builder mergeTestInteger(io.dstore.Values.integerValue value) {
+        if (testIntegerBuilder_ == null) {
+          if (testInteger_ != null) {
+            testInteger_ =
+              io.dstore.Values.integerValue.newBuilder(testInteger_).mergeFrom(value).buildPartial();
+          } else {
+            testInteger_ = value;
+          }
+          onChanged();
+        } else {
+          testIntegerBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+       */
+      public Builder clearTestInteger() {
+        if (testIntegerBuilder_ == null) {
+          testInteger_ = null;
+          onChanged();
+        } else {
+          testInteger_ = null;
+          testIntegerBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getTestIntegerBuilder() {
+        
+        onChanged();
+        return getTestIntegerFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getTestIntegerOrBuilder() {
+        if (testIntegerBuilder_ != null) {
+          return testIntegerBuilder_.getMessageOrBuilder();
+        } else {
+          return testInteger_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : testInteger_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_integer = 8;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getTestIntegerFieldBuilder() {
+        if (testIntegerBuilder_ == null) {
+          testIntegerBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getTestInteger(),
+                  getParentForChildren(),
+                  isClean());
+          testInteger_ = null;
+        }
+        return testIntegerBuilder_;
+      }
+
+      private boolean testIntegerNull_ ;
+      /**
+       * <code>optional bool test_integer_null = 1008;</code>
+       */
+      public boolean getTestIntegerNull() {
+        return testIntegerNull_;
+      }
+      /**
+       * <code>optional bool test_integer_null = 1008;</code>
+       */
+      public Builder setTestIntegerNull(boolean value) {
+        
+        testIntegerNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_integer_null = 1008;</code>
+       */
+      public Builder clearTestIntegerNull() {
+        
+        testIntegerNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.decimalValue testMoney_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testMoneyBuilder_;
+      /**
+       * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+       */
+      public boolean hasTestMoney() {
+        return testMoneyBuilder_ != null || testMoney_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+       */
+      public io.dstore.Values.decimalValue getTestMoney() {
+        if (testMoneyBuilder_ == null) {
+          return testMoney_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : testMoney_;
+        } else {
+          return testMoneyBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+       */
+      public Builder setTestMoney(io.dstore.Values.decimalValue value) {
+        if (testMoneyBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testMoney_ = value;
+          onChanged();
+        } else {
+          testMoneyBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+       */
+      public Builder setTestMoney(
+          io.dstore.Values.decimalValue.Builder builderForValue) {
+        if (testMoneyBuilder_ == null) {
+          testMoney_ = builderForValue.build();
+          onChanged();
+        } else {
+          testMoneyBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+       */
+      public Builder mergeTestMoney(io.dstore.Values.decimalValue value) {
+        if (testMoneyBuilder_ == null) {
+          if (testMoney_ != null) {
+            testMoney_ =
+              io.dstore.Values.decimalValue.newBuilder(testMoney_).mergeFrom(value).buildPartial();
+          } else {
+            testMoney_ = value;
+          }
+          onChanged();
+        } else {
+          testMoneyBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+       */
+      public Builder clearTestMoney() {
+        if (testMoneyBuilder_ == null) {
+          testMoney_ = null;
+          onChanged();
+        } else {
+          testMoney_ = null;
+          testMoneyBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+       */
+      public io.dstore.Values.decimalValue.Builder getTestMoneyBuilder() {
+        
+        onChanged();
+        return getTestMoneyFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+       */
+      public io.dstore.Values.decimalValueOrBuilder getTestMoneyOrBuilder() {
+        if (testMoneyBuilder_ != null) {
+          return testMoneyBuilder_.getMessageOrBuilder();
+        } else {
+          return testMoney_ == null ?
+              io.dstore.Values.decimalValue.getDefaultInstance() : testMoney_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue test_money = 9;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          getTestMoneyFieldBuilder() {
+        if (testMoneyBuilder_ == null) {
+          testMoneyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                  getTestMoney(),
+                  getParentForChildren(),
+                  isClean());
+          testMoney_ = null;
+        }
+        return testMoneyBuilder_;
+      }
+
+      private boolean testMoneyNull_ ;
+      /**
+       * <code>optional bool test_money_null = 1009;</code>
+       */
+      public boolean getTestMoneyNull() {
+        return testMoneyNull_;
+      }
+      /**
+       * <code>optional bool test_money_null = 1009;</code>
+       */
+      public Builder setTestMoneyNull(boolean value) {
+        
+        testMoneyNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_money_null = 1009;</code>
+       */
+      public Builder clearTestMoneyNull() {
+        
+        testMoneyNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue testSmallint_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testSmallintBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+       */
+      public boolean hasTestSmallint() {
+        return testSmallintBuilder_ != null || testSmallint_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+       */
+      public io.dstore.Values.integerValue getTestSmallint() {
+        if (testSmallintBuilder_ == null) {
+          return testSmallint_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testSmallint_;
+        } else {
+          return testSmallintBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+       */
+      public Builder setTestSmallint(io.dstore.Values.integerValue value) {
+        if (testSmallintBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testSmallint_ = value;
+          onChanged();
+        } else {
+          testSmallintBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+       */
+      public Builder setTestSmallint(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (testSmallintBuilder_ == null) {
+          testSmallint_ = builderForValue.build();
+          onChanged();
+        } else {
+          testSmallintBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+       */
+      public Builder mergeTestSmallint(io.dstore.Values.integerValue value) {
+        if (testSmallintBuilder_ == null) {
+          if (testSmallint_ != null) {
+            testSmallint_ =
+              io.dstore.Values.integerValue.newBuilder(testSmallint_).mergeFrom(value).buildPartial();
+          } else {
+            testSmallint_ = value;
+          }
+          onChanged();
+        } else {
+          testSmallintBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+       */
+      public Builder clearTestSmallint() {
+        if (testSmallintBuilder_ == null) {
+          testSmallint_ = null;
+          onChanged();
+        } else {
+          testSmallint_ = null;
+          testSmallintBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getTestSmallintBuilder() {
+        
+        onChanged();
+        return getTestSmallintFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getTestSmallintOrBuilder() {
+        if (testSmallintBuilder_ != null) {
+          return testSmallintBuilder_.getMessageOrBuilder();
+        } else {
+          return testSmallint_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : testSmallint_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getTestSmallintFieldBuilder() {
+        if (testSmallintBuilder_ == null) {
+          testSmallintBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getTestSmallint(),
+                  getParentForChildren(),
+                  isClean());
+          testSmallint_ = null;
+        }
+        return testSmallintBuilder_;
+      }
+
+      private boolean testSmallintNull_ ;
+      /**
+       * <code>optional bool test_smallint_null = 1010;</code>
+       */
+      public boolean getTestSmallintNull() {
+        return testSmallintNull_;
+      }
+      /**
+       * <code>optional bool test_smallint_null = 1010;</code>
+       */
+      public Builder setTestSmallintNull(boolean value) {
+        
+        testSmallintNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_smallint_null = 1010;</code>
+       */
+      public Builder clearTestSmallintNull() {
+        
+        testSmallintNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.stringValue testText_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTextBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue test_text = 11;</code>
+       */
+      public boolean hasTestText() {
+        return testTextBuilder_ != null || testText_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_text = 11;</code>
+       */
+      public io.dstore.Values.stringValue getTestText() {
+        if (testTextBuilder_ == null) {
+          return testText_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testText_;
+        } else {
+          return testTextBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_text = 11;</code>
+       */
+      public Builder setTestText(io.dstore.Values.stringValue value) {
+        if (testTextBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testText_ = value;
+          onChanged();
+        } else {
+          testTextBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_text = 11;</code>
+       */
+      public Builder setTestText(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (testTextBuilder_ == null) {
+          testText_ = builderForValue.build();
+          onChanged();
+        } else {
+          testTextBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_text = 11;</code>
+       */
+      public Builder mergeTestText(io.dstore.Values.stringValue value) {
+        if (testTextBuilder_ == null) {
+          if (testText_ != null) {
+            testText_ =
+              io.dstore.Values.stringValue.newBuilder(testText_).mergeFrom(value).buildPartial();
+          } else {
+            testText_ = value;
+          }
+          onChanged();
+        } else {
+          testTextBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_text = 11;</code>
+       */
+      public Builder clearTestText() {
+        if (testTextBuilder_ == null) {
+          testText_ = null;
+          onChanged();
+        } else {
+          testText_ = null;
+          testTextBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_text = 11;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getTestTextBuilder() {
+        
+        onChanged();
+        return getTestTextFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_text = 11;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getTestTextOrBuilder() {
+        if (testTextBuilder_ != null) {
+          return testTextBuilder_.getMessageOrBuilder();
+        } else {
+          return testText_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : testText_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_text = 11;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getTestTextFieldBuilder() {
+        if (testTextBuilder_ == null) {
+          testTextBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getTestText(),
+                  getParentForChildren(),
+                  isClean());
+          testText_ = null;
+        }
+        return testTextBuilder_;
+      }
+
+      private boolean testTextNull_ ;
+      /**
+       * <code>optional bool test_text_null = 1011;</code>
+       */
+      public boolean getTestTextNull() {
+        return testTextNull_;
+      }
+      /**
+       * <code>optional bool test_text_null = 1011;</code>
+       */
+      public Builder setTestTextNull(boolean value) {
+        
+        testTextNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_text_null = 1011;</code>
+       */
+      public Builder clearTestTextNull() {
+        
+        testTextNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue testTinyint_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testTinyintBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+       */
+      public boolean hasTestTinyint() {
+        return testTinyintBuilder_ != null || testTinyint_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+       */
+      public io.dstore.Values.integerValue getTestTinyint() {
+        if (testTinyintBuilder_ == null) {
+          return testTinyint_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testTinyint_;
+        } else {
+          return testTinyintBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+       */
+      public Builder setTestTinyint(io.dstore.Values.integerValue value) {
+        if (testTinyintBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testTinyint_ = value;
+          onChanged();
+        } else {
+          testTinyintBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+       */
+      public Builder setTestTinyint(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (testTinyintBuilder_ == null) {
+          testTinyint_ = builderForValue.build();
+          onChanged();
+        } else {
+          testTinyintBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+       */
+      public Builder mergeTestTinyint(io.dstore.Values.integerValue value) {
+        if (testTinyintBuilder_ == null) {
+          if (testTinyint_ != null) {
+            testTinyint_ =
+              io.dstore.Values.integerValue.newBuilder(testTinyint_).mergeFrom(value).buildPartial();
+          } else {
+            testTinyint_ = value;
+          }
+          onChanged();
+        } else {
+          testTinyintBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+       */
+      public Builder clearTestTinyint() {
+        if (testTinyintBuilder_ == null) {
+          testTinyint_ = null;
+          onChanged();
+        } else {
+          testTinyint_ = null;
+          testTinyintBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getTestTinyintBuilder() {
+        
+        onChanged();
+        return getTestTinyintFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getTestTinyintOrBuilder() {
+        if (testTinyintBuilder_ != null) {
+          return testTinyintBuilder_.getMessageOrBuilder();
+        } else {
+          return testTinyint_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : testTinyint_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getTestTinyintFieldBuilder() {
+        if (testTinyintBuilder_ == null) {
+          testTinyintBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getTestTinyint(),
+                  getParentForChildren(),
+                  isClean());
+          testTinyint_ = null;
+        }
+        return testTinyintBuilder_;
+      }
+
+      private boolean testTinyintNull_ ;
+      /**
+       * <code>optional bool test_tinyint_null = 1012;</code>
+       */
+      public boolean getTestTinyintNull() {
+        return testTinyintNull_;
+      }
+      /**
+       * <code>optional bool test_tinyint_null = 1012;</code>
+       */
+      public Builder setTestTinyintNull(boolean value) {
+        
+        testTinyintNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_tinyint_null = 1012;</code>
+       */
+      public Builder clearTestTinyintNull() {
+        
+        testTinyintNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.stringValue testVarchar_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testVarcharBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+       */
+      public boolean hasTestVarchar() {
+        return testVarcharBuilder_ != null || testVarchar_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+       */
+      public io.dstore.Values.stringValue getTestVarchar() {
+        if (testVarcharBuilder_ == null) {
+          return testVarchar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testVarchar_;
+        } else {
+          return testVarcharBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+       */
+      public Builder setTestVarchar(io.dstore.Values.stringValue value) {
+        if (testVarcharBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          testVarchar_ = value;
+          onChanged();
+        } else {
+          testVarcharBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+       */
+      public Builder setTestVarchar(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (testVarcharBuilder_ == null) {
+          testVarchar_ = builderForValue.build();
+          onChanged();
+        } else {
+          testVarcharBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+       */
+      public Builder mergeTestVarchar(io.dstore.Values.stringValue value) {
+        if (testVarcharBuilder_ == null) {
+          if (testVarchar_ != null) {
+            testVarchar_ =
+              io.dstore.Values.stringValue.newBuilder(testVarchar_).mergeFrom(value).buildPartial();
+          } else {
+            testVarchar_ = value;
+          }
+          onChanged();
+        } else {
+          testVarcharBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+       */
+      public Builder clearTestVarchar() {
+        if (testVarcharBuilder_ == null) {
+          testVarchar_ = null;
+          onChanged();
+        } else {
+          testVarchar_ = null;
+          testVarcharBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getTestVarcharBuilder() {
+        
+        onChanged();
+        return getTestVarcharFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getTestVarcharOrBuilder() {
+        if (testVarcharBuilder_ != null) {
+          return testVarcharBuilder_.getMessageOrBuilder();
+        } else {
+          return testVarchar_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : testVarchar_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getTestVarcharFieldBuilder() {
+        if (testVarcharBuilder_ == null) {
+          testVarcharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getTestVarchar(),
+                  getParentForChildren(),
+                  isClean());
+          testVarchar_ = null;
+        }
+        return testVarcharBuilder_;
+      }
+
+      private boolean testVarcharNull_ ;
+      /**
+       * <code>optional bool test_varchar_null = 1013;</code>
+       */
+      public boolean getTestVarcharNull() {
+        return testVarcharNull_;
+      }
+      /**
+       * <code>optional bool test_varchar_null = 1013;</code>
+       */
+      public Builder setTestVarcharNull(boolean value) {
+        
+        testVarcharNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool test_varchar_null = 1013;</code>
+       */
+      public Builder clearTestVarcharNull() {
+        
+        testVarcharNull_ = false;
         onChanged();
         return this;
       }
@@ -11942,74 +14626,96 @@ public final class MiDatatypeTestAd {
       "st_Ad\032\023dstore/values.proto\032\031dstore/engin" +
       "e/error.proto\032\033dstore/engine/message.pro" +
       "to\032#dstore/engine/metainformation.proto\"" +
-      "\270\001\n\nParameters\0226\n\021set_output_params\030\001 \001(" +
+      "\202\010\n\nParameters\0226\n\021set_output_params\030\001 \001(" +
       "\0132\033.dstore.values.booleanValue\022\037\n\026set_ou" +
       "tput_params_null\030\351\007 \001(\010\0223\n\016get_result_se" +
       "t\030\002 \001(\0132\033.dstore.values.booleanValue\022\034\n\023" +
-      "get_result_set_null\030\352\007 \001(\010\"\253\023\n\010Response\022",
-      ")\n\005error\030\001 \001(\0132\032.dstore.engine.error.Err" +
-      "or\022H\n\020meta_information\030\002 \003(\0132..dstore.en" +
-      "gine.metainformation.MetaInformation\022/\n\007" +
-      "message\030\003 \003(\0132\036.dstore.engine.message.Me" +
-      "ssage\022;\n\003row\030\004 \003(\0132..dstore.engine.mi_Da" +
-      "tatypeTest_Ad.Response.Row\022-\n\010test_bit\030e" +
-      " \001(\0132\033.dstore.values.booleanValue\022-\n\ttes" +
-      "t_char\030f \001(\0132\032.dstore.values.stringValue" +
-      "\0224\n\rtest_datetime\030g \001(\0132\035.dstore.values." +
-      "timestampValue\0221\n\014test_decimal\030h \001(\0132\033.d",
-      "store.values.decimalValue\022-\n\ntest_image\030" +
-      "i \001(\0132\031.dstore.values.bytesValue\0221\n\014test" +
-      "_integer\030j \001(\0132\033.dstore.values.integerVa" +
-      "lue\022/\n\ntest_money\030k \001(\0132\033.dstore.values." +
-      "decimalValue\0222\n\rtest_smallint\030l \001(\0132\033.ds" +
-      "tore.values.integerValue\022-\n\ttest_text\030m " +
-      "\001(\0132\032.dstore.values.stringValue\0221\n\014test_" +
-      "tinyint\030n \001(\0132\033.dstore.values.integerVal" +
-      "ue\0220\n\014test_varchar\030o \001(\0132\032.dstore.values" +
-      ".stringValue\032\231\r\n\003Row\022\017\n\006row_id\030\220N \001(\005\022.\n",
-      "\ttest_text\030\221N \001(\0132\032.dstore.values.string" +
-      "Value\022=\n\030test_decimal_param_input\030\222N \001(\013" +
-      "2\032.dstore.values.stringValue\0225\n\rtest_dat" +
-      "etime\030\223N \001(\0132\035.dstore.values.timestampVa" +
-      "lue\022G\n!test_text_param_input_byte_length" +
-      "\030\224N \001(\0132\033.dstore.values.integerValue\022:\n\025" +
-      "test_text_param_input\030\225N \001(\0132\032.dstore.va" +
-      "lues.stringValue\0222\n\014test_decimal\030\226N \001(\0132" +
-      "\033.dstore.values.decimalValue\022>\n\031test_sma" +
-      "llint_param_input\030\227N \001(\0132\032.dstore.values",
-      ".stringValue\022.\n\ttest_char\030\230N \001(\0132\032.dstor" +
-      "e.values.stringValue\022=\n\030test_tinyint_par" +
-      "am_input\030\231N \001(\0132\032.dstore.values.stringVa" +
-      "lue\022.\n\010test_bit\030\232N \001(\0132\033.dstore.values.b" +
-      "ooleanValue\0222\n\014test_integer\030\233N \001(\0132\033.dst" +
-      "ore.values.integerValue\0222\n\014test_tinyint\030" +
-      "\234N \001(\0132\033.dstore.values.integerValue\022;\n\026t" +
-      "est_money_param_input\030\235N \001(\0132\032.dstore.va" +
-      "lues.stringValue\022H\n\"test_image_param_inp" +
-      "ut_byte_length\030\236N \001(\0132\033.dstore.values.in",
-      "tegerValue\022?\n\032test_text_param_input_m_d5" +
-      "\030\237N \001(\0132\032.dstore.values.stringValue\022:\n\025t" +
-      "est_char_param_input\030\240N \001(\0132\032.dstore.val" +
-      "ues.stringValue\0223\n\rtest_smallint\030\241N \001(\0132" +
-      "\033.dstore.values.integerValue\0229\n\024test_bit" +
-      "_param_input\030\242N \001(\0132\032.dstore.values.stri" +
-      "ngValue\022.\n\ntest_image\030\243N \001(\0132\031.dstore.va" +
-      "lues.bytesValue\022.\n\013test_bigint\030\244N \001(\0132\030." +
-      "dstore.values.longValue\022@\n\033test_image_pa" +
-      "ram_input_m_d5\030\245N \001(\0132\032.dstore.values.st",
-      "ringValue\022=\n\030test_integer_param_input\030\246N" +
-      " \001(\0132\032.dstore.values.stringValue\0221\n\014test" +
-      "_sysname\030\247N \001(\0132\032.dstore.values.stringVa" +
-      "lue\022=\n\030test_varchar_param_input\030\250N \001(\0132\032" +
-      ".dstore.values.stringValue\022>\n\031test_datet" +
-      "ime_param_input\030\251N \001(\0132\032.dstore.values.s" +
-      "tringValue\022;\n\026test_image_param_input\030\252N " +
-      "\001(\0132\032.dstore.values.stringValue\0220\n\ntest_" +
-      "money\030\253N \001(\0132\033.dstore.values.decimalValu" +
-      "e\0221\n\014test_varchar\030\254N \001(\0132\032.dstore.values",
-      ".stringValue\0222\n\014test_numeric\030\255N \001(\0132\033.ds" +
-      "tore.values.decimalValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "get_result_set_null\030\352\007 \001(\010\022-\n\010test_bit\030\003",
+      " \001(\0132\033.dstore.values.booleanValue\022\026\n\rtes" +
+      "t_bit_null\030\353\007 \001(\010\022-\n\ttest_char\030\004 \001(\0132\032.d" +
+      "store.values.stringValue\022\027\n\016test_char_nu" +
+      "ll\030\354\007 \001(\010\0224\n\rtest_datetime\030\005 \001(\0132\035.dstor" +
+      "e.values.timestampValue\022\033\n\022test_datetime" +
+      "_null\030\355\007 \001(\010\0221\n\014test_decimal\030\006 \001(\0132\033.dst" +
+      "ore.values.decimalValue\022\032\n\021test_decimal_" +
+      "null\030\356\007 \001(\010\022-\n\ntest_image\030\007 \001(\0132\031.dstore" +
+      ".values.bytesValue\022\030\n\017test_image_null\030\357\007" +
+      " \001(\010\0221\n\014test_integer\030\010 \001(\0132\033.dstore.valu",
+      "es.integerValue\022\032\n\021test_integer_null\030\360\007 " +
+      "\001(\010\022/\n\ntest_money\030\t \001(\0132\033.dstore.values." +
+      "decimalValue\022\030\n\017test_money_null\030\361\007 \001(\010\0222" +
+      "\n\rtest_smallint\030\n \001(\0132\033.dstore.values.in" +
+      "tegerValue\022\033\n\022test_smallint_null\030\362\007 \001(\010\022" +
+      "-\n\ttest_text\030\013 \001(\0132\032.dstore.values.strin" +
+      "gValue\022\027\n\016test_text_null\030\363\007 \001(\010\0221\n\014test_" +
+      "tinyint\030\014 \001(\0132\033.dstore.values.integerVal" +
+      "ue\022\032\n\021test_tinyint_null\030\364\007 \001(\010\0220\n\014test_v" +
+      "archar\030\r \001(\0132\032.dstore.values.stringValue",
+      "\022\032\n\021test_varchar_null\030\365\007 \001(\010\"\253\023\n\010Respons" +
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore." +
+      "engine.metainformation.MetaInformation\022/" +
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022;\n\003row\030\004 \003(\0132..dstore.engine.mi_" +
+      "DatatypeTest_Ad.Response.Row\022-\n\010test_bit" +
+      "\030e \001(\0132\033.dstore.values.booleanValue\022-\n\tt" +
+      "est_char\030f \001(\0132\032.dstore.values.stringVal" +
+      "ue\0224\n\rtest_datetime\030g \001(\0132\035.dstore.value",
+      "s.timestampValue\0221\n\014test_decimal\030h \001(\0132\033" +
+      ".dstore.values.decimalValue\022-\n\ntest_imag" +
+      "e\030i \001(\0132\031.dstore.values.bytesValue\0221\n\014te" +
+      "st_integer\030j \001(\0132\033.dstore.values.integer" +
+      "Value\022/\n\ntest_money\030k \001(\0132\033.dstore.value" +
+      "s.decimalValue\0222\n\rtest_smallint\030l \001(\0132\033." +
+      "dstore.values.integerValue\022-\n\ttest_text\030" +
+      "m \001(\0132\032.dstore.values.stringValue\0221\n\014tes" +
+      "t_tinyint\030n \001(\0132\033.dstore.values.integerV" +
+      "alue\0220\n\014test_varchar\030o \001(\0132\032.dstore.valu",
+      "es.stringValue\032\231\r\n\003Row\022\017\n\006row_id\030\220N \001(\005\022" +
+      ".\n\ttest_text\030\221N \001(\0132\032.dstore.values.stri" +
+      "ngValue\022=\n\030test_decimal_param_input\030\222N \001" +
+      "(\0132\032.dstore.values.stringValue\0225\n\rtest_d" +
+      "atetime\030\223N \001(\0132\035.dstore.values.timestamp" +
+      "Value\022G\n!test_text_param_input_byte_leng" +
+      "th\030\224N \001(\0132\033.dstore.values.integerValue\022:" +
+      "\n\025test_text_param_input\030\225N \001(\0132\032.dstore." +
+      "values.stringValue\0222\n\014test_decimal\030\226N \001(" +
+      "\0132\033.dstore.values.decimalValue\022>\n\031test_s",
+      "mallint_param_input\030\227N \001(\0132\032.dstore.valu" +
+      "es.stringValue\022.\n\ttest_char\030\230N \001(\0132\032.dst" +
+      "ore.values.stringValue\022=\n\030test_tinyint_p" +
+      "aram_input\030\231N \001(\0132\032.dstore.values.string" +
+      "Value\022.\n\010test_bit\030\232N \001(\0132\033.dstore.values" +
+      ".booleanValue\0222\n\014test_integer\030\233N \001(\0132\033.d" +
+      "store.values.integerValue\0222\n\014test_tinyin" +
+      "t\030\234N \001(\0132\033.dstore.values.integerValue\022;\n" +
+      "\026test_money_param_input\030\235N \001(\0132\032.dstore." +
+      "values.stringValue\022H\n\"test_image_param_i",
+      "nput_byte_length\030\236N \001(\0132\033.dstore.values." +
+      "integerValue\022?\n\032test_text_param_input_m_" +
+      "d5\030\237N \001(\0132\032.dstore.values.stringValue\022:\n" +
+      "\025test_char_param_input\030\240N \001(\0132\032.dstore.v" +
+      "alues.stringValue\0223\n\rtest_smallint\030\241N \001(" +
+      "\0132\033.dstore.values.integerValue\0229\n\024test_b" +
+      "it_param_input\030\242N \001(\0132\032.dstore.values.st" +
+      "ringValue\022.\n\ntest_image\030\243N \001(\0132\031.dstore." +
+      "values.bytesValue\022.\n\013test_bigint\030\244N \001(\0132" +
+      "\030.dstore.values.longValue\022@\n\033test_image_",
+      "param_input_m_d5\030\245N \001(\0132\032.dstore.values." +
+      "stringValue\022=\n\030test_integer_param_input\030" +
+      "\246N \001(\0132\032.dstore.values.stringValue\0221\n\014te" +
+      "st_sysname\030\247N \001(\0132\032.dstore.values.string" +
+      "Value\022=\n\030test_varchar_param_input\030\250N \001(\013" +
+      "2\032.dstore.values.stringValue\022>\n\031test_dat" +
+      "etime_param_input\030\251N \001(\0132\032.dstore.values" +
+      ".stringValue\022;\n\026test_image_param_input\030\252" +
+      "N \001(\0132\032.dstore.values.stringValue\0220\n\ntes" +
+      "t_money\030\253N \001(\0132\033.dstore.values.decimalVa",
+      "lue\0221\n\014test_varchar\030\254N \001(\0132\032.dstore.valu" +
+      "es.stringValue\0222\n\014test_numeric\030\255N \001(\0132\033." +
+      "dstore.values.decimalValueBS\n\033io.dstore." +
+      "engine.proceduresZ4gosdk.dstore.de/engin" +
+      "e/procedures/mi_DatatypeTest_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -12032,7 +14738,7 @@ public final class MiDatatypeTestAd {
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_descriptor,
-        new java.lang.String[] { "SetOutputParams", "SetOutputParamsNull", "GetResultSet", "GetResultSetNull", });
+        new java.lang.String[] { "SetOutputParams", "SetOutputParamsNull", "GetResultSet", "GetResultSetNull", "TestBit", "TestBitNull", "TestChar", "TestCharNull", "TestDatetime", "TestDatetimeNull", "TestDecimal", "TestDecimalNull", "TestImage", "TestImageNull", "TestInteger", "TestIntegerNull", "TestMoney", "TestMoneyNull", "TestSmallint", "TestSmallintNull", "TestText", "TestTextNull", "TestTinyint", "TestTinyintNull", "TestVarchar", "TestVarcharNull", });
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_fieldAccessorTable = new

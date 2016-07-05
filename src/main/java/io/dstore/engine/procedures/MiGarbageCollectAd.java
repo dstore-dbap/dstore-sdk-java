@@ -3172,8 +3172,9 @@ public final class MiGarbageCollectAd {
       "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
       "Message\022=\n\003row\030\004 \003(\01320.dstore.engine.mi_" +
       "GarbageCollect_Ad.Response.Row\032\026\n\003Row\022\017\n" +
-      "\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proce",
-      "duresb\006proto3"
+      "\006row_id\030\220N \001(\005BU\n\033io.dstore.engine.proce",
+      "duresZ6gosdk.dstore.de/engine/procedures" +
+      "/mi_GarbageCollect_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

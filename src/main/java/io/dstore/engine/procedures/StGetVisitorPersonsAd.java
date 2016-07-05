@@ -6373,8 +6373,10 @@ public final class StGetVisitorPersonsAd {
       "\030\230N \001(\0132\032.dstore.values.stringValue\022:\n\025c" +
       "haracteristic_value1\030\231N \001(\0132\032.dstore.val" +
       "ues.stringValue\0224\n\016person_type_id\030\232N \001(\013" +
-      "2\033.dstore.values.integerValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "2\033.dstore.values.integerValueBX\n\033io.dsto" +
+      "re.engine.proceduresZ9gosdk.dstore.de/en",
+      "gine/procedures/st_GetVisitorPersons_Adb" +
+      "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

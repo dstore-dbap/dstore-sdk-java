@@ -6375,8 +6375,9 @@ public final class OmGetCampaignPeriodsAd {
       ".values.stringValue\0227\n\020campaign_type_id\030" +
       "\244\234\001 \001(\0132\033.dstore.values.integerValue\0223\n\r" +
       "campaign_name\030\247\234\001 \001(\0132\032.dstore.values.st" +
-      "ringValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "ringValueBY\n\033io.dstore.engine.procedures" +
+      "Z:gosdk.dstore.de/engine/procedures/om_G",
+      "etCampaignPeriods_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

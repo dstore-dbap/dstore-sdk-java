@@ -6623,8 +6623,9 @@ public final class ImSortTreeNodesPu {
       ".integerValue\022?\n\031predecessors_tree_node_" +
       "id\030\232N \001(\0132\033.dstore.values.integerValue\022=" +
       "\n\030predecessors_description\030\233N \001(\0132\032.dsto" +
-      "re.values.stringValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "re.values.stringValueBT\n\033io.dstore.engin" +
+      "e.proceduresZ5gosdk.dstore.de/engine/pro" +
+      "cedures/im_SortTreeNodes_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

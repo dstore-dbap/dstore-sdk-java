@@ -6128,8 +6128,9 @@ public final class CoGetMemberInformationPu {
       ".dstore.values.integerValue\022.\n\010value_id\030" +
       "\225N \001(\0132\033.dstore.values.integerValue\022-\n\007d",
       "etails\030\241\234\001 \001(\0132\032.dstore.values.stringVal" +
-      "ueB\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "ueB[\n\033io.dstore.engine.proceduresZ<gosdk" +
+      ".dstore.de/engine/procedures/co_GetMembe" +
+      "rInformation_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

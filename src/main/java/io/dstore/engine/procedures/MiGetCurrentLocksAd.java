@@ -5388,8 +5388,9 @@ public final class MiGetCurrentLocksAd {
       "ss\030\231N \001(\0132\032.dstore.values.stringValue\022.\n" +
       "\tlock_type\030\232N \001(\0132\032.dstore.values.string" +
       "Value\022.\n\thost_name\030\233N \001(\0132\032.dstore.value" +
-      "s.stringValueB\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      "s.stringValueBV\n\033io.dstore.engine.proced" +
+      "uresZ7gosdk.dstore.de/engine/procedures/",
+      "mi_GetCurrentLocks_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

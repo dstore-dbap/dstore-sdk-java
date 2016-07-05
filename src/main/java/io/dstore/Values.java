@@ -5306,8 +5306,8 @@ public final class Values {
       "ore.values.decimalValueH\000\0228\n\017timestamp_v" +
       "alue\030\020 \001(\0132\035.dstore.values.timestampValu" +
       "eH\000\022.\n\nlong_value\030\021 \001(\0132\030.dstore.values." +
-      "longValueH\000B\007\n\005valueB\013\n\tio.dstoreb\006proto",
-      "3"
+      "longValueH\000B\007\n\005valueB#\n\tio.dstoreZ\026gosdk",
+      ".dstore.de/valuesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3419,8 +3419,9 @@ public final class OmGetSurchargeTypeCategories {
       "9\n\024category_description\030\222N \001(\0132\032.dstore." +
       "values.stringValue\022@\n\032surcharge_type_cat" +
       "egory_id\030\223N \001(\0132\033.dstore.values.integerV" +
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro",
-      "to3"
+      "alueB^\n\033io.dstore.engine.proceduresZ?gos",
+      "dk.dstore.de/engine/procedures/om_GetSur" +
+      "chargeTypeCategoriesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

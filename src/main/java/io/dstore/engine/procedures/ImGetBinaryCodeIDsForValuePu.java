@@ -4896,8 +4896,9 @@ public final class ImGetBinaryCodeIDsForValuePu {
       "re.values.integerValue\022=\n\026node_character" +
       "istic_id\030\262\352\001 \001(\0132\033.dstore.values.integer",
       "Value\022+\n\005value\030\263\352\001 \001(\0132\032.dstore.values.s" +
-      "tringValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tringValueB_\n\033io.dstore.engine.procedure" +
+      "sZ@gosdk.dstore.de/engine/procedures/im_" +
+      "GetBinaryCodeIDsForValue_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

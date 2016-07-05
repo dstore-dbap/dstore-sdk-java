@@ -3418,8 +3418,9 @@ public final class MiGetVisitorPropertiesPu {
       "tore.values.integerValue\0221\n\013language_id\030" +
       "\222N \001(\0132\033.dstore.values.integerValue\0221\n\013c" +
       "urrency_id\030\223N \001(\0132\033.dstore.values.intege" +
-      "rValueB\035\n\033io.dstore.engine.proceduresb\006p" +
-      "roto3"
+      "rValueB[\n\033io.dstore.engine.proceduresZ<g" +
+      "osdk.dstore.de/engine/procedures/mi_GetV",
+      "isitorProperties_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3664,8 +3664,9 @@ public final class PmGetPossibleDuplicatesAd {
       "sponse.Row\032s\n\003Row\022\017\n\006row_id\030\220N \001(\005\022/\n\tpe" +
       "rson_id\030\221N \001(\0132\033.dstore.values.integerVa",
       "lue\022*\n\005value\030\222N \001(\0132\032.dstore.values.stri" +
-      "ngValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "ngValueB\\\n\033io.dstore.engine.proceduresZ=" +
+      "gosdk.dstore.de/engine/procedures/pm_Get" +
+      "PossibleDuplicates_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

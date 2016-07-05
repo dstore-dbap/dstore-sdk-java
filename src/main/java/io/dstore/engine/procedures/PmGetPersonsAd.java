@@ -85,128 +85,146 @@ public final class PmGetPersonsAd {
     boolean getOutputCharacteristicIdsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    boolean hasCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    io.dstore.Values.integerValue getCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getCountOrBuilder();
+
+    /**
+     * <code>optional bool count_null = 1005;</code>
+     */
+    boolean getCountNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
      */
     boolean hasLastPersonId();
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
      */
     io.dstore.Values.integerValue getLastPersonId();
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
      */
     io.dstore.Values.integerValueOrBuilder getLastPersonIdOrBuilder();
 
     /**
-     * <code>optional bool last_person_id_null = 1005;</code>
+     * <code>optional bool last_person_id_null = 1006;</code>
      */
     boolean getLastPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     boolean hasLastValues();
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     io.dstore.Values.stringValue getLastValues();
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     io.dstore.Values.stringValueOrBuilder getLastValuesOrBuilder();
 
     /**
-     * <code>optional bool last_values_null = 1006;</code>
+     * <code>optional bool last_values_null = 1007;</code>
      */
     boolean getLastValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
      */
     io.dstore.Values.integerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
      */
     io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
-     * <code>optional bool person_type_id_null = 1007;</code>
+     * <code>optional bool person_type_id_null = 1008;</code>
      */
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     boolean hasNext();
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     io.dstore.Values.booleanValue getNext();
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getNextOrBuilder();
 
     /**
-     * <code>optional bool next_null = 1008;</code>
+     * <code>optional bool next_null = 1009;</code>
      */
     boolean getNextNull();
 
     /**
-     * <code>optional .dstore.values.integerValue group_id = 9;</code>
+     * <code>optional .dstore.values.integerValue group_id = 10;</code>
      */
     boolean hasGroupId();
     /**
-     * <code>optional .dstore.values.integerValue group_id = 9;</code>
+     * <code>optional .dstore.values.integerValue group_id = 10;</code>
      */
     io.dstore.Values.integerValue getGroupId();
     /**
-     * <code>optional .dstore.values.integerValue group_id = 9;</code>
+     * <code>optional .dstore.values.integerValue group_id = 10;</code>
      */
     io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder();
 
     /**
-     * <code>optional bool group_id_null = 1009;</code>
+     * <code>optional bool group_id_null = 1010;</code>
      */
     boolean getGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue row_number = 10;</code>
+     * <code>optional .dstore.values.integerValue row_number = 11;</code>
      */
     boolean hasRowNumber();
     /**
-     * <code>optional .dstore.values.integerValue row_number = 10;</code>
+     * <code>optional .dstore.values.integerValue row_number = 11;</code>
      */
     io.dstore.Values.integerValue getRowNumber();
     /**
-     * <code>optional .dstore.values.integerValue row_number = 10;</code>
+     * <code>optional .dstore.values.integerValue row_number = 11;</code>
      */
     io.dstore.Values.integerValueOrBuilder getRowNumberOrBuilder();
 
     /**
-     * <code>optional bool row_number_null = 1010;</code>
+     * <code>optional bool row_number_null = 1011;</code>
      */
     boolean getRowNumberNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
      */
     boolean hasSeparatorInLastValues();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
      */
     io.dstore.Values.stringValue getSeparatorInLastValues();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
      */
     io.dstore.Values.stringValueOrBuilder getSeparatorInLastValuesOrBuilder();
 
     /**
-     * <code>optional bool separator_in_last_values_null = 1011;</code>
+     * <code>optional bool separator_in_last_values_null = 1012;</code>
      */
     boolean getSeparatorInLastValuesNull();
   }
@@ -226,6 +244,7 @@ public final class PmGetPersonsAd {
       sortOrder2Null_ = false;
       sortOrder3Null_ = false;
       outputCharacteristicIdsNull_ = false;
+      countNull_ = false;
       lastPersonIdNull_ = false;
       lastValuesNull_ = false;
       personTypeIdNull_ = false;
@@ -313,6 +332,19 @@ public final class PmGetPersonsAd {
             }
             case 42: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (count_ != null) {
+                subBuilder = count_.toBuilder();
+              }
+              count_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(count_);
+                count_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 50: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (lastPersonId_ != null) {
                 subBuilder = lastPersonId_.toBuilder();
               }
@@ -324,7 +356,7 @@ public final class PmGetPersonsAd {
 
               break;
             }
-            case 50: {
+            case 58: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (lastValues_ != null) {
                 subBuilder = lastValues_.toBuilder();
@@ -337,7 +369,7 @@ public final class PmGetPersonsAd {
 
               break;
             }
-            case 58: {
+            case 66: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
@@ -350,7 +382,7 @@ public final class PmGetPersonsAd {
 
               break;
             }
-            case 66: {
+            case 74: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (next_ != null) {
                 subBuilder = next_.toBuilder();
@@ -363,7 +395,7 @@ public final class PmGetPersonsAd {
 
               break;
             }
-            case 74: {
+            case 82: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (groupId_ != null) {
                 subBuilder = groupId_.toBuilder();
@@ -376,7 +408,7 @@ public final class PmGetPersonsAd {
 
               break;
             }
-            case 82: {
+            case 90: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (rowNumber_ != null) {
                 subBuilder = rowNumber_.toBuilder();
@@ -389,7 +421,7 @@ public final class PmGetPersonsAd {
 
               break;
             }
-            case 90: {
+            case 98: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInLastValues_ != null) {
                 subBuilder = separatorInLastValues_.toBuilder();
@@ -424,35 +456,40 @@ public final class PmGetPersonsAd {
             }
             case 8040: {
 
-              lastPersonIdNull_ = input.readBool();
+              countNull_ = input.readBool();
               break;
             }
             case 8048: {
 
-              lastValuesNull_ = input.readBool();
+              lastPersonIdNull_ = input.readBool();
               break;
             }
             case 8056: {
 
-              personTypeIdNull_ = input.readBool();
+              lastValuesNull_ = input.readBool();
               break;
             }
             case 8064: {
 
-              nextNull_ = input.readBool();
+              personTypeIdNull_ = input.readBool();
               break;
             }
             case 8072: {
 
-              groupIdNull_ = input.readBool();
+              nextNull_ = input.readBool();
               break;
             }
             case 8080: {
 
-              rowNumberNull_ = input.readBool();
+              groupIdNull_ = input.readBool();
               break;
             }
             case 8088: {
+
+              rowNumberNull_ = input.readBool();
+              break;
+            }
+            case 8096: {
 
               separatorInLastValuesNull_ = input.readBool();
               break;
@@ -601,211 +638,241 @@ public final class PmGetPersonsAd {
       return outputCharacteristicIdsNull_;
     }
 
-    public static final int LAST_PERSON_ID_FIELD_NUMBER = 5;
+    public static final int COUNT_FIELD_NUMBER = 5;
+    private io.dstore.Values.integerValue count_;
+    /**
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    public boolean hasCount() {
+      return count_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    public io.dstore.Values.integerValue getCount() {
+      return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 5;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+      return getCount();
+    }
+
+    public static final int COUNT_NULL_FIELD_NUMBER = 1005;
+    private boolean countNull_;
+    /**
+     * <code>optional bool count_null = 1005;</code>
+     */
+    public boolean getCountNull() {
+      return countNull_;
+    }
+
+    public static final int LAST_PERSON_ID_FIELD_NUMBER = 6;
     private io.dstore.Values.integerValue lastPersonId_;
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
      */
     public boolean hasLastPersonId() {
       return lastPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
      */
     public io.dstore.Values.integerValue getLastPersonId() {
       return lastPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lastPersonId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getLastPersonIdOrBuilder() {
       return getLastPersonId();
     }
 
-    public static final int LAST_PERSON_ID_NULL_FIELD_NUMBER = 1005;
+    public static final int LAST_PERSON_ID_NULL_FIELD_NUMBER = 1006;
     private boolean lastPersonIdNull_;
     /**
-     * <code>optional bool last_person_id_null = 1005;</code>
+     * <code>optional bool last_person_id_null = 1006;</code>
      */
     public boolean getLastPersonIdNull() {
       return lastPersonIdNull_;
     }
 
-    public static final int LAST_VALUES_FIELD_NUMBER = 6;
+    public static final int LAST_VALUES_FIELD_NUMBER = 7;
     private io.dstore.Values.stringValue lastValues_;
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     public boolean hasLastValues() {
       return lastValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     public io.dstore.Values.stringValue getLastValues() {
       return lastValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lastValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue last_values = 6;</code>
+     * <code>optional .dstore.values.stringValue last_values = 7;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getLastValuesOrBuilder() {
       return getLastValues();
     }
 
-    public static final int LAST_VALUES_NULL_FIELD_NUMBER = 1006;
+    public static final int LAST_VALUES_NULL_FIELD_NUMBER = 1007;
     private boolean lastValuesNull_;
     /**
-     * <code>optional bool last_values_null = 1006;</code>
+     * <code>optional bool last_values_null = 1007;</code>
      */
     public boolean getLastValuesNull() {
       return lastValuesNull_;
     }
 
-    public static final int PERSON_TYPE_ID_FIELD_NUMBER = 7;
+    public static final int PERSON_TYPE_ID_FIELD_NUMBER = 8;
     private io.dstore.Values.integerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
      */
     public io.dstore.Values.integerValue getPersonTypeId() {
       return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
-    public static final int PERSON_TYPE_ID_NULL_FIELD_NUMBER = 1007;
+    public static final int PERSON_TYPE_ID_NULL_FIELD_NUMBER = 1008;
     private boolean personTypeIdNull_;
     /**
-     * <code>optional bool person_type_id_null = 1007;</code>
+     * <code>optional bool person_type_id_null = 1008;</code>
      */
     public boolean getPersonTypeIdNull() {
       return personTypeIdNull_;
     }
 
-    public static final int NEXT_FIELD_NUMBER = 8;
+    public static final int NEXT_FIELD_NUMBER = 9;
     private io.dstore.Values.booleanValue next_;
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     public boolean hasNext() {
       return next_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     public io.dstore.Values.booleanValue getNext() {
       return next_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : next_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue next = 8;</code>
+     * <code>optional .dstore.values.booleanValue next = 9;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getNextOrBuilder() {
       return getNext();
     }
 
-    public static final int NEXT_NULL_FIELD_NUMBER = 1008;
+    public static final int NEXT_NULL_FIELD_NUMBER = 1009;
     private boolean nextNull_;
     /**
-     * <code>optional bool next_null = 1008;</code>
+     * <code>optional bool next_null = 1009;</code>
      */
     public boolean getNextNull() {
       return nextNull_;
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 9;
+    public static final int GROUP_ID_FIELD_NUMBER = 10;
     private io.dstore.Values.integerValue groupId_;
     /**
-     * <code>optional .dstore.values.integerValue group_id = 9;</code>
+     * <code>optional .dstore.values.integerValue group_id = 10;</code>
      */
     public boolean hasGroupId() {
       return groupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue group_id = 9;</code>
+     * <code>optional .dstore.values.integerValue group_id = 10;</code>
      */
     public io.dstore.Values.integerValue getGroupId() {
       return groupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue group_id = 9;</code>
+     * <code>optional .dstore.values.integerValue group_id = 10;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder() {
       return getGroupId();
     }
 
-    public static final int GROUP_ID_NULL_FIELD_NUMBER = 1009;
+    public static final int GROUP_ID_NULL_FIELD_NUMBER = 1010;
     private boolean groupIdNull_;
     /**
-     * <code>optional bool group_id_null = 1009;</code>
+     * <code>optional bool group_id_null = 1010;</code>
      */
     public boolean getGroupIdNull() {
       return groupIdNull_;
     }
 
-    public static final int ROW_NUMBER_FIELD_NUMBER = 10;
+    public static final int ROW_NUMBER_FIELD_NUMBER = 11;
     private io.dstore.Values.integerValue rowNumber_;
     /**
-     * <code>optional .dstore.values.integerValue row_number = 10;</code>
+     * <code>optional .dstore.values.integerValue row_number = 11;</code>
      */
     public boolean hasRowNumber() {
       return rowNumber_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue row_number = 10;</code>
+     * <code>optional .dstore.values.integerValue row_number = 11;</code>
      */
     public io.dstore.Values.integerValue getRowNumber() {
       return rowNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowNumber_;
     }
     /**
-     * <code>optional .dstore.values.integerValue row_number = 10;</code>
+     * <code>optional .dstore.values.integerValue row_number = 11;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getRowNumberOrBuilder() {
       return getRowNumber();
     }
 
-    public static final int ROW_NUMBER_NULL_FIELD_NUMBER = 1010;
+    public static final int ROW_NUMBER_NULL_FIELD_NUMBER = 1011;
     private boolean rowNumberNull_;
     /**
-     * <code>optional bool row_number_null = 1010;</code>
+     * <code>optional bool row_number_null = 1011;</code>
      */
     public boolean getRowNumberNull() {
       return rowNumberNull_;
     }
 
-    public static final int SEPARATOR_IN_LAST_VALUES_FIELD_NUMBER = 11;
+    public static final int SEPARATOR_IN_LAST_VALUES_FIELD_NUMBER = 12;
     private io.dstore.Values.stringValue separatorInLastValues_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
      */
     public boolean hasSeparatorInLastValues() {
       return separatorInLastValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
      */
     public io.dstore.Values.stringValue getSeparatorInLastValues() {
       return separatorInLastValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInLastValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getSeparatorInLastValuesOrBuilder() {
       return getSeparatorInLastValues();
     }
 
-    public static final int SEPARATOR_IN_LAST_VALUES_NULL_FIELD_NUMBER = 1011;
+    public static final int SEPARATOR_IN_LAST_VALUES_NULL_FIELD_NUMBER = 1012;
     private boolean separatorInLastValuesNull_;
     /**
-     * <code>optional bool separator_in_last_values_null = 1011;</code>
+     * <code>optional bool separator_in_last_values_null = 1012;</code>
      */
     public boolean getSeparatorInLastValuesNull() {
       return separatorInLastValuesNull_;
@@ -835,26 +902,29 @@ public final class PmGetPersonsAd {
       if (outputCharacteristicIds_ != null) {
         output.writeMessage(4, getOutputCharacteristicIds());
       }
+      if (count_ != null) {
+        output.writeMessage(5, getCount());
+      }
       if (lastPersonId_ != null) {
-        output.writeMessage(5, getLastPersonId());
+        output.writeMessage(6, getLastPersonId());
       }
       if (lastValues_ != null) {
-        output.writeMessage(6, getLastValues());
+        output.writeMessage(7, getLastValues());
       }
       if (personTypeId_ != null) {
-        output.writeMessage(7, getPersonTypeId());
+        output.writeMessage(8, getPersonTypeId());
       }
       if (next_ != null) {
-        output.writeMessage(8, getNext());
+        output.writeMessage(9, getNext());
       }
       if (groupId_ != null) {
-        output.writeMessage(9, getGroupId());
+        output.writeMessage(10, getGroupId());
       }
       if (rowNumber_ != null) {
-        output.writeMessage(10, getRowNumber());
+        output.writeMessage(11, getRowNumber());
       }
       if (separatorInLastValues_ != null) {
-        output.writeMessage(11, getSeparatorInLastValues());
+        output.writeMessage(12, getSeparatorInLastValues());
       }
       if (sortOrder1Null_ != false) {
         output.writeBool(1001, sortOrder1Null_);
@@ -868,26 +938,29 @@ public final class PmGetPersonsAd {
       if (outputCharacteristicIdsNull_ != false) {
         output.writeBool(1004, outputCharacteristicIdsNull_);
       }
+      if (countNull_ != false) {
+        output.writeBool(1005, countNull_);
+      }
       if (lastPersonIdNull_ != false) {
-        output.writeBool(1005, lastPersonIdNull_);
+        output.writeBool(1006, lastPersonIdNull_);
       }
       if (lastValuesNull_ != false) {
-        output.writeBool(1006, lastValuesNull_);
+        output.writeBool(1007, lastValuesNull_);
       }
       if (personTypeIdNull_ != false) {
-        output.writeBool(1007, personTypeIdNull_);
+        output.writeBool(1008, personTypeIdNull_);
       }
       if (nextNull_ != false) {
-        output.writeBool(1008, nextNull_);
+        output.writeBool(1009, nextNull_);
       }
       if (groupIdNull_ != false) {
-        output.writeBool(1009, groupIdNull_);
+        output.writeBool(1010, groupIdNull_);
       }
       if (rowNumberNull_ != false) {
-        output.writeBool(1010, rowNumberNull_);
+        output.writeBool(1011, rowNumberNull_);
       }
       if (separatorInLastValuesNull_ != false) {
-        output.writeBool(1011, separatorInLastValuesNull_);
+        output.writeBool(1012, separatorInLastValuesNull_);
       }
     }
 
@@ -912,33 +985,37 @@ public final class PmGetPersonsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, getOutputCharacteristicIds());
       }
+      if (count_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(5, getCount());
+      }
       if (lastPersonId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getLastPersonId());
+          .computeMessageSize(6, getLastPersonId());
       }
       if (lastValues_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getLastValues());
+          .computeMessageSize(7, getLastValues());
       }
       if (personTypeId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getPersonTypeId());
+          .computeMessageSize(8, getPersonTypeId());
       }
       if (next_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getNext());
+          .computeMessageSize(9, getNext());
       }
       if (groupId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getGroupId());
+          .computeMessageSize(10, getGroupId());
       }
       if (rowNumber_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getRowNumber());
+          .computeMessageSize(11, getRowNumber());
       }
       if (separatorInLastValues_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getSeparatorInLastValues());
+          .computeMessageSize(12, getSeparatorInLastValues());
       }
       if (sortOrder1Null_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -956,33 +1033,37 @@ public final class PmGetPersonsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, outputCharacteristicIdsNull_);
       }
+      if (countNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1005, countNull_);
+      }
       if (lastPersonIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, lastPersonIdNull_);
+          .computeBoolSize(1006, lastPersonIdNull_);
       }
       if (lastValuesNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, lastValuesNull_);
+          .computeBoolSize(1007, lastValuesNull_);
       }
       if (personTypeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1007, personTypeIdNull_);
+          .computeBoolSize(1008, personTypeIdNull_);
       }
       if (nextNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1008, nextNull_);
+          .computeBoolSize(1009, nextNull_);
       }
       if (groupIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1009, groupIdNull_);
+          .computeBoolSize(1010, groupIdNull_);
       }
       if (rowNumberNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1010, rowNumberNull_);
+          .computeBoolSize(1011, rowNumberNull_);
       }
       if (separatorInLastValuesNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1011, separatorInLastValuesNull_);
+          .computeBoolSize(1012, separatorInLastValuesNull_);
       }
       memoizedSize = size;
       return size;
@@ -1127,6 +1208,14 @@ public final class PmGetPersonsAd {
         }
         outputCharacteristicIdsNull_ = false;
 
+        if (countBuilder_ == null) {
+          count_ = null;
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+        countNull_ = false;
+
         if (lastPersonIdBuilder_ == null) {
           lastPersonId_ = null;
         } else {
@@ -1229,6 +1318,12 @@ public final class PmGetPersonsAd {
           result.outputCharacteristicIds_ = outputCharacteristicIdsBuilder_.build();
         }
         result.outputCharacteristicIdsNull_ = outputCharacteristicIdsNull_;
+        if (countBuilder_ == null) {
+          result.count_ = count_;
+        } else {
+          result.count_ = countBuilder_.build();
+        }
+        result.countNull_ = countNull_;
         if (lastPersonIdBuilder_ == null) {
           result.lastPersonId_ = lastPersonId_;
         } else {
@@ -1309,6 +1404,12 @@ public final class PmGetPersonsAd {
         }
         if (other.getOutputCharacteristicIdsNull() != false) {
           setOutputCharacteristicIdsNull(other.getOutputCharacteristicIdsNull());
+        }
+        if (other.hasCount()) {
+          mergeCount(other.getCount());
+        }
+        if (other.getCountNull() != false) {
+          setCountNull(other.getCountNull());
         }
         if (other.hasLastPersonId()) {
           mergeLastPersonId(other.getLastPersonId());
@@ -1950,17 +2051,160 @@ public final class PmGetPersonsAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue count_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public boolean hasCount() {
+        return countBuilder_ != null || count_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public io.dstore.Values.integerValue getCount() {
+        if (countBuilder_ == null) {
+          return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        } else {
+          return countBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public Builder setCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          count_ = value;
+          onChanged();
+        } else {
+          countBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public Builder setCount(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (countBuilder_ == null) {
+          count_ = builderForValue.build();
+          onChanged();
+        } else {
+          countBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public Builder mergeCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (count_ != null) {
+            count_ =
+              io.dstore.Values.integerValue.newBuilder(count_).mergeFrom(value).buildPartial();
+          } else {
+            count_ = value;
+          }
+          onChanged();
+        } else {
+          countBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public Builder clearCount() {
+        if (countBuilder_ == null) {
+          count_ = null;
+          onChanged();
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getCountBuilder() {
+        
+        onChanged();
+        return getCountFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+        if (countBuilder_ != null) {
+          return countBuilder_.getMessageOrBuilder();
+        } else {
+          return count_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 5;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getCountFieldBuilder() {
+        if (countBuilder_ == null) {
+          countBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getCount(),
+                  getParentForChildren(),
+                  isClean());
+          count_ = null;
+        }
+        return countBuilder_;
+      }
+
+      private boolean countNull_ ;
+      /**
+       * <code>optional bool count_null = 1005;</code>
+       */
+      public boolean getCountNull() {
+        return countNull_;
+      }
+      /**
+       * <code>optional bool count_null = 1005;</code>
+       */
+      public Builder setCountNull(boolean value) {
+        
+        countNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool count_null = 1005;</code>
+       */
+      public Builder clearCountNull() {
+        
+        countNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue lastPersonId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lastPersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
        */
       public boolean hasLastPersonId() {
         return lastPersonIdBuilder_ != null || lastPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
        */
       public io.dstore.Values.integerValue getLastPersonId() {
         if (lastPersonIdBuilder_ == null) {
@@ -1970,7 +2214,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
        */
       public Builder setLastPersonId(io.dstore.Values.integerValue value) {
         if (lastPersonIdBuilder_ == null) {
@@ -1986,7 +2230,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
        */
       public Builder setLastPersonId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2000,7 +2244,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
        */
       public Builder mergeLastPersonId(io.dstore.Values.integerValue value) {
         if (lastPersonIdBuilder_ == null) {
@@ -2018,7 +2262,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
        */
       public Builder clearLastPersonId() {
         if (lastPersonIdBuilder_ == null) {
@@ -2032,7 +2276,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
        */
       public io.dstore.Values.integerValue.Builder getLastPersonIdBuilder() {
         
@@ -2040,7 +2284,7 @@ public final class PmGetPersonsAd {
         return getLastPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getLastPersonIdOrBuilder() {
         if (lastPersonIdBuilder_ != null) {
@@ -2051,7 +2295,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue last_person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue last_person_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2069,13 +2313,13 @@ public final class PmGetPersonsAd {
 
       private boolean lastPersonIdNull_ ;
       /**
-       * <code>optional bool last_person_id_null = 1005;</code>
+       * <code>optional bool last_person_id_null = 1006;</code>
        */
       public boolean getLastPersonIdNull() {
         return lastPersonIdNull_;
       }
       /**
-       * <code>optional bool last_person_id_null = 1005;</code>
+       * <code>optional bool last_person_id_null = 1006;</code>
        */
       public Builder setLastPersonIdNull(boolean value) {
         
@@ -2084,7 +2328,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool last_person_id_null = 1005;</code>
+       * <code>optional bool last_person_id_null = 1006;</code>
        */
       public Builder clearLastPersonIdNull() {
         
@@ -2097,13 +2341,13 @@ public final class PmGetPersonsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> lastValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public boolean hasLastValues() {
         return lastValuesBuilder_ != null || lastValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public io.dstore.Values.stringValue getLastValues() {
         if (lastValuesBuilder_ == null) {
@@ -2113,7 +2357,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public Builder setLastValues(io.dstore.Values.stringValue value) {
         if (lastValuesBuilder_ == null) {
@@ -2129,7 +2373,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public Builder setLastValues(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2143,7 +2387,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public Builder mergeLastValues(io.dstore.Values.stringValue value) {
         if (lastValuesBuilder_ == null) {
@@ -2161,7 +2405,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public Builder clearLastValues() {
         if (lastValuesBuilder_ == null) {
@@ -2175,7 +2419,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public io.dstore.Values.stringValue.Builder getLastValuesBuilder() {
         
@@ -2183,7 +2427,7 @@ public final class PmGetPersonsAd {
         return getLastValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getLastValuesOrBuilder() {
         if (lastValuesBuilder_ != null) {
@@ -2194,7 +2438,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue last_values = 6;</code>
+       * <code>optional .dstore.values.stringValue last_values = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2212,13 +2456,13 @@ public final class PmGetPersonsAd {
 
       private boolean lastValuesNull_ ;
       /**
-       * <code>optional bool last_values_null = 1006;</code>
+       * <code>optional bool last_values_null = 1007;</code>
        */
       public boolean getLastValuesNull() {
         return lastValuesNull_;
       }
       /**
-       * <code>optional bool last_values_null = 1006;</code>
+       * <code>optional bool last_values_null = 1007;</code>
        */
       public Builder setLastValuesNull(boolean value) {
         
@@ -2227,7 +2471,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool last_values_null = 1006;</code>
+       * <code>optional bool last_values_null = 1007;</code>
        */
       public Builder clearLastValuesNull() {
         
@@ -2240,13 +2484,13 @@ public final class PmGetPersonsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
        */
       public io.dstore.Values.integerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -2256,7 +2500,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
        */
       public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -2272,7 +2516,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
        */
       public Builder setPersonTypeId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2286,7 +2530,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
        */
       public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -2304,7 +2548,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -2318,7 +2562,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
        */
       public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
         
@@ -2326,7 +2570,7 @@ public final class PmGetPersonsAd {
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
@@ -2337,7 +2581,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 7;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2355,13 +2599,13 @@ public final class PmGetPersonsAd {
 
       private boolean personTypeIdNull_ ;
       /**
-       * <code>optional bool person_type_id_null = 1007;</code>
+       * <code>optional bool person_type_id_null = 1008;</code>
        */
       public boolean getPersonTypeIdNull() {
         return personTypeIdNull_;
       }
       /**
-       * <code>optional bool person_type_id_null = 1007;</code>
+       * <code>optional bool person_type_id_null = 1008;</code>
        */
       public Builder setPersonTypeIdNull(boolean value) {
         
@@ -2370,7 +2614,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool person_type_id_null = 1007;</code>
+       * <code>optional bool person_type_id_null = 1008;</code>
        */
       public Builder clearPersonTypeIdNull() {
         
@@ -2383,13 +2627,13 @@ public final class PmGetPersonsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> nextBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public boolean hasNext() {
         return nextBuilder_ != null || next_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public io.dstore.Values.booleanValue getNext() {
         if (nextBuilder_ == null) {
@@ -2399,7 +2643,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public Builder setNext(io.dstore.Values.booleanValue value) {
         if (nextBuilder_ == null) {
@@ -2415,7 +2659,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public Builder setNext(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2429,7 +2673,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public Builder mergeNext(io.dstore.Values.booleanValue value) {
         if (nextBuilder_ == null) {
@@ -2447,7 +2691,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public Builder clearNext() {
         if (nextBuilder_ == null) {
@@ -2461,7 +2705,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public io.dstore.Values.booleanValue.Builder getNextBuilder() {
         
@@ -2469,7 +2713,7 @@ public final class PmGetPersonsAd {
         return getNextFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getNextOrBuilder() {
         if (nextBuilder_ != null) {
@@ -2480,7 +2724,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 8;</code>
+       * <code>optional .dstore.values.booleanValue next = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2498,13 +2742,13 @@ public final class PmGetPersonsAd {
 
       private boolean nextNull_ ;
       /**
-       * <code>optional bool next_null = 1008;</code>
+       * <code>optional bool next_null = 1009;</code>
        */
       public boolean getNextNull() {
         return nextNull_;
       }
       /**
-       * <code>optional bool next_null = 1008;</code>
+       * <code>optional bool next_null = 1009;</code>
        */
       public Builder setNextNull(boolean value) {
         
@@ -2513,7 +2757,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool next_null = 1008;</code>
+       * <code>optional bool next_null = 1009;</code>
        */
       public Builder clearNextNull() {
         
@@ -2526,13 +2770,13 @@ public final class PmGetPersonsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue group_id = 9;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10;</code>
        */
       public boolean hasGroupId() {
         return groupIdBuilder_ != null || groupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 9;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10;</code>
        */
       public io.dstore.Values.integerValue getGroupId() {
         if (groupIdBuilder_ == null) {
@@ -2542,7 +2786,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 9;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10;</code>
        */
       public Builder setGroupId(io.dstore.Values.integerValue value) {
         if (groupIdBuilder_ == null) {
@@ -2558,7 +2802,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 9;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10;</code>
        */
       public Builder setGroupId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2572,7 +2816,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 9;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10;</code>
        */
       public Builder mergeGroupId(io.dstore.Values.integerValue value) {
         if (groupIdBuilder_ == null) {
@@ -2590,7 +2834,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 9;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10;</code>
        */
       public Builder clearGroupId() {
         if (groupIdBuilder_ == null) {
@@ -2604,7 +2848,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 9;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10;</code>
        */
       public io.dstore.Values.integerValue.Builder getGroupIdBuilder() {
         
@@ -2612,7 +2856,7 @@ public final class PmGetPersonsAd {
         return getGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 9;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder() {
         if (groupIdBuilder_ != null) {
@@ -2623,7 +2867,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 9;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2641,13 +2885,13 @@ public final class PmGetPersonsAd {
 
       private boolean groupIdNull_ ;
       /**
-       * <code>optional bool group_id_null = 1009;</code>
+       * <code>optional bool group_id_null = 1010;</code>
        */
       public boolean getGroupIdNull() {
         return groupIdNull_;
       }
       /**
-       * <code>optional bool group_id_null = 1009;</code>
+       * <code>optional bool group_id_null = 1010;</code>
        */
       public Builder setGroupIdNull(boolean value) {
         
@@ -2656,7 +2900,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool group_id_null = 1009;</code>
+       * <code>optional bool group_id_null = 1010;</code>
        */
       public Builder clearGroupIdNull() {
         
@@ -2669,13 +2913,13 @@ public final class PmGetPersonsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowNumberBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue row_number = 10;</code>
+       * <code>optional .dstore.values.integerValue row_number = 11;</code>
        */
       public boolean hasRowNumber() {
         return rowNumberBuilder_ != null || rowNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 10;</code>
+       * <code>optional .dstore.values.integerValue row_number = 11;</code>
        */
       public io.dstore.Values.integerValue getRowNumber() {
         if (rowNumberBuilder_ == null) {
@@ -2685,7 +2929,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 10;</code>
+       * <code>optional .dstore.values.integerValue row_number = 11;</code>
        */
       public Builder setRowNumber(io.dstore.Values.integerValue value) {
         if (rowNumberBuilder_ == null) {
@@ -2701,7 +2945,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 10;</code>
+       * <code>optional .dstore.values.integerValue row_number = 11;</code>
        */
       public Builder setRowNumber(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2715,7 +2959,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 10;</code>
+       * <code>optional .dstore.values.integerValue row_number = 11;</code>
        */
       public Builder mergeRowNumber(io.dstore.Values.integerValue value) {
         if (rowNumberBuilder_ == null) {
@@ -2733,7 +2977,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 10;</code>
+       * <code>optional .dstore.values.integerValue row_number = 11;</code>
        */
       public Builder clearRowNumber() {
         if (rowNumberBuilder_ == null) {
@@ -2747,7 +2991,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 10;</code>
+       * <code>optional .dstore.values.integerValue row_number = 11;</code>
        */
       public io.dstore.Values.integerValue.Builder getRowNumberBuilder() {
         
@@ -2755,7 +2999,7 @@ public final class PmGetPersonsAd {
         return getRowNumberFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 10;</code>
+       * <code>optional .dstore.values.integerValue row_number = 11;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getRowNumberOrBuilder() {
         if (rowNumberBuilder_ != null) {
@@ -2766,7 +3010,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue row_number = 10;</code>
+       * <code>optional .dstore.values.integerValue row_number = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2784,13 +3028,13 @@ public final class PmGetPersonsAd {
 
       private boolean rowNumberNull_ ;
       /**
-       * <code>optional bool row_number_null = 1010;</code>
+       * <code>optional bool row_number_null = 1011;</code>
        */
       public boolean getRowNumberNull() {
         return rowNumberNull_;
       }
       /**
-       * <code>optional bool row_number_null = 1010;</code>
+       * <code>optional bool row_number_null = 1011;</code>
        */
       public Builder setRowNumberNull(boolean value) {
         
@@ -2799,7 +3043,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool row_number_null = 1010;</code>
+       * <code>optional bool row_number_null = 1011;</code>
        */
       public Builder clearRowNumberNull() {
         
@@ -2812,13 +3056,13 @@ public final class PmGetPersonsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInLastValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
        */
       public boolean hasSeparatorInLastValues() {
         return separatorInLastValuesBuilder_ != null || separatorInLastValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
        */
       public io.dstore.Values.stringValue getSeparatorInLastValues() {
         if (separatorInLastValuesBuilder_ == null) {
@@ -2828,7 +3072,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
        */
       public Builder setSeparatorInLastValues(io.dstore.Values.stringValue value) {
         if (separatorInLastValuesBuilder_ == null) {
@@ -2844,7 +3088,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
        */
       public Builder setSeparatorInLastValues(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2858,7 +3102,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
        */
       public Builder mergeSeparatorInLastValues(io.dstore.Values.stringValue value) {
         if (separatorInLastValuesBuilder_ == null) {
@@ -2876,7 +3120,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
        */
       public Builder clearSeparatorInLastValues() {
         if (separatorInLastValuesBuilder_ == null) {
@@ -2890,7 +3134,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
        */
       public io.dstore.Values.stringValue.Builder getSeparatorInLastValuesBuilder() {
         
@@ -2898,7 +3142,7 @@ public final class PmGetPersonsAd {
         return getSeparatorInLastValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSeparatorInLastValuesOrBuilder() {
         if (separatorInLastValuesBuilder_ != null) {
@@ -2909,7 +3153,7 @@ public final class PmGetPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_last_values = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_last_values = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2927,13 +3171,13 @@ public final class PmGetPersonsAd {
 
       private boolean separatorInLastValuesNull_ ;
       /**
-       * <code>optional bool separator_in_last_values_null = 1011;</code>
+       * <code>optional bool separator_in_last_values_null = 1012;</code>
        */
       public boolean getSeparatorInLastValuesNull() {
         return separatorInLastValuesNull_;
       }
       /**
-       * <code>optional bool separator_in_last_values_null = 1011;</code>
+       * <code>optional bool separator_in_last_values_null = 1012;</code>
        */
       public Builder setSeparatorInLastValuesNull(boolean value) {
         
@@ -2942,7 +3186,7 @@ public final class PmGetPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool separator_in_last_values_null = 1011;</code>
+       * <code>optional bool separator_in_last_values_null = 1012;</code>
        */
       public Builder clearSeparatorInLastValuesNull() {
         
@@ -6162,7 +6406,7 @@ public final class PmGetPersonsAd {
       "_Ad.proto\022\036dstore.engine.pm_GetPersons_A" +
       "d\032\023dstore/values.proto\032\031dstore/engine/er" +
       "ror.proto\032\033dstore/engine/message.proto\032#" +
-      "dstore/engine/metainformation.proto\"\204\007\n\n" +
+      "dstore/engine/metainformation.proto\"\305\007\n\n" +
       "Parameters\0220\n\013sort_order1\030\001 \001(\0132\033.dstore" +
       ".values.booleanValue\022\031\n\020sort_order1_null" +
       "\030\351\007 \001(\010\0220\n\013sort_order2\030\002 \001(\0132\033.dstore.va" +
@@ -6171,34 +6415,37 @@ public final class PmGetPersonsAd {
       "s.booleanValue\022\031\n\020sort_order3_null\030\353\007 \001(" +
       "\010\022=\n\031output_characteristic_ids\030\004 \001(\0132\032.d" +
       "store.values.stringValue\022\'\n\036output_chara" +
-      "cteristic_ids_null\030\354\007 \001(\010\0223\n\016last_person" +
-      "_id\030\005 \001(\0132\033.dstore.values.integerValue\022\034" +
-      "\n\023last_person_id_null\030\355\007 \001(\010\022/\n\013last_val" +
-      "ues\030\006 \001(\0132\032.dstore.values.stringValue\022\031\n" +
-      "\020last_values_null\030\356\007 \001(\010\0223\n\016person_type_" +
-      "id\030\007 \001(\0132\033.dstore.values.integerValue\022\034\n" +
-      "\023person_type_id_null\030\357\007 \001(\010\022)\n\004next\030\010 \001(",
-      "\0132\033.dstore.values.booleanValue\022\022\n\tnext_n" +
-      "ull\030\360\007 \001(\010\022-\n\010group_id\030\t \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\026\n\rgroup_id_null\030\361\007 \001(" +
-      "\010\022/\n\nrow_number\030\n \001(\0132\033.dstore.values.in" +
-      "tegerValue\022\030\n\017row_number_null\030\362\007 \001(\010\022<\n\030" +
-      "separator_in_last_values\030\013 \001(\0132\032.dstore." +
-      "values.stringValue\022&\n\035separator_in_last_" +
-      "values_null\030\363\007 \001(\010\"\353\003\n\010Response\022)\n\005error" +
-      "\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020me" +
-      "ta_information\030\002 \003(\0132..dstore.engine.met",
-      "ainformation.MetaInformation\022/\n\007message\030" +
-      "\003 \003(\0132\036.dstore.engine.message.Message\0229\n" +
-      "\003row\030\004 \003(\0132,.dstore.engine.pm_GetPersons" +
-      "_Ad.Response.Row\022*\n\005count\030e \001(\0132\033.dstore" +
-      ".values.integerValue\032\321\001\n\003Row\022\017\n\006row_id\030\220" +
-      "N \001(\005\022/\n\tperson_id\030\221N \001(\0132\033.dstore.value" +
-      "s.integerValue\022,\n\006value1\030\242\234\001 \001(\0132\032.dstor" +
-      "e.values.stringValue\022,\n\006value2\030\263\352\001 \001(\0132\032" +
-      ".dstore.values.stringValue\022,\n\006value3\030\302\270\002" +
-      " \001(\0132\032.dstore.values.stringValueB\035\n\033io.d",
-      "store.engine.proceduresb\006proto3"
+      "cteristic_ids_null\030\354\007 \001(\010\022*\n\005count\030\005 \001(\013" +
+      "2\033.dstore.values.integerValue\022\023\n\ncount_n" +
+      "ull\030\355\007 \001(\010\0223\n\016last_person_id\030\006 \001(\0132\033.dst" +
+      "ore.values.integerValue\022\034\n\023last_person_i" +
+      "d_null\030\356\007 \001(\010\022/\n\013last_values\030\007 \001(\0132\032.dst" +
+      "ore.values.stringValue\022\031\n\020last_values_nu" +
+      "ll\030\357\007 \001(\010\0223\n\016person_type_id\030\010 \001(\0132\033.dsto",
+      "re.values.integerValue\022\034\n\023person_type_id" +
+      "_null\030\360\007 \001(\010\022)\n\004next\030\t \001(\0132\033.dstore.valu" +
+      "es.booleanValue\022\022\n\tnext_null\030\361\007 \001(\010\022-\n\010g" +
+      "roup_id\030\n \001(\0132\033.dstore.values.integerVal" +
+      "ue\022\026\n\rgroup_id_null\030\362\007 \001(\010\022/\n\nrow_number" +
+      "\030\013 \001(\0132\033.dstore.values.integerValue\022\030\n\017r" +
+      "ow_number_null\030\363\007 \001(\010\022<\n\030separator_in_la" +
+      "st_values\030\014 \001(\0132\032.dstore.values.stringVa" +
+      "lue\022&\n\035separator_in_last_values_null\030\364\007 " +
+      "\001(\010\"\353\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore",
+      ".engine.error.Error\022H\n\020meta_information\030" +
+      "\002 \003(\0132..dstore.engine.metainformation.Me" +
+      "taInformation\022/\n\007message\030\003 \003(\0132\036.dstore." +
+      "engine.message.Message\0229\n\003row\030\004 \003(\0132,.ds" +
+      "tore.engine.pm_GetPersons_Ad.Response.Ro" +
+      "w\022*\n\005count\030e \001(\0132\033.dstore.values.integer" +
+      "Value\032\321\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022/\n\tperson" +
+      "_id\030\221N \001(\0132\033.dstore.values.integerValue\022" +
+      ",\n\006value1\030\242\234\001 \001(\0132\032.dstore.values.string" +
+      "Value\022,\n\006value2\030\263\352\001 \001(\0132\032.dstore.values.",
+      "stringValue\022,\n\006value3\030\302\270\002 \001(\0132\032.dstore.v" +
+      "alues.stringValueBQ\n\033io.dstore.engine.pr" +
+      "oceduresZ2gosdk.dstore.de/engine/procedu" +
+      "res/pm_GetPersons_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -6221,7 +6468,7 @@ public final class PmGetPersonsAd {
     internal_static_dstore_engine_pm_GetPersons_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersons_Ad_Parameters_descriptor,
-        new java.lang.String[] { "SortOrder1", "SortOrder1Null", "SortOrder2", "SortOrder2Null", "SortOrder3", "SortOrder3Null", "OutputCharacteristicIds", "OutputCharacteristicIdsNull", "LastPersonId", "LastPersonIdNull", "LastValues", "LastValuesNull", "PersonTypeId", "PersonTypeIdNull", "Next", "NextNull", "GroupId", "GroupIdNull", "RowNumber", "RowNumberNull", "SeparatorInLastValues", "SeparatorInLastValuesNull", });
+        new java.lang.String[] { "SortOrder1", "SortOrder1Null", "SortOrder2", "SortOrder2Null", "SortOrder3", "SortOrder3Null", "OutputCharacteristicIds", "OutputCharacteristicIdsNull", "Count", "CountNull", "LastPersonId", "LastPersonIdNull", "LastValues", "LastValuesNull", "PersonTypeId", "PersonTypeIdNull", "Next", "NextNull", "GroupId", "GroupIdNull", "RowNumber", "RowNumberNull", "SeparatorInLastValues", "SeparatorInLastValuesNull", });
     internal_static_dstore_engine_pm_GetPersons_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_GetPersons_Ad_Response_fieldAccessorTable = new

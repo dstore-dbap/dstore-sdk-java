@@ -4157,8 +4157,9 @@ public final class MiGetSQLFunctionParameters {
       "\223N \001(\0132\032.dstore.values.stringValue\022+\n\005sc" +
       "ale\030\224N \001(\0132\033.dstore.values.integerValue\022" +
       "-\n\010datatype\030\225N \001(\0132\032.dstore.values.strin" +
-      "gValueB\035\n\033io.dstore.engine.proceduresb\006p" +
-      "roto3"
+      "gValueB\\\n\033io.dstore.engine.proceduresZ=g" +
+      "osdk.dstore.de/engine/procedures/mi_GetS" +
+      "QLFunctionParametersb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

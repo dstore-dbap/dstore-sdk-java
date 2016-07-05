@@ -4156,8 +4156,10 @@ public final class CoGetCommunityForumsAd {
       "alue\0223\n\016community_name\030\224N \001(\0132\032.dstore.v" +
       "alues.stringValue\022-\n\007sort_no\030\225N \001(\0132\033.ds",
       "tore.values.integerValue\0221\n\013language_id\030" +
-      "\226N \001(\0132\033.dstore.values.integerValueB\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\226N \001(\0132\033.dstore.values.integerValueBY\n\033i" +
+      "o.dstore.engine.proceduresZ:gosdk.dstore" +
+      ".de/engine/procedures/co_GetCommunityFor" +
+      "ums_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

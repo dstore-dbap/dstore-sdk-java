@@ -8347,8 +8347,10 @@ public final class CoGetCurrentlyUsersOnlinePu {
       " \001(\0132\032.dstore.values.stringValue\022A\n\034valu" +
       "e3_restricted_by_pattern\030\232N \001(\0132\032.dstore" +
       ".values.stringValue\022-\n\010nickname\030\233N \001(\0132\032" +
-      ".dstore.values.stringValueB\035\n\033io.dstore.",
-      "engine.proceduresb\006proto3"
+      ".dstore.values.stringValueB^\n\033io.dstore.",
+      "engine.proceduresZ?gosdk.dstore.de/engin" +
+      "e/procedures/co_GetCurrentlyUsersOnline_" +
+      "Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

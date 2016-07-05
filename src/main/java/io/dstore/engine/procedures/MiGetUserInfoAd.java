@@ -4648,8 +4648,10 @@ public final class MiGetUserInfoAd {
       "\n\021group_description\030\242\234\001 \001(\0132\032.dstore.val" +
       "ues.stringValue\0224\n\ruser_group_id\030\245\234\001 \001(\013" +
       "2\033.dstore.values.integerValue\022.\n\007sort_no" +
-      "\030\246\234\001 \001(\0132\033.dstore.values.integerValueB\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "\030\246\234\001 \001(\0132\033.dstore.values.integerValueBR\n" +
+      "\033io.dstore.engine.proceduresZ3gosdk.dsto" +
+      "re.de/engine/procedures/mi_GetUserInfo_A" +
+      "db\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

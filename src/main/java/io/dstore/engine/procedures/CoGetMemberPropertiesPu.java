@@ -5389,8 +5389,9 @@ public final class CoGetMemberPropertiesPu {
       "id\030\223N \001(\0132\033.dstore.values.integerValue\022*" +
       "\n\005value\030\224N \001(\0132\032.dstore.values.stringVal" +
       "ue\022.\n\010value_id\030\225N \001(\0132\033.dstore.values.in" +
-      "tegerValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tegerValueBZ\n\033io.dstore.engine.procedure" +
+      "sZ;gosdk.dstore.de/engine/procedures/co_" +
+      "GetMemberProperties_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

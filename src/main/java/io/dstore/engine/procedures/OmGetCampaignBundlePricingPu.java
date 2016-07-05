@@ -12538,8 +12538,10 @@ public final class OmGetCampaignBundlePricingPu {
       "gValue\022,\n\006value1\030\264\352\001 \001(\0132\032.dstore.values" +
       ".stringValue\0223\n\014tree_node_id\030\266\352\001 \001(\0132\033.d" +
       "store.values.integerValue\022.\n\007node_id\030\267\352\001" +
-      " \001(\0132\033.dstore.values.integerValueB\035\n\033io.",
-      "dstore.engine.proceduresb\006proto3"
+      " \001(\0132\033.dstore.values.integerValueB_\n\033io.",
+      "dstore.engine.proceduresZ@gosdk.dstore.d" +
+      "e/engine/procedures/om_GetCampaignBundle" +
+      "Pricing_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

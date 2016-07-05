@@ -922,8 +922,9 @@ public final class ElasticError {
       "stic.error\"e\n\005Error\022)\n\004type\030\001 \001(\0162\033.dsto" +
       "re.elastic.error.Types\022\017\n\007message\030\002 \001(\t\022" +
       "\017\n\007details\030\003 \001(\t\022\017\n\007request\030\004 \001(\t*%\n\005Typ" +
-      "es\022\n\n\006UNKOWN\020\000\022\020\n\014IO_EXCEPTION\020\001B!\n\021io.d" +
-      "store.elasticB\014ElasticErrorb\006proto3"
+      "es\022\n\n\006UNKOWN\020\000\022\020\n\014IO_EXCEPTION\020\001BH\n\021io.d" +
+      "store.elasticB\014ElasticErrorZ%gosdk.dstor" +
+      "e.de/elastic/elastic_errorb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

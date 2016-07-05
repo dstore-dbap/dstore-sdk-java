@@ -6867,8 +6867,9 @@ public final class CoSearchMembersAd {
       "by_pattern\030\230N \001(\0132\032.dstore.values.string" +
       "Value\022-\n\010nickname\030\231N \001(\0132\032.dstore.values" +
       ".stringValue\022/\n\tis_online\030\232N \001(\0132\033.dstor" +
-      "e.values.booleanValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "e.values.booleanValueBT\n\033io.dstore.engin" +
+      "e.proceduresZ5gosdk.dstore.de/engine/pro" +
+      "cedures/co_SearchMembers_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -49,20 +49,38 @@ public final class CoGetCommunitySettings {
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    boolean hasValue();
+    /**
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    io.dstore.Values.stringValue getValue();
+    /**
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+
+    /**
+     * <code>optional bool value_null = 1003;</code>
+     */
+    boolean getValueNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
      */
     boolean hasResultOnlyInOutputParam();
     /**
-     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
      */
     io.dstore.Values.booleanValue getResultOnlyInOutputParam();
     /**
-     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getResultOnlyInOutputParamOrBuilder();
 
     /**
-     * <code>optional bool result_only_in_output_param_null = 1003;</code>
+     * <code>optional bool result_only_in_output_param_null = 1004;</code>
      */
     boolean getResultOnlyInOutputParamNull();
   }
@@ -80,6 +98,7 @@ public final class CoGetCommunitySettings {
     private Parameters() {
       communityIdNull_ = false;
       keyVariableNull_ = false;
+      valueNull_ = false;
       resultOnlyInOutputParamNull_ = false;
     }
 
@@ -134,6 +153,19 @@ public final class CoGetCommunitySettings {
               break;
             }
             case 26: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (value_ != null) {
+                subBuilder = value_.toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(value_);
+                value_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 34: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (resultOnlyInOutputParam_ != null) {
                 subBuilder = resultOnlyInOutputParam_.toBuilder();
@@ -157,6 +189,11 @@ public final class CoGetCommunitySettings {
               break;
             }
             case 8024: {
+
+              valueNull_ = input.readBool();
+              break;
+            }
+            case 8032: {
 
               resultOnlyInOutputParamNull_ = input.readBool();
               break;
@@ -245,31 +282,61 @@ public final class CoGetCommunitySettings {
       return keyVariableNull_;
     }
 
-    public static final int RESULT_ONLY_IN_OUTPUT_PARAM_FIELD_NUMBER = 3;
+    public static final int VALUE_FIELD_NUMBER = 3;
+    private io.dstore.Values.stringValue value_;
+    /**
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    public boolean hasValue() {
+      return value_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    public io.dstore.Values.stringValue getValue() {
+      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue value = 3;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      return getValue();
+    }
+
+    public static final int VALUE_NULL_FIELD_NUMBER = 1003;
+    private boolean valueNull_;
+    /**
+     * <code>optional bool value_null = 1003;</code>
+     */
+    public boolean getValueNull() {
+      return valueNull_;
+    }
+
+    public static final int RESULT_ONLY_IN_OUTPUT_PARAM_FIELD_NUMBER = 4;
     private io.dstore.Values.booleanValue resultOnlyInOutputParam_;
     /**
-     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
      */
     public boolean hasResultOnlyInOutputParam() {
       return resultOnlyInOutputParam_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
      */
     public io.dstore.Values.booleanValue getResultOnlyInOutputParam() {
       return resultOnlyInOutputParam_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : resultOnlyInOutputParam_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+     * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getResultOnlyInOutputParamOrBuilder() {
       return getResultOnlyInOutputParam();
     }
 
-    public static final int RESULT_ONLY_IN_OUTPUT_PARAM_NULL_FIELD_NUMBER = 1003;
+    public static final int RESULT_ONLY_IN_OUTPUT_PARAM_NULL_FIELD_NUMBER = 1004;
     private boolean resultOnlyInOutputParamNull_;
     /**
-     * <code>optional bool result_only_in_output_param_null = 1003;</code>
+     * <code>optional bool result_only_in_output_param_null = 1004;</code>
      */
     public boolean getResultOnlyInOutputParamNull() {
       return resultOnlyInOutputParamNull_;
@@ -293,8 +360,11 @@ public final class CoGetCommunitySettings {
       if (keyVariable_ != null) {
         output.writeMessage(2, getKeyVariable());
       }
+      if (value_ != null) {
+        output.writeMessage(3, getValue());
+      }
       if (resultOnlyInOutputParam_ != null) {
-        output.writeMessage(3, getResultOnlyInOutputParam());
+        output.writeMessage(4, getResultOnlyInOutputParam());
       }
       if (communityIdNull_ != false) {
         output.writeBool(1001, communityIdNull_);
@@ -302,8 +372,11 @@ public final class CoGetCommunitySettings {
       if (keyVariableNull_ != false) {
         output.writeBool(1002, keyVariableNull_);
       }
+      if (valueNull_ != false) {
+        output.writeBool(1003, valueNull_);
+      }
       if (resultOnlyInOutputParamNull_ != false) {
-        output.writeBool(1003, resultOnlyInOutputParamNull_);
+        output.writeBool(1004, resultOnlyInOutputParamNull_);
       }
     }
 
@@ -320,9 +393,13 @@ public final class CoGetCommunitySettings {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, getKeyVariable());
       }
+      if (value_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getValue());
+      }
       if (resultOnlyInOutputParam_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getResultOnlyInOutputParam());
+          .computeMessageSize(4, getResultOnlyInOutputParam());
       }
       if (communityIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -332,9 +409,13 @@ public final class CoGetCommunitySettings {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1002, keyVariableNull_);
       }
+      if (valueNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1003, valueNull_);
+      }
       if (resultOnlyInOutputParamNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, resultOnlyInOutputParamNull_);
+          .computeBoolSize(1004, resultOnlyInOutputParamNull_);
       }
       memoizedSize = size;
       return size;
@@ -463,6 +544,14 @@ public final class CoGetCommunitySettings {
         }
         keyVariableNull_ = false;
 
+        if (valueBuilder_ == null) {
+          value_ = null;
+        } else {
+          value_ = null;
+          valueBuilder_ = null;
+        }
+        valueNull_ = false;
+
         if (resultOnlyInOutputParamBuilder_ == null) {
           resultOnlyInOutputParam_ = null;
         } else {
@@ -505,6 +594,12 @@ public final class CoGetCommunitySettings {
           result.keyVariable_ = keyVariableBuilder_.build();
         }
         result.keyVariableNull_ = keyVariableNull_;
+        if (valueBuilder_ == null) {
+          result.value_ = value_;
+        } else {
+          result.value_ = valueBuilder_.build();
+        }
+        result.valueNull_ = valueNull_;
         if (resultOnlyInOutputParamBuilder_ == null) {
           result.resultOnlyInOutputParam_ = resultOnlyInOutputParam_;
         } else {
@@ -537,6 +632,12 @@ public final class CoGetCommunitySettings {
         }
         if (other.getKeyVariableNull() != false) {
           setKeyVariableNull(other.getKeyVariableNull());
+        }
+        if (other.hasValue()) {
+          mergeValue(other.getValue());
+        }
+        if (other.getValueNull() != false) {
+          setValueNull(other.getValueNull());
         }
         if (other.hasResultOnlyInOutputParam()) {
           mergeResultOnlyInOutputParam(other.getResultOnlyInOutputParam());
@@ -856,17 +957,160 @@ public final class CoGetCommunitySettings {
         return this;
       }
 
+      private io.dstore.Values.stringValue value_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public boolean hasValue() {
+        return valueBuilder_ != null || value_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public io.dstore.Values.stringValue getValue() {
+        if (valueBuilder_ == null) {
+          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+        } else {
+          return valueBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public Builder setValue(io.dstore.Values.stringValue value) {
+        if (valueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          valueBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public Builder setValue(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (valueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          valueBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public Builder mergeValue(io.dstore.Values.stringValue value) {
+        if (valueBuilder_ == null) {
+          if (value_ != null) {
+            value_ =
+              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          valueBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public Builder clearValue() {
+        if (valueBuilder_ == null) {
+          value_ = null;
+          onChanged();
+        } else {
+          value_ = null;
+          valueBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        
+        onChanged();
+        return getValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        if (valueBuilder_ != null) {
+          return valueBuilder_.getMessageOrBuilder();
+        } else {
+          return value_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue value = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getValueFieldBuilder() {
+        if (valueBuilder_ == null) {
+          valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getValue(),
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        return valueBuilder_;
+      }
+
+      private boolean valueNull_ ;
+      /**
+       * <code>optional bool value_null = 1003;</code>
+       */
+      public boolean getValueNull() {
+        return valueNull_;
+      }
+      /**
+       * <code>optional bool value_null = 1003;</code>
+       */
+      public Builder setValueNull(boolean value) {
+        
+        valueNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool value_null = 1003;</code>
+       */
+      public Builder clearValueNull() {
+        
+        valueNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue resultOnlyInOutputParam_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> resultOnlyInOutputParamBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
        */
       public boolean hasResultOnlyInOutputParam() {
         return resultOnlyInOutputParamBuilder_ != null || resultOnlyInOutputParam_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
        */
       public io.dstore.Values.booleanValue getResultOnlyInOutputParam() {
         if (resultOnlyInOutputParamBuilder_ == null) {
@@ -876,7 +1120,7 @@ public final class CoGetCommunitySettings {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
        */
       public Builder setResultOnlyInOutputParam(io.dstore.Values.booleanValue value) {
         if (resultOnlyInOutputParamBuilder_ == null) {
@@ -892,7 +1136,7 @@ public final class CoGetCommunitySettings {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
        */
       public Builder setResultOnlyInOutputParam(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -906,7 +1150,7 @@ public final class CoGetCommunitySettings {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
        */
       public Builder mergeResultOnlyInOutputParam(io.dstore.Values.booleanValue value) {
         if (resultOnlyInOutputParamBuilder_ == null) {
@@ -924,7 +1168,7 @@ public final class CoGetCommunitySettings {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
        */
       public Builder clearResultOnlyInOutputParam() {
         if (resultOnlyInOutputParamBuilder_ == null) {
@@ -938,7 +1182,7 @@ public final class CoGetCommunitySettings {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
        */
       public io.dstore.Values.booleanValue.Builder getResultOnlyInOutputParamBuilder() {
         
@@ -946,7 +1190,7 @@ public final class CoGetCommunitySettings {
         return getResultOnlyInOutputParamFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getResultOnlyInOutputParamOrBuilder() {
         if (resultOnlyInOutputParamBuilder_ != null) {
@@ -957,7 +1201,7 @@ public final class CoGetCommunitySettings {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 3;</code>
+       * <code>optional .dstore.values.booleanValue result_only_in_output_param = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -975,13 +1219,13 @@ public final class CoGetCommunitySettings {
 
       private boolean resultOnlyInOutputParamNull_ ;
       /**
-       * <code>optional bool result_only_in_output_param_null = 1003;</code>
+       * <code>optional bool result_only_in_output_param_null = 1004;</code>
        */
       public boolean getResultOnlyInOutputParamNull() {
         return resultOnlyInOutputParamNull_;
       }
       /**
-       * <code>optional bool result_only_in_output_param_null = 1003;</code>
+       * <code>optional bool result_only_in_output_param_null = 1004;</code>
        */
       public Builder setResultOnlyInOutputParamNull(boolean value) {
         
@@ -990,7 +1234,7 @@ public final class CoGetCommunitySettings {
         return this;
       }
       /**
-       * <code>optional bool result_only_in_output_param_null = 1003;</code>
+       * <code>optional bool result_only_in_output_param_null = 1004;</code>
        */
       public Builder clearResultOnlyInOutputParamNull() {
         
@@ -4211,28 +4455,31 @@ public final class CoGetCommunitySettings {
       "mmunitySettings\032\023dstore/values.proto\032\031ds" +
       "tore/engine/error.proto\032\033dstore/engine/m" +
       "essage.proto\032#dstore/engine/metainformat" +
-      "ion.proto\"\226\002\n\nParameters\0221\n\014community_id" +
+      "ion.proto\"\326\002\n\nParameters\0221\n\014community_id" +
       "\030\001 \001(\0132\033.dstore.values.integerValue\022\032\n\021c" +
       "ommunity_id_null\030\351\007 \001(\010\0220\n\014key_variable\030" +
       "\002 \001(\0132\032.dstore.values.stringValue\022\032\n\021key" +
-      "_variable_null\030\352\007 \001(\010\022@\n\033result_only_in_",
-      "output_param\030\003 \001(\0132\033.dstore.values.boole" +
-      "anValue\022)\n result_only_in_output_param_n" +
-      "ull\030\353\007 \001(\010\"\376\003\n\010Response\022)\n\005error\030\001 \001(\0132\032" +
-      ".dstore.engine.error.Error\022H\n\020meta_infor" +
-      "mation\030\002 \003(\0132..dstore.engine.metainforma" +
-      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036." +
-      "dstore.engine.message.Message\022@\n\003row\030\004 \003" +
-      "(\01323.dstore.engine.co_GetCommunitySettin" +
-      "gs.Response.Row\022)\n\005value\030e \001(\0132\032.dstore." +
-      "values.stringValue\032\336\001\n\003Row\022\017\n\006row_id\030\220N ",
-      "\001(\005\0222\n\014community_id\030\221N \001(\0132\033.dstore.valu" +
-      "es.integerValue\022*\n\005value\030\222N \001(\0132\032.dstore" +
-      ".values.stringValue\0223\n\016community_name\030\223N" +
-      " \001(\0132\032.dstore.values.stringValue\0221\n\014key_" +
-      "variable\030\224N \001(\0132\032.dstore.values.stringVa" +
-      "lueB\035\n\033io.dstore.engine.proceduresb\006prot" +
-      "o3"
+      "_variable_null\030\352\007 \001(\010\022)\n\005value\030\003 \001(\0132\032.d",
+      "store.values.stringValue\022\023\n\nvalue_null\030\353" +
+      "\007 \001(\010\022@\n\033result_only_in_output_param\030\004 \001" +
+      "(\0132\033.dstore.values.booleanValue\022)\n resul" +
+      "t_only_in_output_param_null\030\354\007 \001(\010\"\376\003\n\010R" +
+      "esponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.e" +
+      "rror.Error\022H\n\020meta_information\030\002 \003(\0132..d" +
+      "store.engine.metainformation.MetaInforma" +
+      "tion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.me" +
+      "ssage.Message\022@\n\003row\030\004 \003(\01323.dstore.engi" +
+      "ne.co_GetCommunitySettings.Response.Row\022",
+      ")\n\005value\030e \001(\0132\032.dstore.values.stringVal" +
+      "ue\032\336\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0222\n\014community" +
+      "_id\030\221N \001(\0132\033.dstore.values.integerValue\022" +
+      "*\n\005value\030\222N \001(\0132\032.dstore.values.stringVa" +
+      "lue\0223\n\016community_name\030\223N \001(\0132\032.dstore.va" +
+      "lues.stringValue\0221\n\014key_variable\030\224N \001(\0132" +
+      "\032.dstore.values.stringValueBX\n\033io.dstore" +
+      ".engine.proceduresZ9gosdk.dstore.de/engi" +
+      "ne/procedures/co_GetCommunitySettingsb\006p" +
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4255,7 +4502,7 @@ public final class CoGetCommunitySettings {
     internal_static_dstore_engine_co_GetCommunitySettings_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_GetCommunitySettings_Parameters_descriptor,
-        new java.lang.String[] { "CommunityId", "CommunityIdNull", "KeyVariable", "KeyVariableNull", "ResultOnlyInOutputParam", "ResultOnlyInOutputParamNull", });
+        new java.lang.String[] { "CommunityId", "CommunityIdNull", "KeyVariable", "KeyVariableNull", "Value", "ValueNull", "ResultOnlyInOutputParam", "ResultOnlyInOutputParamNull", });
     internal_static_dstore_engine_co_GetCommunitySettings_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_co_GetCommunitySettings_Response_fieldAccessorTable = new

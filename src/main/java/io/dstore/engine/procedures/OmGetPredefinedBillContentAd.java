@@ -4896,8 +4896,9 @@ public final class OmGetPredefinedBillContentAd {
       "lue\022@\n\032predefined_bill_content_id\030\225N \001(\013" +
       "2\033.dstore.values.integerValue\022@\n\030created" +
       "_at_date_and_time\030\226N \001(\0132\035.dstore.values" +
-      ".timestampValueB\035\n\033io.dstore.engine.proc",
-      "eduresb\006proto3"
+      ".timestampValueB_\n\033io.dstore.engine.proc",
+      "eduresZ@gosdk.dstore.de/engine/procedure" +
+      "s/om_GetPredefinedBillContent_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

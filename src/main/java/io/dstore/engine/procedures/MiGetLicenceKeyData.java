@@ -3664,8 +3664,9 @@ public final class MiGetLicenceKeyData {
       "lue\0226\n\021licence_parameter\030\224N \001(\0132\032.dstore" +
       ".values.stringValue\022=\n\025current_date_and_" +
       "time\030\225N \001(\0132\035.dstore.values.timestampVal" +
-      "ueB\035\n\033io.dstore.engine.proceduresb\006proto",
-      "3"
+      "ueBU\n\033io.dstore.engine.proceduresZ6gosdk",
+      ".dstore.de/engine/procedures/mi_GetLicen" +
+      "ceKeyDatab\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

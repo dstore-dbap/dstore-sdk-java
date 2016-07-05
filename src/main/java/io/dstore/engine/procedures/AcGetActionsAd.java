@@ -5632,8 +5632,9 @@ public final class AcGetActionsAd {
       "ore.values.integerValue\0225\n\017parameter_val",
       "ue\030\243\234\001 \001(\0132\032.dstore.values.stringValue\0224" +
       "\n\016parameter_name\030\246\234\001 \001(\0132\032.dstore.values" +
-      ".stringValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      ".stringValueBQ\n\033io.dstore.engine.procedu" +
+      "resZ2gosdk.dstore.de/engine/procedures/a" +
+      "c_GetActions_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

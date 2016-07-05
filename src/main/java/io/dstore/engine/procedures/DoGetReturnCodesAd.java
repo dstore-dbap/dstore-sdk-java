@@ -4403,8 +4403,9 @@ public final class DoGetReturnCodesAd {
       "tore.values.integerValue\0229\n\024detailed_des" +
       "cription\030\224N \001(\0132\032.dstore.values.stringVa" +
       "lue\0229\n\024return_code_category\030\225N \001(\0132\032.dst" +
-      "ore.values.stringValueB\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      "ore.values.stringValueBU\n\033io.dstore.engi" +
+      "ne.proceduresZ6gosdk.dstore.de/engine/pr" +
+      "ocedures/do_GetReturnCodes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

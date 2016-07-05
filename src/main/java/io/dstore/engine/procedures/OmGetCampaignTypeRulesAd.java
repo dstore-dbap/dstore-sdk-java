@@ -4156,8 +4156,10 @@ public final class OmGetCampaignTypeRulesAd {
       "lue\022-\n\007user_id\030\223N \001(\0132\033.dstore.values.in",
       "tegerValue\022-\n\007allowed\030\224N \001(\0132\033.dstore.va" +
       "lues.booleanValue\0222\n\rcampaign_type\030\225N \001(" +
-      "\0132\032.dstore.values.stringValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "\0132\032.dstore.values.stringValueB[\n\033io.dsto" +
+      "re.engine.proceduresZ<gosdk.dstore.de/en" +
+      "gine/procedures/om_GetCampaignTypeRules_" +
+      "Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

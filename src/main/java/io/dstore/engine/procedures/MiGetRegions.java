@@ -3170,8 +3170,9 @@ public final class MiGetRegions {
       "gine.mi_GetRegions.Response.Row\032t\n\003Row\022\017" +
       "\n\006row_id\030\220N \001(\005\022+\n\006region\030\221N \001(\0132\032.dstor" +
       "e.values.stringValue\022/\n\tregion_id\030\222N \001(\013" +
-      "2\033.dstore.values.integerValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "2\033.dstore.values.integerValueBN\n\033io.dsto" +
+      "re.engine.proceduresZ/gosdk.dstore.de/en" +
+      "gine/procedures/mi_GetRegionsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4403,8 +4403,9 @@ public final class CoGetMemberSettingsAd {
       ".values.stringValue\0223\n\016community_name\030\224N" +
       " \001(\0132\032.dstore.values.stringValue\0221\n\014key_" +
       "variable\030\225N \001(\0132\032.dstore.values.stringVa" +
-      "lueB\035\n\033io.dstore.engine.proceduresb\006prot" +
-      "o3"
+      "lueBX\n\033io.dstore.engine.proceduresZ9gosd" +
+      "k.dstore.de/engine/procedures/co_GetMemb" +
+      "erSettings_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

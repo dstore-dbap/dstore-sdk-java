@@ -5391,8 +5391,9 @@ public final class CoDeleteInactiveMembersAd {
       "lue\022?\n\026creation_date_and_time\030\243\234\001 \001(\0132\035." +
       "dstore.values.timestampValue\0229\n\022number_o" +
       "f_postings\030\244\234\001 \001(\0132\033.dstore.values.integ" +
-      "erValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "erValueB\\\n\033io.dstore.engine.proceduresZ=" +
+      "gosdk.dstore.de/engine/procedures/co_Del" +
+      "eteInactiveMembers_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

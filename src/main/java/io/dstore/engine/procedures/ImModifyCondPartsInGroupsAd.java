@@ -3418,8 +3418,9 @@ public final class ImModifyCondPartsInGroupsAd {
       "\003(\0132\036.dstore.engine.message.Message\022F\n\003r" +
       "ow\030\004 \003(\01329.dstore.engine.im_ModifyCondPa",
       "rtsInGroups_Ad.Response.Row\032\026\n\003Row\022\017\n\006ro" +
-      "w_id\030\220N \001(\005B\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "w_id\030\220N \001(\005B^\n\033io.dstore.engine.procedur" +
+      "esZ?gosdk.dstore.de/engine/procedures/im" +
+      "_ModifyCondPartsInGroups_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

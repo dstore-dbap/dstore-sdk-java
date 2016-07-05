@@ -4897,8 +4897,9 @@ public final class OmGetUsedVoucherCodesAd {
       "ore.values.timestampValue\0229\n\023visitor_or_" +
       "order_id\030\224N \001(\0132\033.dstore.values.integerV",
       "alue\0221\n\013is_order_id\030\225N \001(\0132\033.dstore.valu" +
-      "es.integerValueB\035\n\033io.dstore.engine.proc" +
-      "eduresb\006proto3"
+      "es.integerValueBZ\n\033io.dstore.engine.proc" +
+      "eduresZ;gosdk.dstore.de/engine/procedure" +
+      "s/om_GetUsedVoucherCodes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

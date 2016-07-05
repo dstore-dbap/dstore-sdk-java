@@ -4157,8 +4157,10 @@ public final class OmGetCustomerCashAccountsAd {
       "type_id\030\224N \001(\0132\033.dstore.values.integerVa",
       "lue\0229\n\023min_account_balance\030\225N \001(\0132\033.dsto" +
       "re.values.decimalValue\0221\n\013currency_id\030\226N" +
-      " \001(\0132\033.dstore.values.integerValueB\035\n\033io." +
-      "dstore.engine.proceduresb\006proto3"
+      " \001(\0132\033.dstore.values.integerValueB^\n\033io." +
+      "dstore.engine.proceduresZ?gosdk.dstore.d" +
+      "e/engine/procedures/om_GetCustomerCashAc" +
+      "counts_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3416,8 +3416,10 @@ public final class StGetPagesAd {
       "\n\006row_id\030\220N \001(\005\022-\n\010filename\030\221N \001(\0132\032.dst" +
       "ore.values.stringValue\022-\n\007page_no\030\222N \001(\013" +
       "2\033.dstore.values.integerValue\022)\n\004page\030\223N" +
-      " \001(\0132\032.dstore.values.stringValueB\035\n\033io.d" +
-      "store.engine.proceduresb\006proto3"
+      " \001(\0132\032.dstore.values.stringValueBO\n\033io.d" +
+      "store.engine.proceduresZ0gosdk.dstore.de" +
+      "/engine/procedures/st_GetPages_Adb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

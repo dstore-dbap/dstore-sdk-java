@@ -3911,8 +3911,9 @@ public final class ImGetNodeCharacSettings {
       "ic_id\030\222N \001(\0132\033.dstore.values.integerValu",
       "e\022*\n\005value\030\223N \001(\0132\032.dstore.values.string" +
       "Value\0221\n\014key_variable\030\224N \001(\0132\032.dstore.va" +
-      "lues.stringValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "lues.stringValueBY\n\033io.dstore.engine.pro" +
+      "ceduresZ:gosdk.dstore.de/engine/procedur" +
+      "es/im_GetNodeCharacSettingsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

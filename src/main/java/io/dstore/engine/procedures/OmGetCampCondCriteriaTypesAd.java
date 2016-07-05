@@ -3172,8 +3172,10 @@ public final class OmGetCampCondCriteriaTypesAd {
       "_Ad.Response.Row\032\202\001\n\003Row\022\017\n\006row_id\030\220N \001(" +
       "\005\0222\n\rcriterai_type\030\221N \001(\0132\032.dstore.value" +
       "s.stringValue\0226\n\020criteria_type_id\030\222N \001(\013" +
-      "2\033.dstore.values.integerValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "2\033.dstore.values.integerValueB_\n\033io.dsto" +
+      "re.engine.proceduresZ@gosdk.dstore.de/en" +
+      "gine/procedures/om_GetCampCondCriteriaTy",
+      "pes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

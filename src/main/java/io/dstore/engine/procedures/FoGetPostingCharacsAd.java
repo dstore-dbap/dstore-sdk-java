@@ -7856,8 +7856,10 @@ public final class FoGetPostingCharacsAd {
       "(\0132\032.dstore.values.stringValue\0228\n\021forum_" +
       "category_id\030\333\206\003 \001(\0132\033.dstore.values.inte" +
       "gerValue\022:\n\024category_description\030\336\206\003 \001(\013" +
-      "2\032.dstore.values.stringValueB\035\n\033io.dstor",
-      "e.engine.proceduresb\006proto3"
+      "2\032.dstore.values.stringValueBX\n\033io.dstor",
+      "e.engine.proceduresZ9gosdk.dstore.de/eng" +
+      "ine/procedures/fo_GetPostingCharacs_Adb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5388,8 +5388,9 @@ public final class CoCheckStatisticsAd {
       "_information\030\225N \001(\0132\032.dstore.values.stri",
       "ngValue\0222\n\014stored_value\030\226N \001(\0132\033.dstore." +
       "values.decimalValue\022+\n\003day\030\227N \001(\0132\035.dsto" +
-      "re.values.timestampValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "re.values.timestampValueBV\n\033io.dstore.en" +
+      "gine.proceduresZ7gosdk.dstore.de/engine/" +
+      "procedures/co_CheckStatistics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

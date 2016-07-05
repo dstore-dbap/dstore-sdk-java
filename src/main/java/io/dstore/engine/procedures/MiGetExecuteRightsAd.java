@@ -6130,8 +6130,10 @@ public final class MiGetExecuteRightsAd {
       "es.stringValue\022D\n\036user_exec_right_ondsto" +
       "re_level\030\233N \001(\0132\033.dstore.values.integerV" +
       "alue\022H\n\"group_exec_right_on_database_lev" +
-      "el\030\234N \001(\0132\033.dstore.values.integerValueB\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "el\030\234N \001(\0132\033.dstore.values.integerValueBW" +
+      "\n\033io.dstore.engine.proceduresZ8gosdk.dst" +
+      "ore.de/engine/procedures/mi_GetExecuteRi",
+      "ghts_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

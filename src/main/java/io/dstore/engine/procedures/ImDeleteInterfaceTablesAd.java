@@ -3172,8 +3172,10 @@ public final class ImDeleteInterfaceTablesAd {
       "ssage\022D\n\003row\030\004 \003(\01327.dstore.engine.im_De" +
       "leteInterfaceTables_Ad.Response.Row\032O\n\003R" +
       "ow\022\017\n\006row_id\030\220N \001(\005\0227\n\022created_table_nam" +
-      "e\030\221N \001(\0132\032.dstore.values.stringValueB\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "e\030\221N \001(\0132\032.dstore.values.stringValueB\\\n\033" +
+      "io.dstore.engine.proceduresZ=gosdk.dstor",
+      "e.de/engine/procedures/im_DeleteInterfac" +
+      "eTables_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

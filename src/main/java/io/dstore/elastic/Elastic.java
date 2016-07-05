@@ -10684,8 +10684,9 @@ public final class Elastic {
       "ry\"&\n\005Order\022\r\n\tASCENDING\020\000\022\016\n\nDESCENDING" +
       "\020\001\"\036\n\007Missing\022\010\n\004LAST\020\000\022\t\n\005FIRST\020\001\"E\n\004Mo" +
       "de\022\r\n\tUNDEFINED\020\000\022\007\n\003MIN\020\001\022\007\n\003MAX\020\002\022\007\n\003S" +
-      "UM\020\003\022\007\n\003AVG\020\004\022\n\n\006MEDIAN\020\005B\t\n\007sort_byB\034\n\021" +
-      "io.dstore.elasticB\007Elasticb\006proto3"
+      "UM\020\003\022\007\n\003AVG\020\004\022\n\n\006MEDIAN\020\005B\t\n\007sort_byB=\n\021" +
+      "io.dstore.elasticB\007ElasticZ\037gosdk.dstore",
+      ".de/elastic/elasticb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4652,8 +4652,10 @@ public final class OmGetSupplierConfigurationAd {
       "e.values.integerValue\0225\n\017payment_type_id" +
       "\030\227N \001(\0132\033.dstore.values.integerValue\022F\n!" +
       "purchase_price_charac_description\030\230N \001(\013" +
-      "2\032.dstore.values.stringValueB\035\n\033io.dstor" +
-      "e.engine.proceduresb\006proto3"
+      "2\032.dstore.values.stringValueB_\n\033io.dstor" +
+      "e.engine.proceduresZ@gosdk.dstore.de/eng" +
+      "ine/procedures/om_GetSupplierConfigurati",
+      "on_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

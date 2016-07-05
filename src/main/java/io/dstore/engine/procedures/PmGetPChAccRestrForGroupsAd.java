@@ -3912,8 +3912,10 @@ public final class PmGetPChAccRestrForGroupsAd {
       "tore.values.integerValue\022>\n\030person_chara" +
       "cteristic_id\030\223N \001(\0132\033.dstore.values.inte" +
       "gerValue\022C\n\035restriction_for_user_group_i" +
-      "d\030\224N \001(\0132\033.dstore.values.integerValueB\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "d\030\224N \001(\0132\033.dstore.values.integerValueB^\n" +
+      "\033io.dstore.engine.proceduresZ?gosdk.dsto" +
+      "re.de/engine/procedures/pm_GetPChAccRest" +
+      "rForGroups_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

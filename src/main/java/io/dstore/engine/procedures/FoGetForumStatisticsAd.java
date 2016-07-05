@@ -4895,7 +4895,9 @@ public final class FoGetForumStatisticsAd {
       "\030statistic_information_id\030\223N \001(\0132\033.dstor" +
       "e.values.integerValue\022:\n\025statistic_infor" +
       "mation\030\224N \001(\0132\032.dstore.values.stringValu",
-      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "eBY\n\033io.dstore.engine.proceduresZ:gosdk." +
+      "dstore.de/engine/procedures/fo_GetForumS" +
+      "tatistics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

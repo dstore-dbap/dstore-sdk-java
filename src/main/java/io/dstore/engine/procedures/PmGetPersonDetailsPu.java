@@ -5143,8 +5143,9 @@ public final class PmGetPersonDetailsPu {
       ".stringValue\022?\n\032characteristic_descripti" +
       "on\030\222N \001(\0132\032.dstore.values.stringValue\0227\n" +
       "\021characteristic_id\030\223N \001(\0132\033.dstore.value" +
-      "s.integerValueB\035\n\033io.dstore.engine.proce" +
-      "duresb\006proto3"
+      "s.integerValueBW\n\033io.dstore.engine.proce" +
+      "duresZ8gosdk.dstore.de/engine/procedures" +
+      "/pm_GetPersonDetails_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

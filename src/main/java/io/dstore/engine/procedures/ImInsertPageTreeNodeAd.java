@@ -29,6 +29,42 @@ public final class ImInsertPageTreeNodeAd {
      * <code>optional bool page_description_null = 1001;</code>
      */
     boolean getPageDescriptionNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+     */
+    boolean hasNewTreeNodeId();
+    /**
+     * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+     */
+    io.dstore.Values.integerValue getNewTreeNodeId();
+    /**
+     * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNewTreeNodeIdOrBuilder();
+
+    /**
+     * <code>optional bool new_tree_node_id_null = 1002;</code>
+     */
+    boolean getNewTreeNodeIdNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+     */
+    boolean hasNewNodeId();
+    /**
+     * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+     */
+    io.dstore.Values.integerValue getNewNodeId();
+    /**
+     * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNewNodeIdOrBuilder();
+
+    /**
+     * <code>optional bool new_node_id_null = 1003;</code>
+     */
+    boolean getNewNodeIdNull();
   }
   /**
    * Protobuf type {@code dstore.engine.im_InsertPageTreeNode_Ad.Parameters}
@@ -43,6 +79,8 @@ public final class ImInsertPageTreeNodeAd {
     }
     private Parameters() {
       pageDescriptionNull_ = false;
+      newTreeNodeIdNull_ = false;
+      newNodeIdNull_ = false;
     }
 
     @java.lang.Override
@@ -82,9 +120,45 @@ public final class ImInsertPageTreeNodeAd {
 
               break;
             }
+            case 18: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (newTreeNodeId_ != null) {
+                subBuilder = newTreeNodeId_.toBuilder();
+              }
+              newTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(newTreeNodeId_);
+                newTreeNodeId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 26: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (newNodeId_ != null) {
+                subBuilder = newNodeId_.toBuilder();
+              }
+              newNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(newNodeId_);
+                newNodeId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               pageDescriptionNull_ = input.readBool();
+              break;
+            }
+            case 8016: {
+
+              newTreeNodeIdNull_ = input.readBool();
+              break;
+            }
+            case 8024: {
+
+              newNodeIdNull_ = input.readBool();
               break;
             }
           }
@@ -141,6 +215,66 @@ public final class ImInsertPageTreeNodeAd {
       return pageDescriptionNull_;
     }
 
+    public static final int NEW_TREE_NODE_ID_FIELD_NUMBER = 2;
+    private io.dstore.Values.integerValue newTreeNodeId_;
+    /**
+     * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+     */
+    public boolean hasNewTreeNodeId() {
+      return newTreeNodeId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+     */
+    public io.dstore.Values.integerValue getNewTreeNodeId() {
+      return newTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newTreeNodeId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNewTreeNodeIdOrBuilder() {
+      return getNewTreeNodeId();
+    }
+
+    public static final int NEW_TREE_NODE_ID_NULL_FIELD_NUMBER = 1002;
+    private boolean newTreeNodeIdNull_;
+    /**
+     * <code>optional bool new_tree_node_id_null = 1002;</code>
+     */
+    public boolean getNewTreeNodeIdNull() {
+      return newTreeNodeIdNull_;
+    }
+
+    public static final int NEW_NODE_ID_FIELD_NUMBER = 3;
+    private io.dstore.Values.integerValue newNodeId_;
+    /**
+     * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+     */
+    public boolean hasNewNodeId() {
+      return newNodeId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+     */
+    public io.dstore.Values.integerValue getNewNodeId() {
+      return newNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newNodeId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNewNodeIdOrBuilder() {
+      return getNewNodeId();
+    }
+
+    public static final int NEW_NODE_ID_NULL_FIELD_NUMBER = 1003;
+    private boolean newNodeIdNull_;
+    /**
+     * <code>optional bool new_node_id_null = 1003;</code>
+     */
+    public boolean getNewNodeIdNull() {
+      return newNodeIdNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -156,8 +290,20 @@ public final class ImInsertPageTreeNodeAd {
       if (pageDescription_ != null) {
         output.writeMessage(1, getPageDescription());
       }
+      if (newTreeNodeId_ != null) {
+        output.writeMessage(2, getNewTreeNodeId());
+      }
+      if (newNodeId_ != null) {
+        output.writeMessage(3, getNewNodeId());
+      }
       if (pageDescriptionNull_ != false) {
         output.writeBool(1001, pageDescriptionNull_);
+      }
+      if (newTreeNodeIdNull_ != false) {
+        output.writeBool(1002, newTreeNodeIdNull_);
+      }
+      if (newNodeIdNull_ != false) {
+        output.writeBool(1003, newNodeIdNull_);
       }
     }
 
@@ -170,9 +316,25 @@ public final class ImInsertPageTreeNodeAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getPageDescription());
       }
+      if (newTreeNodeId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getNewTreeNodeId());
+      }
+      if (newNodeId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getNewNodeId());
+      }
       if (pageDescriptionNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, pageDescriptionNull_);
+      }
+      if (newTreeNodeIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1002, newTreeNodeIdNull_);
+      }
+      if (newNodeIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1003, newNodeIdNull_);
       }
       memoizedSize = size;
       return size;
@@ -293,6 +455,22 @@ public final class ImInsertPageTreeNodeAd {
         }
         pageDescriptionNull_ = false;
 
+        if (newTreeNodeIdBuilder_ == null) {
+          newTreeNodeId_ = null;
+        } else {
+          newTreeNodeId_ = null;
+          newTreeNodeIdBuilder_ = null;
+        }
+        newTreeNodeIdNull_ = false;
+
+        if (newNodeIdBuilder_ == null) {
+          newNodeId_ = null;
+        } else {
+          newNodeId_ = null;
+          newNodeIdBuilder_ = null;
+        }
+        newNodeIdNull_ = false;
+
         return this;
       }
 
@@ -321,6 +499,18 @@ public final class ImInsertPageTreeNodeAd {
           result.pageDescription_ = pageDescriptionBuilder_.build();
         }
         result.pageDescriptionNull_ = pageDescriptionNull_;
+        if (newTreeNodeIdBuilder_ == null) {
+          result.newTreeNodeId_ = newTreeNodeId_;
+        } else {
+          result.newTreeNodeId_ = newTreeNodeIdBuilder_.build();
+        }
+        result.newTreeNodeIdNull_ = newTreeNodeIdNull_;
+        if (newNodeIdBuilder_ == null) {
+          result.newNodeId_ = newNodeId_;
+        } else {
+          result.newNodeId_ = newNodeIdBuilder_.build();
+        }
+        result.newNodeIdNull_ = newNodeIdNull_;
         onBuilt();
         return result;
       }
@@ -341,6 +531,18 @@ public final class ImInsertPageTreeNodeAd {
         }
         if (other.getPageDescriptionNull() != false) {
           setPageDescriptionNull(other.getPageDescriptionNull());
+        }
+        if (other.hasNewTreeNodeId()) {
+          mergeNewTreeNodeId(other.getNewTreeNodeId());
+        }
+        if (other.getNewTreeNodeIdNull() != false) {
+          setNewTreeNodeIdNull(other.getNewTreeNodeIdNull());
+        }
+        if (other.hasNewNodeId()) {
+          mergeNewNodeId(other.getNewNodeId());
+        }
+        if (other.getNewNodeIdNull() != false) {
+          setNewNodeIdNull(other.getNewNodeIdNull());
         }
         onChanged();
         return this;
@@ -507,6 +709,292 @@ public final class ImInsertPageTreeNodeAd {
       public Builder clearPageDescriptionNull() {
         
         pageDescriptionNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue newTreeNodeId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newTreeNodeIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+       */
+      public boolean hasNewTreeNodeId() {
+        return newTreeNodeIdBuilder_ != null || newTreeNodeId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+       */
+      public io.dstore.Values.integerValue getNewTreeNodeId() {
+        if (newTreeNodeIdBuilder_ == null) {
+          return newTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newTreeNodeId_;
+        } else {
+          return newTreeNodeIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+       */
+      public Builder setNewTreeNodeId(io.dstore.Values.integerValue value) {
+        if (newTreeNodeIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          newTreeNodeId_ = value;
+          onChanged();
+        } else {
+          newTreeNodeIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+       */
+      public Builder setNewTreeNodeId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (newTreeNodeIdBuilder_ == null) {
+          newTreeNodeId_ = builderForValue.build();
+          onChanged();
+        } else {
+          newTreeNodeIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+       */
+      public Builder mergeNewTreeNodeId(io.dstore.Values.integerValue value) {
+        if (newTreeNodeIdBuilder_ == null) {
+          if (newTreeNodeId_ != null) {
+            newTreeNodeId_ =
+              io.dstore.Values.integerValue.newBuilder(newTreeNodeId_).mergeFrom(value).buildPartial();
+          } else {
+            newTreeNodeId_ = value;
+          }
+          onChanged();
+        } else {
+          newTreeNodeIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+       */
+      public Builder clearNewTreeNodeId() {
+        if (newTreeNodeIdBuilder_ == null) {
+          newTreeNodeId_ = null;
+          onChanged();
+        } else {
+          newTreeNodeId_ = null;
+          newTreeNodeIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNewTreeNodeIdBuilder() {
+        
+        onChanged();
+        return getNewTreeNodeIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNewTreeNodeIdOrBuilder() {
+        if (newTreeNodeIdBuilder_ != null) {
+          return newTreeNodeIdBuilder_.getMessageOrBuilder();
+        } else {
+          return newTreeNodeId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : newTreeNodeId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_tree_node_id = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNewTreeNodeIdFieldBuilder() {
+        if (newTreeNodeIdBuilder_ == null) {
+          newTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNewTreeNodeId(),
+                  getParentForChildren(),
+                  isClean());
+          newTreeNodeId_ = null;
+        }
+        return newTreeNodeIdBuilder_;
+      }
+
+      private boolean newTreeNodeIdNull_ ;
+      /**
+       * <code>optional bool new_tree_node_id_null = 1002;</code>
+       */
+      public boolean getNewTreeNodeIdNull() {
+        return newTreeNodeIdNull_;
+      }
+      /**
+       * <code>optional bool new_tree_node_id_null = 1002;</code>
+       */
+      public Builder setNewTreeNodeIdNull(boolean value) {
+        
+        newTreeNodeIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool new_tree_node_id_null = 1002;</code>
+       */
+      public Builder clearNewTreeNodeIdNull() {
+        
+        newTreeNodeIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue newNodeId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newNodeIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+       */
+      public boolean hasNewNodeId() {
+        return newNodeIdBuilder_ != null || newNodeId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+       */
+      public io.dstore.Values.integerValue getNewNodeId() {
+        if (newNodeIdBuilder_ == null) {
+          return newNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newNodeId_;
+        } else {
+          return newNodeIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+       */
+      public Builder setNewNodeId(io.dstore.Values.integerValue value) {
+        if (newNodeIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          newNodeId_ = value;
+          onChanged();
+        } else {
+          newNodeIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+       */
+      public Builder setNewNodeId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (newNodeIdBuilder_ == null) {
+          newNodeId_ = builderForValue.build();
+          onChanged();
+        } else {
+          newNodeIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+       */
+      public Builder mergeNewNodeId(io.dstore.Values.integerValue value) {
+        if (newNodeIdBuilder_ == null) {
+          if (newNodeId_ != null) {
+            newNodeId_ =
+              io.dstore.Values.integerValue.newBuilder(newNodeId_).mergeFrom(value).buildPartial();
+          } else {
+            newNodeId_ = value;
+          }
+          onChanged();
+        } else {
+          newNodeIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+       */
+      public Builder clearNewNodeId() {
+        if (newNodeIdBuilder_ == null) {
+          newNodeId_ = null;
+          onChanged();
+        } else {
+          newNodeId_ = null;
+          newNodeIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNewNodeIdBuilder() {
+        
+        onChanged();
+        return getNewNodeIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNewNodeIdOrBuilder() {
+        if (newNodeIdBuilder_ != null) {
+          return newNodeIdBuilder_.getMessageOrBuilder();
+        } else {
+          return newNodeId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : newNodeId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue new_node_id = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNewNodeIdFieldBuilder() {
+        if (newNodeIdBuilder_ == null) {
+          newNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNewNodeId(),
+                  getParentForChildren(),
+                  isClean());
+          newNodeId_ = null;
+        }
+        return newNodeIdBuilder_;
+      }
+
+      private boolean newNodeIdNull_ ;
+      /**
+       * <code>optional bool new_node_id_null = 1003;</code>
+       */
+      public boolean getNewNodeIdNull() {
+        return newNodeIdNull_;
+      }
+      /**
+       * <code>optional bool new_node_id_null = 1003;</code>
+       */
+      public Builder setNewNodeIdNull(boolean value) {
+        
+        newNodeIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool new_node_id_null = 1003;</code>
+       */
+      public Builder clearNewNodeIdNull() {
+        
+        newNodeIdNull_ = false;
         onChanged();
         return this;
       }
@@ -2928,20 +3416,25 @@ public final class ImInsertPageTreeNodeAd {
       "rtPageTreeNode_Ad\032\023dstore/values.proto\032\031" +
       "dstore/engine/error.proto\032\033dstore/engine" +
       "/message.proto\032#dstore/engine/metainform" +
-      "ation.proto\"b\n\nParameters\0224\n\020page_descri" +
-      "ption\030\001 \001(\0132\032.dstore.values.stringValue\022" +
-      "\036\n\025page_description_null\030\351\007 \001(\010\"\364\002\n\010Resp" +
-      "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro" +
-      "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto",
-      "re.engine.metainformation.MetaInformatio" +
-      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa" +
-      "ge.Message\022A\n\003row\030\004 \003(\01324.dstore.engine." +
-      "im_InsertPageTreeNode_Ad.Response.Row\0225\n" +
-      "\020new_tree_node_id\030e \001(\0132\033.dstore.values." +
-      "integerValue\0220\n\013new_node_id\030f \001(\0132\033.dsto" +
-      "re.values.integerValue\032\026\n\003Row\022\017\n\006row_id\030" +
-      "\220N \001(\005B\035\n\033io.dstore.engine.proceduresb\006p" +
-      "roto3"
+      "ation.proto\"\206\002\n\nParameters\0224\n\020page_descr" +
+      "iption\030\001 \001(\0132\032.dstore.values.stringValue" +
+      "\022\036\n\025page_description_null\030\351\007 \001(\010\0225\n\020new_" +
+      "tree_node_id\030\002 \001(\0132\033.dstore.values.integ" +
+      "erValue\022\036\n\025new_tree_node_id_null\030\352\007 \001(\010\022",
+      "0\n\013new_node_id\030\003 \001(\0132\033.dstore.values.int" +
+      "egerValue\022\031\n\020new_node_id_null\030\353\007 \001(\010\"\364\002\n" +
+      "\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine" +
+      ".error.Error\022H\n\020meta_information\030\002 \003(\0132." +
+      ".dstore.engine.metainformation.MetaInfor" +
+      "mation\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
+      "message.Message\022A\n\003row\030\004 \003(\01324.dstore.en" +
+      "gine.im_InsertPageTreeNode_Ad.Response.R" +
+      "ow\0225\n\020new_tree_node_id\030e \001(\0132\033.dstore.va" +
+      "lues.integerValue\0220\n\013new_node_id\030f \001(\0132\033",
+      ".dstore.values.integerValue\032\026\n\003Row\022\017\n\006ro" +
+      "w_id\030\220N \001(\005BY\n\033io.dstore.engine.procedur" +
+      "esZ:gosdk.dstore.de/engine/procedures/im" +
+      "_InsertPageTreeNode_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2964,7 +3457,7 @@ public final class ImInsertPageTreeNodeAd {
     internal_static_dstore_engine_im_InsertPageTreeNode_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_InsertPageTreeNode_Ad_Parameters_descriptor,
-        new java.lang.String[] { "PageDescription", "PageDescriptionNull", });
+        new java.lang.String[] { "PageDescription", "PageDescriptionNull", "NewTreeNodeId", "NewTreeNodeIdNull", "NewNodeId", "NewNodeIdNull", });
     internal_static_dstore_engine_im_InsertPageTreeNode_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_InsertPageTreeNode_Ad_Response_fieldAccessorTable = new

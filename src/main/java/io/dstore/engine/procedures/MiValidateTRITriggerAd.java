@@ -2679,8 +2679,9 @@ public final class MiValidateTRITriggerAd {
       "e\030\003 \003(\0132\036.dstore.engine.message.Message\022" +
       "A\n\003row\030\004 \003(\01324.dstore.engine.mi_Validate" +
       "TRITrigger_Ad.Response.Row\032\026\n\003Row\022\017\n\006row" +
-      "_id\030\220N \001(\005B\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "_id\030\220N \001(\005BY\n\033io.dstore.engine.procedure" +
+      "sZ:gosdk.dstore.de/engine/procedures/mi_" +
+      "ValidateTRITrigger_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

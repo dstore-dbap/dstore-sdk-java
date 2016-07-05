@@ -5142,8 +5142,10 @@ public final class OmGetOrderContentInfoPu {
       "ion_type\030\224N \001(\0132\032.dstore.values.stringVa" +
       "lue\0220\n\013information\030\225N \001(\0132\032.dstore.value",
       "s.stringValue\0226\n\020order_content_id\030\226N \001(\013" +
-      "2\033.dstore.values.integerValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "2\033.dstore.values.integerValueBZ\n\033io.dsto" +
+      "re.engine.proceduresZ;gosdk.dstore.de/en" +
+      "gine/procedures/om_GetOrderContentInfo_P" +
+      "ub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

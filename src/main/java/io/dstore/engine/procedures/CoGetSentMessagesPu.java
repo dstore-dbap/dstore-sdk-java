@@ -7359,8 +7359,9 @@ public final class CoGetSentMessagesPu {
       "o_community_member_nickname\030\226N \001(\0132\032.dst" +
       "ore.values.stringValue\022?\n\032message_date_a",
       "nd_time_char\030\227N \001(\0132\032.dstore.values.stri" +
-      "ngValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "ngValueBV\n\033io.dstore.engine.proceduresZ7" +
+      "gosdk.dstore.de/engine/procedures/co_Get" +
+      "SentMessages_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

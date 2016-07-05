@@ -6375,8 +6375,9 @@ public final class OmGetOrderStateHistoryPu {
       "anValue\0229\n\023from_order_state_id\030\234N \001(\0132\033." +
       "dstore.values.integerValue\022@\n\033changing_d" +
       "ate_and_time_char\030\235N \001(\0132\032.dstore.values" +
-      ".stringValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      ".stringValueB[\n\033io.dstore.engine.procedu" +
+      "resZ<gosdk.dstore.de/engine/procedures/o" +
+      "m_GetOrderStateHistory_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

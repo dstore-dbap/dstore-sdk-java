@@ -4894,8 +4894,9 @@ public final class MiGetUnitsAd {
       "tore.values.integerValue\0226\n\020triangle_con" +
       "vert\030\226N \001(\0132\033.dstore.values.booleanValue" +
       "\022>\n\031unit_category_description\030\227N \001(\0132\032.d" +
-      "store.values.stringValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "store.values.stringValueBO\n\033io.dstore.en" +
+      "gine.proceduresZ0gosdk.dstore.de/engine/" +
+      "procedures/mi_GetUnits_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

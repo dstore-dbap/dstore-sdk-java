@@ -4156,8 +4156,9 @@ public final class OmModifyOrderInformationAd {
       "\030\221N \001(\0132\033.dstore.values.integerValue\0220\n\n" +
       "error_code\030\222N \001(\0132\033.dstore.values.intege" +
       "rValue\022.\n\010order_id\030\223N \001(\0132\033.dstore.value" +
-      "s.integerValueB\035\n\033io.dstore.engine.proce" +
-      "duresb\006proto3"
+      "s.integerValueB]\n\033io.dstore.engine.proce" +
+      "duresZ>gosdk.dstore.de/engine/procedures" +
+      "/om_ModifyOrderInformation_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

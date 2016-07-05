@@ -3171,8 +3171,10 @@ public final class ImModifyValuesInCategoriesAd {
       "essage\030\003 \003(\0132\036.dstore.engine.message.Mes" +
       "sage\022G\n\003row\030\004 \003(\0132:.dstore.engine.im_Mod" +
       "ifyValuesInCategories_Ad.Response.Row\032\026\n" +
-      "\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "\003Row\022\017\n\006row_id\030\220N \001(\005B_\n\033io.dstore.engin" +
+      "e.proceduresZ@gosdk.dstore.de/engine/pro",
+      "cedures/im_ModifyValuesInCategories_Adb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

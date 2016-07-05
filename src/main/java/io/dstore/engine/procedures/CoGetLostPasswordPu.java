@@ -3662,8 +3662,9 @@ public final class CoGetLostPasswordPu {
       "sage\022>\n\003row\030\004 \003(\01321.dstore.engine.co_Get" +
       "LostPassword_Pu.Response.Row\032E\n\003Row\022\017\n\006r" +
       "ow_id\030\220N \001(\005\022-\n\010password\030\221N \001(\0132\032.dstore",
-      ".values.stringValueB\035\n\033io.dstore.engine." +
-      "proceduresb\006proto3"
+      ".values.stringValueBV\n\033io.dstore.engine." +
+      "proceduresZ7gosdk.dstore.de/engine/proce" +
+      "dures/co_GetLostPassword_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

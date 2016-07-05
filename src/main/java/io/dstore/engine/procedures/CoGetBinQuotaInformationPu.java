@@ -3664,8 +3664,10 @@ public final class CoGetBinQuotaInformationPu {
       "\005\022*\n\005value\030\221N \001(\0132\032.dstore.values.string" +
       "Value\0221\n\014source_table\030\222N \001(\0132\032.dstore.va" +
       "lues.stringValue\0221\n\014key_variable\030\223N \001(\0132",
-      "\032.dstore.values.stringValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      "\032.dstore.values.stringValueB]\n\033io.dstore" +
+      ".engine.proceduresZ>gosdk.dstore.de/engi" +
+      "ne/procedures/co_GetBinQuotaInformation_" +
+      "Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

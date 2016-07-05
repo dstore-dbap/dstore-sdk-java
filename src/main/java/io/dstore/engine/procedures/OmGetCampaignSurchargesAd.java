@@ -5883,8 +5883,10 @@ public final class OmGetCampaignSurchargesAd {
       "\0132\033.dstore.values.decimalValue\0225\n\017apply_" +
       "to_option\030\232N \001(\0132\033.dstore.values.integer" +
       "Value\0227\n\021surcharge_type_id\030\233N \001(\0132\033.dsto" +
-      "re.values.integerValueB\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      "re.values.integerValueB\\\n\033io.dstore.engi" +
+      "ne.proceduresZ=gosdk.dstore.de/engine/pr" +
+      "ocedures/om_GetCampaignSurcharges_Adb\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

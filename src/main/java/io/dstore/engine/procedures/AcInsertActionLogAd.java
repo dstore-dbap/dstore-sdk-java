@@ -67,56 +67,74 @@ public final class AcInsertActionLogAd {
     boolean getReplaceLastLogPartNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     */
+    boolean hasPostingId();
+    /**
+     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     */
+    io.dstore.Values.integerValue getPostingId();
+    /**
+     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder();
+
+    /**
+     * <code>optional bool posting_id_null = 1004;</code>
+     */
+    boolean getPostingIdNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
      */
     boolean hasMaintainSearchPostings();
     /**
-     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
      */
     io.dstore.Values.booleanValue getMaintainSearchPostings();
     /**
-     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getMaintainSearchPostingsOrBuilder();
 
     /**
-     * <code>optional bool maintain_search_postings_null = 1004;</code>
+     * <code>optional bool maintain_search_postings_null = 1005;</code>
      */
     boolean getMaintainSearchPostingsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
      */
     boolean hasSavePostingProperties();
     /**
-     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
      */
     io.dstore.Values.integerValue getSavePostingProperties();
     /**
-     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
      */
     io.dstore.Values.integerValueOrBuilder getSavePostingPropertiesOrBuilder();
 
     /**
-     * <code>optional bool save_posting_properties_null = 1005;</code>
+     * <code>optional bool save_posting_properties_null = 1006;</code>
      */
     boolean getSavePostingPropertiesNull();
 
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 7;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 7;</code>
      */
     io.dstore.Values.stringValue getCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 7;</code>
      */
     io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
 
     /**
-     * <code>optional bool country_null = 1006;</code>
+     * <code>optional bool country_null = 1007;</code>
      */
     boolean getCountryNull();
   }
@@ -135,6 +153,7 @@ public final class AcInsertActionLogAd {
       resultNull_ = false;
       actionIdNull_ = false;
       replaceLastLogPartNull_ = false;
+      postingIdNull_ = false;
       maintainSearchPostingsNull_ = false;
       savePostingPropertiesNull_ = false;
       countryNull_ = false;
@@ -204,6 +223,19 @@ public final class AcInsertActionLogAd {
               break;
             }
             case 34: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (postingId_ != null) {
+                subBuilder = postingId_.toBuilder();
+              }
+              postingId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(postingId_);
+                postingId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 42: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (maintainSearchPostings_ != null) {
                 subBuilder = maintainSearchPostings_.toBuilder();
@@ -216,7 +248,7 @@ public final class AcInsertActionLogAd {
 
               break;
             }
-            case 42: {
+            case 50: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (savePostingProperties_ != null) {
                 subBuilder = savePostingProperties_.toBuilder();
@@ -229,7 +261,7 @@ public final class AcInsertActionLogAd {
 
               break;
             }
-            case 50: {
+            case 58: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
@@ -259,15 +291,20 @@ public final class AcInsertActionLogAd {
             }
             case 8032: {
 
-              maintainSearchPostingsNull_ = input.readBool();
+              postingIdNull_ = input.readBool();
               break;
             }
             case 8040: {
 
-              savePostingPropertiesNull_ = input.readBool();
+              maintainSearchPostingsNull_ = input.readBool();
               break;
             }
             case 8048: {
+
+              savePostingPropertiesNull_ = input.readBool();
+              break;
+            }
+            case 8056: {
 
               countryNull_ = input.readBool();
               break;
@@ -386,91 +423,121 @@ public final class AcInsertActionLogAd {
       return replaceLastLogPartNull_;
     }
 
-    public static final int MAINTAIN_SEARCH_POSTINGS_FIELD_NUMBER = 4;
+    public static final int POSTING_ID_FIELD_NUMBER = 4;
+    private io.dstore.Values.integerValue postingId_;
+    /**
+     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     */
+    public boolean hasPostingId() {
+      return postingId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     */
+    public io.dstore.Values.integerValue getPostingId() {
+      return postingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder() {
+      return getPostingId();
+    }
+
+    public static final int POSTING_ID_NULL_FIELD_NUMBER = 1004;
+    private boolean postingIdNull_;
+    /**
+     * <code>optional bool posting_id_null = 1004;</code>
+     */
+    public boolean getPostingIdNull() {
+      return postingIdNull_;
+    }
+
+    public static final int MAINTAIN_SEARCH_POSTINGS_FIELD_NUMBER = 5;
     private io.dstore.Values.booleanValue maintainSearchPostings_;
     /**
-     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
      */
     public boolean hasMaintainSearchPostings() {
       return maintainSearchPostings_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
      */
     public io.dstore.Values.booleanValue getMaintainSearchPostings() {
       return maintainSearchPostings_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : maintainSearchPostings_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getMaintainSearchPostingsOrBuilder() {
       return getMaintainSearchPostings();
     }
 
-    public static final int MAINTAIN_SEARCH_POSTINGS_NULL_FIELD_NUMBER = 1004;
+    public static final int MAINTAIN_SEARCH_POSTINGS_NULL_FIELD_NUMBER = 1005;
     private boolean maintainSearchPostingsNull_;
     /**
-     * <code>optional bool maintain_search_postings_null = 1004;</code>
+     * <code>optional bool maintain_search_postings_null = 1005;</code>
      */
     public boolean getMaintainSearchPostingsNull() {
       return maintainSearchPostingsNull_;
     }
 
-    public static final int SAVE_POSTING_PROPERTIES_FIELD_NUMBER = 5;
+    public static final int SAVE_POSTING_PROPERTIES_FIELD_NUMBER = 6;
     private io.dstore.Values.integerValue savePostingProperties_;
     /**
-     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
      */
     public boolean hasSavePostingProperties() {
       return savePostingProperties_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
      */
     public io.dstore.Values.integerValue getSavePostingProperties() {
       return savePostingProperties_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : savePostingProperties_;
     }
     /**
-     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getSavePostingPropertiesOrBuilder() {
       return getSavePostingProperties();
     }
 
-    public static final int SAVE_POSTING_PROPERTIES_NULL_FIELD_NUMBER = 1005;
+    public static final int SAVE_POSTING_PROPERTIES_NULL_FIELD_NUMBER = 1006;
     private boolean savePostingPropertiesNull_;
     /**
-     * <code>optional bool save_posting_properties_null = 1005;</code>
+     * <code>optional bool save_posting_properties_null = 1006;</code>
      */
     public boolean getSavePostingPropertiesNull() {
       return savePostingPropertiesNull_;
     }
 
-    public static final int COUNTRY_FIELD_NUMBER = 6;
+    public static final int COUNTRY_FIELD_NUMBER = 7;
     private io.dstore.Values.stringValue country_;
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 7;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 7;</code>
      */
     public io.dstore.Values.stringValue getCountry() {
       return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 7;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
-    public static final int COUNTRY_NULL_FIELD_NUMBER = 1006;
+    public static final int COUNTRY_NULL_FIELD_NUMBER = 1007;
     private boolean countryNull_;
     /**
-     * <code>optional bool country_null = 1006;</code>
+     * <code>optional bool country_null = 1007;</code>
      */
     public boolean getCountryNull() {
       return countryNull_;
@@ -497,14 +564,17 @@ public final class AcInsertActionLogAd {
       if (replaceLastLogPart_ != null) {
         output.writeMessage(3, getReplaceLastLogPart());
       }
+      if (postingId_ != null) {
+        output.writeMessage(4, getPostingId());
+      }
       if (maintainSearchPostings_ != null) {
-        output.writeMessage(4, getMaintainSearchPostings());
+        output.writeMessage(5, getMaintainSearchPostings());
       }
       if (savePostingProperties_ != null) {
-        output.writeMessage(5, getSavePostingProperties());
+        output.writeMessage(6, getSavePostingProperties());
       }
       if (country_ != null) {
-        output.writeMessage(6, getCountry());
+        output.writeMessage(7, getCountry());
       }
       if (resultNull_ != false) {
         output.writeBool(1001, resultNull_);
@@ -515,14 +585,17 @@ public final class AcInsertActionLogAd {
       if (replaceLastLogPartNull_ != false) {
         output.writeBool(1003, replaceLastLogPartNull_);
       }
+      if (postingIdNull_ != false) {
+        output.writeBool(1004, postingIdNull_);
+      }
       if (maintainSearchPostingsNull_ != false) {
-        output.writeBool(1004, maintainSearchPostingsNull_);
+        output.writeBool(1005, maintainSearchPostingsNull_);
       }
       if (savePostingPropertiesNull_ != false) {
-        output.writeBool(1005, savePostingPropertiesNull_);
+        output.writeBool(1006, savePostingPropertiesNull_);
       }
       if (countryNull_ != false) {
-        output.writeBool(1006, countryNull_);
+        output.writeBool(1007, countryNull_);
       }
     }
 
@@ -543,17 +616,21 @@ public final class AcInsertActionLogAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, getReplaceLastLogPart());
       }
+      if (postingId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getPostingId());
+      }
       if (maintainSearchPostings_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getMaintainSearchPostings());
+          .computeMessageSize(5, getMaintainSearchPostings());
       }
       if (savePostingProperties_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getSavePostingProperties());
+          .computeMessageSize(6, getSavePostingProperties());
       }
       if (country_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getCountry());
+          .computeMessageSize(7, getCountry());
       }
       if (resultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -567,17 +644,21 @@ public final class AcInsertActionLogAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, replaceLastLogPartNull_);
       }
+      if (postingIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1004, postingIdNull_);
+      }
       if (maintainSearchPostingsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, maintainSearchPostingsNull_);
+          .computeBoolSize(1005, maintainSearchPostingsNull_);
       }
       if (savePostingPropertiesNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, savePostingPropertiesNull_);
+          .computeBoolSize(1006, savePostingPropertiesNull_);
       }
       if (countryNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, countryNull_);
+          .computeBoolSize(1007, countryNull_);
       }
       memoizedSize = size;
       return size;
@@ -714,6 +795,14 @@ public final class AcInsertActionLogAd {
         }
         replaceLastLogPartNull_ = false;
 
+        if (postingIdBuilder_ == null) {
+          postingId_ = null;
+        } else {
+          postingId_ = null;
+          postingIdBuilder_ = null;
+        }
+        postingIdNull_ = false;
+
         if (maintainSearchPostingsBuilder_ == null) {
           maintainSearchPostings_ = null;
         } else {
@@ -778,6 +867,12 @@ public final class AcInsertActionLogAd {
           result.replaceLastLogPart_ = replaceLastLogPartBuilder_.build();
         }
         result.replaceLastLogPartNull_ = replaceLastLogPartNull_;
+        if (postingIdBuilder_ == null) {
+          result.postingId_ = postingId_;
+        } else {
+          result.postingId_ = postingIdBuilder_.build();
+        }
+        result.postingIdNull_ = postingIdNull_;
         if (maintainSearchPostingsBuilder_ == null) {
           result.maintainSearchPostings_ = maintainSearchPostings_;
         } else {
@@ -828,6 +923,12 @@ public final class AcInsertActionLogAd {
         }
         if (other.getReplaceLastLogPartNull() != false) {
           setReplaceLastLogPartNull(other.getReplaceLastLogPartNull());
+        }
+        if (other.hasPostingId()) {
+          mergePostingId(other.getPostingId());
+        }
+        if (other.getPostingIdNull() != false) {
+          setPostingIdNull(other.getPostingIdNull());
         }
         if (other.hasMaintainSearchPostings()) {
           mergeMaintainSearchPostings(other.getMaintainSearchPostings());
@@ -1302,17 +1403,160 @@ public final class AcInsertActionLogAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue postingId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       */
+      public boolean hasPostingId() {
+        return postingIdBuilder_ != null || postingId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       */
+      public io.dstore.Values.integerValue getPostingId() {
+        if (postingIdBuilder_ == null) {
+          return postingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
+        } else {
+          return postingIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       */
+      public Builder setPostingId(io.dstore.Values.integerValue value) {
+        if (postingIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          postingId_ = value;
+          onChanged();
+        } else {
+          postingIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       */
+      public Builder setPostingId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (postingIdBuilder_ == null) {
+          postingId_ = builderForValue.build();
+          onChanged();
+        } else {
+          postingIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       */
+      public Builder mergePostingId(io.dstore.Values.integerValue value) {
+        if (postingIdBuilder_ == null) {
+          if (postingId_ != null) {
+            postingId_ =
+              io.dstore.Values.integerValue.newBuilder(postingId_).mergeFrom(value).buildPartial();
+          } else {
+            postingId_ = value;
+          }
+          onChanged();
+        } else {
+          postingIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       */
+      public Builder clearPostingId() {
+        if (postingIdBuilder_ == null) {
+          postingId_ = null;
+          onChanged();
+        } else {
+          postingId_ = null;
+          postingIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getPostingIdBuilder() {
+        
+        onChanged();
+        return getPostingIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder() {
+        if (postingIdBuilder_ != null) {
+          return postingIdBuilder_.getMessageOrBuilder();
+        } else {
+          return postingId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getPostingIdFieldBuilder() {
+        if (postingIdBuilder_ == null) {
+          postingIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getPostingId(),
+                  getParentForChildren(),
+                  isClean());
+          postingId_ = null;
+        }
+        return postingIdBuilder_;
+      }
+
+      private boolean postingIdNull_ ;
+      /**
+       * <code>optional bool posting_id_null = 1004;</code>
+       */
+      public boolean getPostingIdNull() {
+        return postingIdNull_;
+      }
+      /**
+       * <code>optional bool posting_id_null = 1004;</code>
+       */
+      public Builder setPostingIdNull(boolean value) {
+        
+        postingIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool posting_id_null = 1004;</code>
+       */
+      public Builder clearPostingIdNull() {
+        
+        postingIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue maintainSearchPostings_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> maintainSearchPostingsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
        */
       public boolean hasMaintainSearchPostings() {
         return maintainSearchPostingsBuilder_ != null || maintainSearchPostings_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
        */
       public io.dstore.Values.booleanValue getMaintainSearchPostings() {
         if (maintainSearchPostingsBuilder_ == null) {
@@ -1322,7 +1566,7 @@ public final class AcInsertActionLogAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
        */
       public Builder setMaintainSearchPostings(io.dstore.Values.booleanValue value) {
         if (maintainSearchPostingsBuilder_ == null) {
@@ -1338,7 +1582,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
        */
       public Builder setMaintainSearchPostings(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1352,7 +1596,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
        */
       public Builder mergeMaintainSearchPostings(io.dstore.Values.booleanValue value) {
         if (maintainSearchPostingsBuilder_ == null) {
@@ -1370,7 +1614,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
        */
       public Builder clearMaintainSearchPostings() {
         if (maintainSearchPostingsBuilder_ == null) {
@@ -1384,7 +1628,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
        */
       public io.dstore.Values.booleanValue.Builder getMaintainSearchPostingsBuilder() {
         
@@ -1392,7 +1636,7 @@ public final class AcInsertActionLogAd {
         return getMaintainSearchPostingsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getMaintainSearchPostingsOrBuilder() {
         if (maintainSearchPostingsBuilder_ != null) {
@@ -1403,7 +1647,7 @@ public final class AcInsertActionLogAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1421,13 +1665,13 @@ public final class AcInsertActionLogAd {
 
       private boolean maintainSearchPostingsNull_ ;
       /**
-       * <code>optional bool maintain_search_postings_null = 1004;</code>
+       * <code>optional bool maintain_search_postings_null = 1005;</code>
        */
       public boolean getMaintainSearchPostingsNull() {
         return maintainSearchPostingsNull_;
       }
       /**
-       * <code>optional bool maintain_search_postings_null = 1004;</code>
+       * <code>optional bool maintain_search_postings_null = 1005;</code>
        */
       public Builder setMaintainSearchPostingsNull(boolean value) {
         
@@ -1436,7 +1680,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional bool maintain_search_postings_null = 1004;</code>
+       * <code>optional bool maintain_search_postings_null = 1005;</code>
        */
       public Builder clearMaintainSearchPostingsNull() {
         
@@ -1449,13 +1693,13 @@ public final class AcInsertActionLogAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> savePostingPropertiesBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
        */
       public boolean hasSavePostingProperties() {
         return savePostingPropertiesBuilder_ != null || savePostingProperties_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
        */
       public io.dstore.Values.integerValue getSavePostingProperties() {
         if (savePostingPropertiesBuilder_ == null) {
@@ -1465,7 +1709,7 @@ public final class AcInsertActionLogAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
        */
       public Builder setSavePostingProperties(io.dstore.Values.integerValue value) {
         if (savePostingPropertiesBuilder_ == null) {
@@ -1481,7 +1725,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
        */
       public Builder setSavePostingProperties(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1495,7 +1739,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
        */
       public Builder mergeSavePostingProperties(io.dstore.Values.integerValue value) {
         if (savePostingPropertiesBuilder_ == null) {
@@ -1513,7 +1757,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
        */
       public Builder clearSavePostingProperties() {
         if (savePostingPropertiesBuilder_ == null) {
@@ -1527,7 +1771,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
        */
       public io.dstore.Values.integerValue.Builder getSavePostingPropertiesBuilder() {
         
@@ -1535,7 +1779,7 @@ public final class AcInsertActionLogAd {
         return getSavePostingPropertiesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSavePostingPropertiesOrBuilder() {
         if (savePostingPropertiesBuilder_ != null) {
@@ -1546,7 +1790,7 @@ public final class AcInsertActionLogAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1564,13 +1808,13 @@ public final class AcInsertActionLogAd {
 
       private boolean savePostingPropertiesNull_ ;
       /**
-       * <code>optional bool save_posting_properties_null = 1005;</code>
+       * <code>optional bool save_posting_properties_null = 1006;</code>
        */
       public boolean getSavePostingPropertiesNull() {
         return savePostingPropertiesNull_;
       }
       /**
-       * <code>optional bool save_posting_properties_null = 1005;</code>
+       * <code>optional bool save_posting_properties_null = 1006;</code>
        */
       public Builder setSavePostingPropertiesNull(boolean value) {
         
@@ -1579,7 +1823,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional bool save_posting_properties_null = 1005;</code>
+       * <code>optional bool save_posting_properties_null = 1006;</code>
        */
       public Builder clearSavePostingPropertiesNull() {
         
@@ -1592,13 +1836,13 @@ public final class AcInsertActionLogAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 7;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 7;</code>
        */
       public io.dstore.Values.stringValue getCountry() {
         if (countryBuilder_ == null) {
@@ -1608,7 +1852,7 @@ public final class AcInsertActionLogAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 7;</code>
        */
       public Builder setCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
@@ -1624,7 +1868,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 7;</code>
        */
       public Builder setCountry(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1638,7 +1882,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 7;</code>
        */
       public Builder mergeCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
@@ -1656,7 +1900,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 7;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -1670,7 +1914,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 7;</code>
        */
       public io.dstore.Values.stringValue.Builder getCountryBuilder() {
         
@@ -1678,7 +1922,7 @@ public final class AcInsertActionLogAd {
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 7;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
@@ -1689,7 +1933,7 @@ public final class AcInsertActionLogAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1707,13 +1951,13 @@ public final class AcInsertActionLogAd {
 
       private boolean countryNull_ ;
       /**
-       * <code>optional bool country_null = 1006;</code>
+       * <code>optional bool country_null = 1007;</code>
        */
       public boolean getCountryNull() {
         return countryNull_;
       }
       /**
-       * <code>optional bool country_null = 1006;</code>
+       * <code>optional bool country_null = 1007;</code>
        */
       public Builder setCountryNull(boolean value) {
         
@@ -1722,7 +1966,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional bool country_null = 1006;</code>
+       * <code>optional bool country_null = 1007;</code>
        */
       public Builder clearCountryNull() {
         
@@ -4698,33 +4942,36 @@ public final class AcInsertActionLogAd {
       "ctionLog_Ad\032\023dstore/values.proto\032\031dstore" +
       "/engine/error.proto\032\033dstore/engine/messa" +
       "ge.proto\032#dstore/engine/metainformation." +
-      "proto\"\211\004\n\nParameters\022+\n\006result\030\001 \001(\0132\033.d" +
+      "proto\"\324\004\n\nParameters\022+\n\006result\030\001 \001(\0132\033.d" +
       "store.values.integerValue\022\024\n\013result_null" +
       "\030\351\007 \001(\010\022.\n\taction_id\030\002 \001(\0132\033.dstore.valu" +
       "es.integerValue\022\027\n\016action_id_null\030\352\007 \001(\010" +
       "\022:\n\025replace_last_log_part\030\003 \001(\0132\033.dstore",
       ".values.booleanValue\022#\n\032replace_last_log" +
-      "_part_null\030\353\007 \001(\010\022=\n\030maintain_search_pos" +
-      "tings\030\004 \001(\0132\033.dstore.values.booleanValue" +
-      "\022&\n\035maintain_search_postings_null\030\354\007 \001(\010" +
-      "\022<\n\027save_posting_properties\030\005 \001(\0132\033.dsto" +
-      "re.values.integerValue\022%\n\034save_posting_p" +
-      "roperties_null\030\355\007 \001(\010\022+\n\007country\030\006 \001(\0132\032" +
-      ".dstore.values.stringValue\022\025\n\014country_nu" +
-      "ll\030\356\007 \001(\010\"\331\003\n\010Response\022)\n\005error\030\001 \001(\0132\032." +
-      "dstore.engine.error.Error\022H\n\020meta_inform",
-      "ation\030\002 \003(\0132..dstore.engine.metainformat" +
-      "ion.MetaInformation\022/\n\007message\030\003 \003(\0132\036.d" +
-      "store.engine.message.Message\022>\n\003row\030\004 \003(" +
-      "\01321.dstore.engine.ac_InsertActionLog_Ad." +
-      "Response.Row\022/\n\nposting_id\030e \001(\0132\033.dstor" +
-      "e.values.integerValue\032\265\001\n\003Row\022\017\n\006row_id\030" +
-      "\220N \001(\005\022?\n\031posting_characteristic_id\030\221N \001" +
-      "(\0132\033.dstore.values.integerValue\022*\n\005value" +
-      "\030\222N \001(\0132\032.dstore.values.stringValue\0220\n\ne" +
-      "rror_code\030\223N \001(\0132\033.dstore.values.integer",
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "_part_null\030\353\007 \001(\010\022/\n\nposting_id\030\004 \001(\0132\033." +
+      "dstore.values.integerValue\022\030\n\017posting_id" +
+      "_null\030\354\007 \001(\010\022=\n\030maintain_search_postings" +
+      "\030\005 \001(\0132\033.dstore.values.booleanValue\022&\n\035m" +
+      "aintain_search_postings_null\030\355\007 \001(\010\022<\n\027s" +
+      "ave_posting_properties\030\006 \001(\0132\033.dstore.va" +
+      "lues.integerValue\022%\n\034save_posting_proper" +
+      "ties_null\030\356\007 \001(\010\022+\n\007country\030\007 \001(\0132\032.dsto" +
+      "re.values.stringValue\022\025\n\014country_null\030\357\007",
+      " \001(\010\"\331\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
+      "e.engine.error.Error\022H\n\020meta_information" +
+      "\030\002 \003(\0132..dstore.engine.metainformation.M" +
+      "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore" +
+      ".engine.message.Message\022>\n\003row\030\004 \003(\01321.d" +
+      "store.engine.ac_InsertActionLog_Ad.Respo" +
+      "nse.Row\022/\n\nposting_id\030e \001(\0132\033.dstore.val" +
+      "ues.integerValue\032\265\001\n\003Row\022\017\n\006row_id\030\220N \001(" +
+      "\005\022?\n\031posting_characteristic_id\030\221N \001(\0132\033." +
+      "dstore.values.integerValue\022*\n\005value\030\222N \001",
+      "(\0132\032.dstore.values.stringValue\0220\n\nerror_" +
+      "code\030\223N \001(\0132\033.dstore.values.integerValue" +
+      "BV\n\033io.dstore.engine.proceduresZ7gosdk.d" +
+      "store.de/engine/procedures/ac_InsertActi" +
+      "onLog_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4747,7 +4994,7 @@ public final class AcInsertActionLogAd {
     internal_static_dstore_engine_ac_InsertActionLog_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_ac_InsertActionLog_Ad_Parameters_descriptor,
-        new java.lang.String[] { "Result", "ResultNull", "ActionId", "ActionIdNull", "ReplaceLastLogPart", "ReplaceLastLogPartNull", "MaintainSearchPostings", "MaintainSearchPostingsNull", "SavePostingProperties", "SavePostingPropertiesNull", "Country", "CountryNull", });
+        new java.lang.String[] { "Result", "ResultNull", "ActionId", "ActionIdNull", "ReplaceLastLogPart", "ReplaceLastLogPartNull", "PostingId", "PostingIdNull", "MaintainSearchPostings", "MaintainSearchPostingsNull", "SavePostingProperties", "SavePostingPropertiesNull", "Country", "CountryNull", });
     internal_static_dstore_engine_ac_InsertActionLog_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_ac_InsertActionLog_Ad_Response_fieldAccessorTable = new

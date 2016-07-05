@@ -49,38 +49,56 @@ public final class OmGetCampaignSettingEntry {
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+     */
+    boolean hasSettingValue();
+    /**
+     * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+     */
+    io.dstore.Values.stringValue getSettingValue();
+    /**
+     * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getSettingValueOrBuilder();
+
+    /**
+     * <code>optional bool setting_value_null = 1003;</code>
+     */
+    boolean getSettingValueNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     io.dstore.Values.booleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
-     * <code>optional bool select_result_null = 1003;</code>
+     * <code>optional bool select_result_null = 1004;</code>
      */
     boolean getSelectResultNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     boolean hasPrintErrorMsgIfEntryIsMissing();
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     io.dstore.Values.booleanValue getPrintErrorMsgIfEntryIsMissing();
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder();
 
     /**
-     * <code>optional bool print_error_msg_if_entry_is_missing_null = 1004;</code>
+     * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
      */
     boolean getPrintErrorMsgIfEntryIsMissingNull();
   }
@@ -98,6 +116,7 @@ public final class OmGetCampaignSettingEntry {
     private Parameters() {
       campaignIdNull_ = false;
       keyVariableNull_ = false;
+      settingValueNull_ = false;
       selectResultNull_ = false;
       printErrorMsgIfEntryIsMissingNull_ = false;
     }
@@ -153,6 +172,19 @@ public final class OmGetCampaignSettingEntry {
               break;
             }
             case 26: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (settingValue_ != null) {
+                subBuilder = settingValue_.toBuilder();
+              }
+              settingValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(settingValue_);
+                settingValue_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 34: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
@@ -165,7 +197,7 @@ public final class OmGetCampaignSettingEntry {
 
               break;
             }
-            case 34: {
+            case 42: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (printErrorMsgIfEntryIsMissing_ != null) {
                 subBuilder = printErrorMsgIfEntryIsMissing_.toBuilder();
@@ -190,10 +222,15 @@ public final class OmGetCampaignSettingEntry {
             }
             case 8024: {
 
-              selectResultNull_ = input.readBool();
+              settingValueNull_ = input.readBool();
               break;
             }
             case 8032: {
+
+              selectResultNull_ = input.readBool();
+              break;
+            }
+            case 8040: {
 
               printErrorMsgIfEntryIsMissingNull_ = input.readBool();
               break;
@@ -282,61 +319,91 @@ public final class OmGetCampaignSettingEntry {
       return keyVariableNull_;
     }
 
-    public static final int SELECT_RESULT_FIELD_NUMBER = 3;
+    public static final int SETTING_VALUE_FIELD_NUMBER = 3;
+    private io.dstore.Values.stringValue settingValue_;
+    /**
+     * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+     */
+    public boolean hasSettingValue() {
+      return settingValue_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+     */
+    public io.dstore.Values.stringValue getSettingValue() {
+      return settingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : settingValue_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getSettingValueOrBuilder() {
+      return getSettingValue();
+    }
+
+    public static final int SETTING_VALUE_NULL_FIELD_NUMBER = 1003;
+    private boolean settingValueNull_;
+    /**
+     * <code>optional bool setting_value_null = 1003;</code>
+     */
+    public boolean getSettingValueNull() {
+      return settingValueNull_;
+    }
+
+    public static final int SELECT_RESULT_FIELD_NUMBER = 4;
     private io.dstore.Values.booleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     public io.dstore.Values.booleanValue getSelectResult() {
       return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
-    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1003;
+    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1004;
     private boolean selectResultNull_;
     /**
-     * <code>optional bool select_result_null = 1003;</code>
+     * <code>optional bool select_result_null = 1004;</code>
      */
     public boolean getSelectResultNull() {
       return selectResultNull_;
     }
 
-    public static final int PRINT_ERROR_MSG_IF_ENTRY_IS_MISSING_FIELD_NUMBER = 4;
+    public static final int PRINT_ERROR_MSG_IF_ENTRY_IS_MISSING_FIELD_NUMBER = 5;
     private io.dstore.Values.booleanValue printErrorMsgIfEntryIsMissing_;
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     public boolean hasPrintErrorMsgIfEntryIsMissing() {
       return printErrorMsgIfEntryIsMissing_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     public io.dstore.Values.booleanValue getPrintErrorMsgIfEntryIsMissing() {
       return printErrorMsgIfEntryIsMissing_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : printErrorMsgIfEntryIsMissing_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder() {
       return getPrintErrorMsgIfEntryIsMissing();
     }
 
-    public static final int PRINT_ERROR_MSG_IF_ENTRY_IS_MISSING_NULL_FIELD_NUMBER = 1004;
+    public static final int PRINT_ERROR_MSG_IF_ENTRY_IS_MISSING_NULL_FIELD_NUMBER = 1005;
     private boolean printErrorMsgIfEntryIsMissingNull_;
     /**
-     * <code>optional bool print_error_msg_if_entry_is_missing_null = 1004;</code>
+     * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
      */
     public boolean getPrintErrorMsgIfEntryIsMissingNull() {
       return printErrorMsgIfEntryIsMissingNull_;
@@ -360,11 +427,14 @@ public final class OmGetCampaignSettingEntry {
       if (keyVariable_ != null) {
         output.writeMessage(2, getKeyVariable());
       }
+      if (settingValue_ != null) {
+        output.writeMessage(3, getSettingValue());
+      }
       if (selectResult_ != null) {
-        output.writeMessage(3, getSelectResult());
+        output.writeMessage(4, getSelectResult());
       }
       if (printErrorMsgIfEntryIsMissing_ != null) {
-        output.writeMessage(4, getPrintErrorMsgIfEntryIsMissing());
+        output.writeMessage(5, getPrintErrorMsgIfEntryIsMissing());
       }
       if (campaignIdNull_ != false) {
         output.writeBool(1001, campaignIdNull_);
@@ -372,11 +442,14 @@ public final class OmGetCampaignSettingEntry {
       if (keyVariableNull_ != false) {
         output.writeBool(1002, keyVariableNull_);
       }
+      if (settingValueNull_ != false) {
+        output.writeBool(1003, settingValueNull_);
+      }
       if (selectResultNull_ != false) {
-        output.writeBool(1003, selectResultNull_);
+        output.writeBool(1004, selectResultNull_);
       }
       if (printErrorMsgIfEntryIsMissingNull_ != false) {
-        output.writeBool(1004, printErrorMsgIfEntryIsMissingNull_);
+        output.writeBool(1005, printErrorMsgIfEntryIsMissingNull_);
       }
     }
 
@@ -393,13 +466,17 @@ public final class OmGetCampaignSettingEntry {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, getKeyVariable());
       }
+      if (settingValue_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getSettingValue());
+      }
       if (selectResult_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getSelectResult());
+          .computeMessageSize(4, getSelectResult());
       }
       if (printErrorMsgIfEntryIsMissing_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getPrintErrorMsgIfEntryIsMissing());
+          .computeMessageSize(5, getPrintErrorMsgIfEntryIsMissing());
       }
       if (campaignIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -409,13 +486,17 @@ public final class OmGetCampaignSettingEntry {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1002, keyVariableNull_);
       }
+      if (settingValueNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1003, settingValueNull_);
+      }
       if (selectResultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, selectResultNull_);
+          .computeBoolSize(1004, selectResultNull_);
       }
       if (printErrorMsgIfEntryIsMissingNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, printErrorMsgIfEntryIsMissingNull_);
+          .computeBoolSize(1005, printErrorMsgIfEntryIsMissingNull_);
       }
       memoizedSize = size;
       return size;
@@ -544,6 +625,14 @@ public final class OmGetCampaignSettingEntry {
         }
         keyVariableNull_ = false;
 
+        if (settingValueBuilder_ == null) {
+          settingValue_ = null;
+        } else {
+          settingValue_ = null;
+          settingValueBuilder_ = null;
+        }
+        settingValueNull_ = false;
+
         if (selectResultBuilder_ == null) {
           selectResult_ = null;
         } else {
@@ -594,6 +683,12 @@ public final class OmGetCampaignSettingEntry {
           result.keyVariable_ = keyVariableBuilder_.build();
         }
         result.keyVariableNull_ = keyVariableNull_;
+        if (settingValueBuilder_ == null) {
+          result.settingValue_ = settingValue_;
+        } else {
+          result.settingValue_ = settingValueBuilder_.build();
+        }
+        result.settingValueNull_ = settingValueNull_;
         if (selectResultBuilder_ == null) {
           result.selectResult_ = selectResult_;
         } else {
@@ -632,6 +727,12 @@ public final class OmGetCampaignSettingEntry {
         }
         if (other.getKeyVariableNull() != false) {
           setKeyVariableNull(other.getKeyVariableNull());
+        }
+        if (other.hasSettingValue()) {
+          mergeSettingValue(other.getSettingValue());
+        }
+        if (other.getSettingValueNull() != false) {
+          setSettingValueNull(other.getSettingValueNull());
         }
         if (other.hasSelectResult()) {
           mergeSelectResult(other.getSelectResult());
@@ -957,17 +1058,160 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
 
+      private io.dstore.Values.stringValue settingValue_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> settingValueBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+       */
+      public boolean hasSettingValue() {
+        return settingValueBuilder_ != null || settingValue_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+       */
+      public io.dstore.Values.stringValue getSettingValue() {
+        if (settingValueBuilder_ == null) {
+          return settingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : settingValue_;
+        } else {
+          return settingValueBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+       */
+      public Builder setSettingValue(io.dstore.Values.stringValue value) {
+        if (settingValueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          settingValue_ = value;
+          onChanged();
+        } else {
+          settingValueBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+       */
+      public Builder setSettingValue(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (settingValueBuilder_ == null) {
+          settingValue_ = builderForValue.build();
+          onChanged();
+        } else {
+          settingValueBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+       */
+      public Builder mergeSettingValue(io.dstore.Values.stringValue value) {
+        if (settingValueBuilder_ == null) {
+          if (settingValue_ != null) {
+            settingValue_ =
+              io.dstore.Values.stringValue.newBuilder(settingValue_).mergeFrom(value).buildPartial();
+          } else {
+            settingValue_ = value;
+          }
+          onChanged();
+        } else {
+          settingValueBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+       */
+      public Builder clearSettingValue() {
+        if (settingValueBuilder_ == null) {
+          settingValue_ = null;
+          onChanged();
+        } else {
+          settingValue_ = null;
+          settingValueBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getSettingValueBuilder() {
+        
+        onChanged();
+        return getSettingValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getSettingValueOrBuilder() {
+        if (settingValueBuilder_ != null) {
+          return settingValueBuilder_.getMessageOrBuilder();
+        } else {
+          return settingValue_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : settingValue_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue setting_value = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getSettingValueFieldBuilder() {
+        if (settingValueBuilder_ == null) {
+          settingValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getSettingValue(),
+                  getParentForChildren(),
+                  isClean());
+          settingValue_ = null;
+        }
+        return settingValueBuilder_;
+      }
+
+      private boolean settingValueNull_ ;
+      /**
+       * <code>optional bool setting_value_null = 1003;</code>
+       */
+      public boolean getSettingValueNull() {
+        return settingValueNull_;
+      }
+      /**
+       * <code>optional bool setting_value_null = 1003;</code>
+       */
+      public Builder setSettingValueNull(boolean value) {
+        
+        settingValueNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool setting_value_null = 1003;</code>
+       */
+      public Builder clearSettingValueNull() {
+        
+        settingValueNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public io.dstore.Values.booleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -977,7 +1221,7 @@ public final class OmGetCampaignSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder setSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -993,7 +1237,7 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder setSelectResult(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1007,7 +1251,7 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1025,7 +1269,7 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1039,7 +1283,7 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
         
@@ -1047,7 +1291,7 @@ public final class OmGetCampaignSettingEntry {
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
@@ -1058,7 +1302,7 @@ public final class OmGetCampaignSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1076,13 +1320,13 @@ public final class OmGetCampaignSettingEntry {
 
       private boolean selectResultNull_ ;
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>optional bool select_result_null = 1004;</code>
        */
       public boolean getSelectResultNull() {
         return selectResultNull_;
       }
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>optional bool select_result_null = 1004;</code>
        */
       public Builder setSelectResultNull(boolean value) {
         
@@ -1091,7 +1335,7 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>optional bool select_result_null = 1004;</code>
        */
       public Builder clearSelectResultNull() {
         
@@ -1104,13 +1348,13 @@ public final class OmGetCampaignSettingEntry {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> printErrorMsgIfEntryIsMissingBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public boolean hasPrintErrorMsgIfEntryIsMissing() {
         return printErrorMsgIfEntryIsMissingBuilder_ != null || printErrorMsgIfEntryIsMissing_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public io.dstore.Values.booleanValue getPrintErrorMsgIfEntryIsMissing() {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
@@ -1120,7 +1364,7 @@ public final class OmGetCampaignSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public Builder setPrintErrorMsgIfEntryIsMissing(io.dstore.Values.booleanValue value) {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
@@ -1136,7 +1380,7 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public Builder setPrintErrorMsgIfEntryIsMissing(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1150,7 +1394,7 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public Builder mergePrintErrorMsgIfEntryIsMissing(io.dstore.Values.booleanValue value) {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
@@ -1168,7 +1412,7 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public Builder clearPrintErrorMsgIfEntryIsMissing() {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
@@ -1182,7 +1426,7 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public io.dstore.Values.booleanValue.Builder getPrintErrorMsgIfEntryIsMissingBuilder() {
         
@@ -1190,7 +1434,7 @@ public final class OmGetCampaignSettingEntry {
         return getPrintErrorMsgIfEntryIsMissingFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder() {
         if (printErrorMsgIfEntryIsMissingBuilder_ != null) {
@@ -1201,7 +1445,7 @@ public final class OmGetCampaignSettingEntry {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 4;</code>
+       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1219,13 +1463,13 @@ public final class OmGetCampaignSettingEntry {
 
       private boolean printErrorMsgIfEntryIsMissingNull_ ;
       /**
-       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1004;</code>
+       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
        */
       public boolean getPrintErrorMsgIfEntryIsMissingNull() {
         return printErrorMsgIfEntryIsMissingNull_;
       }
       /**
-       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1004;</code>
+       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
        */
       public Builder setPrintErrorMsgIfEntryIsMissingNull(boolean value) {
         
@@ -1234,7 +1478,7 @@ public final class OmGetCampaignSettingEntry {
         return this;
       }
       /**
-       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1004;</code>
+       * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
        */
       public Builder clearPrintErrorMsgIfEntryIsMissingNull() {
         
@@ -3720,27 +3964,30 @@ public final class OmGetCampaignSettingEntry {
       "tCampaignSettingEntry\032\023dstore/values.pro" +
       "to\032\031dstore/engine/error.proto\032\033dstore/en" +
       "gine/message.proto\032#dstore/engine/metain" +
-      "formation.proto\"\365\002\n\nParameters\0220\n\013campai" +
+      "formation.proto\"\305\003\n\nParameters\0220\n\013campai" +
       "gn_id\030\001 \001(\0132\033.dstore.values.integerValue" +
       "\022\031\n\020campaign_id_null\030\351\007 \001(\010\0220\n\014key_varia" +
       "ble\030\002 \001(\0132\032.dstore.values.stringValue\022\032\n" +
-      "\021key_variable_null\030\352\007 \001(\010\0222\n\rselect_resu",
-      "lt\030\003 \001(\0132\033.dstore.values.booleanValue\022\033\n" +
-      "\022select_result_null\030\353\007 \001(\010\022H\n#print_erro" +
-      "r_msg_if_entry_is_missing\030\004 \001(\0132\033.dstore" +
+      "\021key_variable_null\030\352\007 \001(\010\0221\n\rsetting_val",
+      "ue\030\003 \001(\0132\032.dstore.values.stringValue\022\033\n\022" +
+      "setting_value_null\030\353\007 \001(\010\0222\n\rselect_resu" +
+      "lt\030\004 \001(\0132\033.dstore.values.booleanValue\022\033\n" +
+      "\022select_result_null\030\354\007 \001(\010\022H\n#print_erro" +
+      "r_msg_if_entry_is_missing\030\005 \001(\0132\033.dstore" +
       ".values.booleanValue\0221\n(print_error_msg_" +
-      "if_entry_is_missing_null\030\354\007 \001(\010\"\364\002\n\010Resp" +
+      "if_entry_is_missing_null\030\355\007 \001(\010\"\364\002\n\010Resp" +
       "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro" +
       "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto" +
-      "re.engine.metainformation.MetaInformatio" +
+      "re.engine.metainformation.MetaInformatio",
       "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa" +
-      "ge.Message\022C\n\003row\030\004 \003(\01326.dstore.engine.",
+      "ge.Message\022C\n\003row\030\004 \003(\01326.dstore.engine." +
       "om_GetCampaignSettingEntry.Response.Row\022" +
       "1\n\rsetting_value\030e \001(\0132\032.dstore.values.s" +
       "tringValue\032J\n\003Row\022\017\n\006row_id\030\220N \001(\005\0222\n\rse" +
       "tting_value\030\221N \001(\0132\032.dstore.values.strin" +
-      "gValueB\035\n\033io.dstore.engine.proceduresb\006p" +
-      "roto3"
+      "gValueB[\n\033io.dstore.engine.proceduresZ<g" +
+      "osdk.dstore.de/engine/procedures/om_GetC" +
+      "ampaignSettingEntryb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3763,7 +4010,7 @@ public final class OmGetCampaignSettingEntry {
     internal_static_dstore_engine_om_GetCampaignSettingEntry_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignSettingEntry_Parameters_descriptor,
-        new java.lang.String[] { "CampaignId", "CampaignIdNull", "KeyVariable", "KeyVariableNull", "SelectResult", "SelectResultNull", "PrintErrorMsgIfEntryIsMissing", "PrintErrorMsgIfEntryIsMissingNull", });
+        new java.lang.String[] { "CampaignId", "CampaignIdNull", "KeyVariable", "KeyVariableNull", "SettingValue", "SettingValueNull", "SelectResult", "SelectResultNull", "PrintErrorMsgIfEntryIsMissing", "PrintErrorMsgIfEntryIsMissingNull", });
     internal_static_dstore_engine_om_GetCampaignSettingEntry_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetCampaignSettingEntry_Response_fieldAccessorTable = new

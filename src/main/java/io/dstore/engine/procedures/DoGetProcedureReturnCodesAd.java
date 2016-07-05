@@ -4404,8 +4404,9 @@ public final class DoGetProcedureReturnCodesAd {
       "ore.values.stringValue\022;\n\025return_code_oc" +
       "curence\030\223N \001(\0132\033.dstore.values.integerVa" +
       "lue\0223\n\016procedure_name\030\224N \001(\0132\032.dstore.va" +
-      "lues.stringValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "lues.stringValueB^\n\033io.dstore.engine.pro" +
+      "ceduresZ?gosdk.dstore.de/engine/procedur" +
+      "es/do_GetProcedureReturnCodes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -31,92 +31,110 @@ public final class MiModifyTRITriggerWorkflowAd {
     boolean getTriggerIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     */
+    boolean hasWorkStepNo();
+    /**
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     */
+    io.dstore.Values.integerValue getWorkStepNo();
+    /**
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder();
+
+    /**
+     * <code>optional bool work_step_no_null = 1002;</code>
+     */
+    boolean getWorkStepNoNull();
+
+    /**
+     * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
      */
     boolean hasIterationList();
     /**
-     * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+     * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
      */
     io.dstore.Values.stringValue getIterationList();
     /**
-     * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+     * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
      */
     io.dstore.Values.stringValueOrBuilder getIterationListOrBuilder();
 
     /**
-     * <code>optional bool iteration_list_null = 1002;</code>
+     * <code>optional bool iteration_list_null = 1003;</code>
      */
     boolean getIterationListNull();
 
     /**
-     * <code>optional .dstore.values.stringValue work_step = 3;</code>
+     * <code>optional .dstore.values.stringValue work_step = 4;</code>
      */
     boolean hasWorkStep();
     /**
-     * <code>optional .dstore.values.stringValue work_step = 3;</code>
+     * <code>optional .dstore.values.stringValue work_step = 4;</code>
      */
     io.dstore.Values.stringValue getWorkStep();
     /**
-     * <code>optional .dstore.values.stringValue work_step = 3;</code>
+     * <code>optional .dstore.values.stringValue work_step = 4;</code>
      */
     io.dstore.Values.stringValueOrBuilder getWorkStepOrBuilder();
 
     /**
-     * <code>optional bool work_step_null = 1003;</code>
+     * <code>optional bool work_step_null = 1004;</code>
      */
     boolean getWorkStepNull();
 
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.stringValue description = 5;</code>
      */
     boolean hasDescription();
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.stringValue description = 5;</code>
      */
     io.dstore.Values.stringValue getDescription();
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.stringValue description = 5;</code>
      */
     io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
     /**
-     * <code>optional bool description_null = 1004;</code>
+     * <code>optional bool description_null = 1005;</code>
      */
     boolean getDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+     * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
      */
     boolean hasCancelOnError();
     /**
-     * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+     * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
      */
     io.dstore.Values.integerValue getCancelOnError();
     /**
-     * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+     * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
      */
     io.dstore.Values.integerValueOrBuilder getCancelOnErrorOrBuilder();
 
     /**
-     * <code>optional bool cancel_on_error_null = 1005;</code>
+     * <code>optional bool cancel_on_error_null = 1006;</code>
      */
     boolean getCancelOnErrorNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+     * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
      */
     boolean hasDeleteWorkStep();
     /**
-     * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+     * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
      */
     io.dstore.Values.booleanValue getDeleteWorkStep();
     /**
-     * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+     * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getDeleteWorkStepOrBuilder();
 
     /**
-     * <code>optional bool delete_work_step_null = 1006;</code>
+     * <code>optional bool delete_work_step_null = 1007;</code>
      */
     boolean getDeleteWorkStepNull();
   }
@@ -133,6 +151,7 @@ public final class MiModifyTRITriggerWorkflowAd {
     }
     private Parameters() {
       triggerIdNull_ = false;
+      workStepNoNull_ = false;
       iterationListNull_ = false;
       workStepNull_ = false;
       descriptionNull_ = false;
@@ -178,6 +197,19 @@ public final class MiModifyTRITriggerWorkflowAd {
               break;
             }
             case 18: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (workStepNo_ != null) {
+                subBuilder = workStepNo_.toBuilder();
+              }
+              workStepNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(workStepNo_);
+                workStepNo_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 26: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (iterationList_ != null) {
                 subBuilder = iterationList_.toBuilder();
@@ -190,7 +222,7 @@ public final class MiModifyTRITriggerWorkflowAd {
 
               break;
             }
-            case 26: {
+            case 34: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (workStep_ != null) {
                 subBuilder = workStep_.toBuilder();
@@ -203,7 +235,7 @@ public final class MiModifyTRITriggerWorkflowAd {
 
               break;
             }
-            case 34: {
+            case 42: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (description_ != null) {
                 subBuilder = description_.toBuilder();
@@ -216,7 +248,7 @@ public final class MiModifyTRITriggerWorkflowAd {
 
               break;
             }
-            case 42: {
+            case 50: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (cancelOnError_ != null) {
                 subBuilder = cancelOnError_.toBuilder();
@@ -229,7 +261,7 @@ public final class MiModifyTRITriggerWorkflowAd {
 
               break;
             }
-            case 50: {
+            case 58: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deleteWorkStep_ != null) {
                 subBuilder = deleteWorkStep_.toBuilder();
@@ -249,25 +281,30 @@ public final class MiModifyTRITriggerWorkflowAd {
             }
             case 8016: {
 
-              iterationListNull_ = input.readBool();
+              workStepNoNull_ = input.readBool();
               break;
             }
             case 8024: {
 
-              workStepNull_ = input.readBool();
+              iterationListNull_ = input.readBool();
               break;
             }
             case 8032: {
 
-              descriptionNull_ = input.readBool();
+              workStepNull_ = input.readBool();
               break;
             }
             case 8040: {
 
-              cancelOnErrorNull_ = input.readBool();
+              descriptionNull_ = input.readBool();
               break;
             }
             case 8048: {
+
+              cancelOnErrorNull_ = input.readBool();
+              break;
+            }
+            case 8056: {
 
               deleteWorkStepNull_ = input.readBool();
               break;
@@ -326,151 +363,181 @@ public final class MiModifyTRITriggerWorkflowAd {
       return triggerIdNull_;
     }
 
-    public static final int ITERATION_LIST_FIELD_NUMBER = 2;
+    public static final int WORK_STEP_NO_FIELD_NUMBER = 2;
+    private io.dstore.Values.integerValue workStepNo_;
+    /**
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     */
+    public boolean hasWorkStepNo() {
+      return workStepNo_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     */
+    public io.dstore.Values.integerValue getWorkStepNo() {
+      return workStepNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder() {
+      return getWorkStepNo();
+    }
+
+    public static final int WORK_STEP_NO_NULL_FIELD_NUMBER = 1002;
+    private boolean workStepNoNull_;
+    /**
+     * <code>optional bool work_step_no_null = 1002;</code>
+     */
+    public boolean getWorkStepNoNull() {
+      return workStepNoNull_;
+    }
+
+    public static final int ITERATION_LIST_FIELD_NUMBER = 3;
     private io.dstore.Values.stringValue iterationList_;
     /**
-     * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+     * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
      */
     public boolean hasIterationList() {
       return iterationList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+     * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
      */
     public io.dstore.Values.stringValue getIterationList() {
       return iterationList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : iterationList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+     * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getIterationListOrBuilder() {
       return getIterationList();
     }
 
-    public static final int ITERATION_LIST_NULL_FIELD_NUMBER = 1002;
+    public static final int ITERATION_LIST_NULL_FIELD_NUMBER = 1003;
     private boolean iterationListNull_;
     /**
-     * <code>optional bool iteration_list_null = 1002;</code>
+     * <code>optional bool iteration_list_null = 1003;</code>
      */
     public boolean getIterationListNull() {
       return iterationListNull_;
     }
 
-    public static final int WORK_STEP_FIELD_NUMBER = 3;
+    public static final int WORK_STEP_FIELD_NUMBER = 4;
     private io.dstore.Values.stringValue workStep_;
     /**
-     * <code>optional .dstore.values.stringValue work_step = 3;</code>
+     * <code>optional .dstore.values.stringValue work_step = 4;</code>
      */
     public boolean hasWorkStep() {
       return workStep_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue work_step = 3;</code>
+     * <code>optional .dstore.values.stringValue work_step = 4;</code>
      */
     public io.dstore.Values.stringValue getWorkStep() {
       return workStep_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : workStep_;
     }
     /**
-     * <code>optional .dstore.values.stringValue work_step = 3;</code>
+     * <code>optional .dstore.values.stringValue work_step = 4;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getWorkStepOrBuilder() {
       return getWorkStep();
     }
 
-    public static final int WORK_STEP_NULL_FIELD_NUMBER = 1003;
+    public static final int WORK_STEP_NULL_FIELD_NUMBER = 1004;
     private boolean workStepNull_;
     /**
-     * <code>optional bool work_step_null = 1003;</code>
+     * <code>optional bool work_step_null = 1004;</code>
      */
     public boolean getWorkStepNull() {
       return workStepNull_;
     }
 
-    public static final int DESCRIPTION_FIELD_NUMBER = 4;
+    public static final int DESCRIPTION_FIELD_NUMBER = 5;
     private io.dstore.Values.stringValue description_;
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.stringValue description = 5;</code>
      */
     public boolean hasDescription() {
       return description_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.stringValue description = 5;</code>
      */
     public io.dstore.Values.stringValue getDescription() {
       return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
     }
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.stringValue description = 5;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
       return getDescription();
     }
 
-    public static final int DESCRIPTION_NULL_FIELD_NUMBER = 1004;
+    public static final int DESCRIPTION_NULL_FIELD_NUMBER = 1005;
     private boolean descriptionNull_;
     /**
-     * <code>optional bool description_null = 1004;</code>
+     * <code>optional bool description_null = 1005;</code>
      */
     public boolean getDescriptionNull() {
       return descriptionNull_;
     }
 
-    public static final int CANCEL_ON_ERROR_FIELD_NUMBER = 5;
+    public static final int CANCEL_ON_ERROR_FIELD_NUMBER = 6;
     private io.dstore.Values.integerValue cancelOnError_;
     /**
-     * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+     * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
      */
     public boolean hasCancelOnError() {
       return cancelOnError_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+     * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
      */
     public io.dstore.Values.integerValue getCancelOnError() {
       return cancelOnError_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cancelOnError_;
     }
     /**
-     * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+     * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getCancelOnErrorOrBuilder() {
       return getCancelOnError();
     }
 
-    public static final int CANCEL_ON_ERROR_NULL_FIELD_NUMBER = 1005;
+    public static final int CANCEL_ON_ERROR_NULL_FIELD_NUMBER = 1006;
     private boolean cancelOnErrorNull_;
     /**
-     * <code>optional bool cancel_on_error_null = 1005;</code>
+     * <code>optional bool cancel_on_error_null = 1006;</code>
      */
     public boolean getCancelOnErrorNull() {
       return cancelOnErrorNull_;
     }
 
-    public static final int DELETE_WORK_STEP_FIELD_NUMBER = 6;
+    public static final int DELETE_WORK_STEP_FIELD_NUMBER = 7;
     private io.dstore.Values.booleanValue deleteWorkStep_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+     * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
      */
     public boolean hasDeleteWorkStep() {
       return deleteWorkStep_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+     * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
      */
     public io.dstore.Values.booleanValue getDeleteWorkStep() {
       return deleteWorkStep_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteWorkStep_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+     * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getDeleteWorkStepOrBuilder() {
       return getDeleteWorkStep();
     }
 
-    public static final int DELETE_WORK_STEP_NULL_FIELD_NUMBER = 1006;
+    public static final int DELETE_WORK_STEP_NULL_FIELD_NUMBER = 1007;
     private boolean deleteWorkStepNull_;
     /**
-     * <code>optional bool delete_work_step_null = 1006;</code>
+     * <code>optional bool delete_work_step_null = 1007;</code>
      */
     public boolean getDeleteWorkStepNull() {
       return deleteWorkStepNull_;
@@ -491,38 +558,44 @@ public final class MiModifyTRITriggerWorkflowAd {
       if (triggerId_ != null) {
         output.writeMessage(1, getTriggerId());
       }
+      if (workStepNo_ != null) {
+        output.writeMessage(2, getWorkStepNo());
+      }
       if (iterationList_ != null) {
-        output.writeMessage(2, getIterationList());
+        output.writeMessage(3, getIterationList());
       }
       if (workStep_ != null) {
-        output.writeMessage(3, getWorkStep());
+        output.writeMessage(4, getWorkStep());
       }
       if (description_ != null) {
-        output.writeMessage(4, getDescription());
+        output.writeMessage(5, getDescription());
       }
       if (cancelOnError_ != null) {
-        output.writeMessage(5, getCancelOnError());
+        output.writeMessage(6, getCancelOnError());
       }
       if (deleteWorkStep_ != null) {
-        output.writeMessage(6, getDeleteWorkStep());
+        output.writeMessage(7, getDeleteWorkStep());
       }
       if (triggerIdNull_ != false) {
         output.writeBool(1001, triggerIdNull_);
       }
+      if (workStepNoNull_ != false) {
+        output.writeBool(1002, workStepNoNull_);
+      }
       if (iterationListNull_ != false) {
-        output.writeBool(1002, iterationListNull_);
+        output.writeBool(1003, iterationListNull_);
       }
       if (workStepNull_ != false) {
-        output.writeBool(1003, workStepNull_);
+        output.writeBool(1004, workStepNull_);
       }
       if (descriptionNull_ != false) {
-        output.writeBool(1004, descriptionNull_);
+        output.writeBool(1005, descriptionNull_);
       }
       if (cancelOnErrorNull_ != false) {
-        output.writeBool(1005, cancelOnErrorNull_);
+        output.writeBool(1006, cancelOnErrorNull_);
       }
       if (deleteWorkStepNull_ != false) {
-        output.writeBool(1006, deleteWorkStepNull_);
+        output.writeBool(1007, deleteWorkStepNull_);
       }
     }
 
@@ -535,49 +608,57 @@ public final class MiModifyTRITriggerWorkflowAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getTriggerId());
       }
+      if (workStepNo_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getWorkStepNo());
+      }
       if (iterationList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getIterationList());
+          .computeMessageSize(3, getIterationList());
       }
       if (workStep_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getWorkStep());
+          .computeMessageSize(4, getWorkStep());
       }
       if (description_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getDescription());
+          .computeMessageSize(5, getDescription());
       }
       if (cancelOnError_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getCancelOnError());
+          .computeMessageSize(6, getCancelOnError());
       }
       if (deleteWorkStep_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getDeleteWorkStep());
+          .computeMessageSize(7, getDeleteWorkStep());
       }
       if (triggerIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, triggerIdNull_);
       }
+      if (workStepNoNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1002, workStepNoNull_);
+      }
       if (iterationListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1002, iterationListNull_);
+          .computeBoolSize(1003, iterationListNull_);
       }
       if (workStepNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, workStepNull_);
+          .computeBoolSize(1004, workStepNull_);
       }
       if (descriptionNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, descriptionNull_);
+          .computeBoolSize(1005, descriptionNull_);
       }
       if (cancelOnErrorNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, cancelOnErrorNull_);
+          .computeBoolSize(1006, cancelOnErrorNull_);
       }
       if (deleteWorkStepNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, deleteWorkStepNull_);
+          .computeBoolSize(1007, deleteWorkStepNull_);
       }
       memoizedSize = size;
       return size;
@@ -698,6 +779,14 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
         triggerIdNull_ = false;
 
+        if (workStepNoBuilder_ == null) {
+          workStepNo_ = null;
+        } else {
+          workStepNo_ = null;
+          workStepNoBuilder_ = null;
+        }
+        workStepNoNull_ = false;
+
         if (iterationListBuilder_ == null) {
           iterationList_ = null;
         } else {
@@ -766,6 +855,12 @@ public final class MiModifyTRITriggerWorkflowAd {
           result.triggerId_ = triggerIdBuilder_.build();
         }
         result.triggerIdNull_ = triggerIdNull_;
+        if (workStepNoBuilder_ == null) {
+          result.workStepNo_ = workStepNo_;
+        } else {
+          result.workStepNo_ = workStepNoBuilder_.build();
+        }
+        result.workStepNoNull_ = workStepNoNull_;
         if (iterationListBuilder_ == null) {
           result.iterationList_ = iterationList_;
         } else {
@@ -816,6 +911,12 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
         if (other.getTriggerIdNull() != false) {
           setTriggerIdNull(other.getTriggerIdNull());
+        }
+        if (other.hasWorkStepNo()) {
+          mergeWorkStepNo(other.getWorkStepNo());
+        }
+        if (other.getWorkStepNoNull() != false) {
+          setWorkStepNoNull(other.getWorkStepNoNull());
         }
         if (other.hasIterationList()) {
           mergeIterationList(other.getIterationList());
@@ -1016,17 +1117,160 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue workStepNo_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> workStepNoBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       */
+      public boolean hasWorkStepNo() {
+        return workStepNoBuilder_ != null || workStepNo_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       */
+      public io.dstore.Values.integerValue getWorkStepNo() {
+        if (workStepNoBuilder_ == null) {
+          return workStepNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
+        } else {
+          return workStepNoBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       */
+      public Builder setWorkStepNo(io.dstore.Values.integerValue value) {
+        if (workStepNoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          workStepNo_ = value;
+          onChanged();
+        } else {
+          workStepNoBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       */
+      public Builder setWorkStepNo(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (workStepNoBuilder_ == null) {
+          workStepNo_ = builderForValue.build();
+          onChanged();
+        } else {
+          workStepNoBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       */
+      public Builder mergeWorkStepNo(io.dstore.Values.integerValue value) {
+        if (workStepNoBuilder_ == null) {
+          if (workStepNo_ != null) {
+            workStepNo_ =
+              io.dstore.Values.integerValue.newBuilder(workStepNo_).mergeFrom(value).buildPartial();
+          } else {
+            workStepNo_ = value;
+          }
+          onChanged();
+        } else {
+          workStepNoBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       */
+      public Builder clearWorkStepNo() {
+        if (workStepNoBuilder_ == null) {
+          workStepNo_ = null;
+          onChanged();
+        } else {
+          workStepNo_ = null;
+          workStepNoBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getWorkStepNoBuilder() {
+        
+        onChanged();
+        return getWorkStepNoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder() {
+        if (workStepNoBuilder_ != null) {
+          return workStepNoBuilder_.getMessageOrBuilder();
+        } else {
+          return workStepNo_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getWorkStepNoFieldBuilder() {
+        if (workStepNoBuilder_ == null) {
+          workStepNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getWorkStepNo(),
+                  getParentForChildren(),
+                  isClean());
+          workStepNo_ = null;
+        }
+        return workStepNoBuilder_;
+      }
+
+      private boolean workStepNoNull_ ;
+      /**
+       * <code>optional bool work_step_no_null = 1002;</code>
+       */
+      public boolean getWorkStepNoNull() {
+        return workStepNoNull_;
+      }
+      /**
+       * <code>optional bool work_step_no_null = 1002;</code>
+       */
+      public Builder setWorkStepNoNull(boolean value) {
+        
+        workStepNoNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool work_step_no_null = 1002;</code>
+       */
+      public Builder clearWorkStepNoNull() {
+        
+        workStepNoNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.stringValue iterationList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> iterationListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
        */
       public boolean hasIterationList() {
         return iterationListBuilder_ != null || iterationList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
        */
       public io.dstore.Values.stringValue getIterationList() {
         if (iterationListBuilder_ == null) {
@@ -1036,7 +1280,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
        */
       public Builder setIterationList(io.dstore.Values.stringValue value) {
         if (iterationListBuilder_ == null) {
@@ -1052,7 +1296,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
        */
       public Builder setIterationList(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1066,7 +1310,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
        */
       public Builder mergeIterationList(io.dstore.Values.stringValue value) {
         if (iterationListBuilder_ == null) {
@@ -1084,7 +1328,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
        */
       public Builder clearIterationList() {
         if (iterationListBuilder_ == null) {
@@ -1098,7 +1342,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
        */
       public io.dstore.Values.stringValue.Builder getIterationListBuilder() {
         
@@ -1106,7 +1350,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return getIterationListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getIterationListOrBuilder() {
         if (iterationListBuilder_ != null) {
@@ -1117,7 +1361,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue iteration_list = 2;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1135,13 +1379,13 @@ public final class MiModifyTRITriggerWorkflowAd {
 
       private boolean iterationListNull_ ;
       /**
-       * <code>optional bool iteration_list_null = 1002;</code>
+       * <code>optional bool iteration_list_null = 1003;</code>
        */
       public boolean getIterationListNull() {
         return iterationListNull_;
       }
       /**
-       * <code>optional bool iteration_list_null = 1002;</code>
+       * <code>optional bool iteration_list_null = 1003;</code>
        */
       public Builder setIterationListNull(boolean value) {
         
@@ -1150,7 +1394,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional bool iteration_list_null = 1002;</code>
+       * <code>optional bool iteration_list_null = 1003;</code>
        */
       public Builder clearIterationListNull() {
         
@@ -1163,13 +1407,13 @@ public final class MiModifyTRITriggerWorkflowAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> workStepBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue work_step = 3;</code>
+       * <code>optional .dstore.values.stringValue work_step = 4;</code>
        */
       public boolean hasWorkStep() {
         return workStepBuilder_ != null || workStep_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue work_step = 3;</code>
+       * <code>optional .dstore.values.stringValue work_step = 4;</code>
        */
       public io.dstore.Values.stringValue getWorkStep() {
         if (workStepBuilder_ == null) {
@@ -1179,7 +1423,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue work_step = 3;</code>
+       * <code>optional .dstore.values.stringValue work_step = 4;</code>
        */
       public Builder setWorkStep(io.dstore.Values.stringValue value) {
         if (workStepBuilder_ == null) {
@@ -1195,7 +1439,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue work_step = 3;</code>
+       * <code>optional .dstore.values.stringValue work_step = 4;</code>
        */
       public Builder setWorkStep(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1209,7 +1453,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue work_step = 3;</code>
+       * <code>optional .dstore.values.stringValue work_step = 4;</code>
        */
       public Builder mergeWorkStep(io.dstore.Values.stringValue value) {
         if (workStepBuilder_ == null) {
@@ -1227,7 +1471,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue work_step = 3;</code>
+       * <code>optional .dstore.values.stringValue work_step = 4;</code>
        */
       public Builder clearWorkStep() {
         if (workStepBuilder_ == null) {
@@ -1241,7 +1485,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue work_step = 3;</code>
+       * <code>optional .dstore.values.stringValue work_step = 4;</code>
        */
       public io.dstore.Values.stringValue.Builder getWorkStepBuilder() {
         
@@ -1249,7 +1493,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return getWorkStepFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue work_step = 3;</code>
+       * <code>optional .dstore.values.stringValue work_step = 4;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getWorkStepOrBuilder() {
         if (workStepBuilder_ != null) {
@@ -1260,7 +1504,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue work_step = 3;</code>
+       * <code>optional .dstore.values.stringValue work_step = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1278,13 +1522,13 @@ public final class MiModifyTRITriggerWorkflowAd {
 
       private boolean workStepNull_ ;
       /**
-       * <code>optional bool work_step_null = 1003;</code>
+       * <code>optional bool work_step_null = 1004;</code>
        */
       public boolean getWorkStepNull() {
         return workStepNull_;
       }
       /**
-       * <code>optional bool work_step_null = 1003;</code>
+       * <code>optional bool work_step_null = 1004;</code>
        */
       public Builder setWorkStepNull(boolean value) {
         
@@ -1293,7 +1537,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional bool work_step_null = 1003;</code>
+       * <code>optional bool work_step_null = 1004;</code>
        */
       public Builder clearWorkStepNull() {
         
@@ -1306,13 +1550,13 @@ public final class MiModifyTRITriggerWorkflowAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.stringValue description = 5;</code>
        */
       public boolean hasDescription() {
         return descriptionBuilder_ != null || description_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.stringValue description = 5;</code>
        */
       public io.dstore.Values.stringValue getDescription() {
         if (descriptionBuilder_ == null) {
@@ -1322,7 +1566,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.stringValue description = 5;</code>
        */
       public Builder setDescription(io.dstore.Values.stringValue value) {
         if (descriptionBuilder_ == null) {
@@ -1338,7 +1582,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.stringValue description = 5;</code>
        */
       public Builder setDescription(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1352,7 +1596,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.stringValue description = 5;</code>
        */
       public Builder mergeDescription(io.dstore.Values.stringValue value) {
         if (descriptionBuilder_ == null) {
@@ -1370,7 +1614,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.stringValue description = 5;</code>
        */
       public Builder clearDescription() {
         if (descriptionBuilder_ == null) {
@@ -1384,7 +1628,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.stringValue description = 5;</code>
        */
       public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
         
@@ -1392,7 +1636,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return getDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.stringValue description = 5;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         if (descriptionBuilder_ != null) {
@@ -1403,7 +1647,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.stringValue description = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1421,13 +1665,13 @@ public final class MiModifyTRITriggerWorkflowAd {
 
       private boolean descriptionNull_ ;
       /**
-       * <code>optional bool description_null = 1004;</code>
+       * <code>optional bool description_null = 1005;</code>
        */
       public boolean getDescriptionNull() {
         return descriptionNull_;
       }
       /**
-       * <code>optional bool description_null = 1004;</code>
+       * <code>optional bool description_null = 1005;</code>
        */
       public Builder setDescriptionNull(boolean value) {
         
@@ -1436,7 +1680,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional bool description_null = 1004;</code>
+       * <code>optional bool description_null = 1005;</code>
        */
       public Builder clearDescriptionNull() {
         
@@ -1449,13 +1693,13 @@ public final class MiModifyTRITriggerWorkflowAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> cancelOnErrorBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+       * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
        */
       public boolean hasCancelOnError() {
         return cancelOnErrorBuilder_ != null || cancelOnError_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+       * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
        */
       public io.dstore.Values.integerValue getCancelOnError() {
         if (cancelOnErrorBuilder_ == null) {
@@ -1465,7 +1709,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+       * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
        */
       public Builder setCancelOnError(io.dstore.Values.integerValue value) {
         if (cancelOnErrorBuilder_ == null) {
@@ -1481,7 +1725,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+       * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
        */
       public Builder setCancelOnError(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1495,7 +1739,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+       * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
        */
       public Builder mergeCancelOnError(io.dstore.Values.integerValue value) {
         if (cancelOnErrorBuilder_ == null) {
@@ -1513,7 +1757,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+       * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
        */
       public Builder clearCancelOnError() {
         if (cancelOnErrorBuilder_ == null) {
@@ -1527,7 +1771,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+       * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
        */
       public io.dstore.Values.integerValue.Builder getCancelOnErrorBuilder() {
         
@@ -1535,7 +1779,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return getCancelOnErrorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+       * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCancelOnErrorOrBuilder() {
         if (cancelOnErrorBuilder_ != null) {
@@ -1546,7 +1790,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue cancel_on_error = 5;</code>
+       * <code>optional .dstore.values.integerValue cancel_on_error = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1564,13 +1808,13 @@ public final class MiModifyTRITriggerWorkflowAd {
 
       private boolean cancelOnErrorNull_ ;
       /**
-       * <code>optional bool cancel_on_error_null = 1005;</code>
+       * <code>optional bool cancel_on_error_null = 1006;</code>
        */
       public boolean getCancelOnErrorNull() {
         return cancelOnErrorNull_;
       }
       /**
-       * <code>optional bool cancel_on_error_null = 1005;</code>
+       * <code>optional bool cancel_on_error_null = 1006;</code>
        */
       public Builder setCancelOnErrorNull(boolean value) {
         
@@ -1579,7 +1823,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional bool cancel_on_error_null = 1005;</code>
+       * <code>optional bool cancel_on_error_null = 1006;</code>
        */
       public Builder clearCancelOnErrorNull() {
         
@@ -1592,13 +1836,13 @@ public final class MiModifyTRITriggerWorkflowAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteWorkStepBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+       * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
        */
       public boolean hasDeleteWorkStep() {
         return deleteWorkStepBuilder_ != null || deleteWorkStep_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+       * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
        */
       public io.dstore.Values.booleanValue getDeleteWorkStep() {
         if (deleteWorkStepBuilder_ == null) {
@@ -1608,7 +1852,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+       * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
        */
       public Builder setDeleteWorkStep(io.dstore.Values.booleanValue value) {
         if (deleteWorkStepBuilder_ == null) {
@@ -1624,7 +1868,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+       * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
        */
       public Builder setDeleteWorkStep(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1638,7 +1882,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+       * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
        */
       public Builder mergeDeleteWorkStep(io.dstore.Values.booleanValue value) {
         if (deleteWorkStepBuilder_ == null) {
@@ -1656,7 +1900,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+       * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
        */
       public Builder clearDeleteWorkStep() {
         if (deleteWorkStepBuilder_ == null) {
@@ -1670,7 +1914,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+       * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
        */
       public io.dstore.Values.booleanValue.Builder getDeleteWorkStepBuilder() {
         
@@ -1678,7 +1922,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return getDeleteWorkStepFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+       * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDeleteWorkStepOrBuilder() {
         if (deleteWorkStepBuilder_ != null) {
@@ -1689,7 +1933,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_work_step = 6;</code>
+       * <code>optional .dstore.values.booleanValue delete_work_step = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1707,13 +1951,13 @@ public final class MiModifyTRITriggerWorkflowAd {
 
       private boolean deleteWorkStepNull_ ;
       /**
-       * <code>optional bool delete_work_step_null = 1006;</code>
+       * <code>optional bool delete_work_step_null = 1007;</code>
        */
       public boolean getDeleteWorkStepNull() {
         return deleteWorkStepNull_;
       }
       /**
-       * <code>optional bool delete_work_step_null = 1006;</code>
+       * <code>optional bool delete_work_step_null = 1007;</code>
        */
       public Builder setDeleteWorkStepNull(boolean value) {
         
@@ -1722,7 +1966,7 @@ public final class MiModifyTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional bool delete_work_step_null = 1006;</code>
+       * <code>optional bool delete_work_step_null = 1007;</code>
        */
       public Builder clearDeleteWorkStepNull() {
         
@@ -3963,29 +4207,32 @@ public final class MiModifyTRITriggerWorkflowAd {
       "i_ModifyTRITriggerWorkflow_Ad\032\023dstore/va" +
       "lues.proto\032\031dstore/engine/error.proto\032\033d" +
       "store/engine/message.proto\032#dstore/engin" +
-      "e/metainformation.proto\"\351\003\n\nParameters\022/" +
+      "e/metainformation.proto\"\270\004\n\nParameters\022/" +
       "\n\ntrigger_id\030\001 \001(\0132\033.dstore.values.integ" +
-      "erValue\022\030\n\017trigger_id_null\030\351\007 \001(\010\0222\n\016ite" +
-      "ration_list\030\002 \001(\0132\032.dstore.values.string" +
-      "Value\022\034\n\023iteration_list_null\030\352\007 \001(\010\022-\n\tw",
-      "ork_step\030\003 \001(\0132\032.dstore.values.stringVal" +
-      "ue\022\027\n\016work_step_null\030\353\007 \001(\010\022/\n\013descripti" +
-      "on\030\004 \001(\0132\032.dstore.values.stringValue\022\031\n\020" +
-      "description_null\030\354\007 \001(\010\0224\n\017cancel_on_err" +
-      "or\030\005 \001(\0132\033.dstore.values.integerValue\022\035\n" +
-      "\024cancel_on_error_null\030\355\007 \001(\010\0225\n\020delete_w" +
-      "ork_step\030\006 \001(\0132\033.dstore.values.booleanVa" +
-      "lue\022\036\n\025delete_work_step_null\030\356\007 \001(\010\"\304\002\n\010" +
-      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
-      "error.Error\022H\n\020meta_information\030\002 \003(\0132..",
-      "dstore.engine.metainformation.MetaInform" +
-      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
-      "essage.Message\022G\n\003row\030\004 \003(\0132:.dstore.eng" +
-      "ine.mi_ModifyTRITriggerWorkflow_Ad.Respo" +
-      "nse.Row\0221\n\014work_step_no\030e \001(\0132\033.dstore.v" +
-      "alues.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001" +
-      "(\005B\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "erValue\022\030\n\017trigger_id_null\030\351\007 \001(\010\0221\n\014wor" +
+      "k_step_no\030\002 \001(\0132\033.dstore.values.integerV" +
+      "alue\022\032\n\021work_step_no_null\030\352\007 \001(\010\0222\n\016iter",
+      "ation_list\030\003 \001(\0132\032.dstore.values.stringV" +
+      "alue\022\034\n\023iteration_list_null\030\353\007 \001(\010\022-\n\two" +
+      "rk_step\030\004 \001(\0132\032.dstore.values.stringValu" +
+      "e\022\027\n\016work_step_null\030\354\007 \001(\010\022/\n\013descriptio" +
+      "n\030\005 \001(\0132\032.dstore.values.stringValue\022\031\n\020d" +
+      "escription_null\030\355\007 \001(\010\0224\n\017cancel_on_erro" +
+      "r\030\006 \001(\0132\033.dstore.values.integerValue\022\035\n\024" +
+      "cancel_on_error_null\030\356\007 \001(\010\0225\n\020delete_wo" +
+      "rk_step\030\007 \001(\0132\033.dstore.values.booleanVal" +
+      "ue\022\036\n\025delete_work_step_null\030\357\007 \001(\010\"\304\002\n\010R",
+      "esponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.e" +
+      "rror.Error\022H\n\020meta_information\030\002 \003(\0132..d" +
+      "store.engine.metainformation.MetaInforma" +
+      "tion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.me" +
+      "ssage.Message\022G\n\003row\030\004 \003(\0132:.dstore.engi" +
+      "ne.mi_ModifyTRITriggerWorkflow_Ad.Respon" +
+      "se.Row\0221\n\014work_step_no\030e \001(\0132\033.dstore.va" +
+      "lues.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(" +
+      "\005B_\n\033io.dstore.engine.proceduresZ@gosdk." +
+      "dstore.de/engine/procedures/mi_ModifyTRI",
+      "TriggerWorkflow_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4008,7 +4255,7 @@ public final class MiModifyTRITriggerWorkflowAd {
     internal_static_dstore_engine_mi_ModifyTRITriggerWorkflow_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyTRITriggerWorkflow_Ad_Parameters_descriptor,
-        new java.lang.String[] { "TriggerId", "TriggerIdNull", "IterationList", "IterationListNull", "WorkStep", "WorkStepNull", "Description", "DescriptionNull", "CancelOnError", "CancelOnErrorNull", "DeleteWorkStep", "DeleteWorkStepNull", });
+        new java.lang.String[] { "TriggerId", "TriggerIdNull", "WorkStepNo", "WorkStepNoNull", "IterationList", "IterationListNull", "WorkStep", "WorkStepNull", "Description", "DescriptionNull", "CancelOnError", "CancelOnErrorNull", "DeleteWorkStep", "DeleteWorkStepNull", });
     internal_static_dstore_engine_mi_ModifyTRITriggerWorkflow_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_ModifyTRITriggerWorkflow_Ad_Response_fieldAccessorTable = new

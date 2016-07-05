@@ -4650,8 +4650,9 @@ public final class OmGetOrderSurchargeInfoAd {
       "tringValue\0220\n\013information\030\225N \001(\0132\032.dstor" +
       "e.values.stringValue\022@\n\030created_at_date_" +
       "and_time\030\226N \001(\0132\035.dstore.values.timestam" +
-      "pValueB\035\n\033io.dstore.engine.proceduresb\006p" +
-      "roto3"
+      "pValueB\\\n\033io.dstore.engine.proceduresZ=g" +
+      "osdk.dstore.de/engine/procedures/om_GetO" +
+      "rderSurchargeInfo_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

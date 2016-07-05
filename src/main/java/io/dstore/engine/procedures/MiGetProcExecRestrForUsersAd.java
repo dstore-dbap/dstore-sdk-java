@@ -4897,8 +4897,9 @@ public final class MiGetProcExecRestrForUsersAd {
       "\033.dstore.values.booleanValue\0222\n\014conditio" +
       "n_id\030\227N \001(\0132\033.dstore.values.integerValue" +
       "\0223\n\016parameter_name\030\230N \001(\0132\032.dstore.value" +
-      "s.stringValueB\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      "s.stringValueB_\n\033io.dstore.engine.proced" +
+      "uresZ@gosdk.dstore.de/engine/procedures/",
+      "mi_GetProcExecRestrForUsers_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

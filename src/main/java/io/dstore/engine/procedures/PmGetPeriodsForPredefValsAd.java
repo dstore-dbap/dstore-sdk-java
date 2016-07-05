@@ -4896,8 +4896,10 @@ public final class PmGetPeriodsForPredefValsAd {
       "ue\0222\n\nvalid_from\030\226N \001(\0132\035.dstore.values." +
       "timestampValue\022.\n\010value_id\030\227N \001(\0132\033.dsto" +
       "re.values.integerValue\0224\n\017valid_from_cha" +
-      "r\030\230N \001(\0132\032.dstore.values.stringValueB\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "r\030\230N \001(\0132\032.dstore.values.stringValueB^\n\033" +
+      "io.dstore.engine.proceduresZ?gosdk.dstor" +
+      "e.de/engine/procedures/pm_GetPeriodsForP",
+      "redefVals_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

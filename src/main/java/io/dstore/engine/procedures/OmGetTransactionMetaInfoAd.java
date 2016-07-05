@@ -3666,8 +3666,9 @@ public final class OmGetTransactionMetaInfoAd {
       "e\022A\n\034internal_transaction_comment\030\223N \001(\013" +
       "2\032.dstore.values.stringValue\0224\n\016transact",
       "ion_id\030\224N \001(\0132\033.dstore.values.integerVal" +
-      "ueB\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "ueB]\n\033io.dstore.engine.proceduresZ>gosdk" +
+      ".dstore.de/engine/procedures/om_GetTrans" +
+      "actionMetaInfo_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -8347,8 +8347,9 @@ public final class CoGetNewestMembersPu {
       "N \001(\0132\032.dstore.values.stringValue\022-\n\010nic" +
       "kname\030\233N \001(\0132\032.dstore.values.stringValue" +
       "\022/\n\tis_online\030\234N \001(\0132\033.dstore.values.boo" +
-      "leanValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "leanValueBW\n\033io.dstore.engine.procedures" +
+      "Z8gosdk.dstore.de/engine/procedures/co_G",
+      "etNewestMembers_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

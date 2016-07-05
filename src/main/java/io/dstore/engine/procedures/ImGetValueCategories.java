@@ -3912,8 +3912,9 @@ public final class ImGetValueCategories {
       "\n\026node_characteristic_id\030\223N \001(\0132\033.dstore" +
       ".values.integerValue\022?\n\032value_category_d" +
       "escription\030\224N \001(\0132\032.dstore.values.string" +
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "ValueBV\n\033io.dstore.engine.proceduresZ7go" +
+      "sdk.dstore.de/engine/procedures/im_GetVa" +
+      "lueCategoriesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

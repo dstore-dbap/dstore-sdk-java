@@ -7853,8 +7853,10 @@ public final class OmGetPurchasePricesAd {
       "alues.integerValue\0222\n\014tree_node_id\030\237N \001(" +
       "\0132\033.dstore.values.integerValue\022G\n\"suppl_" +
       "charac_val1_restr_by_pattern\030\240N \001(\0132\032.ds" +
-      "tore.values.stringValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "tore.values.stringValueBX\n\033io.dstore.eng" +
+      "ine.proceduresZ9gosdk.dstore.de/engine/p",
+      "rocedures/om_GetPurchasePrices_Adb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

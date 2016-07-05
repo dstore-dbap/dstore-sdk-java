@@ -6620,8 +6620,9 @@ public final class PmGetPersonRelationshipsAd {
       "\0132\033.dstore.values.integerValue\0222\n\014access" +
       "_level\030\231N \001(\0132\033.dstore.values.integerVal",
       "ue\0224\n\017valid_from_char\030\232N \001(\0132\032.dstore.va" +
-      "lues.stringValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "lues.stringValueB]\n\033io.dstore.engine.pro" +
+      "ceduresZ>gosdk.dstore.de/engine/procedur" +
+      "es/pm_GetPersonRelationships_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -7854,8 +7854,9 @@ public final class OmGetCampaignItemCondPartsAd {
       "lues.integerValue\0223\n\rinherit_depth\030\243N \001(" +
       "\0132\033.dstore.values.integerValue\022;\n\025from_i" +
       "tem_basic_price\030\244N \001(\0132\033.dstore.values.d" +
-      "ecimalValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "ecimalValueB_\n\033io.dstore.engine.procedur" +
+      "esZ@gosdk.dstore.de/engine/procedures/om" +
+      "_GetCampaignItemCondParts_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

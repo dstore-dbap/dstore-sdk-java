@@ -3251,8 +3251,10 @@ public final class ElasticItem {
       "etValue\022#\n\005value\030\001 \001(\0132\024.dstore.values.V" +
       "alue\022\030\n\020total_item_count\030\002 \001(\005\022\033\n\023matchi" +
       "ng_item_count\030\003 \001(\005\022\016\n\006active\030\004 \001(\010\022\021\n\tm" +
-      "in_value\030\005 \001(\001\022\021\n\tmax_value\030\006 \001(\001B%\n\026io." +
-      "dstore.elastic.itemB\013ElasticItemb\006proto3"
+      "in_value\030\005 \001(\001\022\021\n\tmax_value\030\006 \001(\001BP\n\026io." +
+      "dstore.elastic.itemB\013ElasticItemZ)gosdk." +
+      "dstore.de/elastic/item/elastic_itemb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -1040,8 +1040,9 @@ public final class ElasticNode {
       "r_tree_node_id\030\006 \003(\005\0225\n\006fields\030\024 \003(\0132%.d" +
       "store.elastic.node.Node.FieldsEntry\032D\n\013F" +
       "ieldsEntry\022\013\n\003key\030\001 \001(\t\022$\n\005value\030\002 \001(\0132\025" +
-      ".dstore.elastic.Field:\0028\001B%\n\026io.dstore.e" +
-      "lastic.itemB\013ElasticNodeb\006proto3"
+      ".dstore.elastic.Field:\0028\001BP\n\026io.dstore.e" +
+      "lastic.itemB\013ElasticNodeZ)gosdk.dstore.d",
+      "e/elastic/item/elastic_nodeb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

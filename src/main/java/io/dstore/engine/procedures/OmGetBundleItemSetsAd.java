@@ -8593,8 +8593,10 @@ public final class OmGetBundleItemSetsAd {
       "(\0132\033.dstore.values.integerValue\022?\n\032item_" +
       "condition_description\030\245N \001(\0132\032.dstore.va" +
       "lues.stringValue\0223\n\rinherit_depth\030\246N \001(\013",
-      "2\033.dstore.values.integerValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "2\033.dstore.values.integerValueBX\n\033io.dsto" +
+      "re.engine.proceduresZ9gosdk.dstore.de/en" +
+      "gine/procedures/om_GetBundleItemSets_Adb" +
+      "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

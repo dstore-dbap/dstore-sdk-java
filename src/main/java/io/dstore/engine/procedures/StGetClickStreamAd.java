@@ -7114,8 +7114,9 @@ public final class StGetClickStreamAd {
       "stampValue\0220\n\nrelated_id\030\233N \001(\0132\033.dstore" +
       ".values.integerValue\022A\n\033basic_characteri" +
       "stic_number\030\234N \001(\0132\033.dstore.values.integ" +
-      "erValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "erValueBU\n\033io.dstore.engine.proceduresZ6" +
+      "gosdk.dstore.de/engine/procedures/st_Get" +
+      "ClickStream_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3171,8 +3171,10 @@ public final class OmGetCashAccountTypes {
       ".dstore.values.stringValue\022:\n\024cash_accou" +
       "nt_type_id\030\222N \001(\0132\033.dstore.values.intege" +
       "rValue\0229\n\023min_account_balance\030\223N \001(\0132\033.d" +
-      "store.values.decimalValueB\035\n\033io.dstore.e" +
-      "ngine.proceduresb\006proto3"
+      "store.values.decimalValueBW\n\033io.dstore.e" +
+      "ngine.proceduresZ8gosdk.dstore.de/engine" +
+      "/procedures/om_GetCashAccountTypesb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

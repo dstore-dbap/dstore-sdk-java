@@ -4649,8 +4649,9 @@ public final class OmChangeOrderStateAd {
       "\n\003Row\022\017\n\006row_id\030\220N \001(\005\022.\n\010order_id\030\221N \001(" +
       "\0132\033.dstore.values.integerValue\0226\n\020order_" +
       "content_id\030\222N \001(\0132\033.dstore.values.intege",
-      "rValueB\035\n\033io.dstore.engine.proceduresb\006p" +
-      "roto3"
+      "rValueBW\n\033io.dstore.engine.proceduresZ8g" +
+      "osdk.dstore.de/engine/procedures/om_Chan" +
+      "geOrderState_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5634,7 +5634,9 @@ public final class FoModifyPostingPropertiesPu {
       "store.values.integerValue\022*\n\005value\030\222N \001(" +
       "\0132\032.dstore.values.stringValue\0220\n\nerror_c" +
       "ode\030\223N \001(\0132\033.dstore.values.integerValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "^\n\033io.dstore.engine.proceduresZ?gosdk.ds" +
+      "tore.de/engine/procedures/fo_ModifyPosti",
+      "ngProperties_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

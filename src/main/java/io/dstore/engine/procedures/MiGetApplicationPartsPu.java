@@ -4404,8 +4404,9 @@ public final class MiGetApplicationPartsPu {
       "store.values.integerValue\0225\n\020application" +
       "_part\030\222N \001(\0132\032.dstore.values.stringValue" +
       "\0229\n\023application_part_id\030\223N \001(\0132\033.dstore." +
-      "values.integerValueB\035\n\033io.dstore.engine." +
-      "proceduresb\006proto3"
+      "values.integerValueBZ\n\033io.dstore.engine." +
+      "proceduresZ;gosdk.dstore.de/engine/proce",
+      "dures/mi_GetApplicationParts_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4404,8 +4404,10 @@ public final class OmGetPaymentForShippingPu {
       "dstore.values.stringValue\022E\n payment_for" +
       "_shipping_description\030\224N \001(\0132\032.dstore.va" +
       "lues.stringValue\0229\n\024detailed_description" +
-      "\030\225N \001(\0132\032.dstore.values.stringValueB\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\030\225N \001(\0132\032.dstore.values.stringValueB\\\n\033i" +
+      "o.dstore.engine.proceduresZ=gosdk.dstore" +
+      ".de/engine/procedures/om_GetPaymentForSh" +
+      "ipping_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

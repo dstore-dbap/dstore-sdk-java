@@ -3665,8 +3665,9 @@ public final class ImGetBinaryPropertiesAd {
       " \001(\0132\032.dstore.values.stringValue\022*\n\005valu" +
       "e\030\222N \001(\0132\032.dstore.values.stringValue\022.\n\010",
       "value_id\030\223N \001(\0132\033.dstore.values.integerV" +
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro" +
-      "to3"
+      "alueBZ\n\033io.dstore.engine.proceduresZ;gos" +
+      "dk.dstore.de/engine/procedures/im_GetBin" +
+      "aryProperties_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

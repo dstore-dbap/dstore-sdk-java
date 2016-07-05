@@ -3691,8 +3691,9 @@ public final class EngineProcOuterClass {
       "ponse\"\0000\001\022~\n\026st_UpdateStatistics_Ad\0220.ds" +
       "tore.engine.st_UpdateStatistics_Ad.Param" +
       "eters\032..dstore.engine.st_UpdateStatistic" +
-      "s_Ad.Response\"\0000\001B\035\n\033io.dstore.engine.pr" +
-      "oceduresb\006proto3"
+      "s_Ad.Response\"\0000\001B7\n\033io.dstore.engine.pr" +
+      "oceduresZ\030dstore/engine/proceduresb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

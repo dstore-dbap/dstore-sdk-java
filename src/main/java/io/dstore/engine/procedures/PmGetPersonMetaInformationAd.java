@@ -4158,8 +4158,10 @@ public final class PmGetPersonMetaInformationAd {
       "N \001(\0132\032.dstore.values.stringValue\0226\n\020met" +
       "a_information\030\224N \001(\0132\033.dstore.values.dec" +
       "imalValue\022@\n\033translated_meta_information" +
-      "\030\225N \001(\0132\032.dstore.values.stringValueB\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\030\225N \001(\0132\032.dstore.values.stringValueB_\n\033i" +
+      "o.dstore.engine.proceduresZ@gosdk.dstore" +
+      ".de/engine/procedures/pm_GetPersonMetaIn" +
+      "formation_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

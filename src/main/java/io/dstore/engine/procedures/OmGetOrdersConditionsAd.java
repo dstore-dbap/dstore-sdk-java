@@ -20918,8 +20918,10 @@ public final class OmGetOrdersConditionsAd {
       "dstore.values.stringValue\0226\n\020computed_ne" +
       "t_sum\030\274N \001(\0132\033.dstore.values.decimalValu" +
       "e\022=\n\027valid_content_gross_sum\030\275N \001(\0132\033.ds",
-      "tore.values.decimalValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "tore.values.decimalValueB[\n\033io.dstore.en" +
+      "gine.proceduresZ<gosdk.dstore.de/engine/" +
+      "procedures/om_GetOrders_Conditions_Adb\006p" +
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

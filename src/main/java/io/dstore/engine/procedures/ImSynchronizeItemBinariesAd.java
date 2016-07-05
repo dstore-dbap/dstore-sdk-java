@@ -4898,8 +4898,9 @@ public final class ImSynchronizeItemBinariesAd {
       "2\032.dstore.values.stringValue\022-\n\007node_id\030" +
       "\225N \001(\0132\033.dstore.values.integerValue\022-\n\007s",
       "ort_no\030\226N \001(\0132\033.dstore.values.integerVal" +
-      "ueB\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "ueB^\n\033io.dstore.engine.proceduresZ?gosdk" +
+      ".dstore.de/engine/procedures/im_Synchron" +
+      "izeItemBinaries_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -7851,8 +7851,10 @@ public final class OmGetPaymentAndShippingPu {
       "\001(\0132\033.dstore.values.decimalValue\022;\n\024ship" +
       "ping_cost_brutto\030\271\352\001 \001(\0132\033.dstore.values" +
       ".decimalValue\022:\n\023payment_cost_brutto\030\272\352\001",
-      " \001(\0132\033.dstore.values.decimalValueB\035\n\033io." +
-      "dstore.engine.proceduresb\006proto3"
+      " \001(\0132\033.dstore.values.decimalValueB\\\n\033io." +
+      "dstore.engine.proceduresZ=gosdk.dstore.d" +
+      "e/engine/procedures/om_GetPaymentAndShip" +
+      "ping_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

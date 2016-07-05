@@ -11,6 +11,24 @@ public final class ImInsertNodeSymbolAd {
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.im_InsertNodeSymbol_Ad.Parameters)
       com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     */
+    boolean hasSymbolId();
+    /**
+     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     */
+    io.dstore.Values.integerValue getSymbolId();
+    /**
+     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder();
+
+    /**
+     * <code>optional bool symbol_id_null = 1001;</code>
+     */
+    boolean getSymbolIdNull();
   }
   /**
    * Protobuf type {@code dstore.engine.im_InsertNodeSymbol_Ad.Parameters}
@@ -24,6 +42,7 @@ public final class ImInsertNodeSymbolAd {
       super(builder);
     }
     private Parameters() {
+      symbolIdNull_ = false;
     }
 
     @java.lang.Override
@@ -35,6 +54,7 @@ public final class ImInsertNodeSymbolAd {
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
       this();
+      int mutable_bitField0_ = 0;
       try {
         boolean done = false;
         while (!done) {
@@ -47,6 +67,24 @@ public final class ImInsertNodeSymbolAd {
               if (!input.skipField(tag)) {
                 done = true;
               }
+              break;
+            }
+            case 10: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (symbolId_ != null) {
+                subBuilder = symbolId_.toBuilder();
+              }
+              symbolId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(symbolId_);
+                symbolId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 8008: {
+
+              symbolIdNull_ = input.readBool();
               break;
             }
           }
@@ -73,6 +111,36 @@ public final class ImInsertNodeSymbolAd {
               io.dstore.engine.procedures.ImInsertNodeSymbolAd.Parameters.class, io.dstore.engine.procedures.ImInsertNodeSymbolAd.Parameters.Builder.class);
     }
 
+    public static final int SYMBOL_ID_FIELD_NUMBER = 1;
+    private io.dstore.Values.integerValue symbolId_;
+    /**
+     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     */
+    public boolean hasSymbolId() {
+      return symbolId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     */
+    public io.dstore.Values.integerValue getSymbolId() {
+      return symbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
+      return getSymbolId();
+    }
+
+    public static final int SYMBOL_ID_NULL_FIELD_NUMBER = 1001;
+    private boolean symbolIdNull_;
+    /**
+     * <code>optional bool symbol_id_null = 1001;</code>
+     */
+    public boolean getSymbolIdNull() {
+      return symbolIdNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -85,6 +153,12 @@ public final class ImInsertNodeSymbolAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (symbolId_ != null) {
+        output.writeMessage(1, getSymbolId());
+      }
+      if (symbolIdNull_ != false) {
+        output.writeBool(1001, symbolIdNull_);
+      }
     }
 
     public int getSerializedSize() {
@@ -92,6 +166,14 @@ public final class ImInsertNodeSymbolAd {
       if (size != -1) return size;
 
       size = 0;
+      if (symbolId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getSymbolId());
+      }
+      if (symbolIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1001, symbolIdNull_);
+      }
       memoizedSize = size;
       return size;
     }
@@ -203,6 +285,14 @@ public final class ImInsertNodeSymbolAd {
       }
       public Builder clear() {
         super.clear();
+        if (symbolIdBuilder_ == null) {
+          symbolId_ = null;
+        } else {
+          symbolId_ = null;
+          symbolIdBuilder_ = null;
+        }
+        symbolIdNull_ = false;
+
         return this;
       }
 
@@ -225,6 +315,12 @@ public final class ImInsertNodeSymbolAd {
 
       public io.dstore.engine.procedures.ImInsertNodeSymbolAd.Parameters buildPartial() {
         io.dstore.engine.procedures.ImInsertNodeSymbolAd.Parameters result = new io.dstore.engine.procedures.ImInsertNodeSymbolAd.Parameters(this);
+        if (symbolIdBuilder_ == null) {
+          result.symbolId_ = symbolId_;
+        } else {
+          result.symbolId_ = symbolIdBuilder_.build();
+        }
+        result.symbolIdNull_ = symbolIdNull_;
         onBuilt();
         return result;
       }
@@ -240,6 +336,12 @@ public final class ImInsertNodeSymbolAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.ImInsertNodeSymbolAd.Parameters other) {
         if (other == io.dstore.engine.procedures.ImInsertNodeSymbolAd.Parameters.getDefaultInstance()) return this;
+        if (other.hasSymbolId()) {
+          mergeSymbolId(other.getSymbolId());
+        }
+        if (other.getSymbolIdNull() != false) {
+          setSymbolIdNull(other.getSymbolIdNull());
+        }
         onChanged();
         return this;
       }
@@ -263,6 +365,149 @@ public final class ImInsertNodeSymbolAd {
             mergeFrom(parsedMessage);
           }
         }
+        return this;
+      }
+
+      private io.dstore.Values.integerValue symbolId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> symbolIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       */
+      public boolean hasSymbolId() {
+        return symbolIdBuilder_ != null || symbolId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue getSymbolId() {
+        if (symbolIdBuilder_ == null) {
+          return symbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
+        } else {
+          return symbolIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       */
+      public Builder setSymbolId(io.dstore.Values.integerValue value) {
+        if (symbolIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          symbolId_ = value;
+          onChanged();
+        } else {
+          symbolIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       */
+      public Builder setSymbolId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (symbolIdBuilder_ == null) {
+          symbolId_ = builderForValue.build();
+          onChanged();
+        } else {
+          symbolIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       */
+      public Builder mergeSymbolId(io.dstore.Values.integerValue value) {
+        if (symbolIdBuilder_ == null) {
+          if (symbolId_ != null) {
+            symbolId_ =
+              io.dstore.Values.integerValue.newBuilder(symbolId_).mergeFrom(value).buildPartial();
+          } else {
+            symbolId_ = value;
+          }
+          onChanged();
+        } else {
+          symbolIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       */
+      public Builder clearSymbolId() {
+        if (symbolIdBuilder_ == null) {
+          symbolId_ = null;
+          onChanged();
+        } else {
+          symbolId_ = null;
+          symbolIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getSymbolIdBuilder() {
+        
+        onChanged();
+        return getSymbolIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
+        if (symbolIdBuilder_ != null) {
+          return symbolIdBuilder_.getMessageOrBuilder();
+        } else {
+          return symbolId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getSymbolIdFieldBuilder() {
+        if (symbolIdBuilder_ == null) {
+          symbolIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getSymbolId(),
+                  getParentForChildren(),
+                  isClean());
+          symbolId_ = null;
+        }
+        return symbolIdBuilder_;
+      }
+
+      private boolean symbolIdNull_ ;
+      /**
+       * <code>optional bool symbol_id_null = 1001;</code>
+       */
+      public boolean getSymbolIdNull() {
+        return symbolIdNull_;
+      }
+      /**
+       * <code>optional bool symbol_id_null = 1001;</code>
+       */
+      public Builder setSymbolIdNull(boolean value) {
+        
+        symbolIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool symbol_id_null = 1001;</code>
+       */
+      public Builder clearSymbolIdNull() {
+        
+        symbolIdNull_ = false;
+        onChanged();
         return this;
       }
       public final Builder setUnknownFields(
@@ -2498,16 +2743,19 @@ public final class ImInsertNodeSymbolAd {
       "NodeSymbol_Ad\032\023dstore/values.proto\032\031dsto" +
       "re/engine/error.proto\032\033dstore/engine/mes" +
       "sage.proto\032#dstore/engine/metainformatio" +
-      "n.proto\"\014\n\nParameters\"\271\002\n\010Response\022)\n\005er" +
-      "ror\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n" +
-      "\020meta_information\030\002 \003(\0132..dstore.engine." +
-      "metainformation.MetaInformation\022/\n\007messa" +
-      "ge\030\003 \003(\0132\036.dstore.engine.message.Message",
-      "\022?\n\003row\030\004 \003(\01322.dstore.engine.im_InsertN" +
-      "odeSymbol_Ad.Response.Row\022.\n\tsymbol_id\030e" +
-      " \001(\0132\033.dstore.values.integerValue\032\026\n\003Row" +
-      "\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.pr" +
-      "oceduresb\006proto3"
+      "n.proto\"U\n\nParameters\022.\n\tsymbol_id\030\001 \001(\013" +
+      "2\033.dstore.values.integerValue\022\027\n\016symbol_" +
+      "id_null\030\351\007 \001(\010\"\271\002\n\010Response\022)\n\005error\030\001 \001" +
+      "(\0132\032.dstore.engine.error.Error\022H\n\020meta_i" +
+      "nformation\030\002 \003(\0132..dstore.engine.metainf",
+      "ormation.MetaInformation\022/\n\007message\030\003 \003(" +
+      "\0132\036.dstore.engine.message.Message\022?\n\003row" +
+      "\030\004 \003(\01322.dstore.engine.im_InsertNodeSymb" +
+      "ol_Ad.Response.Row\022.\n\tsymbol_id\030e \001(\0132\033." +
+      "dstore.values.integerValue\032\026\n\003Row\022\017\n\006row" +
+      "_id\030\220N \001(\005BW\n\033io.dstore.engine.procedure" +
+      "sZ8gosdk.dstore.de/engine/procedures/im_" +
+      "InsertNodeSymbol_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2530,7 +2778,7 @@ public final class ImInsertNodeSymbolAd {
     internal_static_dstore_engine_im_InsertNodeSymbol_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_InsertNodeSymbol_Ad_Parameters_descriptor,
-        new java.lang.String[] { });
+        new java.lang.String[] { "SymbolId", "SymbolIdNull", });
     internal_static_dstore_engine_im_InsertNodeSymbol_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_InsertNodeSymbol_Ad_Response_fieldAccessorTable = new

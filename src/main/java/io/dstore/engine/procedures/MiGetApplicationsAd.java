@@ -3665,7 +3665,9 @@ public final class MiGetApplicationsAd {
       "_id\030\220N \001(\005\0225\n\020application_name\030\221N \001(\0132\032.",
       "dstore.values.stringValue\0224\n\016application" +
       "_id\030\222N \001(\0132\033.dstore.values.integerValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "V\n\033io.dstore.engine.proceduresZ7gosdk.ds" +
+      "tore.de/engine/procedures/mi_GetApplicat" +
+      "ions_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

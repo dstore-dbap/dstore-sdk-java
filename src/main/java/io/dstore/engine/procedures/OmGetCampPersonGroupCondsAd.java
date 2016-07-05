@@ -3665,8 +3665,9 @@ public final class OmGetCampPersonGroupCondsAd {
       "(\0132\033.dstore.values.booleanValue\0222\n\014condi" +
       "tion_id\030\223N \001(\0132\033.dstore.values.integerVa" +
       "lue\0223\n\rnegate_filter\030\224N \001(\0132\033.dstore.val",
-      "ues.booleanValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "ues.booleanValueB^\n\033io.dstore.engine.pro" +
+      "ceduresZ?gosdk.dstore.de/engine/procedur" +
+      "es/om_GetCampPersonGroupConds_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

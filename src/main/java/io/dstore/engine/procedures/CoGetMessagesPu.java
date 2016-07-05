@@ -5881,8 +5881,9 @@ public final class CoGetMessagesPu {
       "alue\022=\n\025message_date_and_time\030\225N \001(\0132\035.d" +
       "store.values.timestampValue\022>\n\030from_comm" +
       "unity_member_id\030\226N \001(\0132\033.dstore.values.i" +
-      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "ntegerValueBR\n\033io.dstore.engine.procedur" +
+      "esZ3gosdk.dstore.de/engine/procedures/co",
+      "_GetMessages_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

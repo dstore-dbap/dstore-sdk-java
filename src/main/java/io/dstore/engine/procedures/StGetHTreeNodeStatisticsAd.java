@@ -6376,8 +6376,9 @@ public final class StGetHTreeNodeStatisticsAd {
       "Value\022?\n\031percentage_of_predecessor\030\231N \001(" +
       "\0132\033.dstore.values.decimalValue\022A\n\033direct",
       "_value_h_tree_node_id\030\232N \001(\0132\033.dstore.va" +
-      "lues.decimalValueB\035\n\033io.dstore.engine.pr" +
-      "oceduresb\006proto3"
+      "lues.decimalValueB]\n\033io.dstore.engine.pr" +
+      "oceduresZ>gosdk.dstore.de/engine/procedu" +
+      "res/st_GetHTreeNodeStatistics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

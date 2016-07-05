@@ -5635,8 +5635,10 @@ public final class OmGetOrderStateRulesAd {
       "_description\030\227N \001(\0132\032.dstore.values.stri" +
       "ngValue\0225\n\020from_order_state\030\230N \001(\0132\032.dst" +
       "ore.values.stringValue\022-\n\007allowed\030\231N \001(\013" +
-      "2\033.dstore.values.booleanValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "2\033.dstore.values.booleanValueBY\n\033io.dsto" +
+      "re.engine.proceduresZ:gosdk.dstore.de/en" +
+      "gine/procedures/om_GetOrderStateRules_Ad" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

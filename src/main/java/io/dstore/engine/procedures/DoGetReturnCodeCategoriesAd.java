@@ -3173,8 +3173,9 @@ public final class DoGetReturnCodeCategoriesAd {
       "ow_id\030\220N \001(\005\022=\n\027return_code_category_id\030" +
       "\221N \001(\0132\033.dstore.values.integerValue\0229\n\024r" +
       "eturn_code_category\030\222N \001(\0132\032.dstore.valu" +
-      "es.stringValueB\035\n\033io.dstore.engine.proce" +
-      "duresb\006proto3"
+      "es.stringValueB^\n\033io.dstore.engine.proce" +
+      "duresZ?gosdk.dstore.de/engine/procedures",
+      "/do_GetReturnCodeCategories_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

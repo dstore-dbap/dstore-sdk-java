@@ -5143,8 +5143,9 @@ public final class MiGetSQLFunctionCodeAd {
       "de_line\030\223N \001(\0132\032.dstore.values.stringVal" +
       "ue\0221\n\014comment_part\030\224N \001(\0132\032.dstore.value" +
       "s.stringValue\022.\n\tcode_part\030\225N \001(\0132\032.dsto" +
-      "re.values.stringValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "re.values.stringValueBY\n\033io.dstore.engin" +
+      "e.proceduresZ:gosdk.dstore.de/engine/pro" +
+      "cedures/mi_GetSQLFunctionCode_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

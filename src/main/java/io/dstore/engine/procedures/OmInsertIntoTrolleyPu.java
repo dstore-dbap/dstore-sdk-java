@@ -5387,8 +5387,10 @@ public final class OmInsertIntoTrolleyPu {
       "de_id\030\223N \001(\0132\033.dstore.values.integerValu" +
       "e\0222\n\014tree_node_id\030\224N \001(\0132\033.dstore.values" +
       ".integerValue\0220\n\nerror_code\030\225N \001(\0132\033.dst" +
-      "ore.values.integerValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "ore.values.integerValueBX\n\033io.dstore.eng" +
+      "ine.proceduresZ9gosdk.dstore.de/engine/p" +
+      "rocedures/om_InsertIntoTrolley_Pub\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

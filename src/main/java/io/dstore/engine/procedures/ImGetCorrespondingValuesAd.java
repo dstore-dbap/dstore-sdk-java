@@ -4406,8 +4406,9 @@ public final class ImGetCorrespondingValuesAd {
       "ingValue\022E\n corresponding_charac_descrip" +
       "tion\030\225N \001(\0132\032.dstore.values.stringValue\022" +
       ".\n\010value_id\030\226N \001(\0132\033.dstore.values.integ" +
-      "erValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "erValueB]\n\033io.dstore.engine.proceduresZ>" +
+      "gosdk.dstore.de/engine/procedures/im_Get" +
+      "CorrespondingValues_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

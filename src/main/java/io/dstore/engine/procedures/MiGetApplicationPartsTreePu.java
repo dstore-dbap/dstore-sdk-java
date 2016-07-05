@@ -6130,8 +6130,10 @@ public final class MiGetApplicationPartsTreePu {
       ".integerValue\022C\n\035successor_applic_part_t",
       "ree_id\030\226N \001(\0132\033.dstore.values.integerVal" +
       "ue\022>\n\030application_part_tree_id\030\227N \001(\0132\033." +
-      "dstore.values.integerValueB\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "dstore.values.integerValueB^\n\033io.dstore." +
+      "engine.proceduresZ?gosdk.dstore.de/engin" +
+      "e/procedures/mi_GetApplicationPartsTree_" +
+      "Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -8591,8 +8591,9 @@ public final class OmGetPersonSurchargesAd {
       "ues.integerValue\022A\n\034value3_restricted_by" +
       "_pattern\030\242N \001(\0132\032.dstore.values.stringVa",
       "lue\022.\n\010level_id\030\243N \001(\0132\033.dstore.values.i" +
-      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "ntegerValueBZ\n\033io.dstore.engine.procedur" +
+      "esZ;gosdk.dstore.de/engine/procedures/om" +
+      "_GetPersonSurcharges_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4648,8 +4648,9 @@ public final class PmModifyPersonRelationshipAd {
       "(\0132\036.dstore.engine.message.Message\022G\n\003ro" +
       "w\030\004 \003(\0132:.dstore.engine.pm_ModifyPersonR",
       "elationship_Ad.Response.Row\032\026\n\003Row\022\017\n\006ro" +
-      "w_id\030\220N \001(\005B\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "w_id\030\220N \001(\005B_\n\033io.dstore.engine.procedur" +
+      "esZ@gosdk.dstore.de/engine/procedures/pm" +
+      "_ModifyPersonRelationship_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

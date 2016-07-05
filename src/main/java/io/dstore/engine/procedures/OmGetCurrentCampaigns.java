@@ -4649,8 +4649,9 @@ public final class OmGetCurrentCampaigns {
       "alues.stringValue\0221\n\nbenefit_id\030\241\234\001 \001(\0132" +
       "\033.dstore.values.integerValue\0226\n\017benefit_" +
       "type_id\030\245\234\001 \001(\0132\033.dstore.values.integerV" +
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro" +
-      "to3"
+      "alueBW\n\033io.dstore.engine.proceduresZ8gos" +
+      "dk.dstore.de/engine/procedures/om_GetCur" +
+      "rentCampaignsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

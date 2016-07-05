@@ -5634,8 +5634,10 @@ public final class FoGetForumAccessMatrixAd {
       "mous_access\030\244\234\001 \001(\0132\033.dstore.values.bool" +
       "eanValue\0223\n\014group_access\030\247\234\001 \001(\0132\033.dstor",
       "e.values.booleanValue\0222\n\013access_type\030\250\234\001" +
-      " \001(\0132\033.dstore.values.integerValueB\035\n\033io." +
-      "dstore.engine.proceduresb\006proto3"
+      " \001(\0132\033.dstore.values.integerValueB[\n\033io." +
+      "dstore.engine.proceduresZ<gosdk.dstore.d" +
+      "e/engine/procedures/fo_GetForumAccessMat" +
+      "rix_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

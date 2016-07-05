@@ -4649,8 +4649,10 @@ public final class FoModifyPostingBinaryPu {
       "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore",
       ".engine.message.Message\022B\n\003row\030\004 \003(\01325.d" +
       "store.engine.fo_ModifyPostingBinary_Pu.R" +
-      "esponse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "esponse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005BZ\n\033i" +
+      "o.dstore.engine.proceduresZ;gosdk.dstore" +
+      ".de/engine/procedures/fo_ModifyPostingBi" +
+      "nary_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

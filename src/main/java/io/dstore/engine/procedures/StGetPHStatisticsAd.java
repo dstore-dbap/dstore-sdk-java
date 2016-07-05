@@ -4404,8 +4404,9 @@ public final class StGetPHStatisticsAd {
       "s.decimalValue\0225\n\rdate_and_time\030\224N \001(\0132\035" +
       ".dstore.values.timestampValue\022A\n\033basic_c" +
       "haracteristic_number\030\225N \001(\0132\033.dstore.val" +
-      "ues.integerValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "ues.integerValueBV\n\033io.dstore.engine.pro" +
+      "ceduresZ7gosdk.dstore.de/engine/procedur" +
+      "es/st_GetPHStatistics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

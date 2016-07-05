@@ -7853,8 +7853,10 @@ public final class StGetDSSIndexTrendAd {
       "_of_description\030\226N \001(\0132\032.dstore.values.s" +
       "tringValue\022/\n\tintervall\030\227N \001(\0132\033.dstore." +
       "values.integerValue\0226\n\020buying_interests\030" +
-      "\230N \001(\0132\033.dstore.values.decimalValueB\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\230N \001(\0132\033.dstore.values.decimalValueBY\n\033i" +
+      "o.dstore.engine.proceduresZ:gosdk.dstore" +
+      ".de/engine/procedures/st_GetDSS_Index_Tr" +
+      "end_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4897,8 +4897,9 @@ public final class FoGetForumCategoriesPu {
       "es.stringValue\022-\n\007sort_no\030\223N \001(\0132\033.dstor",
       "e.values.integerValue\022C\n\035contains_catego" +
       "ries_or_forums\030\224N \001(\0132\033.dstore.values.in" +
-      "tegerValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tegerValueBY\n\033io.dstore.engine.procedure" +
+      "sZ:gosdk.dstore.de/engine/procedures/fo_" +
+      "GetForumCategories_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

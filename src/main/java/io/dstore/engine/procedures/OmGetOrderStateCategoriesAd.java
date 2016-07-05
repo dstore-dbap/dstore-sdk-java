@@ -3172,8 +3172,10 @@ public final class OmGetOrderStateCategoriesAd {
       "ore.values.stringValue\022=\n\027order_state_ca" +
       "tegory_id\030\222N \001(\0132\033.dstore.values.integer" +
       "Value\0229\n\024order_state_category\030\223N \001(\0132\032.d" +
-      "store.values.stringValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "store.values.stringValueB^\n\033io.dstore.en" +
+      "gine.proceduresZ?gosdk.dstore.de/engine/" +
+      "procedures/om_GetOrderStateCategories_Ad",
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3172,8 +3172,10 @@ public final class FoModifyCharacForForumCatsAd {
       "rmation\022/\n\007message\030\003 \003(\0132\036.dstore.engine" +
       ".message.Message\022G\n\003row\030\004 \003(\0132:.dstore.e" +
       "ngine.fo_ModifyCharacForForumCats_Ad.Res" +
-      "ponse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.",
-      "dstore.engine.proceduresb\006proto3"
+      "ponse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B_\n\033io.",
+      "dstore.engine.proceduresZ@gosdk.dstore.d" +
+      "e/engine/procedures/fo_ModifyCharacForFo" +
+      "rumCats_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

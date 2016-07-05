@@ -4402,8 +4402,9 @@ public final class PmGetGroupsAd {
       "e\022-\n\007sort_no\030\223N \001(\0132\033.dstore.values.inte" +
       "gerValue\0224\n\016person_type_id\030\224N \001(\0132\033.dsto" +
       "re.values.integerValue\022.\n\010group_id\030\225N \001(" +
-      "\0132\033.dstore.values.integerValueB\035\n\033io.dst" +
-      "ore.engine.proceduresb\006proto3"
+      "\0132\033.dstore.values.integerValueBP\n\033io.dst" +
+      "ore.engine.proceduresZ1gosdk.dstore.de/e" +
+      "ngine/procedures/pm_GetGroups_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

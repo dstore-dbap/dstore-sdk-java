@@ -6124,8 +6124,9 @@ public final class StGetPageVisitsAd {
       "values.stringValue\0227\n\020page_category_id\030\242" +
       "\234\001 \001(\0132\033.dstore.values.integerValue\022?\n\031p" +
       "age_category_description\030\243\234\001 \001(\0132\032.dstor" +
-      "e.values.stringValueB\035\n\033io.dstore.engine" +
-      ".proceduresb\006proto3"
+      "e.values.stringValueBT\n\033io.dstore.engine" +
+      ".proceduresZ5gosdk.dstore.de/engine/proc" +
+      "edures/st_GetPageVisits_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

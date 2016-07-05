@@ -4157,8 +4157,9 @@ public final class FoGetForumAccessLevelIDsPu {
       "\032\177\n\003Row\022\017\n\006row_id\030\220N \001(\005\0225\n\017access_level" +
       "_id\030\221N \001(\0132\033.dstore.values.integerValue\022" +
       "0\n\013description\030\222N \001(\0132\032.dstore.values.st" +
-      "ringValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "ringValueB]\n\033io.dstore.engine.procedures" +
+      "Z>gosdk.dstore.de/engine/procedures/fo_G" +
+      "etForumAccessLevelIDs_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

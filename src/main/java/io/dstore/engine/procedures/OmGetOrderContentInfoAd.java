@@ -4896,8 +4896,10 @@ public final class OmGetOrderContentInfoAd {
       "pe\030\224N \001(\0132\032.dstore.values.stringValue\0220\n" +
       "\013information\030\225N \001(\0132\032.dstore.values.stri" +
       "ngValue\0226\n\020order_content_id\030\226N \001(\0132\033.dst" +
-      "ore.values.integerValueB\035\n\033io.dstore.eng",
-      "ine.proceduresb\006proto3"
+      "ore.values.integerValueBZ\n\033io.dstore.eng",
+      "ine.proceduresZ;gosdk.dstore.de/engine/p" +
+      "rocedures/om_GetOrderContentInfo_Adb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

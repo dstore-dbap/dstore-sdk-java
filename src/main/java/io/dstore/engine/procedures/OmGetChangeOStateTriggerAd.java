@@ -3420,8 +3420,9 @@ public final class OmGetChangeOStateTriggerAd {
       "_order_state_id_list\030\222N \001(\0132\032.dstore.val" +
       "ues.stringValue\022C\n\035change_order_state_tr" +
       "igger_id\030\223N \001(\0132\033.dstore.values.integerV",
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro" +
-      "to3"
+      "alueB]\n\033io.dstore.engine.proceduresZ>gos" +
+      "dk.dstore.de/engine/procedures/om_GetCha" +
+      "ngeOStateTrigger_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

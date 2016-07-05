@@ -3170,8 +3170,10 @@ public final class PmModifyPersonsInGroupsAd {
       "taInformation\022/\n\007message\030\003 \003(\0132\036.dstore." +
       "engine.message.Message\022D\n\003row\030\004 \003(\01327.ds" +
       "tore.engine.pm_ModifyPersonsInGroups_Ad." +
-      "Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\\\n\033" +
+      "io.dstore.engine.proceduresZ=gosdk.dstor" +
+      "e.de/engine/procedures/pm_ModifyPersonsI",
+      "nGroups_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

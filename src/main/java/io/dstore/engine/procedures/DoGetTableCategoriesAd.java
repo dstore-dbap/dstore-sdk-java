@@ -3171,8 +3171,9 @@ public final class DoGetTableCategoriesAd {
       " \001(\0132\033.dstore.values.integerValue\0220\n\013des" +
       "cription\030\222N \001(\0132\032.dstore.values.stringVa" +
       "lue\0223\n\016table_category\030\223N \001(\0132\032.dstore.va" +
-      "lues.stringValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "lues.stringValueBY\n\033io.dstore.engine.pro" +
+      "ceduresZ:gosdk.dstore.de/engine/procedur" +
+      "es/do_GetTableCategories_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

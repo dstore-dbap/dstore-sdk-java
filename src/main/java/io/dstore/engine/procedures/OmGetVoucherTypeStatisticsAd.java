@@ -4159,8 +4159,9 @@ public final class OmGetVoucherTypeStatisticsAd {
       "egerValue\022>\n\030number_of_max_used_codes\030\225N" +
       " \001(\0132\033.dstore.values.integerValue\0227\n\017max" +
       "_valid_until\030\226N \001(\0132\035.dstore.values.time" +
-      "stampValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "stampValueB_\n\033io.dstore.engine.procedure" +
+      "sZ@gosdk.dstore.de/engine/procedures/om_" +
+      "GetVoucherTypeStatistics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

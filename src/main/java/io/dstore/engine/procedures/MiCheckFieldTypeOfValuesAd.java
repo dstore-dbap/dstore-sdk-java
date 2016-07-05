@@ -4402,8 +4402,9 @@ public final class MiCheckFieldTypeOfValuesAd {
       "store.values.stringValue\0220\n\nerror_code\030\223" +
       "N \001(\0132\033.dstore.values.integerValue\0222\n\ral" +
       "tered_value\030\224N \001(\0132\032.dstore.values.strin" +
-      "gValueB\035\n\033io.dstore.engine.proceduresb\006p" +
-      "roto3"
+      "gValueB]\n\033io.dstore.engine.proceduresZ>g" +
+      "osdk.dstore.de/engine/procedures/mi_Chec" +
+      "kFieldTypeOfValues_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

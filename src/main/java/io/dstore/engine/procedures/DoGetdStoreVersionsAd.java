@@ -3665,8 +3665,9 @@ public final class DoGetdStoreVersionsAd {
       "dstore.values.integerValue\0223\n\016dstore_ver" +
       "sion\030\222N \001(\0132\032.dstore.values.stringValue\022",
       "=\n\025release_date_and_time\030\223N \001(\0132\035.dstore" +
-      ".values.timestampValueB\035\n\033io.dstore.engi" +
-      "ne.proceduresb\006proto3"
+      ".values.timestampValueBX\n\033io.dstore.engi" +
+      "ne.proceduresZ9gosdk.dstore.de/engine/pr" +
+      "ocedures/do_GetdStoreVersions_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

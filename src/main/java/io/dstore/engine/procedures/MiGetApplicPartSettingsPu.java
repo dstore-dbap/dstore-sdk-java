@@ -4405,8 +4405,9 @@ public final class MiGetApplicPartSettingsPu {
       "\0229\n\023application_part_id\030\223N \001(\0132\033.dstore." +
       "values.integerValue\022D\n\036value_derived_fro" +
       "m_global_user\030\224N \001(\0132\033.dstore.values.boo" +
-      "leanValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "leanValueB\\\n\033io.dstore.engine.procedures" +
+      "Z=gosdk.dstore.de/engine/procedures/mi_G",
+      "etApplicPartSettings_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

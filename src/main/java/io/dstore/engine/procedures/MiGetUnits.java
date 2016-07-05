@@ -4155,7 +4155,9 @@ public final class MiGetUnits {
       "s.integerValue\0220\n\013unit_symbol\030\223N \001(\0132\032.d",
       "store.values.stringValue\0225\n\020unit_descrip" +
       "tion\030\224N \001(\0132\032.dstore.values.stringValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "L\n\033io.dstore.engine.proceduresZ-gosdk.ds" +
+      "tore.de/engine/procedures/mi_GetUnitsb\006p" +
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

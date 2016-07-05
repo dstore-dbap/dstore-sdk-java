@@ -5143,8 +5143,9 @@ public final class OmGetCampaignsInCategoriesAd {
       "lues.integerValue\022:\n\024campaign_category_i" +
       "d\030\230N \001(\0132\033.dstore.values.integerValue\0222\n" +
       "\rcampaign_type\030\231N \001(\0132\032.dstore.values.st" +
-      "ringValueB\035\n\033io.dstore.engine.procedures",
-      "b\006proto3"
+      "ringValueB_\n\033io.dstore.engine.procedures",
+      "Z@gosdk.dstore.de/engine/procedures/om_G" +
+      "etCampaignsInCategories_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

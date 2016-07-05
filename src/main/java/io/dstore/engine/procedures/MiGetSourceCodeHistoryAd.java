@@ -5633,8 +5633,10 @@ public final class MiGetSourceCodeHistoryAd {
       "\234\001 \001(\0132\033.dstore.values.integerValue\0227\n\020c",
       "ode_line_number\030\261\352\001 \001(\0132\033.dstore.values." +
       "integerValue\022/\n\tcode_line\030\262\352\001 \001(\0132\032.dsto" +
-      "re.values.stringValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "re.values.stringValueB[\n\033io.dstore.engin" +
+      "e.proceduresZ<gosdk.dstore.de/engine/pro" +
+      "cedures/mi_GetSourceCodeHistory_Adb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -7361,7 +7361,9 @@ public final class DoGetProcedureNamesAd {
       "leanValue\0229\n\024last_created_at_char\030\236N \001(\013" +
       "2\032.dstore.values.stringValue\0221\n\013docu_exi" +
       "sts\030\237N \001(\0132\033.dstore.values.booleanValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "X\n\033io.dstore.engine.proceduresZ9gosdk.ds" +
+      "tore.de/engine/procedures/do_GetProcedur" +
+      "eNames_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

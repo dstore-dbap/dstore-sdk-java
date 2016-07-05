@@ -3172,8 +3172,10 @@ public final class ImGetBinaryPredefinedValsPu {
       "redefinedVals_Pu.Response.Row\032r\n\003Row\022\017\n\006" +
       "row_id\030\220N \001(\005\022*\n\005value\030\221N \001(\0132\032.dstore.v" +
       "alues.stringValue\022.\n\010value_id\030\222N \001(\0132\033.d" +
-      "store.values.integerValueB\035\n\033io.dstore.e" +
-      "ngine.proceduresb\006proto3"
+      "store.values.integerValueB^\n\033io.dstore.e" +
+      "ngine.proceduresZ?gosdk.dstore.de/engine" +
+      "/procedures/im_GetBinaryPredefinedVals_P",
+      "ub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

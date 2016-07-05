@@ -3419,7 +3419,9 @@ public final class AcGetActionStatusCategsAd {
       "ues.stringValue\022-\n\007sort_no\030\222N \001(\0132\033.dsto" +
       "re.values.integerValue\0228\n\022status_categor" +
       "y_id\030\223N \001(\0132\033.dstore.values.integerValue" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "B\\\n\033io.dstore.engine.proceduresZ=gosdk.d",
+      "store.de/engine/procedures/ac_GetActionS" +
+      "tatusCategs_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

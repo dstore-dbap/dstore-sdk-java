@@ -9086,8 +9086,10 @@ public final class CoGetOnlineTimeOfMembersPu {
       "d_by_pattern\030\232N \001(\0132\032.dstore.values.stri" +
       "ngValue\022-\n\010nickname\030\233N \001(\0132\032.dstore.valu" +
       "es.stringValue\022/\n\tis_online\030\234N \001(\0132\033.dst" +
-      "ore.values.booleanValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "ore.values.booleanValueB]\n\033io.dstore.eng" +
+      "ine.proceduresZ>gosdk.dstore.de/engine/p" +
+      "rocedures/co_GetOnlineTimeOfMembers_Pub\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

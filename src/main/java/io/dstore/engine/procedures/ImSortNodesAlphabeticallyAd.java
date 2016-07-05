@@ -2925,8 +2925,10 @@ public final class ImSortNodesAlphabeticallyAd {
       "tion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.me" +
       "ssage.Message\022F\n\003row\030\004 \003(\01329.dstore.engi" +
       "ne.im_SortNodesAlphabetically_Ad.Respons" +
-      "e.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "e.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B^\n\033io.dsto" +
+      "re.engine.proceduresZ?gosdk.dstore.de/en" +
+      "gine/procedures/im_SortNodesAlphabetical" +
+      "ly_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

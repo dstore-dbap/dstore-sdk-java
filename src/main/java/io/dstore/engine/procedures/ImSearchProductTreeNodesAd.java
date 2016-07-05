@@ -193,20 +193,38 @@ public final class ImSearchProductTreeNodesAd {
     boolean getIncludeInactiveNodesNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+     * <code>optional .dstore.values.integerValue count = 11;</code>
+     */
+    boolean hasCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 11;</code>
+     */
+    io.dstore.Values.integerValue getCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 11;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getCountOrBuilder();
+
+    /**
+     * <code>optional bool count_null = 1011;</code>
+     */
+    boolean getCountNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
      */
     boolean hasSearchCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+     * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
      */
     io.dstore.Values.booleanValue getSearchCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+     * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getSearchCaseSensitiveOrBuilder();
 
     /**
-     * <code>optional bool search_case_sensitive_null = 1011;</code>
+     * <code>optional bool search_case_sensitive_null = 1012;</code>
      */
     boolean getSearchCaseSensitiveNull();
   }
@@ -232,6 +250,7 @@ public final class ImSearchProductTreeNodesAd {
       includeValueDetailsNull_ = false;
       includeVariantsNull_ = false;
       includeInactiveNodesNull_ = false;
+      countNull_ = false;
       searchCaseSensitiveNull_ = false;
     }
 
@@ -390,6 +409,19 @@ public final class ImSearchProductTreeNodesAd {
               break;
             }
             case 90: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (count_ != null) {
+                subBuilder = count_.toBuilder();
+              }
+              count_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(count_);
+                count_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 98: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (searchCaseSensitive_ != null) {
                 subBuilder = searchCaseSensitive_.toBuilder();
@@ -453,6 +485,11 @@ public final class ImSearchProductTreeNodesAd {
               break;
             }
             case 8088: {
+
+              countNull_ = input.readBool();
+              break;
+            }
+            case 8096: {
 
               searchCaseSensitiveNull_ = input.readBool();
               break;
@@ -781,31 +818,61 @@ public final class ImSearchProductTreeNodesAd {
       return includeInactiveNodesNull_;
     }
 
-    public static final int SEARCH_CASE_SENSITIVE_FIELD_NUMBER = 11;
+    public static final int COUNT_FIELD_NUMBER = 11;
+    private io.dstore.Values.integerValue count_;
+    /**
+     * <code>optional .dstore.values.integerValue count = 11;</code>
+     */
+    public boolean hasCount() {
+      return count_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 11;</code>
+     */
+    public io.dstore.Values.integerValue getCount() {
+      return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 11;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+      return getCount();
+    }
+
+    public static final int COUNT_NULL_FIELD_NUMBER = 1011;
+    private boolean countNull_;
+    /**
+     * <code>optional bool count_null = 1011;</code>
+     */
+    public boolean getCountNull() {
+      return countNull_;
+    }
+
+    public static final int SEARCH_CASE_SENSITIVE_FIELD_NUMBER = 12;
     private io.dstore.Values.booleanValue searchCaseSensitive_;
     /**
-     * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+     * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
      */
     public boolean hasSearchCaseSensitive() {
       return searchCaseSensitive_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+     * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
      */
     public io.dstore.Values.booleanValue getSearchCaseSensitive() {
       return searchCaseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : searchCaseSensitive_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+     * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getSearchCaseSensitiveOrBuilder() {
       return getSearchCaseSensitive();
     }
 
-    public static final int SEARCH_CASE_SENSITIVE_NULL_FIELD_NUMBER = 1011;
+    public static final int SEARCH_CASE_SENSITIVE_NULL_FIELD_NUMBER = 1012;
     private boolean searchCaseSensitiveNull_;
     /**
-     * <code>optional bool search_case_sensitive_null = 1011;</code>
+     * <code>optional bool search_case_sensitive_null = 1012;</code>
      */
     public boolean getSearchCaseSensitiveNull() {
       return searchCaseSensitiveNull_;
@@ -853,8 +920,11 @@ public final class ImSearchProductTreeNodesAd {
       if (includeInactiveNodes_ != null) {
         output.writeMessage(10, getIncludeInactiveNodes());
       }
+      if (count_ != null) {
+        output.writeMessage(11, getCount());
+      }
       if (searchCaseSensitive_ != null) {
-        output.writeMessage(11, getSearchCaseSensitive());
+        output.writeMessage(12, getSearchCaseSensitive());
       }
       if (domainTreeNodeIdNull_ != false) {
         output.writeBool(1001, domainTreeNodeIdNull_);
@@ -886,8 +956,11 @@ public final class ImSearchProductTreeNodesAd {
       if (includeInactiveNodesNull_ != false) {
         output.writeBool(1010, includeInactiveNodesNull_);
       }
+      if (countNull_ != false) {
+        output.writeBool(1011, countNull_);
+      }
       if (searchCaseSensitiveNull_ != false) {
-        output.writeBool(1011, searchCaseSensitiveNull_);
+        output.writeBool(1012, searchCaseSensitiveNull_);
       }
     }
 
@@ -936,9 +1009,13 @@ public final class ImSearchProductTreeNodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(10, getIncludeInactiveNodes());
       }
+      if (count_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(11, getCount());
+      }
       if (searchCaseSensitive_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getSearchCaseSensitive());
+          .computeMessageSize(12, getSearchCaseSensitive());
       }
       if (domainTreeNodeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -980,9 +1057,13 @@ public final class ImSearchProductTreeNodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1010, includeInactiveNodesNull_);
       }
+      if (countNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1011, countNull_);
+      }
       if (searchCaseSensitiveNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1011, searchCaseSensitiveNull_);
+          .computeBoolSize(1012, searchCaseSensitiveNull_);
       }
       memoizedSize = size;
       return size;
@@ -1175,6 +1256,14 @@ public final class ImSearchProductTreeNodesAd {
         }
         includeInactiveNodesNull_ = false;
 
+        if (countBuilder_ == null) {
+          count_ = null;
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+        countNull_ = false;
+
         if (searchCaseSensitiveBuilder_ == null) {
           searchCaseSensitive_ = null;
         } else {
@@ -1265,6 +1354,12 @@ public final class ImSearchProductTreeNodesAd {
           result.includeInactiveNodes_ = includeInactiveNodesBuilder_.build();
         }
         result.includeInactiveNodesNull_ = includeInactiveNodesNull_;
+        if (countBuilder_ == null) {
+          result.count_ = count_;
+        } else {
+          result.count_ = countBuilder_.build();
+        }
+        result.countNull_ = countNull_;
         if (searchCaseSensitiveBuilder_ == null) {
           result.searchCaseSensitive_ = searchCaseSensitive_;
         } else {
@@ -1345,6 +1440,12 @@ public final class ImSearchProductTreeNodesAd {
         }
         if (other.getIncludeInactiveNodesNull() != false) {
           setIncludeInactiveNodesNull(other.getIncludeInactiveNodesNull());
+        }
+        if (other.hasCount()) {
+          mergeCount(other.getCount());
+        }
+        if (other.getCountNull() != false) {
+          setCountNull(other.getCountNull());
         }
         if (other.hasSearchCaseSensitive()) {
           mergeSearchCaseSensitive(other.getSearchCaseSensitive());
@@ -2808,17 +2909,160 @@ public final class ImSearchProductTreeNodesAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue count_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue count = 11;</code>
+       */
+      public boolean hasCount() {
+        return countBuilder_ != null || count_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 11;</code>
+       */
+      public io.dstore.Values.integerValue getCount() {
+        if (countBuilder_ == null) {
+          return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        } else {
+          return countBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 11;</code>
+       */
+      public Builder setCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          count_ = value;
+          onChanged();
+        } else {
+          countBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 11;</code>
+       */
+      public Builder setCount(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (countBuilder_ == null) {
+          count_ = builderForValue.build();
+          onChanged();
+        } else {
+          countBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 11;</code>
+       */
+      public Builder mergeCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (count_ != null) {
+            count_ =
+              io.dstore.Values.integerValue.newBuilder(count_).mergeFrom(value).buildPartial();
+          } else {
+            count_ = value;
+          }
+          onChanged();
+        } else {
+          countBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 11;</code>
+       */
+      public Builder clearCount() {
+        if (countBuilder_ == null) {
+          count_ = null;
+          onChanged();
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 11;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getCountBuilder() {
+        
+        onChanged();
+        return getCountFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 11;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+        if (countBuilder_ != null) {
+          return countBuilder_.getMessageOrBuilder();
+        } else {
+          return count_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 11;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getCountFieldBuilder() {
+        if (countBuilder_ == null) {
+          countBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getCount(),
+                  getParentForChildren(),
+                  isClean());
+          count_ = null;
+        }
+        return countBuilder_;
+      }
+
+      private boolean countNull_ ;
+      /**
+       * <code>optional bool count_null = 1011;</code>
+       */
+      public boolean getCountNull() {
+        return countNull_;
+      }
+      /**
+       * <code>optional bool count_null = 1011;</code>
+       */
+      public Builder setCountNull(boolean value) {
+        
+        countNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool count_null = 1011;</code>
+       */
+      public Builder clearCountNull() {
+        
+        countNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue searchCaseSensitive_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> searchCaseSensitiveBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+       * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
        */
       public boolean hasSearchCaseSensitive() {
         return searchCaseSensitiveBuilder_ != null || searchCaseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+       * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
        */
       public io.dstore.Values.booleanValue getSearchCaseSensitive() {
         if (searchCaseSensitiveBuilder_ == null) {
@@ -2828,7 +3072,7 @@ public final class ImSearchProductTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+       * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
        */
       public Builder setSearchCaseSensitive(io.dstore.Values.booleanValue value) {
         if (searchCaseSensitiveBuilder_ == null) {
@@ -2844,7 +3088,7 @@ public final class ImSearchProductTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+       * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
        */
       public Builder setSearchCaseSensitive(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2858,7 +3102,7 @@ public final class ImSearchProductTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+       * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
        */
       public Builder mergeSearchCaseSensitive(io.dstore.Values.booleanValue value) {
         if (searchCaseSensitiveBuilder_ == null) {
@@ -2876,7 +3120,7 @@ public final class ImSearchProductTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+       * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
        */
       public Builder clearSearchCaseSensitive() {
         if (searchCaseSensitiveBuilder_ == null) {
@@ -2890,7 +3134,7 @@ public final class ImSearchProductTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+       * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
        */
       public io.dstore.Values.booleanValue.Builder getSearchCaseSensitiveBuilder() {
         
@@ -2898,7 +3142,7 @@ public final class ImSearchProductTreeNodesAd {
         return getSearchCaseSensitiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+       * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getSearchCaseSensitiveOrBuilder() {
         if (searchCaseSensitiveBuilder_ != null) {
@@ -2909,7 +3153,7 @@ public final class ImSearchProductTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_case_sensitive = 11;</code>
+       * <code>optional .dstore.values.booleanValue search_case_sensitive = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2927,13 +3171,13 @@ public final class ImSearchProductTreeNodesAd {
 
       private boolean searchCaseSensitiveNull_ ;
       /**
-       * <code>optional bool search_case_sensitive_null = 1011;</code>
+       * <code>optional bool search_case_sensitive_null = 1012;</code>
        */
       public boolean getSearchCaseSensitiveNull() {
         return searchCaseSensitiveNull_;
       }
       /**
-       * <code>optional bool search_case_sensitive_null = 1011;</code>
+       * <code>optional bool search_case_sensitive_null = 1012;</code>
        */
       public Builder setSearchCaseSensitiveNull(boolean value) {
         
@@ -2942,7 +3186,7 @@ public final class ImSearchProductTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional bool search_case_sensitive_null = 1011;</code>
+       * <code>optional bool search_case_sensitive_null = 1012;</code>
        */
       public Builder clearSearchCaseSensitiveNull() {
         
@@ -7878,7 +8122,7 @@ public final class ImSearchProductTreeNodesAd {
       "SearchProductTreeNodes_Ad\032\023dstore/values" +
       ".proto\032\031dstore/engine/error.proto\032\033dstor" +
       "e/engine/message.proto\032#dstore/engine/me" +
-      "tainformation.proto\"\305\007\n\nParameters\0228\n\023do" +
+      "tainformation.proto\"\206\010\n\nParameters\0228\n\023do" +
       "main_tree_node_id\030\001 \001(\0132\033.dstore.values." +
       "integerValue\022!\n\030domain_tree_node_id_null" +
       "\030\351\007 \001(\010\022;\n\027node_characteristic_ids\030\002 \001(\013" +
@@ -7900,34 +8144,37 @@ public final class ImSearchProductTreeNodesAd {
       "\036\n\025include_variants_null\030\361\007 \001(\010\022;\n\026inclu" +
       "de_inactive_nodes\030\n \001(\0132\033.dstore.values." +
       "booleanValue\022$\n\033include_inactive_nodes_n" +
-      "ull\030\362\007 \001(\010\022:\n\025search_case_sensitive\030\013 \001(" +
-      "\0132\033.dstore.values.booleanValue\022#\n\032search" +
-      "_case_sensitive_null\030\363\007 \001(\010\"\266\007\n\010Response",
-      "\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.Er" +
-      "ror\022H\n\020meta_information\030\002 \003(\0132..dstore.e" +
-      "ngine.metainformation.MetaInformation\022/\n" +
-      "\007message\030\003 \003(\0132\036.dstore.engine.message.M" +
-      "essage\022E\n\003row\030\004 \003(\01328.dstore.engine.im_S" +
-      "earchProductTreeNodes_Ad.Response.Row\022*\n" +
-      "\005count\030e \001(\0132\033.dstore.values.integerValu" +
-      "e\032\220\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\022,\n\006active\030\221N " +
-      "\001(\0132\033.dstore.values.booleanValue\022;\n\025pred" +
-      "ecessors_level_no\030\222N \001(\0132\033.dstore.values",
-      ".integerValue\0223\n\016matching_value\030\223N \001(\0132\032" +
-      ".dstore.values.stringValue\022?\n\031pre_predec" +
-      "essors_level_no\030\224N \001(\0132\033.dstore.values.i" +
-      "ntegerValue\0222\n\014tree_node_id\030\225N \001(\0132\033.dst" +
-      "ore.values.integerValue\022-\n\007node_id\030\226N \001(" +
-      "\0132\033.dstore.values.integerValue\022A\n\034pre_pr" +
-      "edecessors_description\030\227N \001(\0132\032.dstore.v" +
-      "alues.stringValue\022,\n\007product\030\230N \001(\0132\032.ds" +
-      "tore.values.stringValue\022C\n\035pre_predecess" +
-      "ors_tree_node_id\030\231N \001(\0132\033.dstore.values.",
-      "integerValue\022?\n\031predecessors_tree_node_i" +
-      "d\030\232N \001(\0132\033.dstore.values.integerValue\022=\n" +
-      "\030predecessors_description\030\233N \001(\0132\032.dstor" +
-      "e.values.stringValueB\035\n\033io.dstore.engine" +
-      ".proceduresb\006proto3"
+      "ull\030\362\007 \001(\010\022*\n\005count\030\013 \001(\0132\033.dstore.value" +
+      "s.integerValue\022\023\n\ncount_null\030\363\007 \001(\010\022:\n\025s" +
+      "earch_case_sensitive\030\014 \001(\0132\033.dstore.valu",
+      "es.booleanValue\022#\n\032search_case_sensitive" +
+      "_null\030\364\007 \001(\010\"\266\007\n\010Response\022)\n\005error\030\001 \001(\013" +
+      "2\032.dstore.engine.error.Error\022H\n\020meta_inf" +
+      "ormation\030\002 \003(\0132..dstore.engine.metainfor" +
+      "mation.MetaInformation\022/\n\007message\030\003 \003(\0132" +
+      "\036.dstore.engine.message.Message\022E\n\003row\030\004" +
+      " \003(\01328.dstore.engine.im_SearchProductTre" +
+      "eNodes_Ad.Response.Row\022*\n\005count\030e \001(\0132\033." +
+      "dstore.values.integerValue\032\220\005\n\003Row\022\017\n\006ro" +
+      "w_id\030\220N \001(\005\022,\n\006active\030\221N \001(\0132\033.dstore.va",
+      "lues.booleanValue\022;\n\025predecessors_level_" +
+      "no\030\222N \001(\0132\033.dstore.values.integerValue\0223" +
+      "\n\016matching_value\030\223N \001(\0132\032.dstore.values." +
+      "stringValue\022?\n\031pre_predecessors_level_no" +
+      "\030\224N \001(\0132\033.dstore.values.integerValue\0222\n\014" +
+      "tree_node_id\030\225N \001(\0132\033.dstore.values.inte" +
+      "gerValue\022-\n\007node_id\030\226N \001(\0132\033.dstore.valu" +
+      "es.integerValue\022A\n\034pre_predecessors_desc" +
+      "ription\030\227N \001(\0132\032.dstore.values.stringVal" +
+      "ue\022,\n\007product\030\230N \001(\0132\032.dstore.values.str",
+      "ingValue\022C\n\035pre_predecessors_tree_node_i" +
+      "d\030\231N \001(\0132\033.dstore.values.integerValue\022?\n" +
+      "\031predecessors_tree_node_id\030\232N \001(\0132\033.dsto" +
+      "re.values.integerValue\022=\n\030predecessors_d" +
+      "escription\030\233N \001(\0132\032.dstore.values.string" +
+      "ValueB]\n\033io.dstore.engine.proceduresZ>go" +
+      "sdk.dstore.de/engine/procedures/im_Searc" +
+      "hProductTreeNodes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -7950,7 +8197,7 @@ public final class ImSearchProductTreeNodesAd {
     internal_static_dstore_engine_im_SearchProductTreeNodes_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_SearchProductTreeNodes_Ad_Parameters_descriptor,
-        new java.lang.String[] { "DomainTreeNodeId", "DomainTreeNodeIdNull", "NodeCharacteristicIds", "NodeCharacteristicIdsNull", "Value", "ValueNull", "IsLike", "IsLikeNull", "IncludeInherited", "IncludeInheritedNull", "StartAtRowNo", "StartAtRowNoNull", "RowCount", "RowCountNull", "IncludeValueDetails", "IncludeValueDetailsNull", "IncludeVariants", "IncludeVariantsNull", "IncludeInactiveNodes", "IncludeInactiveNodesNull", "SearchCaseSensitive", "SearchCaseSensitiveNull", });
+        new java.lang.String[] { "DomainTreeNodeId", "DomainTreeNodeIdNull", "NodeCharacteristicIds", "NodeCharacteristicIdsNull", "Value", "ValueNull", "IsLike", "IsLikeNull", "IncludeInherited", "IncludeInheritedNull", "StartAtRowNo", "StartAtRowNoNull", "RowCount", "RowCountNull", "IncludeValueDetails", "IncludeValueDetailsNull", "IncludeVariants", "IncludeVariantsNull", "IncludeInactiveNodes", "IncludeInactiveNodesNull", "Count", "CountNull", "SearchCaseSensitive", "SearchCaseSensitiveNull", });
     internal_static_dstore_engine_im_SearchProductTreeNodes_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_SearchProductTreeNodes_Ad_Response_fieldAccessorTable = new

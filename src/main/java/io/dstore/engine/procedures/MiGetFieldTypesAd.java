@@ -3910,8 +3910,9 @@ public final class MiGetFieldTypesAd {
       "store.values.integerValue\0229\n\023basic_field" +
       "_type_id\030\225N \001(\0132\033.dstore.values.integerV" +
       "alue\0220\n\nmax_length\030\226N \001(\0132\033.dstore.value",
-      "s.integerValueB\035\n\033io.dstore.engine.proce" +
-      "duresb\006proto3"
+      "s.integerValueBT\n\033io.dstore.engine.proce" +
+      "duresZ5gosdk.dstore.de/engine/procedures" +
+      "/mi_GetFieldTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -49,38 +49,56 @@ public final class PmGetPersonOutputCharacsAd {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+     */
+    boolean hasOutputCharacteristicIds();
+    /**
+     * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+     */
+    io.dstore.Values.stringValue getOutputCharacteristicIds();
+    /**
+     * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getOutputCharacteristicIdsOrBuilder();
+
+    /**
+     * <code>optional bool output_characteristic_ids_null = 1003;</code>
+     */
+    boolean getOutputCharacteristicIdsNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     io.dstore.Values.booleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
-     * <code>optional bool select_result_null = 1003;</code>
+     * <code>optional bool select_result_null = 1004;</code>
      */
     boolean getSelectResultNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
      */
     boolean hasSortOrderInfoInOutputParam();
     /**
-     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
      */
     io.dstore.Values.booleanValue getSortOrderInfoInOutputParam();
     /**
-     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getSortOrderInfoInOutputParamOrBuilder();
 
     /**
-     * <code>optional bool sort_order_info_in_output_param_null = 1004;</code>
+     * <code>optional bool sort_order_info_in_output_param_null = 1005;</code>
      */
     boolean getSortOrderInfoInOutputParamNull();
   }
@@ -98,6 +116,7 @@ public final class PmGetPersonOutputCharacsAd {
     private Parameters() {
       userIdNull_ = false;
       personTypeIdNull_ = false;
+      outputCharacteristicIdsNull_ = false;
       selectResultNull_ = false;
       sortOrderInfoInOutputParamNull_ = false;
     }
@@ -153,6 +172,19 @@ public final class PmGetPersonOutputCharacsAd {
               break;
             }
             case 26: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (outputCharacteristicIds_ != null) {
+                subBuilder = outputCharacteristicIds_.toBuilder();
+              }
+              outputCharacteristicIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(outputCharacteristicIds_);
+                outputCharacteristicIds_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 34: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
@@ -165,7 +197,7 @@ public final class PmGetPersonOutputCharacsAd {
 
               break;
             }
-            case 34: {
+            case 42: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (sortOrderInfoInOutputParam_ != null) {
                 subBuilder = sortOrderInfoInOutputParam_.toBuilder();
@@ -190,10 +222,15 @@ public final class PmGetPersonOutputCharacsAd {
             }
             case 8024: {
 
-              selectResultNull_ = input.readBool();
+              outputCharacteristicIdsNull_ = input.readBool();
               break;
             }
             case 8032: {
+
+              selectResultNull_ = input.readBool();
+              break;
+            }
+            case 8040: {
 
               sortOrderInfoInOutputParamNull_ = input.readBool();
               break;
@@ -282,61 +319,91 @@ public final class PmGetPersonOutputCharacsAd {
       return personTypeIdNull_;
     }
 
-    public static final int SELECT_RESULT_FIELD_NUMBER = 3;
+    public static final int OUTPUT_CHARACTERISTIC_IDS_FIELD_NUMBER = 3;
+    private io.dstore.Values.stringValue outputCharacteristicIds_;
+    /**
+     * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+     */
+    public boolean hasOutputCharacteristicIds() {
+      return outputCharacteristicIds_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+     */
+    public io.dstore.Values.stringValue getOutputCharacteristicIds() {
+      return outputCharacteristicIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : outputCharacteristicIds_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getOutputCharacteristicIdsOrBuilder() {
+      return getOutputCharacteristicIds();
+    }
+
+    public static final int OUTPUT_CHARACTERISTIC_IDS_NULL_FIELD_NUMBER = 1003;
+    private boolean outputCharacteristicIdsNull_;
+    /**
+     * <code>optional bool output_characteristic_ids_null = 1003;</code>
+     */
+    public boolean getOutputCharacteristicIdsNull() {
+      return outputCharacteristicIdsNull_;
+    }
+
+    public static final int SELECT_RESULT_FIELD_NUMBER = 4;
     private io.dstore.Values.booleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     public io.dstore.Values.booleanValue getSelectResult() {
       return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
-    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1003;
+    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1004;
     private boolean selectResultNull_;
     /**
-     * <code>optional bool select_result_null = 1003;</code>
+     * <code>optional bool select_result_null = 1004;</code>
      */
     public boolean getSelectResultNull() {
       return selectResultNull_;
     }
 
-    public static final int SORT_ORDER_INFO_IN_OUTPUT_PARAM_FIELD_NUMBER = 4;
+    public static final int SORT_ORDER_INFO_IN_OUTPUT_PARAM_FIELD_NUMBER = 5;
     private io.dstore.Values.booleanValue sortOrderInfoInOutputParam_;
     /**
-     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
      */
     public boolean hasSortOrderInfoInOutputParam() {
       return sortOrderInfoInOutputParam_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
      */
     public io.dstore.Values.booleanValue getSortOrderInfoInOutputParam() {
       return sortOrderInfoInOutputParam_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : sortOrderInfoInOutputParam_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+     * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getSortOrderInfoInOutputParamOrBuilder() {
       return getSortOrderInfoInOutputParam();
     }
 
-    public static final int SORT_ORDER_INFO_IN_OUTPUT_PARAM_NULL_FIELD_NUMBER = 1004;
+    public static final int SORT_ORDER_INFO_IN_OUTPUT_PARAM_NULL_FIELD_NUMBER = 1005;
     private boolean sortOrderInfoInOutputParamNull_;
     /**
-     * <code>optional bool sort_order_info_in_output_param_null = 1004;</code>
+     * <code>optional bool sort_order_info_in_output_param_null = 1005;</code>
      */
     public boolean getSortOrderInfoInOutputParamNull() {
       return sortOrderInfoInOutputParamNull_;
@@ -360,11 +427,14 @@ public final class PmGetPersonOutputCharacsAd {
       if (personTypeId_ != null) {
         output.writeMessage(2, getPersonTypeId());
       }
+      if (outputCharacteristicIds_ != null) {
+        output.writeMessage(3, getOutputCharacteristicIds());
+      }
       if (selectResult_ != null) {
-        output.writeMessage(3, getSelectResult());
+        output.writeMessage(4, getSelectResult());
       }
       if (sortOrderInfoInOutputParam_ != null) {
-        output.writeMessage(4, getSortOrderInfoInOutputParam());
+        output.writeMessage(5, getSortOrderInfoInOutputParam());
       }
       if (userIdNull_ != false) {
         output.writeBool(1001, userIdNull_);
@@ -372,11 +442,14 @@ public final class PmGetPersonOutputCharacsAd {
       if (personTypeIdNull_ != false) {
         output.writeBool(1002, personTypeIdNull_);
       }
+      if (outputCharacteristicIdsNull_ != false) {
+        output.writeBool(1003, outputCharacteristicIdsNull_);
+      }
       if (selectResultNull_ != false) {
-        output.writeBool(1003, selectResultNull_);
+        output.writeBool(1004, selectResultNull_);
       }
       if (sortOrderInfoInOutputParamNull_ != false) {
-        output.writeBool(1004, sortOrderInfoInOutputParamNull_);
+        output.writeBool(1005, sortOrderInfoInOutputParamNull_);
       }
     }
 
@@ -393,13 +466,17 @@ public final class PmGetPersonOutputCharacsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, getPersonTypeId());
       }
+      if (outputCharacteristicIds_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getOutputCharacteristicIds());
+      }
       if (selectResult_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getSelectResult());
+          .computeMessageSize(4, getSelectResult());
       }
       if (sortOrderInfoInOutputParam_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getSortOrderInfoInOutputParam());
+          .computeMessageSize(5, getSortOrderInfoInOutputParam());
       }
       if (userIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -409,13 +486,17 @@ public final class PmGetPersonOutputCharacsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1002, personTypeIdNull_);
       }
+      if (outputCharacteristicIdsNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1003, outputCharacteristicIdsNull_);
+      }
       if (selectResultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, selectResultNull_);
+          .computeBoolSize(1004, selectResultNull_);
       }
       if (sortOrderInfoInOutputParamNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, sortOrderInfoInOutputParamNull_);
+          .computeBoolSize(1005, sortOrderInfoInOutputParamNull_);
       }
       memoizedSize = size;
       return size;
@@ -544,6 +625,14 @@ public final class PmGetPersonOutputCharacsAd {
         }
         personTypeIdNull_ = false;
 
+        if (outputCharacteristicIdsBuilder_ == null) {
+          outputCharacteristicIds_ = null;
+        } else {
+          outputCharacteristicIds_ = null;
+          outputCharacteristicIdsBuilder_ = null;
+        }
+        outputCharacteristicIdsNull_ = false;
+
         if (selectResultBuilder_ == null) {
           selectResult_ = null;
         } else {
@@ -594,6 +683,12 @@ public final class PmGetPersonOutputCharacsAd {
           result.personTypeId_ = personTypeIdBuilder_.build();
         }
         result.personTypeIdNull_ = personTypeIdNull_;
+        if (outputCharacteristicIdsBuilder_ == null) {
+          result.outputCharacteristicIds_ = outputCharacteristicIds_;
+        } else {
+          result.outputCharacteristicIds_ = outputCharacteristicIdsBuilder_.build();
+        }
+        result.outputCharacteristicIdsNull_ = outputCharacteristicIdsNull_;
         if (selectResultBuilder_ == null) {
           result.selectResult_ = selectResult_;
         } else {
@@ -632,6 +727,12 @@ public final class PmGetPersonOutputCharacsAd {
         }
         if (other.getPersonTypeIdNull() != false) {
           setPersonTypeIdNull(other.getPersonTypeIdNull());
+        }
+        if (other.hasOutputCharacteristicIds()) {
+          mergeOutputCharacteristicIds(other.getOutputCharacteristicIds());
+        }
+        if (other.getOutputCharacteristicIdsNull() != false) {
+          setOutputCharacteristicIdsNull(other.getOutputCharacteristicIdsNull());
         }
         if (other.hasSelectResult()) {
           mergeSelectResult(other.getSelectResult());
@@ -957,17 +1058,160 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
 
+      private io.dstore.Values.stringValue outputCharacteristicIds_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> outputCharacteristicIdsBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+       */
+      public boolean hasOutputCharacteristicIds() {
+        return outputCharacteristicIdsBuilder_ != null || outputCharacteristicIds_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+       */
+      public io.dstore.Values.stringValue getOutputCharacteristicIds() {
+        if (outputCharacteristicIdsBuilder_ == null) {
+          return outputCharacteristicIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : outputCharacteristicIds_;
+        } else {
+          return outputCharacteristicIdsBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+       */
+      public Builder setOutputCharacteristicIds(io.dstore.Values.stringValue value) {
+        if (outputCharacteristicIdsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          outputCharacteristicIds_ = value;
+          onChanged();
+        } else {
+          outputCharacteristicIdsBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+       */
+      public Builder setOutputCharacteristicIds(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (outputCharacteristicIdsBuilder_ == null) {
+          outputCharacteristicIds_ = builderForValue.build();
+          onChanged();
+        } else {
+          outputCharacteristicIdsBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+       */
+      public Builder mergeOutputCharacteristicIds(io.dstore.Values.stringValue value) {
+        if (outputCharacteristicIdsBuilder_ == null) {
+          if (outputCharacteristicIds_ != null) {
+            outputCharacteristicIds_ =
+              io.dstore.Values.stringValue.newBuilder(outputCharacteristicIds_).mergeFrom(value).buildPartial();
+          } else {
+            outputCharacteristicIds_ = value;
+          }
+          onChanged();
+        } else {
+          outputCharacteristicIdsBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+       */
+      public Builder clearOutputCharacteristicIds() {
+        if (outputCharacteristicIdsBuilder_ == null) {
+          outputCharacteristicIds_ = null;
+          onChanged();
+        } else {
+          outputCharacteristicIds_ = null;
+          outputCharacteristicIdsBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getOutputCharacteristicIdsBuilder() {
+        
+        onChanged();
+        return getOutputCharacteristicIdsFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getOutputCharacteristicIdsOrBuilder() {
+        if (outputCharacteristicIdsBuilder_ != null) {
+          return outputCharacteristicIdsBuilder_.getMessageOrBuilder();
+        } else {
+          return outputCharacteristicIds_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : outputCharacteristicIds_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue output_characteristic_ids = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getOutputCharacteristicIdsFieldBuilder() {
+        if (outputCharacteristicIdsBuilder_ == null) {
+          outputCharacteristicIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getOutputCharacteristicIds(),
+                  getParentForChildren(),
+                  isClean());
+          outputCharacteristicIds_ = null;
+        }
+        return outputCharacteristicIdsBuilder_;
+      }
+
+      private boolean outputCharacteristicIdsNull_ ;
+      /**
+       * <code>optional bool output_characteristic_ids_null = 1003;</code>
+       */
+      public boolean getOutputCharacteristicIdsNull() {
+        return outputCharacteristicIdsNull_;
+      }
+      /**
+       * <code>optional bool output_characteristic_ids_null = 1003;</code>
+       */
+      public Builder setOutputCharacteristicIdsNull(boolean value) {
+        
+        outputCharacteristicIdsNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool output_characteristic_ids_null = 1003;</code>
+       */
+      public Builder clearOutputCharacteristicIdsNull() {
+        
+        outputCharacteristicIdsNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public io.dstore.Values.booleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -977,7 +1221,7 @@ public final class PmGetPersonOutputCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder setSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -993,7 +1237,7 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder setSelectResult(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1007,7 +1251,7 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1025,7 +1269,7 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1039,7 +1283,7 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
         
@@ -1047,7 +1291,7 @@ public final class PmGetPersonOutputCharacsAd {
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
@@ -1058,7 +1302,7 @@ public final class PmGetPersonOutputCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1076,13 +1320,13 @@ public final class PmGetPersonOutputCharacsAd {
 
       private boolean selectResultNull_ ;
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>optional bool select_result_null = 1004;</code>
        */
       public boolean getSelectResultNull() {
         return selectResultNull_;
       }
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>optional bool select_result_null = 1004;</code>
        */
       public Builder setSelectResultNull(boolean value) {
         
@@ -1091,7 +1335,7 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>optional bool select_result_null = 1004;</code>
        */
       public Builder clearSelectResultNull() {
         
@@ -1104,13 +1348,13 @@ public final class PmGetPersonOutputCharacsAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> sortOrderInfoInOutputParamBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
        */
       public boolean hasSortOrderInfoInOutputParam() {
         return sortOrderInfoInOutputParamBuilder_ != null || sortOrderInfoInOutputParam_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
        */
       public io.dstore.Values.booleanValue getSortOrderInfoInOutputParam() {
         if (sortOrderInfoInOutputParamBuilder_ == null) {
@@ -1120,7 +1364,7 @@ public final class PmGetPersonOutputCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
        */
       public Builder setSortOrderInfoInOutputParam(io.dstore.Values.booleanValue value) {
         if (sortOrderInfoInOutputParamBuilder_ == null) {
@@ -1136,7 +1380,7 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
        */
       public Builder setSortOrderInfoInOutputParam(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1150,7 +1394,7 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
        */
       public Builder mergeSortOrderInfoInOutputParam(io.dstore.Values.booleanValue value) {
         if (sortOrderInfoInOutputParamBuilder_ == null) {
@@ -1168,7 +1412,7 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
        */
       public Builder clearSortOrderInfoInOutputParam() {
         if (sortOrderInfoInOutputParamBuilder_ == null) {
@@ -1182,7 +1426,7 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
        */
       public io.dstore.Values.booleanValue.Builder getSortOrderInfoInOutputParamBuilder() {
         
@@ -1190,7 +1434,7 @@ public final class PmGetPersonOutputCharacsAd {
         return getSortOrderInfoInOutputParamFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getSortOrderInfoInOutputParamOrBuilder() {
         if (sortOrderInfoInOutputParamBuilder_ != null) {
@@ -1201,7 +1445,7 @@ public final class PmGetPersonOutputCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 4;</code>
+       * <code>optional .dstore.values.booleanValue sort_order_info_in_output_param = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1219,13 +1463,13 @@ public final class PmGetPersonOutputCharacsAd {
 
       private boolean sortOrderInfoInOutputParamNull_ ;
       /**
-       * <code>optional bool sort_order_info_in_output_param_null = 1004;</code>
+       * <code>optional bool sort_order_info_in_output_param_null = 1005;</code>
        */
       public boolean getSortOrderInfoInOutputParamNull() {
         return sortOrderInfoInOutputParamNull_;
       }
       /**
-       * <code>optional bool sort_order_info_in_output_param_null = 1004;</code>
+       * <code>optional bool sort_order_info_in_output_param_null = 1005;</code>
        */
       public Builder setSortOrderInfoInOutputParamNull(boolean value) {
         
@@ -1234,7 +1478,7 @@ public final class PmGetPersonOutputCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool sort_order_info_in_output_param_null = 1004;</code>
+       * <code>optional bool sort_order_info_in_output_param_null = 1005;</code>
        */
       public Builder clearSortOrderInfoInOutputParamNull() {
         
@@ -4455,31 +4699,35 @@ public final class PmGetPersonOutputCharacsAd {
       "GetPersonOutputCharacs_Ad\032\023dstore/values" +
       ".proto\032\031dstore/engine/error.proto\032\033dstor" +
       "e/engine/message.proto\032#dstore/engine/me" +
-      "tainformation.proto\"\352\002\n\nParameters\022,\n\007us" +
+      "tainformation.proto\"\322\003\n\nParameters\022,\n\007us" +
       "er_id\030\001 \001(\0132\033.dstore.values.integerValue" +
       "\022\025\n\014user_id_null\030\351\007 \001(\010\0223\n\016person_type_i" +
       "d\030\002 \001(\0132\033.dstore.values.integerValue\022\034\n\023" +
-      "person_type_id_null\030\352\007 \001(\010\0222\n\rselect_res",
-      "ult\030\003 \001(\0132\033.dstore.values.booleanValue\022\033" +
-      "\n\022select_result_null\030\353\007 \001(\010\022D\n\037sort_orde" +
-      "r_info_in_output_param\030\004 \001(\0132\033.dstore.va" +
-      "lues.booleanValue\022-\n$sort_order_info_in_" +
-      "output_param_null\030\354\007 \001(\010\"\257\004\n\010Response\022)\n" +
-      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error" +
-      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi" +
-      "ne.metainformation.MetaInformation\022/\n\007me" +
-      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
-      "age\022E\n\003row\030\004 \003(\01328.dstore.engine.pm_GetP",
-      "ersonOutputCharacs_Ad.Response.Row\022=\n\031ou" +
-      "tput_characteristic_ids\030e \001(\0132\032.dstore.v" +
-      "alues.stringValue\032\366\001\n\003Row\022\017\n\006row_id\030\220N \001" +
-      "(\005\0222\n\014column_width\030\221N \001(\0132\033.dstore.value" +
-      "s.integerValue\022?\n\032characteristic_descrip" +
-      "tion\030\222N \001(\0132\032.dstore.values.stringValue\022" +
-      "7\n\021characteristic_id\030\223N \001(\0132\033.dstore.val" +
-      "ues.integerValue\0220\n\nsort_order\030\224N \001(\0132\033." +
-      "dstore.values.booleanValueB\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "person_type_id_null\030\352\007 \001(\010\022=\n\031output_cha",
+      "racteristic_ids\030\003 \001(\0132\032.dstore.values.st" +
+      "ringValue\022\'\n\036output_characteristic_ids_n" +
+      "ull\030\353\007 \001(\010\0222\n\rselect_result\030\004 \001(\0132\033.dsto" +
+      "re.values.booleanValue\022\033\n\022select_result_" +
+      "null\030\354\007 \001(\010\022D\n\037sort_order_info_in_output" +
+      "_param\030\005 \001(\0132\033.dstore.values.booleanValu" +
+      "e\022-\n$sort_order_info_in_output_param_nul" +
+      "l\030\355\007 \001(\010\"\257\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.d" +
+      "store.engine.error.Error\022H\n\020meta_informa" +
+      "tion\030\002 \003(\0132..dstore.engine.metainformati",
+      "on.MetaInformation\022/\n\007message\030\003 \003(\0132\036.ds" +
+      "tore.engine.message.Message\022E\n\003row\030\004 \003(\013" +
+      "28.dstore.engine.pm_GetPersonOutputChara" +
+      "cs_Ad.Response.Row\022=\n\031output_characteris" +
+      "tic_ids\030e \001(\0132\032.dstore.values.stringValu" +
+      "e\032\366\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0222\n\014column_wid" +
+      "th\030\221N \001(\0132\033.dstore.values.integerValue\022?" +
+      "\n\032characteristic_description\030\222N \001(\0132\032.ds" +
+      "tore.values.stringValue\0227\n\021characteristi" +
+      "c_id\030\223N \001(\0132\033.dstore.values.integerValue",
+      "\0220\n\nsort_order\030\224N \001(\0132\033.dstore.values.bo" +
+      "oleanValueB]\n\033io.dstore.engine.procedure" +
+      "sZ>gosdk.dstore.de/engine/procedures/pm_" +
+      "GetPersonOutputCharacs_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4502,7 +4750,7 @@ public final class PmGetPersonOutputCharacsAd {
     internal_static_dstore_engine_pm_GetPersonOutputCharacs_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersonOutputCharacs_Ad_Parameters_descriptor,
-        new java.lang.String[] { "UserId", "UserIdNull", "PersonTypeId", "PersonTypeIdNull", "SelectResult", "SelectResultNull", "SortOrderInfoInOutputParam", "SortOrderInfoInOutputParamNull", });
+        new java.lang.String[] { "UserId", "UserIdNull", "PersonTypeId", "PersonTypeIdNull", "OutputCharacteristicIds", "OutputCharacteristicIdsNull", "SelectResult", "SelectResultNull", "SortOrderInfoInOutputParam", "SortOrderInfoInOutputParamNull", });
     internal_static_dstore_engine_pm_GetPersonOutputCharacs_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_GetPersonOutputCharacs_Ad_Response_fieldAccessorTable = new

@@ -2925,8 +2925,9 @@ public final class ImAddBinaryToValuesAd {
       "\030\003 \003(\0132\036.dstore.engine.message.Message\022@" +
       "\n\003row\030\004 \003(\01323.dstore.engine.im_AddBinary" +
       "ToValues_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_i" +
-      "d\030\220N \001(\005B\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "d\030\220N \001(\005BX\n\033io.dstore.engine.proceduresZ" +
+      "9gosdk.dstore.de/engine/procedures/im_Ad" +
+      "dBinaryToValues_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

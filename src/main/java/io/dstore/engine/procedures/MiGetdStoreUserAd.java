@@ -3171,8 +3171,9 @@ public final class MiGetdStoreUserAd {
       ".Response.Row\032u\n\003Row\022\017\n\006row_id\030\220N \001(\005\022.\n" +
       "\tuser_name\030\221N \001(\0132\032.dstore.values.string" +
       "Value\022-\n\007user_id\030\222N \001(\0132\033.dstore.values." +
-      "integerValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      "integerValueBT\n\033io.dstore.engine.procedu" +
+      "resZ5gosdk.dstore.de/engine/procedures/m" +
+      "i_GetdStoreUser_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

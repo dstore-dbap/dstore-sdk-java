@@ -3172,8 +3172,9 @@ public final class OmGetBenefitTypesAd {
       "ow_id\030\220N \001(\005\022=\n\030benefit_type_description" +
       "\030\221N \001(\0132\032.dstore.values.stringValue\0225\n\017b" +
       "enefit_type_id\030\222N \001(\0132\033.dstore.values.in" +
-      "tegerValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tegerValueBV\n\033io.dstore.engine.procedure" +
+      "sZ7gosdk.dstore.de/engine/procedures/om_" +
+      "GetBenefitTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5882,8 +5882,10 @@ public final class OmGetCampaignBundlePricingAd {
       "re.values.booleanValue\022@\n\032item_condition" +
       "_description\030\251\234\001 \001(\0132\032.dstore.values.str" +
       "ingValue\022.\n\007sort_no\030\252\234\001 \001(\0132\033.dstore.val" +
-      "ues.integerValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "ues.integerValueB_\n\033io.dstore.engine.pro" +
+      "ceduresZ@gosdk.dstore.de/engine/procedur" +
+      "es/om_GetCampaignBundlePricing_Adb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

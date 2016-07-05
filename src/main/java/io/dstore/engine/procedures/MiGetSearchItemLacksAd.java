@@ -4649,8 +4649,9 @@ public final class MiGetSearchItemLacksAd {
       "es.integerValue\0221\n\014search_value\030\222N \001(\0132\032" +
       ".dstore.values.stringValue\0227\n\021characteri" +
       "stic_id\030\223N \001(\0132\033.dstore.values.integerVa" +
-      "lueB\035\n\033io.dstore.engine.proceduresb\006prot",
-      "o3"
+      "lueBY\n\033io.dstore.engine.proceduresZ:gosd",
+      "k.dstore.de/engine/procedures/mi_GetSear" +
+      "chItemLacks_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

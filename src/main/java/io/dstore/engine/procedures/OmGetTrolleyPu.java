@@ -19441,8 +19441,10 @@ public final class OmGetTrolleyPu {
       "e.values.integerValue\022B\n\034pre_predecessor" +
       "s_description\030\310\234\001 \001(\0132\032.dstore.values.st" +
       "ringValue\022>\n\030input_date_and_time_char\030\267\352" +
-      "\001 \001(\0132\032.dstore.values.stringValueB\035\n\033io.",
-      "dstore.engine.proceduresb\006proto3"
+      "\001 \001(\0132\032.dstore.values.stringValueBQ\n\033io.",
+      "dstore.engine.proceduresZ2gosdk.dstore.d" +
+      "e/engine/procedures/om_GetTrolley_Pub\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

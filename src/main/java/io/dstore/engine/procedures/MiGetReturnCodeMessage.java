@@ -3664,8 +3664,9 @@ public final class MiGetReturnCodeMessage {
       "values.integerValue\0220\n\013description\030\222N \001(" +
       "\0132\032.dstore.values.stringValue\0229\n\024detaile" +
       "d_description\030\223N \001(\0132\032.dstore.values.str",
-      "ingValueB\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "ingValueBX\n\033io.dstore.engine.proceduresZ" +
+      "9gosdk.dstore.de/engine/procedures/mi_Ge" +
+      "tReturnCodeMessageb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

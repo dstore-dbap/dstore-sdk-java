@@ -6865,8 +6865,10 @@ public final class ImGetCommonNodePropertiesAd {
       "ue_id\030\231N \001(\0132\033.dstore.values.integerValu" +
       "e\022/\n\trecursive\030\232N \001(\0132\033.dstore.values.bo",
       "oleanValue\0227\n\021predefined_values\030\233N \001(\0132\033" +
-      ".dstore.values.booleanValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      ".dstore.values.booleanValueB^\n\033io.dstore" +
+      ".engine.proceduresZ?gosdk.dstore.de/engi" +
+      "ne/procedures/im_GetCommonNodeProperties" +
+      "_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -5391,8 +5391,10 @@ public final class MiGetAppPartsTreeSettingsAd {
       "ngValue\022>\n\030application_part_tree_id\030\224N \001" +
       "(\0132\033.dstore.values.integerValue\022D\n\036value" +
       "_derived_from_global_user\030\225N \001(\0132\033.dstor" +
-      "e.values.booleanValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "e.values.booleanValueB^\n\033io.dstore.engin" +
+      "e.proceduresZ?gosdk.dstore.de/engine/pro" +
+      "cedures/mi_GetAppPartsTreeSettings_Adb\006p",
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

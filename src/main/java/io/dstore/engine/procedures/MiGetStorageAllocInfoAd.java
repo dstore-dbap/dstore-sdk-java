@@ -5882,8 +5882,9 @@ public final class MiGetStorageAllocInfoAd {
       "t\030\244\234\001 \001(\0132\033.dstore.values.decimalValue\022." +
       "\n\010d_b_name\030\245\234\001 \001(\0132\032.dstore.values.strin" +
       "gValue\022-\n\006mbfree\030\246\234\001 \001(\0132\033.dstore.values" +
-      ".decimalValueB\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      ".decimalValueBZ\n\033io.dstore.engine.proced" +
+      "uresZ;gosdk.dstore.de/engine/procedures/" +
+      "mi_GetStorageAllocInfo_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

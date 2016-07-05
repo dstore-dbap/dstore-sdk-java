@@ -103,20 +103,38 @@ public final class OmGetCashAccTransactionsPu {
     boolean getSeparatorInIdentValsNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+     * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+     */
+    boolean hasAccountBalance();
+    /**
+     * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+     */
+    io.dstore.Values.decimalValue getAccountBalance();
+    /**
+     * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+     */
+    io.dstore.Values.decimalValueOrBuilder getAccountBalanceOrBuilder();
+
+    /**
+     * <code>optional bool account_balance_null = 1006;</code>
+     */
+    boolean getAccountBalanceNull();
+
+    /**
+     * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
      */
     boolean hasOnlyTransactionsSince();
     /**
-     * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+     * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
      */
     io.dstore.Values.timestampValue getOnlyTransactionsSince();
     /**
-     * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+     * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
      */
     io.dstore.Values.timestampValueOrBuilder getOnlyTransactionsSinceOrBuilder();
 
     /**
-     * <code>optional bool only_transactions_since_null = 1006;</code>
+     * <code>optional bool only_transactions_since_null = 1007;</code>
      */
     boolean getOnlyTransactionsSinceNull();
   }
@@ -137,6 +155,7 @@ public final class OmGetCashAccTransactionsPu {
       uniqueIdNull_ = false;
       cashAccountTypeIdNull_ = false;
       separatorInIdentValsNull_ = false;
+      accountBalanceNull_ = false;
       onlyTransactionsSinceNull_ = false;
     }
 
@@ -230,6 +249,19 @@ public final class OmGetCashAccTransactionsPu {
               break;
             }
             case 50: {
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              if (accountBalance_ != null) {
+                subBuilder = accountBalance_.toBuilder();
+              }
+              accountBalance_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(accountBalance_);
+                accountBalance_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 58: {
               io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (onlyTransactionsSince_ != null) {
                 subBuilder = onlyTransactionsSince_.toBuilder();
@@ -268,6 +300,11 @@ public final class OmGetCashAccTransactionsPu {
               break;
             }
             case 8048: {
+
+              accountBalanceNull_ = input.readBool();
+              break;
+            }
+            case 8056: {
 
               onlyTransactionsSinceNull_ = input.readBool();
               break;
@@ -446,31 +483,61 @@ public final class OmGetCashAccTransactionsPu {
       return separatorInIdentValsNull_;
     }
 
-    public static final int ONLY_TRANSACTIONS_SINCE_FIELD_NUMBER = 6;
+    public static final int ACCOUNT_BALANCE_FIELD_NUMBER = 6;
+    private io.dstore.Values.decimalValue accountBalance_;
+    /**
+     * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+     */
+    public boolean hasAccountBalance() {
+      return accountBalance_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+     */
+    public io.dstore.Values.decimalValue getAccountBalance() {
+      return accountBalance_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : accountBalance_;
+    }
+    /**
+     * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+     */
+    public io.dstore.Values.decimalValueOrBuilder getAccountBalanceOrBuilder() {
+      return getAccountBalance();
+    }
+
+    public static final int ACCOUNT_BALANCE_NULL_FIELD_NUMBER = 1006;
+    private boolean accountBalanceNull_;
+    /**
+     * <code>optional bool account_balance_null = 1006;</code>
+     */
+    public boolean getAccountBalanceNull() {
+      return accountBalanceNull_;
+    }
+
+    public static final int ONLY_TRANSACTIONS_SINCE_FIELD_NUMBER = 7;
     private io.dstore.Values.timestampValue onlyTransactionsSince_;
     /**
-     * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+     * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
      */
     public boolean hasOnlyTransactionsSince() {
       return onlyTransactionsSince_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+     * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
      */
     public io.dstore.Values.timestampValue getOnlyTransactionsSince() {
       return onlyTransactionsSince_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : onlyTransactionsSince_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+     * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
      */
     public io.dstore.Values.timestampValueOrBuilder getOnlyTransactionsSinceOrBuilder() {
       return getOnlyTransactionsSince();
     }
 
-    public static final int ONLY_TRANSACTIONS_SINCE_NULL_FIELD_NUMBER = 1006;
+    public static final int ONLY_TRANSACTIONS_SINCE_NULL_FIELD_NUMBER = 1007;
     private boolean onlyTransactionsSinceNull_;
     /**
-     * <code>optional bool only_transactions_since_null = 1006;</code>
+     * <code>optional bool only_transactions_since_null = 1007;</code>
      */
     public boolean getOnlyTransactionsSinceNull() {
       return onlyTransactionsSinceNull_;
@@ -503,8 +570,11 @@ public final class OmGetCashAccTransactionsPu {
       if (separatorInIdentVals_ != null) {
         output.writeMessage(5, getSeparatorInIdentVals());
       }
+      if (accountBalance_ != null) {
+        output.writeMessage(6, getAccountBalance());
+      }
       if (onlyTransactionsSince_ != null) {
-        output.writeMessage(6, getOnlyTransactionsSince());
+        output.writeMessage(7, getOnlyTransactionsSince());
       }
       if (personIdentificationValuesNull_ != false) {
         output.writeBool(1001, personIdentificationValuesNull_);
@@ -521,8 +591,11 @@ public final class OmGetCashAccTransactionsPu {
       if (separatorInIdentValsNull_ != false) {
         output.writeBool(1005, separatorInIdentValsNull_);
       }
+      if (accountBalanceNull_ != false) {
+        output.writeBool(1006, accountBalanceNull_);
+      }
       if (onlyTransactionsSinceNull_ != false) {
-        output.writeBool(1006, onlyTransactionsSinceNull_);
+        output.writeBool(1007, onlyTransactionsSinceNull_);
       }
     }
 
@@ -551,9 +624,13 @@ public final class OmGetCashAccTransactionsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, getSeparatorInIdentVals());
       }
+      if (accountBalance_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getAccountBalance());
+      }
       if (onlyTransactionsSince_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getOnlyTransactionsSince());
+          .computeMessageSize(7, getOnlyTransactionsSince());
       }
       if (personIdentificationValuesNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -575,9 +652,13 @@ public final class OmGetCashAccTransactionsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, separatorInIdentValsNull_);
       }
+      if (accountBalanceNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1006, accountBalanceNull_);
+      }
       if (onlyTransactionsSinceNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, onlyTransactionsSinceNull_);
+          .computeBoolSize(1007, onlyTransactionsSinceNull_);
       }
       memoizedSize = size;
       return size;
@@ -730,6 +811,14 @@ public final class OmGetCashAccTransactionsPu {
         }
         separatorInIdentValsNull_ = false;
 
+        if (accountBalanceBuilder_ == null) {
+          accountBalance_ = null;
+        } else {
+          accountBalance_ = null;
+          accountBalanceBuilder_ = null;
+        }
+        accountBalanceNull_ = false;
+
         if (onlyTransactionsSinceBuilder_ == null) {
           onlyTransactionsSince_ = null;
         } else {
@@ -790,6 +879,12 @@ public final class OmGetCashAccTransactionsPu {
           result.separatorInIdentVals_ = separatorInIdentValsBuilder_.build();
         }
         result.separatorInIdentValsNull_ = separatorInIdentValsNull_;
+        if (accountBalanceBuilder_ == null) {
+          result.accountBalance_ = accountBalance_;
+        } else {
+          result.accountBalance_ = accountBalanceBuilder_.build();
+        }
+        result.accountBalanceNull_ = accountBalanceNull_;
         if (onlyTransactionsSinceBuilder_ == null) {
           result.onlyTransactionsSince_ = onlyTransactionsSince_;
         } else {
@@ -840,6 +935,12 @@ public final class OmGetCashAccTransactionsPu {
         }
         if (other.getSeparatorInIdentValsNull() != false) {
           setSeparatorInIdentValsNull(other.getSeparatorInIdentValsNull());
+        }
+        if (other.hasAccountBalance()) {
+          mergeAccountBalance(other.getAccountBalance());
+        }
+        if (other.getAccountBalanceNull() != false) {
+          setAccountBalanceNull(other.getAccountBalanceNull());
         }
         if (other.hasOnlyTransactionsSince()) {
           mergeOnlyTransactionsSince(other.getOnlyTransactionsSince());
@@ -1588,17 +1689,160 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
 
+      private io.dstore.Values.decimalValue accountBalance_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> accountBalanceBuilder_;
+      /**
+       * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+       */
+      public boolean hasAccountBalance() {
+        return accountBalanceBuilder_ != null || accountBalance_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+       */
+      public io.dstore.Values.decimalValue getAccountBalance() {
+        if (accountBalanceBuilder_ == null) {
+          return accountBalance_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : accountBalance_;
+        } else {
+          return accountBalanceBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+       */
+      public Builder setAccountBalance(io.dstore.Values.decimalValue value) {
+        if (accountBalanceBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          accountBalance_ = value;
+          onChanged();
+        } else {
+          accountBalanceBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+       */
+      public Builder setAccountBalance(
+          io.dstore.Values.decimalValue.Builder builderForValue) {
+        if (accountBalanceBuilder_ == null) {
+          accountBalance_ = builderForValue.build();
+          onChanged();
+        } else {
+          accountBalanceBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+       */
+      public Builder mergeAccountBalance(io.dstore.Values.decimalValue value) {
+        if (accountBalanceBuilder_ == null) {
+          if (accountBalance_ != null) {
+            accountBalance_ =
+              io.dstore.Values.decimalValue.newBuilder(accountBalance_).mergeFrom(value).buildPartial();
+          } else {
+            accountBalance_ = value;
+          }
+          onChanged();
+        } else {
+          accountBalanceBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+       */
+      public Builder clearAccountBalance() {
+        if (accountBalanceBuilder_ == null) {
+          accountBalance_ = null;
+          onChanged();
+        } else {
+          accountBalance_ = null;
+          accountBalanceBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+       */
+      public io.dstore.Values.decimalValue.Builder getAccountBalanceBuilder() {
+        
+        onChanged();
+        return getAccountBalanceFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+       */
+      public io.dstore.Values.decimalValueOrBuilder getAccountBalanceOrBuilder() {
+        if (accountBalanceBuilder_ != null) {
+          return accountBalanceBuilder_.getMessageOrBuilder();
+        } else {
+          return accountBalance_ == null ?
+              io.dstore.Values.decimalValue.getDefaultInstance() : accountBalance_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          getAccountBalanceFieldBuilder() {
+        if (accountBalanceBuilder_ == null) {
+          accountBalanceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                  getAccountBalance(),
+                  getParentForChildren(),
+                  isClean());
+          accountBalance_ = null;
+        }
+        return accountBalanceBuilder_;
+      }
+
+      private boolean accountBalanceNull_ ;
+      /**
+       * <code>optional bool account_balance_null = 1006;</code>
+       */
+      public boolean getAccountBalanceNull() {
+        return accountBalanceNull_;
+      }
+      /**
+       * <code>optional bool account_balance_null = 1006;</code>
+       */
+      public Builder setAccountBalanceNull(boolean value) {
+        
+        accountBalanceNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool account_balance_null = 1006;</code>
+       */
+      public Builder clearAccountBalanceNull() {
+        
+        accountBalanceNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.timestampValue onlyTransactionsSince_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> onlyTransactionsSinceBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+       * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
        */
       public boolean hasOnlyTransactionsSince() {
         return onlyTransactionsSinceBuilder_ != null || onlyTransactionsSince_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+       * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
        */
       public io.dstore.Values.timestampValue getOnlyTransactionsSince() {
         if (onlyTransactionsSinceBuilder_ == null) {
@@ -1608,7 +1852,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+       * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
        */
       public Builder setOnlyTransactionsSince(io.dstore.Values.timestampValue value) {
         if (onlyTransactionsSinceBuilder_ == null) {
@@ -1624,7 +1868,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+       * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
        */
       public Builder setOnlyTransactionsSince(
           io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -1638,7 +1882,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+       * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
        */
       public Builder mergeOnlyTransactionsSince(io.dstore.Values.timestampValue value) {
         if (onlyTransactionsSinceBuilder_ == null) {
@@ -1656,7 +1900,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+       * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
        */
       public Builder clearOnlyTransactionsSince() {
         if (onlyTransactionsSinceBuilder_ == null) {
@@ -1670,7 +1914,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+       * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
        */
       public io.dstore.Values.timestampValue.Builder getOnlyTransactionsSinceBuilder() {
         
@@ -1678,7 +1922,7 @@ public final class OmGetCashAccTransactionsPu {
         return getOnlyTransactionsSinceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+       * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getOnlyTransactionsSinceOrBuilder() {
         if (onlyTransactionsSinceBuilder_ != null) {
@@ -1689,7 +1933,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue only_transactions_since = 6;</code>
+       * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -1707,13 +1951,13 @@ public final class OmGetCashAccTransactionsPu {
 
       private boolean onlyTransactionsSinceNull_ ;
       /**
-       * <code>optional bool only_transactions_since_null = 1006;</code>
+       * <code>optional bool only_transactions_since_null = 1007;</code>
        */
       public boolean getOnlyTransactionsSinceNull() {
         return onlyTransactionsSinceNull_;
       }
       /**
-       * <code>optional bool only_transactions_since_null = 1006;</code>
+       * <code>optional bool only_transactions_since_null = 1007;</code>
        */
       public Builder setOnlyTransactionsSinceNull(boolean value) {
         
@@ -1722,7 +1966,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional bool only_transactions_since_null = 1006;</code>
+       * <code>optional bool only_transactions_since_null = 1007;</code>
        */
       public Builder clearOnlyTransactionsSinceNull() {
         
@@ -6168,7 +6412,7 @@ public final class OmGetCashAccTransactionsPu {
       "GetCashAccTransactions_Pu\032\023dstore/values" +
       ".proto\032\031dstore/engine/error.proto\032\033dstor" +
       "e/engine/message.proto\032#dstore/engine/me" +
-      "tainformation.proto\"\277\004\n\nParameters\022@\n\034pe" +
+      "tainformation.proto\"\224\005\n\nParameters\022@\n\034pe" +
       "rson_identification_values\030\001 \001(\0132\032.dstor" +
       "e.values.stringValue\022*\n!person_identific" +
       "ation_values_null\030\351\007 \001(\010\0223\n\016person_type_" +
@@ -6180,32 +6424,35 @@ public final class OmGetCashAccTransactionsPu {
       "\n\031cash_account_type_id_null\030\354\007 \001(\010\022;\n\027se" +
       "parator_in_ident_vals\030\005 \001(\0132\032.dstore.val" +
       "ues.stringValue\022%\n\034separator_in_ident_va" +
-      "ls_null\030\355\007 \001(\010\022>\n\027only_transactions_sinc" +
-      "e\030\006 \001(\0132\035.dstore.values.timestampValue\022%" +
-      "\n\034only_transactions_since_null\030\356\007 \001(\010\"\312\006",
-      "\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engin" +
-      "e.error.Error\022H\n\020meta_information\030\002 \003(\0132" +
-      "..dstore.engine.metainformation.MetaInfo" +
-      "rmation\022/\n\007message\030\003 \003(\0132\036.dstore.engine" +
-      ".message.Message\022E\n\003row\030\004 \003(\01328.dstore.e" +
-      "ngine.om_GetCashAccTransactions_Pu.Respo" +
-      "nse.Row\0224\n\017account_balance\030e \001(\0132\033.dstor" +
-      "e.values.decimalValue\032\232\004\n\003Row\022\017\n\006row_id\030" +
-      "\220N \001(\005\0225\n\020transaction_type\030\221N \001(\0132\032.dsto" +
-      "re.values.stringValue\022/\n\tperson_id\030\222N \001(",
-      "\0132\033.dstore.values.integerValue\022A\n\031transa" +
-      "ction_date_and_time\030\223N \001(\0132\035.dstore.valu" +
-      "es.timestampValue\0227\n\021transaction_value\030\224" +
-      "N \001(\0132\033.dstore.values.decimalValue\0228\n\023tr" +
-      "ansaction_comment\030\225N \001(\0132\032.dstore.values" +
-      ".stringValue\0229\n\023transaction_type_id\030\226N \001" +
-      "(\0132\033.dstore.values.integerValue\022:\n\024cash_" +
-      "account_type_id\030\227N \001(\0132\033.dstore.values.i" +
-      "ntegerValue\0227\n\017suspended_until\030\230N \001(\0132\035." +
-      "dstore.values.timestampValue\0224\n\016transact",
-      "ion_id\030\231N \001(\0132\033.dstore.values.integerVal" +
-      "ueB\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "ls_null\030\355\007 \001(\010\0224\n\017account_balance\030\006 \001(\0132" +
+      "\033.dstore.values.decimalValue\022\035\n\024account_" +
+      "balance_null\030\356\007 \001(\010\022>\n\027only_transactions",
+      "_since\030\007 \001(\0132\035.dstore.values.timestampVa" +
+      "lue\022%\n\034only_transactions_since_null\030\357\007 \001" +
+      "(\010\"\312\006\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
+      "engine.error.Error\022H\n\020meta_information\030\002" +
+      " \003(\0132..dstore.engine.metainformation.Met" +
+      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
+      "ngine.message.Message\022E\n\003row\030\004 \003(\01328.dst" +
+      "ore.engine.om_GetCashAccTransactions_Pu." +
+      "Response.Row\0224\n\017account_balance\030e \001(\0132\033." +
+      "dstore.values.decimalValue\032\232\004\n\003Row\022\017\n\006ro",
+      "w_id\030\220N \001(\005\0225\n\020transaction_type\030\221N \001(\0132\032" +
+      ".dstore.values.stringValue\022/\n\tperson_id\030" +
+      "\222N \001(\0132\033.dstore.values.integerValue\022A\n\031t" +
+      "ransaction_date_and_time\030\223N \001(\0132\035.dstore" +
+      ".values.timestampValue\0227\n\021transaction_va" +
+      "lue\030\224N \001(\0132\033.dstore.values.decimalValue\022" +
+      "8\n\023transaction_comment\030\225N \001(\0132\032.dstore.v" +
+      "alues.stringValue\0229\n\023transaction_type_id" +
+      "\030\226N \001(\0132\033.dstore.values.integerValue\022:\n\024" +
+      "cash_account_type_id\030\227N \001(\0132\033.dstore.val",
+      "ues.integerValue\0227\n\017suspended_until\030\230N \001" +
+      "(\0132\035.dstore.values.timestampValue\0224\n\016tra" +
+      "nsaction_id\030\231N \001(\0132\033.dstore.values.integ" +
+      "erValueB]\n\033io.dstore.engine.proceduresZ>" +
+      "gosdk.dstore.de/engine/procedures/om_Get" +
+      "CashAccTransactions_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -6228,7 +6475,7 @@ public final class OmGetCashAccTransactionsPu {
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_descriptor,
-        new java.lang.String[] { "PersonIdentificationValues", "PersonIdentificationValuesNull", "PersonTypeId", "PersonTypeIdNull", "UniqueId", "UniqueIdNull", "CashAccountTypeId", "CashAccountTypeIdNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", "OnlyTransactionsSince", "OnlyTransactionsSinceNull", });
+        new java.lang.String[] { "PersonIdentificationValues", "PersonIdentificationValuesNull", "PersonTypeId", "PersonTypeIdNull", "UniqueId", "UniqueIdNull", "CashAccountTypeId", "CashAccountTypeIdNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", "AccountBalance", "AccountBalanceNull", "OnlyTransactionsSince", "OnlyTransactionsSinceNull", });
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_fieldAccessorTable = new

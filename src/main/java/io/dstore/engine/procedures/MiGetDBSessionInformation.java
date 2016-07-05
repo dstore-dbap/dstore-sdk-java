@@ -3418,8 +3418,9 @@ public final class MiGetDBSessionInformation {
       "ion\030\221N \001(\0132\032.dstore.values.stringValue\022*" +
       "\n\005value\030\222N \001(\0132\032.dstore.values.stringVal" +
       "ue\0220\n\013information\030\223N \001(\0132\032.dstore.values" +
-      ".stringValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      ".stringValueB[\n\033io.dstore.engine.procedu" +
+      "resZ<gosdk.dstore.de/engine/procedures/m",
+      "i_GetDBSessionInformationb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

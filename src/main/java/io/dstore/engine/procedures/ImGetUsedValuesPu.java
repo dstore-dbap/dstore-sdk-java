@@ -6867,8 +6867,9 @@ public final class ImGetUsedValuesPu {
       " \001(\0132\033.dstore.values.integerValue\022.\n\010val" +
       "ue_id\030\225N \001(\0132\033.dstore.values.integerValu" +
       "e\022-\n\007details\030\241\234\001 \001(\0132\032.dstore.values.str" +
-      "ingValueB\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "ingValueBT\n\033io.dstore.engine.proceduresZ" +
+      "5gosdk.dstore.de/engine/procedures/im_Ge",
+      "tUsedValues_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

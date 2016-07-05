@@ -13,20 +13,56 @@ public final class MiGetRessourceUsage {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     */
+    boolean hasCpu();
+    /**
+     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     */
+    io.dstore.Values.integerValue getCpu();
+    /**
+     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getCpuOrBuilder();
+
+    /**
+     * <code>optional bool cpu_null = 1001;</code>
+     */
+    boolean getCpuNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     */
+    boolean hasPhysicalio();
+    /**
+     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     */
+    io.dstore.Values.integerValue getPhysicalio();
+    /**
+     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getPhysicalioOrBuilder();
+
+    /**
+     * <code>optional bool physicalio_null = 1002;</code>
+     */
+    boolean getPhysicalioNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
      */
     io.dstore.Values.booleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
-     * <code>optional bool select_result_null = 1001;</code>
+     * <code>optional bool select_result_null = 1003;</code>
      */
     boolean getSelectResultNull();
   }
@@ -42,6 +78,8 @@ public final class MiGetRessourceUsage {
       super(builder);
     }
     private Parameters() {
+      cpuNull_ = false;
+      physicalioNull_ = false;
       selectResultNull_ = false;
     }
 
@@ -70,6 +108,32 @@ public final class MiGetRessourceUsage {
               break;
             }
             case 10: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (cpu_ != null) {
+                subBuilder = cpu_.toBuilder();
+              }
+              cpu_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(cpu_);
+                cpu_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 18: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (physicalio_ != null) {
+                subBuilder = physicalio_.toBuilder();
+              }
+              physicalio_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(physicalio_);
+                physicalio_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 26: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
@@ -83,6 +147,16 @@ public final class MiGetRessourceUsage {
               break;
             }
             case 8008: {
+
+              cpuNull_ = input.readBool();
+              break;
+            }
+            case 8016: {
+
+              physicalioNull_ = input.readBool();
+              break;
+            }
+            case 8024: {
 
               selectResultNull_ = input.readBool();
               break;
@@ -111,31 +185,91 @@ public final class MiGetRessourceUsage {
               io.dstore.engine.procedures.MiGetRessourceUsage.Parameters.class, io.dstore.engine.procedures.MiGetRessourceUsage.Parameters.Builder.class);
     }
 
-    public static final int SELECT_RESULT_FIELD_NUMBER = 1;
+    public static final int CPU_FIELD_NUMBER = 1;
+    private io.dstore.Values.integerValue cpu_;
+    /**
+     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     */
+    public boolean hasCpu() {
+      return cpu_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     */
+    public io.dstore.Values.integerValue getCpu() {
+      return cpu_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cpu_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getCpuOrBuilder() {
+      return getCpu();
+    }
+
+    public static final int CPU_NULL_FIELD_NUMBER = 1001;
+    private boolean cpuNull_;
+    /**
+     * <code>optional bool cpu_null = 1001;</code>
+     */
+    public boolean getCpuNull() {
+      return cpuNull_;
+    }
+
+    public static final int PHYSICALIO_FIELD_NUMBER = 2;
+    private io.dstore.Values.integerValue physicalio_;
+    /**
+     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     */
+    public boolean hasPhysicalio() {
+      return physicalio_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     */
+    public io.dstore.Values.integerValue getPhysicalio() {
+      return physicalio_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : physicalio_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getPhysicalioOrBuilder() {
+      return getPhysicalio();
+    }
+
+    public static final int PHYSICALIO_NULL_FIELD_NUMBER = 1002;
+    private boolean physicalioNull_;
+    /**
+     * <code>optional bool physicalio_null = 1002;</code>
+     */
+    public boolean getPhysicalioNull() {
+      return physicalioNull_;
+    }
+
+    public static final int SELECT_RESULT_FIELD_NUMBER = 3;
     private io.dstore.Values.booleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
      */
     public io.dstore.Values.booleanValue getSelectResult() {
       return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
-    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1001;
+    public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1003;
     private boolean selectResultNull_;
     /**
-     * <code>optional bool select_result_null = 1001;</code>
+     * <code>optional bool select_result_null = 1003;</code>
      */
     public boolean getSelectResultNull() {
       return selectResultNull_;
@@ -153,11 +287,23 @@ public final class MiGetRessourceUsage {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (cpu_ != null) {
+        output.writeMessage(1, getCpu());
+      }
+      if (physicalio_ != null) {
+        output.writeMessage(2, getPhysicalio());
+      }
       if (selectResult_ != null) {
-        output.writeMessage(1, getSelectResult());
+        output.writeMessage(3, getSelectResult());
+      }
+      if (cpuNull_ != false) {
+        output.writeBool(1001, cpuNull_);
+      }
+      if (physicalioNull_ != false) {
+        output.writeBool(1002, physicalioNull_);
       }
       if (selectResultNull_ != false) {
-        output.writeBool(1001, selectResultNull_);
+        output.writeBool(1003, selectResultNull_);
       }
     }
 
@@ -166,13 +312,29 @@ public final class MiGetRessourceUsage {
       if (size != -1) return size;
 
       size = 0;
+      if (cpu_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getCpu());
+      }
+      if (physicalio_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getPhysicalio());
+      }
       if (selectResult_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getSelectResult());
+          .computeMessageSize(3, getSelectResult());
+      }
+      if (cpuNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1001, cpuNull_);
+      }
+      if (physicalioNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1002, physicalioNull_);
       }
       if (selectResultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1001, selectResultNull_);
+          .computeBoolSize(1003, selectResultNull_);
       }
       memoizedSize = size;
       return size;
@@ -285,6 +447,22 @@ public final class MiGetRessourceUsage {
       }
       public Builder clear() {
         super.clear();
+        if (cpuBuilder_ == null) {
+          cpu_ = null;
+        } else {
+          cpu_ = null;
+          cpuBuilder_ = null;
+        }
+        cpuNull_ = false;
+
+        if (physicalioBuilder_ == null) {
+          physicalio_ = null;
+        } else {
+          physicalio_ = null;
+          physicalioBuilder_ = null;
+        }
+        physicalioNull_ = false;
+
         if (selectResultBuilder_ == null) {
           selectResult_ = null;
         } else {
@@ -315,6 +493,18 @@ public final class MiGetRessourceUsage {
 
       public io.dstore.engine.procedures.MiGetRessourceUsage.Parameters buildPartial() {
         io.dstore.engine.procedures.MiGetRessourceUsage.Parameters result = new io.dstore.engine.procedures.MiGetRessourceUsage.Parameters(this);
+        if (cpuBuilder_ == null) {
+          result.cpu_ = cpu_;
+        } else {
+          result.cpu_ = cpuBuilder_.build();
+        }
+        result.cpuNull_ = cpuNull_;
+        if (physicalioBuilder_ == null) {
+          result.physicalio_ = physicalio_;
+        } else {
+          result.physicalio_ = physicalioBuilder_.build();
+        }
+        result.physicalioNull_ = physicalioNull_;
         if (selectResultBuilder_ == null) {
           result.selectResult_ = selectResult_;
         } else {
@@ -336,6 +526,18 @@ public final class MiGetRessourceUsage {
 
       public Builder mergeFrom(io.dstore.engine.procedures.MiGetRessourceUsage.Parameters other) {
         if (other == io.dstore.engine.procedures.MiGetRessourceUsage.Parameters.getDefaultInstance()) return this;
+        if (other.hasCpu()) {
+          mergeCpu(other.getCpu());
+        }
+        if (other.getCpuNull() != false) {
+          setCpuNull(other.getCpuNull());
+        }
+        if (other.hasPhysicalio()) {
+          mergePhysicalio(other.getPhysicalio());
+        }
+        if (other.getPhysicalioNull() != false) {
+          setPhysicalioNull(other.getPhysicalioNull());
+        }
         if (other.hasSelectResult()) {
           mergeSelectResult(other.getSelectResult());
         }
@@ -368,17 +570,303 @@ public final class MiGetRessourceUsage {
         return this;
       }
 
+      private io.dstore.Values.integerValue cpu_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> cpuBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       */
+      public boolean hasCpu() {
+        return cpuBuilder_ != null || cpu_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       */
+      public io.dstore.Values.integerValue getCpu() {
+        if (cpuBuilder_ == null) {
+          return cpu_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cpu_;
+        } else {
+          return cpuBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       */
+      public Builder setCpu(io.dstore.Values.integerValue value) {
+        if (cpuBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          cpu_ = value;
+          onChanged();
+        } else {
+          cpuBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       */
+      public Builder setCpu(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (cpuBuilder_ == null) {
+          cpu_ = builderForValue.build();
+          onChanged();
+        } else {
+          cpuBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       */
+      public Builder mergeCpu(io.dstore.Values.integerValue value) {
+        if (cpuBuilder_ == null) {
+          if (cpu_ != null) {
+            cpu_ =
+              io.dstore.Values.integerValue.newBuilder(cpu_).mergeFrom(value).buildPartial();
+          } else {
+            cpu_ = value;
+          }
+          onChanged();
+        } else {
+          cpuBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       */
+      public Builder clearCpu() {
+        if (cpuBuilder_ == null) {
+          cpu_ = null;
+          onChanged();
+        } else {
+          cpu_ = null;
+          cpuBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getCpuBuilder() {
+        
+        onChanged();
+        return getCpuFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getCpuOrBuilder() {
+        if (cpuBuilder_ != null) {
+          return cpuBuilder_.getMessageOrBuilder();
+        } else {
+          return cpu_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : cpu_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getCpuFieldBuilder() {
+        if (cpuBuilder_ == null) {
+          cpuBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getCpu(),
+                  getParentForChildren(),
+                  isClean());
+          cpu_ = null;
+        }
+        return cpuBuilder_;
+      }
+
+      private boolean cpuNull_ ;
+      /**
+       * <code>optional bool cpu_null = 1001;</code>
+       */
+      public boolean getCpuNull() {
+        return cpuNull_;
+      }
+      /**
+       * <code>optional bool cpu_null = 1001;</code>
+       */
+      public Builder setCpuNull(boolean value) {
+        
+        cpuNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool cpu_null = 1001;</code>
+       */
+      public Builder clearCpuNull() {
+        
+        cpuNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue physicalio_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> physicalioBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       */
+      public boolean hasPhysicalio() {
+        return physicalioBuilder_ != null || physicalio_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       */
+      public io.dstore.Values.integerValue getPhysicalio() {
+        if (physicalioBuilder_ == null) {
+          return physicalio_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : physicalio_;
+        } else {
+          return physicalioBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       */
+      public Builder setPhysicalio(io.dstore.Values.integerValue value) {
+        if (physicalioBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          physicalio_ = value;
+          onChanged();
+        } else {
+          physicalioBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       */
+      public Builder setPhysicalio(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (physicalioBuilder_ == null) {
+          physicalio_ = builderForValue.build();
+          onChanged();
+        } else {
+          physicalioBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       */
+      public Builder mergePhysicalio(io.dstore.Values.integerValue value) {
+        if (physicalioBuilder_ == null) {
+          if (physicalio_ != null) {
+            physicalio_ =
+              io.dstore.Values.integerValue.newBuilder(physicalio_).mergeFrom(value).buildPartial();
+          } else {
+            physicalio_ = value;
+          }
+          onChanged();
+        } else {
+          physicalioBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       */
+      public Builder clearPhysicalio() {
+        if (physicalioBuilder_ == null) {
+          physicalio_ = null;
+          onChanged();
+        } else {
+          physicalio_ = null;
+          physicalioBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getPhysicalioBuilder() {
+        
+        onChanged();
+        return getPhysicalioFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getPhysicalioOrBuilder() {
+        if (physicalioBuilder_ != null) {
+          return physicalioBuilder_.getMessageOrBuilder();
+        } else {
+          return physicalio_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : physicalio_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getPhysicalioFieldBuilder() {
+        if (physicalioBuilder_ == null) {
+          physicalioBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getPhysicalio(),
+                  getParentForChildren(),
+                  isClean());
+          physicalio_ = null;
+        }
+        return physicalioBuilder_;
+      }
+
+      private boolean physicalioNull_ ;
+      /**
+       * <code>optional bool physicalio_null = 1002;</code>
+       */
+      public boolean getPhysicalioNull() {
+        return physicalioNull_;
+      }
+      /**
+       * <code>optional bool physicalio_null = 1002;</code>
+       */
+      public Builder setPhysicalioNull(boolean value) {
+        
+        physicalioNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool physicalio_null = 1002;</code>
+       */
+      public Builder clearPhysicalioNull() {
+        
+        physicalioNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
        */
       public io.dstore.Values.booleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -388,7 +876,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
        */
       public Builder setSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -404,7 +892,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
        */
       public Builder setSelectResult(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -418,7 +906,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
        */
       public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -436,7 +924,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -450,7 +938,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
        */
       public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
         
@@ -458,7 +946,7 @@ public final class MiGetRessourceUsage {
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
@@ -469,7 +957,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 1;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -487,13 +975,13 @@ public final class MiGetRessourceUsage {
 
       private boolean selectResultNull_ ;
       /**
-       * <code>optional bool select_result_null = 1001;</code>
+       * <code>optional bool select_result_null = 1003;</code>
        */
       public boolean getSelectResultNull() {
         return selectResultNull_;
       }
       /**
-       * <code>optional bool select_result_null = 1001;</code>
+       * <code>optional bool select_result_null = 1003;</code>
        */
       public Builder setSelectResultNull(boolean value) {
         
@@ -502,7 +990,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional bool select_result_null = 1001;</code>
+       * <code>optional bool select_result_null = 1003;</code>
        */
       public Builder clearSelectResultNull() {
         
@@ -3418,21 +3906,26 @@ public final class MiGetRessourceUsage {
       "urceUsage\032\023dstore/values.proto\032\031dstore/e" +
       "ngine/error.proto\032\033dstore/engine/message" +
       ".proto\032#dstore/engine/metainformation.pr" +
-      "oto\"]\n\nParameters\0222\n\rselect_result\030\001 \001(\013" +
-      "2\033.dstore.values.booleanValue\022\033\n\022select_" +
-      "result_null\030\351\007 \001(\010\"\303\003\n\010Response\022)\n\005error" +
-      "\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020me" +
-      "ta_information\030\002 \003(\0132..dstore.engine.met",
-      "ainformation.MetaInformation\022/\n\007message\030" +
-      "\003 \003(\0132\036.dstore.engine.message.Message\022=\n" +
-      "\003row\030\004 \003(\01320.dstore.engine.mi_GetRessour" +
-      "ceUsage.Response.Row\022(\n\003cpu\030e \001(\0132\033.dsto" +
-      "re.values.integerValue\022/\n\nphysicalio\030f \001" +
-      "(\0132\033.dstore.values.integerValue\032w\n\003Row\022\017" +
-      "\n\006row_id\030\220N \001(\005\022+\n\005c_p_u\030\221N \001(\0132\033.dstore" +
-      ".values.integerValue\0222\n\014physical_i_o\030\222N " +
-      "\001(\0132\033.dstore.values.integerValueB\035\n\033io.d" +
-      "store.engine.proceduresb\006proto3"
+      "oto\"\345\001\n\nParameters\022(\n\003cpu\030\001 \001(\0132\033.dstore" +
+      ".values.integerValue\022\021\n\010cpu_null\030\351\007 \001(\010\022" +
+      "/\n\nphysicalio\030\002 \001(\0132\033.dstore.values.inte" +
+      "gerValue\022\030\n\017physicalio_null\030\352\007 \001(\010\0222\n\rse" +
+      "lect_result\030\003 \001(\0132\033.dstore.values.boolea",
+      "nValue\022\033\n\022select_result_null\030\353\007 \001(\010\"\303\003\n\010" +
+      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
+      "error.Error\022H\n\020meta_information\030\002 \003(\0132.." +
+      "dstore.engine.metainformation.MetaInform" +
+      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
+      "essage.Message\022=\n\003row\030\004 \003(\01320.dstore.eng" +
+      "ine.mi_GetRessourceUsage.Response.Row\022(\n" +
+      "\003cpu\030e \001(\0132\033.dstore.values.integerValue\022" +
+      "/\n\nphysicalio\030f \001(\0132\033.dstore.values.inte" +
+      "gerValue\032w\n\003Row\022\017\n\006row_id\030\220N \001(\005\022+\n\005c_p_",
+      "u\030\221N \001(\0132\033.dstore.values.integerValue\0222\n" +
+      "\014physical_i_o\030\222N \001(\0132\033.dstore.values.int" +
+      "egerValueBU\n\033io.dstore.engine.procedures" +
+      "Z6gosdk.dstore.de/engine/procedures/mi_G" +
+      "etRessourceUsageb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3455,7 +3948,7 @@ public final class MiGetRessourceUsage {
     internal_static_dstore_engine_mi_GetRessourceUsage_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetRessourceUsage_Parameters_descriptor,
-        new java.lang.String[] { "SelectResult", "SelectResultNull", });
+        new java.lang.String[] { "Cpu", "CpuNull", "Physicalio", "PhysicalioNull", "SelectResult", "SelectResultNull", });
     internal_static_dstore_engine_mi_GetRessourceUsage_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetRessourceUsage_Response_fieldAccessorTable = new

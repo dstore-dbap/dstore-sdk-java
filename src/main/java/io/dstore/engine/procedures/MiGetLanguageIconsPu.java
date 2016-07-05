@@ -3171,8 +3171,10 @@ public final class MiGetLanguageIconsPu {
       "eIcons_Pu.Response.Row\032|\n\003Row\022\017\n\006row_id\030" +
       "\220N \001(\005\0221\n\rlanguage_icon\030\221N \001(\0132\031.dstore." +
       "values.bytesValue\0221\n\013language_id\030\222N \001(\0132" +
-      "\033.dstore.values.integerValueB\035\n\033io.dstor" +
-      "e.engine.proceduresb\006proto3"
+      "\033.dstore.values.integerValueBW\n\033io.dstor" +
+      "e.engine.proceduresZ8gosdk.dstore.de/eng" +
+      "ine/procedures/mi_GetLanguageIcons_Pub\006p" +
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

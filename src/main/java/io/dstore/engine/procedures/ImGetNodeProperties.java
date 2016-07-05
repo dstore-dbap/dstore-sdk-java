@@ -9821,8 +9821,9 @@ public final class ImGetNodeProperties {
       "lues.timestampValue\022<\n\025inherits_from_nod",
       "e_id\030\301\352\001 \001(\0132\033.dstore.values.integerValu" +
       "e\0225\n\017valid_from_char\030\302\352\001 \001(\0132\032.dstore.va" +
-      "lues.stringValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "lues.stringValueBU\n\033io.dstore.engine.pro" +
+      "ceduresZ6gosdk.dstore.de/engine/procedur" +
+      "es/im_GetNodePropertiesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

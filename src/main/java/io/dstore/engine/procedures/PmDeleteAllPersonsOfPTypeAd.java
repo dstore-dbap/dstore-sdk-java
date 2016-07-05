@@ -49,38 +49,74 @@ public final class PmDeleteAllPersonsOfPTypeAd {
     boolean getForceDeleteNull();
 
     /**
-     * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+     * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+     */
+    boolean hasNumberOfDeletedPersons();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+     */
+    io.dstore.Values.integerValue getNumberOfDeletedPersons();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNumberOfDeletedPersonsOrBuilder();
+
+    /**
+     * <code>optional bool number_of_deleted_persons_null = 1003;</code>
+     */
+    boolean getNumberOfDeletedPersonsNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+     */
+    boolean hasNumberOfNotDeletedPersons();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+     */
+    io.dstore.Values.integerValue getNumberOfNotDeletedPersons();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNumberOfNotDeletedPersonsOrBuilder();
+
+    /**
+     * <code>optional bool number_of_not_deleted_persons_null = 1004;</code>
+     */
+    boolean getNumberOfNotDeletedPersonsNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
      */
     boolean hasDelayAfterXPersons();
     /**
-     * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+     * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
      */
     io.dstore.Values.integerValue getDelayAfterXPersons();
     /**
-     * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+     * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
      */
     io.dstore.Values.integerValueOrBuilder getDelayAfterXPersonsOrBuilder();
 
     /**
-     * <code>optional bool delay_after_x_persons_null = 1003;</code>
+     * <code>optional bool delay_after_x_persons_null = 1005;</code>
      */
     boolean getDelayAfterXPersonsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
      */
     boolean hasDelayTimeInSeconds();
     /**
-     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
      */
     io.dstore.Values.integerValue getDelayTimeInSeconds();
     /**
-     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
      */
     io.dstore.Values.integerValueOrBuilder getDelayTimeInSecondsOrBuilder();
 
     /**
-     * <code>optional bool delay_time_in_seconds_null = 1004;</code>
+     * <code>optional bool delay_time_in_seconds_null = 1006;</code>
      */
     boolean getDelayTimeInSecondsNull();
   }
@@ -98,6 +134,8 @@ public final class PmDeleteAllPersonsOfPTypeAd {
     private Parameters() {
       personTypeIdNull_ = false;
       forceDeleteNull_ = false;
+      numberOfDeletedPersonsNull_ = false;
+      numberOfNotDeletedPersonsNull_ = false;
       delayAfterXPersonsNull_ = false;
       delayTimeInSecondsNull_ = false;
     }
@@ -154,6 +192,32 @@ public final class PmDeleteAllPersonsOfPTypeAd {
             }
             case 26: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (numberOfDeletedPersons_ != null) {
+                subBuilder = numberOfDeletedPersons_.toBuilder();
+              }
+              numberOfDeletedPersons_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(numberOfDeletedPersons_);
+                numberOfDeletedPersons_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 34: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (numberOfNotDeletedPersons_ != null) {
+                subBuilder = numberOfNotDeletedPersons_.toBuilder();
+              }
+              numberOfNotDeletedPersons_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(numberOfNotDeletedPersons_);
+                numberOfNotDeletedPersons_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 42: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (delayAfterXPersons_ != null) {
                 subBuilder = delayAfterXPersons_.toBuilder();
               }
@@ -165,7 +229,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
 
               break;
             }
-            case 34: {
+            case 50: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (delayTimeInSeconds_ != null) {
                 subBuilder = delayTimeInSeconds_.toBuilder();
@@ -190,10 +254,20 @@ public final class PmDeleteAllPersonsOfPTypeAd {
             }
             case 8024: {
 
-              delayAfterXPersonsNull_ = input.readBool();
+              numberOfDeletedPersonsNull_ = input.readBool();
               break;
             }
             case 8032: {
+
+              numberOfNotDeletedPersonsNull_ = input.readBool();
+              break;
+            }
+            case 8040: {
+
+              delayAfterXPersonsNull_ = input.readBool();
+              break;
+            }
+            case 8048: {
 
               delayTimeInSecondsNull_ = input.readBool();
               break;
@@ -282,61 +356,121 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       return forceDeleteNull_;
     }
 
-    public static final int DELAY_AFTER_X_PERSONS_FIELD_NUMBER = 3;
+    public static final int NUMBER_OF_DELETED_PERSONS_FIELD_NUMBER = 3;
+    private io.dstore.Values.integerValue numberOfDeletedPersons_;
+    /**
+     * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+     */
+    public boolean hasNumberOfDeletedPersons() {
+      return numberOfDeletedPersons_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+     */
+    public io.dstore.Values.integerValue getNumberOfDeletedPersons() {
+      return numberOfDeletedPersons_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfDeletedPersons_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNumberOfDeletedPersonsOrBuilder() {
+      return getNumberOfDeletedPersons();
+    }
+
+    public static final int NUMBER_OF_DELETED_PERSONS_NULL_FIELD_NUMBER = 1003;
+    private boolean numberOfDeletedPersonsNull_;
+    /**
+     * <code>optional bool number_of_deleted_persons_null = 1003;</code>
+     */
+    public boolean getNumberOfDeletedPersonsNull() {
+      return numberOfDeletedPersonsNull_;
+    }
+
+    public static final int NUMBER_OF_NOT_DELETED_PERSONS_FIELD_NUMBER = 4;
+    private io.dstore.Values.integerValue numberOfNotDeletedPersons_;
+    /**
+     * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+     */
+    public boolean hasNumberOfNotDeletedPersons() {
+      return numberOfNotDeletedPersons_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+     */
+    public io.dstore.Values.integerValue getNumberOfNotDeletedPersons() {
+      return numberOfNotDeletedPersons_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfNotDeletedPersons_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNumberOfNotDeletedPersonsOrBuilder() {
+      return getNumberOfNotDeletedPersons();
+    }
+
+    public static final int NUMBER_OF_NOT_DELETED_PERSONS_NULL_FIELD_NUMBER = 1004;
+    private boolean numberOfNotDeletedPersonsNull_;
+    /**
+     * <code>optional bool number_of_not_deleted_persons_null = 1004;</code>
+     */
+    public boolean getNumberOfNotDeletedPersonsNull() {
+      return numberOfNotDeletedPersonsNull_;
+    }
+
+    public static final int DELAY_AFTER_X_PERSONS_FIELD_NUMBER = 5;
     private io.dstore.Values.integerValue delayAfterXPersons_;
     /**
-     * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+     * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
      */
     public boolean hasDelayAfterXPersons() {
       return delayAfterXPersons_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+     * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
      */
     public io.dstore.Values.integerValue getDelayAfterXPersons() {
       return delayAfterXPersons_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : delayAfterXPersons_;
     }
     /**
-     * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+     * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getDelayAfterXPersonsOrBuilder() {
       return getDelayAfterXPersons();
     }
 
-    public static final int DELAY_AFTER_X_PERSONS_NULL_FIELD_NUMBER = 1003;
+    public static final int DELAY_AFTER_X_PERSONS_NULL_FIELD_NUMBER = 1005;
     private boolean delayAfterXPersonsNull_;
     /**
-     * <code>optional bool delay_after_x_persons_null = 1003;</code>
+     * <code>optional bool delay_after_x_persons_null = 1005;</code>
      */
     public boolean getDelayAfterXPersonsNull() {
       return delayAfterXPersonsNull_;
     }
 
-    public static final int DELAY_TIME_IN_SECONDS_FIELD_NUMBER = 4;
+    public static final int DELAY_TIME_IN_SECONDS_FIELD_NUMBER = 6;
     private io.dstore.Values.integerValue delayTimeInSeconds_;
     /**
-     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
      */
     public boolean hasDelayTimeInSeconds() {
       return delayTimeInSeconds_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
      */
     public io.dstore.Values.integerValue getDelayTimeInSeconds() {
       return delayTimeInSeconds_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : delayTimeInSeconds_;
     }
     /**
-     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+     * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getDelayTimeInSecondsOrBuilder() {
       return getDelayTimeInSeconds();
     }
 
-    public static final int DELAY_TIME_IN_SECONDS_NULL_FIELD_NUMBER = 1004;
+    public static final int DELAY_TIME_IN_SECONDS_NULL_FIELD_NUMBER = 1006;
     private boolean delayTimeInSecondsNull_;
     /**
-     * <code>optional bool delay_time_in_seconds_null = 1004;</code>
+     * <code>optional bool delay_time_in_seconds_null = 1006;</code>
      */
     public boolean getDelayTimeInSecondsNull() {
       return delayTimeInSecondsNull_;
@@ -360,11 +494,17 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       if (forceDelete_ != null) {
         output.writeMessage(2, getForceDelete());
       }
+      if (numberOfDeletedPersons_ != null) {
+        output.writeMessage(3, getNumberOfDeletedPersons());
+      }
+      if (numberOfNotDeletedPersons_ != null) {
+        output.writeMessage(4, getNumberOfNotDeletedPersons());
+      }
       if (delayAfterXPersons_ != null) {
-        output.writeMessage(3, getDelayAfterXPersons());
+        output.writeMessage(5, getDelayAfterXPersons());
       }
       if (delayTimeInSeconds_ != null) {
-        output.writeMessage(4, getDelayTimeInSeconds());
+        output.writeMessage(6, getDelayTimeInSeconds());
       }
       if (personTypeIdNull_ != false) {
         output.writeBool(1001, personTypeIdNull_);
@@ -372,11 +512,17 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       if (forceDeleteNull_ != false) {
         output.writeBool(1002, forceDeleteNull_);
       }
+      if (numberOfDeletedPersonsNull_ != false) {
+        output.writeBool(1003, numberOfDeletedPersonsNull_);
+      }
+      if (numberOfNotDeletedPersonsNull_ != false) {
+        output.writeBool(1004, numberOfNotDeletedPersonsNull_);
+      }
       if (delayAfterXPersonsNull_ != false) {
-        output.writeBool(1003, delayAfterXPersonsNull_);
+        output.writeBool(1005, delayAfterXPersonsNull_);
       }
       if (delayTimeInSecondsNull_ != false) {
-        output.writeBool(1004, delayTimeInSecondsNull_);
+        output.writeBool(1006, delayTimeInSecondsNull_);
       }
     }
 
@@ -393,13 +539,21 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, getForceDelete());
       }
+      if (numberOfDeletedPersons_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getNumberOfDeletedPersons());
+      }
+      if (numberOfNotDeletedPersons_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getNumberOfNotDeletedPersons());
+      }
       if (delayAfterXPersons_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getDelayAfterXPersons());
+          .computeMessageSize(5, getDelayAfterXPersons());
       }
       if (delayTimeInSeconds_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getDelayTimeInSeconds());
+          .computeMessageSize(6, getDelayTimeInSeconds());
       }
       if (personTypeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -409,13 +563,21 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1002, forceDeleteNull_);
       }
+      if (numberOfDeletedPersonsNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1003, numberOfDeletedPersonsNull_);
+      }
+      if (numberOfNotDeletedPersonsNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1004, numberOfNotDeletedPersonsNull_);
+      }
       if (delayAfterXPersonsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1003, delayAfterXPersonsNull_);
+          .computeBoolSize(1005, delayAfterXPersonsNull_);
       }
       if (delayTimeInSecondsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, delayTimeInSecondsNull_);
+          .computeBoolSize(1006, delayTimeInSecondsNull_);
       }
       memoizedSize = size;
       return size;
@@ -544,6 +706,22 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         }
         forceDeleteNull_ = false;
 
+        if (numberOfDeletedPersonsBuilder_ == null) {
+          numberOfDeletedPersons_ = null;
+        } else {
+          numberOfDeletedPersons_ = null;
+          numberOfDeletedPersonsBuilder_ = null;
+        }
+        numberOfDeletedPersonsNull_ = false;
+
+        if (numberOfNotDeletedPersonsBuilder_ == null) {
+          numberOfNotDeletedPersons_ = null;
+        } else {
+          numberOfNotDeletedPersons_ = null;
+          numberOfNotDeletedPersonsBuilder_ = null;
+        }
+        numberOfNotDeletedPersonsNull_ = false;
+
         if (delayAfterXPersonsBuilder_ == null) {
           delayAfterXPersons_ = null;
         } else {
@@ -594,6 +772,18 @@ public final class PmDeleteAllPersonsOfPTypeAd {
           result.forceDelete_ = forceDeleteBuilder_.build();
         }
         result.forceDeleteNull_ = forceDeleteNull_;
+        if (numberOfDeletedPersonsBuilder_ == null) {
+          result.numberOfDeletedPersons_ = numberOfDeletedPersons_;
+        } else {
+          result.numberOfDeletedPersons_ = numberOfDeletedPersonsBuilder_.build();
+        }
+        result.numberOfDeletedPersonsNull_ = numberOfDeletedPersonsNull_;
+        if (numberOfNotDeletedPersonsBuilder_ == null) {
+          result.numberOfNotDeletedPersons_ = numberOfNotDeletedPersons_;
+        } else {
+          result.numberOfNotDeletedPersons_ = numberOfNotDeletedPersonsBuilder_.build();
+        }
+        result.numberOfNotDeletedPersonsNull_ = numberOfNotDeletedPersonsNull_;
         if (delayAfterXPersonsBuilder_ == null) {
           result.delayAfterXPersons_ = delayAfterXPersons_;
         } else {
@@ -632,6 +822,18 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         }
         if (other.getForceDeleteNull() != false) {
           setForceDeleteNull(other.getForceDeleteNull());
+        }
+        if (other.hasNumberOfDeletedPersons()) {
+          mergeNumberOfDeletedPersons(other.getNumberOfDeletedPersons());
+        }
+        if (other.getNumberOfDeletedPersonsNull() != false) {
+          setNumberOfDeletedPersonsNull(other.getNumberOfDeletedPersonsNull());
+        }
+        if (other.hasNumberOfNotDeletedPersons()) {
+          mergeNumberOfNotDeletedPersons(other.getNumberOfNotDeletedPersons());
+        }
+        if (other.getNumberOfNotDeletedPersonsNull() != false) {
+          setNumberOfNotDeletedPersonsNull(other.getNumberOfNotDeletedPersonsNull());
         }
         if (other.hasDelayAfterXPersons()) {
           mergeDelayAfterXPersons(other.getDelayAfterXPersons());
@@ -957,17 +1159,303 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
 
+      private io.dstore.Values.integerValue numberOfDeletedPersons_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfDeletedPersonsBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+       */
+      public boolean hasNumberOfDeletedPersons() {
+        return numberOfDeletedPersonsBuilder_ != null || numberOfDeletedPersons_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+       */
+      public io.dstore.Values.integerValue getNumberOfDeletedPersons() {
+        if (numberOfDeletedPersonsBuilder_ == null) {
+          return numberOfDeletedPersons_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfDeletedPersons_;
+        } else {
+          return numberOfDeletedPersonsBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+       */
+      public Builder setNumberOfDeletedPersons(io.dstore.Values.integerValue value) {
+        if (numberOfDeletedPersonsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          numberOfDeletedPersons_ = value;
+          onChanged();
+        } else {
+          numberOfDeletedPersonsBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+       */
+      public Builder setNumberOfDeletedPersons(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (numberOfDeletedPersonsBuilder_ == null) {
+          numberOfDeletedPersons_ = builderForValue.build();
+          onChanged();
+        } else {
+          numberOfDeletedPersonsBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+       */
+      public Builder mergeNumberOfDeletedPersons(io.dstore.Values.integerValue value) {
+        if (numberOfDeletedPersonsBuilder_ == null) {
+          if (numberOfDeletedPersons_ != null) {
+            numberOfDeletedPersons_ =
+              io.dstore.Values.integerValue.newBuilder(numberOfDeletedPersons_).mergeFrom(value).buildPartial();
+          } else {
+            numberOfDeletedPersons_ = value;
+          }
+          onChanged();
+        } else {
+          numberOfDeletedPersonsBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+       */
+      public Builder clearNumberOfDeletedPersons() {
+        if (numberOfDeletedPersonsBuilder_ == null) {
+          numberOfDeletedPersons_ = null;
+          onChanged();
+        } else {
+          numberOfDeletedPersons_ = null;
+          numberOfDeletedPersonsBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNumberOfDeletedPersonsBuilder() {
+        
+        onChanged();
+        return getNumberOfDeletedPersonsFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNumberOfDeletedPersonsOrBuilder() {
+        if (numberOfDeletedPersonsBuilder_ != null) {
+          return numberOfDeletedPersonsBuilder_.getMessageOrBuilder();
+        } else {
+          return numberOfDeletedPersons_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : numberOfDeletedPersons_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_deleted_persons = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNumberOfDeletedPersonsFieldBuilder() {
+        if (numberOfDeletedPersonsBuilder_ == null) {
+          numberOfDeletedPersonsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNumberOfDeletedPersons(),
+                  getParentForChildren(),
+                  isClean());
+          numberOfDeletedPersons_ = null;
+        }
+        return numberOfDeletedPersonsBuilder_;
+      }
+
+      private boolean numberOfDeletedPersonsNull_ ;
+      /**
+       * <code>optional bool number_of_deleted_persons_null = 1003;</code>
+       */
+      public boolean getNumberOfDeletedPersonsNull() {
+        return numberOfDeletedPersonsNull_;
+      }
+      /**
+       * <code>optional bool number_of_deleted_persons_null = 1003;</code>
+       */
+      public Builder setNumberOfDeletedPersonsNull(boolean value) {
+        
+        numberOfDeletedPersonsNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool number_of_deleted_persons_null = 1003;</code>
+       */
+      public Builder clearNumberOfDeletedPersonsNull() {
+        
+        numberOfDeletedPersonsNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue numberOfNotDeletedPersons_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfNotDeletedPersonsBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+       */
+      public boolean hasNumberOfNotDeletedPersons() {
+        return numberOfNotDeletedPersonsBuilder_ != null || numberOfNotDeletedPersons_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+       */
+      public io.dstore.Values.integerValue getNumberOfNotDeletedPersons() {
+        if (numberOfNotDeletedPersonsBuilder_ == null) {
+          return numberOfNotDeletedPersons_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfNotDeletedPersons_;
+        } else {
+          return numberOfNotDeletedPersonsBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+       */
+      public Builder setNumberOfNotDeletedPersons(io.dstore.Values.integerValue value) {
+        if (numberOfNotDeletedPersonsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          numberOfNotDeletedPersons_ = value;
+          onChanged();
+        } else {
+          numberOfNotDeletedPersonsBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+       */
+      public Builder setNumberOfNotDeletedPersons(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (numberOfNotDeletedPersonsBuilder_ == null) {
+          numberOfNotDeletedPersons_ = builderForValue.build();
+          onChanged();
+        } else {
+          numberOfNotDeletedPersonsBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+       */
+      public Builder mergeNumberOfNotDeletedPersons(io.dstore.Values.integerValue value) {
+        if (numberOfNotDeletedPersonsBuilder_ == null) {
+          if (numberOfNotDeletedPersons_ != null) {
+            numberOfNotDeletedPersons_ =
+              io.dstore.Values.integerValue.newBuilder(numberOfNotDeletedPersons_).mergeFrom(value).buildPartial();
+          } else {
+            numberOfNotDeletedPersons_ = value;
+          }
+          onChanged();
+        } else {
+          numberOfNotDeletedPersonsBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+       */
+      public Builder clearNumberOfNotDeletedPersons() {
+        if (numberOfNotDeletedPersonsBuilder_ == null) {
+          numberOfNotDeletedPersons_ = null;
+          onChanged();
+        } else {
+          numberOfNotDeletedPersons_ = null;
+          numberOfNotDeletedPersonsBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNumberOfNotDeletedPersonsBuilder() {
+        
+        onChanged();
+        return getNumberOfNotDeletedPersonsFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNumberOfNotDeletedPersonsOrBuilder() {
+        if (numberOfNotDeletedPersonsBuilder_ != null) {
+          return numberOfNotDeletedPersonsBuilder_.getMessageOrBuilder();
+        } else {
+          return numberOfNotDeletedPersons_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : numberOfNotDeletedPersons_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_not_deleted_persons = 4;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNumberOfNotDeletedPersonsFieldBuilder() {
+        if (numberOfNotDeletedPersonsBuilder_ == null) {
+          numberOfNotDeletedPersonsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNumberOfNotDeletedPersons(),
+                  getParentForChildren(),
+                  isClean());
+          numberOfNotDeletedPersons_ = null;
+        }
+        return numberOfNotDeletedPersonsBuilder_;
+      }
+
+      private boolean numberOfNotDeletedPersonsNull_ ;
+      /**
+       * <code>optional bool number_of_not_deleted_persons_null = 1004;</code>
+       */
+      public boolean getNumberOfNotDeletedPersonsNull() {
+        return numberOfNotDeletedPersonsNull_;
+      }
+      /**
+       * <code>optional bool number_of_not_deleted_persons_null = 1004;</code>
+       */
+      public Builder setNumberOfNotDeletedPersonsNull(boolean value) {
+        
+        numberOfNotDeletedPersonsNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool number_of_not_deleted_persons_null = 1004;</code>
+       */
+      public Builder clearNumberOfNotDeletedPersonsNull() {
+        
+        numberOfNotDeletedPersonsNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue delayAfterXPersons_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> delayAfterXPersonsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+       * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
        */
       public boolean hasDelayAfterXPersons() {
         return delayAfterXPersonsBuilder_ != null || delayAfterXPersons_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+       * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
        */
       public io.dstore.Values.integerValue getDelayAfterXPersons() {
         if (delayAfterXPersonsBuilder_ == null) {
@@ -977,7 +1465,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+       * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
        */
       public Builder setDelayAfterXPersons(io.dstore.Values.integerValue value) {
         if (delayAfterXPersonsBuilder_ == null) {
@@ -993,7 +1481,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+       * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
        */
       public Builder setDelayAfterXPersons(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1007,7 +1495,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+       * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
        */
       public Builder mergeDelayAfterXPersons(io.dstore.Values.integerValue value) {
         if (delayAfterXPersonsBuilder_ == null) {
@@ -1025,7 +1513,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+       * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
        */
       public Builder clearDelayAfterXPersons() {
         if (delayAfterXPersonsBuilder_ == null) {
@@ -1039,7 +1527,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+       * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
        */
       public io.dstore.Values.integerValue.Builder getDelayAfterXPersonsBuilder() {
         
@@ -1047,7 +1535,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return getDelayAfterXPersonsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+       * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getDelayAfterXPersonsOrBuilder() {
         if (delayAfterXPersonsBuilder_ != null) {
@@ -1058,7 +1546,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_after_x_persons = 3;</code>
+       * <code>optional .dstore.values.integerValue delay_after_x_persons = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1076,13 +1564,13 @@ public final class PmDeleteAllPersonsOfPTypeAd {
 
       private boolean delayAfterXPersonsNull_ ;
       /**
-       * <code>optional bool delay_after_x_persons_null = 1003;</code>
+       * <code>optional bool delay_after_x_persons_null = 1005;</code>
        */
       public boolean getDelayAfterXPersonsNull() {
         return delayAfterXPersonsNull_;
       }
       /**
-       * <code>optional bool delay_after_x_persons_null = 1003;</code>
+       * <code>optional bool delay_after_x_persons_null = 1005;</code>
        */
       public Builder setDelayAfterXPersonsNull(boolean value) {
         
@@ -1091,7 +1579,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
       /**
-       * <code>optional bool delay_after_x_persons_null = 1003;</code>
+       * <code>optional bool delay_after_x_persons_null = 1005;</code>
        */
       public Builder clearDelayAfterXPersonsNull() {
         
@@ -1104,13 +1592,13 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> delayTimeInSecondsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
        */
       public boolean hasDelayTimeInSeconds() {
         return delayTimeInSecondsBuilder_ != null || delayTimeInSeconds_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
        */
       public io.dstore.Values.integerValue getDelayTimeInSeconds() {
         if (delayTimeInSecondsBuilder_ == null) {
@@ -1120,7 +1608,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
        */
       public Builder setDelayTimeInSeconds(io.dstore.Values.integerValue value) {
         if (delayTimeInSecondsBuilder_ == null) {
@@ -1136,7 +1624,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
        */
       public Builder setDelayTimeInSeconds(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1150,7 +1638,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
        */
       public Builder mergeDelayTimeInSeconds(io.dstore.Values.integerValue value) {
         if (delayTimeInSecondsBuilder_ == null) {
@@ -1168,7 +1656,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
        */
       public Builder clearDelayTimeInSeconds() {
         if (delayTimeInSecondsBuilder_ == null) {
@@ -1182,7 +1670,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
        */
       public io.dstore.Values.integerValue.Builder getDelayTimeInSecondsBuilder() {
         
@@ -1190,7 +1678,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return getDelayTimeInSecondsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getDelayTimeInSecondsOrBuilder() {
         if (delayTimeInSecondsBuilder_ != null) {
@@ -1201,7 +1689,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 4;</code>
+       * <code>optional .dstore.values.integerValue delay_time_in_seconds = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1219,13 +1707,13 @@ public final class PmDeleteAllPersonsOfPTypeAd {
 
       private boolean delayTimeInSecondsNull_ ;
       /**
-       * <code>optional bool delay_time_in_seconds_null = 1004;</code>
+       * <code>optional bool delay_time_in_seconds_null = 1006;</code>
        */
       public boolean getDelayTimeInSecondsNull() {
         return delayTimeInSecondsNull_;
       }
       /**
-       * <code>optional bool delay_time_in_seconds_null = 1004;</code>
+       * <code>optional bool delay_time_in_seconds_null = 1006;</code>
        */
       public Builder setDelayTimeInSecondsNull(boolean value) {
         
@@ -1234,7 +1722,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return this;
       }
       /**
-       * <code>optional bool delay_time_in_seconds_null = 1004;</code>
+       * <code>optional bool delay_time_in_seconds_null = 1006;</code>
        */
       public Builder clearDelayTimeInSecondsNull() {
         
@@ -3660,27 +4148,35 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       "_DeleteAllPersonsOfPType_Ad\032\023dstore/valu" +
       "es.proto\032\031dstore/engine/error.proto\032\033dst" +
       "ore/engine/message.proto\032#dstore/engine/" +
-      "metainformation.proto\"\360\002\n\nParameters\0223\n\016" +
+      "metainformation.proto\"\312\004\n\nParameters\0223\n\016" +
       "person_type_id\030\001 \001(\0132\033.dstore.values.int" +
       "egerValue\022\034\n\023person_type_id_null\030\351\007 \001(\010\022" +
       "1\n\014force_delete\030\002 \001(\0132\033.dstore.values.in" +
-      "tegerValue\022\032\n\021force_delete_null\030\352\007 \001(\010\022:",
-      "\n\025delay_after_x_persons\030\003 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022#\n\032delay_after_x_pers" +
-      "ons_null\030\353\007 \001(\010\022:\n\025delay_time_in_seconds" +
-      "\030\004 \001(\0132\033.dstore.values.integerValue\022#\n\032d" +
-      "elay_time_in_seconds_null\030\354\007 \001(\010\"\224\003\n\010Res" +
-      "ponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.err" +
-      "or.Error\022H\n\020meta_information\030\002 \003(\0132..dst" +
-      "ore.engine.metainformation.MetaInformati" +
-      "on\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mess" +
-      "age.Message\022F\n\003row\030\004 \003(\01329.dstore.engine",
-      ".pm_DeleteAllPersonsOfPType_Ad.Response." +
-      "Row\022>\n\031number_of_deleted_persons\030e \001(\0132\033" +
-      ".dstore.values.integerValue\022B\n\035number_of" +
-      "_not_deleted_persons\030f \001(\0132\033.dstore.valu" +
-      "es.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "tegerValue\022\032\n\021force_delete_null\030\352\007 \001(\010\022>",
+      "\n\031number_of_deleted_persons\030\003 \001(\0132\033.dsto" +
+      "re.values.integerValue\022\'\n\036number_of_dele" +
+      "ted_persons_null\030\353\007 \001(\010\022B\n\035number_of_not" +
+      "_deleted_persons\030\004 \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022+\n\"number_of_not_deleted_per" +
+      "sons_null\030\354\007 \001(\010\022:\n\025delay_after_x_person" +
+      "s\030\005 \001(\0132\033.dstore.values.integerValue\022#\n\032" +
+      "delay_after_x_persons_null\030\355\007 \001(\010\022:\n\025del" +
+      "ay_time_in_seconds\030\006 \001(\0132\033.dstore.values" +
+      ".integerValue\022#\n\032delay_time_in_seconds_n",
+      "ull\030\356\007 \001(\010\"\224\003\n\010Response\022)\n\005error\030\001 \001(\0132\032" +
+      ".dstore.engine.error.Error\022H\n\020meta_infor" +
+      "mation\030\002 \003(\0132..dstore.engine.metainforma" +
+      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036." +
+      "dstore.engine.message.Message\022F\n\003row\030\004 \003" +
+      "(\01329.dstore.engine.pm_DeleteAllPersonsOf" +
+      "PType_Ad.Response.Row\022>\n\031number_of_delet" +
+      "ed_persons\030e \001(\0132\033.dstore.values.integer" +
+      "Value\022B\n\035number_of_not_deleted_persons\030f" +
+      " \001(\0132\033.dstore.values.integerValue\032\026\n\003Row",
+      "\022\017\n\006row_id\030\220N \001(\005B^\n\033io.dstore.engine.pr" +
+      "oceduresZ?gosdk.dstore.de/engine/procedu" +
+      "res/pm_DeleteAllPersonsOfPType_Adb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3703,7 +4199,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
     internal_static_dstore_engine_pm_DeleteAllPersonsOfPType_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_DeleteAllPersonsOfPType_Ad_Parameters_descriptor,
-        new java.lang.String[] { "PersonTypeId", "PersonTypeIdNull", "ForceDelete", "ForceDeleteNull", "DelayAfterXPersons", "DelayAfterXPersonsNull", "DelayTimeInSeconds", "DelayTimeInSecondsNull", });
+        new java.lang.String[] { "PersonTypeId", "PersonTypeIdNull", "ForceDelete", "ForceDeleteNull", "NumberOfDeletedPersons", "NumberOfDeletedPersonsNull", "NumberOfNotDeletedPersons", "NumberOfNotDeletedPersonsNull", "DelayAfterXPersons", "DelayAfterXPersonsNull", "DelayTimeInSeconds", "DelayTimeInSecondsNull", });
     internal_static_dstore_engine_pm_DeleteAllPersonsOfPType_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_DeleteAllPersonsOfPType_Ad_Response_fieldAccessorTable = new

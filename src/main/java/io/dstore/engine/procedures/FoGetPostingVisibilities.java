@@ -3910,8 +3910,9 @@ public final class FoGetPostingVisibilities {
       "ore.values.integerValue\022/\n\nvisibility\030\223N" +
       " \001(\0132\032.dstore.values.stringValue\0221\n\013visi",
       "ble_get\030\224N \001(\0132\033.dstore.values.integerVa" +
-      "lueB\035\n\033io.dstore.engine.proceduresb\006prot" +
-      "o3"
+      "lueBZ\n\033io.dstore.engine.proceduresZ;gosd" +
+      "k.dstore.de/engine/procedures/fo_GetPost" +
+      "ingVisibilitiesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

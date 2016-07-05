@@ -9575,8 +9575,10 @@ public final class PmGetPersonPropertiesPu {
       "es.stringValue\022*\n\005value\030\236N \001(\0132\032.dstore.",
       "values.stringValue\022-\n\007visible\030\237N \001(\0132\033.d" +
       "store.values.booleanValue\0223\n\013last_edited" +
-      "\030\240N \001(\0132\035.dstore.values.timestampValueB\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "\030\240N \001(\0132\035.dstore.values.timestampValueBZ" +
+      "\n\033io.dstore.engine.proceduresZ;gosdk.dst" +
+      "ore.de/engine/procedures/pm_GetPersonPro" +
+      "perties_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

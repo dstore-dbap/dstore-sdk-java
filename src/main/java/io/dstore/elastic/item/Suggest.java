@@ -3164,8 +3164,9 @@ public final class Suggest {
       "gestion\0220\n\rmatching_item\030\003 \003(\0132\031.dstore." +
       "elastic.item.Item\022\034\n\024elastic_query_strin" +
       "g\030\005 \001(\t\032>\n\nSuggestion\022\022\n\nfield_name\030\001 \001(" +
-      "\t\022\r\n\005count\030\002 \001(\005\022\r\n\005value\030\003 \001(\tB!\n\026io.ds" +
-      "tore.elastic.itemB\007Suggestb\006proto3"
+      "\t\022\r\n\005count\030\002 \001(\005\022\r\n\005value\030\003 \001(\tBG\n\026io.ds" +
+      "tore.elastic.itemB\007SuggestZ$gosdk.dstore" +
+      ".de/elastic/item/suggestb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

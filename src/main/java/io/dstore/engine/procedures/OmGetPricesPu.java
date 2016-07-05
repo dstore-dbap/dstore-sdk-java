@@ -14263,8 +14263,9 @@ public final class OmGetPricesPu {
       "s.integerValue\022<\n\026precise_unit_net_price" +
       "\030\262N \001(\0132\033.dstore.values.decimalValue\0227\n\021" +
       "total_gross_price\030\263N \001(\0132\033.dstore.values" +
-      ".decimalValueB\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      ".decimalValueBP\n\033io.dstore.engine.proced" +
+      "uresZ1gosdk.dstore.de/engine/procedures/" +
+      "om_GetPrices_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

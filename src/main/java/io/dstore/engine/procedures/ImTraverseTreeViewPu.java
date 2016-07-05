@@ -3663,8 +3663,9 @@ public final class ImTraverseTreeViewPu {
       "22.dstore.engine.im_TraverseTreeView_Pu." +
       "Response.Row\032Q\n\003Row\022\017\n\006row_id\030\220N \001(\005\0229\n\023",
       "result_tree_node_id\030\221N \001(\0132\033.dstore.valu" +
-      "es.integerValueB\035\n\033io.dstore.engine.proc" +
-      "eduresb\006proto3"
+      "es.integerValueBW\n\033io.dstore.engine.proc" +
+      "eduresZ8gosdk.dstore.de/engine/procedure" +
+      "s/im_TraverseTreeView_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

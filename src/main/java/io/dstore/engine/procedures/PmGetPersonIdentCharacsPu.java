@@ -7112,8 +7112,10 @@ public final class PmGetPersonIdentCharacsPu {
       "Value\022(\n\002id\030\237N \001(\0132\033.dstore.values.integ" +
       "erValue\0221\n\013language_id\030\240N \001(\0132\033.dstore.v" +
       "alues.integerValue\0224\n\016person_type_id\030\241N " +
-      "\001(\0132\033.dstore.values.integerValueB\035\n\033io.d" +
-      "store.engine.proceduresb\006proto3"
+      "\001(\0132\033.dstore.values.integerValueB\\\n\033io.d" +
+      "store.engine.proceduresZ=gosdk.dstore.de",
+      "/engine/procedures/pm_GetPersonIdentChar" +
+      "acs_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

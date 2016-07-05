@@ -3419,8 +3419,9 @@ public final class ImCheckConditionsForTNIDsAd {
       "_id\030\220N \001(\005\0227\n\021item_condition_id\030\221N \001(\0132\033" +
       ".dstore.values.integerValue\022A\n\034t_n_ids_f" +
       "ulfilling_condition\030\222N \001(\0132\032.dstore.valu",
-      "es.stringValueB\035\n\033io.dstore.engine.proce" +
-      "duresb\006proto3"
+      "es.stringValueB^\n\033io.dstore.engine.proce" +
+      "duresZ?gosdk.dstore.de/engine/procedures" +
+      "/im_CheckConditionsForTNIDs_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

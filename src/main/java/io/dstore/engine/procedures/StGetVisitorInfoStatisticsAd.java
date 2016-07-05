@@ -3911,8 +3911,9 @@ public final class StGetVisitorInfoStatisticsAd {
       "values.integerValue\0226\n\020number_of_values\030" +
       "\222N \001(\0132\033.dstore.values.integerValue\022:\n\025s" +
       "tatistic_information\030\223N \001(\0132\032.dstore.val" +
-      "ues.stringValueB\035\n\033io.dstore.engine.proc" +
-      "eduresb\006proto3"
+      "ues.stringValueB_\n\033io.dstore.engine.proc" +
+      "eduresZ@gosdk.dstore.de/engine/procedure" +
+      "s/st_GetVisitorInfoStatistics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

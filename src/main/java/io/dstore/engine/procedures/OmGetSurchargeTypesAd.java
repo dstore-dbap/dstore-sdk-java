@@ -5636,8 +5636,9 @@ public final class OmGetSurchargeTypesAd {
       "ntegerValue\0227\n\021surcharge_type_id\030\232N \001(\0132",
       "\033.dstore.values.integerValue\022@\n\032surcharg" +
       "e_type_category_id\030\233N \001(\0132\033.dstore.value" +
-      "s.integerValueB\035\n\033io.dstore.engine.proce" +
-      "duresb\006proto3"
+      "s.integerValueBX\n\033io.dstore.engine.proce" +
+      "duresZ9gosdk.dstore.de/engine/procedures" +
+      "/om_GetSurchargeTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

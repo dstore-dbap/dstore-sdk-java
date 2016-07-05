@@ -3966,8 +3966,9 @@ public final class Procedure {
       "id\030\001 \001(\005\022C\n\007columns\030\002 \003(\01322.dstore.engin",
       "e.procedure.Response.Row.ColumnsEntry\032D\n" +
       "\014ColumnsEntry\022\013\n\003key\030\001 \001(\t\022#\n\005value\030\002 \001(" +
-      "\0132\024.dstore.values.Value:\0028\001B\022\n\020io.dstore" +
-      ".engineb\006proto3"
+      "\0132\024.dstore.values.Value:\0028\001B4\n\020io.dstore" +
+      ".engineZ gosdk.dstore.de/engine/procedur" +
+      "eb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4159,8 +4159,9 @@ public final class StGetBasicCharacteristicsAd {
       "ngValue\0228\n\022person_id_required\030\225N \001(\0132\033.d" +
       "store.values.booleanValue\022A\n\033basic_chara" +
       "cteristic_number\030\226N \001(\0132\033.dstore.values." +
-      "integerValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      "integerValueB^\n\033io.dstore.engine.procedu" +
+      "resZ?gosdk.dstore.de/engine/procedures/s" +
+      "t_GetBasicCharacteristics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

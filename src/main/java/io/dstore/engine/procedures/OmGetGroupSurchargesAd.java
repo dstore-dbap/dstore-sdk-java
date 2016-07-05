@@ -6373,8 +6373,9 @@ public final class OmGetGroupSurchargesAd {
       "ore.values.stringValue\0227\n\021surcharge_type" +
       "_id\030\235N \001(\0132\033.dstore.values.integerValue\022" +
       ".\n\010level_id\030\236N \001(\0132\033.dstore.values.integ" +
-      "erValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "erValueBY\n\033io.dstore.engine.proceduresZ:" +
+      "gosdk.dstore.de/engine/procedures/om_Get" +
+      "GroupSurcharges_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

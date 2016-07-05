@@ -4651,8 +4651,9 @@ public final class OmGetCampOrderSurchDiscAd {
       "ue\0224\n\016discount_value\030\225N \001(\0132\033.dstore.val" +
       "ues.decimalValue\022C\n\036discount_surcharge_d" +
       "escription\030\226N \001(\0132\032.dstore.values.string" +
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "ValueB\\\n\033io.dstore.engine.proceduresZ=go" +
+      "sdk.dstore.de/engine/procedures/om_GetCa",
+      "mpOrderSurchDisc_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

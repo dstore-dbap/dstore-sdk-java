@@ -5389,8 +5389,10 @@ public final class DoGetSettingsDescriptionsAd {
       "\227N \001(\0132\032.dstore.values.stringValue\022<\n\027se" +
       "ttings_entry_category\030\230N \001(\0132\032.dstore.va",
       "lues.stringValue\0228\n\023data_type_for_value\030" +
-      "\231N \001(\0132\032.dstore.values.stringValueB\035\n\033io" +
-      ".dstore.engine.proceduresb\006proto3"
+      "\231N \001(\0132\032.dstore.values.stringValueB^\n\033io" +
+      ".dstore.engine.proceduresZ?gosdk.dstore." +
+      "de/engine/procedures/do_GetSettingsDescr" +
+      "iptions_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

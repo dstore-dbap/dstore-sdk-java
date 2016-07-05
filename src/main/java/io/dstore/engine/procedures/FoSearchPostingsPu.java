@@ -10561,8 +10561,9 @@ public final class FoSearchPostingsPu {
       "ues.booleanValue\0223\n\014has_binaries\030\251\234\001 \001(\013" +
       "2\033.dstore.values.booleanValue\0225\n\016has_suc" +
       "cessors\030\254\234\001 \001(\0132\033.dstore.values.booleanV" +
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro" +
-      "to3"
+      "alueBU\n\033io.dstore.engine.proceduresZ6gos" +
+      "dk.dstore.de/engine/procedures/fo_Search" +
+      "Postings_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4158,8 +4158,10 @@ public final class PmGetEncryptionAlgorithmPu {
       "nse.Row\032\221\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022>\n\030pers" +
       "on_characteristic_id\030\221N \001(\0132\033.dstore.val" +
       "ues.integerValue\0229\n\024encryption_algorithm" +
-      "\030\222N \001(\0132\032.dstore.values.stringValueB\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\030\222N \001(\0132\032.dstore.values.stringValueB]\n\033i" +
+      "o.dstore.engine.proceduresZ>gosdk.dstore" +
+      ".de/engine/procedures/pm_GetEncryptionAl",
+      "gorithm_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

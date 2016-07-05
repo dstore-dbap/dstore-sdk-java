@@ -4896,8 +4896,9 @@ public final class MiGetCurrentProcessesAd {
       "(\0132\032.dstore.values.stringValue\0221\n\014progra" +
       "m_name\030\230N \001(\0132\032.dstore.values.stringValu" +
       "e\022.\n\thost_name\030\231N \001(\0132\032.dstore.values.st" +
-      "ringValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "ringValueBZ\n\033io.dstore.engine.procedures" +
+      "Z;gosdk.dstore.de/engine/procedures/mi_G" +
+      "etCurrentProcesses_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

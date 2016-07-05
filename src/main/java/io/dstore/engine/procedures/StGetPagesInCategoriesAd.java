@@ -4156,8 +4156,10 @@ public final class StGetPagesInCategoriesAd {
       "ue\022-\n\007page_no\030\223N \001(\0132\033.dstore.values.int",
       "egerValue\022)\n\004page\030\224N \001(\0132\032.dstore.values" +
       ".stringValue\022>\n\031page_category_descriptio" +
-      "n\030\225N \001(\0132\032.dstore.values.stringValueB\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "n\030\225N \001(\0132\032.dstore.values.stringValueB[\n\033" +
+      "io.dstore.engine.proceduresZ<gosdk.dstor" +
+      "e.de/engine/procedures/st_GetPagesInCate" +
+      "gories_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

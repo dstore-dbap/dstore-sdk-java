@@ -3418,8 +3418,9 @@ public final class ImGetNumberOfNodesAd {
       "2.dstore.engine.im_GetNumberOfNodes_Ad.R" +
       "esponse.Row\032M\n\003Row\022\017\n\006row_id\030\220N \001(\005\0225\n\017n" +
       "umber_of_nodes\030\221N \001(\0132\033.dstore.values.in",
-      "tegerValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "tegerValueBW\n\033io.dstore.engine.procedure" +
+      "sZ8gosdk.dstore.de/engine/procedures/im_" +
+      "GetNumberOfNodes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

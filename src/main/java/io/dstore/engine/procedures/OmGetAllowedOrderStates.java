@@ -6129,8 +6129,9 @@ public final class OmGetAllowedOrderStates {
       "ues.stringValue\0225\n\017payment_type_id\030\231N \001(" +
       "\0132\033.dstore.values.integerValue\0225\n\020from_o" +
       "rder_state\030\232N \001(\0132\032.dstore.values.string" +
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "ValueBY\n\033io.dstore.engine.proceduresZ:go" +
+      "sdk.dstore.de/engine/procedures/om_GetAl",
+      "lowedOrderStatesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

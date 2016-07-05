@@ -3911,7 +3911,9 @@ public final class OmModifyOrderContentInfoAd {
       "s.integerValue\0220\n\nerror_code\030\222N \001(\0132\033.ds" +
       "tore.values.integerValue\0226\n\020order_conten" +
       "t_id\030\223N \001(\0132\033.dstore.values.integerValue" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "B]\n\033io.dstore.engine.proceduresZ>gosdk.d" +
+      "store.de/engine/procedures/om_ModifyOrde" +
+      "rContentInfo_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

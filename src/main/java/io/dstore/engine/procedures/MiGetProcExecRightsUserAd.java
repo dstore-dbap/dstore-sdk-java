@@ -4403,8 +4403,9 @@ public final class MiGetProcExecRightsUserAd {
       "\0132\032.dstore.values.stringValue\0223\n\016procedu" +
       "re_name\030\224N \001(\0132\032.dstore.values.stringVal" +
       "ue\022-\n\007user_id\030\225N \001(\0132\033.dstore.values.int" +
-      "egerValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "egerValueB]\n\033io.dstore.engine.procedures" +
+      "Z>gosdk.dstore.de/engine/procedures/mi_G" +
+      "etProcExecRights_User_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

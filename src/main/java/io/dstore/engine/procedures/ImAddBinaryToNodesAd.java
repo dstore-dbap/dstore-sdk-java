@@ -4154,8 +4154,9 @@ public final class ImAddBinaryToNodesAd {
       "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
       "Message\022?\n\003row\030\004 \003(\01322.dstore.engine.im_" +
       "AddBinaryToNodes_Ad.Response.Row\032\026\n\003Row\022" +
-      "\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "\017\n\006row_id\030\220N \001(\005BW\n\033io.dstore.engine.pro" +
+      "ceduresZ8gosdk.dstore.de/engine/procedur" +
+      "es/im_AddBinaryToNodes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

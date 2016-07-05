@@ -3910,8 +3910,10 @@ public final class MiGetFieldTypesPu {
       "type_description\030\223N \001(\0132\032.dstore.values." +
       "stringValue\0225\n\017precision_value\030\224N \001(\0132\033." +
       "dstore.values.integerValue\0220\n\nmax_length",
-      "\030\225N \001(\0132\033.dstore.values.integerValueB\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "\030\225N \001(\0132\033.dstore.values.integerValueBT\n\033" +
+      "io.dstore.engine.proceduresZ5gosdk.dstor" +
+      "e.de/engine/procedures/mi_GetFieldTypes_" +
+      "Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4157,8 +4157,9 @@ public final class OmGetTrolleySurchargeInfoPu {
       "tore.values.integerValue\0225\n\020information_" +
       "type\030\223N \001(\0132\032.dstore.values.stringValue\022" +
       "0\n\013information\030\224N \001(\0132\032.dstore.values.st" +
-      "ringValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "ringValueB^\n\033io.dstore.engine.procedures" +
+      "Z?gosdk.dstore.de/engine/procedures/om_G" +
+      "etTrolleySurchargeInfo_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

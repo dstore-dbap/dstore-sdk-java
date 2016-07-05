@@ -4895,8 +4895,10 @@ public final class MiGetTRITriggerAd {
       "gger_description\030\225N \001(\0132\032.dstore.values." +
       "stringValue\0220\n\ntrigger_id\030\226N \001(\0132\033.dstor" +
       "e.values.integerValue\0224\n\016trigger_status\030" +
-      "\227N \001(\0132\033.dstore.values.integerValueB\035\n\033i" +
-      "o.dstore.engine.proceduresb\006proto3"
+      "\227N \001(\0132\033.dstore.values.integerValueBT\n\033i" +
+      "o.dstore.engine.proceduresZ5gosdk.dstore" +
+      ".de/engine/procedures/mi_GetTRITrigger_A",
+      "db\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

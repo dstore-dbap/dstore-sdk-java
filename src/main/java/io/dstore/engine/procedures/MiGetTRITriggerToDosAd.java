@@ -3664,7 +3664,9 @@ public final class MiGetTRITriggerToDosAd {
       "store.values.stringValue\022.\n\010to_do_no\030\222N " +
       "\001(\0132\033.dstore.values.integerValue\022.\n\tproc" +
       "_call\030\223N \001(\0132\032.dstore.values.stringValue",
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "BY\n\033io.dstore.engine.proceduresZ:gosdk.d" +
+      "store.de/engine/procedures/mi_GetTRITrig" +
+      "gerToDos_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -6869,8 +6869,9 @@ public final class OmGetOrderSurchargesAd {
       "ingValue\0227\n\021surcharge_type_id\030\237N \001(\0132\033.d" +
       "store.values.integerValue\022@\n\032surcharge_t" +
       "ype_category_id\030\240N \001(\0132\033.dstore.values.i",
-      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "ntegerValueBY\n\033io.dstore.engine.procedur" +
+      "esZ:gosdk.dstore.de/engine/procedures/om" +
+      "_GetOrderSurcharges_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

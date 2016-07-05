@@ -6129,8 +6129,10 @@ public final class CoGetBinariesOfOneMemberAd {
       "har\030\233N \001(\0132\032.dstore.values.stringValue\022." +
       "\n\tm_d5_hash\030\234N \001(\0132\032.dstore.values.strin" +
       "gValue\022=\n\030input_date_and_time_char\030\235N \001(" +
-      "\0132\032.dstore.values.stringValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "\0132\032.dstore.values.stringValueB]\n\033io.dsto" +
+      "re.engine.proceduresZ>gosdk.dstore.de/en" +
+      "gine/procedures/co_GetBinariesOfOneMembe" +
+      "r_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

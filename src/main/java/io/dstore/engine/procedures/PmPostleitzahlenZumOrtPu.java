@@ -3909,8 +3909,9 @@ public final class PmPostleitzahlenZumOrtPu {
       "(\0132\032.dstore.values.stringValue\022/\n\nort_zu" +
       "satz\030\222N \001(\0132\032.dstore.values.stringValue\022",
       "*\n\005p_l_z\030\223N \001(\0132\032.dstore.values.stringVa" +
-      "lueB\035\n\033io.dstore.engine.proceduresb\006prot" +
-      "o3"
+      "lueB[\n\033io.dstore.engine.proceduresZ<gosd" +
+      "k.dstore.de/engine/procedures/pm_Postlei" +
+      "tzahlenZumOrt_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

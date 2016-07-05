@@ -3665,8 +3665,9 @@ public final class PmGetRelationshipsAd {
       "dstore.values.booleanValue\0225\n\017relationsh" +
       "ip_id\030\222N \001(\0132\033.dstore.values.integerValu",
       "e\0221\n\014relationship\030\223N \001(\0132\032.dstore.values" +
-      ".stringValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      ".stringValueBW\n\033io.dstore.engine.procedu" +
+      "resZ8gosdk.dstore.de/engine/procedures/p" +
+      "m_GetRelationships_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

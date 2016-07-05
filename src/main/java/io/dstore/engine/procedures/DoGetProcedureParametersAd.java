@@ -6375,8 +6375,10 @@ public final class DoGetProcedureParametersAd {
       "\0132\032.dstore.values.stringValue\022@\n\033introdu" +
       "ced_indstore_version\030\234N \001(\0132\032.dstore.val" +
       "ues.stringValue\022.\n\tdata_type\030\235N \001(\0132\032.ds" +
-      "tore.values.stringValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "tore.values.stringValueB]\n\033io.dstore.eng" +
+      "ine.proceduresZ>gosdk.dstore.de/engine/p" +
+      "rocedures/do_GetProcedureParameters_Adb\006",
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

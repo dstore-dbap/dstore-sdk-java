@@ -3910,8 +3910,10 @@ public final class StGetVisitorInformationAd {
       "_time\030\221N \001(\0132\032.dstore.values.stringValue",
       "\0225\n\020information_type\030\222N \001(\0132\032.dstore.val" +
       "ues.stringValue\0220\n\013information\030\223N \001(\0132\032." +
-      "dstore.values.stringValueB\035\n\033io.dstore.e" +
-      "ngine.proceduresb\006proto3"
+      "dstore.values.stringValueB\\\n\033io.dstore.e" +
+      "ngine.proceduresZ=gosdk.dstore.de/engine" +
+      "/procedures/st_GetVisitorInformation_Adb" +
+      "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

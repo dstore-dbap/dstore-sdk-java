@@ -3172,8 +3172,9 @@ public final class ImCountBinariesForTreeNode {
       "\177\n\003Row\022\017\n\006row_id\030\220N \001(\005\0228\n\022number_of_bin" +
       "aries\030\221N \001(\0132\033.dstore.values.integerValu" +
       "e\022-\n\007node_id\030\222N \001(\0132\033.dstore.values.inte" +
-      "gerValueB\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "gerValueB\\\n\033io.dstore.engine.proceduresZ" +
+      "=gosdk.dstore.de/engine/procedures/im_Co" +
+      "untBinariesForTreeNodeb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4650,8 +4650,10 @@ public final class OmGetOrderInformationAd {
       "2\032.dstore.values.stringValue\0220\n\013informat" +
       "ion\030\226N \001(\0132\032.dstore.values.stringValue\022@" +
       "\n\030created_at_date_and_time\030\227N \001(\0132\035.dsto" +
-      "re.values.timestampValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "re.values.timestampValueBZ\n\033io.dstore.en" +
+      "gine.proceduresZ;gosdk.dstore.de/engine/" +
+      "procedures/om_GetOrderInformation_Adb\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

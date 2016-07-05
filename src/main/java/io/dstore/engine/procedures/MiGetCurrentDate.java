@@ -3664,8 +3664,9 @@ public final class MiGetCurrentDate {
       ".dstore.values.stringValue\022/\n\ttimestamp\030" +
       "\222N \001(\0132\033.dstore.values.decimalValue\0224\n\014c" +
       "urrent_date\030\223N \001(\0132\035.dstore.values.times",
-      "tampValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "tampValueBR\n\033io.dstore.engine.procedures" +
+      "Z3gosdk.dstore.de/engine/procedures/mi_G" +
+      "etCurrentDateb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4157,8 +4157,9 @@ public final class DoGetProcedureHistoryAd {
       "values.stringValue\0223\n\016procedure_name\030\224N " +
       "\001(\0132\032.dstore.values.stringValue\0227\n\021main_" +
       "docu_updated\030\225N \001(\0132\033.dstore.values.bool" +
-      "eanValueB\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "eanValueBZ\n\033io.dstore.engine.proceduresZ" +
+      ";gosdk.dstore.de/engine/procedures/do_Ge" +
+      "tProcedureHistory_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

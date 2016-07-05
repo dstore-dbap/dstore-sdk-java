@@ -21403,8 +21403,9 @@ public final class OmGetOrdersPu {
       "dstore.values.stringValue\022<\n\025precise_net" +
       "_order_sum\030\316\234\001 \001(\0132\033.dstore.values.decim" +
       "alValue\0227\n\020brutto_order_sum\030\320\234\001 \001(\0132\033.ds" +
-      "tore.values.decimalValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "tore.values.decimalValueBP\n\033io.dstore.en" +
+      "gine.proceduresZ1gosdk.dstore.de/engine/" +
+      "procedures/om_GetOrders_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

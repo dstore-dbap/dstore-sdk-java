@@ -4159,8 +4159,9 @@ public final class OmGetOrderInformationTypesAd {
       ".integerValue\0225\n\020information_type\030\224N \001(\013" +
       "2\032.dstore.values.stringValue\022?\n\031order_in" +
       "formation_type_id\030\225N \001(\0132\033.dstore.values" +
-      ".integerValueB\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      ".integerValueB_\n\033io.dstore.engine.proced" +
+      "uresZ@gosdk.dstore.de/engine/procedures/" +
+      "om_GetOrderInformationTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

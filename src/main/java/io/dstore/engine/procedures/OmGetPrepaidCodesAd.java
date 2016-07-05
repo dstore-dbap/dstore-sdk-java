@@ -5635,8 +5635,10 @@ public final class OmGetPrepaidCodesAd {
       "\030\226N \001(\0132\033.dstore.values.decimalValue\0228\n\020" +
       "code_valid_until\030\227N \001(\0132\035.dstore.values." +
       "timestampValue\0221\n\013currency_id\030\230N \001(\0132\033.d" +
-      "store.values.integerValueB\035\n\033io.dstore.e" +
-      "ngine.proceduresb\006proto3"
+      "store.values.integerValueBV\n\033io.dstore.e" +
+      "ngine.proceduresZ7gosdk.dstore.de/engine" +
+      "/procedures/om_GetPrepaidCodes_Adb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

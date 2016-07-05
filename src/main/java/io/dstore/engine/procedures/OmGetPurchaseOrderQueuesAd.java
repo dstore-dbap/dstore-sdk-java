@@ -12537,8 +12537,9 @@ public final class OmGetPurchaseOrderQueuesAd {
       "purchase_price_characteristic_id\030\266\352\001 \001(\013" +
       "2\033.dstore.values.integerValue\0225\n\016total_q" +
       "uantity\030\274\352\001 \001(\0132\033.dstore.values.integerV" +
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro" +
-      "to3"
+      "alueB]\n\033io.dstore.engine.proceduresZ>gos" +
+      "dk.dstore.de/engine/procedures/om_GetPur" +
+      "chaseOrderQueues_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

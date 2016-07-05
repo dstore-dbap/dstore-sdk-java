@@ -4158,8 +4158,10 @@ public final class DoGetProcResSortConditionsAd {
       "\032.dstore.values.stringValue\0227\n\021sort_cond" +
       "ition_id\030\223N \001(\0132\033.dstore.values.integerV" +
       "alue\0223\n\016parameter_name\030\224N \001(\0132\032.dstore.v" +
-      "alues.stringValueB\035\n\033io.dstore.engine.pr" +
-      "oceduresb\006proto3"
+      "alues.stringValueB_\n\033io.dstore.engine.pr" +
+      "oceduresZ@gosdk.dstore.de/engine/procedu" +
+      "res/do_GetProcResSortConditions_Adb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

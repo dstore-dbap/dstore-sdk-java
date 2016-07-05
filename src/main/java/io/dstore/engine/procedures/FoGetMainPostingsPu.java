@@ -10069,8 +10069,9 @@ public final class FoGetMainPostingsPu {
       "(\0132\032.dstore.values.stringValue\022<\n\026new_po" +
       "stings_in_thread\030\237N \001(\0132\033.dstore.values." +
       "integerValue\022)\n\004body\030\240N \001(\0132\032.dstore.val" +
-      "ues.stringValueB\035\n\033io.dstore.engine.proc" +
-      "eduresb\006proto3"
+      "ues.stringValueBV\n\033io.dstore.engine.proc" +
+      "eduresZ7gosdk.dstore.de/engine/procedure",
+      "s/fo_GetMainPostings_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

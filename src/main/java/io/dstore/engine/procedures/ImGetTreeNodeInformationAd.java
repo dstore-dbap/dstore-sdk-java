@@ -6620,8 +6620,10 @@ public final class ImGetTreeNodeInformationAd {
       "_from\030\234N \001(\0132\033.dstore.values.integerValu" +
       "e\022.\n\010level_id\030\235N \001(\0132\033.dstore.values.int" +
       "egerValue\022/\n\tsymbol_id\030\236N \001(\0132\033.dstore.v" +
-      "alues.integerValueB\035\n\033io.dstore.engine.p" +
-      "roceduresb\006proto3"
+      "alues.integerValueB]\n\033io.dstore.engine.p" +
+      "roceduresZ>gosdk.dstore.de/engine/proced" +
+      "ures/im_GetTreeNodeInformation_Adb\006proto",
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

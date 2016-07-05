@@ -227,6 +227,24 @@ public final class ImGetModifiedNodesAd {
      * <code>optional bool row_count_null = 1012;</code>
      */
     boolean getRowCountNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+     */
+    boolean hasNumberOfElementsInResult();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+     */
+    io.dstore.Values.integerValue getNumberOfElementsInResult();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder();
+
+    /**
+     * <code>optional bool number_of_elements_in_result_null = 1013;</code>
+     */
+    boolean getNumberOfElementsInResultNull();
   }
   /**
    * Protobuf type {@code dstore.engine.im_GetModifiedNodes_Ad.Parameters}
@@ -252,6 +270,7 @@ public final class ImGetModifiedNodesAd {
       tNodeModifDefMetaInfoTypeIdsNull_ = false;
       startAtRowNoNull_ = false;
       rowCountNull_ = false;
+      numberOfElementsInResultNull_ = false;
     }
 
     @java.lang.Override
@@ -434,6 +453,19 @@ public final class ImGetModifiedNodesAd {
 
               break;
             }
+            case 106: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (numberOfElementsInResult_ != null) {
+                subBuilder = numberOfElementsInResult_.toBuilder();
+              }
+              numberOfElementsInResult_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(numberOfElementsInResult_);
+                numberOfElementsInResult_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               fromDateAndTimeNull_ = input.readBool();
@@ -492,6 +524,11 @@ public final class ImGetModifiedNodesAd {
             case 8096: {
 
               rowCountNull_ = input.readBool();
+              break;
+            }
+            case 8104: {
+
+              numberOfElementsInResultNull_ = input.readBool();
               break;
             }
           }
@@ -878,6 +915,36 @@ public final class ImGetModifiedNodesAd {
       return rowCountNull_;
     }
 
+    public static final int NUMBER_OF_ELEMENTS_IN_RESULT_FIELD_NUMBER = 13;
+    private io.dstore.Values.integerValue numberOfElementsInResult_;
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+     */
+    public boolean hasNumberOfElementsInResult() {
+      return numberOfElementsInResult_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+     */
+    public io.dstore.Values.integerValue getNumberOfElementsInResult() {
+      return numberOfElementsInResult_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
+      return getNumberOfElementsInResult();
+    }
+
+    public static final int NUMBER_OF_ELEMENTS_IN_RESULT_NULL_FIELD_NUMBER = 1013;
+    private boolean numberOfElementsInResultNull_;
+    /**
+     * <code>optional bool number_of_elements_in_result_null = 1013;</code>
+     */
+    public boolean getNumberOfElementsInResultNull() {
+      return numberOfElementsInResultNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -926,6 +993,9 @@ public final class ImGetModifiedNodesAd {
       if (rowCount_ != null) {
         output.writeMessage(12, getRowCount());
       }
+      if (numberOfElementsInResult_ != null) {
+        output.writeMessage(13, getNumberOfElementsInResult());
+      }
       if (fromDateAndTimeNull_ != false) {
         output.writeBool(1001, fromDateAndTimeNull_);
       }
@@ -961,6 +1031,9 @@ public final class ImGetModifiedNodesAd {
       }
       if (rowCountNull_ != false) {
         output.writeBool(1012, rowCountNull_);
+      }
+      if (numberOfElementsInResultNull_ != false) {
+        output.writeBool(1013, numberOfElementsInResultNull_);
       }
     }
 
@@ -1017,6 +1090,10 @@ public final class ImGetModifiedNodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(12, getRowCount());
       }
+      if (numberOfElementsInResult_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, getNumberOfElementsInResult());
+      }
       if (fromDateAndTimeNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, fromDateAndTimeNull_);
@@ -1064,6 +1141,10 @@ public final class ImGetModifiedNodesAd {
       if (rowCountNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1012, rowCountNull_);
+      }
+      if (numberOfElementsInResultNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1013, numberOfElementsInResultNull_);
       }
       memoizedSize = size;
       return size;
@@ -1272,6 +1353,14 @@ public final class ImGetModifiedNodesAd {
         }
         rowCountNull_ = false;
 
+        if (numberOfElementsInResultBuilder_ == null) {
+          numberOfElementsInResult_ = null;
+        } else {
+          numberOfElementsInResult_ = null;
+          numberOfElementsInResultBuilder_ = null;
+        }
+        numberOfElementsInResultNull_ = false;
+
         return this;
       }
 
@@ -1366,6 +1455,12 @@ public final class ImGetModifiedNodesAd {
           result.rowCount_ = rowCountBuilder_.build();
         }
         result.rowCountNull_ = rowCountNull_;
+        if (numberOfElementsInResultBuilder_ == null) {
+          result.numberOfElementsInResult_ = numberOfElementsInResult_;
+        } else {
+          result.numberOfElementsInResult_ = numberOfElementsInResultBuilder_.build();
+        }
+        result.numberOfElementsInResultNull_ = numberOfElementsInResultNull_;
         onBuilt();
         return result;
       }
@@ -1452,6 +1547,12 @@ public final class ImGetModifiedNodesAd {
         }
         if (other.getRowCountNull() != false) {
           setRowCountNull(other.getRowCountNull());
+        }
+        if (other.hasNumberOfElementsInResult()) {
+          mergeNumberOfElementsInResult(other.getNumberOfElementsInResult());
+        }
+        if (other.getNumberOfElementsInResultNull() != false) {
+          setNumberOfElementsInResultNull(other.getNumberOfElementsInResultNull());
         }
         onChanged();
         return this;
@@ -3191,6 +3292,149 @@ public final class ImGetModifiedNodesAd {
       public Builder clearRowCountNull() {
         
         rowCountNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue numberOfElementsInResult_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfElementsInResultBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+       */
+      public boolean hasNumberOfElementsInResult() {
+        return numberOfElementsInResultBuilder_ != null || numberOfElementsInResult_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+       */
+      public io.dstore.Values.integerValue getNumberOfElementsInResult() {
+        if (numberOfElementsInResultBuilder_ == null) {
+          return numberOfElementsInResult_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+        } else {
+          return numberOfElementsInResultBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+       */
+      public Builder setNumberOfElementsInResult(io.dstore.Values.integerValue value) {
+        if (numberOfElementsInResultBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          numberOfElementsInResult_ = value;
+          onChanged();
+        } else {
+          numberOfElementsInResultBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+       */
+      public Builder setNumberOfElementsInResult(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (numberOfElementsInResultBuilder_ == null) {
+          numberOfElementsInResult_ = builderForValue.build();
+          onChanged();
+        } else {
+          numberOfElementsInResultBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+       */
+      public Builder mergeNumberOfElementsInResult(io.dstore.Values.integerValue value) {
+        if (numberOfElementsInResultBuilder_ == null) {
+          if (numberOfElementsInResult_ != null) {
+            numberOfElementsInResult_ =
+              io.dstore.Values.integerValue.newBuilder(numberOfElementsInResult_).mergeFrom(value).buildPartial();
+          } else {
+            numberOfElementsInResult_ = value;
+          }
+          onChanged();
+        } else {
+          numberOfElementsInResultBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+       */
+      public Builder clearNumberOfElementsInResult() {
+        if (numberOfElementsInResultBuilder_ == null) {
+          numberOfElementsInResult_ = null;
+          onChanged();
+        } else {
+          numberOfElementsInResult_ = null;
+          numberOfElementsInResultBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNumberOfElementsInResultBuilder() {
+        
+        onChanged();
+        return getNumberOfElementsInResultFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
+        if (numberOfElementsInResultBuilder_ != null) {
+          return numberOfElementsInResultBuilder_.getMessageOrBuilder();
+        } else {
+          return numberOfElementsInResult_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 13;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNumberOfElementsInResultFieldBuilder() {
+        if (numberOfElementsInResultBuilder_ == null) {
+          numberOfElementsInResultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNumberOfElementsInResult(),
+                  getParentForChildren(),
+                  isClean());
+          numberOfElementsInResult_ = null;
+        }
+        return numberOfElementsInResultBuilder_;
+      }
+
+      private boolean numberOfElementsInResultNull_ ;
+      /**
+       * <code>optional bool number_of_elements_in_result_null = 1013;</code>
+       */
+      public boolean getNumberOfElementsInResultNull() {
+        return numberOfElementsInResultNull_;
+      }
+      /**
+       * <code>optional bool number_of_elements_in_result_null = 1013;</code>
+       */
+      public Builder setNumberOfElementsInResultNull(boolean value) {
+        
+        numberOfElementsInResultNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool number_of_elements_in_result_null = 1013;</code>
+       */
+      public Builder clearNumberOfElementsInResultNull() {
+        
+        numberOfElementsInResultNull_ = false;
         onChanged();
         return this;
       }
@@ -8122,7 +8366,7 @@ public final class ImGetModifiedNodesAd {
       "ifiedNodes_Ad\032\023dstore/values.proto\032\031dsto" +
       "re/engine/error.proto\032\033dstore/engine/mes" +
       "sage.proto\032#dstore/engine/metainformatio" +
-      "n.proto\"\364\010\n\nParameters\0229\n\022from_date_and_" +
+      "n.proto\"\343\t\n\nParameters\0229\n\022from_date_and_" +
       "time\030\001 \001(\0132\035.dstore.values.timestampValu" +
       "e\022 \n\027from_date_and_time_null\030\351\007 \001(\010\0227\n\020t" +
       "o_date_and_time\030\002 \001(\0132\035.dstore.values.ti" +
@@ -8150,33 +8394,37 @@ public final class ImGetModifiedNodesAd {
       "t_at_row_no\030\013 \001(\0132\033.dstore.values.intege" +
       "rValue\022\035\n\024start_at_row_no_null\030\363\007 \001(\010\022.\n" +
       "\trow_count\030\014 \001(\0132\033.dstore.values.integer" +
-      "Value\022\027\n\016row_count_null\030\364\007 \001(\010\"\327\007\n\010Respo" +
-      "nse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error" +
-      ".Error\022H\n\020meta_information\030\002 \003(\0132..dstor" +
-      "e.engine.metainformation.MetaInformation" +
-      "\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messag" +
-      "e.Message\022?\n\003row\030\004 \003(\01322.dstore.engine.i" +
-      "m_GetModifiedNodes_Ad.Response.Row\022A\n\034nu",
-      "mber_of_elements_in_result\030e \001(\0132\033.dstor" +
-      "e.values.integerValue\032\240\005\n\003Row\022\017\n\006row_id\030" +
-      "\220N \001(\005\0225\n\020node_description\030\221N \001(\0132\032.dsto" +
-      "re.values.stringValue\022-\n\007node_id\030\222N \001(\0132" +
-      "\033.dstore.values.integerValue\022A\n\034matched_" +
-      "info_type_ids_t_node\030\223N \001(\0132\032.dstore.val" +
-      "ues.stringValue\022?\n\032matched_info_type_ids" +
-      "_node\030\224N \001(\0132\032.dstore.values.stringValue" +
-      "\022.\n\010level_id\030\225N \001(\0132\033.dstore.values.inte" +
-      "gerValue\022-\n\006active\030\241\234\001 \001(\0132\033.dstore.valu",
-      "es.booleanValue\0223\n\014tree_node_id\030\243\234\001 \001(\0132" +
-      "\033.dstore.values.integerValue\022B\n\034pre_pred" +
-      "ecessors_description\030\245\234\001 \001(\0132\032.dstore.va" +
-      "lues.stringValue\022D\n\035pre_predecessors_tre" +
-      "e_node_id\030\247\234\001 \001(\0132\033.dstore.values.intege" +
-      "rValue\022@\n\031predecessors_tree_node_id\030\251\234\001 " +
-      "\001(\0132\033.dstore.values.integerValue\022>\n\030pred" +
-      "ecessors_description\030\252\234\001 \001(\0132\032.dstore.va" +
-      "lues.stringValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "Value\022\027\n\016row_count_null\030\364\007 \001(\010\022A\n\034number" +
+      "_of_elements_in_result\030\r \001(\0132\033.dstore.va" +
+      "lues.integerValue\022*\n!number_of_elements_" +
+      "in_result_null\030\365\007 \001(\010\"\327\007\n\010Response\022)\n\005er" +
+      "ror\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n" +
+      "\020meta_information\030\002 \003(\0132..dstore.engine." +
+      "metainformation.MetaInformation\022/\n\007messa",
+      "ge\030\003 \003(\0132\036.dstore.engine.message.Message" +
+      "\022?\n\003row\030\004 \003(\01322.dstore.engine.im_GetModi" +
+      "fiedNodes_Ad.Response.Row\022A\n\034number_of_e" +
+      "lements_in_result\030e \001(\0132\033.dstore.values." +
+      "integerValue\032\240\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\0225\n" +
+      "\020node_description\030\221N \001(\0132\032.dstore.values" +
+      ".stringValue\022-\n\007node_id\030\222N \001(\0132\033.dstore." +
+      "values.integerValue\022A\n\034matched_info_type" +
+      "_ids_t_node\030\223N \001(\0132\032.dstore.values.strin" +
+      "gValue\022?\n\032matched_info_type_ids_node\030\224N ",
+      "\001(\0132\032.dstore.values.stringValue\022.\n\010level" +
+      "_id\030\225N \001(\0132\033.dstore.values.integerValue\022" +
+      "-\n\006active\030\241\234\001 \001(\0132\033.dstore.values.boolea" +
+      "nValue\0223\n\014tree_node_id\030\243\234\001 \001(\0132\033.dstore." +
+      "values.integerValue\022B\n\034pre_predecessors_" +
+      "description\030\245\234\001 \001(\0132\032.dstore.values.stri" +
+      "ngValue\022D\n\035pre_predecessors_tree_node_id" +
+      "\030\247\234\001 \001(\0132\033.dstore.values.integerValue\022@\n" +
+      "\031predecessors_tree_node_id\030\251\234\001 \001(\0132\033.dst" +
+      "ore.values.integerValue\022>\n\030predecessors_",
+      "description\030\252\234\001 \001(\0132\032.dstore.values.stri" +
+      "ngValueBW\n\033io.dstore.engine.proceduresZ8" +
+      "gosdk.dstore.de/engine/procedures/im_Get" +
+      "ModifiedNodes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8199,7 +8447,7 @@ public final class ImGetModifiedNodesAd {
     internal_static_dstore_engine_im_GetModifiedNodes_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GetModifiedNodes_Ad_Parameters_descriptor,
-        new java.lang.String[] { "FromDateAndTime", "FromDateAndTimeNull", "ToDateAndTime", "ToDateAndTimeNull", "DomainTreeNodeId", "DomainTreeNodeIdNull", "GetTreeNodeIds", "GetTreeNodeIdsNull", "FilterIdsInOneId", "FilterIdsInOneIdNull", "OutputIntoOneId", "OutputIntoOneIdNull", "IncludeDeactivatedNodes", "IncludeDeactivatedNodesNull", "LevelId", "LevelIdNull", "NodeModifDefMetaInfoTypeIds", "NodeModifDefMetaInfoTypeIdsNull", "TNodeModifDefMetaInfoTypeIds", "TNodeModifDefMetaInfoTypeIdsNull", "StartAtRowNo", "StartAtRowNoNull", "RowCount", "RowCountNull", });
+        new java.lang.String[] { "FromDateAndTime", "FromDateAndTimeNull", "ToDateAndTime", "ToDateAndTimeNull", "DomainTreeNodeId", "DomainTreeNodeIdNull", "GetTreeNodeIds", "GetTreeNodeIdsNull", "FilterIdsInOneId", "FilterIdsInOneIdNull", "OutputIntoOneId", "OutputIntoOneIdNull", "IncludeDeactivatedNodes", "IncludeDeactivatedNodesNull", "LevelId", "LevelIdNull", "NodeModifDefMetaInfoTypeIds", "NodeModifDefMetaInfoTypeIdsNull", "TNodeModifDefMetaInfoTypeIds", "TNodeModifDefMetaInfoTypeIdsNull", "StartAtRowNo", "StartAtRowNoNull", "RowCount", "RowCountNull", "NumberOfElementsInResult", "NumberOfElementsInResultNull", });
     internal_static_dstore_engine_im_GetModifiedNodes_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_GetModifiedNodes_Ad_Response_fieldAccessorTable = new

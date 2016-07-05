@@ -8595,8 +8595,9 @@ public final class ImGetItemConditionGroupsAd {
       "alues.stringValue\0223\n\rinherit_depth\030\242N \001(" +
       "\0132\033.dstore.values.integerValue\0229\n\022condit" +
       "ion_group_id\030\242\234\001 \001(\0132\033.dstore.values.int" +
-      "egerValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "egerValueB]\n\033io.dstore.engine.procedures" +
+      "Z>gosdk.dstore.de/engine/procedures/im_G" +
+      "etItemConditionGroups_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

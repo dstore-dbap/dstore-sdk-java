@@ -3910,8 +3910,10 @@ public final class PmGetPersonTypeSettingsAd {
       "ringValue\022*\n\005value\030\222N \001(\0132\032.dstore.value" +
       "s.stringValue\0221\n\014key_variable\030\223N \001(\0132\032.d",
       "store.values.stringValue\0224\n\016person_type_" +
-      "id\030\224N \001(\0132\033.dstore.values.integerValueB\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "id\030\224N \001(\0132\033.dstore.values.integerValueB\\" +
+      "\n\033io.dstore.engine.proceduresZ=gosdk.dst" +
+      "ore.de/engine/procedures/pm_GetPersonTyp" +
+      "eSettings_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

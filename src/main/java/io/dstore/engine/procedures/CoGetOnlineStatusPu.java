@@ -85,38 +85,56 @@ public final class CoGetOnlineStatusPu {
     boolean getStatusNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+     */
+    boolean hasCommunityMemberId();
+    /**
+     * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+     */
+    io.dstore.Values.integerValue getCommunityMemberId();
+    /**
+     * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+
+    /**
+     * <code>optional bool community_member_id_null = 1005;</code>
+     */
+    boolean getCommunityMemberIdNull();
+
+    /**
+     * <code>optional .dstore.values.booleanValue no_result = 6;</code>
      */
     boolean hasNoResult();
     /**
-     * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue no_result = 6;</code>
      */
     io.dstore.Values.booleanValue getNoResult();
     /**
-     * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue no_result = 6;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getNoResultOrBuilder();
 
     /**
-     * <code>optional bool no_result_null = 1005;</code>
+     * <code>optional bool no_result_null = 1006;</code>
      */
     boolean getNoResultNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
      */
     io.dstore.Values.stringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
      */
     io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1006;</code>
+     * <code>optional bool separator_in_ident_vals_null = 1007;</code>
      */
     boolean getSeparatorInIdentValsNull();
   }
@@ -136,6 +154,7 @@ public final class CoGetOnlineStatusPu {
       uniqueIdNull_ = false;
       personIdentificationValuesNull_ = false;
       statusNull_ = false;
+      communityMemberIdNull_ = false;
       noResultNull_ = false;
       separatorInIdentValsNull_ = false;
     }
@@ -217,6 +236,19 @@ public final class CoGetOnlineStatusPu {
               break;
             }
             case 42: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (communityMemberId_ != null) {
+                subBuilder = communityMemberId_.toBuilder();
+              }
+              communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(communityMemberId_);
+                communityMemberId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 50: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (noResult_ != null) {
                 subBuilder = noResult_.toBuilder();
@@ -229,7 +261,7 @@ public final class CoGetOnlineStatusPu {
 
               break;
             }
-            case 50: {
+            case 58: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
@@ -264,10 +296,15 @@ public final class CoGetOnlineStatusPu {
             }
             case 8040: {
 
-              noResultNull_ = input.readBool();
+              communityMemberIdNull_ = input.readBool();
               break;
             }
             case 8048: {
+
+              noResultNull_ = input.readBool();
+              break;
+            }
+            case 8056: {
 
               separatorInIdentValsNull_ = input.readBool();
               break;
@@ -416,61 +453,91 @@ public final class CoGetOnlineStatusPu {
       return statusNull_;
     }
 
-    public static final int NO_RESULT_FIELD_NUMBER = 5;
+    public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 5;
+    private io.dstore.Values.integerValue communityMemberId_;
+    /**
+     * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+     */
+    public boolean hasCommunityMemberId() {
+      return communityMemberId_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+     */
+    public io.dstore.Values.integerValue getCommunityMemberId() {
+      return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      return getCommunityMemberId();
+    }
+
+    public static final int COMMUNITY_MEMBER_ID_NULL_FIELD_NUMBER = 1005;
+    private boolean communityMemberIdNull_;
+    /**
+     * <code>optional bool community_member_id_null = 1005;</code>
+     */
+    public boolean getCommunityMemberIdNull() {
+      return communityMemberIdNull_;
+    }
+
+    public static final int NO_RESULT_FIELD_NUMBER = 6;
     private io.dstore.Values.booleanValue noResult_;
     /**
-     * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue no_result = 6;</code>
      */
     public boolean hasNoResult() {
       return noResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue no_result = 6;</code>
      */
     public io.dstore.Values.booleanValue getNoResult() {
       return noResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : noResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue no_result = 6;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getNoResultOrBuilder() {
       return getNoResult();
     }
 
-    public static final int NO_RESULT_NULL_FIELD_NUMBER = 1005;
+    public static final int NO_RESULT_NULL_FIELD_NUMBER = 1006;
     private boolean noResultNull_;
     /**
-     * <code>optional bool no_result_null = 1005;</code>
+     * <code>optional bool no_result_null = 1006;</code>
      */
     public boolean getNoResultNull() {
       return noResultNull_;
     }
 
-    public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 6;
+    public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 7;
     private io.dstore.Values.stringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
      */
     public io.dstore.Values.stringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
-    public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1006;
+    public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1007;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1006;</code>
+     * <code>optional bool separator_in_ident_vals_null = 1007;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
@@ -500,11 +567,14 @@ public final class CoGetOnlineStatusPu {
       if (status_ != null) {
         output.writeMessage(4, getStatus());
       }
+      if (communityMemberId_ != null) {
+        output.writeMessage(5, getCommunityMemberId());
+      }
       if (noResult_ != null) {
-        output.writeMessage(5, getNoResult());
+        output.writeMessage(6, getNoResult());
       }
       if (separatorInIdentVals_ != null) {
-        output.writeMessage(6, getSeparatorInIdentVals());
+        output.writeMessage(7, getSeparatorInIdentVals());
       }
       if (communityIdNull_ != false) {
         output.writeBool(1001, communityIdNull_);
@@ -518,11 +588,14 @@ public final class CoGetOnlineStatusPu {
       if (statusNull_ != false) {
         output.writeBool(1004, statusNull_);
       }
+      if (communityMemberIdNull_ != false) {
+        output.writeBool(1005, communityMemberIdNull_);
+      }
       if (noResultNull_ != false) {
-        output.writeBool(1005, noResultNull_);
+        output.writeBool(1006, noResultNull_);
       }
       if (separatorInIdentValsNull_ != false) {
-        output.writeBool(1006, separatorInIdentValsNull_);
+        output.writeBool(1007, separatorInIdentValsNull_);
       }
     }
 
@@ -547,13 +620,17 @@ public final class CoGetOnlineStatusPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, getStatus());
       }
+      if (communityMemberId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(5, getCommunityMemberId());
+      }
       if (noResult_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getNoResult());
+          .computeMessageSize(6, getNoResult());
       }
       if (separatorInIdentVals_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getSeparatorInIdentVals());
+          .computeMessageSize(7, getSeparatorInIdentVals());
       }
       if (communityIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -571,13 +648,17 @@ public final class CoGetOnlineStatusPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, statusNull_);
       }
+      if (communityMemberIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1005, communityMemberIdNull_);
+      }
       if (noResultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, noResultNull_);
+          .computeBoolSize(1006, noResultNull_);
       }
       if (separatorInIdentValsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, separatorInIdentValsNull_);
+          .computeBoolSize(1007, separatorInIdentValsNull_);
       }
       memoizedSize = size;
       return size;
@@ -722,6 +803,14 @@ public final class CoGetOnlineStatusPu {
         }
         statusNull_ = false;
 
+        if (communityMemberIdBuilder_ == null) {
+          communityMemberId_ = null;
+        } else {
+          communityMemberId_ = null;
+          communityMemberIdBuilder_ = null;
+        }
+        communityMemberIdNull_ = false;
+
         if (noResultBuilder_ == null) {
           noResult_ = null;
         } else {
@@ -784,6 +873,12 @@ public final class CoGetOnlineStatusPu {
           result.status_ = statusBuilder_.build();
         }
         result.statusNull_ = statusNull_;
+        if (communityMemberIdBuilder_ == null) {
+          result.communityMemberId_ = communityMemberId_;
+        } else {
+          result.communityMemberId_ = communityMemberIdBuilder_.build();
+        }
+        result.communityMemberIdNull_ = communityMemberIdNull_;
         if (noResultBuilder_ == null) {
           result.noResult_ = noResult_;
         } else {
@@ -834,6 +929,12 @@ public final class CoGetOnlineStatusPu {
         }
         if (other.getStatusNull() != false) {
           setStatusNull(other.getStatusNull());
+        }
+        if (other.hasCommunityMemberId()) {
+          mergeCommunityMemberId(other.getCommunityMemberId());
+        }
+        if (other.getCommunityMemberIdNull() != false) {
+          setCommunityMemberIdNull(other.getCommunityMemberIdNull());
         }
         if (other.hasNoResult()) {
           mergeNoResult(other.getNoResult());
@@ -1445,17 +1546,160 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
 
+      private io.dstore.Values.integerValue communityMemberId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+       */
+      public boolean hasCommunityMemberId() {
+        return communityMemberIdBuilder_ != null || communityMemberId_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+       */
+      public io.dstore.Values.integerValue getCommunityMemberId() {
+        if (communityMemberIdBuilder_ == null) {
+          return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+        } else {
+          return communityMemberIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+       */
+      public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
+        if (communityMemberIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          communityMemberId_ = value;
+          onChanged();
+        } else {
+          communityMemberIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+       */
+      public Builder setCommunityMemberId(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (communityMemberIdBuilder_ == null) {
+          communityMemberId_ = builderForValue.build();
+          onChanged();
+        } else {
+          communityMemberIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+       */
+      public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
+        if (communityMemberIdBuilder_ == null) {
+          if (communityMemberId_ != null) {
+            communityMemberId_ =
+              io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+          } else {
+            communityMemberId_ = value;
+          }
+          onChanged();
+        } else {
+          communityMemberIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+       */
+      public Builder clearCommunityMemberId() {
+        if (communityMemberIdBuilder_ == null) {
+          communityMemberId_ = null;
+          onChanged();
+        } else {
+          communityMemberId_ = null;
+          communityMemberIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+        
+        onChanged();
+        return getCommunityMemberIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+        if (communityMemberIdBuilder_ != null) {
+          return communityMemberIdBuilder_.getMessageOrBuilder();
+        } else {
+          return communityMemberId_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue community_member_id = 5;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getCommunityMemberIdFieldBuilder() {
+        if (communityMemberIdBuilder_ == null) {
+          communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getCommunityMemberId(),
+                  getParentForChildren(),
+                  isClean());
+          communityMemberId_ = null;
+        }
+        return communityMemberIdBuilder_;
+      }
+
+      private boolean communityMemberIdNull_ ;
+      /**
+       * <code>optional bool community_member_id_null = 1005;</code>
+       */
+      public boolean getCommunityMemberIdNull() {
+        return communityMemberIdNull_;
+      }
+      /**
+       * <code>optional bool community_member_id_null = 1005;</code>
+       */
+      public Builder setCommunityMemberIdNull(boolean value) {
+        
+        communityMemberIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool community_member_id_null = 1005;</code>
+       */
+      public Builder clearCommunityMemberIdNull() {
+        
+        communityMemberIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.booleanValue noResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> noResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue no_result = 6;</code>
        */
       public boolean hasNoResult() {
         return noResultBuilder_ != null || noResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue no_result = 6;</code>
        */
       public io.dstore.Values.booleanValue getNoResult() {
         if (noResultBuilder_ == null) {
@@ -1465,7 +1709,7 @@ public final class CoGetOnlineStatusPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue no_result = 6;</code>
        */
       public Builder setNoResult(io.dstore.Values.booleanValue value) {
         if (noResultBuilder_ == null) {
@@ -1481,7 +1725,7 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue no_result = 6;</code>
        */
       public Builder setNoResult(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1495,7 +1739,7 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue no_result = 6;</code>
        */
       public Builder mergeNoResult(io.dstore.Values.booleanValue value) {
         if (noResultBuilder_ == null) {
@@ -1513,7 +1757,7 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue no_result = 6;</code>
        */
       public Builder clearNoResult() {
         if (noResultBuilder_ == null) {
@@ -1527,7 +1771,7 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue no_result = 6;</code>
        */
       public io.dstore.Values.booleanValue.Builder getNoResultBuilder() {
         
@@ -1535,7 +1779,7 @@ public final class CoGetOnlineStatusPu {
         return getNoResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue no_result = 6;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getNoResultOrBuilder() {
         if (noResultBuilder_ != null) {
@@ -1546,7 +1790,7 @@ public final class CoGetOnlineStatusPu {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue no_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue no_result = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1564,13 +1808,13 @@ public final class CoGetOnlineStatusPu {
 
       private boolean noResultNull_ ;
       /**
-       * <code>optional bool no_result_null = 1005;</code>
+       * <code>optional bool no_result_null = 1006;</code>
        */
       public boolean getNoResultNull() {
         return noResultNull_;
       }
       /**
-       * <code>optional bool no_result_null = 1005;</code>
+       * <code>optional bool no_result_null = 1006;</code>
        */
       public Builder setNoResultNull(boolean value) {
         
@@ -1579,7 +1823,7 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
       /**
-       * <code>optional bool no_result_null = 1005;</code>
+       * <code>optional bool no_result_null = 1006;</code>
        */
       public Builder clearNoResultNull() {
         
@@ -1592,13 +1836,13 @@ public final class CoGetOnlineStatusPu {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
        */
       public io.dstore.Values.stringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1608,7 +1852,7 @@ public final class CoGetOnlineStatusPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1624,7 +1868,7 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1638,7 +1882,7 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1656,7 +1900,7 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1670,7 +1914,7 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
        */
       public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -1678,7 +1922,7 @@ public final class CoGetOnlineStatusPu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -1689,7 +1933,7 @@ public final class CoGetOnlineStatusPu {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1707,13 +1951,13 @@ public final class CoGetOnlineStatusPu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1006;</code>
+       * <code>optional bool separator_in_ident_vals_null = 1007;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1006;</code>
+       * <code>optional bool separator_in_ident_vals_null = 1007;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -1722,7 +1966,7 @@ public final class CoGetOnlineStatusPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1006;</code>
+       * <code>optional bool separator_in_ident_vals_null = 1007;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -4453,7 +4697,7 @@ public final class CoGetOnlineStatusPu {
       "neStatus_Pu\032\023dstore/values.proto\032\031dstore" +
       "/engine/error.proto\032\033dstore/engine/messa" +
       "ge.proto\032#dstore/engine/metainformation." +
-      "proto\"\201\004\n\nParameters\0221\n\014community_id\030\001 \001" +
+      "proto\"\336\004\n\nParameters\0221\n\014community_id\030\001 \001" +
       "(\0132\033.dstore.values.integerValue\022\032\n\021commu" +
       "nity_id_null\030\351\007 \001(\010\022-\n\tunique_id\030\002 \001(\0132\032" +
       ".dstore.values.stringValue\022\027\n\016unique_id_" +
@@ -4461,23 +4705,27 @@ public final class CoGetOnlineStatusPu {
       "ues\030\003 \001(\0132\032.dstore.values.stringValue\022*\n" +
       "!person_identification_values_null\030\353\007 \001(" +
       "\010\022+\n\006status\030\004 \001(\0132\033.dstore.values.intege" +
-      "rValue\022\024\n\013status_null\030\354\007 \001(\010\022.\n\tno_resul" +
-      "t\030\005 \001(\0132\033.dstore.values.booleanValue\022\027\n\016" +
-      "no_result_null\030\355\007 \001(\010\022;\n\027separator_in_id" +
-      "ent_vals\030\006 \001(\0132\032.dstore.values.stringVal" +
-      "ue\022%\n\034separator_in_ident_vals_null\030\356\007 \001(" +
-      "\010\"\263\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.e" +
-      "ngine.error.Error\022H\n\020meta_information\030\002 ",
-      "\003(\0132..dstore.engine.metainformation.Meta" +
-      "Information\022/\n\007message\030\003 \003(\0132\036.dstore.en" +
-      "gine.message.Message\022>\n\003row\030\004 \003(\01321.dsto" +
-      "re.engine.co_GetOnlineStatus_Pu.Response" +
-      ".Row\0228\n\023community_member_id\030e \001(\0132\033.dsto" +
-      "re.values.integerValue\032\206\001\n\003Row\022\017\n\006row_id" +
-      "\030\220N \001(\005\0229\n\023community_member_id\030\221N \001(\0132\033." +
-      "dstore.values.integerValue\0223\n\ronline_sta" +
-      "tus\030\222N \001(\0132\033.dstore.values.integerValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "rValue\022\024\n\013status_null\030\354\007 \001(\010\0228\n\023communit" +
+      "y_member_id\030\005 \001(\0132\033.dstore.values.intege" +
+      "rValue\022!\n\030community_member_id_null\030\355\007 \001(" +
+      "\010\022.\n\tno_result\030\006 \001(\0132\033.dstore.values.boo" +
+      "leanValue\022\027\n\016no_result_null\030\356\007 \001(\010\022;\n\027se" +
+      "parator_in_ident_vals\030\007 \001(\0132\032.dstore.val" +
+      "ues.stringValue\022%\n\034separator_in_ident_va",
+      "ls_null\030\357\007 \001(\010\"\263\003\n\010Response\022)\n\005error\030\001 \001" +
+      "(\0132\032.dstore.engine.error.Error\022H\n\020meta_i" +
+      "nformation\030\002 \003(\0132..dstore.engine.metainf" +
+      "ormation.MetaInformation\022/\n\007message\030\003 \003(" +
+      "\0132\036.dstore.engine.message.Message\022>\n\003row" +
+      "\030\004 \003(\01321.dstore.engine.co_GetOnlineStatu" +
+      "s_Pu.Response.Row\0228\n\023community_member_id" +
+      "\030e \001(\0132\033.dstore.values.integerValue\032\206\001\n\003" +
+      "Row\022\017\n\006row_id\030\220N \001(\005\0229\n\023community_member" +
+      "_id\030\221N \001(\0132\033.dstore.values.integerValue\022",
+      "3\n\ronline_status\030\222N \001(\0132\033.dstore.values." +
+      "integerValueBV\n\033io.dstore.engine.procedu" +
+      "resZ7gosdk.dstore.de/engine/procedures/c" +
+      "o_GetOnlineStatus_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4500,7 +4748,7 @@ public final class CoGetOnlineStatusPu {
     internal_static_dstore_engine_co_GetOnlineStatus_Pu_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_GetOnlineStatus_Pu_Parameters_descriptor,
-        new java.lang.String[] { "CommunityId", "CommunityIdNull", "UniqueId", "UniqueIdNull", "PersonIdentificationValues", "PersonIdentificationValuesNull", "Status", "StatusNull", "NoResult", "NoResultNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", });
+        new java.lang.String[] { "CommunityId", "CommunityIdNull", "UniqueId", "UniqueIdNull", "PersonIdentificationValues", "PersonIdentificationValuesNull", "Status", "StatusNull", "CommunityMemberId", "CommunityMemberIdNull", "NoResult", "NoResultNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", });
     internal_static_dstore_engine_co_GetOnlineStatus_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_co_GetOnlineStatus_Pu_Response_fieldAccessorTable = new

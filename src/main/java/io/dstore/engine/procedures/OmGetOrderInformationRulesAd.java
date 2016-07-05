@@ -5142,8 +5142,10 @@ public final class OmGetOrderInformationRulesAd {
       "ormation_type\030\225N \001(\0132\032.dstore.values.str" +
       "ingValue\0220\n\013order_state\030\226N \001(\0132\032.dstore." +
       "values.stringValue\022:\n\024modification_allow",
-      "ed\030\227N \001(\0132\033.dstore.values.integerValueB\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "ed\030\227N \001(\0132\033.dstore.values.integerValueB_" +
+      "\n\033io.dstore.engine.proceduresZ@gosdk.dst" +
+      "ore.de/engine/procedures/om_GetOrderInfo" +
+      "rmationRules_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4647,8 +4647,9 @@ public final class ImInsertNodeBinaryAd {
       " \003(\01322.dstore.engine.im_InsertNodeBinary" +
       "_Ad.Response.Row\032L\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
       "\0224\n\016binary_code_id\030\221N \001(\0132\033.dstore.value" +
-      "s.integerValueB\035\n\033io.dstore.engine.proce",
-      "duresb\006proto3"
+      "s.integerValueBW\n\033io.dstore.engine.proce",
+      "duresZ8gosdk.dstore.de/engine/procedures" +
+      "/im_InsertNodeBinary_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

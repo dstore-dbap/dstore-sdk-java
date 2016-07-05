@@ -67,128 +67,146 @@ public final class PmModifyPersonDataAd {
     boolean getValueListNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+     * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+     */
+    boolean hasErrorIdList();
+    /**
+     * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+     */
+    io.dstore.Values.stringValue getErrorIdList();
+    /**
+     * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+     */
+    io.dstore.Values.stringValueOrBuilder getErrorIdListOrBuilder();
+
+    /**
+     * <code>optional bool error_id_list_null = 1004;</code>
+     */
+    boolean getErrorIdListNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
      */
     boolean hasPersonCharacCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
      */
     io.dstore.Values.integerValue getPersonCharacCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
      */
     io.dstore.Values.integerValueOrBuilder getPersonCharacCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool person_charac_category_id_null = 1004;</code>
+     * <code>optional bool person_charac_category_id_null = 1005;</code>
      */
     boolean getPersonCharacCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
      */
     boolean hasDeleteCharacCategoryId();
     /**
-     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
      */
     io.dstore.Values.booleanValue getDeleteCharacCategoryId();
     /**
-     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getDeleteCharacCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool delete_charac_category_id_null = 1005;</code>
+     * <code>optional bool delete_charac_category_id_null = 1006;</code>
      */
     boolean getDeleteCharacCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
      */
     boolean hasResultInErrorIdList();
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
      */
     io.dstore.Values.booleanValue getResultInErrorIdList();
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getResultInErrorIdListOrBuilder();
 
     /**
-     * <code>optional bool result_in_error_id_list_null = 1006;</code>
+     * <code>optional bool result_in_error_id_list_null = 1007;</code>
      */
     boolean getResultInErrorIdListNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
      */
     boolean hasValueIdsForPredefinedCharacs();
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
      */
     io.dstore.Values.booleanValue getValueIdsForPredefinedCharacs();
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getValueIdsForPredefinedCharacsOrBuilder();
 
     /**
-     * <code>optional bool value_ids_for_predefined_characs_null = 1007;</code>
+     * <code>optional bool value_ids_for_predefined_characs_null = 1008;</code>
      */
     boolean getValueIdsForPredefinedCharacsNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
      */
     boolean hasChangeAllOrNothing();
     /**
-     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
      */
     io.dstore.Values.booleanValue getChangeAllOrNothing();
     /**
-     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
      */
     io.dstore.Values.booleanValueOrBuilder getChangeAllOrNothingOrBuilder();
 
     /**
-     * <code>optional bool change_all_or_nothing_null = 1008;</code>
+     * <code>optional bool change_all_or_nothing_null = 1009;</code>
      */
     boolean getChangeAllOrNothingNull();
 
     /**
-     * <code>optional .dstore.values.stringValue country = 9;</code>
+     * <code>optional .dstore.values.stringValue country = 10;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 9;</code>
+     * <code>optional .dstore.values.stringValue country = 10;</code>
      */
     io.dstore.Values.stringValue getCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 9;</code>
+     * <code>optional .dstore.values.stringValue country = 10;</code>
      */
     io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
 
     /**
-     * <code>optional bool country_null = 1009;</code>
+     * <code>optional bool country_null = 1010;</code>
      */
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+     * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
      */
     boolean hasSeparatorInValueList();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+     * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
      */
     io.dstore.Values.stringValue getSeparatorInValueList();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+     * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
      */
     io.dstore.Values.stringValueOrBuilder getSeparatorInValueListOrBuilder();
 
     /**
-     * <code>optional bool separator_in_value_list_null = 1010;</code>
+     * <code>optional bool separator_in_value_list_null = 1011;</code>
      */
     boolean getSeparatorInValueListNull();
   }
@@ -207,6 +225,7 @@ public final class PmModifyPersonDataAd {
       personIdNull_ = false;
       characteristicIdListNull_ = false;
       valueListNull_ = false;
+      errorIdListNull_ = false;
       personCharacCategoryIdNull_ = false;
       deleteCharacCategoryIdNull_ = false;
       resultInErrorIdListNull_ = false;
@@ -280,6 +299,19 @@ public final class PmModifyPersonDataAd {
               break;
             }
             case 34: {
+              io.dstore.Values.stringValue.Builder subBuilder = null;
+              if (errorIdList_ != null) {
+                subBuilder = errorIdList_.toBuilder();
+              }
+              errorIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(errorIdList_);
+                errorIdList_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 42: {
               io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personCharacCategoryId_ != null) {
                 subBuilder = personCharacCategoryId_.toBuilder();
@@ -292,7 +324,7 @@ public final class PmModifyPersonDataAd {
 
               break;
             }
-            case 42: {
+            case 50: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deleteCharacCategoryId_ != null) {
                 subBuilder = deleteCharacCategoryId_.toBuilder();
@@ -305,7 +337,7 @@ public final class PmModifyPersonDataAd {
 
               break;
             }
-            case 50: {
+            case 58: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (resultInErrorIdList_ != null) {
                 subBuilder = resultInErrorIdList_.toBuilder();
@@ -318,7 +350,7 @@ public final class PmModifyPersonDataAd {
 
               break;
             }
-            case 58: {
+            case 66: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (valueIdsForPredefinedCharacs_ != null) {
                 subBuilder = valueIdsForPredefinedCharacs_.toBuilder();
@@ -331,7 +363,7 @@ public final class PmModifyPersonDataAd {
 
               break;
             }
-            case 66: {
+            case 74: {
               io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (changeAllOrNothing_ != null) {
                 subBuilder = changeAllOrNothing_.toBuilder();
@@ -344,7 +376,7 @@ public final class PmModifyPersonDataAd {
 
               break;
             }
-            case 74: {
+            case 82: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
@@ -357,7 +389,7 @@ public final class PmModifyPersonDataAd {
 
               break;
             }
-            case 82: {
+            case 90: {
               io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInValueList_ != null) {
                 subBuilder = separatorInValueList_.toBuilder();
@@ -387,35 +419,40 @@ public final class PmModifyPersonDataAd {
             }
             case 8032: {
 
-              personCharacCategoryIdNull_ = input.readBool();
+              errorIdListNull_ = input.readBool();
               break;
             }
             case 8040: {
 
-              deleteCharacCategoryIdNull_ = input.readBool();
+              personCharacCategoryIdNull_ = input.readBool();
               break;
             }
             case 8048: {
 
-              resultInErrorIdListNull_ = input.readBool();
+              deleteCharacCategoryIdNull_ = input.readBool();
               break;
             }
             case 8056: {
 
-              valueIdsForPredefinedCharacsNull_ = input.readBool();
+              resultInErrorIdListNull_ = input.readBool();
               break;
             }
             case 8064: {
 
-              changeAllOrNothingNull_ = input.readBool();
+              valueIdsForPredefinedCharacsNull_ = input.readBool();
               break;
             }
             case 8072: {
 
-              countryNull_ = input.readBool();
+              changeAllOrNothingNull_ = input.readBool();
               break;
             }
             case 8080: {
+
+              countryNull_ = input.readBool();
+              break;
+            }
+            case 8088: {
 
               separatorInValueListNull_ = input.readBool();
               break;
@@ -534,211 +571,241 @@ public final class PmModifyPersonDataAd {
       return valueListNull_;
     }
 
-    public static final int PERSON_CHARAC_CATEGORY_ID_FIELD_NUMBER = 4;
+    public static final int ERROR_ID_LIST_FIELD_NUMBER = 4;
+    private io.dstore.Values.stringValue errorIdList_;
+    /**
+     * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+     */
+    public boolean hasErrorIdList() {
+      return errorIdList_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+     */
+    public io.dstore.Values.stringValue getErrorIdList() {
+      return errorIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : errorIdList_;
+    }
+    /**
+     * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+     */
+    public io.dstore.Values.stringValueOrBuilder getErrorIdListOrBuilder() {
+      return getErrorIdList();
+    }
+
+    public static final int ERROR_ID_LIST_NULL_FIELD_NUMBER = 1004;
+    private boolean errorIdListNull_;
+    /**
+     * <code>optional bool error_id_list_null = 1004;</code>
+     */
+    public boolean getErrorIdListNull() {
+      return errorIdListNull_;
+    }
+
+    public static final int PERSON_CHARAC_CATEGORY_ID_FIELD_NUMBER = 5;
     private io.dstore.Values.integerValue personCharacCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
      */
     public boolean hasPersonCharacCategoryId() {
       return personCharacCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
      */
     public io.dstore.Values.integerValue getPersonCharacCategoryId() {
       return personCharacCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
      */
     public io.dstore.Values.integerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
       return getPersonCharacCategoryId();
     }
 
-    public static final int PERSON_CHARAC_CATEGORY_ID_NULL_FIELD_NUMBER = 1004;
+    public static final int PERSON_CHARAC_CATEGORY_ID_NULL_FIELD_NUMBER = 1005;
     private boolean personCharacCategoryIdNull_;
     /**
-     * <code>optional bool person_charac_category_id_null = 1004;</code>
+     * <code>optional bool person_charac_category_id_null = 1005;</code>
      */
     public boolean getPersonCharacCategoryIdNull() {
       return personCharacCategoryIdNull_;
     }
 
-    public static final int DELETE_CHARAC_CATEGORY_ID_FIELD_NUMBER = 5;
+    public static final int DELETE_CHARAC_CATEGORY_ID_FIELD_NUMBER = 6;
     private io.dstore.Values.booleanValue deleteCharacCategoryId_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
      */
     public boolean hasDeleteCharacCategoryId() {
       return deleteCharacCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
      */
     public io.dstore.Values.booleanValue getDeleteCharacCategoryId() {
       return deleteCharacCategoryId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteCharacCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getDeleteCharacCategoryIdOrBuilder() {
       return getDeleteCharacCategoryId();
     }
 
-    public static final int DELETE_CHARAC_CATEGORY_ID_NULL_FIELD_NUMBER = 1005;
+    public static final int DELETE_CHARAC_CATEGORY_ID_NULL_FIELD_NUMBER = 1006;
     private boolean deleteCharacCategoryIdNull_;
     /**
-     * <code>optional bool delete_charac_category_id_null = 1005;</code>
+     * <code>optional bool delete_charac_category_id_null = 1006;</code>
      */
     public boolean getDeleteCharacCategoryIdNull() {
       return deleteCharacCategoryIdNull_;
     }
 
-    public static final int RESULT_IN_ERROR_ID_LIST_FIELD_NUMBER = 6;
+    public static final int RESULT_IN_ERROR_ID_LIST_FIELD_NUMBER = 7;
     private io.dstore.Values.booleanValue resultInErrorIdList_;
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
      */
     public boolean hasResultInErrorIdList() {
       return resultInErrorIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
      */
     public io.dstore.Values.booleanValue getResultInErrorIdList() {
       return resultInErrorIdList_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : resultInErrorIdList_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getResultInErrorIdListOrBuilder() {
       return getResultInErrorIdList();
     }
 
-    public static final int RESULT_IN_ERROR_ID_LIST_NULL_FIELD_NUMBER = 1006;
+    public static final int RESULT_IN_ERROR_ID_LIST_NULL_FIELD_NUMBER = 1007;
     private boolean resultInErrorIdListNull_;
     /**
-     * <code>optional bool result_in_error_id_list_null = 1006;</code>
+     * <code>optional bool result_in_error_id_list_null = 1007;</code>
      */
     public boolean getResultInErrorIdListNull() {
       return resultInErrorIdListNull_;
     }
 
-    public static final int VALUE_IDS_FOR_PREDEFINED_CHARACS_FIELD_NUMBER = 7;
+    public static final int VALUE_IDS_FOR_PREDEFINED_CHARACS_FIELD_NUMBER = 8;
     private io.dstore.Values.booleanValue valueIdsForPredefinedCharacs_;
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
      */
     public boolean hasValueIdsForPredefinedCharacs() {
       return valueIdsForPredefinedCharacs_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
      */
     public io.dstore.Values.booleanValue getValueIdsForPredefinedCharacs() {
       return valueIdsForPredefinedCharacs_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : valueIdsForPredefinedCharacs_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getValueIdsForPredefinedCharacsOrBuilder() {
       return getValueIdsForPredefinedCharacs();
     }
 
-    public static final int VALUE_IDS_FOR_PREDEFINED_CHARACS_NULL_FIELD_NUMBER = 1007;
+    public static final int VALUE_IDS_FOR_PREDEFINED_CHARACS_NULL_FIELD_NUMBER = 1008;
     private boolean valueIdsForPredefinedCharacsNull_;
     /**
-     * <code>optional bool value_ids_for_predefined_characs_null = 1007;</code>
+     * <code>optional bool value_ids_for_predefined_characs_null = 1008;</code>
      */
     public boolean getValueIdsForPredefinedCharacsNull() {
       return valueIdsForPredefinedCharacsNull_;
     }
 
-    public static final int CHANGE_ALL_OR_NOTHING_FIELD_NUMBER = 8;
+    public static final int CHANGE_ALL_OR_NOTHING_FIELD_NUMBER = 9;
     private io.dstore.Values.booleanValue changeAllOrNothing_;
     /**
-     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
      */
     public boolean hasChangeAllOrNothing() {
       return changeAllOrNothing_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
      */
     public io.dstore.Values.booleanValue getChangeAllOrNothing() {
       return changeAllOrNothing_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : changeAllOrNothing_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
      */
     public io.dstore.Values.booleanValueOrBuilder getChangeAllOrNothingOrBuilder() {
       return getChangeAllOrNothing();
     }
 
-    public static final int CHANGE_ALL_OR_NOTHING_NULL_FIELD_NUMBER = 1008;
+    public static final int CHANGE_ALL_OR_NOTHING_NULL_FIELD_NUMBER = 1009;
     private boolean changeAllOrNothingNull_;
     /**
-     * <code>optional bool change_all_or_nothing_null = 1008;</code>
+     * <code>optional bool change_all_or_nothing_null = 1009;</code>
      */
     public boolean getChangeAllOrNothingNull() {
       return changeAllOrNothingNull_;
     }
 
-    public static final int COUNTRY_FIELD_NUMBER = 9;
+    public static final int COUNTRY_FIELD_NUMBER = 10;
     private io.dstore.Values.stringValue country_;
     /**
-     * <code>optional .dstore.values.stringValue country = 9;</code>
+     * <code>optional .dstore.values.stringValue country = 10;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 9;</code>
+     * <code>optional .dstore.values.stringValue country = 10;</code>
      */
     public io.dstore.Values.stringValue getCountry() {
       return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 9;</code>
+     * <code>optional .dstore.values.stringValue country = 10;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
-    public static final int COUNTRY_NULL_FIELD_NUMBER = 1009;
+    public static final int COUNTRY_NULL_FIELD_NUMBER = 1010;
     private boolean countryNull_;
     /**
-     * <code>optional bool country_null = 1009;</code>
+     * <code>optional bool country_null = 1010;</code>
      */
     public boolean getCountryNull() {
       return countryNull_;
     }
 
-    public static final int SEPARATOR_IN_VALUE_LIST_FIELD_NUMBER = 10;
+    public static final int SEPARATOR_IN_VALUE_LIST_FIELD_NUMBER = 11;
     private io.dstore.Values.stringValue separatorInValueList_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+     * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
      */
     public boolean hasSeparatorInValueList() {
       return separatorInValueList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+     * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
      */
     public io.dstore.Values.stringValue getSeparatorInValueList() {
       return separatorInValueList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInValueList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+     * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
      */
     public io.dstore.Values.stringValueOrBuilder getSeparatorInValueListOrBuilder() {
       return getSeparatorInValueList();
     }
 
-    public static final int SEPARATOR_IN_VALUE_LIST_NULL_FIELD_NUMBER = 1010;
+    public static final int SEPARATOR_IN_VALUE_LIST_NULL_FIELD_NUMBER = 1011;
     private boolean separatorInValueListNull_;
     /**
-     * <code>optional bool separator_in_value_list_null = 1010;</code>
+     * <code>optional bool separator_in_value_list_null = 1011;</code>
      */
     public boolean getSeparatorInValueListNull() {
       return separatorInValueListNull_;
@@ -765,26 +832,29 @@ public final class PmModifyPersonDataAd {
       if (valueList_ != null) {
         output.writeMessage(3, getValueList());
       }
+      if (errorIdList_ != null) {
+        output.writeMessage(4, getErrorIdList());
+      }
       if (personCharacCategoryId_ != null) {
-        output.writeMessage(4, getPersonCharacCategoryId());
+        output.writeMessage(5, getPersonCharacCategoryId());
       }
       if (deleteCharacCategoryId_ != null) {
-        output.writeMessage(5, getDeleteCharacCategoryId());
+        output.writeMessage(6, getDeleteCharacCategoryId());
       }
       if (resultInErrorIdList_ != null) {
-        output.writeMessage(6, getResultInErrorIdList());
+        output.writeMessage(7, getResultInErrorIdList());
       }
       if (valueIdsForPredefinedCharacs_ != null) {
-        output.writeMessage(7, getValueIdsForPredefinedCharacs());
+        output.writeMessage(8, getValueIdsForPredefinedCharacs());
       }
       if (changeAllOrNothing_ != null) {
-        output.writeMessage(8, getChangeAllOrNothing());
+        output.writeMessage(9, getChangeAllOrNothing());
       }
       if (country_ != null) {
-        output.writeMessage(9, getCountry());
+        output.writeMessage(10, getCountry());
       }
       if (separatorInValueList_ != null) {
-        output.writeMessage(10, getSeparatorInValueList());
+        output.writeMessage(11, getSeparatorInValueList());
       }
       if (personIdNull_ != false) {
         output.writeBool(1001, personIdNull_);
@@ -795,26 +865,29 @@ public final class PmModifyPersonDataAd {
       if (valueListNull_ != false) {
         output.writeBool(1003, valueListNull_);
       }
+      if (errorIdListNull_ != false) {
+        output.writeBool(1004, errorIdListNull_);
+      }
       if (personCharacCategoryIdNull_ != false) {
-        output.writeBool(1004, personCharacCategoryIdNull_);
+        output.writeBool(1005, personCharacCategoryIdNull_);
       }
       if (deleteCharacCategoryIdNull_ != false) {
-        output.writeBool(1005, deleteCharacCategoryIdNull_);
+        output.writeBool(1006, deleteCharacCategoryIdNull_);
       }
       if (resultInErrorIdListNull_ != false) {
-        output.writeBool(1006, resultInErrorIdListNull_);
+        output.writeBool(1007, resultInErrorIdListNull_);
       }
       if (valueIdsForPredefinedCharacsNull_ != false) {
-        output.writeBool(1007, valueIdsForPredefinedCharacsNull_);
+        output.writeBool(1008, valueIdsForPredefinedCharacsNull_);
       }
       if (changeAllOrNothingNull_ != false) {
-        output.writeBool(1008, changeAllOrNothingNull_);
+        output.writeBool(1009, changeAllOrNothingNull_);
       }
       if (countryNull_ != false) {
-        output.writeBool(1009, countryNull_);
+        output.writeBool(1010, countryNull_);
       }
       if (separatorInValueListNull_ != false) {
-        output.writeBool(1010, separatorInValueListNull_);
+        output.writeBool(1011, separatorInValueListNull_);
       }
     }
 
@@ -835,33 +908,37 @@ public final class PmModifyPersonDataAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, getValueList());
       }
+      if (errorIdList_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getErrorIdList());
+      }
       if (personCharacCategoryId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getPersonCharacCategoryId());
+          .computeMessageSize(5, getPersonCharacCategoryId());
       }
       if (deleteCharacCategoryId_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getDeleteCharacCategoryId());
+          .computeMessageSize(6, getDeleteCharacCategoryId());
       }
       if (resultInErrorIdList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getResultInErrorIdList());
+          .computeMessageSize(7, getResultInErrorIdList());
       }
       if (valueIdsForPredefinedCharacs_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getValueIdsForPredefinedCharacs());
+          .computeMessageSize(8, getValueIdsForPredefinedCharacs());
       }
       if (changeAllOrNothing_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getChangeAllOrNothing());
+          .computeMessageSize(9, getChangeAllOrNothing());
       }
       if (country_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getCountry());
+          .computeMessageSize(10, getCountry());
       }
       if (separatorInValueList_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getSeparatorInValueList());
+          .computeMessageSize(11, getSeparatorInValueList());
       }
       if (personIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -875,33 +952,37 @@ public final class PmModifyPersonDataAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, valueListNull_);
       }
+      if (errorIdListNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1004, errorIdListNull_);
+      }
       if (personCharacCategoryIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1004, personCharacCategoryIdNull_);
+          .computeBoolSize(1005, personCharacCategoryIdNull_);
       }
       if (deleteCharacCategoryIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1005, deleteCharacCategoryIdNull_);
+          .computeBoolSize(1006, deleteCharacCategoryIdNull_);
       }
       if (resultInErrorIdListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, resultInErrorIdListNull_);
+          .computeBoolSize(1007, resultInErrorIdListNull_);
       }
       if (valueIdsForPredefinedCharacsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1007, valueIdsForPredefinedCharacsNull_);
+          .computeBoolSize(1008, valueIdsForPredefinedCharacsNull_);
       }
       if (changeAllOrNothingNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1008, changeAllOrNothingNull_);
+          .computeBoolSize(1009, changeAllOrNothingNull_);
       }
       if (countryNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1009, countryNull_);
+          .computeBoolSize(1010, countryNull_);
       }
       if (separatorInValueListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1010, separatorInValueListNull_);
+          .computeBoolSize(1011, separatorInValueListNull_);
       }
       memoizedSize = size;
       return size;
@@ -1038,6 +1119,14 @@ public final class PmModifyPersonDataAd {
         }
         valueListNull_ = false;
 
+        if (errorIdListBuilder_ == null) {
+          errorIdList_ = null;
+        } else {
+          errorIdList_ = null;
+          errorIdListBuilder_ = null;
+        }
+        errorIdListNull_ = false;
+
         if (personCharacCategoryIdBuilder_ == null) {
           personCharacCategoryId_ = null;
         } else {
@@ -1134,6 +1223,12 @@ public final class PmModifyPersonDataAd {
           result.valueList_ = valueListBuilder_.build();
         }
         result.valueListNull_ = valueListNull_;
+        if (errorIdListBuilder_ == null) {
+          result.errorIdList_ = errorIdList_;
+        } else {
+          result.errorIdList_ = errorIdListBuilder_.build();
+        }
+        result.errorIdListNull_ = errorIdListNull_;
         if (personCharacCategoryIdBuilder_ == null) {
           result.personCharacCategoryId_ = personCharacCategoryId_;
         } else {
@@ -1208,6 +1303,12 @@ public final class PmModifyPersonDataAd {
         }
         if (other.getValueListNull() != false) {
           setValueListNull(other.getValueListNull());
+        }
+        if (other.hasErrorIdList()) {
+          mergeErrorIdList(other.getErrorIdList());
+        }
+        if (other.getErrorIdListNull() != false) {
+          setErrorIdListNull(other.getErrorIdListNull());
         }
         if (other.hasPersonCharacCategoryId()) {
           mergePersonCharacCategoryId(other.getPersonCharacCategoryId());
@@ -1706,17 +1807,160 @@ public final class PmModifyPersonDataAd {
         return this;
       }
 
+      private io.dstore.Values.stringValue errorIdList_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> errorIdListBuilder_;
+      /**
+       * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+       */
+      public boolean hasErrorIdList() {
+        return errorIdListBuilder_ != null || errorIdList_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+       */
+      public io.dstore.Values.stringValue getErrorIdList() {
+        if (errorIdListBuilder_ == null) {
+          return errorIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : errorIdList_;
+        } else {
+          return errorIdListBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+       */
+      public Builder setErrorIdList(io.dstore.Values.stringValue value) {
+        if (errorIdListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          errorIdList_ = value;
+          onChanged();
+        } else {
+          errorIdListBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+       */
+      public Builder setErrorIdList(
+          io.dstore.Values.stringValue.Builder builderForValue) {
+        if (errorIdListBuilder_ == null) {
+          errorIdList_ = builderForValue.build();
+          onChanged();
+        } else {
+          errorIdListBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+       */
+      public Builder mergeErrorIdList(io.dstore.Values.stringValue value) {
+        if (errorIdListBuilder_ == null) {
+          if (errorIdList_ != null) {
+            errorIdList_ =
+              io.dstore.Values.stringValue.newBuilder(errorIdList_).mergeFrom(value).buildPartial();
+          } else {
+            errorIdList_ = value;
+          }
+          onChanged();
+        } else {
+          errorIdListBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+       */
+      public Builder clearErrorIdList() {
+        if (errorIdListBuilder_ == null) {
+          errorIdList_ = null;
+          onChanged();
+        } else {
+          errorIdList_ = null;
+          errorIdListBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+       */
+      public io.dstore.Values.stringValue.Builder getErrorIdListBuilder() {
+        
+        onChanged();
+        return getErrorIdListFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+       */
+      public io.dstore.Values.stringValueOrBuilder getErrorIdListOrBuilder() {
+        if (errorIdListBuilder_ != null) {
+          return errorIdListBuilder_.getMessageOrBuilder();
+        } else {
+          return errorIdList_ == null ?
+              io.dstore.Values.stringValue.getDefaultInstance() : errorIdList_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          getErrorIdListFieldBuilder() {
+        if (errorIdListBuilder_ == null) {
+          errorIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                  getErrorIdList(),
+                  getParentForChildren(),
+                  isClean());
+          errorIdList_ = null;
+        }
+        return errorIdListBuilder_;
+      }
+
+      private boolean errorIdListNull_ ;
+      /**
+       * <code>optional bool error_id_list_null = 1004;</code>
+       */
+      public boolean getErrorIdListNull() {
+        return errorIdListNull_;
+      }
+      /**
+       * <code>optional bool error_id_list_null = 1004;</code>
+       */
+      public Builder setErrorIdListNull(boolean value) {
+        
+        errorIdListNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool error_id_list_null = 1004;</code>
+       */
+      public Builder clearErrorIdListNull() {
+        
+        errorIdListNull_ = false;
+        onChanged();
+        return this;
+      }
+
       private io.dstore.Values.integerValue personCharacCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
        */
       public boolean hasPersonCharacCategoryId() {
         return personCharacCategoryIdBuilder_ != null || personCharacCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
        */
       public io.dstore.Values.integerValue getPersonCharacCategoryId() {
         if (personCharacCategoryIdBuilder_ == null) {
@@ -1726,7 +1970,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
        */
       public Builder setPersonCharacCategoryId(io.dstore.Values.integerValue value) {
         if (personCharacCategoryIdBuilder_ == null) {
@@ -1742,7 +1986,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
        */
       public Builder setPersonCharacCategoryId(
           io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1756,7 +2000,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
        */
       public Builder mergePersonCharacCategoryId(io.dstore.Values.integerValue value) {
         if (personCharacCategoryIdBuilder_ == null) {
@@ -1774,7 +2018,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
        */
       public Builder clearPersonCharacCategoryId() {
         if (personCharacCategoryIdBuilder_ == null) {
@@ -1788,7 +2032,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
        */
       public io.dstore.Values.integerValue.Builder getPersonCharacCategoryIdBuilder() {
         
@@ -1796,7 +2040,7 @@ public final class PmModifyPersonDataAd {
         return getPersonCharacCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
         if (personCharacCategoryIdBuilder_ != null) {
@@ -1807,7 +2051,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 4;</code>
+       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1825,13 +2069,13 @@ public final class PmModifyPersonDataAd {
 
       private boolean personCharacCategoryIdNull_ ;
       /**
-       * <code>optional bool person_charac_category_id_null = 1004;</code>
+       * <code>optional bool person_charac_category_id_null = 1005;</code>
        */
       public boolean getPersonCharacCategoryIdNull() {
         return personCharacCategoryIdNull_;
       }
       /**
-       * <code>optional bool person_charac_category_id_null = 1004;</code>
+       * <code>optional bool person_charac_category_id_null = 1005;</code>
        */
       public Builder setPersonCharacCategoryIdNull(boolean value) {
         
@@ -1840,7 +2084,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional bool person_charac_category_id_null = 1004;</code>
+       * <code>optional bool person_charac_category_id_null = 1005;</code>
        */
       public Builder clearPersonCharacCategoryIdNull() {
         
@@ -1853,13 +2097,13 @@ public final class PmModifyPersonDataAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteCharacCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
        */
       public boolean hasDeleteCharacCategoryId() {
         return deleteCharacCategoryIdBuilder_ != null || deleteCharacCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
        */
       public io.dstore.Values.booleanValue getDeleteCharacCategoryId() {
         if (deleteCharacCategoryIdBuilder_ == null) {
@@ -1869,7 +2113,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
        */
       public Builder setDeleteCharacCategoryId(io.dstore.Values.booleanValue value) {
         if (deleteCharacCategoryIdBuilder_ == null) {
@@ -1885,7 +2129,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
        */
       public Builder setDeleteCharacCategoryId(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1899,7 +2143,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
        */
       public Builder mergeDeleteCharacCategoryId(io.dstore.Values.booleanValue value) {
         if (deleteCharacCategoryIdBuilder_ == null) {
@@ -1917,7 +2161,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
        */
       public Builder clearDeleteCharacCategoryId() {
         if (deleteCharacCategoryIdBuilder_ == null) {
@@ -1931,7 +2175,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
        */
       public io.dstore.Values.booleanValue.Builder getDeleteCharacCategoryIdBuilder() {
         
@@ -1939,7 +2183,7 @@ public final class PmModifyPersonDataAd {
         return getDeleteCharacCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDeleteCharacCategoryIdOrBuilder() {
         if (deleteCharacCategoryIdBuilder_ != null) {
@@ -1950,7 +2194,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1968,13 +2212,13 @@ public final class PmModifyPersonDataAd {
 
       private boolean deleteCharacCategoryIdNull_ ;
       /**
-       * <code>optional bool delete_charac_category_id_null = 1005;</code>
+       * <code>optional bool delete_charac_category_id_null = 1006;</code>
        */
       public boolean getDeleteCharacCategoryIdNull() {
         return deleteCharacCategoryIdNull_;
       }
       /**
-       * <code>optional bool delete_charac_category_id_null = 1005;</code>
+       * <code>optional bool delete_charac_category_id_null = 1006;</code>
        */
       public Builder setDeleteCharacCategoryIdNull(boolean value) {
         
@@ -1983,7 +2227,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional bool delete_charac_category_id_null = 1005;</code>
+       * <code>optional bool delete_charac_category_id_null = 1006;</code>
        */
       public Builder clearDeleteCharacCategoryIdNull() {
         
@@ -1996,13 +2240,13 @@ public final class PmModifyPersonDataAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> resultInErrorIdListBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
        */
       public boolean hasResultInErrorIdList() {
         return resultInErrorIdListBuilder_ != null || resultInErrorIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
        */
       public io.dstore.Values.booleanValue getResultInErrorIdList() {
         if (resultInErrorIdListBuilder_ == null) {
@@ -2012,7 +2256,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
        */
       public Builder setResultInErrorIdList(io.dstore.Values.booleanValue value) {
         if (resultInErrorIdListBuilder_ == null) {
@@ -2028,7 +2272,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
        */
       public Builder setResultInErrorIdList(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2042,7 +2286,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
        */
       public Builder mergeResultInErrorIdList(io.dstore.Values.booleanValue value) {
         if (resultInErrorIdListBuilder_ == null) {
@@ -2060,7 +2304,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
        */
       public Builder clearResultInErrorIdList() {
         if (resultInErrorIdListBuilder_ == null) {
@@ -2074,7 +2318,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
        */
       public io.dstore.Values.booleanValue.Builder getResultInErrorIdListBuilder() {
         
@@ -2082,7 +2326,7 @@ public final class PmModifyPersonDataAd {
         return getResultInErrorIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getResultInErrorIdListOrBuilder() {
         if (resultInErrorIdListBuilder_ != null) {
@@ -2093,7 +2337,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 6;</code>
+       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2111,13 +2355,13 @@ public final class PmModifyPersonDataAd {
 
       private boolean resultInErrorIdListNull_ ;
       /**
-       * <code>optional bool result_in_error_id_list_null = 1006;</code>
+       * <code>optional bool result_in_error_id_list_null = 1007;</code>
        */
       public boolean getResultInErrorIdListNull() {
         return resultInErrorIdListNull_;
       }
       /**
-       * <code>optional bool result_in_error_id_list_null = 1006;</code>
+       * <code>optional bool result_in_error_id_list_null = 1007;</code>
        */
       public Builder setResultInErrorIdListNull(boolean value) {
         
@@ -2126,7 +2370,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional bool result_in_error_id_list_null = 1006;</code>
+       * <code>optional bool result_in_error_id_list_null = 1007;</code>
        */
       public Builder clearResultInErrorIdListNull() {
         
@@ -2139,13 +2383,13 @@ public final class PmModifyPersonDataAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> valueIdsForPredefinedCharacsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
        */
       public boolean hasValueIdsForPredefinedCharacs() {
         return valueIdsForPredefinedCharacsBuilder_ != null || valueIdsForPredefinedCharacs_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
        */
       public io.dstore.Values.booleanValue getValueIdsForPredefinedCharacs() {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
@@ -2155,7 +2399,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
        */
       public Builder setValueIdsForPredefinedCharacs(io.dstore.Values.booleanValue value) {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
@@ -2171,7 +2415,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
        */
       public Builder setValueIdsForPredefinedCharacs(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2185,7 +2429,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
        */
       public Builder mergeValueIdsForPredefinedCharacs(io.dstore.Values.booleanValue value) {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
@@ -2203,7 +2447,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
        */
       public Builder clearValueIdsForPredefinedCharacs() {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
@@ -2217,7 +2461,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
        */
       public io.dstore.Values.booleanValue.Builder getValueIdsForPredefinedCharacsBuilder() {
         
@@ -2225,7 +2469,7 @@ public final class PmModifyPersonDataAd {
         return getValueIdsForPredefinedCharacsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getValueIdsForPredefinedCharacsOrBuilder() {
         if (valueIdsForPredefinedCharacsBuilder_ != null) {
@@ -2236,7 +2480,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 7;</code>
+       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2254,13 +2498,13 @@ public final class PmModifyPersonDataAd {
 
       private boolean valueIdsForPredefinedCharacsNull_ ;
       /**
-       * <code>optional bool value_ids_for_predefined_characs_null = 1007;</code>
+       * <code>optional bool value_ids_for_predefined_characs_null = 1008;</code>
        */
       public boolean getValueIdsForPredefinedCharacsNull() {
         return valueIdsForPredefinedCharacsNull_;
       }
       /**
-       * <code>optional bool value_ids_for_predefined_characs_null = 1007;</code>
+       * <code>optional bool value_ids_for_predefined_characs_null = 1008;</code>
        */
       public Builder setValueIdsForPredefinedCharacsNull(boolean value) {
         
@@ -2269,7 +2513,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional bool value_ids_for_predefined_characs_null = 1007;</code>
+       * <code>optional bool value_ids_for_predefined_characs_null = 1008;</code>
        */
       public Builder clearValueIdsForPredefinedCharacsNull() {
         
@@ -2282,13 +2526,13 @@ public final class PmModifyPersonDataAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> changeAllOrNothingBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
        */
       public boolean hasChangeAllOrNothing() {
         return changeAllOrNothingBuilder_ != null || changeAllOrNothing_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
        */
       public io.dstore.Values.booleanValue getChangeAllOrNothing() {
         if (changeAllOrNothingBuilder_ == null) {
@@ -2298,7 +2542,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
        */
       public Builder setChangeAllOrNothing(io.dstore.Values.booleanValue value) {
         if (changeAllOrNothingBuilder_ == null) {
@@ -2314,7 +2558,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
        */
       public Builder setChangeAllOrNothing(
           io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2328,7 +2572,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
        */
       public Builder mergeChangeAllOrNothing(io.dstore.Values.booleanValue value) {
         if (changeAllOrNothingBuilder_ == null) {
@@ -2346,7 +2590,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
        */
       public Builder clearChangeAllOrNothing() {
         if (changeAllOrNothingBuilder_ == null) {
@@ -2360,7 +2604,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
        */
       public io.dstore.Values.booleanValue.Builder getChangeAllOrNothingBuilder() {
         
@@ -2368,7 +2612,7 @@ public final class PmModifyPersonDataAd {
         return getChangeAllOrNothingFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getChangeAllOrNothingOrBuilder() {
         if (changeAllOrNothingBuilder_ != null) {
@@ -2379,7 +2623,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 8;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2397,13 +2641,13 @@ public final class PmModifyPersonDataAd {
 
       private boolean changeAllOrNothingNull_ ;
       /**
-       * <code>optional bool change_all_or_nothing_null = 1008;</code>
+       * <code>optional bool change_all_or_nothing_null = 1009;</code>
        */
       public boolean getChangeAllOrNothingNull() {
         return changeAllOrNothingNull_;
       }
       /**
-       * <code>optional bool change_all_or_nothing_null = 1008;</code>
+       * <code>optional bool change_all_or_nothing_null = 1009;</code>
        */
       public Builder setChangeAllOrNothingNull(boolean value) {
         
@@ -2412,7 +2656,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional bool change_all_or_nothing_null = 1008;</code>
+       * <code>optional bool change_all_or_nothing_null = 1009;</code>
        */
       public Builder clearChangeAllOrNothingNull() {
         
@@ -2425,13 +2669,13 @@ public final class PmModifyPersonDataAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue country = 9;</code>
+       * <code>optional .dstore.values.stringValue country = 10;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 9;</code>
+       * <code>optional .dstore.values.stringValue country = 10;</code>
        */
       public io.dstore.Values.stringValue getCountry() {
         if (countryBuilder_ == null) {
@@ -2441,7 +2685,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 9;</code>
+       * <code>optional .dstore.values.stringValue country = 10;</code>
        */
       public Builder setCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
@@ -2457,7 +2701,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 9;</code>
+       * <code>optional .dstore.values.stringValue country = 10;</code>
        */
       public Builder setCountry(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2471,7 +2715,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 9;</code>
+       * <code>optional .dstore.values.stringValue country = 10;</code>
        */
       public Builder mergeCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
@@ -2489,7 +2733,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 9;</code>
+       * <code>optional .dstore.values.stringValue country = 10;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -2503,7 +2747,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 9;</code>
+       * <code>optional .dstore.values.stringValue country = 10;</code>
        */
       public io.dstore.Values.stringValue.Builder getCountryBuilder() {
         
@@ -2511,7 +2755,7 @@ public final class PmModifyPersonDataAd {
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 9;</code>
+       * <code>optional .dstore.values.stringValue country = 10;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
@@ -2522,7 +2766,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 9;</code>
+       * <code>optional .dstore.values.stringValue country = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2540,13 +2784,13 @@ public final class PmModifyPersonDataAd {
 
       private boolean countryNull_ ;
       /**
-       * <code>optional bool country_null = 1009;</code>
+       * <code>optional bool country_null = 1010;</code>
        */
       public boolean getCountryNull() {
         return countryNull_;
       }
       /**
-       * <code>optional bool country_null = 1009;</code>
+       * <code>optional bool country_null = 1010;</code>
        */
       public Builder setCountryNull(boolean value) {
         
@@ -2555,7 +2799,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional bool country_null = 1009;</code>
+       * <code>optional bool country_null = 1010;</code>
        */
       public Builder clearCountryNull() {
         
@@ -2568,13 +2812,13 @@ public final class PmModifyPersonDataAd {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInValueListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+       * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
        */
       public boolean hasSeparatorInValueList() {
         return separatorInValueListBuilder_ != null || separatorInValueList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+       * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
        */
       public io.dstore.Values.stringValue getSeparatorInValueList() {
         if (separatorInValueListBuilder_ == null) {
@@ -2584,7 +2828,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+       * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
        */
       public Builder setSeparatorInValueList(io.dstore.Values.stringValue value) {
         if (separatorInValueListBuilder_ == null) {
@@ -2600,7 +2844,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+       * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
        */
       public Builder setSeparatorInValueList(
           io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2614,7 +2858,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+       * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
        */
       public Builder mergeSeparatorInValueList(io.dstore.Values.stringValue value) {
         if (separatorInValueListBuilder_ == null) {
@@ -2632,7 +2876,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+       * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
        */
       public Builder clearSeparatorInValueList() {
         if (separatorInValueListBuilder_ == null) {
@@ -2646,7 +2890,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+       * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
        */
       public io.dstore.Values.stringValue.Builder getSeparatorInValueListBuilder() {
         
@@ -2654,7 +2898,7 @@ public final class PmModifyPersonDataAd {
         return getSeparatorInValueListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+       * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSeparatorInValueListOrBuilder() {
         if (separatorInValueListBuilder_ != null) {
@@ -2665,7 +2909,7 @@ public final class PmModifyPersonDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_value_list = 10;</code>
+       * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2683,13 +2927,13 @@ public final class PmModifyPersonDataAd {
 
       private boolean separatorInValueListNull_ ;
       /**
-       * <code>optional bool separator_in_value_list_null = 1010;</code>
+       * <code>optional bool separator_in_value_list_null = 1011;</code>
        */
       public boolean getSeparatorInValueListNull() {
         return separatorInValueListNull_;
       }
       /**
-       * <code>optional bool separator_in_value_list_null = 1010;</code>
+       * <code>optional bool separator_in_value_list_null = 1011;</code>
        */
       public Builder setSeparatorInValueListNull(boolean value) {
         
@@ -2698,7 +2942,7 @@ public final class PmModifyPersonDataAd {
         return this;
       }
       /**
-       * <code>optional bool separator_in_value_list_null = 1010;</code>
+       * <code>optional bool separator_in_value_list_null = 1011;</code>
        */
       public Builder clearSeparatorInValueListNull() {
         
@@ -5429,31 +5673,33 @@ public final class PmModifyPersonDataAd {
       "PersonData_Ad\032\023dstore/values.proto\032\031dsto" +
       "re/engine/error.proto\032\033dstore/engine/mes" +
       "sage.proto\032#dstore/engine/metainformatio" +
-      "n.proto\"\270\007\n\nParameters\022.\n\tperson_id\030\001 \001(" +
+      "n.proto\"\210\010\n\nParameters\022.\n\tperson_id\030\001 \001(" +
       "\0132\033.dstore.values.integerValue\022\027\n\016person" +
       "_id_null\030\351\007 \001(\010\022:\n\026characteristic_id_lis" +
       "t\030\002 \001(\0132\032.dstore.values.stringValue\022$\n\033c" +
       "haracteristic_id_list_null\030\352\007 \001(\010\022.\n\nval",
       "ue_list\030\003 \001(\0132\032.dstore.values.stringValu" +
-      "e\022\030\n\017value_list_null\030\353\007 \001(\010\022>\n\031person_ch" +
-      "arac_category_id\030\004 \001(\0132\033.dstore.values.i" +
+      "e\022\030\n\017value_list_null\030\353\007 \001(\010\0221\n\rerror_id_" +
+      "list\030\004 \001(\0132\032.dstore.values.stringValue\022\033" +
+      "\n\022error_id_list_null\030\354\007 \001(\010\022>\n\031person_ch" +
+      "arac_category_id\030\005 \001(\0132\033.dstore.values.i" +
       "ntegerValue\022\'\n\036person_charac_category_id" +
-      "_null\030\354\007 \001(\010\022>\n\031delete_charac_category_i" +
-      "d\030\005 \001(\0132\033.dstore.values.booleanValue\022\'\n\036" +
-      "delete_charac_category_id_null\030\355\007 \001(\010\022<\n" +
-      "\027result_in_error_id_list\030\006 \001(\0132\033.dstore." +
+      "_null\030\355\007 \001(\010\022>\n\031delete_charac_category_i" +
+      "d\030\006 \001(\0132\033.dstore.values.booleanValue\022\'\n\036" +
+      "delete_charac_category_id_null\030\356\007 \001(\010\022<\n" +
+      "\027result_in_error_id_list\030\007 \001(\0132\033.dstore.",
       "values.booleanValue\022%\n\034result_in_error_i" +
-      "d_list_null\030\356\007 \001(\010\022E\n value_ids_for_pred",
-      "efined_characs\030\007 \001(\0132\033.dstore.values.boo" +
+      "d_list_null\030\357\007 \001(\010\022E\n value_ids_for_pred" +
+      "efined_characs\030\010 \001(\0132\033.dstore.values.boo" +
       "leanValue\022.\n%value_ids_for_predefined_ch" +
-      "aracs_null\030\357\007 \001(\010\022:\n\025change_all_or_nothi" +
-      "ng\030\010 \001(\0132\033.dstore.values.booleanValue\022#\n" +
-      "\032change_all_or_nothing_null\030\360\007 \001(\010\022+\n\007co" +
-      "untry\030\t \001(\0132\032.dstore.values.stringValue\022" +
-      "\025\n\014country_null\030\361\007 \001(\010\022;\n\027separator_in_v" +
-      "alue_list\030\n \001(\0132\032.dstore.values.stringVa" +
-      "lue\022%\n\034separator_in_value_list_null\030\362\007 \001" +
-      "(\010\"\260\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.",
+      "aracs_null\030\360\007 \001(\010\022:\n\025change_all_or_nothi" +
+      "ng\030\t \001(\0132\033.dstore.values.booleanValue\022#\n" +
+      "\032change_all_or_nothing_null\030\361\007 \001(\010\022+\n\007co" +
+      "untry\030\n \001(\0132\032.dstore.values.stringValue\022" +
+      "\025\n\014country_null\030\362\007 \001(\010\022;\n\027separator_in_v" +
+      "alue_list\030\013 \001(\0132\032.dstore.values.stringVa",
+      "lue\022%\n\034separator_in_value_list_null\030\363\007 \001" +
+      "(\010\"\260\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
       "engine.error.Error\022H\n\020meta_information\030\002" +
       " \003(\0132..dstore.engine.metainformation.Met" +
       "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
@@ -5461,10 +5707,12 @@ public final class PmModifyPersonDataAd {
       "ore.engine.pm_ModifyPersonData_Ad.Respon" +
       "se.Row\0221\n\rerror_id_list\030e \001(\0132\032.dstore.v" +
       "alues.stringValue\032\211\001\n\003Row\022\017\n\006row_id\030\220N \001" +
-      "(\005\022>\n\030person_characteristic_id\030\221N \001(\0132\033." +
+      "(\005\022>\n\030person_characteristic_id\030\221N \001(\0132\033.",
       "dstore.values.integerValue\0221\n\013result_cod" +
-      "e\030\222N \001(\0132\033.dstore.values.integerValueB\035\n",
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "e\030\222N \001(\0132\033.dstore.values.integerValueBW\n" +
+      "\033io.dstore.engine.proceduresZ8gosdk.dsto" +
+      "re.de/engine/procedures/pm_ModifyPersonD" +
+      "ata_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5487,7 +5735,7 @@ public final class PmModifyPersonDataAd {
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_descriptor,
-        new java.lang.String[] { "PersonId", "PersonIdNull", "CharacteristicIdList", "CharacteristicIdListNull", "ValueList", "ValueListNull", "PersonCharacCategoryId", "PersonCharacCategoryIdNull", "DeleteCharacCategoryId", "DeleteCharacCategoryIdNull", "ResultInErrorIdList", "ResultInErrorIdListNull", "ValueIdsForPredefinedCharacs", "ValueIdsForPredefinedCharacsNull", "ChangeAllOrNothing", "ChangeAllOrNothingNull", "Country", "CountryNull", "SeparatorInValueList", "SeparatorInValueListNull", });
+        new java.lang.String[] { "PersonId", "PersonIdNull", "CharacteristicIdList", "CharacteristicIdListNull", "ValueList", "ValueListNull", "ErrorIdList", "ErrorIdListNull", "PersonCharacCategoryId", "PersonCharacCategoryIdNull", "DeleteCharacCategoryId", "DeleteCharacCategoryIdNull", "ResultInErrorIdList", "ResultInErrorIdListNull", "ValueIdsForPredefinedCharacs", "ValueIdsForPredefinedCharacsNull", "ChangeAllOrNothing", "ChangeAllOrNothingNull", "Country", "CountryNull", "SeparatorInValueList", "SeparatorInValueListNull", });
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_fieldAccessorTable = new

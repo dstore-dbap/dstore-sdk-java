@@ -4401,8 +4401,10 @@ public final class ImGetLevelsPu {
       "ault_template_id\030\223N \001(\0132\033.dstore.values." +
       "integerValue\0227\n\021default_symbol_id\030\224N \001(\013" +
       "2\033.dstore.values.integerValue\022.\n\010level_i" +
-      "d\030\225N \001(\0132\033.dstore.values.integerValueB\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "d\030\225N \001(\0132\033.dstore.values.integerValueBP\n" +
+      "\033io.dstore.engine.proceduresZ1gosdk.dsto" +
+      "re.de/engine/procedures/im_GetLevels_Pub" +
+      "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

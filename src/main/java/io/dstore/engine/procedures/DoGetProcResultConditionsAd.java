@@ -4158,8 +4158,10 @@ public final class DoGetProcResultConditionsAd {
       "ition_id\030\223N \001(\0132\033.dstore.values.integerV" +
       "alue\0223\n\016procedure_name\030\224N \001(\0132\032.dstore.v" +
       "alues.stringValue\0223\n\016parameter_name\030\225N \001" +
-      "(\0132\032.dstore.values.stringValueB\035\n\033io.dst" +
-      "ore.engine.proceduresb\006proto3"
+      "(\0132\032.dstore.values.stringValueB^\n\033io.dst" +
+      "ore.engine.proceduresZ?gosdk.dstore.de/e" +
+      "ngine/procedures/do_GetProcResultConditi" +
+      "ons_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

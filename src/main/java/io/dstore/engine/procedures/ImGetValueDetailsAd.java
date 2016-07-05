@@ -4156,8 +4156,9 @@ public final class ImGetValueDetailsAd {
       "\0132\033.dstore.values.integerValue\022*\n\005value\030" +
       "\223N \001(\0132\032.dstore.values.stringValue\022.\n\010va" +
       "lue_id\030\224N \001(\0132\033.dstore.values.integerVal" +
-      "ueB\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "ueBV\n\033io.dstore.engine.proceduresZ7gosdk" +
+      ".dstore.de/engine/procedures/im_GetValue" +
+      "Details_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

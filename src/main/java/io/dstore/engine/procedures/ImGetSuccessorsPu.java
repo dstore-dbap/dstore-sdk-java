@@ -281,6 +281,24 @@ public final class ImGetSuccessorsPu {
      * <code>optional bool max_number_of_nodes_null = 1015;</code>
      */
     boolean getMaxNumberOfNodesNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    boolean hasCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    io.dstore.Values.integerValue getCount();
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getCountOrBuilder();
+
+    /**
+     * <code>optional bool count_null = 1016;</code>
+     */
+    boolean getCountNull();
   }
   /**
    * Protobuf type {@code dstore.engine.im_GetSuccessors_Pu.Parameters}
@@ -309,6 +327,7 @@ public final class ImGetSuccessorsPu {
       getValuesForSortByCharacsNull_ = false;
       fromRowNumberNull_ = false;
       maxNumberOfNodesNull_ = false;
+      countNull_ = false;
     }
 
     @java.lang.Override
@@ -530,6 +549,19 @@ public final class ImGetSuccessorsPu {
 
               break;
             }
+            case 130: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (count_ != null) {
+                subBuilder = count_.toBuilder();
+              }
+              count_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(count_);
+                count_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               treeNodeListNull_ = input.readBool();
@@ -603,6 +635,11 @@ public final class ImGetSuccessorsPu {
             case 8120: {
 
               maxNumberOfNodesNull_ = input.readBool();
+              break;
+            }
+            case 8128: {
+
+              countNull_ = input.readBool();
               break;
             }
           }
@@ -1079,6 +1116,36 @@ public final class ImGetSuccessorsPu {
       return maxNumberOfNodesNull_;
     }
 
+    public static final int COUNT_FIELD_NUMBER = 16;
+    private io.dstore.Values.integerValue count_;
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    public boolean hasCount() {
+      return count_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    public io.dstore.Values.integerValue getCount() {
+      return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue count = 16;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+      return getCount();
+    }
+
+    public static final int COUNT_NULL_FIELD_NUMBER = 1016;
+    private boolean countNull_;
+    /**
+     * <code>optional bool count_null = 1016;</code>
+     */
+    public boolean getCountNull() {
+      return countNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -1136,6 +1203,9 @@ public final class ImGetSuccessorsPu {
       if (maxNumberOfNodes_ != null) {
         output.writeMessage(15, getMaxNumberOfNodes());
       }
+      if (count_ != null) {
+        output.writeMessage(16, getCount());
+      }
       if (treeNodeListNull_ != false) {
         output.writeBool(1001, treeNodeListNull_);
       }
@@ -1180,6 +1250,9 @@ public final class ImGetSuccessorsPu {
       }
       if (maxNumberOfNodesNull_ != false) {
         output.writeBool(1015, maxNumberOfNodesNull_);
+      }
+      if (countNull_ != false) {
+        output.writeBool(1016, countNull_);
       }
     }
 
@@ -1248,6 +1321,10 @@ public final class ImGetSuccessorsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(15, getMaxNumberOfNodes());
       }
+      if (count_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(16, getCount());
+      }
       if (treeNodeListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, treeNodeListNull_);
@@ -1307,6 +1384,10 @@ public final class ImGetSuccessorsPu {
       if (maxNumberOfNodesNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1015, maxNumberOfNodesNull_);
+      }
+      if (countNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1016, countNull_);
       }
       memoizedSize = size;
       return size;
@@ -1539,6 +1620,14 @@ public final class ImGetSuccessorsPu {
         }
         maxNumberOfNodesNull_ = false;
 
+        if (countBuilder_ == null) {
+          count_ = null;
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+        countNull_ = false;
+
         return this;
       }
 
@@ -1651,6 +1740,12 @@ public final class ImGetSuccessorsPu {
           result.maxNumberOfNodes_ = maxNumberOfNodesBuilder_.build();
         }
         result.maxNumberOfNodesNull_ = maxNumberOfNodesNull_;
+        if (countBuilder_ == null) {
+          result.count_ = count_;
+        } else {
+          result.count_ = countBuilder_.build();
+        }
+        result.countNull_ = countNull_;
         onBuilt();
         return result;
       }
@@ -1755,6 +1850,12 @@ public final class ImGetSuccessorsPu {
         }
         if (other.getMaxNumberOfNodesNull() != false) {
           setMaxNumberOfNodesNull(other.getMaxNumberOfNodesNull());
+        }
+        if (other.hasCount()) {
+          mergeCount(other.getCount());
+        }
+        if (other.getCountNull() != false) {
+          setCountNull(other.getCountNull());
         }
         onChanged();
         return this;
@@ -3923,6 +4024,149 @@ public final class ImGetSuccessorsPu {
       public Builder clearMaxNumberOfNodesNull() {
         
         maxNumberOfNodesNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue count_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public boolean hasCount() {
+        return countBuilder_ != null || count_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public io.dstore.Values.integerValue getCount() {
+        if (countBuilder_ == null) {
+          return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        } else {
+          return countBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public Builder setCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          count_ = value;
+          onChanged();
+        } else {
+          countBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public Builder setCount(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (countBuilder_ == null) {
+          count_ = builderForValue.build();
+          onChanged();
+        } else {
+          countBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public Builder mergeCount(io.dstore.Values.integerValue value) {
+        if (countBuilder_ == null) {
+          if (count_ != null) {
+            count_ =
+              io.dstore.Values.integerValue.newBuilder(count_).mergeFrom(value).buildPartial();
+          } else {
+            count_ = value;
+          }
+          onChanged();
+        } else {
+          countBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public Builder clearCount() {
+        if (countBuilder_ == null) {
+          count_ = null;
+          onChanged();
+        } else {
+          count_ = null;
+          countBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getCountBuilder() {
+        
+        onChanged();
+        return getCountFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
+        if (countBuilder_ != null) {
+          return countBuilder_.getMessageOrBuilder();
+        } else {
+          return count_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : count_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue count = 16;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getCountFieldBuilder() {
+        if (countBuilder_ == null) {
+          countBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getCount(),
+                  getParentForChildren(),
+                  isClean());
+          count_ = null;
+        }
+        return countBuilder_;
+      }
+
+      private boolean countNull_ ;
+      /**
+       * <code>optional bool count_null = 1016;</code>
+       */
+      public boolean getCountNull() {
+        return countNull_;
+      }
+      /**
+       * <code>optional bool count_null = 1016;</code>
+       */
+      public Builder setCountNull(boolean value) {
+        
+        countNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool count_null = 1016;</code>
+       */
+      public Builder clearCountNull() {
+        
+        countNull_ = false;
         onChanged();
         return this;
       }
@@ -8119,7 +8363,7 @@ public final class ImGetSuccessorsPu {
       "sors_Pu\032\023dstore/values.proto\032\031dstore/eng" +
       "ine/error.proto\032\033dstore/engine/message.p" +
       "roto\032#dstore/engine/metainformation.prot" +
-      "o\"\325\013\n\nParameters\0222\n\016tree_node_list\030\001 \001(\013" +
+      "o\"\226\014\n\nParameters\0222\n\016tree_node_list\030\001 \001(\013" +
       "2\032.dstore.values.stringValue\022\034\n\023tree_nod" +
       "e_list_null\030\351\007 \001(\010\022-\n\010level_no\030\002 \001(\0132\033.d" +
       "store.values.integerValue\022\026\n\rlevel_no_nu" +
@@ -8156,25 +8400,28 @@ public final class ImGetSuccessorsPu {
       ".integerValue\022\035\n\024from_row_number_null\030\366\007",
       " \001(\010\0228\n\023max_number_of_nodes\030\017 \001(\0132\033.dsto" +
       "re.values.integerValue\022!\n\030max_number_of_" +
-      "nodes_null\030\367\007 \001(\010\"\275\005\n\010Response\022)\n\005error\030" +
-      "\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020met" +
-      "a_information\030\002 \003(\0132..dstore.engine.meta" +
-      "information.MetaInformation\022/\n\007message\030\003" +
-      " \003(\0132\036.dstore.engine.message.Message\022<\n\003" +
-      "row\030\004 \003(\0132/.dstore.engine.im_GetSuccesso" +
-      "rs_Pu.Response.Row\022*\n\005count\030e \001(\0132\033.dsto" +
-      "re.values.integerValue\032\240\003\n\003Row\022\017\n\006row_id",
-      "\030\220N \001(\005\0221\n\013predecessor\030\221N \001(\0132\033.dstore.v" +
-      "alues.integerValue\0225\n\020node_description\030\222" +
-      "N \001(\0132\032.dstore.values.stringValue\022+\n\006val" +
-      "ue2\030\223N \001(\0132\032.dstore.values.stringValue\022+" +
-      "\n\006value3\030\224N \001(\0132\032.dstore.values.stringVa" +
-      "lue\022+\n\006value1\030\225N \001(\0132\032.dstore.values.str" +
-      "ingValue\0224\n\016binary_code_id\030\226N \001(\0132\033.dsto" +
-      "re.values.integerValue\0222\n\014tree_node_id\030\227" +
-      "N \001(\0132\033.dstore.values.integerValue\022-\n\007no" +
-      "de_id\030\230N \001(\0132\033.dstore.values.integerValu",
-      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "nodes_null\030\367\007 \001(\010\022*\n\005count\030\020 \001(\0132\033.dstor" +
+      "e.values.integerValue\022\023\n\ncount_null\030\370\007 \001" +
+      "(\010\"\275\005\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
+      "engine.error.Error\022H\n\020meta_information\030\002" +
+      " \003(\0132..dstore.engine.metainformation.Met" +
+      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
+      "ngine.message.Message\022<\n\003row\030\004 \003(\0132/.dst" +
+      "ore.engine.im_GetSuccessors_Pu.Response.",
+      "Row\022*\n\005count\030e \001(\0132\033.dstore.values.integ" +
+      "erValue\032\240\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0221\n\013pred" +
+      "ecessor\030\221N \001(\0132\033.dstore.values.integerVa" +
+      "lue\0225\n\020node_description\030\222N \001(\0132\032.dstore." +
+      "values.stringValue\022+\n\006value2\030\223N \001(\0132\032.ds" +
+      "tore.values.stringValue\022+\n\006value3\030\224N \001(\013" +
+      "2\032.dstore.values.stringValue\022+\n\006value1\030\225" +
+      "N \001(\0132\032.dstore.values.stringValue\0224\n\016bin" +
+      "ary_code_id\030\226N \001(\0132\033.dstore.values.integ" +
+      "erValue\0222\n\014tree_node_id\030\227N \001(\0132\033.dstore.",
+      "values.integerValue\022-\n\007node_id\030\230N \001(\0132\033." +
+      "dstore.values.integerValueBT\n\033io.dstore." +
+      "engine.proceduresZ5gosdk.dstore.de/engin" +
+      "e/procedures/im_GetSuccessors_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8197,7 +8444,7 @@ public final class ImGetSuccessorsPu {
     internal_static_dstore_engine_im_GetSuccessors_Pu_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GetSuccessors_Pu_Parameters_descriptor,
-        new java.lang.String[] { "TreeNodeList", "TreeNodeListNull", "LevelNo", "LevelNoNull", "IncludeTreeNodeList", "IncludeTreeNodeListNull", "OutputIntoOneId", "OutputIntoOneIdNull", "FilterByCharacteristicId", "FilterByCharacteristicIdNull", "FilterByCharacValue", "FilterByCharacValueNull", "BinaryCharacteristicValueId", "BinaryCharacteristicValueIdNull", "NegateFilterByParams", "NegateFilterByParamsNull", "SortByCharacteristicIdList", "SortByCharacteristicIdListNull", "SortOptionList", "SortOptionListNull", "InheritDepthOptionList", "InheritDepthOptionListNull", "RecursiveEvaluationOptionList", "RecursiveEvaluationOptionListNull", "GetValuesForSortByCharacs", "GetValuesForSortByCharacsNull", "FromRowNumber", "FromRowNumberNull", "MaxNumberOfNodes", "MaxNumberOfNodesNull", });
+        new java.lang.String[] { "TreeNodeList", "TreeNodeListNull", "LevelNo", "LevelNoNull", "IncludeTreeNodeList", "IncludeTreeNodeListNull", "OutputIntoOneId", "OutputIntoOneIdNull", "FilterByCharacteristicId", "FilterByCharacteristicIdNull", "FilterByCharacValue", "FilterByCharacValueNull", "BinaryCharacteristicValueId", "BinaryCharacteristicValueIdNull", "NegateFilterByParams", "NegateFilterByParamsNull", "SortByCharacteristicIdList", "SortByCharacteristicIdListNull", "SortOptionList", "SortOptionListNull", "InheritDepthOptionList", "InheritDepthOptionListNull", "RecursiveEvaluationOptionList", "RecursiveEvaluationOptionListNull", "GetValuesForSortByCharacs", "GetValuesForSortByCharacsNull", "FromRowNumber", "FromRowNumberNull", "MaxNumberOfNodes", "MaxNumberOfNodesNull", "Count", "CountNull", });
     internal_static_dstore_engine_im_GetSuccessors_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_GetSuccessors_Pu_Response_fieldAccessorTable = new

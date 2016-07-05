@@ -83,6 +83,24 @@ public final class MiGetUsageOfTablesAd {
      * <code>optional bool get_distinct_object_names_only_null = 1004;</code>
      */
     boolean getGetDistinctObjectNamesOnlyNull();
+
+    /**
+     * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+     */
+    boolean hasNumberOfResults();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+     */
+    io.dstore.Values.integerValue getNumberOfResults();
+    /**
+     * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+     */
+    io.dstore.Values.integerValueOrBuilder getNumberOfResultsOrBuilder();
+
+    /**
+     * <code>optional bool number_of_results_null = 1005;</code>
+     */
+    boolean getNumberOfResultsNull();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_GetUsageOfTables_Ad.Parameters}
@@ -100,6 +118,7 @@ public final class MiGetUsageOfTablesAd {
       separatorInTablesListNull_ = false;
       searchOnlyObjectTypeNull_ = false;
       getDistinctObjectNamesOnlyNull_ = false;
+      numberOfResultsNull_ = false;
     }
 
     @java.lang.Override
@@ -178,6 +197,19 @@ public final class MiGetUsageOfTablesAd {
 
               break;
             }
+            case 42: {
+              io.dstore.Values.integerValue.Builder subBuilder = null;
+              if (numberOfResults_ != null) {
+                subBuilder = numberOfResults_.toBuilder();
+              }
+              numberOfResults_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(numberOfResults_);
+                numberOfResults_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               tablesListNull_ = input.readBool();
@@ -196,6 +228,11 @@ public final class MiGetUsageOfTablesAd {
             case 8032: {
 
               getDistinctObjectNamesOnlyNull_ = input.readBool();
+              break;
+            }
+            case 8040: {
+
+              numberOfResultsNull_ = input.readBool();
               break;
             }
           }
@@ -342,6 +379,36 @@ public final class MiGetUsageOfTablesAd {
       return getDistinctObjectNamesOnlyNull_;
     }
 
+    public static final int NUMBER_OF_RESULTS_FIELD_NUMBER = 5;
+    private io.dstore.Values.integerValue numberOfResults_;
+    /**
+     * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+     */
+    public boolean hasNumberOfResults() {
+      return numberOfResults_ != null;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+     */
+    public io.dstore.Values.integerValue getNumberOfResults() {
+      return numberOfResults_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfResults_;
+    }
+    /**
+     * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+     */
+    public io.dstore.Values.integerValueOrBuilder getNumberOfResultsOrBuilder() {
+      return getNumberOfResults();
+    }
+
+    public static final int NUMBER_OF_RESULTS_NULL_FIELD_NUMBER = 1005;
+    private boolean numberOfResultsNull_;
+    /**
+     * <code>optional bool number_of_results_null = 1005;</code>
+     */
+    public boolean getNumberOfResultsNull() {
+      return numberOfResultsNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -366,6 +433,9 @@ public final class MiGetUsageOfTablesAd {
       if (getDistinctObjectNamesOnly_ != null) {
         output.writeMessage(4, getGetDistinctObjectNamesOnly());
       }
+      if (numberOfResults_ != null) {
+        output.writeMessage(5, getNumberOfResults());
+      }
       if (tablesListNull_ != false) {
         output.writeBool(1001, tablesListNull_);
       }
@@ -377,6 +447,9 @@ public final class MiGetUsageOfTablesAd {
       }
       if (getDistinctObjectNamesOnlyNull_ != false) {
         output.writeBool(1004, getDistinctObjectNamesOnlyNull_);
+      }
+      if (numberOfResultsNull_ != false) {
+        output.writeBool(1005, numberOfResultsNull_);
       }
     }
 
@@ -401,6 +474,10 @@ public final class MiGetUsageOfTablesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, getGetDistinctObjectNamesOnly());
       }
+      if (numberOfResults_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(5, getNumberOfResults());
+      }
       if (tablesListNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, tablesListNull_);
@@ -416,6 +493,10 @@ public final class MiGetUsageOfTablesAd {
       if (getDistinctObjectNamesOnlyNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, getDistinctObjectNamesOnlyNull_);
+      }
+      if (numberOfResultsNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1005, numberOfResultsNull_);
       }
       memoizedSize = size;
       return size;
@@ -560,6 +641,14 @@ public final class MiGetUsageOfTablesAd {
         }
         getDistinctObjectNamesOnlyNull_ = false;
 
+        if (numberOfResultsBuilder_ == null) {
+          numberOfResults_ = null;
+        } else {
+          numberOfResults_ = null;
+          numberOfResultsBuilder_ = null;
+        }
+        numberOfResultsNull_ = false;
+
         return this;
       }
 
@@ -606,6 +695,12 @@ public final class MiGetUsageOfTablesAd {
           result.getDistinctObjectNamesOnly_ = getDistinctObjectNamesOnlyBuilder_.build();
         }
         result.getDistinctObjectNamesOnlyNull_ = getDistinctObjectNamesOnlyNull_;
+        if (numberOfResultsBuilder_ == null) {
+          result.numberOfResults_ = numberOfResults_;
+        } else {
+          result.numberOfResults_ = numberOfResultsBuilder_.build();
+        }
+        result.numberOfResultsNull_ = numberOfResultsNull_;
         onBuilt();
         return result;
       }
@@ -644,6 +739,12 @@ public final class MiGetUsageOfTablesAd {
         }
         if (other.getGetDistinctObjectNamesOnlyNull() != false) {
           setGetDistinctObjectNamesOnlyNull(other.getGetDistinctObjectNamesOnlyNull());
+        }
+        if (other.hasNumberOfResults()) {
+          mergeNumberOfResults(other.getNumberOfResults());
+        }
+        if (other.getNumberOfResultsNull() != false) {
+          setNumberOfResultsNull(other.getNumberOfResultsNull());
         }
         onChanged();
         return this;
@@ -1239,6 +1340,149 @@ public final class MiGetUsageOfTablesAd {
       public Builder clearGetDistinctObjectNamesOnlyNull() {
         
         getDistinctObjectNamesOnlyNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.Values.integerValue numberOfResults_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfResultsBuilder_;
+      /**
+       * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+       */
+      public boolean hasNumberOfResults() {
+        return numberOfResultsBuilder_ != null || numberOfResults_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+       */
+      public io.dstore.Values.integerValue getNumberOfResults() {
+        if (numberOfResultsBuilder_ == null) {
+          return numberOfResults_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfResults_;
+        } else {
+          return numberOfResultsBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+       */
+      public Builder setNumberOfResults(io.dstore.Values.integerValue value) {
+        if (numberOfResultsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          numberOfResults_ = value;
+          onChanged();
+        } else {
+          numberOfResultsBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+       */
+      public Builder setNumberOfResults(
+          io.dstore.Values.integerValue.Builder builderForValue) {
+        if (numberOfResultsBuilder_ == null) {
+          numberOfResults_ = builderForValue.build();
+          onChanged();
+        } else {
+          numberOfResultsBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+       */
+      public Builder mergeNumberOfResults(io.dstore.Values.integerValue value) {
+        if (numberOfResultsBuilder_ == null) {
+          if (numberOfResults_ != null) {
+            numberOfResults_ =
+              io.dstore.Values.integerValue.newBuilder(numberOfResults_).mergeFrom(value).buildPartial();
+          } else {
+            numberOfResults_ = value;
+          }
+          onChanged();
+        } else {
+          numberOfResultsBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+       */
+      public Builder clearNumberOfResults() {
+        if (numberOfResultsBuilder_ == null) {
+          numberOfResults_ = null;
+          onChanged();
+        } else {
+          numberOfResults_ = null;
+          numberOfResultsBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+       */
+      public io.dstore.Values.integerValue.Builder getNumberOfResultsBuilder() {
+        
+        onChanged();
+        return getNumberOfResultsFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+       */
+      public io.dstore.Values.integerValueOrBuilder getNumberOfResultsOrBuilder() {
+        if (numberOfResultsBuilder_ != null) {
+          return numberOfResultsBuilder_.getMessageOrBuilder();
+        } else {
+          return numberOfResults_ == null ?
+              io.dstore.Values.integerValue.getDefaultInstance() : numberOfResults_;
+        }
+      }
+      /**
+       * <code>optional .dstore.values.integerValue number_of_results = 5;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          getNumberOfResultsFieldBuilder() {
+        if (numberOfResultsBuilder_ == null) {
+          numberOfResultsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                  getNumberOfResults(),
+                  getParentForChildren(),
+                  isClean());
+          numberOfResults_ = null;
+        }
+        return numberOfResultsBuilder_;
+      }
+
+      private boolean numberOfResultsNull_ ;
+      /**
+       * <code>optional bool number_of_results_null = 1005;</code>
+       */
+      public boolean getNumberOfResultsNull() {
+        return numberOfResultsNull_;
+      }
+      /**
+       * <code>optional bool number_of_results_null = 1005;</code>
+       */
+      public Builder setNumberOfResultsNull(boolean value) {
+        
+        numberOfResultsNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool number_of_results_null = 1005;</code>
+       */
+      public Builder clearNumberOfResultsNull() {
+        
+        numberOfResultsNull_ = false;
         onChanged();
         return this;
       }
@@ -4700,7 +4944,7 @@ public final class MiGetUsageOfTablesAd {
       "geOfTables_Ad\032\023dstore/values.proto\032\031dsto" +
       "re/engine/error.proto\032\033dstore/engine/mes" +
       "sage.proto\032#dstore/engine/metainformatio" +
-      "n.proto\"\225\003\n\nParameters\022/\n\013tables_list\030\001 " +
+      "n.proto\"\356\003\n\nParameters\022/\n\013tables_list\030\001 " +
       "\001(\0132\032.dstore.values.stringValue\022\031\n\020table" +
       "s_list_null\030\351\007 \001(\010\022<\n\030separator_in_table" +
       "s_list\030\002 \001(\0132\032.dstore.values.stringValue" +
@@ -4710,22 +4954,26 @@ public final class MiGetUsageOfTablesAd {
       "ect_type_null\030\353\007 \001(\010\022C\n\036get_distinct_obj" +
       "ect_names_only\030\004 \001(\0132\033.dstore.values.boo" +
       "leanValue\022,\n#get_distinct_object_names_o" +
-      "nly_null\030\354\007 \001(\010\"\277\004\n\010Response\022)\n\005error\030\001 " +
-      "\001(\0132\032.dstore.engine.error.Error\022H\n\020meta_" +
-      "information\030\002 \003(\0132..dstore.engine.metain" +
-      "formation.MetaInformation\022/\n\007message\030\003 \003" +
-      "(\0132\036.dstore.engine.message.Message\022?\n\003ro",
-      "w\030\004 \003(\01322.dstore.engine.mi_GetUsageOfTab" +
-      "les_Ad.Response.Row\0226\n\021number_of_results" +
-      "\030e \001(\0132\033.dstore.values.integerValue\032\223\002\n\003" +
-      "Row\022\017\n\006row_id\030\220N \001(\005\022/\n\ntable_name\030\221N \001(" +
-      "\0132\032.dstore.values.stringValue\0220\n\013object_" +
-      "type\030\222N \001(\0132\032.dstore.values.stringValue\022" +
-      "6\n\020code_line_number\030\223N \001(\0132\033.dstore.valu" +
-      "es.integerValue\022.\n\tcode_line\030\224N \001(\0132\032.ds" +
-      "tore.values.stringValue\0220\n\013object_name\030\225" +
-      "N \001(\0132\032.dstore.values.stringValueB\035\n\033io.",
-      "dstore.engine.proceduresb\006proto3"
+      "nly_null\030\354\007 \001(\010\0226\n\021number_of_results\030\005 \001" +
+      "(\0132\033.dstore.values.integerValue\022\037\n\026numbe" +
+      "r_of_results_null\030\355\007 \001(\010\"\277\004\n\010Response\022)\n" +
+      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error" +
+      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi",
+      "ne.metainformation.MetaInformation\022/\n\007me" +
+      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
+      "age\022?\n\003row\030\004 \003(\01322.dstore.engine.mi_GetU" +
+      "sageOfTables_Ad.Response.Row\0226\n\021number_o" +
+      "f_results\030e \001(\0132\033.dstore.values.integerV" +
+      "alue\032\223\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\022/\n\ntable_n" +
+      "ame\030\221N \001(\0132\032.dstore.values.stringValue\0220" +
+      "\n\013object_type\030\222N \001(\0132\032.dstore.values.str" +
+      "ingValue\0226\n\020code_line_number\030\223N \001(\0132\033.ds" +
+      "tore.values.integerValue\022.\n\tcode_line\030\224N",
+      " \001(\0132\032.dstore.values.stringValue\0220\n\013obje" +
+      "ct_name\030\225N \001(\0132\032.dstore.values.stringVal" +
+      "ueBW\n\033io.dstore.engine.proceduresZ8gosdk" +
+      ".dstore.de/engine/procedures/mi_GetUsage" +
+      "OfTables_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4748,7 +4996,7 @@ public final class MiGetUsageOfTablesAd {
     internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Parameters_descriptor,
-        new java.lang.String[] { "TablesList", "TablesListNull", "SeparatorInTablesList", "SeparatorInTablesListNull", "SearchOnlyObjectType", "SearchOnlyObjectTypeNull", "GetDistinctObjectNamesOnly", "GetDistinctObjectNamesOnlyNull", });
+        new java.lang.String[] { "TablesList", "TablesListNull", "SeparatorInTablesList", "SeparatorInTablesListNull", "SearchOnlyObjectType", "SearchOnlyObjectTypeNull", "GetDistinctObjectNamesOnly", "GetDistinctObjectNamesOnlyNull", "NumberOfResults", "NumberOfResultsNull", });
     internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Response_fieldAccessorTable = new

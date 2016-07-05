@@ -6617,8 +6617,9 @@ public final class FacetedNavigation {
       "or\022\022\n\ntotal_hits\030\002 \001(\005\022\'\n\004item\030\003 \003(\0132\031.d" +
       "store.elastic.item.Item\022)\n\005facet\030\004 \003(\0132\032" +
       ".dstore.elastic.item.Facet\022\034\n\024elastic_qu",
-      "ery_string\030\005 \001(\tB+\n\026io.dstore.elastic.it" +
-      "emB\021FacetedNavigationb\006proto3"
+      "ery_string\030\005 \001(\tB\\\n\026io.dstore.elastic.it" +
+      "emB\021FacetedNavigationZ/gosdk.dstore.de/e" +
+      "lastic/item/faceted_navigationb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

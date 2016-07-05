@@ -5633,8 +5633,10 @@ public final class StGetTreeNodePMStatisticsAd {
       "\224N \001(\0132\033.dstore.values.integerValue\0222\n\014d" +
       "irect_value\030\225N \001(\0132\033.dstore.values.decim" +
       "alValue\022A\n\033basic_characteristic_number\030\226" +
-      "N \001(\0132\033.dstore.values.integerValueB\035\n\033io" +
-      ".dstore.engine.proceduresb\006proto3"
+      "N \001(\0132\033.dstore.values.integerValueB^\n\033io" +
+      ".dstore.engine.proceduresZ?gosdk.dstore." +
+      "de/engine/procedures/st_GetTreeNodePMSta" +
+      "tistics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

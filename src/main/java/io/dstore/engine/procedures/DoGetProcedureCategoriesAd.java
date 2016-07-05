@@ -3419,8 +3419,9 @@ public final class DoGetProcedureCategoriesAd {
       "ues.stringValue\022;\n\025procedure_category_id" +
       "\030\222N \001(\0132\033.dstore.values.integerValue\0227\n\022" +
       "procedure_category\030\223N \001(\0132\032.dstore.value" +
-      "s.stringValueB\035\n\033io.dstore.engine.proced",
-      "uresb\006proto3"
+      "s.stringValueB]\n\033io.dstore.engine.proced",
+      "uresZ>gosdk.dstore.de/engine/procedures/" +
+      "do_GetProcedureCategories_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

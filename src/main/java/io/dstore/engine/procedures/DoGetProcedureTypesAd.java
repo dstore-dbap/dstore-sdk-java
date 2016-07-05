@@ -3172,7 +3172,9 @@ public final class DoGetProcedureTypesAd {
       "_id\030\220N \001(\005\0227\n\021procedure_type_id\030\221N \001(\0132\033" +
       ".dstore.values.integerValue\0223\n\016procedure" +
       "_type\030\222N \001(\0132\032.dstore.values.stringValue" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "BX\n\033io.dstore.engine.proceduresZ9gosdk.d" +
+      "store.de/engine/procedures/do_GetProcedu" +
+      "reTypes_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

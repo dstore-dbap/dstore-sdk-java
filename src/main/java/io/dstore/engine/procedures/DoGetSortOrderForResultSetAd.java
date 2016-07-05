@@ -4897,8 +4897,10 @@ public final class DoGetSortOrderForResultSetAd {
       "tore.values.booleanValue\0227\n\022result_colum" +
       "n_name\030\226N \001(\0132\032.dstore.values.stringValu" +
       "e\022?\n\032sort_condition_description\030\227N \001(\0132\032" +
-      ".dstore.values.stringValueB\035\n\033io.dstore.",
-      "engine.proceduresb\006proto3"
+      ".dstore.values.stringValueB_\n\033io.dstore.",
+      "engine.proceduresZ@gosdk.dstore.de/engin" +
+      "e/procedures/do_GetSortOrderForResultSet" +
+      "_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
