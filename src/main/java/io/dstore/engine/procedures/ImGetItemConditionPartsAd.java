@@ -2769,19 +2769,6 @@ public final class ImGetItemConditionPartsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.Error getError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
      */
     java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
@@ -2914,39 +2901,26 @@ public final class ImGetItemConditionPartsAd {
               }
               break;
             }
-            case 10: {
-              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response.Row>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               row_.add(input.readMessage(io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response.Row.parser(), extensionRegistry));
               break;
@@ -2960,13 +2934,13 @@ public final class ImGetItemConditionPartsAd {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = java.util.Collections.unmodifiableList(message_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -7034,28 +7008,6 @@ public final class ImGetItemConditionPartsAd {
 
     }
 
-    private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.EngineError.Error error_;
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.Error getError() {
-      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
     /**
@@ -7193,9 +7145,6 @@ public final class ImGetItemConditionPartsAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         output.writeMessage(2, metaInformation_.get(i));
       }
@@ -7212,10 +7161,6 @@ public final class ImGetItemConditionPartsAd {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, metaInformation_.get(i));
@@ -7342,27 +7287,21 @@ public final class ImGetItemConditionPartsAd {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           metaInformationBuilder_.clear();
         }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           rowBuilder_.clear();
         }
@@ -7389,40 +7328,33 @@ public final class ImGetItemConditionPartsAd {
       public io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response buildPartial() {
         io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response result = new io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response(this);
         int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (metaInformationBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.metaInformation_ = metaInformation_;
         } else {
           result.metaInformation_ = metaInformationBuilder_.build();
         }
         if (messageBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             message_ = java.util.Collections.unmodifiableList(message_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.row_ = row_;
         } else {
           result.row_ = rowBuilder_.build();
         }
-        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -7438,14 +7370,11 @@ public final class ImGetItemConditionPartsAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response other) {
         if (other == io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (metaInformationBuilder_ == null) {
           if (!other.metaInformation_.isEmpty()) {
             if (metaInformation_.isEmpty()) {
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureMetaInformationIsMutable();
               metaInformation_.addAll(other.metaInformation_);
@@ -7458,7 +7387,7 @@ public final class ImGetItemConditionPartsAd {
               metaInformationBuilder_.dispose();
               metaInformationBuilder_ = null;
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
@@ -7471,7 +7400,7 @@ public final class ImGetItemConditionPartsAd {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -7484,7 +7413,7 @@ public final class ImGetItemConditionPartsAd {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -7497,7 +7426,7 @@ public final class ImGetItemConditionPartsAd {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -7510,7 +7439,7 @@ public final class ImGetItemConditionPartsAd {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -7546,129 +7475,12 @@ public final class ImGetItemConditionPartsAd {
       }
       private int bitField0_;
 
-      private io.dstore.engine.EngineError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.engine.EngineError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -7818,7 +7630,7 @@ public final class ImGetItemConditionPartsAd {
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           metaInformationBuilder_.clear();
@@ -7895,7 +7707,7 @@ public final class ImGetItemConditionPartsAd {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           metaInformation_ = null;
@@ -7906,9 +7718,9 @@ public final class ImGetItemConditionPartsAd {
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -8058,7 +7870,7 @@ public final class ImGetItemConditionPartsAd {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -8135,7 +7947,7 @@ public final class ImGetItemConditionPartsAd {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -8146,9 +7958,9 @@ public final class ImGetItemConditionPartsAd {
       private java.util.List<io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response.Row>(row_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -8342,7 +8154,7 @@ public final class ImGetItemConditionPartsAd {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -8447,7 +8259,7 @@ public final class ImGetItemConditionPartsAd {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response.Row, io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response.Row.Builder, io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -8539,67 +8351,65 @@ public final class ImGetItemConditionPartsAd {
       "\n:dstore/engine/procedures/im_GetItemCon" +
       "ditionParts_Ad.proto\022)dstore.engine.im_G" +
       "etItemConditionParts_Ad\032\023dstore/values.p" +
-      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
-      "engine/message.proto\032#dstore/engine/meta" +
-      "information.proto\"\243\010\n\nParameters\0226\n\021cond" +
-      "ition_part_id\030\001 \001(\0132\033.dstore.values.inte" +
-      "gerValue\022\037\n\026condition_part_id_null\030\351\007 \001(" +
-      "\010\022C\n\037condition_part_description_like\030\002 \001" +
-      "(\0132\032.dstore.values.stringValue\022-\n$condit",
-      "ion_part_description_like_null\030\352\007 \001(\010\022?\n" +
-      "\032get_unused_condition_parts\030\003 \001(\0132\033.dsto" +
-      "re.values.booleanValue\022(\n\037get_unused_con" +
-      "dition_parts_null\030\353\007 \001(\010\022-\n\010order_by\030\004 \001" +
-      "(\0132\033.dstore.values.integerValue\022\026\n\rorder" +
-      "_by_null\030\354\007 \001(\010\022.\n\trow_count\030\005 \001(\0132\033.dst" +
-      "ore.values.integerValue\022\027\n\016row_count_nul" +
-      "l\030\355\007 \001(\010\022H\n#only_cond_parts_with_node_ch" +
-      "arac_id\030\006 \001(\0132\033.dstore.values.integerVal" +
-      "ue\0221\n(only_cond_parts_with_node_charac_i",
-      "d_null\030\356\007 \001(\010\022H\n#only_cond_parts_with_do" +
-      "m_t_node_id1\030\007 \001(\0132\033.dstore.values.integ" +
-      "erValue\0221\n(only_cond_parts_with_dom_t_no" +
-      "de_id1_null\030\357\007 \001(\010\022H\n#only_cond_parts_wi" +
-      "th_dom_t_node_id2\030\010 \001(\0132\033.dstore.values." +
-      "integerValue\0221\n(only_cond_parts_with_dom" +
-      "_t_node_id2_null\030\360\007 \001(\010\022H\n#only_cond_par" +
-      "ts_with_dom_t_node_id3\030\t \001(\0132\033.dstore.va" +
-      "lues.integerValue\0221\n(only_cond_parts_wit" +
-      "h_dom_t_node_id3_null\030\361\007 \001(\010\0227\n\022output_i",
-      "nto_one_id\030\n \001(\0132\033.dstore.values.integer" +
-      "Value\022 \n\027output_into_one_id_null\030\362\007 \001(\010\"" +
-      "\200\t\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.eng" +
-      "ine.error.Error\022H\n\020meta_information\030\002 \003(" +
-      "\0132..dstore.engine.metainformation.MetaIn" +
-      "formation\022/\n\007message\030\003 \003(\0132\036.dstore.engi" +
-      "ne.message.Message\022D\n\003row\030\004 \003(\01327.dstore" +
-      ".engine.im_GetItemConditionParts_Ad.Resp" +
-      "onse.Row\032\207\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022E\n\037use" +
-      "d_in_an_item_condition_group\030\221N \001(\0132\033.ds",
-      "tore.values.booleanValue\022F\n used_in_camp" +
-      "aign_item_cond_parts\030\222N \001(\0132\033.dstore.val" +
-      "ues.booleanValue\0227\n\021condition_part_id\030\223N" +
-      " \001(\0132\033.dstore.values.integerValue\022?\n\027edi" +
-      "ted_at_date_and_time\030\224N \001(\0132\035.dstore.val" +
-      "ues.timestampValue\022@\n\030created_at_date_an" +
-      "d_time\030\225N \001(\0132\035.dstore.values.timestampV" +
-      "alue\022?\n\032condition_part_description\030\226N \001(" +
-      "\0132\032.dstore.values.stringValue\022/\n\toperato" +
-      "r1\030\261\352\001 \001(\0132\032.dstore.values.stringValue\0220",
-      "\n\ncondition1\030\262\352\001 \001(\0132\032.dstore.values.str" +
-      "ingValue\0220\n\ncondition2\030\263\352\001 \001(\0132\032.dstore." +
-      "values.stringValue\022/\n\toperator2\030\264\352\001 \001(\0132" +
-      "\032.dstore.values.stringValue\022;\n\024recursive" +
-      "_evaluation\030\266\352\001 \001(\0132\033.dstore.values.inte" +
-      "gerValue\022:\n\024domain_tree_node_ids\030\267\352\001 \001(\013" +
-      "2\032.dstore.values.stringValue\022=\n\026node_cha" +
-      "racteristic_id\030\270\352\001 \001(\0132\033.dstore.values.i" +
-      "ntegerValue\022/\n\tlevel_ids\030\273\352\001 \001(\0132\032.dstor" +
-      "e.values.stringValue\0224\n\rinherit_depth\030\276\352",
-      "\001 \001(\0132\033.dstore.values.integerValueB\\\n\033io" +
-      ".dstore.engine.proceduresZ=gosdk.dstore." +
-      "de/engine/procedures/im_GetItemCondition" +
-      "Parts_Adb\006proto3"
+      "roto\032\033dstore/engine/message.proto\032#dstor" +
+      "e/engine/metainformation.proto\"\243\010\n\nParam" +
+      "eters\0226\n\021condition_part_id\030\001 \001(\0132\033.dstor" +
+      "e.values.integerValue\022\037\n\026condition_part_" +
+      "id_null\030\351\007 \001(\010\022C\n\037condition_part_descrip" +
+      "tion_like\030\002 \001(\0132\032.dstore.values.stringVa" +
+      "lue\022-\n$condition_part_description_like_n",
+      "ull\030\352\007 \001(\010\022?\n\032get_unused_condition_parts" +
+      "\030\003 \001(\0132\033.dstore.values.booleanValue\022(\n\037g" +
+      "et_unused_condition_parts_null\030\353\007 \001(\010\022-\n" +
+      "\010order_by\030\004 \001(\0132\033.dstore.values.integerV" +
+      "alue\022\026\n\rorder_by_null\030\354\007 \001(\010\022.\n\trow_coun" +
+      "t\030\005 \001(\0132\033.dstore.values.integerValue\022\027\n\016" +
+      "row_count_null\030\355\007 \001(\010\022H\n#only_cond_parts" +
+      "_with_node_charac_id\030\006 \001(\0132\033.dstore.valu" +
+      "es.integerValue\0221\n(only_cond_parts_with_" +
+      "node_charac_id_null\030\356\007 \001(\010\022H\n#only_cond_",
+      "parts_with_dom_t_node_id1\030\007 \001(\0132\033.dstore" +
+      ".values.integerValue\0221\n(only_cond_parts_" +
+      "with_dom_t_node_id1_null\030\357\007 \001(\010\022H\n#only_" +
+      "cond_parts_with_dom_t_node_id2\030\010 \001(\0132\033.d" +
+      "store.values.integerValue\0221\n(only_cond_p" +
+      "arts_with_dom_t_node_id2_null\030\360\007 \001(\010\022H\n#" +
+      "only_cond_parts_with_dom_t_node_id3\030\t \001(" +
+      "\0132\033.dstore.values.integerValue\0221\n(only_c" +
+      "ond_parts_with_dom_t_node_id3_null\030\361\007 \001(" +
+      "\010\0227\n\022output_into_one_id\030\n \001(\0132\033.dstore.v",
+      "alues.integerValue\022 \n\027output_into_one_id" +
+      "_null\030\362\007 \001(\010\"\325\010\n\010Response\022H\n\020meta_inform" +
+      "ation\030\002 \003(\0132..dstore.engine.metainformat" +
+      "ion.MetaInformation\022/\n\007message\030\003 \003(\0132\036.d" +
+      "store.engine.message.Message\022D\n\003row\030\004 \003(" +
+      "\01327.dstore.engine.im_GetItemConditionPar" +
+      "ts_Ad.Response.Row\032\207\007\n\003Row\022\017\n\006row_id\030\220N " +
+      "\001(\005\022E\n\037used_in_an_item_condition_group\030\221" +
+      "N \001(\0132\033.dstore.values.booleanValue\022F\n us" +
+      "ed_in_campaign_item_cond_parts\030\222N \001(\0132\033.",
+      "dstore.values.booleanValue\0227\n\021condition_" +
+      "part_id\030\223N \001(\0132\033.dstore.values.integerVa" +
+      "lue\022?\n\027edited_at_date_and_time\030\224N \001(\0132\035." +
+      "dstore.values.timestampValue\022@\n\030created_" +
+      "at_date_and_time\030\225N \001(\0132\035.dstore.values." +
+      "timestampValue\022?\n\032condition_part_descrip" +
+      "tion\030\226N \001(\0132\032.dstore.values.stringValue\022" +
+      "/\n\toperator1\030\261\352\001 \001(\0132\032.dstore.values.str" +
+      "ingValue\0220\n\ncondition1\030\262\352\001 \001(\0132\032.dstore." +
+      "values.stringValue\0220\n\ncondition2\030\263\352\001 \001(\013",
+      "2\032.dstore.values.stringValue\022/\n\toperator" +
+      "2\030\264\352\001 \001(\0132\032.dstore.values.stringValue\022;\n" +
+      "\024recursive_evaluation\030\266\352\001 \001(\0132\033.dstore.v" +
+      "alues.integerValue\022:\n\024domain_tree_node_i" +
+      "ds\030\267\352\001 \001(\0132\032.dstore.values.stringValue\022=" +
+      "\n\026node_characteristic_id\030\270\352\001 \001(\0132\033.dstor" +
+      "e.values.integerValue\022/\n\tlevel_ids\030\273\352\001 \001" +
+      "(\0132\032.dstore.values.stringValue\0224\n\rinheri" +
+      "t_depth\030\276\352\001 \001(\0132\033.dstore.values.integerV" +
+      "alueB\\\n\033io.dstore.engine.proceduresZ=gos",
+      "dk.dstore.de/engine/procedures/im_GetIte" +
+      "mConditionParts_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8613,7 +8423,6 @@ public final class ImGetItemConditionPartsAd {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
@@ -8628,7 +8437,7 @@ public final class ImGetItemConditionPartsAd {
     internal_static_dstore_engine_im_GetItemConditionParts_Ad_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GetItemConditionParts_Ad_Response_descriptor,
-        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", });
+        new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_im_GetItemConditionParts_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_im_GetItemConditionParts_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_im_GetItemConditionParts_Ad_Response_Row_fieldAccessorTable = new
@@ -8636,7 +8445,6 @@ public final class ImGetItemConditionPartsAd {
         internal_static_dstore_engine_im_GetItemConditionParts_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "UsedInAnItemConditionGroup", "UsedInCampaignItemCondParts", "ConditionPartId", "EditedAtDateAndTime", "CreatedAtDateAndTime", "ConditionPartDescription", "Operator1", "Condition1", "Condition2", "Operator2", "RecursiveEvaluation", "DomainTreeNodeIds", "NodeCharacteristicId", "LevelIds", "InheritDepth", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
   }

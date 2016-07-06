@@ -1549,19 +1549,6 @@ public final class CoCheckStatisticsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.Error getError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
      */
     java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
@@ -1694,39 +1681,26 @@ public final class CoCheckStatisticsAd {
               }
               break;
             }
-            case 10: {
-              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.CoCheckStatisticsAd.Response.Row>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               row_.add(input.readMessage(io.dstore.engine.procedures.CoCheckStatisticsAd.Response.Row.parser(), extensionRegistry));
               break;
@@ -1740,13 +1714,13 @@ public final class CoCheckStatisticsAd {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = java.util.Collections.unmodifiableList(message_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -3854,28 +3828,6 @@ public final class CoCheckStatisticsAd {
 
     }
 
-    private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.EngineError.Error error_;
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.Error getError() {
-      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
     /**
@@ -4013,9 +3965,6 @@ public final class CoCheckStatisticsAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         output.writeMessage(2, metaInformation_.get(i));
       }
@@ -4032,10 +3981,6 @@ public final class CoCheckStatisticsAd {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, metaInformation_.get(i));
@@ -4162,27 +4107,21 @@ public final class CoCheckStatisticsAd {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           metaInformationBuilder_.clear();
         }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           rowBuilder_.clear();
         }
@@ -4209,40 +4148,33 @@ public final class CoCheckStatisticsAd {
       public io.dstore.engine.procedures.CoCheckStatisticsAd.Response buildPartial() {
         io.dstore.engine.procedures.CoCheckStatisticsAd.Response result = new io.dstore.engine.procedures.CoCheckStatisticsAd.Response(this);
         int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (metaInformationBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.metaInformation_ = metaInformation_;
         } else {
           result.metaInformation_ = metaInformationBuilder_.build();
         }
         if (messageBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             message_ = java.util.Collections.unmodifiableList(message_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.row_ = row_;
         } else {
           result.row_ = rowBuilder_.build();
         }
-        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -4258,14 +4190,11 @@ public final class CoCheckStatisticsAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.CoCheckStatisticsAd.Response other) {
         if (other == io.dstore.engine.procedures.CoCheckStatisticsAd.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (metaInformationBuilder_ == null) {
           if (!other.metaInformation_.isEmpty()) {
             if (metaInformation_.isEmpty()) {
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureMetaInformationIsMutable();
               metaInformation_.addAll(other.metaInformation_);
@@ -4278,7 +4207,7 @@ public final class CoCheckStatisticsAd {
               metaInformationBuilder_.dispose();
               metaInformationBuilder_ = null;
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
@@ -4291,7 +4220,7 @@ public final class CoCheckStatisticsAd {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -4304,7 +4233,7 @@ public final class CoCheckStatisticsAd {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -4317,7 +4246,7 @@ public final class CoCheckStatisticsAd {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -4330,7 +4259,7 @@ public final class CoCheckStatisticsAd {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -4366,129 +4295,12 @@ public final class CoCheckStatisticsAd {
       }
       private int bitField0_;
 
-      private io.dstore.engine.EngineError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.engine.EngineError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -4638,7 +4450,7 @@ public final class CoCheckStatisticsAd {
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           metaInformationBuilder_.clear();
@@ -4715,7 +4527,7 @@ public final class CoCheckStatisticsAd {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           metaInformation_ = null;
@@ -4726,9 +4538,9 @@ public final class CoCheckStatisticsAd {
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -4878,7 +4690,7 @@ public final class CoCheckStatisticsAd {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -4955,7 +4767,7 @@ public final class CoCheckStatisticsAd {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -4966,9 +4778,9 @@ public final class CoCheckStatisticsAd {
       private java.util.List<io.dstore.engine.procedures.CoCheckStatisticsAd.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procedures.CoCheckStatisticsAd.Response.Row>(row_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -5162,7 +4974,7 @@ public final class CoCheckStatisticsAd {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -5267,7 +5079,7 @@ public final class CoCheckStatisticsAd {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procedures.CoCheckStatisticsAd.Response.Row, io.dstore.engine.procedures.CoCheckStatisticsAd.Response.Row.Builder, io.dstore.engine.procedures.CoCheckStatisticsAd.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -5358,39 +5170,38 @@ public final class CoCheckStatisticsAd {
     java.lang.String[] descriptorData = {
       "\n4dstore/engine/procedures/co_CheckStati" +
       "stics_Ad.proto\022#dstore.engine.co_CheckSt" +
-      "atistics_Ad\032\023dstore/values.proto\032\031dstore" +
-      "/engine/error.proto\032\033dstore/engine/messa" +
-      "ge.proto\032#dstore/engine/metainformation." +
-      "proto\"\276\003\n\nParameters\0221\n\014community_id\030\001 \001" +
-      "(\0132\033.dstore.values.integerValue\022\032\n\021commu" +
-      "nity_id_null\030\351\007 \001(\010\022A\n\035statistic_informa" +
-      "tion_id_list\030\002 \001(\0132\032.dstore.values.strin" +
-      "gValue\022+\n\"statistic_information_id_list_",
-      "null\030\352\007 \001(\010\0220\n\tfrom_date\030\003 \001(\0132\035.dstore." +
-      "values.timestampValue\022\027\n\016from_date_null\030" +
-      "\353\007 \001(\010\022.\n\007to_date\030\004 \001(\0132\035.dstore.values." +
-      "timestampValue\022\025\n\014to_date_null\030\354\007 \001(\010\022:\n" +
-      "\025return_all_variations\030\005 \001(\0132\033.dstore.va" +
-      "lues.booleanValue\022#\n\032return_all_variatio" +
-      "ns_null\030\355\007 \001(\010\"\207\005\n\010Response\022)\n\005error\030\001 \001" +
-      "(\0132\032.dstore.engine.error.Error\022H\n\020meta_i" +
-      "nformation\030\002 \003(\0132..dstore.engine.metainf" +
-      "ormation.MetaInformation\022/\n\007message\030\003 \003(",
-      "\0132\036.dstore.engine.message.Message\022>\n\003row" +
-      "\030\004 \003(\01321.dstore.engine.co_CheckStatistic" +
-      "s_Ad.Response.Row\032\224\003\n\003Row\022\017\n\006row_id\030\220N \001" +
-      "(\005\0222\n\014community_id\030\221N \001(\0132\033.dstore.value" +
-      "s.integerValue\0226\n\020calculated_value\030\222N \001(" +
-      "\0132\033.dstore.values.decimalValue\0223\n\016commun" +
-      "ity_name\030\223N \001(\0132\032.dstore.values.stringVa" +
-      "lue\022>\n\030statistic_information_id\030\224N \001(\0132\033" +
-      ".dstore.values.integerValue\022:\n\025statistic" +
-      "_information\030\225N \001(\0132\032.dstore.values.stri",
-      "ngValue\0222\n\014stored_value\030\226N \001(\0132\033.dstore." +
-      "values.decimalValue\022+\n\003day\030\227N \001(\0132\035.dsto" +
-      "re.values.timestampValueBV\n\033io.dstore.en" +
-      "gine.proceduresZ7gosdk.dstore.de/engine/" +
-      "procedures/co_CheckStatistics_Adb\006proto3"
+      "atistics_Ad\032\023dstore/values.proto\032\033dstore" +
+      "/engine/message.proto\032#dstore/engine/met" +
+      "ainformation.proto\"\276\003\n\nParameters\0221\n\014com" +
+      "munity_id\030\001 \001(\0132\033.dstore.values.integerV" +
+      "alue\022\032\n\021community_id_null\030\351\007 \001(\010\022A\n\035stat" +
+      "istic_information_id_list\030\002 \001(\0132\032.dstore" +
+      ".values.stringValue\022+\n\"statistic_informa" +
+      "tion_id_list_null\030\352\007 \001(\010\0220\n\tfrom_date\030\003 ",
+      "\001(\0132\035.dstore.values.timestampValue\022\027\n\016fr" +
+      "om_date_null\030\353\007 \001(\010\022.\n\007to_date\030\004 \001(\0132\035.d" +
+      "store.values.timestampValue\022\025\n\014to_date_n" +
+      "ull\030\354\007 \001(\010\022:\n\025return_all_variations\030\005 \001(" +
+      "\0132\033.dstore.values.booleanValue\022#\n\032return" +
+      "_all_variations_null\030\355\007 \001(\010\"\334\004\n\010Response" +
+      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi" +
+      "ne.metainformation.MetaInformation\022/\n\007me" +
+      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
+      "age\022>\n\003row\030\004 \003(\01321.dstore.engine.co_Chec",
+      "kStatistics_Ad.Response.Row\032\224\003\n\003Row\022\017\n\006r" +
+      "ow_id\030\220N \001(\005\0222\n\014community_id\030\221N \001(\0132\033.ds" +
+      "tore.values.integerValue\0226\n\020calculated_v" +
+      "alue\030\222N \001(\0132\033.dstore.values.decimalValue" +
+      "\0223\n\016community_name\030\223N \001(\0132\032.dstore.value" +
+      "s.stringValue\022>\n\030statistic_information_i" +
+      "d\030\224N \001(\0132\033.dstore.values.integerValue\022:\n" +
+      "\025statistic_information\030\225N \001(\0132\032.dstore.v" +
+      "alues.stringValue\0222\n\014stored_value\030\226N \001(\013" +
+      "2\033.dstore.values.decimalValue\022+\n\003day\030\227N ",
+      "\001(\0132\035.dstore.values.timestampValueBV\n\033io" +
+      ".dstore.engine.proceduresZ7gosdk.dstore." +
+      "de/engine/procedures/co_CheckStatistics_" +
+      "Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5404,7 +5215,6 @@ public final class CoCheckStatisticsAd {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
@@ -5419,7 +5229,7 @@ public final class CoCheckStatisticsAd {
     internal_static_dstore_engine_co_CheckStatistics_Ad_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_CheckStatistics_Ad_Response_descriptor,
-        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", });
+        new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_co_CheckStatistics_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_co_CheckStatistics_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_co_CheckStatistics_Ad_Response_Row_fieldAccessorTable = new
@@ -5427,7 +5237,6 @@ public final class CoCheckStatisticsAd {
         internal_static_dstore_engine_co_CheckStatistics_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CommunityId", "CalculatedValue", "CommunityName", "StatisticInformationId", "StatisticInformation", "StoredValue", "Day", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
   }

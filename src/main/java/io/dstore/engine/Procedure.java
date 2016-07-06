@@ -1567,19 +1567,6 @@ public final class Procedure {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.Error getError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.engine.message.Message message = 3;</code>
      */
     java.util.List<io.dstore.engine.ProcedureMessage.Message> 
@@ -1704,23 +1691,10 @@ public final class Procedure {
               }
               break;
             }
-            case 10: {
-              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
@@ -1731,18 +1705,18 @@ public final class Procedure {
               break;
             }
             case 42: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.Procedure.Response.Row>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               row_.add(input.readMessage(io.dstore.engine.Procedure.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 50: {
-              if (!((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
+              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
                 outputParameters_ = com.google.protobuf.MapField.newMapField(
                     OutputParametersDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000010;
+                mutable_bitField0_ |= 0x00000008;
               }
               com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
               outputParameters = input.readMessage(
@@ -1751,9 +1725,9 @@ public final class Procedure {
               break;
             }
             case 58: {
-              if (!((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
+              if (!((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
-                mutable_bitField0_ |= 0x00000020;
+                mutable_bitField0_ |= 0x00000010;
               }
               metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
@@ -1767,13 +1741,13 @@ public final class Procedure {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           message_ = java.util.Collections.unmodifiableList(message_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
-        if (((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
+        if (((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
         makeExtensionsImmutable();
@@ -2352,27 +2326,6 @@ public final class Procedure {
     }
 
     private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.EngineError.Error error_;
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.Error getError() {
-      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int MESSAGE_FIELD_NUMBER = 3;
     private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_;
     /**
@@ -2529,9 +2482,6 @@ public final class Procedure {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < message_.size(); i++) {
         output.writeMessage(3, message_.get(i));
       }
@@ -2560,10 +2510,6 @@ public final class Procedure {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < message_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, message_.get(i));
@@ -2726,15 +2672,9 @@ public final class Procedure {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           messageBuilder_.clear();
         }
@@ -2742,14 +2682,14 @@ public final class Procedure {
 
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           rowBuilder_.clear();
         }
         internalGetMutableOutputParameters().clear();
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000020);
+          bitField0_ = (bitField0_ & ~0x00000010);
         } else {
           metaInformationBuilder_.clear();
         }
@@ -2777,15 +2717,10 @@ public final class Procedure {
         io.dstore.engine.Procedure.Response result = new io.dstore.engine.Procedure.Response(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (messageBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             message_ = java.util.Collections.unmodifiableList(message_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.message_ = message_;
         } else {
@@ -2793,9 +2728,9 @@ public final class Procedure {
         }
         result.callId_ = callId_;
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.row_ = row_;
         } else {
@@ -2804,9 +2739,9 @@ public final class Procedure {
         result.outputParameters_ = internalGetOutputParameters();
         result.outputParameters_.makeImmutable();
         if (metaInformationBuilder_ == null) {
-          if (((bitField0_ & 0x00000020) == 0x00000020)) {
+          if (((bitField0_ & 0x00000010) == 0x00000010)) {
             metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
-            bitField0_ = (bitField0_ & ~0x00000020);
+            bitField0_ = (bitField0_ & ~0x00000010);
           }
           result.metaInformation_ = metaInformation_;
         } else {
@@ -2828,14 +2763,11 @@ public final class Procedure {
 
       public Builder mergeFrom(io.dstore.engine.Procedure.Response other) {
         if (other == io.dstore.engine.Procedure.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (messageBuilder_ == null) {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -2848,7 +2780,7 @@ public final class Procedure {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -2864,7 +2796,7 @@ public final class Procedure {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -2877,7 +2809,7 @@ public final class Procedure {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -2892,7 +2824,7 @@ public final class Procedure {
           if (!other.metaInformation_.isEmpty()) {
             if (metaInformation_.isEmpty()) {
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000020);
+              bitField0_ = (bitField0_ & ~0x00000010);
             } else {
               ensureMetaInformationIsMutable();
               metaInformation_.addAll(other.metaInformation_);
@@ -2905,7 +2837,7 @@ public final class Procedure {
               metaInformationBuilder_.dispose();
               metaInformationBuilder_ = null;
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000020);
+              bitField0_ = (bitField0_ & ~0x00000010);
               metaInformationBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
@@ -2941,129 +2873,12 @@ public final class Procedure {
       }
       private int bitField0_;
 
-      private io.dstore.engine.EngineError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.engine.EngineError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -3213,7 +3028,7 @@ public final class Procedure {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -3290,7 +3105,7 @@ public final class Procedure {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -3327,9 +3142,9 @@ public final class Procedure {
       private java.util.List<io.dstore.engine.Procedure.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = new java.util.ArrayList<io.dstore.engine.Procedure.Response.Row>(row_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -3479,7 +3294,7 @@ public final class Procedure {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -3556,7 +3371,7 @@ public final class Procedure {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.Procedure.Response.Row, io.dstore.engine.Procedure.Response.Row.Builder, io.dstore.engine.Procedure.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -3611,9 +3426,9 @@ public final class Procedure {
       private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
-        if (!((bitField0_ & 0x00000020) == 0x00000020)) {
+        if (!((bitField0_ & 0x00000010) == 0x00000010)) {
           metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
-          bitField0_ |= 0x00000020;
+          bitField0_ |= 0x00000010;
          }
       }
 
@@ -3763,7 +3578,7 @@ public final class Procedure {
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000020);
+          bitField0_ = (bitField0_ & ~0x00000010);
           onChanged();
         } else {
           metaInformationBuilder_.clear();
@@ -3840,7 +3655,7 @@ public final class Procedure {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
-                  ((bitField0_ & 0x00000020) == 0x00000020),
+                  ((bitField0_ & 0x00000010) == 0x00000010),
                   getParentForChildren(),
                   isClean());
           metaInformation_ = null;
@@ -3945,30 +3760,28 @@ public final class Procedure {
   static {
     java.lang.String[] descriptorData = {
       "\n\035dstore/engine/procedure.proto\022\027dstore." +
-      "engine.procedure\032\023dstore/values.proto\032\031d" +
-      "store/engine/error.proto\032\033dstore/engine/" +
-      "message.proto\032#dstore/engine/metainforma" +
-      "tion.proto\"f\n\004Call\022\026\n\016procedure_name\030\001 \001" +
-      "(\t\0225\n\tparameter\030\002 \003(\0132\".dstore.engine.pr" +
-      "ocedure.Parameter\022\017\n\007call_id\030\003 \001(\005\"9\n\tPa" +
-      "rameter\022\014\n\004name\030\001 \001(\t\022\r\n\005value\030\002 \001(\t\022\017\n\007" +
-      "is_null\030\003 \001(\010\"\273\004\n\010Response\022)\n\005error\030\001 \001(" +
-      "\0132\032.dstore.engine.error.Error\022/\n\007message",
-      "\030\003 \003(\0132\036.dstore.engine.message.Message\022\017" +
-      "\n\007call_id\030\004 \001(\005\0222\n\003row\030\005 \003(\0132%.dstore.en" +
-      "gine.procedure.Response.Row\022R\n\021output_pa" +
-      "rameters\030\006 \003(\01327.dstore.engine.procedure" +
-      ".Response.OutputParametersEntry\022H\n\020meta_" +
-      "information\030\007 \003(\0132..dstore.engine.metain" +
-      "formation.MetaInformation\032M\n\025OutputParam" +
-      "etersEntry\022\013\n\003key\030\001 \001(\t\022#\n\005value\030\002 \001(\0132\024" +
-      ".dstore.values.Value:\0028\001\032\240\001\n\003Row\022\016\n\006row_" +
-      "id\030\001 \001(\005\022C\n\007columns\030\002 \003(\01322.dstore.engin",
-      "e.procedure.Response.Row.ColumnsEntry\032D\n" +
-      "\014ColumnsEntry\022\013\n\003key\030\001 \001(\t\022#\n\005value\030\002 \001(" +
-      "\0132\024.dstore.values.Value:\0028\001B4\n\020io.dstore" +
-      ".engineZ gosdk.dstore.de/engine/procedur" +
-      "eb\006proto3"
+      "engine.procedure\032\023dstore/values.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"f\n\004Call\022\026\n\016proce" +
+      "dure_name\030\001 \001(\t\0225\n\tparameter\030\002 \003(\0132\".dst" +
+      "ore.engine.procedure.Parameter\022\017\n\007call_i" +
+      "d\030\003 \001(\005\"9\n\tParameter\022\014\n\004name\030\001 \001(\t\022\r\n\005va" +
+      "lue\030\002 \001(\t\022\017\n\007is_null\030\003 \001(\010\"\220\004\n\010Response\022" +
+      "/\n\007message\030\003 \003(\0132\036.dstore.engine.message" +
+      ".Message\022\017\n\007call_id\030\004 \001(\005\0222\n\003row\030\005 \003(\0132%",
+      ".dstore.engine.procedure.Response.Row\022R\n" +
+      "\021output_parameters\030\006 \003(\01327.dstore.engine" +
+      ".procedure.Response.OutputParametersEntr" +
+      "y\022H\n\020meta_information\030\007 \003(\0132..dstore.eng" +
+      "ine.metainformation.MetaInformation\032M\n\025O" +
+      "utputParametersEntry\022\013\n\003key\030\001 \001(\t\022#\n\005val" +
+      "ue\030\002 \001(\0132\024.dstore.values.Value:\0028\001\032\240\001\n\003R" +
+      "ow\022\016\n\006row_id\030\001 \001(\005\022C\n\007columns\030\002 \003(\01322.ds" +
+      "tore.engine.procedure.Response.Row.Colum" +
+      "nsEntry\032D\n\014ColumnsEntry\022\013\n\003key\030\001 \001(\t\022#\n\005",
+      "value\030\002 \001(\0132\024.dstore.values.Value:\0028\001B4\n" +
+      "\020io.dstore.engineZ gosdk.dstore.de/engin" +
+      "e/procedureb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3982,7 +3795,6 @@ public final class Procedure {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
@@ -4003,7 +3815,7 @@ public final class Procedure {
     internal_static_dstore_engine_procedure_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_procedure_Response_descriptor,
-        new java.lang.String[] { "Error", "Message", "CallId", "Row", "OutputParameters", "MetaInformation", });
+        new java.lang.String[] { "Message", "CallId", "Row", "OutputParameters", "MetaInformation", });
     internal_static_dstore_engine_procedure_Response_OutputParametersEntry_descriptor =
       internal_static_dstore_engine_procedure_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_procedure_Response_OutputParametersEntry_fieldAccessorTable = new
@@ -4023,7 +3835,6 @@ public final class Procedure {
         internal_static_dstore_engine_procedure_Response_Row_ColumnsEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
   }

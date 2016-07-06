@@ -6430,19 +6430,6 @@ public final class CoSearchMembersPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.Error getError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
      */
     java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
@@ -6568,39 +6555,26 @@ public final class CoSearchMembersPu {
               }
               break;
             }
-            case 10: {
-              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.CoSearchMembersPu.Response.Row>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               row_.add(input.readMessage(io.dstore.engine.procedures.CoSearchMembersPu.Response.Row.parser(), extensionRegistry));
               break;
@@ -6627,13 +6601,13 @@ public final class CoSearchMembersPu {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = java.util.Collections.unmodifiableList(message_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -11437,27 +11411,6 @@ public final class CoSearchMembersPu {
     }
 
     private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.EngineError.Error error_;
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.Error getError() {
-      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
     /**
@@ -11596,9 +11549,6 @@ public final class CoSearchMembersPu {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         output.writeMessage(2, metaInformation_.get(i));
       }
@@ -11618,10 +11568,6 @@ public final class CoSearchMembersPu {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, metaInformation_.get(i));
@@ -11752,27 +11698,21 @@ public final class CoSearchMembersPu {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           metaInformationBuilder_.clear();
         }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           rowBuilder_.clear();
         }
@@ -11806,33 +11746,28 @@ public final class CoSearchMembersPu {
         io.dstore.engine.procedures.CoSearchMembersPu.Response result = new io.dstore.engine.procedures.CoSearchMembersPu.Response(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (metaInformationBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.metaInformation_ = metaInformation_;
         } else {
           result.metaInformation_ = metaInformationBuilder_.build();
         }
         if (messageBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             message_ = java.util.Collections.unmodifiableList(message_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.row_ = row_;
         } else {
@@ -11859,14 +11794,11 @@ public final class CoSearchMembersPu {
 
       public Builder mergeFrom(io.dstore.engine.procedures.CoSearchMembersPu.Response other) {
         if (other == io.dstore.engine.procedures.CoSearchMembersPu.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (metaInformationBuilder_ == null) {
           if (!other.metaInformation_.isEmpty()) {
             if (metaInformation_.isEmpty()) {
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureMetaInformationIsMutable();
               metaInformation_.addAll(other.metaInformation_);
@@ -11879,7 +11811,7 @@ public final class CoSearchMembersPu {
               metaInformationBuilder_.dispose();
               metaInformationBuilder_ = null;
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
@@ -11892,7 +11824,7 @@ public final class CoSearchMembersPu {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -11905,7 +11837,7 @@ public final class CoSearchMembersPu {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -11918,7 +11850,7 @@ public final class CoSearchMembersPu {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -11931,7 +11863,7 @@ public final class CoSearchMembersPu {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -11970,129 +11902,12 @@ public final class CoSearchMembersPu {
       }
       private int bitField0_;
 
-      private io.dstore.engine.EngineError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.engine.EngineError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -12242,7 +12057,7 @@ public final class CoSearchMembersPu {
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           metaInformationBuilder_.clear();
@@ -12319,7 +12134,7 @@ public final class CoSearchMembersPu {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           metaInformation_ = null;
@@ -12330,9 +12145,9 @@ public final class CoSearchMembersPu {
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -12482,7 +12297,7 @@ public final class CoSearchMembersPu {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -12559,7 +12374,7 @@ public final class CoSearchMembersPu {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -12570,9 +12385,9 @@ public final class CoSearchMembersPu {
       private java.util.List<io.dstore.engine.procedures.CoSearchMembersPu.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procedures.CoSearchMembersPu.Response.Row>(row_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -12722,7 +12537,7 @@ public final class CoSearchMembersPu {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -12799,7 +12614,7 @@ public final class CoSearchMembersPu {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procedures.CoSearchMembersPu.Response.Row, io.dstore.engine.procedures.CoSearchMembersPu.Response.Row.Builder, io.dstore.engine.procedures.CoSearchMembersPu.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -13007,101 +12822,99 @@ public final class CoSearchMembersPu {
     java.lang.String[] descriptorData = {
       "\n2dstore/engine/procedures/co_SearchMemb" +
       "ers_Pu.proto\022!dstore.engine.co_SearchMem" +
-      "bers_Pu\032\023dstore/values.proto\032\031dstore/eng" +
-      "ine/error.proto\032\033dstore/engine/message.p" +
-      "roto\032#dstore/engine/metainformation.prot" +
-      "o\"\344\021\n\nParameters\022-\n\010rowcount\030\001 \001(\0132\033.dst" +
-      "ore.values.integerValue\022\026\n\rrowcount_null" +
-      "\030\351\007 \001(\010\022+\n\006result\030\002 \001(\0132\033.dstore.values." +
-      "integerValue\022\024\n\013result_null\030\352\007 \001(\010\022-\n\tun" +
-      "ique_id\030\003 \001(\0132\032.dstore.values.stringValu",
-      "e\022\027\n\016unique_id_null\030\353\007 \001(\010\022@\n\034person_ide" +
-      "ntification_values\030\004 \001(\0132\032.dstore.values" +
-      ".stringValue\022*\n!person_identification_va" +
-      "lues_null\030\354\007 \001(\010\0221\n\014community_id\030\005 \001(\0132\033" +
-      ".dstore.values.integerValue\022\032\n\021community" +
-      "_id_null\030\355\007 \001(\010\0221\n\rsearch_string\030\006 \001(\0132\032" +
-      ".dstore.values.stringValue\022\033\n\022search_str" +
-      "ing_null\030\356\007 \001(\010\0227\n\022max_number_of_rows\030\007 " +
-      "\001(\0132\033.dstore.values.integerValue\022 \n\027max_" +
-      "number_of_rows_null\030\357\007 \001(\010\0223\n\016case_sensi",
-      "tive\030\010 \001(\0132\033.dstore.values.booleanValue\022" +
-      "\034\n\023case_sensitive_null\030\360\007 \001(\010\022>\n\031output_" +
-      "characteristic_id1\030\t \001(\0132\033.dstore.values" +
-      ".integerValue\022\'\n\036output_characteristic_i" +
-      "d1_null\030\361\007 \001(\010\022>\n\031output_characteristic_" +
-      "id2\030\n \001(\0132\033.dstore.values.integerValue\022\'" +
-      "\n\036output_characteristic_id2_null\030\362\007 \001(\010\022" +
-      ">\n\031output_characteristic_id3\030\013 \001(\0132\033.dst" +
-      "ore.values.integerValue\022\'\n\036output_charac" +
-      "teristic_id3_null\030\363\007 \001(\010\022A\n\034community_bi",
-      "nary_category_id\030\014 \001(\0132\033.dstore.values.i" +
-      "ntegerValue\022*\n!community_binary_category" +
-      "_id_null\030\364\007 \001(\010\0223\n\016exact_matching\030\r \001(\0132" +
-      "\033.dstore.values.booleanValue\022\034\n\023exact_ma" +
-      "tching_null\030\365\007 \001(\010\022G\n\"online_status_inst" +
-      "ead_of_is_online\030\016 \001(\0132\033.dstore.values.b" +
-      "ooleanValue\0220\n\'online_status_instead_of_" +
-      "is_online_null\030\366\007 \001(\010\022:\n\026characteristic_" +
-      "id_list\030\017 \001(\0132\032.dstore.values.stringValu" +
-      "e\022$\n\033characteristic_id_list_null\030\367\007 \001(\010\022",
-      "2\n\016condition_list\030\020 \001(\0132\032.dstore.values." +
-      "stringValue\022\034\n\023condition_list_null\030\370\007 \001(" +
-      "\010\022+\n\007country\030\021 \001(\0132\032.dstore.values.strin" +
-      "gValue\022\025\n\014country_null\030\371\007 \001(\010\0227\n\022output_" +
-      "into_one_id\030\022 \001(\0132\033.dstore.values.intege" +
-      "rValue\022 \n\027output_into_one_id_null\030\372\007 \001(\010" +
-      "\022B\n\035search_only_members_in_one_id\030\023 \001(\0132" +
-      "\033.dstore.values.integerValue\022+\n\"search_o" +
-      "nly_members_in_one_id_null\030\373\007 \001(\010\022A\n\034fil" +
-      "ter_by_binary_category_id\030\024 \001(\0132\033.dstore",
-      ".values.integerValue\022*\n!filter_by_binary" +
-      "_category_id_null\030\374\007 \001(\010\022*\n\005count\030\025 \001(\0132" +
-      "\033.dstore.values.integerValue\022\023\n\ncount_nu" +
-      "ll\030\375\007 \001(\010\0221\n\rlast_nickname\030\026 \001(\0132\032.dstor" +
-      "e.values.stringValue\022\033\n\022last_nickname_nu" +
-      "ll\030\376\007 \001(\010\022)\n\004next\030\027 \001(\0132\033.dstore.values." +
-      "booleanValue\022\022\n\tnext_null\030\377\007 \001(\010\022;\n\027sepa" +
-      "rator_in_ident_vals\030\030 \001(\0132\032.dstore.value" +
-      "s.stringValue\022%\n\034separator_in_ident_vals" +
-      "_null\030\200\010 \001(\010\022?\n\033separator_in_condition_l",
-      "ist\030\031 \001(\0132\032.dstore.values.stringValue\022)\n" +
-      " separator_in_condition_list_null\030\201\010 \001(\010" +
-      "\"\206\n\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.en" +
-      "gine.error.Error\022H\n\020meta_information\030\002 \003" +
-      "(\0132..dstore.engine.metainformation.MetaI" +
-      "nformation\022/\n\007message\030\003 \003(\0132\036.dstore.eng" +
-      "ine.message.Message\022<\n\003row\030\004 \003(\0132/.dstor" +
-      "e.engine.co_SearchMembers_Pu.Response.Ro" +
-      "w\022*\n\005count\030e \001(\0132\033.dstore.values.integer" +
-      "Value\032\351\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022A\n\034value1",
-      "_restricted_by_pattern\030\221N \001(\0132\032.dstore.v" +
-      "alues.stringValue\022/\n\tbinary_id\030\222N \001(\0132\033." +
-      "dstore.values.integerValue\022A\n\034value2_res" +
-      "tricted_by_pattern\030\223N \001(\0132\032.dstore.value" +
-      "s.stringValue\0229\n\023community_member_id\030\224N " +
-      "\001(\0132\033.dstore.values.integerValue\022+\n\006valu" +
-      "e3\030\225N \001(\0132\032.dstore.values.stringValue\0223\n" +
-      "\ronline_status\030\226N \001(\0132\033.dstore.values.in" +
-      "tegerValue\022+\n\006value1\030\227N \001(\0132\032.dstore.val" +
-      "ues.stringValue\022+\n\006value2\030\230N \001(\0132\032.dstor",
-      "e.values.stringValue\022A\n\034value3_restricte" +
-      "d_by_pattern\030\231N \001(\0132\032.dstore.values.stri" +
-      "ngValue\022-\n\010nickname\030\232N \001(\0132\032.dstore.valu" +
-      "es.stringValue\022/\n\tis_online\030\233N \001(\0132\033.dst" +
-      "ore.values.booleanValue\022/\n\toperator1\030\241\234\001" +
-      " \001(\0132\032.dstore.values.stringValue\0220\n\ncond" +
-      "ition1\030\242\234\001 \001(\0132\032.dstore.values.stringVal" +
-      "ue\0220\n\ncondition2\030\243\234\001 \001(\0132\032.dstore.values" +
-      ".stringValue\022/\n\toperator2\030\244\234\001 \001(\0132\032.dsto" +
-      "re.values.stringValue\022@\n\032characteristic_",
-      "description\030\245\234\001 \001(\0132\032.dstore.values.stri" +
-      "ngValue\022>\n\027estimated_rows_affected\030\246\234\001 \001" +
-      "(\0132\033.dstore.values.integerValue\0228\n\021chara" +
-      "cteristic_id\030\247\234\001 \001(\0132\033.dstore.values.int" +
-      "egerValueBT\n\033io.dstore.engine.procedures" +
-      "Z5gosdk.dstore.de/engine/procedures/co_S" +
-      "earchMembers_Pub\006proto3"
+      "bers_Pu\032\023dstore/values.proto\032\033dstore/eng" +
+      "ine/message.proto\032#dstore/engine/metainf" +
+      "ormation.proto\"\344\021\n\nParameters\022-\n\010rowcoun" +
+      "t\030\001 \001(\0132\033.dstore.values.integerValue\022\026\n\r" +
+      "rowcount_null\030\351\007 \001(\010\022+\n\006result\030\002 \001(\0132\033.d" +
+      "store.values.integerValue\022\024\n\013result_null" +
+      "\030\352\007 \001(\010\022-\n\tunique_id\030\003 \001(\0132\032.dstore.valu" +
+      "es.stringValue\022\027\n\016unique_id_null\030\353\007 \001(\010\022",
+      "@\n\034person_identification_values\030\004 \001(\0132\032." +
+      "dstore.values.stringValue\022*\n!person_iden" +
+      "tification_values_null\030\354\007 \001(\010\0221\n\014communi" +
+      "ty_id\030\005 \001(\0132\033.dstore.values.integerValue" +
+      "\022\032\n\021community_id_null\030\355\007 \001(\010\0221\n\rsearch_s" +
+      "tring\030\006 \001(\0132\032.dstore.values.stringValue\022" +
+      "\033\n\022search_string_null\030\356\007 \001(\010\0227\n\022max_numb" +
+      "er_of_rows\030\007 \001(\0132\033.dstore.values.integer" +
+      "Value\022 \n\027max_number_of_rows_null\030\357\007 \001(\010\022" +
+      "3\n\016case_sensitive\030\010 \001(\0132\033.dstore.values.",
+      "booleanValue\022\034\n\023case_sensitive_null\030\360\007 \001" +
+      "(\010\022>\n\031output_characteristic_id1\030\t \001(\0132\033." +
+      "dstore.values.integerValue\022\'\n\036output_cha" +
+      "racteristic_id1_null\030\361\007 \001(\010\022>\n\031output_ch" +
+      "aracteristic_id2\030\n \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022\'\n\036output_characteristic_id2" +
+      "_null\030\362\007 \001(\010\022>\n\031output_characteristic_id" +
+      "3\030\013 \001(\0132\033.dstore.values.integerValue\022\'\n\036" +
+      "output_characteristic_id3_null\030\363\007 \001(\010\022A\n" +
+      "\034community_binary_category_id\030\014 \001(\0132\033.ds",
+      "tore.values.integerValue\022*\n!community_bi" +
+      "nary_category_id_null\030\364\007 \001(\010\0223\n\016exact_ma" +
+      "tching\030\r \001(\0132\033.dstore.values.booleanValu" +
+      "e\022\034\n\023exact_matching_null\030\365\007 \001(\010\022G\n\"onlin" +
+      "e_status_instead_of_is_online\030\016 \001(\0132\033.ds" +
+      "tore.values.booleanValue\0220\n\'online_statu" +
+      "s_instead_of_is_online_null\030\366\007 \001(\010\022:\n\026ch" +
+      "aracteristic_id_list\030\017 \001(\0132\032.dstore.valu" +
+      "es.stringValue\022$\n\033characteristic_id_list" +
+      "_null\030\367\007 \001(\010\0222\n\016condition_list\030\020 \001(\0132\032.d",
+      "store.values.stringValue\022\034\n\023condition_li" +
+      "st_null\030\370\007 \001(\010\022+\n\007country\030\021 \001(\0132\032.dstore" +
+      ".values.stringValue\022\025\n\014country_null\030\371\007 \001" +
+      "(\010\0227\n\022output_into_one_id\030\022 \001(\0132\033.dstore." +
+      "values.integerValue\022 \n\027output_into_one_i" +
+      "d_null\030\372\007 \001(\010\022B\n\035search_only_members_in_" +
+      "one_id\030\023 \001(\0132\033.dstore.values.integerValu" +
+      "e\022+\n\"search_only_members_in_one_id_null\030" +
+      "\373\007 \001(\010\022A\n\034filter_by_binary_category_id\030\024" +
+      " \001(\0132\033.dstore.values.integerValue\022*\n!fil",
+      "ter_by_binary_category_id_null\030\374\007 \001(\010\022*\n" +
+      "\005count\030\025 \001(\0132\033.dstore.values.integerValu" +
+      "e\022\023\n\ncount_null\030\375\007 \001(\010\0221\n\rlast_nickname\030" +
+      "\026 \001(\0132\032.dstore.values.stringValue\022\033\n\022las" +
+      "t_nickname_null\030\376\007 \001(\010\022)\n\004next\030\027 \001(\0132\033.d" +
+      "store.values.booleanValue\022\022\n\tnext_null\030\377" +
+      "\007 \001(\010\022;\n\027separator_in_ident_vals\030\030 \001(\0132\032" +
+      ".dstore.values.stringValue\022%\n\034separator_" +
+      "in_ident_vals_null\030\200\010 \001(\010\022?\n\033separator_i" +
+      "n_condition_list\030\031 \001(\0132\032.dstore.values.s",
+      "tringValue\022)\n separator_in_condition_lis" +
+      "t_null\030\201\010 \001(\010\"\333\t\n\010Response\022H\n\020meta_infor" +
+      "mation\030\002 \003(\0132..dstore.engine.metainforma" +
+      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036." +
+      "dstore.engine.message.Message\022<\n\003row\030\004 \003" +
+      "(\0132/.dstore.engine.co_SearchMembers_Pu.R" +
+      "esponse.Row\022*\n\005count\030e \001(\0132\033.dstore.valu" +
+      "es.integerValue\032\351\007\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
+      "\022A\n\034value1_restricted_by_pattern\030\221N \001(\0132" +
+      "\032.dstore.values.stringValue\022/\n\tbinary_id",
+      "\030\222N \001(\0132\033.dstore.values.integerValue\022A\n\034" +
+      "value2_restricted_by_pattern\030\223N \001(\0132\032.ds" +
+      "tore.values.stringValue\0229\n\023community_mem" +
+      "ber_id\030\224N \001(\0132\033.dstore.values.integerVal" +
+      "ue\022+\n\006value3\030\225N \001(\0132\032.dstore.values.stri" +
+      "ngValue\0223\n\ronline_status\030\226N \001(\0132\033.dstore" +
+      ".values.integerValue\022+\n\006value1\030\227N \001(\0132\032." +
+      "dstore.values.stringValue\022+\n\006value2\030\230N \001" +
+      "(\0132\032.dstore.values.stringValue\022A\n\034value3" +
+      "_restricted_by_pattern\030\231N \001(\0132\032.dstore.v",
+      "alues.stringValue\022-\n\010nickname\030\232N \001(\0132\032.d" +
+      "store.values.stringValue\022/\n\tis_online\030\233N" +
+      " \001(\0132\033.dstore.values.booleanValue\022/\n\tope" +
+      "rator1\030\241\234\001 \001(\0132\032.dstore.values.stringVal" +
+      "ue\0220\n\ncondition1\030\242\234\001 \001(\0132\032.dstore.values" +
+      ".stringValue\0220\n\ncondition2\030\243\234\001 \001(\0132\032.dst" +
+      "ore.values.stringValue\022/\n\toperator2\030\244\234\001 " +
+      "\001(\0132\032.dstore.values.stringValue\022@\n\032chara" +
+      "cteristic_description\030\245\234\001 \001(\0132\032.dstore.v" +
+      "alues.stringValue\022>\n\027estimated_rows_affe",
+      "cted\030\246\234\001 \001(\0132\033.dstore.values.integerValu" +
+      "e\0228\n\021characteristic_id\030\247\234\001 \001(\0132\033.dstore." +
+      "values.integerValueBT\n\033io.dstore.engine." +
+      "proceduresZ5gosdk.dstore.de/engine/proce" +
+      "dures/co_SearchMembers_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -13115,7 +12928,6 @@ public final class CoSearchMembersPu {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
@@ -13130,7 +12942,7 @@ public final class CoSearchMembersPu {
     internal_static_dstore_engine_co_SearchMembers_Pu_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_SearchMembers_Pu_Response_descriptor,
-        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", "Count", });
+        new java.lang.String[] { "MetaInformation", "Message", "Row", "Count", });
     internal_static_dstore_engine_co_SearchMembers_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_co_SearchMembers_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_co_SearchMembers_Pu_Response_Row_fieldAccessorTable = new
@@ -13138,7 +12950,6 @@ public final class CoSearchMembersPu {
         internal_static_dstore_engine_co_SearchMembers_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value1RestrictedByPattern", "BinaryId", "Value2RestrictedByPattern", "CommunityMemberId", "Value3", "OnlineStatus", "Value1", "Value2", "Value3RestrictedByPattern", "Nickname", "IsOnline", "Operator1", "Condition1", "Condition2", "Operator2", "CharacteristicDescription", "EstimatedRowsAffected", "CharacteristicId", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
   }

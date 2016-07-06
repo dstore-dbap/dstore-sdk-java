@@ -1061,19 +1061,6 @@ public final class OmGetOrderStatesInCatsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.Error getError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
      */
     java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
@@ -1206,39 +1193,26 @@ public final class OmGetOrderStatesInCatsAd {
               }
               break;
             }
-            case 10: {
-              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response.Row>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               row_.add(input.readMessage(io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response.Row.parser(), extensionRegistry));
               break;
@@ -1252,13 +1226,13 @@ public final class OmGetOrderStatesInCatsAd {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = java.util.Collections.unmodifiableList(message_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -3366,28 +3340,6 @@ public final class OmGetOrderStatesInCatsAd {
 
     }
 
-    private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.EngineError.Error error_;
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.Error getError() {
-      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
     /**
@@ -3525,9 +3477,6 @@ public final class OmGetOrderStatesInCatsAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         output.writeMessage(2, metaInformation_.get(i));
       }
@@ -3544,10 +3493,6 @@ public final class OmGetOrderStatesInCatsAd {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, metaInformation_.get(i));
@@ -3674,27 +3619,21 @@ public final class OmGetOrderStatesInCatsAd {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           metaInformationBuilder_.clear();
         }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           rowBuilder_.clear();
         }
@@ -3721,40 +3660,33 @@ public final class OmGetOrderStatesInCatsAd {
       public io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response buildPartial() {
         io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response result = new io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response(this);
         int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (metaInformationBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.metaInformation_ = metaInformation_;
         } else {
           result.metaInformation_ = metaInformationBuilder_.build();
         }
         if (messageBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             message_ = java.util.Collections.unmodifiableList(message_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.row_ = row_;
         } else {
           result.row_ = rowBuilder_.build();
         }
-        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -3770,14 +3702,11 @@ public final class OmGetOrderStatesInCatsAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response other) {
         if (other == io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (metaInformationBuilder_ == null) {
           if (!other.metaInformation_.isEmpty()) {
             if (metaInformation_.isEmpty()) {
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureMetaInformationIsMutable();
               metaInformation_.addAll(other.metaInformation_);
@@ -3790,7 +3719,7 @@ public final class OmGetOrderStatesInCatsAd {
               metaInformationBuilder_.dispose();
               metaInformationBuilder_ = null;
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
@@ -3803,7 +3732,7 @@ public final class OmGetOrderStatesInCatsAd {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -3816,7 +3745,7 @@ public final class OmGetOrderStatesInCatsAd {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -3829,7 +3758,7 @@ public final class OmGetOrderStatesInCatsAd {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -3842,7 +3771,7 @@ public final class OmGetOrderStatesInCatsAd {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -3878,129 +3807,12 @@ public final class OmGetOrderStatesInCatsAd {
       }
       private int bitField0_;
 
-      private io.dstore.engine.EngineError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.engine.EngineError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -4150,7 +3962,7 @@ public final class OmGetOrderStatesInCatsAd {
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           metaInformationBuilder_.clear();
@@ -4227,7 +4039,7 @@ public final class OmGetOrderStatesInCatsAd {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           metaInformation_ = null;
@@ -4238,9 +4050,9 @@ public final class OmGetOrderStatesInCatsAd {
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -4390,7 +4202,7 @@ public final class OmGetOrderStatesInCatsAd {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -4467,7 +4279,7 @@ public final class OmGetOrderStatesInCatsAd {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -4478,9 +4290,9 @@ public final class OmGetOrderStatesInCatsAd {
       private java.util.List<io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response.Row>(row_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -4674,7 +4486,7 @@ public final class OmGetOrderStatesInCatsAd {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -4779,7 +4591,7 @@ public final class OmGetOrderStatesInCatsAd {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response.Row, io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -4871,35 +4683,33 @@ public final class OmGetOrderStatesInCatsAd {
       "\n9dstore/engine/procedures/om_GetOrderSt" +
       "atesInCats_Ad.proto\022(dstore.engine.om_Ge" +
       "tOrderStatesInCats_Ad\032\023dstore/values.pro" +
-      "to\032\031dstore/engine/error.proto\032\033dstore/en" +
-      "gine/message.proto\032#dstore/engine/metain" +
-      "formation.proto\"\373\001\n\nParameters\022<\n\027order_" +
-      "state_category_id\030\001 \001(\0132\033.dstore.values." +
-      "integerValue\022%\n\034order_state_category_id_" +
-      "null\030\351\007 \001(\010\022-\n\010order_by\030\002 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\026\n\rorder_by_null\030\352\007 \001",
-      "(\010\022+\n\006active\030\003 \001(\0132\033.dstore.values.integ" +
-      "erValue\022\024\n\013active_null\030\353\007 \001(\010\"\236\005\n\010Respon" +
-      "se\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error." +
-      "Error\022H\n\020meta_information\030\002 \003(\0132..dstore" +
-      ".engine.metainformation.MetaInformation\022" +
-      "/\n\007message\030\003 \003(\0132\036.dstore.engine.message" +
-      ".Message\022C\n\003row\030\004 \003(\01326.dstore.engine.om" +
-      "_GetOrderStatesInCats_Ad.Response.Row\032\246\003" +
-      "\n\003Row\022\017\n\006row_id\030\220N \001(\005\022E\n order_state_ca" +
-      "tegory_description\030\221N \001(\0132\032.dstore.value",
-      "s.stringValue\022,\n\006active\030\222N \001(\0132\033.dstore." +
-      "values.integerValue\0224\n\016order_state_id\030\223N" +
-      " \001(\0132\033.dstore.values.integerValue\0227\n\022pub" +
-      "lic_description\030\224N \001(\0132\032.dstore.values.s" +
-      "tringValue\022=\n\027order_state_category_id\030\225N" +
-      " \001(\0132\033.dstore.values.integerValue\0220\n\013ord" +
-      "er_state\030\226N \001(\0132\032.dstore.values.stringVa" +
-      "lue\0229\n\024order_state_category\030\227N \001(\0132\032.dst" +
-      "ore.values.stringValueB[\n\033io.dstore.engi" +
-      "ne.proceduresZ<gosdk.dstore.de/engine/pr",
-      "ocedures/om_GetOrderStatesInCats_Adb\006pro" +
-      "to3"
+      "to\032\033dstore/engine/message.proto\032#dstore/" +
+      "engine/metainformation.proto\"\373\001\n\nParamet" +
+      "ers\022<\n\027order_state_category_id\030\001 \001(\0132\033.d" +
+      "store.values.integerValue\022%\n\034order_state" +
+      "_category_id_null\030\351\007 \001(\010\022-\n\010order_by\030\002 \001" +
+      "(\0132\033.dstore.values.integerValue\022\026\n\rorder" +
+      "_by_null\030\352\007 \001(\010\022+\n\006active\030\003 \001(\0132\033.dstore",
+      ".values.integerValue\022\024\n\013active_null\030\353\007 \001" +
+      "(\010\"\363\004\n\010Response\022H\n\020meta_information\030\002 \003(" +
+      "\0132..dstore.engine.metainformation.MetaIn" +
+      "formation\022/\n\007message\030\003 \003(\0132\036.dstore.engi" +
+      "ne.message.Message\022C\n\003row\030\004 \003(\01326.dstore" +
+      ".engine.om_GetOrderStatesInCats_Ad.Respo" +
+      "nse.Row\032\246\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\022E\n orde" +
+      "r_state_category_description\030\221N \001(\0132\032.ds" +
+      "tore.values.stringValue\022,\n\006active\030\222N \001(\013" +
+      "2\033.dstore.values.integerValue\0224\n\016order_s",
+      "tate_id\030\223N \001(\0132\033.dstore.values.integerVa" +
+      "lue\0227\n\022public_description\030\224N \001(\0132\032.dstor" +
+      "e.values.stringValue\022=\n\027order_state_cate" +
+      "gory_id\030\225N \001(\0132\033.dstore.values.integerVa" +
+      "lue\0220\n\013order_state\030\226N \001(\0132\032.dstore.value" +
+      "s.stringValue\0229\n\024order_state_category\030\227N" +
+      " \001(\0132\032.dstore.values.stringValueB[\n\033io.d" +
+      "store.engine.proceduresZ<gosdk.dstore.de" +
+      "/engine/procedures/om_GetOrderStatesInCa" +
+      "ts_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4913,7 +4723,6 @@ public final class OmGetOrderStatesInCatsAd {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
@@ -4928,7 +4737,7 @@ public final class OmGetOrderStatesInCatsAd {
     internal_static_dstore_engine_om_GetOrderStatesInCats_Ad_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetOrderStatesInCats_Ad_Response_descriptor,
-        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", });
+        new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetOrderStatesInCats_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetOrderStatesInCats_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetOrderStatesInCats_Ad_Response_Row_fieldAccessorTable = new
@@ -4936,7 +4745,6 @@ public final class OmGetOrderStatesInCatsAd {
         internal_static_dstore_engine_om_GetOrderStatesInCats_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "OrderStateCategoryDescription", "Active", "OrderStateId", "PublicDescription", "OrderStateCategoryId", "OrderState", "OrderStateCategory", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
   }

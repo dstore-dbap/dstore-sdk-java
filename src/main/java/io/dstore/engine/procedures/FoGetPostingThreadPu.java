@@ -3745,19 +3745,6 @@ public final class FoGetPostingThreadPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.Error getError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
      */
     java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
@@ -3890,39 +3877,26 @@ public final class FoGetPostingThreadPu {
               }
               break;
             }
-            case 10: {
-              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.FoGetPostingThreadPu.Response.Row>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               row_.add(input.readMessage(io.dstore.engine.procedures.FoGetPostingThreadPu.Response.Row.parser(), extensionRegistry));
               break;
@@ -3936,13 +3910,13 @@ public final class FoGetPostingThreadPu {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = java.util.Collections.unmodifiableList(message_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -8745,28 +8719,6 @@ public final class FoGetPostingThreadPu {
 
     }
 
-    private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.EngineError.Error error_;
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.Error getError() {
-      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
     /**
@@ -8904,9 +8856,6 @@ public final class FoGetPostingThreadPu {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         output.writeMessage(2, metaInformation_.get(i));
       }
@@ -8923,10 +8872,6 @@ public final class FoGetPostingThreadPu {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, metaInformation_.get(i));
@@ -9053,27 +8998,21 @@ public final class FoGetPostingThreadPu {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           metaInformationBuilder_.clear();
         }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           rowBuilder_.clear();
         }
@@ -9100,40 +9039,33 @@ public final class FoGetPostingThreadPu {
       public io.dstore.engine.procedures.FoGetPostingThreadPu.Response buildPartial() {
         io.dstore.engine.procedures.FoGetPostingThreadPu.Response result = new io.dstore.engine.procedures.FoGetPostingThreadPu.Response(this);
         int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (metaInformationBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.metaInformation_ = metaInformation_;
         } else {
           result.metaInformation_ = metaInformationBuilder_.build();
         }
         if (messageBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             message_ = java.util.Collections.unmodifiableList(message_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.row_ = row_;
         } else {
           result.row_ = rowBuilder_.build();
         }
-        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -9149,14 +9081,11 @@ public final class FoGetPostingThreadPu {
 
       public Builder mergeFrom(io.dstore.engine.procedures.FoGetPostingThreadPu.Response other) {
         if (other == io.dstore.engine.procedures.FoGetPostingThreadPu.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (metaInformationBuilder_ == null) {
           if (!other.metaInformation_.isEmpty()) {
             if (metaInformation_.isEmpty()) {
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureMetaInformationIsMutable();
               metaInformation_.addAll(other.metaInformation_);
@@ -9169,7 +9098,7 @@ public final class FoGetPostingThreadPu {
               metaInformationBuilder_.dispose();
               metaInformationBuilder_ = null;
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
@@ -9182,7 +9111,7 @@ public final class FoGetPostingThreadPu {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -9195,7 +9124,7 @@ public final class FoGetPostingThreadPu {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -9208,7 +9137,7 @@ public final class FoGetPostingThreadPu {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -9221,7 +9150,7 @@ public final class FoGetPostingThreadPu {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -9257,129 +9186,12 @@ public final class FoGetPostingThreadPu {
       }
       private int bitField0_;
 
-      private io.dstore.engine.EngineError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.engine.EngineError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -9529,7 +9341,7 @@ public final class FoGetPostingThreadPu {
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           metaInformationBuilder_.clear();
@@ -9606,7 +9418,7 @@ public final class FoGetPostingThreadPu {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           metaInformation_ = null;
@@ -9617,9 +9429,9 @@ public final class FoGetPostingThreadPu {
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -9769,7 +9581,7 @@ public final class FoGetPostingThreadPu {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -9846,7 +9658,7 @@ public final class FoGetPostingThreadPu {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -9857,9 +9669,9 @@ public final class FoGetPostingThreadPu {
       private java.util.List<io.dstore.engine.procedures.FoGetPostingThreadPu.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procedures.FoGetPostingThreadPu.Response.Row>(row_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -10053,7 +9865,7 @@ public final class FoGetPostingThreadPu {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -10158,7 +9970,7 @@ public final class FoGetPostingThreadPu {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procedures.FoGetPostingThreadPu.Response.Row, io.dstore.engine.procedures.FoGetPostingThreadPu.Response.Row.Builder, io.dstore.engine.procedures.FoGetPostingThreadPu.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -10249,73 +10061,72 @@ public final class FoGetPostingThreadPu {
     java.lang.String[] descriptorData = {
       "\n5dstore/engine/procedures/fo_GetPosting" +
       "Thread_Pu.proto\022$dstore.engine.fo_GetPos" +
-      "tingThread_Pu\032\023dstore/values.proto\032\031dsto" +
-      "re/engine/error.proto\032\033dstore/engine/mes" +
-      "sage.proto\032#dstore/engine/metainformatio" +
-      "n.proto\"\347\t\n\nParameters\022@\n\034person_identif" +
-      "ication_values\030\001 \001(\0132\032.dstore.values.str" +
-      "ingValue\022*\n!person_identification_values" +
-      "_null\030\351\007 \001(\010\0223\n\016person_type_id\030\002 \001(\0132\033.d" +
-      "store.values.integerValue\022\034\n\023person_type",
-      "_id_null\030\352\007 \001(\010\022-\n\tunique_id\030\003 \001(\0132\032.dst" +
-      "ore.values.stringValue\022\027\n\016unique_id_null" +
-      "\030\353\007 \001(\010\022-\n\010forum_id\030\004 \001(\0132\033.dstore.value" +
-      "s.integerValue\022\026\n\rforum_id_null\030\354\007 \001(\010\022/" +
-      "\n\nposting_id\030\005 \001(\0132\033.dstore.values.integ" +
-      "erValue\022\030\n\017posting_id_null\030\355\007 \001(\010\0224\n\017roo" +
-      "t_posting_id\030\006 \001(\0132\033.dstore.values.integ" +
-      "erValue\022\035\n\024root_posting_id_null\030\356\007 \001(\010\0229" +
-      "\n\024max_number_of_levels\030\007 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\"\n\031max_number_of_level",
-      "s_null\030\357\007 \001(\010\022;\n\026max_number_of_postings\030" +
-      "\010 \001(\0132\033.dstore.values.integerValue\022$\n\033ma" +
-      "x_number_of_postings_null\030\360\007 \001(\010\022;\n\026incl" +
-      "ude_posting_bodies\030\t \001(\0132\033.dstore.values" +
-      ".booleanValue\022$\n\033include_posting_bodies_" +
-      "null\030\361\007 \001(\010\022/\n\nvisibility\030\n \001(\0132\033.dstore" +
-      ".values.integerValue\022\030\n\017visibility_null\030" +
-      "\362\007 \001(\010\022/\n\norder_desc\030\013 \001(\0132\033.dstore.valu" +
-      "es.booleanValue\022\030\n\017order_desc_null\030\363\007 \001(" +
-      "\010\022B\n\035get_own_not_approved_postings\030\014 \001(\013",
-      "2\033.dstore.values.booleanValue\022+\n\"get_own" +
-      "_not_approved_postings_null\030\364\007 \001(\010\0227\n\022ou" +
-      "tput_into_one_id\030\r \001(\0132\033.dstore.values.i" +
-      "ntegerValue\022 \n\027output_into_one_id_null\030\365" +
-      "\007 \001(\010\022;\n\027separator_in_ident_vals\030\016 \001(\0132\032" +
-      ".dstore.values.stringValue\022%\n\034separator_" +
-      "in_ident_vals_null\030\366\007 \001(\010\"\245\t\n\010Response\022)" +
-      "\n\005error\030\001 \001(\0132\032.dstore.engine.error.Erro" +
-      "r\022H\n\020meta_information\030\002 \003(\0132..dstore.eng" +
-      "ine.metainformation.MetaInformation\022/\n\007m",
-      "essage\030\003 \003(\0132\036.dstore.engine.message.Mes" +
-      "sage\022?\n\003row\030\004 \003(\01322.dstore.engine.fo_Get" +
-      "PostingThread_Pu.Response.Row\032\261\007\n\003Row\022\017\n" +
-      "\006row_id\030\220N \001(\005\0222\n\014already_read\030\221N \001(\0132\033." +
-      "dstore.values.booleanValue\022/\n\nsmall_body" +
-      "\030\222N \001(\0132\032.dstore.values.stringValue\0220\n\np" +
-      "osting_id\030\223N \001(\0132\033.dstore.values.integer" +
-      "Value\022.\n\010level_no\030\224N \001(\0132\033.dstore.values" +
-      ".integerValue\0229\n\023reply_to_posting_id\030\225N " +
-      "\001(\0132\033.dstore.values.integerValue\022,\n\007subj",
-      "ect\030\226N \001(\0132\032.dstore.values.stringValue\0228" +
-      "\n\022postings_in_thread\030\227N \001(\0132\033.dstore.val" +
-      "ues.integerValue\0225\n\020e_mail_of_author\030\230N " +
-      "\001(\0132\032.dstore.values.stringValue\022/\n\tperso" +
-      "n_id\030\231N \001(\0132\033.dstore.values.integerValue" +
-      "\0221\n\013is_expanded\030\232N \001(\0132\033.dstore.values.b" +
-      "ooleanValue\0225\n\017main_posting_id\030\233N \001(\0132\033." +
-      "dstore.values.integerValue\0222\n\014has_binari" +
-      "es\030\234N \001(\0132\033.dstore.values.booleanValue\022-" +
-      "\n\007visible\030\235N \001(\0132\033.dstore.values.integer",
-      "Value\022+\n\006author\030\236N \001(\0132\032.dstore.values.s" +
-      "tringValue\0224\n\016has_successors\030\237N \001(\0132\033.ds" +
-      "tore.values.booleanValue\022.\n\tpost_date\030\240N" +
-      " \001(\0132\032.dstore.values.stringValue\022<\n\026new_" +
-      "postings_in_thread\030\241N \001(\0132\033.dstore.value" +
-      "s.integerValue\022)\n\004body\030\242N \001(\0132\032.dstore.v" +
-      "alues.stringValueBW\n\033io.dstore.engine.pr" +
-      "oceduresZ8gosdk.dstore.de/engine/procedu" +
-      "res/fo_GetPostingThread_Pub\006proto3"
+      "tingThread_Pu\032\023dstore/values.proto\032\033dsto" +
+      "re/engine/message.proto\032#dstore/engine/m" +
+      "etainformation.proto\"\347\t\n\nParameters\022@\n\034p" +
+      "erson_identification_values\030\001 \001(\0132\032.dsto" +
+      "re.values.stringValue\022*\n!person_identifi" +
+      "cation_values_null\030\351\007 \001(\010\0223\n\016person_type" +
+      "_id\030\002 \001(\0132\033.dstore.values.integerValue\022\034" +
+      "\n\023person_type_id_null\030\352\007 \001(\010\022-\n\tunique_i",
+      "d\030\003 \001(\0132\032.dstore.values.stringValue\022\027\n\016u" +
+      "nique_id_null\030\353\007 \001(\010\022-\n\010forum_id\030\004 \001(\0132\033" +
+      ".dstore.values.integerValue\022\026\n\rforum_id_" +
+      "null\030\354\007 \001(\010\022/\n\nposting_id\030\005 \001(\0132\033.dstore" +
+      ".values.integerValue\022\030\n\017posting_id_null\030" +
+      "\355\007 \001(\010\0224\n\017root_posting_id\030\006 \001(\0132\033.dstore" +
+      ".values.integerValue\022\035\n\024root_posting_id_" +
+      "null\030\356\007 \001(\010\0229\n\024max_number_of_levels\030\007 \001(" +
+      "\0132\033.dstore.values.integerValue\022\"\n\031max_nu" +
+      "mber_of_levels_null\030\357\007 \001(\010\022;\n\026max_number",
+      "_of_postings\030\010 \001(\0132\033.dstore.values.integ" +
+      "erValue\022$\n\033max_number_of_postings_null\030\360" +
+      "\007 \001(\010\022;\n\026include_posting_bodies\030\t \001(\0132\033." +
+      "dstore.values.booleanValue\022$\n\033include_po" +
+      "sting_bodies_null\030\361\007 \001(\010\022/\n\nvisibility\030\n" +
+      " \001(\0132\033.dstore.values.integerValue\022\030\n\017vis" +
+      "ibility_null\030\362\007 \001(\010\022/\n\norder_desc\030\013 \001(\0132" +
+      "\033.dstore.values.booleanValue\022\030\n\017order_de" +
+      "sc_null\030\363\007 \001(\010\022B\n\035get_own_not_approved_p" +
+      "ostings\030\014 \001(\0132\033.dstore.values.booleanVal",
+      "ue\022+\n\"get_own_not_approved_postings_null" +
+      "\030\364\007 \001(\010\0227\n\022output_into_one_id\030\r \001(\0132\033.ds" +
+      "tore.values.integerValue\022 \n\027output_into_" +
+      "one_id_null\030\365\007 \001(\010\022;\n\027separator_in_ident" +
+      "_vals\030\016 \001(\0132\032.dstore.values.stringValue\022" +
+      "%\n\034separator_in_ident_vals_null\030\366\007 \001(\010\"\372" +
+      "\010\n\010Response\022H\n\020meta_information\030\002 \003(\0132.." +
+      "dstore.engine.metainformation.MetaInform" +
+      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
+      "essage.Message\022?\n\003row\030\004 \003(\01322.dstore.eng",
+      "ine.fo_GetPostingThread_Pu.Response.Row\032" +
+      "\261\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\0222\n\014already_read" +
+      "\030\221N \001(\0132\033.dstore.values.booleanValue\022/\n\n" +
+      "small_body\030\222N \001(\0132\032.dstore.values.string" +
+      "Value\0220\n\nposting_id\030\223N \001(\0132\033.dstore.valu" +
+      "es.integerValue\022.\n\010level_no\030\224N \001(\0132\033.dst" +
+      "ore.values.integerValue\0229\n\023reply_to_post" +
+      "ing_id\030\225N \001(\0132\033.dstore.values.integerVal" +
+      "ue\022,\n\007subject\030\226N \001(\0132\032.dstore.values.str" +
+      "ingValue\0228\n\022postings_in_thread\030\227N \001(\0132\033.",
+      "dstore.values.integerValue\0225\n\020e_mail_of_" +
+      "author\030\230N \001(\0132\032.dstore.values.stringValu" +
+      "e\022/\n\tperson_id\030\231N \001(\0132\033.dstore.values.in" +
+      "tegerValue\0221\n\013is_expanded\030\232N \001(\0132\033.dstor" +
+      "e.values.booleanValue\0225\n\017main_posting_id" +
+      "\030\233N \001(\0132\033.dstore.values.integerValue\0222\n\014" +
+      "has_binaries\030\234N \001(\0132\033.dstore.values.bool" +
+      "eanValue\022-\n\007visible\030\235N \001(\0132\033.dstore.valu" +
+      "es.integerValue\022+\n\006author\030\236N \001(\0132\032.dstor" +
+      "e.values.stringValue\0224\n\016has_successors\030\237",
+      "N \001(\0132\033.dstore.values.booleanValue\022.\n\tpo" +
+      "st_date\030\240N \001(\0132\032.dstore.values.stringVal" +
+      "ue\022<\n\026new_postings_in_thread\030\241N \001(\0132\033.ds" +
+      "tore.values.integerValue\022)\n\004body\030\242N \001(\0132" +
+      "\032.dstore.values.stringValueBW\n\033io.dstore" +
+      ".engine.proceduresZ8gosdk.dstore.de/engi" +
+      "ne/procedures/fo_GetPostingThread_Pub\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -10329,7 +10140,6 @@ public final class FoGetPostingThreadPu {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
@@ -10344,7 +10154,7 @@ public final class FoGetPostingThreadPu {
     internal_static_dstore_engine_fo_GetPostingThread_Pu_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetPostingThread_Pu_Response_descriptor,
-        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", });
+        new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_fo_GetPostingThread_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_fo_GetPostingThread_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_fo_GetPostingThread_Pu_Response_Row_fieldAccessorTable = new
@@ -10352,7 +10162,6 @@ public final class FoGetPostingThreadPu {
         internal_static_dstore_engine_fo_GetPostingThread_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "AlreadyRead", "SmallBody", "PostingId", "LevelNo", "ReplyToPostingId", "Subject", "PostingsInThread", "EMailOfAuthor", "PersonId", "IsExpanded", "MainPostingId", "HasBinaries", "Visible", "Author", "HasSuccessors", "PostDate", "NewPostingsInThread", "Body", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
   }

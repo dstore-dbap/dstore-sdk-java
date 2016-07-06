@@ -817,19 +817,6 @@ public final class PmConsistencyCheckAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.Error getError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
      */
     java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
@@ -962,39 +949,26 @@ public final class PmConsistencyCheckAd {
               }
               break;
             }
-            case 10: {
-              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.PmConsistencyCheckAd.Response.Row>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               row_.add(input.readMessage(io.dstore.engine.procedures.PmConsistencyCheckAd.Response.Row.parser(), extensionRegistry));
               break;
@@ -1008,13 +982,13 @@ public final class PmConsistencyCheckAd {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = java.util.Collections.unmodifiableList(message_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -5327,28 +5301,6 @@ public final class PmConsistencyCheckAd {
 
     }
 
-    private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.EngineError.Error error_;
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.Error getError() {
-      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
     /**
@@ -5486,9 +5438,6 @@ public final class PmConsistencyCheckAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         output.writeMessage(2, metaInformation_.get(i));
       }
@@ -5505,10 +5454,6 @@ public final class PmConsistencyCheckAd {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, metaInformation_.get(i));
@@ -5635,27 +5580,21 @@ public final class PmConsistencyCheckAd {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           metaInformationBuilder_.clear();
         }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           rowBuilder_.clear();
         }
@@ -5682,40 +5621,33 @@ public final class PmConsistencyCheckAd {
       public io.dstore.engine.procedures.PmConsistencyCheckAd.Response buildPartial() {
         io.dstore.engine.procedures.PmConsistencyCheckAd.Response result = new io.dstore.engine.procedures.PmConsistencyCheckAd.Response(this);
         int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (metaInformationBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.metaInformation_ = metaInformation_;
         } else {
           result.metaInformation_ = metaInformationBuilder_.build();
         }
         if (messageBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             message_ = java.util.Collections.unmodifiableList(message_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.row_ = row_;
         } else {
           result.row_ = rowBuilder_.build();
         }
-        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -5731,14 +5663,11 @@ public final class PmConsistencyCheckAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.PmConsistencyCheckAd.Response other) {
         if (other == io.dstore.engine.procedures.PmConsistencyCheckAd.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (metaInformationBuilder_ == null) {
           if (!other.metaInformation_.isEmpty()) {
             if (metaInformation_.isEmpty()) {
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureMetaInformationIsMutable();
               metaInformation_.addAll(other.metaInformation_);
@@ -5751,7 +5680,7 @@ public final class PmConsistencyCheckAd {
               metaInformationBuilder_.dispose();
               metaInformationBuilder_ = null;
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
@@ -5764,7 +5693,7 @@ public final class PmConsistencyCheckAd {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -5777,7 +5706,7 @@ public final class PmConsistencyCheckAd {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -5790,7 +5719,7 @@ public final class PmConsistencyCheckAd {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -5803,7 +5732,7 @@ public final class PmConsistencyCheckAd {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -5839,129 +5768,12 @@ public final class PmConsistencyCheckAd {
       }
       private int bitField0_;
 
-      private io.dstore.engine.EngineError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.engine.EngineError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -6111,7 +5923,7 @@ public final class PmConsistencyCheckAd {
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           metaInformationBuilder_.clear();
@@ -6188,7 +6000,7 @@ public final class PmConsistencyCheckAd {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           metaInformation_ = null;
@@ -6199,9 +6011,9 @@ public final class PmConsistencyCheckAd {
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -6351,7 +6163,7 @@ public final class PmConsistencyCheckAd {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -6428,7 +6240,7 @@ public final class PmConsistencyCheckAd {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -6439,9 +6251,9 @@ public final class PmConsistencyCheckAd {
       private java.util.List<io.dstore.engine.procedures.PmConsistencyCheckAd.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procedures.PmConsistencyCheckAd.Response.Row>(row_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -6635,7 +6447,7 @@ public final class PmConsistencyCheckAd {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -6740,7 +6552,7 @@ public final class PmConsistencyCheckAd {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procedures.PmConsistencyCheckAd.Response.Row, io.dstore.engine.procedures.PmConsistencyCheckAd.Response.Row.Builder, io.dstore.engine.procedures.PmConsistencyCheckAd.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -6831,47 +6643,46 @@ public final class PmConsistencyCheckAd {
     java.lang.String[] descriptorData = {
       "\n5dstore/engine/procedures/pm_Consistenc" +
       "yCheck_Ad.proto\022$dstore.engine.pm_Consis" +
-      "tencyCheck_Ad\032\023dstore/values.proto\032\031dsto" +
-      "re/engine/error.proto\032\033dstore/engine/mes" +
-      "sage.proto\032#dstore/engine/metainformatio" +
-      "n.proto\"\304\001\n\nParameters\022=\n\030person_charact" +
-      "eristic_id\030\001 \001(\0132\033.dstore.values.integer" +
-      "Value\022&\n\035person_characteristic_id_null\030\351" +
-      "\007 \001(\010\0222\n\rwhat_to_check\030\002 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\033\n\022what_to_check_null\030",
-      "\352\007 \001(\010\"\273\t\n\010Response\022)\n\005error\030\001 \001(\0132\032.dst" +
-      "ore.engine.error.Error\022H\n\020meta_informati" +
-      "on\030\002 \003(\0132..dstore.engine.metainformation" +
-      ".MetaInformation\022/\n\007message\030\003 \003(\0132\036.dsto" +
-      "re.engine.message.Message\022?\n\003row\030\004 \003(\01322" +
-      ".dstore.engine.pm_ConsistencyCheck_Ad.Re" +
-      "sponse.Row\032\307\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022>\n\030p" +
-      "erson_characteristic_id\030\221N \001(\0132\033.dstore." +
-      "values.integerValue\022*\n\005value\030\222N \001(\0132\032.ds" +
-      "tore.values.stringValue\022.\n\010value_id\030\223N \001",
-      "(\0132\033.dstore.values.integerValue\022@\n\032used_" +
-      "by_person_type_bitmap\030\224N \001(\0132\033.dstore.va" +
-      "lues.integerValue\022-\n\007sort_no\030\225N \001(\0132\033.ds" +
-      "tore.values.integerValue\022G\n correct_used" +
-      "_by_person_type_btmp\030\241\234\001 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022E\n\036wrong_used_by_perso" +
-      "n_type_btmp\030\245\234\001 \001(\0132\033.dstore.values.inte" +
-      "gerValue\0229\n\022wrong_count_values\030\261\352\001 \001(\0132\033" +
-      ".dstore.values.integerValue\022F\n first_fou" +
-      "r_characters_lower_case\030\262\352\001 \001(\0132\032.dstore",
-      ".values.stringValue\022;\n\024correct_count_val" +
-      "ues\030\264\352\001 \001(\0132\033.dstore.values.integerValue" +
-      "\022<\n\025correct_count_persons\030\265\352\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\0229\n\022inconsistence_" +
-      "type\030\266\352\001 \001(\0132\033.dstore.values.integerValu" +
-      "e\022:\n\023wrong_count_persons\030\267\352\001 \001(\0132\033.dstor" +
-      "e.values.integerValue\0225\n\016person_type_id\030" +
-      "\270\352\001 \001(\0132\033.dstore.values.integerValue\0224\n\016" +
-      "valuelowercase\030\301\270\002 \001(\0132\032.dstore.values.s" +
-      "tringValue\0220\n\tperson_id\030\302\270\002 \001(\0132\033.dstore",
-      ".values.integerValueBW\n\033io.dstore.engine" +
-      ".proceduresZ8gosdk.dstore.de/engine/proc" +
-      "edures/pm_ConsistencyCheck_Adb\006proto3"
+      "tencyCheck_Ad\032\023dstore/values.proto\032\033dsto" +
+      "re/engine/message.proto\032#dstore/engine/m" +
+      "etainformation.proto\"\304\001\n\nParameters\022=\n\030p" +
+      "erson_characteristic_id\030\001 \001(\0132\033.dstore.v" +
+      "alues.integerValue\022&\n\035person_characteris" +
+      "tic_id_null\030\351\007 \001(\010\0222\n\rwhat_to_check\030\002 \001(" +
+      "\0132\033.dstore.values.integerValue\022\033\n\022what_t" +
+      "o_check_null\030\352\007 \001(\010\"\220\t\n\010Response\022H\n\020meta",
+      "_information\030\002 \003(\0132..dstore.engine.metai" +
+      "nformation.MetaInformation\022/\n\007message\030\003 " +
+      "\003(\0132\036.dstore.engine.message.Message\022?\n\003r" +
+      "ow\030\004 \003(\01322.dstore.engine.pm_ConsistencyC" +
+      "heck_Ad.Response.Row\032\307\007\n\003Row\022\017\n\006row_id\030\220" +
+      "N \001(\005\022>\n\030person_characteristic_id\030\221N \001(\013" +
+      "2\033.dstore.values.integerValue\022*\n\005value\030\222" +
+      "N \001(\0132\032.dstore.values.stringValue\022.\n\010val" +
+      "ue_id\030\223N \001(\0132\033.dstore.values.integerValu" +
+      "e\022@\n\032used_by_person_type_bitmap\030\224N \001(\0132\033",
+      ".dstore.values.integerValue\022-\n\007sort_no\030\225" +
+      "N \001(\0132\033.dstore.values.integerValue\022G\n co" +
+      "rrect_used_by_person_type_btmp\030\241\234\001 \001(\0132\033" +
+      ".dstore.values.integerValue\022E\n\036wrong_use" +
+      "d_by_person_type_btmp\030\245\234\001 \001(\0132\033.dstore.v" +
+      "alues.integerValue\0229\n\022wrong_count_values" +
+      "\030\261\352\001 \001(\0132\033.dstore.values.integerValue\022F\n" +
+      " first_four_characters_lower_case\030\262\352\001 \001(" +
+      "\0132\032.dstore.values.stringValue\022;\n\024correct" +
+      "_count_values\030\264\352\001 \001(\0132\033.dstore.values.in",
+      "tegerValue\022<\n\025correct_count_persons\030\265\352\001 " +
+      "\001(\0132\033.dstore.values.integerValue\0229\n\022inco" +
+      "nsistence_type\030\266\352\001 \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022:\n\023wrong_count_persons\030\267\352\001 \001" +
+      "(\0132\033.dstore.values.integerValue\0225\n\016perso" +
+      "n_type_id\030\270\352\001 \001(\0132\033.dstore.values.intege" +
+      "rValue\0224\n\016valuelowercase\030\301\270\002 \001(\0132\032.dstor" +
+      "e.values.stringValue\0220\n\tperson_id\030\302\270\002 \001(" +
+      "\0132\033.dstore.values.integerValueBW\n\033io.dst" +
+      "ore.engine.proceduresZ8gosdk.dstore.de/e",
+      "ngine/procedures/pm_ConsistencyCheck_Adb" +
+      "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -6885,7 +6696,6 @@ public final class PmConsistencyCheckAd {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
@@ -6900,7 +6710,7 @@ public final class PmConsistencyCheckAd {
     internal_static_dstore_engine_pm_ConsistencyCheck_Ad_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_ConsistencyCheck_Ad_Response_descriptor,
-        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", });
+        new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_pm_ConsistencyCheck_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_pm_ConsistencyCheck_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_pm_ConsistencyCheck_Ad_Response_Row_fieldAccessorTable = new
@@ -6908,7 +6718,6 @@ public final class PmConsistencyCheckAd {
         internal_static_dstore_engine_pm_ConsistencyCheck_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PersonCharacteristicId", "Value", "ValueId", "UsedByPersonTypeBitmap", "SortNo", "CorrectUsedByPersonTypeBtmp", "WrongUsedByPersonTypeBtmp", "WrongCountValues", "FirstFourCharactersLowerCase", "CorrectCountValues", "CorrectCountPersons", "InconsistenceType", "WrongCountPersons", "PersonTypeId", "Valuelowercase", "PersonId", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
   }

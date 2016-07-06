@@ -1305,19 +1305,6 @@ public final class PmGetPersonCharacteristicsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.Error getError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
      */
     java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
@@ -1450,39 +1437,26 @@ public final class PmGetPersonCharacteristicsAd {
               }
               break;
             }
-            case 10: {
-              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response.Row>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               row_.add(input.readMessage(io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response.Row.parser(), extensionRegistry));
               break;
@@ -1496,13 +1470,13 @@ public final class PmGetPersonCharacteristicsAd {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = java.util.Collections.unmodifiableList(message_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -6795,28 +6769,6 @@ public final class PmGetPersonCharacteristicsAd {
 
     }
 
-    private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.EngineError.Error error_;
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.Error getError() {
-      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
     /**
@@ -6954,9 +6906,6 @@ public final class PmGetPersonCharacteristicsAd {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         output.writeMessage(2, metaInformation_.get(i));
       }
@@ -6973,10 +6922,6 @@ public final class PmGetPersonCharacteristicsAd {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, metaInformation_.get(i));
@@ -7103,27 +7048,21 @@ public final class PmGetPersonCharacteristicsAd {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           metaInformationBuilder_.clear();
         }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           rowBuilder_.clear();
         }
@@ -7150,40 +7089,33 @@ public final class PmGetPersonCharacteristicsAd {
       public io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response buildPartial() {
         io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response result = new io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response(this);
         int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (metaInformationBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.metaInformation_ = metaInformation_;
         } else {
           result.metaInformation_ = metaInformationBuilder_.build();
         }
         if (messageBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             message_ = java.util.Collections.unmodifiableList(message_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.row_ = row_;
         } else {
           result.row_ = rowBuilder_.build();
         }
-        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -7199,14 +7131,11 @@ public final class PmGetPersonCharacteristicsAd {
 
       public Builder mergeFrom(io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response other) {
         if (other == io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (metaInformationBuilder_ == null) {
           if (!other.metaInformation_.isEmpty()) {
             if (metaInformation_.isEmpty()) {
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureMetaInformationIsMutable();
               metaInformation_.addAll(other.metaInformation_);
@@ -7219,7 +7148,7 @@ public final class PmGetPersonCharacteristicsAd {
               metaInformationBuilder_.dispose();
               metaInformationBuilder_ = null;
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
@@ -7232,7 +7161,7 @@ public final class PmGetPersonCharacteristicsAd {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -7245,7 +7174,7 @@ public final class PmGetPersonCharacteristicsAd {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -7258,7 +7187,7 @@ public final class PmGetPersonCharacteristicsAd {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -7271,7 +7200,7 @@ public final class PmGetPersonCharacteristicsAd {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -7307,129 +7236,12 @@ public final class PmGetPersonCharacteristicsAd {
       }
       private int bitField0_;
 
-      private io.dstore.engine.EngineError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.engine.EngineError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -7579,7 +7391,7 @@ public final class PmGetPersonCharacteristicsAd {
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           metaInformationBuilder_.clear();
@@ -7656,7 +7468,7 @@ public final class PmGetPersonCharacteristicsAd {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           metaInformation_ = null;
@@ -7667,9 +7479,9 @@ public final class PmGetPersonCharacteristicsAd {
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -7819,7 +7631,7 @@ public final class PmGetPersonCharacteristicsAd {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -7896,7 +7708,7 @@ public final class PmGetPersonCharacteristicsAd {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -7907,9 +7719,9 @@ public final class PmGetPersonCharacteristicsAd {
       private java.util.List<io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response.Row>(row_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -8103,7 +7915,7 @@ public final class PmGetPersonCharacteristicsAd {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -8208,7 +8020,7 @@ public final class PmGetPersonCharacteristicsAd {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response.Row, io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response.Row.Builder, io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -8300,56 +8112,54 @@ public final class PmGetPersonCharacteristicsAd {
       "\n=dstore/engine/procedures/pm_GetPersonC" +
       "haracteristics_Ad.proto\022,dstore.engine.p" +
       "m_GetPersonCharacteristics_Ad\032\023dstore/va" +
-      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
-      "store/engine/message.proto\032#dstore/engin" +
-      "e/metainformation.proto\"\240\003\n\nParameters\0223" +
-      "\n\016person_type_id\030\001 \001(\0132\033.dstore.values.i" +
-      "ntegerValue\022\034\n\023person_type_id_null\030\351\007 \001(" +
-      "\010\022>\n\031person_charac_category_id\030\002 \001(\0132\033.d" +
-      "store.values.integerValue\022\'\n\036person_char",
-      "ac_category_id_null\030\352\007 \001(\010\022B\n\035not_in_per" +
-      "son_characs_in_cats\030\003 \001(\0132\033.dstore.value" +
-      "s.integerValue\022+\n\"not_in_person_characs_" +
-      "in_cats_null\030\353\007 \001(\010\022=\n\030person_characteri" +
-      "stic_id\030\004 \001(\0132\033.dstore.values.integerVal" +
-      "ue\022&\n\035person_characteristic_id_null\030\354\007 \001" +
-      "(\010\"\316\n\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
-      "engine.error.Error\022H\n\020meta_information\030\002" +
-      " \003(\0132..dstore.engine.metainformation.Met" +
-      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e",
-      "ngine.message.Message\022G\n\003row\030\004 \003(\0132:.dst" +
-      "ore.engine.pm_GetPersonCharacteristics_A" +
-      "d.Response.Row\032\322\010\n\003Row\022\017\n\006row_id\030\220N \001(\005\022" +
-      "0\n\013description\030\221N \001(\0132\032.dstore.values.st" +
-      "ringValue\0223\n\rfield_type_id\030\222N \001(\0132\033.dsto" +
-      "re.values.integerValue\022:\n\025description_fo" +
-      "r_admin\030\223N \001(\0132\032.dstore.values.stringVal" +
-      "ue\0225\n\017precision_value\030\224N \001(\0132\033.dstore.va" +
-      "lues.integerValue\022,\n\006modify\030\225N \001(\0132\033.dst" +
-      "ore.values.integerValue\0220\n\nmax_length\030\226N",
-      " \001(\0132\033.dstore.values.integerValue\022-\n\007sor" +
-      "t_no\030\227N \001(\0132\033.dstore.values.integerValue" +
-      "\022>\n\030required_charac_category\030\230N \001(\0132\033.ds" +
-      "tore.values.booleanValue\0227\n\021predefined_v" +
-      "alues\030\231N \001(\0132\033.dstore.values.booleanValu" +
-      "e\022D\n\037read_access_restriction_pattern\030\232N " +
-      "\001(\0132\032.dstore.values.stringValue\022+\n\006forma" +
-      "t\030\233N \001(\0132\032.dstore.values.stringValue\022.\n\010" +
-      "required\030\234N \001(\0132\033.dstore.values.booleanV" +
-      "alue\0225\n\020basic_field_type\030\235N \001(\0132\032.dstore",
-      ".values.stringValue\022/\n\tis_unique\030\236N \001(\0132" +
-      "\033.dstore.values.booleanValue\022;\n\026field_ty" +
-      "pe_description\030\237N \001(\0132\032.dstore.values.st" +
-      "ringValue\022-\n\007visible\030\240N \001(\0132\033.dstore.val" +
-      "ues.booleanValue\0229\n\023basic_field_type_id\030" +
-      "\241N \001(\0132\033.dstore.values.integerValue\022(\n\002i" +
-      "d\030\242N \001(\0132\033.dstore.values.integerValue\022@\n" +
-      "\031person_charac_category_id\030\272\352\001 \001(\0132\033.dst" +
-      "ore.values.integerValue\022:\n\024category_desc" +
-      "ription\030\303\352\001 \001(\0132\032.dstore.values.stringVa",
-      "lueB_\n\033io.dstore.engine.proceduresZ@gosd" +
-      "k.dstore.de/engine/procedures/pm_GetPers" +
-      "onCharacteristics_Adb\006proto3"
+      "lues.proto\032\033dstore/engine/message.proto\032" +
+      "#dstore/engine/metainformation.proto\"\240\003\n" +
+      "\nParameters\0223\n\016person_type_id\030\001 \001(\0132\033.ds" +
+      "tore.values.integerValue\022\034\n\023person_type_" +
+      "id_null\030\351\007 \001(\010\022>\n\031person_charac_category" +
+      "_id\030\002 \001(\0132\033.dstore.values.integerValue\022\'" +
+      "\n\036person_charac_category_id_null\030\352\007 \001(\010\022",
+      "B\n\035not_in_person_characs_in_cats\030\003 \001(\0132\033" +
+      ".dstore.values.integerValue\022+\n\"not_in_pe" +
+      "rson_characs_in_cats_null\030\353\007 \001(\010\022=\n\030pers" +
+      "on_characteristic_id\030\004 \001(\0132\033.dstore.valu" +
+      "es.integerValue\022&\n\035person_characteristic" +
+      "_id_null\030\354\007 \001(\010\"\243\n\n\010Response\022H\n\020meta_inf" +
+      "ormation\030\002 \003(\0132..dstore.engine.metainfor" +
+      "mation.MetaInformation\022/\n\007message\030\003 \003(\0132" +
+      "\036.dstore.engine.message.Message\022G\n\003row\030\004" +
+      " \003(\0132:.dstore.engine.pm_GetPersonCharact",
+      "eristics_Ad.Response.Row\032\322\010\n\003Row\022\017\n\006row_" +
+      "id\030\220N \001(\005\0220\n\013description\030\221N \001(\0132\032.dstore" +
+      ".values.stringValue\0223\n\rfield_type_id\030\222N " +
+      "\001(\0132\033.dstore.values.integerValue\022:\n\025desc" +
+      "ription_for_admin\030\223N \001(\0132\032.dstore.values" +
+      ".stringValue\0225\n\017precision_value\030\224N \001(\0132\033" +
+      ".dstore.values.integerValue\022,\n\006modify\030\225N" +
+      " \001(\0132\033.dstore.values.integerValue\0220\n\nmax" +
+      "_length\030\226N \001(\0132\033.dstore.values.integerVa" +
+      "lue\022-\n\007sort_no\030\227N \001(\0132\033.dstore.values.in",
+      "tegerValue\022>\n\030required_charac_category\030\230" +
+      "N \001(\0132\033.dstore.values.booleanValue\0227\n\021pr" +
+      "edefined_values\030\231N \001(\0132\033.dstore.values.b" +
+      "ooleanValue\022D\n\037read_access_restriction_p" +
+      "attern\030\232N \001(\0132\032.dstore.values.stringValu" +
+      "e\022+\n\006format\030\233N \001(\0132\032.dstore.values.strin" +
+      "gValue\022.\n\010required\030\234N \001(\0132\033.dstore.value" +
+      "s.booleanValue\0225\n\020basic_field_type\030\235N \001(" +
+      "\0132\032.dstore.values.stringValue\022/\n\tis_uniq" +
+      "ue\030\236N \001(\0132\033.dstore.values.booleanValue\022;",
+      "\n\026field_type_description\030\237N \001(\0132\032.dstore" +
+      ".values.stringValue\022-\n\007visible\030\240N \001(\0132\033." +
+      "dstore.values.booleanValue\0229\n\023basic_fiel" +
+      "d_type_id\030\241N \001(\0132\033.dstore.values.integer" +
+      "Value\022(\n\002id\030\242N \001(\0132\033.dstore.values.integ" +
+      "erValue\022@\n\031person_charac_category_id\030\272\352\001" +
+      " \001(\0132\033.dstore.values.integerValue\022:\n\024cat" +
+      "egory_description\030\303\352\001 \001(\0132\032.dstore.value" +
+      "s.stringValueB_\n\033io.dstore.engine.proced" +
+      "uresZ@gosdk.dstore.de/engine/procedures/",
+      "pm_GetPersonCharacteristics_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8363,7 +8173,6 @@ public final class PmGetPersonCharacteristicsAd {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
@@ -8378,7 +8187,7 @@ public final class PmGetPersonCharacteristicsAd {
     internal_static_dstore_engine_pm_GetPersonCharacteristics_Ad_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersonCharacteristics_Ad_Response_descriptor,
-        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", });
+        new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_pm_GetPersonCharacteristics_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_pm_GetPersonCharacteristics_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_pm_GetPersonCharacteristics_Ad_Response_Row_fieldAccessorTable = new
@@ -8386,7 +8195,6 @@ public final class PmGetPersonCharacteristicsAd {
         internal_static_dstore_engine_pm_GetPersonCharacteristics_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "FieldTypeId", "DescriptionForAdmin", "PrecisionValue", "Modify", "MaxLength", "SortNo", "RequiredCharacCategory", "PredefinedValues", "ReadAccessRestrictionPattern", "Format", "Required", "BasicFieldType", "IsUnique", "FieldTypeDescription", "Visible", "BasicFieldTypeId", "Id", "PersonCharacCategoryId", "CategoryDescription", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
   }

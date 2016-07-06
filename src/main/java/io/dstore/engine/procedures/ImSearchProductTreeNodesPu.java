@@ -5698,19 +5698,6 @@ public final class ImSearchProductTreeNodesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.Error getError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
      */
     java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
@@ -5836,39 +5823,26 @@ public final class ImSearchProductTreeNodesPu {
               }
               break;
             }
-            case 10: {
-              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response.Row>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               row_.add(input.readMessage(io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response.Row.parser(), extensionRegistry));
               break;
@@ -5895,13 +5869,13 @@ public final class ImSearchProductTreeNodesPu {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = java.util.Collections.unmodifiableList(message_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -9235,27 +9209,6 @@ public final class ImSearchProductTreeNodesPu {
     }
 
     private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.EngineError.Error error_;
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.Error getError() {
-      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
     /**
@@ -9394,9 +9347,6 @@ public final class ImSearchProductTreeNodesPu {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         output.writeMessage(2, metaInformation_.get(i));
       }
@@ -9416,10 +9366,6 @@ public final class ImSearchProductTreeNodesPu {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, metaInformation_.get(i));
@@ -9550,27 +9496,21 @@ public final class ImSearchProductTreeNodesPu {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           metaInformationBuilder_.clear();
         }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           rowBuilder_.clear();
         }
@@ -9604,33 +9544,28 @@ public final class ImSearchProductTreeNodesPu {
         io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response result = new io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (metaInformationBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.metaInformation_ = metaInformation_;
         } else {
           result.metaInformation_ = metaInformationBuilder_.build();
         }
         if (messageBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             message_ = java.util.Collections.unmodifiableList(message_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.row_ = row_;
         } else {
@@ -9657,14 +9592,11 @@ public final class ImSearchProductTreeNodesPu {
 
       public Builder mergeFrom(io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response other) {
         if (other == io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (metaInformationBuilder_ == null) {
           if (!other.metaInformation_.isEmpty()) {
             if (metaInformation_.isEmpty()) {
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureMetaInformationIsMutable();
               metaInformation_.addAll(other.metaInformation_);
@@ -9677,7 +9609,7 @@ public final class ImSearchProductTreeNodesPu {
               metaInformationBuilder_.dispose();
               metaInformationBuilder_ = null;
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
@@ -9690,7 +9622,7 @@ public final class ImSearchProductTreeNodesPu {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -9703,7 +9635,7 @@ public final class ImSearchProductTreeNodesPu {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -9716,7 +9648,7 @@ public final class ImSearchProductTreeNodesPu {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -9729,7 +9661,7 @@ public final class ImSearchProductTreeNodesPu {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -9768,129 +9700,12 @@ public final class ImSearchProductTreeNodesPu {
       }
       private int bitField0_;
 
-      private io.dstore.engine.EngineError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.engine.EngineError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -10040,7 +9855,7 @@ public final class ImSearchProductTreeNodesPu {
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           metaInformationBuilder_.clear();
@@ -10117,7 +9932,7 @@ public final class ImSearchProductTreeNodesPu {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           metaInformation_ = null;
@@ -10128,9 +9943,9 @@ public final class ImSearchProductTreeNodesPu {
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -10280,7 +10095,7 @@ public final class ImSearchProductTreeNodesPu {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -10357,7 +10172,7 @@ public final class ImSearchProductTreeNodesPu {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -10368,9 +10183,9 @@ public final class ImSearchProductTreeNodesPu {
       private java.util.List<io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response.Row>(row_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -10520,7 +10335,7 @@ public final class ImSearchProductTreeNodesPu {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -10597,7 +10412,7 @@ public final class ImSearchProductTreeNodesPu {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response.Row, io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response.Row.Builder, io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -10806,87 +10621,86 @@ public final class ImSearchProductTreeNodesPu {
       "\n;dstore/engine/procedures/im_SearchProd" +
       "uctTreeNodes_Pu.proto\022*dstore.engine.im_" +
       "SearchProductTreeNodes_Pu\032\023dstore/values" +
-      ".proto\032\031dstore/engine/error.proto\032\033dstor" +
-      "e/engine/message.proto\032#dstore/engine/me" +
-      "tainformation.proto\"\214\020\n\nParameters\0228\n\023do" +
-      "main_tree_node_id\030\001 \001(\0132\033.dstore.values." +
-      "integerValue\022!\n\030domain_tree_node_id_null" +
-      "\030\351\007 \001(\010\022;\n\027node_characteristic_ids\030\002 \001(\013" +
-      "2\032.dstore.values.stringValue\022%\n\034node_cha",
-      "racteristic_ids_null\030\352\007 \001(\010\022)\n\005value\030\003 \001" +
-      "(\0132\032.dstore.values.stringValue\022\023\n\nvalue_" +
-      "null\030\353\007 \001(\010\022,\n\007is_like\030\004 \001(\0132\033.dstore.va" +
-      "lues.booleanValue\022\025\n\014is_like_null\030\354\007 \001(\010" +
-      "\0226\n\021include_inherited\030\005 \001(\0132\033.dstore.val" +
-      "ues.booleanValue\022\037\n\026include_inherited_nu" +
-      "ll\030\355\007 \001(\010\0224\n\017start_at_row_no\030\006 \001(\0132\033.dst" +
-      "ore.values.integerValue\022\035\n\024start_at_row_" +
-      "no_null\030\356\007 \001(\010\022.\n\trow_count\030\007 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\027\n\016row_count_null",
-      "\030\357\007 \001(\010\022:\n\025include_value_details\030\010 \001(\0132\033" +
-      ".dstore.values.booleanValue\022#\n\032include_v" +
-      "alue_details_null\030\360\007 \001(\010\0225\n\020include_vari" +
-      "ants\030\t \001(\0132\033.dstore.values.booleanValue\022" +
-      "\036\n\025include_variants_null\030\361\007 \001(\010\022?\n\032maint" +
-      "ain_search_item_lacks\030\n \001(\0132\033.dstore.val" +
-      "ues.booleanValue\022(\n\037maintain_search_item" +
-      "_lacks_null\030\362\007 \001(\010\022C\n\036binary_characteris" +
-      "tic_value_id\030\013 \001(\0132\033.dstore.values.integ" +
-      "erValue\022,\n#binary_characteristic_value_i",
-      "d_null\030\363\007 \001(\010\022@\n\033filter_by_characteristi" +
-      "c_id\030\014 \001(\0132\033.dstore.values.integerValue\022" +
-      ")\n filter_by_characteristic_id_null\030\364\007 \001" +
-      "(\010\022:\n\026filter_by_charac_value\030\r \001(\0132\032.dst" +
-      "ore.values.stringValue\022$\n\033filter_by_char" +
-      "ac_value_null\030\365\007 \001(\010\022+\n\007country\030\016 \001(\0132\032." +
-      "dstore.values.stringValue\022\025\n\014country_nul" +
-      "l\030\366\007 \001(\010\022<\n\027negate_filter_by_params\030\017 \001(" +
-      "\0132\033.dstore.values.booleanValue\022%\n\034negate" +
-      "_filter_by_params_null\030\367\007 \001(\010\022*\n\005count\030\020",
-      " \001(\0132\033.dstore.values.integerValue\022\023\n\ncou" +
-      "nt_null\030\370\007 \001(\010\022B\n\036sort_by_characteristic" +
-      "_id_list\030\021 \001(\0132\032.dstore.values.stringVal" +
-      "ue\022,\n#sort_by_characteristic_id_list_nul" +
-      "l\030\371\007 \001(\010\0224\n\020sort_option_list\030\022 \001(\0132\032.dst" +
-      "ore.values.stringValue\022\036\n\025sort_option_li" +
-      "st_null\030\372\007 \001(\010\022=\n\031inherit_depth_option_l" +
-      "ist\030\023 \001(\0132\032.dstore.values.stringValue\022\'\n" +
-      "\036inherit_depth_option_list_null\030\373\007 \001(\010\022D" +
-      "\n recursive_evaluation_option_list\030\024 \001(\013",
-      "2\032.dstore.values.stringValue\022.\n%recursiv" +
-      "e_evaluation_option_list_null\030\374\007 \001(\010\022C\n\036" +
-      "get_values_for_sort_by_characs\030\025 \001(\0132\033.d" +
-      "store.values.booleanValue\022,\n#get_values_" +
-      "for_sort_by_characs_null\030\375\007 \001(\010\0227\n\022outpu" +
-      "t_into_one_id\030\026 \001(\0132\033.dstore.values.inte" +
-      "gerValue\022 \n\027output_into_one_id_null\030\376\007 \001" +
-      "(\010\"\307\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
-      "engine.error.Error\022H\n\020meta_information\030\002" +
-      " \003(\0132..dstore.engine.metainformation.Met",
-      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
-      "ngine.message.Message\022E\n\003row\030\004 \003(\01328.dst" +
-      "ore.engine.im_SearchProductTreeNodes_Pu." +
-      "Response.Row\022*\n\005count\030e \001(\0132\033.dstore.val" +
-      "ues.integerValue\032\241\005\n\003Row\022\017\n\006row_id\030\220N \001(" +
-      "\005\022+\n\006value2\030\221N \001(\0132\032.dstore.values.strin" +
-      "gValue\022+\n\006value3\030\222N \001(\0132\032.dstore.values." +
-      "stringValue\022+\n\006value1\030\223N \001(\0132\032.dstore.va" +
-      "lues.stringValue\0223\n\016matching_value\030\224N \001(" +
-      "\0132\032.dstore.values.stringValue\0224\n\016binary_",
-      "code_id\030\225N \001(\0132\033.dstore.values.integerVa" +
-      "lue\0222\n\014tree_node_id\030\226N \001(\0132\033.dstore.valu" +
-      "es.integerValue\022-\n\007node_id\030\227N \001(\0132\033.dsto" +
-      "re.values.integerValue\022A\n\034pre_predecesso" +
-      "rs_description\030\230N \001(\0132\032.dstore.values.st" +
-      "ringValue\022,\n\007product\030\231N \001(\0132\032.dstore.val" +
-      "ues.stringValue\022C\n\035pre_predecessors_tree" +
-      "_node_id\030\232N \001(\0132\033.dstore.values.integerV" +
-      "alue\022?\n\031predecessors_tree_node_id\030\233N \001(\013" +
-      "2\033.dstore.values.integerValue\022=\n\030predece",
-      "ssors_description\030\234N \001(\0132\032.dstore.values" +
-      ".stringValueB]\n\033io.dstore.engine.procedu" +
-      "resZ>gosdk.dstore.de/engine/procedures/i" +
-      "m_SearchProductTreeNodes_Pub\006proto3"
+      ".proto\032\033dstore/engine/message.proto\032#dst" +
+      "ore/engine/metainformation.proto\"\214\020\n\nPar" +
+      "ameters\0228\n\023domain_tree_node_id\030\001 \001(\0132\033.d" +
+      "store.values.integerValue\022!\n\030domain_tree" +
+      "_node_id_null\030\351\007 \001(\010\022;\n\027node_characteris" +
+      "tic_ids\030\002 \001(\0132\032.dstore.values.stringValu" +
+      "e\022%\n\034node_characteristic_ids_null\030\352\007 \001(\010",
+      "\022)\n\005value\030\003 \001(\0132\032.dstore.values.stringVa" +
+      "lue\022\023\n\nvalue_null\030\353\007 \001(\010\022,\n\007is_like\030\004 \001(" +
+      "\0132\033.dstore.values.booleanValue\022\025\n\014is_lik" +
+      "e_null\030\354\007 \001(\010\0226\n\021include_inherited\030\005 \001(\013" +
+      "2\033.dstore.values.booleanValue\022\037\n\026include" +
+      "_inherited_null\030\355\007 \001(\010\0224\n\017start_at_row_n" +
+      "o\030\006 \001(\0132\033.dstore.values.integerValue\022\035\n\024" +
+      "start_at_row_no_null\030\356\007 \001(\010\022.\n\trow_count" +
+      "\030\007 \001(\0132\033.dstore.values.integerValue\022\027\n\016r" +
+      "ow_count_null\030\357\007 \001(\010\022:\n\025include_value_de",
+      "tails\030\010 \001(\0132\033.dstore.values.booleanValue" +
+      "\022#\n\032include_value_details_null\030\360\007 \001(\010\0225\n" +
+      "\020include_variants\030\t \001(\0132\033.dstore.values." +
+      "booleanValue\022\036\n\025include_variants_null\030\361\007" +
+      " \001(\010\022?\n\032maintain_search_item_lacks\030\n \001(\013" +
+      "2\033.dstore.values.booleanValue\022(\n\037maintai" +
+      "n_search_item_lacks_null\030\362\007 \001(\010\022C\n\036binar" +
+      "y_characteristic_value_id\030\013 \001(\0132\033.dstore" +
+      ".values.integerValue\022,\n#binary_character" +
+      "istic_value_id_null\030\363\007 \001(\010\022@\n\033filter_by_",
+      "characteristic_id\030\014 \001(\0132\033.dstore.values." +
+      "integerValue\022)\n filter_by_characteristic" +
+      "_id_null\030\364\007 \001(\010\022:\n\026filter_by_charac_valu" +
+      "e\030\r \001(\0132\032.dstore.values.stringValue\022$\n\033f" +
+      "ilter_by_charac_value_null\030\365\007 \001(\010\022+\n\007cou" +
+      "ntry\030\016 \001(\0132\032.dstore.values.stringValue\022\025" +
+      "\n\014country_null\030\366\007 \001(\010\022<\n\027negate_filter_b" +
+      "y_params\030\017 \001(\0132\033.dstore.values.booleanVa" +
+      "lue\022%\n\034negate_filter_by_params_null\030\367\007 \001" +
+      "(\010\022*\n\005count\030\020 \001(\0132\033.dstore.values.intege",
+      "rValue\022\023\n\ncount_null\030\370\007 \001(\010\022B\n\036sort_by_c" +
+      "haracteristic_id_list\030\021 \001(\0132\032.dstore.val" +
+      "ues.stringValue\022,\n#sort_by_characteristi" +
+      "c_id_list_null\030\371\007 \001(\010\0224\n\020sort_option_lis" +
+      "t\030\022 \001(\0132\032.dstore.values.stringValue\022\036\n\025s" +
+      "ort_option_list_null\030\372\007 \001(\010\022=\n\031inherit_d" +
+      "epth_option_list\030\023 \001(\0132\032.dstore.values.s" +
+      "tringValue\022\'\n\036inherit_depth_option_list_" +
+      "null\030\373\007 \001(\010\022D\n recursive_evaluation_opti" +
+      "on_list\030\024 \001(\0132\032.dstore.values.stringValu",
+      "e\022.\n%recursive_evaluation_option_list_nu" +
+      "ll\030\374\007 \001(\010\022C\n\036get_values_for_sort_by_char" +
+      "acs\030\025 \001(\0132\033.dstore.values.booleanValue\022," +
+      "\n#get_values_for_sort_by_characs_null\030\375\007" +
+      " \001(\010\0227\n\022output_into_one_id\030\026 \001(\0132\033.dstor" +
+      "e.values.integerValue\022 \n\027output_into_one" +
+      "_id_null\030\376\007 \001(\010\"\234\007\n\010Response\022H\n\020meta_inf" +
+      "ormation\030\002 \003(\0132..dstore.engine.metainfor" +
+      "mation.MetaInformation\022/\n\007message\030\003 \003(\0132" +
+      "\036.dstore.engine.message.Message\022E\n\003row\030\004",
+      " \003(\01328.dstore.engine.im_SearchProductTre" +
+      "eNodes_Pu.Response.Row\022*\n\005count\030e \001(\0132\033." +
+      "dstore.values.integerValue\032\241\005\n\003Row\022\017\n\006ro" +
+      "w_id\030\220N \001(\005\022+\n\006value2\030\221N \001(\0132\032.dstore.va" +
+      "lues.stringValue\022+\n\006value3\030\222N \001(\0132\032.dsto" +
+      "re.values.stringValue\022+\n\006value1\030\223N \001(\0132\032" +
+      ".dstore.values.stringValue\0223\n\016matching_v" +
+      "alue\030\224N \001(\0132\032.dstore.values.stringValue\022" +
+      "4\n\016binary_code_id\030\225N \001(\0132\033.dstore.values" +
+      ".integerValue\0222\n\014tree_node_id\030\226N \001(\0132\033.d",
+      "store.values.integerValue\022-\n\007node_id\030\227N " +
+      "\001(\0132\033.dstore.values.integerValue\022A\n\034pre_" +
+      "predecessors_description\030\230N \001(\0132\032.dstore" +
+      ".values.stringValue\022,\n\007product\030\231N \001(\0132\032." +
+      "dstore.values.stringValue\022C\n\035pre_predece" +
+      "ssors_tree_node_id\030\232N \001(\0132\033.dstore.value" +
+      "s.integerValue\022?\n\031predecessors_tree_node" +
+      "_id\030\233N \001(\0132\033.dstore.values.integerValue\022" +
+      "=\n\030predecessors_description\030\234N \001(\0132\032.dst" +
+      "ore.values.stringValueB]\n\033io.dstore.engi",
+      "ne.proceduresZ>gosdk.dstore.de/engine/pr" +
+      "ocedures/im_SearchProductTreeNodes_Pub\006p" +
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -10900,7 +10714,6 @@ public final class ImSearchProductTreeNodesPu {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
@@ -10915,7 +10728,7 @@ public final class ImSearchProductTreeNodesPu {
     internal_static_dstore_engine_im_SearchProductTreeNodes_Pu_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_SearchProductTreeNodes_Pu_Response_descriptor,
-        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", "Count", });
+        new java.lang.String[] { "MetaInformation", "Message", "Row", "Count", });
     internal_static_dstore_engine_im_SearchProductTreeNodes_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_im_SearchProductTreeNodes_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_im_SearchProductTreeNodes_Pu_Response_Row_fieldAccessorTable = new
@@ -10923,7 +10736,6 @@ public final class ImSearchProductTreeNodesPu {
         internal_static_dstore_engine_im_SearchProductTreeNodes_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value2", "Value3", "Value1", "MatchingValue", "BinaryCodeId", "TreeNodeId", "NodeId", "PrePredecessorsDescription", "Product", "PrePredecessorsTreeNodeId", "PredecessorsTreeNodeId", "PredecessorsDescription", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
   }

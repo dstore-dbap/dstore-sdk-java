@@ -3989,19 +3989,6 @@ public final class OmGetTrolleyPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.Error getError();
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
      */
     java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
@@ -4134,39 +4121,26 @@ public final class OmGetTrolleyPu {
               }
               break;
             }
-            case 10: {
-              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetTrolleyPu.Response.Row>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               row_.add(input.readMessage(io.dstore.engine.procedures.OmGetTrolleyPu.Response.Row.parser(), extensionRegistry));
               break;
@@ -4180,13 +4154,13 @@ public final class OmGetTrolleyPu {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = java.util.Collections.unmodifiableList(message_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -17810,28 +17784,6 @@ public final class OmGetTrolleyPu {
 
     }
 
-    private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.EngineError.Error error_;
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.Error getError() {
-      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.engine.error.Error error = 1;</code>
-     */
-    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
     /**
@@ -17969,9 +17921,6 @@ public final class OmGetTrolleyPu {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         output.writeMessage(2, metaInformation_.get(i));
       }
@@ -17988,10 +17937,6 @@ public final class OmGetTrolleyPu {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < metaInformation_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, metaInformation_.get(i));
@@ -18118,27 +18063,21 @@ public final class OmGetTrolleyPu {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           metaInformationBuilder_.clear();
         }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           rowBuilder_.clear();
         }
@@ -18165,40 +18104,33 @@ public final class OmGetTrolleyPu {
       public io.dstore.engine.procedures.OmGetTrolleyPu.Response buildPartial() {
         io.dstore.engine.procedures.OmGetTrolleyPu.Response result = new io.dstore.engine.procedures.OmGetTrolleyPu.Response(this);
         int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (metaInformationBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.metaInformation_ = metaInformation_;
         } else {
           result.metaInformation_ = metaInformationBuilder_.build();
         }
         if (messageBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             message_ = java.util.Collections.unmodifiableList(message_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.row_ = row_;
         } else {
           result.row_ = rowBuilder_.build();
         }
-        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -18214,14 +18146,11 @@ public final class OmGetTrolleyPu {
 
       public Builder mergeFrom(io.dstore.engine.procedures.OmGetTrolleyPu.Response other) {
         if (other == io.dstore.engine.procedures.OmGetTrolleyPu.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (metaInformationBuilder_ == null) {
           if (!other.metaInformation_.isEmpty()) {
             if (metaInformation_.isEmpty()) {
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureMetaInformationIsMutable();
               metaInformation_.addAll(other.metaInformation_);
@@ -18234,7 +18163,7 @@ public final class OmGetTrolleyPu {
               metaInformationBuilder_.dispose();
               metaInformationBuilder_ = null;
               metaInformation_ = other.metaInformation_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
@@ -18247,7 +18176,7 @@ public final class OmGetTrolleyPu {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -18260,7 +18189,7 @@ public final class OmGetTrolleyPu {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -18273,7 +18202,7 @@ public final class OmGetTrolleyPu {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -18286,7 +18215,7 @@ public final class OmGetTrolleyPu {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -18322,129 +18251,12 @@ public final class OmGetTrolleyPu {
       }
       private int bitField0_;
 
-      private io.dstore.engine.EngineError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.engine.EngineError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.engine.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -18594,7 +18406,7 @@ public final class OmGetTrolleyPu {
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
           metaInformation_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           metaInformationBuilder_.clear();
@@ -18671,7 +18483,7 @@ public final class OmGetTrolleyPu {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           metaInformation_ = null;
@@ -18682,9 +18494,9 @@ public final class OmGetTrolleyPu {
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -18834,7 +18646,7 @@ public final class OmGetTrolleyPu {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -18911,7 +18723,7 @@ public final class OmGetTrolleyPu {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -18922,9 +18734,9 @@ public final class OmGetTrolleyPu {
       private java.util.List<io.dstore.engine.procedures.OmGetTrolleyPu.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetTrolleyPu.Response.Row>(row_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -19118,7 +18930,7 @@ public final class OmGetTrolleyPu {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -19223,7 +19035,7 @@ public final class OmGetTrolleyPu {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procedures.OmGetTrolleyPu.Response.Row, io.dstore.engine.procedures.OmGetTrolleyPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetTrolleyPu.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -19314,137 +19126,135 @@ public final class OmGetTrolleyPu {
     java.lang.String[] descriptorData = {
       "\n/dstore/engine/procedures/om_GetTrolley" +
       "_Pu.proto\022\036dstore.engine.om_GetTrolley_P" +
-      "u\032\023dstore/values.proto\032\031dstore/engine/er" +
-      "ror.proto\032\033dstore/engine/message.proto\032#" +
-      "dstore/engine/metainformation.proto\"\226\013\n\n" +
-      "Parameters\022-\n\tunique_id\030\001 \001(\0132\032.dstore.v" +
-      "alues.stringValue\022\027\n\016unique_id_null\030\351\007 \001" +
-      "(\010\022.\n\tperson_id\030\002 \001(\0132\033.dstore.values.in" +
-      "tegerValue\022\027\n\016person_id_null\030\352\007 \001(\010\0225\n\020c" +
-      "alculate_prices\030\003 \001(\0132\033.dstore.values.in",
-      "tegerValue\022\036\n\025calculate_prices_null\030\353\007 \001" +
-      "(\010\0227\n\022check_availability\030\004 \001(\0132\033.dstore." +
-      "values.booleanValue\022 \n\027check_availabilit" +
-      "y_null\030\354\007 \001(\010\0226\n\021show_descriptions\030\005 \001(\013" +
-      "2\033.dstore.values.booleanValue\022\037\n\026show_de" +
-      "scriptions_null\030\355\007 \001(\010\022A\n\034price_node_cha" +
-      "racteristic_id\030\006 \001(\0132\033.dstore.values.int" +
-      "egerValue\022*\n!price_node_characteristic_i" +
-      "d_null\030\356\007 \001(\010\022;\n\026node_characteristic_id\030" +
-      "\007 \001(\0132\033.dstore.values.integerValue\022$\n\033no",
-      "de_characteristic_id_null\030\357\007 \001(\010\0229\n\024incl" +
-      "ude_predecessors\030\010 \001(\0132\033.dstore.values.b" +
-      "ooleanValue\022\"\n\031include_predecessors_null" +
-      "\030\360\007 \001(\010\022A\n\034look_for_product_description\030" +
-      "\t \001(\0132\033.dstore.values.booleanValue\022*\n!lo" +
-      "ok_for_product_description_null\030\361\007 \001(\010\022E" +
-      "\n repair_entries_with_same_node_id\030\n \001(\013" +
-      "2\033.dstore.values.integerValue\022.\n%repair_" +
-      "entries_with_same_node_id_null\030\362\007 \001(\010\0226\n" +
-      "\021get_plain_trolley\030\013 \001(\0132\033.dstore.values",
-      ".booleanValue\022\037\n\026get_plain_trolley_null\030" +
-      "\363\007 \001(\010\0227\n\022delivery_person_id\030\014 \001(\0132\033.dst" +
-      "ore.values.integerValue\022 \n\027delivery_pers" +
-      "on_id_null\030\364\007 \001(\010\022E\n output_into_trolley" +
-      "_surch_interf\030\r \001(\0132\033.dstore.values.bool" +
-      "eanValue\022.\n%output_into_trolley_surch_in" +
-      "terf_null\030\365\007 \001(\010\0224\n\017payment_type_id\030\016 \001(" +
-      "\0132\033.dstore.values.integerValue\022\035\n\024paymen" +
-      "t_type_id_null\030\366\007 \001(\010\0225\n\020shipping_type_i" +
-      "d\030\017 \001(\0132\033.dstore.values.integerValue\022\036\n\025",
-      "shipping_type_id_null\030\367\007 \001(\010\"\352\033\n\010Respons" +
-      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
-      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore." +
-      "engine.metainformation.MetaInformation\022/" +
-      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
-      "Message\0229\n\003row\030\004 \003(\0132,.dstore.engine.om_" +
-      "GetTrolley_Pu.Response.Row\032\374\031\n\003Row\022\017\n\006ro" +
-      "w_id\030\220N \001(\005\0227\n\021total_netto_price\030\221N \001(\0132" +
-      "\033.dstore.values.decimalValue\022F\n precise_" +
-      "abs_unit_gross_surcharge\030\222N \001(\0132\033.dstore",
-      ".values.decimalValue\022B\n\034price_node_chara" +
-      "cteristic_id\030\223N \001(\0132\033.dstore.values.inte" +
-      "gerValue\022C\n\035absolute_unit_netto_surcharg" +
-      "e\030\224N \001(\0132\033.dstore.values.decimalValue\0226\n" +
-      "\020unit_gross_price\030\225N \001(\0132\033.dstore.values" +
-      ".decimalValue\022B\n\034absolute_total_net_surc" +
-      "harge\030\226N \001(\0132\033.dstore.values.decimalValu" +
-      "e\022D\n\036absolute_total_gross_surcharge\030\227N \001" +
-      "(\0132\033.dstore.values.decimalValue\022-\n\007remov" +
-      "ed\030\230N \001(\0132\033.dstore.values.integerValue\0227",
-      "\n\021unit_brutto_price\030\231N \001(\0132\033.dstore.valu" +
-      "es.decimalValue\0224\n\017currency_symbol\030\232N \001(" +
-      "\0132\032.dstore.values.stringValue\022>\n\030precise" +
-      "_unit_gross_price\030\233N \001(\0132\033.dstore.values" +
-      ".decimalValue\0225\n\020node_description\030\234N \001(\013" +
-      "2\032.dstore.values.stringValue\0224\n\016unit_net" +
-      "_price\030\235N \001(\0132\033.dstore.values.decimalVal" +
-      "ue\0228\n\022total_brutto_price\030\236N \001(\0132\033.dstore" +
-      ".values.decimalValue\022D\n\036precise_abs_unit" +
-      "_net_surcharge\030\237N \001(\0132\033.dstore.values.de",
-      "cimalValue\0225\n\020surcharge_reason\030\240N \001(\0132\032." +
-      "dstore.values.stringValue\022G\n!associated_" +
-      "or_chosen_tree_node_id\030\241N \001(\0132\033.dstore.v" +
-      "alues.integerValue\022-\n\007node_id\030\242N \001(\0132\033.d" +
-      "store.values.integerValue\022-\n\007deleted\030\243N " +
-      "\001(\0132\033.dstore.values.booleanValue\022D\n\036abso" +
-      "lute_total_netto_surcharge\030\244N \001(\0132\033.dsto" +
-      "re.values.decimalValue\022@\n\032bonus_item_for" +
-      "_item_set_id\030\245N \001(\0132\033.dstore.values.inte" +
-      "gerValue\0228\n\022relative_surcharge\030\246N \001(\0132\033.",
-      "dstore.values.decimalValue\022E\n\037absolute_t" +
-      "otal_brutto_surcharge\030\247N \001(\0132\033.dstore.va" +
-      "lues.decimalValue\022D\n\037surcharge_generated" +
-      "_by_camp_ids\030\250N \001(\0132\032.dstore.values.stri" +
-      "ngValue\022?\n\031precise_total_gross_price\030\251N " +
-      "\001(\0132\033.dstore.values.decimalValue\022;\n\023inpu" +
-      "t_date_and_time\030\252N \001(\0132\035.dstore.values.t" +
-      "imestampValue\0226\n\020unit_netto_price\030\253N \001(\013" +
-      "2\033.dstore.values.decimalValue\0226\n\020taxes_m" +
-      "ultiplier\030\254N \001(\0132\033.dstore.values.decimal",
-      "Value\022G\n!precise_abs_total_gross_surchar" +
-      "ge\030\255N \001(\0132\033.dstore.values.decimalValue\0222" +
-      "\n\ritem_property\030\256N \001(\0132\032.dstore.values.s" +
-      "tringValue\022E\n\037precise_abs_total_net_surc" +
-      "harge\030\257N \001(\0132\033.dstore.values.decimalValu" +
-      "e\0225\n\017total_net_price\030\260N \001(\0132\033.dstore.val" +
-      "ues.decimalValue\022.\n\010quantity\030\261N \001(\0132\033.ds" +
-      "tore.values.integerValue\0220\n\013unit_symbol\030" +
-      "\262N \001(\0132\032.dstore.values.stringValue\022I\n$qu" +
-      "antity_per_bundle_item_set_id_list\030\263N \001(",
-      "\0132\032.dstore.values.stringValue\0225\n\017surchar" +
-      "ge_value\030\264N \001(\0132\033.dstore.values.decimalV" +
-      "alue\0221\n\013currency_id\030\265N \001(\0132\033.dstore.valu" +
-      "es.integerValue\022,\n\006active\030\266N \001(\0132\033.dstor" +
-      "e.values.booleanValue\022A\n\033absolute_unit_n" +
-      "et_surcharge\030\267N \001(\0132\033.dstore.values.deci" +
-      "malValue\0224\n\016h_tree_node_id\030\270N \001(\0132\033.dsto" +
-      "re.values.integerValue\022D\n\036absolute_unit_" +
-      "brutto_surcharge\030\271N \001(\0132\033.dstore.values." +
-      "decimalValue\022C\n\035absolute_unit_gross_surc",
-      "harge\030\272N \001(\0132\033.dstore.values.decimalValu" +
-      "e\022=\n\027precise_total_net_price\030\273N \001(\0132\033.ds" +
-      "tore.values.decimalValue\0227\n\021surcharge_ty" +
-      "pe_id\030\274N \001(\0132\033.dstore.values.integerValu" +
-      "e\022<\n\026precise_unit_net_price\030\275N \001(\0132\033.dst" +
-      "ore.values.decimalValue\0227\n\021total_gross_p" +
-      "rice\030\276N \001(\0132\033.dstore.values.decimalValue" +
-      "\022@\n\031pre_predecessors_level_no\030\253\234\001 \001(\0132\033." +
-      "dstore.values.integerValue\022D\n\035pre_predec" +
-      "essors_tree_node_id\030\255\234\001 \001(\0132\033.dstore.val",
-      "ues.integerValue\022@\n\031predecessors_tree_no" +
-      "de_id\030\274\234\001 \001(\0132\033.dstore.values.integerVal" +
-      "ue\022>\n\030predecessors_description\030\275\234\001 \001(\0132\032" +
-      ".dstore.values.stringValue\022<\n\025predecesso" +
-      "rs_level_no\030\300\234\001 \001(\0132\033.dstore.values.inte" +
-      "gerValue\0223\n\014tree_node_id\030\307\234\001 \001(\0132\033.dstor" +
-      "e.values.integerValue\022B\n\034pre_predecessor" +
-      "s_description\030\310\234\001 \001(\0132\032.dstore.values.st" +
-      "ringValue\022>\n\030input_date_and_time_char\030\267\352" +
-      "\001 \001(\0132\032.dstore.values.stringValueBQ\n\033io.",
-      "dstore.engine.proceduresZ2gosdk.dstore.d" +
-      "e/engine/procedures/om_GetTrolley_Pub\006pr" +
-      "oto3"
+      "u\032\023dstore/values.proto\032\033dstore/engine/me" +
+      "ssage.proto\032#dstore/engine/metainformati" +
+      "on.proto\"\226\013\n\nParameters\022-\n\tunique_id\030\001 \001" +
+      "(\0132\032.dstore.values.stringValue\022\027\n\016unique" +
+      "_id_null\030\351\007 \001(\010\022.\n\tperson_id\030\002 \001(\0132\033.dst" +
+      "ore.values.integerValue\022\027\n\016person_id_nul" +
+      "l\030\352\007 \001(\010\0225\n\020calculate_prices\030\003 \001(\0132\033.dst" +
+      "ore.values.integerValue\022\036\n\025calculate_pri",
+      "ces_null\030\353\007 \001(\010\0227\n\022check_availability\030\004 " +
+      "\001(\0132\033.dstore.values.booleanValue\022 \n\027chec" +
+      "k_availability_null\030\354\007 \001(\010\0226\n\021show_descr" +
+      "iptions\030\005 \001(\0132\033.dstore.values.booleanVal" +
+      "ue\022\037\n\026show_descriptions_null\030\355\007 \001(\010\022A\n\034p" +
+      "rice_node_characteristic_id\030\006 \001(\0132\033.dsto" +
+      "re.values.integerValue\022*\n!price_node_cha" +
+      "racteristic_id_null\030\356\007 \001(\010\022;\n\026node_chara" +
+      "cteristic_id\030\007 \001(\0132\033.dstore.values.integ" +
+      "erValue\022$\n\033node_characteristic_id_null\030\357",
+      "\007 \001(\010\0229\n\024include_predecessors\030\010 \001(\0132\033.ds" +
+      "tore.values.booleanValue\022\"\n\031include_pred" +
+      "ecessors_null\030\360\007 \001(\010\022A\n\034look_for_product" +
+      "_description\030\t \001(\0132\033.dstore.values.boole" +
+      "anValue\022*\n!look_for_product_description_" +
+      "null\030\361\007 \001(\010\022E\n repair_entries_with_same_" +
+      "node_id\030\n \001(\0132\033.dstore.values.integerVal" +
+      "ue\022.\n%repair_entries_with_same_node_id_n" +
+      "ull\030\362\007 \001(\010\0226\n\021get_plain_trolley\030\013 \001(\0132\033." +
+      "dstore.values.booleanValue\022\037\n\026get_plain_",
+      "trolley_null\030\363\007 \001(\010\0227\n\022delivery_person_i" +
+      "d\030\014 \001(\0132\033.dstore.values.integerValue\022 \n\027" +
+      "delivery_person_id_null\030\364\007 \001(\010\022E\n output" +
+      "_into_trolley_surch_interf\030\r \001(\0132\033.dstor" +
+      "e.values.booleanValue\022.\n%output_into_tro" +
+      "lley_surch_interf_null\030\365\007 \001(\010\0224\n\017payment" +
+      "_type_id\030\016 \001(\0132\033.dstore.values.integerVa" +
+      "lue\022\035\n\024payment_type_id_null\030\366\007 \001(\010\0225\n\020sh" +
+      "ipping_type_id\030\017 \001(\0132\033.dstore.values.int" +
+      "egerValue\022\036\n\025shipping_type_id_null\030\367\007 \001(",
+      "\010\"\277\033\n\010Response\022H\n\020meta_information\030\002 \003(\013" +
+      "2..dstore.engine.metainformation.MetaInf" +
+      "ormation\022/\n\007message\030\003 \003(\0132\036.dstore.engin" +
+      "e.message.Message\0229\n\003row\030\004 \003(\0132,.dstore." +
+      "engine.om_GetTrolley_Pu.Response.Row\032\374\031\n" +
+      "\003Row\022\017\n\006row_id\030\220N \001(\005\0227\n\021total_netto_pri" +
+      "ce\030\221N \001(\0132\033.dstore.values.decimalValue\022F" +
+      "\n precise_abs_unit_gross_surcharge\030\222N \001(" +
+      "\0132\033.dstore.values.decimalValue\022B\n\034price_" +
+      "node_characteristic_id\030\223N \001(\0132\033.dstore.v",
+      "alues.integerValue\022C\n\035absolute_unit_nett" +
+      "o_surcharge\030\224N \001(\0132\033.dstore.values.decim" +
+      "alValue\0226\n\020unit_gross_price\030\225N \001(\0132\033.dst" +
+      "ore.values.decimalValue\022B\n\034absolute_tota" +
+      "l_net_surcharge\030\226N \001(\0132\033.dstore.values.d" +
+      "ecimalValue\022D\n\036absolute_total_gross_surc" +
+      "harge\030\227N \001(\0132\033.dstore.values.decimalValu" +
+      "e\022-\n\007removed\030\230N \001(\0132\033.dstore.values.inte" +
+      "gerValue\0227\n\021unit_brutto_price\030\231N \001(\0132\033.d" +
+      "store.values.decimalValue\0224\n\017currency_sy",
+      "mbol\030\232N \001(\0132\032.dstore.values.stringValue\022" +
+      ">\n\030precise_unit_gross_price\030\233N \001(\0132\033.dst" +
+      "ore.values.decimalValue\0225\n\020node_descript" +
+      "ion\030\234N \001(\0132\032.dstore.values.stringValue\0224" +
+      "\n\016unit_net_price\030\235N \001(\0132\033.dstore.values." +
+      "decimalValue\0228\n\022total_brutto_price\030\236N \001(" +
+      "\0132\033.dstore.values.decimalValue\022D\n\036precis" +
+      "e_abs_unit_net_surcharge\030\237N \001(\0132\033.dstore" +
+      ".values.decimalValue\0225\n\020surcharge_reason" +
+      "\030\240N \001(\0132\032.dstore.values.stringValue\022G\n!a",
+      "ssociated_or_chosen_tree_node_id\030\241N \001(\0132" +
+      "\033.dstore.values.integerValue\022-\n\007node_id\030" +
+      "\242N \001(\0132\033.dstore.values.integerValue\022-\n\007d" +
+      "eleted\030\243N \001(\0132\033.dstore.values.booleanVal" +
+      "ue\022D\n\036absolute_total_netto_surcharge\030\244N " +
+      "\001(\0132\033.dstore.values.decimalValue\022@\n\032bonu" +
+      "s_item_for_item_set_id\030\245N \001(\0132\033.dstore.v" +
+      "alues.integerValue\0228\n\022relative_surcharge" +
+      "\030\246N \001(\0132\033.dstore.values.decimalValue\022E\n\037" +
+      "absolute_total_brutto_surcharge\030\247N \001(\0132\033",
+      ".dstore.values.decimalValue\022D\n\037surcharge" +
+      "_generated_by_camp_ids\030\250N \001(\0132\032.dstore.v" +
+      "alues.stringValue\022?\n\031precise_total_gross" +
+      "_price\030\251N \001(\0132\033.dstore.values.decimalVal" +
+      "ue\022;\n\023input_date_and_time\030\252N \001(\0132\035.dstor" +
+      "e.values.timestampValue\0226\n\020unit_netto_pr" +
+      "ice\030\253N \001(\0132\033.dstore.values.decimalValue\022" +
+      "6\n\020taxes_multiplier\030\254N \001(\0132\033.dstore.valu" +
+      "es.decimalValue\022G\n!precise_abs_total_gro" +
+      "ss_surcharge\030\255N \001(\0132\033.dstore.values.deci",
+      "malValue\0222\n\ritem_property\030\256N \001(\0132\032.dstor" +
+      "e.values.stringValue\022E\n\037precise_abs_tota" +
+      "l_net_surcharge\030\257N \001(\0132\033.dstore.values.d" +
+      "ecimalValue\0225\n\017total_net_price\030\260N \001(\0132\033." +
+      "dstore.values.decimalValue\022.\n\010quantity\030\261" +
+      "N \001(\0132\033.dstore.values.integerValue\0220\n\013un" +
+      "it_symbol\030\262N \001(\0132\032.dstore.values.stringV" +
+      "alue\022I\n$quantity_per_bundle_item_set_id_" +
+      "list\030\263N \001(\0132\032.dstore.values.stringValue\022" +
+      "5\n\017surcharge_value\030\264N \001(\0132\033.dstore.value",
+      "s.decimalValue\0221\n\013currency_id\030\265N \001(\0132\033.d" +
+      "store.values.integerValue\022,\n\006active\030\266N \001" +
+      "(\0132\033.dstore.values.booleanValue\022A\n\033absol" +
+      "ute_unit_net_surcharge\030\267N \001(\0132\033.dstore.v" +
+      "alues.decimalValue\0224\n\016h_tree_node_id\030\270N " +
+      "\001(\0132\033.dstore.values.integerValue\022D\n\036abso" +
+      "lute_unit_brutto_surcharge\030\271N \001(\0132\033.dsto" +
+      "re.values.decimalValue\022C\n\035absolute_unit_" +
+      "gross_surcharge\030\272N \001(\0132\033.dstore.values.d" +
+      "ecimalValue\022=\n\027precise_total_net_price\030\273",
+      "N \001(\0132\033.dstore.values.decimalValue\0227\n\021su" +
+      "rcharge_type_id\030\274N \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022<\n\026precise_unit_net_price\030\275N" +
+      " \001(\0132\033.dstore.values.decimalValue\0227\n\021tot" +
+      "al_gross_price\030\276N \001(\0132\033.dstore.values.de" +
+      "cimalValue\022@\n\031pre_predecessors_level_no\030" +
+      "\253\234\001 \001(\0132\033.dstore.values.integerValue\022D\n\035" +
+      "pre_predecessors_tree_node_id\030\255\234\001 \001(\0132\033." +
+      "dstore.values.integerValue\022@\n\031predecesso" +
+      "rs_tree_node_id\030\274\234\001 \001(\0132\033.dstore.values.",
+      "integerValue\022>\n\030predecessors_description" +
+      "\030\275\234\001 \001(\0132\032.dstore.values.stringValue\022<\n\025" +
+      "predecessors_level_no\030\300\234\001 \001(\0132\033.dstore.v" +
+      "alues.integerValue\0223\n\014tree_node_id\030\307\234\001 \001" +
+      "(\0132\033.dstore.values.integerValue\022B\n\034pre_p" +
+      "redecessors_description\030\310\234\001 \001(\0132\032.dstore" +
+      ".values.stringValue\022>\n\030input_date_and_ti" +
+      "me_char\030\267\352\001 \001(\0132\032.dstore.values.stringVa" +
+      "lueBQ\n\033io.dstore.engine.proceduresZ2gosd" +
+      "k.dstore.de/engine/procedures/om_GetTrol",
+      "ley_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -19458,7 +19268,6 @@ public final class OmGetTrolleyPu {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
@@ -19473,7 +19282,7 @@ public final class OmGetTrolleyPu {
     internal_static_dstore_engine_om_GetTrolley_Pu_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTrolley_Pu_Response_descriptor,
-        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", });
+        new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetTrolley_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetTrolley_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetTrolley_Pu_Response_Row_fieldAccessorTable = new
@@ -19481,7 +19290,6 @@ public final class OmGetTrolleyPu {
         internal_static_dstore_engine_om_GetTrolley_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TotalNettoPrice", "PreciseAbsUnitGrossSurcharge", "PriceNodeCharacteristicId", "AbsoluteUnitNettoSurcharge", "UnitGrossPrice", "AbsoluteTotalNetSurcharge", "AbsoluteTotalGrossSurcharge", "Removed", "UnitBruttoPrice", "CurrencySymbol", "PreciseUnitGrossPrice", "NodeDescription", "UnitNetPrice", "TotalBruttoPrice", "PreciseAbsUnitNetSurcharge", "SurchargeReason", "AssociatedOrChosenTreeNodeId", "NodeId", "Deleted", "AbsoluteTotalNettoSurcharge", "BonusItemForItemSetId", "RelativeSurcharge", "AbsoluteTotalBruttoSurcharge", "SurchargeGeneratedByCampIds", "PreciseTotalGrossPrice", "InputDateAndTime", "UnitNettoPrice", "TaxesMultiplier", "PreciseAbsTotalGrossSurcharge", "ItemProperty", "PreciseAbsTotalNetSurcharge", "TotalNetPrice", "Quantity", "UnitSymbol", "QuantityPerBundleItemSetIdList", "SurchargeValue", "CurrencyId", "Active", "AbsoluteUnitNetSurcharge", "HTreeNodeId", "AbsoluteUnitBruttoSurcharge", "AbsoluteUnitGrossSurcharge", "PreciseTotalNetPrice", "SurchargeTypeId", "PreciseUnitNetPrice", "TotalGrossPrice", "PrePredecessorsLevelNo", "PrePredecessorsTreeNodeId", "PredecessorsTreeNodeId", "PredecessorsDescription", "PredecessorsLevelNo", "TreeNodeId", "PrePredecessorsDescription", "InputDateAndTimeChar", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
   }
