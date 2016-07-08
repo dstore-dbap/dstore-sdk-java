@@ -109,7 +109,8 @@ public final class OmGetOrderStateRulesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -201,11 +202,10 @@ public final class OmGetOrderStateRulesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -445,34 +445,40 @@ public final class OmGetOrderStateRulesAd {
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -662,7 +668,7 @@ public final class OmGetOrderStateRulesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetOrderStateRulesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1272,16 +1278,7 @@ public final class OmGetOrderStateRulesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1353,45 +1350,45 @@ public final class OmGetOrderStateRulesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1420,7 +1417,8 @@ public final class OmGetOrderStateRulesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1464,11 +1462,10 @@ public final class OmGetOrderStateRulesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1504,227 +1501,227 @@ public final class OmGetOrderStateRulesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       boolean hasUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       io.dstore.Values.stringValue getUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       boolean hasToOrderStateId();
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       io.dstore.Values.integerValue getToOrderStateId();
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getToOrderStateIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       boolean hasUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       io.dstore.Values.integerValue getUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
        */
       boolean hasPaymentForShippingId();
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
        */
       io.dstore.Values.integerValue getPaymentForShippingId();
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
        */
       boolean hasFromOrderStateId();
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
        */
       io.dstore.Values.integerValue getFromOrderStateId();
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getFromOrderStateIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
        */
       boolean hasToOrderState();
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
        */
       io.dstore.Values.stringValue getToOrderState();
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
        */
       io.dstore.Values.stringValueOrBuilder getToOrderStateOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
        */
       boolean hasPaymentForShippingDescription();
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
        */
       io.dstore.Values.stringValue getPaymentForShippingDescription();
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
        */
       boolean hasFromOrderState();
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
        */
       io.dstore.Values.stringValue getFromOrderState();
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
        */
       io.dstore.Values.stringValueOrBuilder getFromOrderStateOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-       *
        * <pre>
        * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
        */
       boolean hasAllowed();
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-       *
        * <pre>
        * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
        */
       io.dstore.Values.booleanValue getAllowed();
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-       *
        * <pre>
        * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getAllowedOrBuilder();
     }
@@ -1750,7 +1747,8 @@ public final class OmGetOrderStateRulesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1892,11 +1890,10 @@ public final class OmGetOrderStateRulesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1925,31 +1922,31 @@ public final class OmGetOrderStateRulesAd {
       public static final int USER_NAME_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue userName_;
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       public io.dstore.Values.stringValue getUserName() {
         return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
@@ -1958,31 +1955,31 @@ public final class OmGetOrderStateRulesAd {
       public static final int TO_ORDER_STATE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue toOrderStateId_;
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       public boolean hasToOrderStateId() {
         return toOrderStateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getToOrderStateId() {
         return toOrderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toOrderStateId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getToOrderStateIdOrBuilder() {
         return getToOrderStateId();
@@ -1991,31 +1988,31 @@ public final class OmGetOrderStateRulesAd {
       public static final int USER_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue userId_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getUserId() {
         return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
@@ -2024,31 +2021,31 @@ public final class OmGetOrderStateRulesAd {
       public static final int PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue paymentForShippingId_;
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
        */
       public io.dstore.Values.integerValue getPaymentForShippingId() {
         return paymentForShippingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         return getPaymentForShippingId();
@@ -2057,31 +2054,31 @@ public final class OmGetOrderStateRulesAd {
       public static final int FROM_ORDER_STATE_ID_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue fromOrderStateId_;
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
        */
       public boolean hasFromOrderStateId() {
         return fromOrderStateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
        */
       public io.dstore.Values.integerValue getFromOrderStateId() {
         return fromOrderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromOrderStateId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getFromOrderStateIdOrBuilder() {
         return getFromOrderStateId();
@@ -2090,31 +2087,31 @@ public final class OmGetOrderStateRulesAd {
       public static final int TO_ORDER_STATE_FIELD_NUMBER = 10006;
       private io.dstore.Values.stringValue toOrderState_;
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
        */
       public boolean hasToOrderState() {
         return toOrderState_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
        */
       public io.dstore.Values.stringValue getToOrderState() {
         return toOrderState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : toOrderState_;
       }
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getToOrderStateOrBuilder() {
         return getToOrderState();
@@ -2123,31 +2120,31 @@ public final class OmGetOrderStateRulesAd {
       public static final int PAYMENT_FOR_SHIPPING_DESCRIPTION_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue paymentForShippingDescription_;
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
        */
       public boolean hasPaymentForShippingDescription() {
         return paymentForShippingDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
        */
       public io.dstore.Values.stringValue getPaymentForShippingDescription() {
         return paymentForShippingDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentForShippingDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
         return getPaymentForShippingDescription();
@@ -2156,31 +2153,31 @@ public final class OmGetOrderStateRulesAd {
       public static final int FROM_ORDER_STATE_FIELD_NUMBER = 10008;
       private io.dstore.Values.stringValue fromOrderState_;
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
        */
       public boolean hasFromOrderState() {
         return fromOrderState_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
        */
       public io.dstore.Values.stringValue getFromOrderState() {
         return fromOrderState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromOrderState_;
       }
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFromOrderStateOrBuilder() {
         return getFromOrderState();
@@ -2189,31 +2186,31 @@ public final class OmGetOrderStateRulesAd {
       public static final int ALLOWED_FIELD_NUMBER = 10009;
       private io.dstore.Values.booleanValue allowed_;
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-       *
        * <pre>
        * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
        */
       public boolean hasAllowed() {
         return allowed_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-       *
        * <pre>
        * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
        */
       public io.dstore.Values.booleanValue getAllowed() {
         return allowed_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : allowed_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-       *
        * <pre>
        * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getAllowedOrBuilder() {
         return getAllowed();
@@ -2336,34 +2333,40 @@ public final class OmGetOrderStateRulesAd {
       }
       public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2605,7 +2608,7 @@ public final class OmGetOrderStateRulesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2644,21 +2647,21 @@ public final class OmGetOrderStateRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public io.dstore.Values.stringValue getUserName() {
           if (userNameBuilder_ == null) {
@@ -2668,11 +2671,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder setUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -2688,11 +2691,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder setUserName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2706,11 +2709,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder mergeUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -2728,11 +2731,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -2746,11 +2749,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
           
@@ -2758,11 +2761,11 @@ public final class OmGetOrderStateRulesAd {
           return getUserNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
@@ -2773,11 +2776,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2797,21 +2800,21 @@ public final class OmGetOrderStateRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toOrderStateIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public boolean hasToOrderStateId() {
           return toOrderStateIdBuilder_ != null || toOrderStateId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getToOrderStateId() {
           if (toOrderStateIdBuilder_ == null) {
@@ -2821,11 +2824,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public Builder setToOrderStateId(io.dstore.Values.integerValue value) {
           if (toOrderStateIdBuilder_ == null) {
@@ -2841,11 +2844,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public Builder setToOrderStateId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2859,11 +2862,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public Builder mergeToOrderStateId(io.dstore.Values.integerValue value) {
           if (toOrderStateIdBuilder_ == null) {
@@ -2881,11 +2884,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public Builder clearToOrderStateId() {
           if (toOrderStateIdBuilder_ == null) {
@@ -2899,11 +2902,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getToOrderStateIdBuilder() {
           
@@ -2911,11 +2914,11 @@ public final class OmGetOrderStateRulesAd {
           return getToOrderStateIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getToOrderStateIdOrBuilder() {
           if (toOrderStateIdBuilder_ != null) {
@@ -2926,11 +2929,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in diesen Status setzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2950,21 +2953,21 @@ public final class OmGetOrderStateRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getUserId() {
           if (userIdBuilder_ == null) {
@@ -2974,11 +2977,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public Builder setUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -2994,11 +2997,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public Builder setUserId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3012,11 +3015,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public Builder mergeUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -3034,11 +3037,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -3052,11 +3055,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
           
@@ -3064,11 +3067,11 @@ public final class OmGetOrderStateRulesAd {
           return getUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
@@ -3079,11 +3082,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist) für den die Regel definiert wurde. "-1" bedeutet, daß die Regel für alle Benutzer gilt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3103,21 +3106,21 @@ public final class OmGetOrderStateRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentForShippingIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
          */
         public boolean hasPaymentForShippingId() {
           return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
          */
         public io.dstore.Values.integerValue getPaymentForShippingId() {
           if (paymentForShippingIdBuilder_ == null) {
@@ -3127,11 +3130,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
          */
         public Builder setPaymentForShippingId(io.dstore.Values.integerValue value) {
           if (paymentForShippingIdBuilder_ == null) {
@@ -3147,11 +3150,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
          */
         public Builder setPaymentForShippingId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3165,11 +3168,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
          */
         public Builder mergePaymentForShippingId(io.dstore.Values.integerValue value) {
           if (paymentForShippingIdBuilder_ == null) {
@@ -3187,11 +3190,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
          */
         public Builder clearPaymentForShippingId() {
           if (paymentForShippingIdBuilder_ == null) {
@@ -3205,11 +3208,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getPaymentForShippingIdBuilder() {
           
@@ -3217,11 +3220,11 @@ public final class OmGetOrderStateRulesAd {
           return getPaymentForShippingIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder() {
           if (paymentForShippingIdBuilder_ != null) {
@@ -3232,11 +3235,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination. D.h. die Regel gilt nur für Positionen von Aufträgen, für die diese Versand- und Zahlart ausgewählt wurde. "-1" bedeutet, daß die Regel unabhängig von Versand- und Zahlart gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3256,21 +3259,21 @@ public final class OmGetOrderStateRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromOrderStateIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
          */
         public boolean hasFromOrderStateId() {
           return fromOrderStateIdBuilder_ != null || fromOrderStateId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
          */
         public io.dstore.Values.integerValue getFromOrderStateId() {
           if (fromOrderStateIdBuilder_ == null) {
@@ -3280,11 +3283,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
          */
         public Builder setFromOrderStateId(io.dstore.Values.integerValue value) {
           if (fromOrderStateIdBuilder_ == null) {
@@ -3300,11 +3303,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
          */
         public Builder setFromOrderStateId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3318,11 +3321,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
          */
         public Builder mergeFromOrderStateId(io.dstore.Values.integerValue value) {
           if (fromOrderStateIdBuilder_ == null) {
@@ -3340,11 +3343,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
          */
         public Builder clearFromOrderStateId() {
           if (fromOrderStateIdBuilder_ == null) {
@@ -3358,11 +3361,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getFromOrderStateIdBuilder() {
           
@@ -3370,11 +3373,11 @@ public final class OmGetOrderStateRulesAd {
           return getFromOrderStateIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getFromOrderStateIdOrBuilder() {
           if (fromOrderStateIdBuilder_ != null) {
@@ -3385,11 +3388,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status. Gibt an, daß der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") aus diesem Status in den Status "ToOrderStateID" umsetzen darf oder nicht (je nach "Allowed").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3409,21 +3412,21 @@ public final class OmGetOrderStateRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toOrderStateBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
          */
         public boolean hasToOrderState() {
           return toOrderStateBuilder_ != null || toOrderState_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
          */
         public io.dstore.Values.stringValue getToOrderState() {
           if (toOrderStateBuilder_ == null) {
@@ -3433,11 +3436,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
          */
         public Builder setToOrderState(io.dstore.Values.stringValue value) {
           if (toOrderStateBuilder_ == null) {
@@ -3453,11 +3456,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
          */
         public Builder setToOrderState(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3471,11 +3474,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
          */
         public Builder mergeToOrderState(io.dstore.Values.stringValue value) {
           if (toOrderStateBuilder_ == null) {
@@ -3493,11 +3496,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
          */
         public Builder clearToOrderState() {
           if (toOrderStateBuilder_ == null) {
@@ -3511,11 +3514,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
          */
         public io.dstore.Values.stringValue.Builder getToOrderStateBuilder() {
           
@@ -3523,11 +3526,11 @@ public final class OmGetOrderStateRulesAd {
           return getToOrderStateFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getToOrderStateOrBuilder() {
           if (toOrderStateBuilder_ != null) {
@@ -3538,11 +3541,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3562,21 +3565,21 @@ public final class OmGetOrderStateRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentForShippingDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
          */
         public boolean hasPaymentForShippingDescription() {
           return paymentForShippingDescriptionBuilder_ != null || paymentForShippingDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
          */
         public io.dstore.Values.stringValue getPaymentForShippingDescription() {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -3586,11 +3589,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
          */
         public Builder setPaymentForShippingDescription(io.dstore.Values.stringValue value) {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -3606,11 +3609,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
          */
         public Builder setPaymentForShippingDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3624,11 +3627,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
          */
         public Builder mergePaymentForShippingDescription(io.dstore.Values.stringValue value) {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -3646,11 +3649,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
          */
         public Builder clearPaymentForShippingDescription() {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -3664,11 +3667,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getPaymentForShippingDescriptionBuilder() {
           
@@ -3676,11 +3679,11 @@ public final class OmGetOrderStateRulesAd {
           return getPaymentForShippingDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
           if (paymentForShippingDescriptionBuilder_ != null) {
@@ -3691,11 +3694,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3715,21 +3718,21 @@ public final class OmGetOrderStateRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromOrderStateBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
          */
         public boolean hasFromOrderState() {
           return fromOrderStateBuilder_ != null || fromOrderState_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
          */
         public io.dstore.Values.stringValue getFromOrderState() {
           if (fromOrderStateBuilder_ == null) {
@@ -3739,11 +3742,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
          */
         public Builder setFromOrderState(io.dstore.Values.stringValue value) {
           if (fromOrderStateBuilder_ == null) {
@@ -3759,11 +3762,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
          */
         public Builder setFromOrderState(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3777,11 +3780,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
          */
         public Builder mergeFromOrderState(io.dstore.Values.stringValue value) {
           if (fromOrderStateBuilder_ == null) {
@@ -3799,11 +3802,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
          */
         public Builder clearFromOrderState() {
           if (fromOrderStateBuilder_ == null) {
@@ -3817,11 +3820,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
          */
         public io.dstore.Values.stringValue.Builder getFromOrderStateBuilder() {
           
@@ -3829,11 +3832,11 @@ public final class OmGetOrderStateRulesAd {
           return getFromOrderStateFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getFromOrderStateOrBuilder() {
           if (fromOrderStateBuilder_ != null) {
@@ -3844,11 +3847,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3868,21 +3871,21 @@ public final class OmGetOrderStateRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> allowedBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-         *
          * <pre>
          * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
          */
         public boolean hasAllowed() {
           return allowedBuilder_ != null || allowed_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-         *
          * <pre>
          * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
          */
         public io.dstore.Values.booleanValue getAllowed() {
           if (allowedBuilder_ == null) {
@@ -3892,11 +3895,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-         *
          * <pre>
          * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
          */
         public Builder setAllowed(io.dstore.Values.booleanValue value) {
           if (allowedBuilder_ == null) {
@@ -3912,11 +3915,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-         *
          * <pre>
          * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
          */
         public Builder setAllowed(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -3930,11 +3933,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-         *
          * <pre>
          * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
          */
         public Builder mergeAllowed(io.dstore.Values.booleanValue value) {
           if (allowedBuilder_ == null) {
@@ -3952,11 +3955,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-         *
          * <pre>
          * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
          */
         public Builder clearAllowed() {
           if (allowedBuilder_ == null) {
@@ -3970,11 +3973,11 @@ public final class OmGetOrderStateRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-         *
          * <pre>
          * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
          */
         public io.dstore.Values.booleanValue.Builder getAllowedBuilder() {
           
@@ -3982,11 +3985,11 @@ public final class OmGetOrderStateRulesAd {
           return getAllowedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-         *
          * <pre>
          * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getAllowedOrBuilder() {
           if (allowedBuilder_ != null) {
@@ -3997,11 +4000,11 @@ public final class OmGetOrderStateRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
-         *
          * <pre>
          * Darf der Benutzer "UserID" eine Auftragsposition (bei Zahlungsart-Versandart-Kombination "PaymentForShippingID") vom Status "FromOrderStateID" in den Status "ToOrderStateID" setzen ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue allowed = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -4046,16 +4049,7 @@ public final class OmGetOrderStateRulesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4147,52 +4141,52 @@ public final class OmGetOrderStateRulesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4267,34 +4261,40 @@ public final class OmGetOrderStateRulesAd {
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4531,7 +4531,7 @@ public final class OmGetOrderStateRulesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5034,11 +5034,11 @@ public final class OmGetOrderStateRulesAd {
           io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row, io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -5048,11 +5048,11 @@ public final class OmGetOrderStateRulesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -5062,11 +5062,11 @@ public final class OmGetOrderStateRulesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -5076,11 +5076,11 @@ public final class OmGetOrderStateRulesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row value) {
@@ -5097,11 +5097,11 @@ public final class OmGetOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row.Builder builderForValue) {
@@ -5115,11 +5115,11 @@ public final class OmGetOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -5135,11 +5135,11 @@ public final class OmGetOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row value) {
@@ -5156,11 +5156,11 @@ public final class OmGetOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row.Builder builderForValue) {
@@ -5174,11 +5174,11 @@ public final class OmGetOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row.Builder builderForValue) {
@@ -5192,11 +5192,11 @@ public final class OmGetOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row> values) {
@@ -5211,11 +5211,11 @@ public final class OmGetOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -5228,11 +5228,11 @@ public final class OmGetOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5245,22 +5245,22 @@ public final class OmGetOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5270,11 +5270,11 @@ public final class OmGetOrderStateRulesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5285,22 +5285,22 @@ public final class OmGetOrderStateRulesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5308,11 +5308,11 @@ public final class OmGetOrderStateRulesAd {
             index, io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateRules_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5362,16 +5362,7 @@ public final class OmGetOrderStateRulesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5390,19 +5381,19 @@ public final class OmGetOrderStateRulesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderStateRules_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderStateRules_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderStateRules_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderStateRules_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderStateRules_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderStateRules_Ad_Response_Row_fieldAccessorTable;
 
@@ -5410,7 +5401,7 @@ public final class OmGetOrderStateRulesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

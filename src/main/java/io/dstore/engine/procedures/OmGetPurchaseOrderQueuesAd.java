@@ -166,7 +166,8 @@ public final class OmGetPurchaseOrderQueuesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -312,11 +313,10 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -688,34 +688,40 @@ public final class OmGetPurchaseOrderQueuesAd {
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -965,7 +971,7 @@ public final class OmGetPurchaseOrderQueuesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2004,16 +2010,7 @@ public final class OmGetPurchaseOrderQueuesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2085,45 +2082,45 @@ public final class OmGetPurchaseOrderQueuesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -2152,7 +2149,8 @@ public final class OmGetPurchaseOrderQueuesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2196,11 +2194,10 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2236,852 +2233,852 @@ public final class OmGetPurchaseOrderQueuesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
       boolean hasSupplCharacVal2RestrByPattern();
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
       io.dstore.Values.stringValue getSupplCharacVal2RestrByPattern();
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getSupplCharacVal2RestrByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
        */
       boolean hasLastEditedByUserId();
       /**
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
        */
       io.dstore.Values.integerValue getLastEditedByUserId();
       /**
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getLastEditedByUserIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
        */
       boolean hasCurrencySymbol();
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
        */
       io.dstore.Values.stringValue getCurrencySymbol();
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCurrencySymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
        */
       boolean hasLastEditedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
        */
       io.dstore.Values.timestampValue getLastEditedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getLastEditedAtDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-       *
        * <pre>
        * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
        */
       boolean hasSupplierId();
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-       *
        * <pre>
        * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
        */
       io.dstore.Values.integerValue getSupplierId();
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-       *
        * <pre>
        * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-       *
        * <pre>
        * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
        */
       boolean hasNetSum();
       /**
-       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-       *
        * <pre>
        * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
        */
       io.dstore.Values.decimalValue getNetSum();
       /**
-       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-       *
        * <pre>
        * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getNetSumOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
        */
       boolean hasNodeDescription();
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
        */
       io.dstore.Values.stringValue getNodeDescription();
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
        */
       boolean hasOrderDeadline();
       /**
-       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
        */
       io.dstore.Values.timestampValue getOrderDeadline();
       /**
-       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getOrderDeadlineOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
        */
       io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
        */
       io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-       *
        * <pre>
        * Name des Benutzers "CreatedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
        */
       boolean hasCreatedByUserName();
       /**
-       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-       *
        * <pre>
        * Name des Benutzers "CreatedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
        */
       io.dstore.Values.stringValue getCreatedByUserName();
       /**
-       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-       *
        * <pre>
        * Name des Benutzers "CreatedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCreatedByUserNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue comment = 10012;</code>
-       *
        * <pre>
        * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10012;</code>
        */
       boolean hasComment();
       /**
-       * <code>optional .dstore.values.stringValue comment = 10012;</code>
-       *
        * <pre>
        * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10012;</code>
        */
       io.dstore.Values.stringValue getComment();
       /**
-       * <code>optional .dstore.values.stringValue comment = 10012;</code>
-       *
        * <pre>
        * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10012;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCommentOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
        */
       boolean hasSupplierCharacteristicValue2();
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
        */
       io.dstore.Values.stringValue getSupplierCharacteristicValue2();
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
        */
       io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
        */
       boolean hasItemProperty();
       /**
-       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
        */
       io.dstore.Values.stringValue getItemProperty();
       /**
-       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
        */
       io.dstore.Values.stringValueOrBuilder getItemPropertyOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
        */
       boolean hasSupplierCharacteristicValue1();
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
        */
       io.dstore.Values.stringValue getSupplierCharacteristicValue1();
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
        */
       io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue1OrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-       *
        * <pre>
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
        */
       boolean hasQuantity();
       /**
-       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-       *
        * <pre>
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
        */
       io.dstore.Values.integerValue getQuantity();
       /**
-       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-       *
        * <pre>
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
        */
       io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-       *
        * <pre>
        * Name des Benutzers "LastEditedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
        */
       boolean hasLastEditedByUserName();
       /**
-       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-       *
        * <pre>
        * Name des Benutzers "LastEditedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
        */
       io.dstore.Values.stringValue getLastEditedByUserName();
       /**
-       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-       *
        * <pre>
        * Name des Benutzers "LastEditedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
        */
       io.dstore.Values.stringValueOrBuilder getLastEditedByUserNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-       *
        * <pre>
        * ID der Währung, in der "NetSum" angegeben ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
        */
       boolean hasCurrencyId();
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-       *
        * <pre>
        * ID der Währung, in der "NetSum" angegeben ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
        */
       io.dstore.Values.integerValue getCurrencyId();
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-       *
        * <pre>
        * ID der Währung, in der "NetSum" angegeben ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
        */
       boolean hasCreatedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
        */
       io.dstore.Values.timestampValue getCreatedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
        */
       boolean hasCreatedByUserId();
       /**
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
        */
       io.dstore.Values.integerValue getCreatedByUserId();
       /**
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCreatedByUserIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-       *
        * <pre>
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
        */
       boolean hasOrderTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-       *
        * <pre>
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
        */
       io.dstore.Values.stringValue getOrderTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-       *
        * <pre>
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
        */
       io.dstore.Values.stringValueOrBuilder getOrderTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-       *
        * <pre>
        * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
        */
       boolean hasHTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-       *
        * <pre>
        * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
        */
       io.dstore.Values.integerValue getHTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-       *
        * <pre>
        * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
        */
       io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-       *
        * <pre>
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
        */
       boolean hasOrderTypeId();
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-       *
        * <pre>
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
        */
       io.dstore.Values.integerValue getOrderTypeId();
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-       *
        * <pre>
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
        */
       io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
        */
       boolean hasItemNo();
       /**
-       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
        */
       io.dstore.Values.stringValue getItemNo();
       /**
-       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
        */
       io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-       *
        * <pre>
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
        */
       boolean hasSupplCharacVal1RestrByPattern();
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-       *
        * <pre>
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
        */
       io.dstore.Values.stringValue getSupplCharacVal1RestrByPattern();
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-       *
        * <pre>
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
        */
       io.dstore.Values.stringValueOrBuilder getSupplCharacVal1RestrByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-       *
        * <pre>
        * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
        */
       boolean hasNumberOfItems();
       /**
-       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-       *
        * <pre>
        * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
        */
       io.dstore.Values.integerValue getNumberOfItems();
       /**
-       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-       *
        * <pre>
        * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNumberOfItemsOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-       *
        * <pre>
        * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
        */
       boolean hasNumberOfExpiredDeadlines();
       /**
-       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-       *
        * <pre>
        * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
        */
       io.dstore.Values.integerValue getNumberOfExpiredDeadlines();
       /**
-       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-       *
        * <pre>
        * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNumberOfExpiredDeadlinesOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-       *
        * <pre>
        * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
        */
       boolean hasMinOrderDeadline();
       /**
-       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-       *
        * <pre>
        * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
        */
       io.dstore.Values.decimalValue getMinOrderDeadline();
       /**
-       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-       *
        * <pre>
        * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getMinOrderDeadlineOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-       *
        * <pre>
        * Wieviele "Queues" gibt es insgesamt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
        */
       boolean hasNumberOfQueues();
       /**
-       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-       *
        * <pre>
        * Wieviele "Queues" gibt es insgesamt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
        */
       io.dstore.Values.integerValue getNumberOfQueues();
       /**
-       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-       *
        * <pre>
        * Wieviele "Queues" gibt es insgesamt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNumberOfQueuesOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-       *
        * <pre>
        * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
        */
       boolean hasMaxOrderDeadline();
       /**
-       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-       *
        * <pre>
        * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
        */
       io.dstore.Values.decimalValue getMaxOrderDeadline();
       /**
-       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-       *
        * <pre>
        * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getMaxOrderDeadlineOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-       *
        * <pre>
        * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
        */
       boolean hasNumberOfSuppliers();
       /**
-       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-       *
        * <pre>
        * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
        */
       io.dstore.Values.integerValue getNumberOfSuppliers();
       /**
-       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-       *
        * <pre>
        * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNumberOfSuppliersOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-       *
        * <pre>
        * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
        */
       boolean hasTotalNetSum();
       /**
-       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-       *
        * <pre>
        * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
        */
       io.dstore.Values.decimalValue getTotalNetSum();
       /**
-       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-       *
        * <pre>
        * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getTotalNetSumOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-       *
        * <pre>
        * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
        */
       boolean hasPurchasePriceCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-       *
        * <pre>
        * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
        */
       io.dstore.Values.integerValue getPurchasePriceCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-       *
        * <pre>
        * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPurchasePriceCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-       *
        * <pre>
        * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
        */
       boolean hasTotalQuantity();
       /**
-       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-       *
        * <pre>
        * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
        */
       io.dstore.Values.integerValue getTotalQuantity();
       /**
-       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-       *
        * <pre>
        * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTotalQuantityOrBuilder();
     }
@@ -3107,7 +3104,8 @@ public final class OmGetPurchaseOrderQueuesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         int mutable_bitField1_ = 0;
@@ -3575,11 +3573,10 @@ public final class OmGetPurchaseOrderQueuesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -3608,31 +3605,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int SUPPL_CHARAC_VAL2_RESTR_BY_PATTERN_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue supplCharacVal2RestrByPattern_;
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
       public boolean hasSupplCharacVal2RestrByPattern() {
         return supplCharacVal2RestrByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
       public io.dstore.Values.stringValue getSupplCharacVal2RestrByPattern() {
         return supplCharacVal2RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplCharacVal2RestrByPattern_;
       }
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSupplCharacVal2RestrByPatternOrBuilder() {
         return getSupplCharacVal2RestrByPattern();
@@ -3641,31 +3638,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int LAST_EDITED_BY_USER_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue lastEditedByUserId_;
       /**
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
        */
       public boolean hasLastEditedByUserId() {
         return lastEditedByUserId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getLastEditedByUserId() {
         return lastEditedByUserId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lastEditedByUserId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getLastEditedByUserIdOrBuilder() {
         return getLastEditedByUserId();
@@ -3674,31 +3671,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int CURRENCY_SYMBOL_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue currencySymbol_;
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
        */
       public boolean hasCurrencySymbol() {
         return currencySymbol_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
        */
       public io.dstore.Values.stringValue getCurrencySymbol() {
         return currencySymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : currencySymbol_;
       }
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCurrencySymbolOrBuilder() {
         return getCurrencySymbol();
@@ -3707,31 +3704,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int LAST_EDITED_AT_DATE_AND_TIME_FIELD_NUMBER = 10004;
       private io.dstore.Values.timestampValue lastEditedAtDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
        */
       public boolean hasLastEditedAtDateAndTime() {
         return lastEditedAtDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
        */
       public io.dstore.Values.timestampValue getLastEditedAtDateAndTime() {
         return lastEditedAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastEditedAtDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getLastEditedAtDateAndTimeOrBuilder() {
         return getLastEditedAtDateAndTime();
@@ -3740,31 +3737,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int SUPPLIER_ID_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue supplierId_;
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-       *
        * <pre>
        * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
        */
       public boolean hasSupplierId() {
         return supplierId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-       *
        * <pre>
        * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
        */
       public io.dstore.Values.integerValue getSupplierId() {
         return supplierId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : supplierId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-       *
        * <pre>
        * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder() {
         return getSupplierId();
@@ -3773,31 +3770,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int NET_SUM_FIELD_NUMBER = 10006;
       private io.dstore.Values.decimalValue netSum_;
       /**
-       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-       *
        * <pre>
        * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
        */
       public boolean hasNetSum() {
         return netSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-       *
        * <pre>
        * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
        */
       public io.dstore.Values.decimalValue getNetSum() {
         return netSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netSum_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-       *
        * <pre>
        * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getNetSumOrBuilder() {
         return getNetSum();
@@ -3806,31 +3803,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int NODE_DESCRIPTION_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue nodeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
        */
       public io.dstore.Values.stringValue getNodeDescription() {
         return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
@@ -3839,31 +3836,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int ORDER_DEADLINE_FIELD_NUMBER = 10008;
       private io.dstore.Values.timestampValue orderDeadline_;
       /**
-       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
        */
       public boolean hasOrderDeadline() {
         return orderDeadline_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
        */
       public io.dstore.Values.timestampValue getOrderDeadline() {
         return orderDeadline_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : orderDeadline_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getOrderDeadlineOrBuilder() {
         return getOrderDeadline();
@@ -3872,31 +3869,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int NODE_ID_FIELD_NUMBER = 10009;
       private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
        */
       public io.dstore.Values.integerValue getNodeId() {
         return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10009;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -3905,31 +3902,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10010;
       private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
        */
       public io.dstore.Values.integerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-       *
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -3938,31 +3935,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int CREATED_BY_USER_NAME_FIELD_NUMBER = 10011;
       private io.dstore.Values.stringValue createdByUserName_;
       /**
-       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-       *
        * <pre>
        * Name des Benutzers "CreatedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
        */
       public boolean hasCreatedByUserName() {
         return createdByUserName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-       *
        * <pre>
        * Name des Benutzers "CreatedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
        */
       public io.dstore.Values.stringValue getCreatedByUserName() {
         return createdByUserName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : createdByUserName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-       *
        * <pre>
        * Name des Benutzers "CreatedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCreatedByUserNameOrBuilder() {
         return getCreatedByUserName();
@@ -3971,31 +3968,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int COMMENT_FIELD_NUMBER = 10012;
       private io.dstore.Values.stringValue comment_;
       /**
-       * <code>optional .dstore.values.stringValue comment = 10012;</code>
-       *
        * <pre>
        * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10012;</code>
        */
       public boolean hasComment() {
         return comment_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue comment = 10012;</code>
-       *
        * <pre>
        * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10012;</code>
        */
       public io.dstore.Values.stringValue getComment() {
         return comment_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : comment_;
       }
       /**
-       * <code>optional .dstore.values.stringValue comment = 10012;</code>
-       *
        * <pre>
        * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10012;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCommentOrBuilder() {
         return getComment();
@@ -4004,31 +4001,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int SUPPLIER_CHARACTERISTIC_VALUE2_FIELD_NUMBER = 10013;
       private io.dstore.Values.stringValue supplierCharacteristicValue2_;
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
        */
       public boolean hasSupplierCharacteristicValue2() {
         return supplierCharacteristicValue2_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
        */
       public io.dstore.Values.stringValue getSupplierCharacteristicValue2() {
         return supplierCharacteristicValue2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplierCharacteristicValue2_;
       }
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue2OrBuilder() {
         return getSupplierCharacteristicValue2();
@@ -4037,31 +4034,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int ITEM_PROPERTY_FIELD_NUMBER = 10014;
       private io.dstore.Values.stringValue itemProperty_;
       /**
-       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
        */
       public boolean hasItemProperty() {
         return itemProperty_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
        */
       public io.dstore.Values.stringValue getItemProperty() {
         return itemProperty_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemProperty_;
       }
       /**
-       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_property = 10014;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getItemPropertyOrBuilder() {
         return getItemProperty();
@@ -4070,31 +4067,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int SUPPLIER_CHARACTERISTIC_VALUE1_FIELD_NUMBER = 10015;
       private io.dstore.Values.stringValue supplierCharacteristicValue1_;
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
        */
       public boolean hasSupplierCharacteristicValue1() {
         return supplierCharacteristicValue1_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
        */
       public io.dstore.Values.stringValue getSupplierCharacteristicValue1() {
         return supplierCharacteristicValue1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplierCharacteristicValue1_;
       }
       /**
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-       *
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue1OrBuilder() {
         return getSupplierCharacteristicValue1();
@@ -4103,31 +4100,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int QUANTITY_FIELD_NUMBER = 10016;
       private io.dstore.Values.integerValue quantity_;
       /**
-       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-       *
        * <pre>
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
        */
       public boolean hasQuantity() {
         return quantity_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-       *
        * <pre>
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
        */
       public io.dstore.Values.integerValue getQuantity() {
         return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-       *
        * <pre>
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue quantity = 10016;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
         return getQuantity();
@@ -4136,31 +4133,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int LAST_EDITED_BY_USER_NAME_FIELD_NUMBER = 10017;
       private io.dstore.Values.stringValue lastEditedByUserName_;
       /**
-       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-       *
        * <pre>
        * Name des Benutzers "LastEditedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
        */
       public boolean hasLastEditedByUserName() {
         return lastEditedByUserName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-       *
        * <pre>
        * Name des Benutzers "LastEditedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
        */
       public io.dstore.Values.stringValue getLastEditedByUserName() {
         return lastEditedByUserName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lastEditedByUserName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-       *
        * <pre>
        * Name des Benutzers "LastEditedByUserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getLastEditedByUserNameOrBuilder() {
         return getLastEditedByUserName();
@@ -4169,31 +4166,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int CURRENCY_ID_FIELD_NUMBER = 10018;
       private io.dstore.Values.integerValue currencyId_;
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-       *
        * <pre>
        * ID der Währung, in der "NetSum" angegeben ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
        */
       public boolean hasCurrencyId() {
         return currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-       *
        * <pre>
        * ID der Währung, in der "NetSum" angegeben ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
        */
       public io.dstore.Values.integerValue getCurrencyId() {
         return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-       *
        * <pre>
        * ID der Währung, in der "NetSum" angegeben ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
         return getCurrencyId();
@@ -4202,31 +4199,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int CREATED_AT_DATE_AND_TIME_FIELD_NUMBER = 10019;
       private io.dstore.Values.timestampValue createdAtDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
        */
       public boolean hasCreatedAtDateAndTime() {
         return createdAtDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
        */
       public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
         return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-       *
        * <pre>
        * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
         return getCreatedAtDateAndTime();
@@ -4235,31 +4232,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int CREATED_BY_USER_ID_FIELD_NUMBER = 10020;
       private io.dstore.Values.integerValue createdByUserId_;
       /**
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
        */
       public boolean hasCreatedByUserId() {
         return createdByUserId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
        */
       public io.dstore.Values.integerValue getCreatedByUserId() {
         return createdByUserId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : createdByUserId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-       *
        * <pre>
        * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCreatedByUserIdOrBuilder() {
         return getCreatedByUserId();
@@ -4268,31 +4265,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int ORDER_TYPE_DESCRIPTION_FIELD_NUMBER = 10021;
       private io.dstore.Values.stringValue orderTypeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-       *
        * <pre>
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
        */
       public boolean hasOrderTypeDescription() {
         return orderTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-       *
        * <pre>
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
        */
       public io.dstore.Values.stringValue getOrderTypeDescription() {
         return orderTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderTypeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-       *
        * <pre>
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getOrderTypeDescriptionOrBuilder() {
         return getOrderTypeDescription();
@@ -4301,31 +4298,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10022;
       private io.dstore.Values.integerValue hTreeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-       *
        * <pre>
        * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-       *
        * <pre>
        * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
        */
       public io.dstore.Values.integerValue getHTreeNodeId() {
         return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-       *
        * <pre>
        * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
@@ -4334,31 +4331,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int ORDER_TYPE_ID_FIELD_NUMBER = 10023;
       private io.dstore.Values.integerValue orderTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-       *
        * <pre>
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
        */
       public boolean hasOrderTypeId() {
         return orderTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-       *
        * <pre>
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
        */
       public io.dstore.Values.integerValue getOrderTypeId() {
         return orderTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-       *
        * <pre>
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder() {
         return getOrderTypeId();
@@ -4367,31 +4364,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int ITEM_NO_FIELD_NUMBER = 10024;
       private io.dstore.Values.stringValue itemNo_;
       /**
-       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
        */
       public boolean hasItemNo() {
         return itemNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
        */
       public io.dstore.Values.stringValue getItemNo() {
         return itemNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemNo_;
       }
       /**
-       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-       *
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue item_no = 10024;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder() {
         return getItemNo();
@@ -4400,31 +4397,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int SUPPL_CHARAC_VAL1_RESTR_BY_PATTERN_FIELD_NUMBER = 10025;
       private io.dstore.Values.stringValue supplCharacVal1RestrByPattern_;
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-       *
        * <pre>
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
        */
       public boolean hasSupplCharacVal1RestrByPattern() {
         return supplCharacVal1RestrByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-       *
        * <pre>
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
        */
       public io.dstore.Values.stringValue getSupplCharacVal1RestrByPattern() {
         return supplCharacVal1RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplCharacVal1RestrByPattern_;
       }
       /**
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-       *
        * <pre>
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSupplCharacVal1RestrByPatternOrBuilder() {
         return getSupplCharacVal1RestrByPattern();
@@ -4433,31 +4430,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int NUMBER_OF_ITEMS_FIELD_NUMBER = 20001;
       private io.dstore.Values.integerValue numberOfItems_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-       *
        * <pre>
        * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
        */
       public boolean hasNumberOfItems() {
         return numberOfItems_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-       *
        * <pre>
        * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
        */
       public io.dstore.Values.integerValue getNumberOfItems() {
         return numberOfItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfItems_;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-       *
        * <pre>
        * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNumberOfItemsOrBuilder() {
         return getNumberOfItems();
@@ -4466,31 +4463,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int NUMBER_OF_EXPIRED_DEADLINES_FIELD_NUMBER = 20002;
       private io.dstore.Values.integerValue numberOfExpiredDeadlines_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-       *
        * <pre>
        * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
        */
       public boolean hasNumberOfExpiredDeadlines() {
         return numberOfExpiredDeadlines_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-       *
        * <pre>
        * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
        */
       public io.dstore.Values.integerValue getNumberOfExpiredDeadlines() {
         return numberOfExpiredDeadlines_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfExpiredDeadlines_;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-       *
        * <pre>
        * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNumberOfExpiredDeadlinesOrBuilder() {
         return getNumberOfExpiredDeadlines();
@@ -4499,31 +4496,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int MIN_ORDER_DEADLINE_FIELD_NUMBER = 20003;
       private io.dstore.Values.decimalValue minOrderDeadline_;
       /**
-       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-       *
        * <pre>
        * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
        */
       public boolean hasMinOrderDeadline() {
         return minOrderDeadline_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-       *
        * <pre>
        * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
        */
       public io.dstore.Values.decimalValue getMinOrderDeadline() {
         return minOrderDeadline_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : minOrderDeadline_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-       *
        * <pre>
        * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getMinOrderDeadlineOrBuilder() {
         return getMinOrderDeadline();
@@ -4532,31 +4529,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int NUMBER_OF_QUEUES_FIELD_NUMBER = 20004;
       private io.dstore.Values.integerValue numberOfQueues_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-       *
        * <pre>
        * Wieviele "Queues" gibt es insgesamt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
        */
       public boolean hasNumberOfQueues() {
         return numberOfQueues_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-       *
        * <pre>
        * Wieviele "Queues" gibt es insgesamt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
        */
       public io.dstore.Values.integerValue getNumberOfQueues() {
         return numberOfQueues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfQueues_;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-       *
        * <pre>
        * Wieviele "Queues" gibt es insgesamt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNumberOfQueuesOrBuilder() {
         return getNumberOfQueues();
@@ -4565,31 +4562,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int MAX_ORDER_DEADLINE_FIELD_NUMBER = 20005;
       private io.dstore.Values.decimalValue maxOrderDeadline_;
       /**
-       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-       *
        * <pre>
        * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
        */
       public boolean hasMaxOrderDeadline() {
         return maxOrderDeadline_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-       *
        * <pre>
        * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
        */
       public io.dstore.Values.decimalValue getMaxOrderDeadline() {
         return maxOrderDeadline_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : maxOrderDeadline_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-       *
        * <pre>
        * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getMaxOrderDeadlineOrBuilder() {
         return getMaxOrderDeadline();
@@ -4598,31 +4595,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int NUMBER_OF_SUPPLIERS_FIELD_NUMBER = 20006;
       private io.dstore.Values.integerValue numberOfSuppliers_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-       *
        * <pre>
        * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
        */
       public boolean hasNumberOfSuppliers() {
         return numberOfSuppliers_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-       *
        * <pre>
        * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
        */
       public io.dstore.Values.integerValue getNumberOfSuppliers() {
         return numberOfSuppliers_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfSuppliers_;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-       *
        * <pre>
        * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNumberOfSuppliersOrBuilder() {
         return getNumberOfSuppliers();
@@ -4631,31 +4628,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int TOTAL_NET_SUM_FIELD_NUMBER = 30002;
       private io.dstore.Values.decimalValue totalNetSum_;
       /**
-       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-       *
        * <pre>
        * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
        */
       public boolean hasTotalNetSum() {
         return totalNetSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-       *
        * <pre>
        * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
        */
       public io.dstore.Values.decimalValue getTotalNetSum() {
         return totalNetSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalNetSum_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-       *
        * <pre>
        * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getTotalNetSumOrBuilder() {
         return getTotalNetSum();
@@ -4664,31 +4661,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int PURCHASE_PRICE_CHARACTERISTIC_ID_FIELD_NUMBER = 30006;
       private io.dstore.Values.integerValue purchasePriceCharacteristicId_;
       /**
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-       *
        * <pre>
        * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
        */
       public boolean hasPurchasePriceCharacteristicId() {
         return purchasePriceCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-       *
        * <pre>
        * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
        */
       public io.dstore.Values.integerValue getPurchasePriceCharacteristicId() {
         return purchasePriceCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : purchasePriceCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-       *
        * <pre>
        * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPurchasePriceCharacteristicIdOrBuilder() {
         return getPurchasePriceCharacteristicId();
@@ -4697,31 +4694,31 @@ public final class OmGetPurchaseOrderQueuesAd {
       public static final int TOTAL_QUANTITY_FIELD_NUMBER = 30012;
       private io.dstore.Values.integerValue totalQuantity_;
       /**
-       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-       *
        * <pre>
        * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
        */
       public boolean hasTotalQuantity() {
         return totalQuantity_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-       *
        * <pre>
        * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
        */
       public io.dstore.Values.integerValue getTotalQuantity() {
         return totalQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : totalQuantity_;
       }
       /**
-       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-       *
        * <pre>
        * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTotalQuantityOrBuilder() {
         return getTotalQuantity();
@@ -5019,34 +5016,40 @@ public final class OmGetPurchaseOrderQueuesAd {
       }
       public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -5638,7 +5641,7 @@ public final class OmGetPurchaseOrderQueuesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -5677,21 +5680,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplCharacVal2RestrByPatternBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public boolean hasSupplCharacVal2RestrByPattern() {
           return supplCharacVal2RestrByPatternBuilder_ != null || supplCharacVal2RestrByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public io.dstore.Values.stringValue getSupplCharacVal2RestrByPattern() {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
@@ -5701,11 +5704,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public Builder setSupplCharacVal2RestrByPattern(io.dstore.Values.stringValue value) {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
@@ -5721,11 +5724,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public Builder setSupplCharacVal2RestrByPattern(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5739,11 +5742,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public Builder mergeSupplCharacVal2RestrByPattern(io.dstore.Values.stringValue value) {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
@@ -5761,11 +5764,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public Builder clearSupplCharacVal2RestrByPattern() {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
@@ -5779,11 +5782,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getSupplCharacVal2RestrByPatternBuilder() {
           
@@ -5791,11 +5794,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getSupplCharacVal2RestrByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getSupplCharacVal2RestrByPatternOrBuilder() {
           if (supplCharacVal2RestrByPatternBuilder_ != null) {
@@ -5806,11 +5809,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5830,21 +5833,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lastEditedByUserIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
          */
         public boolean hasLastEditedByUserId() {
           return lastEditedByUserIdBuilder_ != null || lastEditedByUserId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getLastEditedByUserId() {
           if (lastEditedByUserIdBuilder_ == null) {
@@ -5854,11 +5857,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
          */
         public Builder setLastEditedByUserId(io.dstore.Values.integerValue value) {
           if (lastEditedByUserIdBuilder_ == null) {
@@ -5874,11 +5877,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
          */
         public Builder setLastEditedByUserId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5892,11 +5895,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
          */
         public Builder mergeLastEditedByUserId(io.dstore.Values.integerValue value) {
           if (lastEditedByUserIdBuilder_ == null) {
@@ -5914,11 +5917,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
          */
         public Builder clearLastEditedByUserId() {
           if (lastEditedByUserIdBuilder_ == null) {
@@ -5932,11 +5935,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getLastEditedByUserIdBuilder() {
           
@@ -5944,11 +5947,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getLastEditedByUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getLastEditedByUserIdOrBuilder() {
           if (lastEditedByUserIdBuilder_ != null) {
@@ -5959,11 +5962,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" zuletzt bearbeitet hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5983,21 +5986,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> currencySymbolBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
          */
         public boolean hasCurrencySymbol() {
           return currencySymbolBuilder_ != null || currencySymbol_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
          */
         public io.dstore.Values.stringValue getCurrencySymbol() {
           if (currencySymbolBuilder_ == null) {
@@ -6007,11 +6010,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
          */
         public Builder setCurrencySymbol(io.dstore.Values.stringValue value) {
           if (currencySymbolBuilder_ == null) {
@@ -6027,11 +6030,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
          */
         public Builder setCurrencySymbol(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -6045,11 +6048,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
          */
         public Builder mergeCurrencySymbol(io.dstore.Values.stringValue value) {
           if (currencySymbolBuilder_ == null) {
@@ -6067,11 +6070,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
          */
         public Builder clearCurrencySymbol() {
           if (currencySymbolBuilder_ == null) {
@@ -6085,11 +6088,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getCurrencySymbolBuilder() {
           
@@ -6097,11 +6100,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getCurrencySymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCurrencySymbolOrBuilder() {
           if (currencySymbolBuilder_ != null) {
@@ -6112,11 +6115,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue currency_symbol = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -6136,21 +6139,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastEditedAtDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
          */
         public boolean hasLastEditedAtDateAndTime() {
           return lastEditedAtDateAndTimeBuilder_ != null || lastEditedAtDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
          */
         public io.dstore.Values.timestampValue getLastEditedAtDateAndTime() {
           if (lastEditedAtDateAndTimeBuilder_ == null) {
@@ -6160,11 +6163,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
          */
         public Builder setLastEditedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (lastEditedAtDateAndTimeBuilder_ == null) {
@@ -6180,11 +6183,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
          */
         public Builder setLastEditedAtDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -6198,11 +6201,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
          */
         public Builder mergeLastEditedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (lastEditedAtDateAndTimeBuilder_ == null) {
@@ -6220,11 +6223,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
          */
         public Builder clearLastEditedAtDateAndTime() {
           if (lastEditedAtDateAndTimeBuilder_ == null) {
@@ -6238,11 +6241,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
          */
         public io.dstore.Values.timestampValue.Builder getLastEditedAtDateAndTimeBuilder() {
           
@@ -6250,11 +6253,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getLastEditedAtDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getLastEditedAtDateAndTimeOrBuilder() {
           if (lastEditedAtDateAndTimeBuilder_ != null) {
@@ -6265,11 +6268,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der Queue zuletzt bearbeitet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited_at_date_and_time = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -6289,21 +6292,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> supplierIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-         *
          * <pre>
          * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
          */
         public boolean hasSupplierId() {
           return supplierIdBuilder_ != null || supplierId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-         *
          * <pre>
          * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
          */
         public io.dstore.Values.integerValue getSupplierId() {
           if (supplierIdBuilder_ == null) {
@@ -6313,11 +6316,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-         *
          * <pre>
          * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
          */
         public Builder setSupplierId(io.dstore.Values.integerValue value) {
           if (supplierIdBuilder_ == null) {
@@ -6333,11 +6336,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-         *
          * <pre>
          * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
          */
         public Builder setSupplierId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -6351,11 +6354,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-         *
          * <pre>
          * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
          */
         public Builder mergeSupplierId(io.dstore.Values.integerValue value) {
           if (supplierIdBuilder_ == null) {
@@ -6373,11 +6376,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-         *
          * <pre>
          * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
          */
         public Builder clearSupplierId() {
           if (supplierIdBuilder_ == null) {
@@ -6391,11 +6394,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-         *
          * <pre>
          * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getSupplierIdBuilder() {
           
@@ -6403,11 +6406,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getSupplierIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-         *
          * <pre>
          * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder() {
           if (supplierIdBuilder_ != null) {
@@ -6418,11 +6421,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
-         *
          * <pre>
          * ID eines Lierferanten, bei dem bestellt werden soll (also eine "PersonID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue supplier_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -6442,21 +6445,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> netSumBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-         *
          * <pre>
          * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
          */
         public boolean hasNetSum() {
           return netSumBuilder_ != null || netSum_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-         *
          * <pre>
          * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
          */
         public io.dstore.Values.decimalValue getNetSum() {
           if (netSumBuilder_ == null) {
@@ -6466,11 +6469,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-         *
          * <pre>
          * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
          */
         public Builder setNetSum(io.dstore.Values.decimalValue value) {
           if (netSumBuilder_ == null) {
@@ -6486,11 +6489,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-         *
          * <pre>
          * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
          */
         public Builder setNetSum(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -6504,11 +6507,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-         *
          * <pre>
          * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
          */
         public Builder mergeNetSum(io.dstore.Values.decimalValue value) {
           if (netSumBuilder_ == null) {
@@ -6526,11 +6529,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-         *
          * <pre>
          * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
          */
         public Builder clearNetSum() {
           if (netSumBuilder_ == null) {
@@ -6544,11 +6547,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-         *
          * <pre>
          * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
          */
         public io.dstore.Values.decimalValue.Builder getNetSumBuilder() {
           
@@ -6556,11 +6559,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getNetSumFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-         *
          * <pre>
          * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getNetSumOrBuilder() {
           if (netSumBuilder_ != null) {
@@ -6571,11 +6574,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
-         *
          * <pre>
          * Gesamt-Netto-Preis (in der durch "CurrencyID" angegebenen Währung), wenn der Artikel "NodeID" beim Lieferanten "SupplierID" bis spätestens "OrderDeadline" in der Menge "Quantity" bestellt wird
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue net_sum = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -6595,21 +6598,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
          */
         public io.dstore.Values.stringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -6619,11 +6622,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
          */
         public Builder setNodeDescription(io.dstore.Values.stringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -6639,11 +6642,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
          */
         public Builder setNodeDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -6657,11 +6660,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
          */
         public Builder mergeNodeDescription(io.dstore.Values.stringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -6679,11 +6682,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -6697,11 +6700,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getNodeDescriptionBuilder() {
           
@@ -6709,11 +6712,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getNodeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
@@ -6724,11 +6727,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -6748,21 +6751,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> orderDeadlineBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
          */
         public boolean hasOrderDeadline() {
           return orderDeadlineBuilder_ != null || orderDeadline_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
          */
         public io.dstore.Values.timestampValue getOrderDeadline() {
           if (orderDeadlineBuilder_ == null) {
@@ -6772,11 +6775,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
          */
         public Builder setOrderDeadline(io.dstore.Values.timestampValue value) {
           if (orderDeadlineBuilder_ == null) {
@@ -6792,11 +6795,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
          */
         public Builder setOrderDeadline(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -6810,11 +6813,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
          */
         public Builder mergeOrderDeadline(io.dstore.Values.timestampValue value) {
           if (orderDeadlineBuilder_ == null) {
@@ -6832,11 +6835,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
          */
         public Builder clearOrderDeadline() {
           if (orderDeadlineBuilder_ == null) {
@@ -6850,11 +6853,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
          */
         public io.dstore.Values.timestampValue.Builder getOrderDeadlineBuilder() {
           
@@ -6862,11 +6865,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getOrderDeadlineFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getOrderDeadlineOrBuilder() {
           if (orderDeadlineBuilder_ != null) {
@@ -6877,11 +6880,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem der Artikel "NodeID" spätestens beim Lieferanten "SupplierID" bestellt werden muß. Gibt also den Zeitpunkt an, wann aus der "Queue" spätestens ein Auftrag gemacht werden muß.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_deadline = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -6901,21 +6904,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
          */
         public io.dstore.Values.integerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -6925,11 +6928,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
          */
         public Builder setNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -6945,11 +6948,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
          */
         public Builder setNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -6963,11 +6966,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
          */
         public Builder mergeNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -6985,11 +6988,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -7003,11 +7006,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
          */
         public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
           
@@ -7015,11 +7018,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -7030,11 +7033,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -7054,21 +7057,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
          */
         public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -7078,11 +7081,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
          */
         public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -7098,11 +7101,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -7116,11 +7119,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -7138,11 +7141,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -7156,11 +7159,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
          */
         public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
@@ -7168,11 +7171,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -7183,11 +7186,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
-         *
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum (, das "NodeID" als Artikel-Element zugewiesen hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -7207,21 +7210,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> createdByUserNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-         *
          * <pre>
          * Name des Benutzers "CreatedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
          */
         public boolean hasCreatedByUserName() {
           return createdByUserNameBuilder_ != null || createdByUserName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-         *
          * <pre>
          * Name des Benutzers "CreatedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
          */
         public io.dstore.Values.stringValue getCreatedByUserName() {
           if (createdByUserNameBuilder_ == null) {
@@ -7231,11 +7234,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-         *
          * <pre>
          * Name des Benutzers "CreatedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
          */
         public Builder setCreatedByUserName(io.dstore.Values.stringValue value) {
           if (createdByUserNameBuilder_ == null) {
@@ -7251,11 +7254,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-         *
          * <pre>
          * Name des Benutzers "CreatedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
          */
         public Builder setCreatedByUserName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -7269,11 +7272,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-         *
          * <pre>
          * Name des Benutzers "CreatedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
          */
         public Builder mergeCreatedByUserName(io.dstore.Values.stringValue value) {
           if (createdByUserNameBuilder_ == null) {
@@ -7291,11 +7294,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-         *
          * <pre>
          * Name des Benutzers "CreatedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
          */
         public Builder clearCreatedByUserName() {
           if (createdByUserNameBuilder_ == null) {
@@ -7309,11 +7312,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-         *
          * <pre>
          * Name des Benutzers "CreatedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
          */
         public io.dstore.Values.stringValue.Builder getCreatedByUserNameBuilder() {
           
@@ -7321,11 +7324,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getCreatedByUserNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-         *
          * <pre>
          * Name des Benutzers "CreatedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCreatedByUserNameOrBuilder() {
           if (createdByUserNameBuilder_ != null) {
@@ -7336,11 +7339,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
-         *
          * <pre>
          * Name des Benutzers "CreatedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue created_by_user_name = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -7360,21 +7363,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> commentBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue comment = 10012;</code>
-         *
          * <pre>
          * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10012;</code>
          */
         public boolean hasComment() {
           return commentBuilder_ != null || comment_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10012;</code>
-         *
          * <pre>
          * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10012;</code>
          */
         public io.dstore.Values.stringValue getComment() {
           if (commentBuilder_ == null) {
@@ -7384,11 +7387,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10012;</code>
-         *
          * <pre>
          * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10012;</code>
          */
         public Builder setComment(io.dstore.Values.stringValue value) {
           if (commentBuilder_ == null) {
@@ -7404,11 +7407,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10012;</code>
-         *
          * <pre>
          * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10012;</code>
          */
         public Builder setComment(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -7422,11 +7425,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10012;</code>
-         *
          * <pre>
          * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10012;</code>
          */
         public Builder mergeComment(io.dstore.Values.stringValue value) {
           if (commentBuilder_ == null) {
@@ -7444,11 +7447,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10012;</code>
-         *
          * <pre>
          * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10012;</code>
          */
         public Builder clearComment() {
           if (commentBuilder_ == null) {
@@ -7462,11 +7465,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10012;</code>
-         *
          * <pre>
          * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10012;</code>
          */
         public io.dstore.Values.stringValue.Builder getCommentBuilder() {
           
@@ -7474,11 +7477,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getCommentFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10012;</code>
-         *
          * <pre>
          * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10012;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCommentOrBuilder() {
           if (commentBuilder_ != null) {
@@ -7489,11 +7492,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10012;</code>
-         *
          * <pre>
          * Optionaler Kommentar, der zur Artikel-Position "NodeID" in der Queue hinterlegt wurde (z.B. so etwas wie "Telefonische Preis-Absprache mit Hr. X vom ...")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -7513,21 +7516,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplierCharacteristicValue2Builder_;
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
          */
         public boolean hasSupplierCharacteristicValue2() {
           return supplierCharacteristicValue2Builder_ != null || supplierCharacteristicValue2_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
          */
         public io.dstore.Values.stringValue getSupplierCharacteristicValue2() {
           if (supplierCharacteristicValue2Builder_ == null) {
@@ -7537,11 +7540,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
          */
         public Builder setSupplierCharacteristicValue2(io.dstore.Values.stringValue value) {
           if (supplierCharacteristicValue2Builder_ == null) {
@@ -7557,11 +7560,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
          */
         public Builder setSupplierCharacteristicValue2(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -7575,11 +7578,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
          */
         public Builder mergeSupplierCharacteristicValue2(io.dstore.Values.stringValue value) {
           if (supplierCharacteristicValue2Builder_ == null) {
@@ -7597,11 +7600,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
          */
         public Builder clearSupplierCharacteristicValue2() {
           if (supplierCharacteristicValue2Builder_ == null) {
@@ -7615,11 +7618,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
          */
         public io.dstore.Values.stringValue.Builder getSupplierCharacteristicValue2Builder() {
           
@@ -7627,11 +7630,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getSupplierCharacteristicValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue2OrBuilder() {
           if (supplierCharacteristicValue2Builder_ != null) {
@@ -7642,11 +7645,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -7666,21 +7669,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemPropertyBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
          */
         public boolean hasItemProperty() {
           return itemPropertyBuilder_ != null || itemProperty_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
          */
         public io.dstore.Values.stringValue getItemProperty() {
           if (itemPropertyBuilder_ == null) {
@@ -7690,11 +7693,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
          */
         public Builder setItemProperty(io.dstore.Values.stringValue value) {
           if (itemPropertyBuilder_ == null) {
@@ -7710,11 +7713,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
          */
         public Builder setItemProperty(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -7728,11 +7731,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
          */
         public Builder mergeItemProperty(io.dstore.Values.stringValue value) {
           if (itemPropertyBuilder_ == null) {
@@ -7750,11 +7753,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
          */
         public Builder clearItemProperty() {
           if (itemPropertyBuilder_ == null) {
@@ -7768,11 +7771,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
          */
         public io.dstore.Values.stringValue.Builder getItemPropertyBuilder() {
           
@@ -7780,11 +7783,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getItemPropertyFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getItemPropertyOrBuilder() {
           if (itemPropertyBuilder_ != null) {
@@ -7795,11 +7798,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_property = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -7819,21 +7822,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplierCharacteristicValue1Builder_;
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
          */
         public boolean hasSupplierCharacteristicValue1() {
           return supplierCharacteristicValue1Builder_ != null || supplierCharacteristicValue1_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
          */
         public io.dstore.Values.stringValue getSupplierCharacteristicValue1() {
           if (supplierCharacteristicValue1Builder_ == null) {
@@ -7843,11 +7846,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
          */
         public Builder setSupplierCharacteristicValue1(io.dstore.Values.stringValue value) {
           if (supplierCharacteristicValue1Builder_ == null) {
@@ -7863,11 +7866,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
          */
         public Builder setSupplierCharacteristicValue1(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -7881,11 +7884,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
          */
         public Builder mergeSupplierCharacteristicValue1(io.dstore.Values.stringValue value) {
           if (supplierCharacteristicValue1Builder_ == null) {
@@ -7903,11 +7906,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
          */
         public Builder clearSupplierCharacteristicValue1() {
           if (supplierCharacteristicValue1Builder_ == null) {
@@ -7921,11 +7924,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
          */
         public io.dstore.Values.stringValue.Builder getSupplierCharacteristicValue1Builder() {
           
@@ -7933,11 +7936,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getSupplierCharacteristicValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue1OrBuilder() {
           if (supplierCharacteristicValue1Builder_ != null) {
@@ -7948,11 +7951,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
-         *
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10015;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -7972,21 +7975,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-         *
          * <pre>
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
          */
         public boolean hasQuantity() {
           return quantityBuilder_ != null || quantity_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-         *
          * <pre>
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
          */
         public io.dstore.Values.integerValue getQuantity() {
           if (quantityBuilder_ == null) {
@@ -7996,11 +7999,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-         *
          * <pre>
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
          */
         public Builder setQuantity(io.dstore.Values.integerValue value) {
           if (quantityBuilder_ == null) {
@@ -8016,11 +8019,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-         *
          * <pre>
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
          */
         public Builder setQuantity(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -8034,11 +8037,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-         *
          * <pre>
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
          */
         public Builder mergeQuantity(io.dstore.Values.integerValue value) {
           if (quantityBuilder_ == null) {
@@ -8056,11 +8059,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-         *
          * <pre>
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
          */
         public Builder clearQuantity() {
           if (quantityBuilder_ == null) {
@@ -8074,11 +8077,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-         *
          * <pre>
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
          */
         public io.dstore.Values.integerValue.Builder getQuantityBuilder() {
           
@@ -8086,11 +8089,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getQuantityFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-         *
          * <pre>
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
           if (quantityBuilder_ != null) {
@@ -8101,11 +8104,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
-         *
          * <pre>
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue quantity = 10016;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -8125,21 +8128,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> lastEditedByUserNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-         *
          * <pre>
          * Name des Benutzers "LastEditedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
          */
         public boolean hasLastEditedByUserName() {
           return lastEditedByUserNameBuilder_ != null || lastEditedByUserName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-         *
          * <pre>
          * Name des Benutzers "LastEditedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
          */
         public io.dstore.Values.stringValue getLastEditedByUserName() {
           if (lastEditedByUserNameBuilder_ == null) {
@@ -8149,11 +8152,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-         *
          * <pre>
          * Name des Benutzers "LastEditedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
          */
         public Builder setLastEditedByUserName(io.dstore.Values.stringValue value) {
           if (lastEditedByUserNameBuilder_ == null) {
@@ -8169,11 +8172,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-         *
          * <pre>
          * Name des Benutzers "LastEditedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
          */
         public Builder setLastEditedByUserName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -8187,11 +8190,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-         *
          * <pre>
          * Name des Benutzers "LastEditedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
          */
         public Builder mergeLastEditedByUserName(io.dstore.Values.stringValue value) {
           if (lastEditedByUserNameBuilder_ == null) {
@@ -8209,11 +8212,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-         *
          * <pre>
          * Name des Benutzers "LastEditedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
          */
         public Builder clearLastEditedByUserName() {
           if (lastEditedByUserNameBuilder_ == null) {
@@ -8227,11 +8230,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-         *
          * <pre>
          * Name des Benutzers "LastEditedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
          */
         public io.dstore.Values.stringValue.Builder getLastEditedByUserNameBuilder() {
           
@@ -8239,11 +8242,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getLastEditedByUserNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-         *
          * <pre>
          * Name des Benutzers "LastEditedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getLastEditedByUserNameOrBuilder() {
           if (lastEditedByUserNameBuilder_ != null) {
@@ -8254,11 +8257,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
-         *
          * <pre>
          * Name des Benutzers "LastEditedByUserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_by_user_name = 10017;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -8278,21 +8281,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-         *
          * <pre>
          * ID der Währung, in der "NetSum" angegeben ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
          */
         public boolean hasCurrencyId() {
           return currencyIdBuilder_ != null || currencyId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-         *
          * <pre>
          * ID der Währung, in der "NetSum" angegeben ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
          */
         public io.dstore.Values.integerValue getCurrencyId() {
           if (currencyIdBuilder_ == null) {
@@ -8302,11 +8305,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-         *
          * <pre>
          * ID der Währung, in der "NetSum" angegeben ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
          */
         public Builder setCurrencyId(io.dstore.Values.integerValue value) {
           if (currencyIdBuilder_ == null) {
@@ -8322,11 +8325,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-         *
          * <pre>
          * ID der Währung, in der "NetSum" angegeben ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
          */
         public Builder setCurrencyId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -8340,11 +8343,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-         *
          * <pre>
          * ID der Währung, in der "NetSum" angegeben ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
          */
         public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
           if (currencyIdBuilder_ == null) {
@@ -8362,11 +8365,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-         *
          * <pre>
          * ID der Währung, in der "NetSum" angegeben ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
          */
         public Builder clearCurrencyId() {
           if (currencyIdBuilder_ == null) {
@@ -8380,11 +8383,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-         *
          * <pre>
          * ID der Währung, in der "NetSum" angegeben ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
          */
         public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
           
@@ -8392,11 +8395,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getCurrencyIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-         *
          * <pre>
          * ID der Währung, in der "NetSum" angegeben ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
           if (currencyIdBuilder_ != null) {
@@ -8407,11 +8410,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
-         *
          * <pre>
          * ID der Währung, in der "NetSum" angegeben ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue currency_id = 10018;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -8431,21 +8434,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> createdAtDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
          */
         public boolean hasCreatedAtDateAndTime() {
           return createdAtDateAndTimeBuilder_ != null || createdAtDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
          */
         public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -8455,11 +8458,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
          */
         public Builder setCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -8475,11 +8478,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
          */
         public Builder setCreatedAtDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -8493,11 +8496,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
          */
         public Builder mergeCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -8515,11 +8518,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
          */
         public Builder clearCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -8533,11 +8536,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
          */
         public io.dstore.Values.timestampValue.Builder getCreatedAtDateAndTimeBuilder() {
           
@@ -8545,11 +8548,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getCreatedAtDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
           if (createdAtDateAndTimeBuilder_ != null) {
@@ -8560,11 +8563,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
-         *
          * <pre>
          * Wann wurde die Position "NodeID" der "Queue" hinzugefügt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10019;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -8584,21 +8587,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> createdByUserIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
          */
         public boolean hasCreatedByUserId() {
           return createdByUserIdBuilder_ != null || createdByUserId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
          */
         public io.dstore.Values.integerValue getCreatedByUserId() {
           if (createdByUserIdBuilder_ == null) {
@@ -8608,11 +8611,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
          */
         public Builder setCreatedByUserId(io.dstore.Values.integerValue value) {
           if (createdByUserIdBuilder_ == null) {
@@ -8628,11 +8631,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
          */
         public Builder setCreatedByUserId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -8646,11 +8649,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
          */
         public Builder mergeCreatedByUserId(io.dstore.Values.integerValue value) {
           if (createdByUserIdBuilder_ == null) {
@@ -8668,11 +8671,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
          */
         public Builder clearCreatedByUserId() {
           if (createdByUserIdBuilder_ == null) {
@@ -8686,11 +8689,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
          */
         public io.dstore.Values.integerValue.Builder getCreatedByUserIdBuilder() {
           
@@ -8698,11 +8701,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getCreatedByUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCreatedByUserIdOrBuilder() {
           if (createdByUserIdBuilder_ != null) {
@@ -8713,11 +8716,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
-         *
          * <pre>
          * ID des dStore-Benutzers (der in "UserInfo" registriert ist), der die Position "NodeID" der Queue hinzufügt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue created_by_user_id = 10020;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -8737,21 +8740,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-         *
          * <pre>
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
          */
         public boolean hasOrderTypeDescription() {
           return orderTypeDescriptionBuilder_ != null || orderTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-         *
          * <pre>
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
          */
         public io.dstore.Values.stringValue getOrderTypeDescription() {
           if (orderTypeDescriptionBuilder_ == null) {
@@ -8761,11 +8764,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-         *
          * <pre>
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
          */
         public Builder setOrderTypeDescription(io.dstore.Values.stringValue value) {
           if (orderTypeDescriptionBuilder_ == null) {
@@ -8781,11 +8784,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-         *
          * <pre>
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
          */
         public Builder setOrderTypeDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -8799,11 +8802,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-         *
          * <pre>
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
          */
         public Builder mergeOrderTypeDescription(io.dstore.Values.stringValue value) {
           if (orderTypeDescriptionBuilder_ == null) {
@@ -8821,11 +8824,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-         *
          * <pre>
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
          */
         public Builder clearOrderTypeDescription() {
           if (orderTypeDescriptionBuilder_ == null) {
@@ -8839,11 +8842,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-         *
          * <pre>
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
          */
         public io.dstore.Values.stringValue.Builder getOrderTypeDescriptionBuilder() {
           
@@ -8851,11 +8854,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getOrderTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-         *
          * <pre>
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getOrderTypeDescriptionOrBuilder() {
           if (orderTypeDescriptionBuilder_ != null) {
@@ -8866,11 +8869,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
-         *
          * <pre>
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_type_description = 10021;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -8890,21 +8893,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-         *
          * <pre>
          * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-         *
          * <pre>
          * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
          */
         public io.dstore.Values.integerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -8914,11 +8917,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-         *
          * <pre>
          * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
          */
         public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -8934,11 +8937,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-         *
          * <pre>
          * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
          */
         public Builder setHTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -8952,11 +8955,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-         *
          * <pre>
          * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
          */
         public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -8974,11 +8977,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-         *
          * <pre>
          * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -8992,11 +8995,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-         *
          * <pre>
          * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
          */
         public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
           
@@ -9004,11 +9007,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getHTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-         *
          * <pre>
          * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
@@ -9019,11 +9022,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
-         *
          * <pre>
          * ID des Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das den mit "NodeDescription" bezeichneten Artikel "NodeID" EINDEUTIG macht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10022;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -9043,21 +9046,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-         *
          * <pre>
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
          */
         public boolean hasOrderTypeId() {
           return orderTypeIdBuilder_ != null || orderTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-         *
          * <pre>
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
          */
         public io.dstore.Values.integerValue getOrderTypeId() {
           if (orderTypeIdBuilder_ == null) {
@@ -9067,11 +9070,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-         *
          * <pre>
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
          */
         public Builder setOrderTypeId(io.dstore.Values.integerValue value) {
           if (orderTypeIdBuilder_ == null) {
@@ -9087,11 +9090,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-         *
          * <pre>
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
          */
         public Builder setOrderTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -9105,11 +9108,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-         *
          * <pre>
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
          */
         public Builder mergeOrderTypeId(io.dstore.Values.integerValue value) {
           if (orderTypeIdBuilder_ == null) {
@@ -9127,11 +9130,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-         *
          * <pre>
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
          */
         public Builder clearOrderTypeId() {
           if (orderTypeIdBuilder_ == null) {
@@ -9145,11 +9148,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-         *
          * <pre>
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
          */
         public io.dstore.Values.integerValue.Builder getOrderTypeIdBuilder() {
           
@@ -9157,11 +9160,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getOrderTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-         *
          * <pre>
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder() {
           if (orderTypeIdBuilder_ != null) {
@@ -9172,11 +9175,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
-         *
          * <pre>
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_type_id = 10023;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -9196,21 +9199,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemNoBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
          */
         public boolean hasItemNo() {
           return itemNoBuilder_ != null || itemNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
          */
         public io.dstore.Values.stringValue getItemNo() {
           if (itemNoBuilder_ == null) {
@@ -9220,11 +9223,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
          */
         public Builder setItemNo(io.dstore.Values.stringValue value) {
           if (itemNoBuilder_ == null) {
@@ -9240,11 +9243,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
          */
         public Builder setItemNo(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -9258,11 +9261,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
          */
         public Builder mergeItemNo(io.dstore.Values.stringValue value) {
           if (itemNoBuilder_ == null) {
@@ -9280,11 +9283,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
          */
         public Builder clearItemNo() {
           if (itemNoBuilder_ == null) {
@@ -9298,11 +9301,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
          */
         public io.dstore.Values.stringValue.Builder getItemNoBuilder() {
           
@@ -9310,11 +9313,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getItemNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder() {
           if (itemNoBuilder_ != null) {
@@ -9325,11 +9328,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
-         *
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue item_no = 10024;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -9349,21 +9352,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplCharacVal1RestrByPatternBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-         *
          * <pre>
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
          */
         public boolean hasSupplCharacVal1RestrByPattern() {
           return supplCharacVal1RestrByPatternBuilder_ != null || supplCharacVal1RestrByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-         *
          * <pre>
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
          */
         public io.dstore.Values.stringValue getSupplCharacVal1RestrByPattern() {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
@@ -9373,11 +9376,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-         *
          * <pre>
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
          */
         public Builder setSupplCharacVal1RestrByPattern(io.dstore.Values.stringValue value) {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
@@ -9393,11 +9396,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-         *
          * <pre>
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
          */
         public Builder setSupplCharacVal1RestrByPattern(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -9411,11 +9414,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-         *
          * <pre>
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
          */
         public Builder mergeSupplCharacVal1RestrByPattern(io.dstore.Values.stringValue value) {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
@@ -9433,11 +9436,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-         *
          * <pre>
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
          */
         public Builder clearSupplCharacVal1RestrByPattern() {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
@@ -9451,11 +9454,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-         *
          * <pre>
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
          */
         public io.dstore.Values.stringValue.Builder getSupplCharacVal1RestrByPatternBuilder() {
           
@@ -9463,11 +9466,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getSupplCharacVal1RestrByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-         *
          * <pre>
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getSupplCharacVal1RestrByPatternOrBuilder() {
           if (supplCharacVal1RestrByPatternBuilder_ != null) {
@@ -9478,11 +9481,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
-         *
          * <pre>
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10025;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -9502,21 +9505,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfItemsBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-         *
          * <pre>
          * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
          */
         public boolean hasNumberOfItems() {
           return numberOfItemsBuilder_ != null || numberOfItems_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-         *
          * <pre>
          * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
          */
         public io.dstore.Values.integerValue getNumberOfItems() {
           if (numberOfItemsBuilder_ == null) {
@@ -9526,11 +9529,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-         *
          * <pre>
          * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
          */
         public Builder setNumberOfItems(io.dstore.Values.integerValue value) {
           if (numberOfItemsBuilder_ == null) {
@@ -9546,11 +9549,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-         *
          * <pre>
          * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
          */
         public Builder setNumberOfItems(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -9564,11 +9567,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-         *
          * <pre>
          * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
          */
         public Builder mergeNumberOfItems(io.dstore.Values.integerValue value) {
           if (numberOfItemsBuilder_ == null) {
@@ -9586,11 +9589,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-         *
          * <pre>
          * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
          */
         public Builder clearNumberOfItems() {
           if (numberOfItemsBuilder_ == null) {
@@ -9604,11 +9607,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-         *
          * <pre>
          * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
          */
         public io.dstore.Values.integerValue.Builder getNumberOfItemsBuilder() {
           
@@ -9616,11 +9619,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getNumberOfItemsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-         *
          * <pre>
          * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNumberOfItemsOrBuilder() {
           if (numberOfItemsBuilder_ != null) {
@@ -9631,11 +9634,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
-         *
          * <pre>
          * Wieviel VERSCHIEDENE Artikel ("NodeID"s) sind insgesamt in allen existierenden "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_items = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -9655,21 +9658,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfExpiredDeadlinesBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-         *
          * <pre>
          * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
          */
         public boolean hasNumberOfExpiredDeadlines() {
           return numberOfExpiredDeadlinesBuilder_ != null || numberOfExpiredDeadlines_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-         *
          * <pre>
          * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
          */
         public io.dstore.Values.integerValue getNumberOfExpiredDeadlines() {
           if (numberOfExpiredDeadlinesBuilder_ == null) {
@@ -9679,11 +9682,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-         *
          * <pre>
          * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
          */
         public Builder setNumberOfExpiredDeadlines(io.dstore.Values.integerValue value) {
           if (numberOfExpiredDeadlinesBuilder_ == null) {
@@ -9699,11 +9702,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-         *
          * <pre>
          * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
          */
         public Builder setNumberOfExpiredDeadlines(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -9717,11 +9720,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-         *
          * <pre>
          * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
          */
         public Builder mergeNumberOfExpiredDeadlines(io.dstore.Values.integerValue value) {
           if (numberOfExpiredDeadlinesBuilder_ == null) {
@@ -9739,11 +9742,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-         *
          * <pre>
          * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
          */
         public Builder clearNumberOfExpiredDeadlines() {
           if (numberOfExpiredDeadlinesBuilder_ == null) {
@@ -9757,11 +9760,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-         *
          * <pre>
          * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
          */
         public io.dstore.Values.integerValue.Builder getNumberOfExpiredDeadlinesBuilder() {
           
@@ -9769,11 +9772,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getNumberOfExpiredDeadlinesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-         *
          * <pre>
          * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNumberOfExpiredDeadlinesOrBuilder() {
           if (numberOfExpiredDeadlinesBuilder_ != null) {
@@ -9784,11 +9787,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
-         *
          * <pre>
          * Bei wievielen "Queues" wurde die "OrderDeadline" schon überschritten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_expired_deadlines = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -9808,21 +9811,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> minOrderDeadlineBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-         *
          * <pre>
          * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
          */
         public boolean hasMinOrderDeadline() {
           return minOrderDeadlineBuilder_ != null || minOrderDeadline_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-         *
          * <pre>
          * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
          */
         public io.dstore.Values.decimalValue getMinOrderDeadline() {
           if (minOrderDeadlineBuilder_ == null) {
@@ -9832,11 +9835,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-         *
          * <pre>
          * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
          */
         public Builder setMinOrderDeadline(io.dstore.Values.decimalValue value) {
           if (minOrderDeadlineBuilder_ == null) {
@@ -9852,11 +9855,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-         *
          * <pre>
          * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
          */
         public Builder setMinOrderDeadline(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -9870,11 +9873,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-         *
          * <pre>
          * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
          */
         public Builder mergeMinOrderDeadline(io.dstore.Values.decimalValue value) {
           if (minOrderDeadlineBuilder_ == null) {
@@ -9892,11 +9895,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-         *
          * <pre>
          * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
          */
         public Builder clearMinOrderDeadline() {
           if (minOrderDeadlineBuilder_ == null) {
@@ -9910,11 +9913,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-         *
          * <pre>
          * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
          */
         public io.dstore.Values.decimalValue.Builder getMinOrderDeadlineBuilder() {
           
@@ -9922,11 +9925,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getMinOrderDeadlineFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-         *
          * <pre>
          * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getMinOrderDeadlineOrBuilder() {
           if (minOrderDeadlineBuilder_ != null) {
@@ -9937,11 +9940,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
-         *
          * <pre>
          * Was ist die nächste (also kleinste in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_order_deadline = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -9961,21 +9964,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfQueuesBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-         *
          * <pre>
          * Wieviele "Queues" gibt es insgesamt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
          */
         public boolean hasNumberOfQueues() {
           return numberOfQueuesBuilder_ != null || numberOfQueues_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-         *
          * <pre>
          * Wieviele "Queues" gibt es insgesamt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
          */
         public io.dstore.Values.integerValue getNumberOfQueues() {
           if (numberOfQueuesBuilder_ == null) {
@@ -9985,11 +9988,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-         *
          * <pre>
          * Wieviele "Queues" gibt es insgesamt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
          */
         public Builder setNumberOfQueues(io.dstore.Values.integerValue value) {
           if (numberOfQueuesBuilder_ == null) {
@@ -10005,11 +10008,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-         *
          * <pre>
          * Wieviele "Queues" gibt es insgesamt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
          */
         public Builder setNumberOfQueues(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -10023,11 +10026,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-         *
          * <pre>
          * Wieviele "Queues" gibt es insgesamt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
          */
         public Builder mergeNumberOfQueues(io.dstore.Values.integerValue value) {
           if (numberOfQueuesBuilder_ == null) {
@@ -10045,11 +10048,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-         *
          * <pre>
          * Wieviele "Queues" gibt es insgesamt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
          */
         public Builder clearNumberOfQueues() {
           if (numberOfQueuesBuilder_ == null) {
@@ -10063,11 +10066,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-         *
          * <pre>
          * Wieviele "Queues" gibt es insgesamt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
          */
         public io.dstore.Values.integerValue.Builder getNumberOfQueuesBuilder() {
           
@@ -10075,11 +10078,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getNumberOfQueuesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-         *
          * <pre>
          * Wieviele "Queues" gibt es insgesamt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNumberOfQueuesOrBuilder() {
           if (numberOfQueuesBuilder_ != null) {
@@ -10090,11 +10093,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
-         *
          * <pre>
          * Wieviele "Queues" gibt es insgesamt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_queues = 20004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -10114,21 +10117,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> maxOrderDeadlineBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-         *
          * <pre>
          * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
          */
         public boolean hasMaxOrderDeadline() {
           return maxOrderDeadlineBuilder_ != null || maxOrderDeadline_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-         *
          * <pre>
          * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
          */
         public io.dstore.Values.decimalValue getMaxOrderDeadline() {
           if (maxOrderDeadlineBuilder_ == null) {
@@ -10138,11 +10141,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-         *
          * <pre>
          * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
          */
         public Builder setMaxOrderDeadline(io.dstore.Values.decimalValue value) {
           if (maxOrderDeadlineBuilder_ == null) {
@@ -10158,11 +10161,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-         *
          * <pre>
          * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
          */
         public Builder setMaxOrderDeadline(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -10176,11 +10179,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-         *
          * <pre>
          * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
          */
         public Builder mergeMaxOrderDeadline(io.dstore.Values.decimalValue value) {
           if (maxOrderDeadlineBuilder_ == null) {
@@ -10198,11 +10201,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-         *
          * <pre>
          * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
          */
         public Builder clearMaxOrderDeadline() {
           if (maxOrderDeadlineBuilder_ == null) {
@@ -10216,11 +10219,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-         *
          * <pre>
          * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
          */
         public io.dstore.Values.decimalValue.Builder getMaxOrderDeadlineBuilder() {
           
@@ -10228,11 +10231,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getMaxOrderDeadlineFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-         *
          * <pre>
          * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getMaxOrderDeadlineOrBuilder() {
           if (maxOrderDeadlineBuilder_ != null) {
@@ -10243,11 +10246,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
-         *
          * <pre>
          * Was ist die letzte (also größte in der Zukunft liegende) "OrderDeadline"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue max_order_deadline = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -10267,21 +10270,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfSuppliersBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-         *
          * <pre>
          * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
          */
         public boolean hasNumberOfSuppliers() {
           return numberOfSuppliersBuilder_ != null || numberOfSuppliers_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-         *
          * <pre>
          * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
          */
         public io.dstore.Values.integerValue getNumberOfSuppliers() {
           if (numberOfSuppliersBuilder_ == null) {
@@ -10291,11 +10294,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-         *
          * <pre>
          * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
          */
         public Builder setNumberOfSuppliers(io.dstore.Values.integerValue value) {
           if (numberOfSuppliersBuilder_ == null) {
@@ -10311,11 +10314,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-         *
          * <pre>
          * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
          */
         public Builder setNumberOfSuppliers(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -10329,11 +10332,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-         *
          * <pre>
          * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
          */
         public Builder mergeNumberOfSuppliers(io.dstore.Values.integerValue value) {
           if (numberOfSuppliersBuilder_ == null) {
@@ -10351,11 +10354,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-         *
          * <pre>
          * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
          */
         public Builder clearNumberOfSuppliers() {
           if (numberOfSuppliersBuilder_ == null) {
@@ -10369,11 +10372,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-         *
          * <pre>
          * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
          */
         public io.dstore.Values.integerValue.Builder getNumberOfSuppliersBuilder() {
           
@@ -10381,11 +10384,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getNumberOfSuppliersFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-         *
          * <pre>
          * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNumberOfSuppliersOrBuilder() {
           if (numberOfSuppliersBuilder_ != null) {
@@ -10396,11 +10399,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
-         *
          * <pre>
          * Bei wieviel VERSCHIEDENEN Lieferanten existieren "Queues"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_suppliers = 20006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -10420,21 +10423,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalNetSumBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-         *
          * <pre>
          * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
          */
         public boolean hasTotalNetSum() {
           return totalNetSumBuilder_ != null || totalNetSum_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-         *
          * <pre>
          * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
          */
         public io.dstore.Values.decimalValue getTotalNetSum() {
           if (totalNetSumBuilder_ == null) {
@@ -10444,11 +10447,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-         *
          * <pre>
          * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
          */
         public Builder setTotalNetSum(io.dstore.Values.decimalValue value) {
           if (totalNetSumBuilder_ == null) {
@@ -10464,11 +10467,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-         *
          * <pre>
          * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
          */
         public Builder setTotalNetSum(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -10482,11 +10485,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-         *
          * <pre>
          * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
          */
         public Builder mergeTotalNetSum(io.dstore.Values.decimalValue value) {
           if (totalNetSumBuilder_ == null) {
@@ -10504,11 +10507,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-         *
          * <pre>
          * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
          */
         public Builder clearTotalNetSum() {
           if (totalNetSumBuilder_ == null) {
@@ -10522,11 +10525,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-         *
          * <pre>
          * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
          */
         public io.dstore.Values.decimalValue.Builder getTotalNetSumBuilder() {
           
@@ -10534,11 +10537,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getTotalNetSumFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-         *
          * <pre>
          * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getTotalNetSumOrBuilder() {
           if (totalNetSumBuilder_ != null) {
@@ -10549,11 +10552,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
-         *
          * <pre>
          * Gesamt-Netto-Summe (in der durch "CurrencyID" angegebenen Währung) aller Positionen aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_net_sum = 30002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -10573,21 +10576,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> purchasePriceCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-         *
          * <pre>
          * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
          */
         public boolean hasPurchasePriceCharacteristicId() {
           return purchasePriceCharacteristicIdBuilder_ != null || purchasePriceCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-         *
          * <pre>
          * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
          */
         public io.dstore.Values.integerValue getPurchasePriceCharacteristicId() {
           if (purchasePriceCharacteristicIdBuilder_ == null) {
@@ -10597,11 +10600,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-         *
          * <pre>
          * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
          */
         public Builder setPurchasePriceCharacteristicId(io.dstore.Values.integerValue value) {
           if (purchasePriceCharacteristicIdBuilder_ == null) {
@@ -10617,11 +10620,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-         *
          * <pre>
          * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
          */
         public Builder setPurchasePriceCharacteristicId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -10635,11 +10638,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-         *
          * <pre>
          * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
          */
         public Builder mergePurchasePriceCharacteristicId(io.dstore.Values.integerValue value) {
           if (purchasePriceCharacteristicIdBuilder_ == null) {
@@ -10657,11 +10660,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-         *
          * <pre>
          * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
          */
         public Builder clearPurchasePriceCharacteristicId() {
           if (purchasePriceCharacteristicIdBuilder_ == null) {
@@ -10675,11 +10678,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-         *
          * <pre>
          * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
          */
         public io.dstore.Values.integerValue.Builder getPurchasePriceCharacteristicIdBuilder() {
           
@@ -10687,11 +10690,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getPurchasePriceCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-         *
          * <pre>
          * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPurchasePriceCharacteristicIdOrBuilder() {
           if (purchasePriceCharacteristicIdBuilder_ != null) {
@@ -10702,11 +10705,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
-         *
          * <pre>
          * ID des Artikel-Merkmals, zu dem die Einkaufs-Preise (sprich "Einkaufspreis"-Eigenschaften von Artikel-Elementen) des Lieferanten hinterlegt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 30006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -10726,21 +10729,21 @@ public final class OmGetPurchaseOrderQueuesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> totalQuantityBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-         *
          * <pre>
          * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
          */
         public boolean hasTotalQuantity() {
           return totalQuantityBuilder_ != null || totalQuantity_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-         *
          * <pre>
          * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
          */
         public io.dstore.Values.integerValue getTotalQuantity() {
           if (totalQuantityBuilder_ == null) {
@@ -10750,11 +10753,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-         *
          * <pre>
          * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
          */
         public Builder setTotalQuantity(io.dstore.Values.integerValue value) {
           if (totalQuantityBuilder_ == null) {
@@ -10770,11 +10773,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-         *
          * <pre>
          * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
          */
         public Builder setTotalQuantity(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -10788,11 +10791,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-         *
          * <pre>
          * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
          */
         public Builder mergeTotalQuantity(io.dstore.Values.integerValue value) {
           if (totalQuantityBuilder_ == null) {
@@ -10810,11 +10813,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-         *
          * <pre>
          * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
          */
         public Builder clearTotalQuantity() {
           if (totalQuantityBuilder_ == null) {
@@ -10828,11 +10831,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-         *
          * <pre>
          * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
          */
         public io.dstore.Values.integerValue.Builder getTotalQuantityBuilder() {
           
@@ -10840,11 +10843,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           return getTotalQuantityFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-         *
          * <pre>
          * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTotalQuantityOrBuilder() {
           if (totalQuantityBuilder_ != null) {
@@ -10855,11 +10858,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
-         *
          * <pre>
          * Gesamt-Menge aller Artikel aller "Queues" beim Lieferanten "SupplierID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue total_quantity = 30012;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -10904,16 +10907,7 @@ public final class OmGetPurchaseOrderQueuesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -11005,52 +10999,52 @@ public final class OmGetPurchaseOrderQueuesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -11125,34 +11119,40 @@ public final class OmGetPurchaseOrderQueuesAd {
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -11389,7 +11389,7 @@ public final class OmGetPurchaseOrderQueuesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -11892,11 +11892,11 @@ public final class OmGetPurchaseOrderQueuesAd {
           io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row, io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -11906,11 +11906,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -11920,11 +11920,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -11934,11 +11934,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row value) {
@@ -11955,11 +11955,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row.Builder builderForValue) {
@@ -11973,11 +11973,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -11993,11 +11993,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row value) {
@@ -12014,11 +12014,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row.Builder builderForValue) {
@@ -12032,11 +12032,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row.Builder builderForValue) {
@@ -12050,11 +12050,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row> values) {
@@ -12069,11 +12069,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -12086,11 +12086,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -12103,22 +12103,22 @@ public final class OmGetPurchaseOrderQueuesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -12128,11 +12128,11 @@ public final class OmGetPurchaseOrderQueuesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -12143,22 +12143,22 @@ public final class OmGetPurchaseOrderQueuesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -12166,11 +12166,11 @@ public final class OmGetPurchaseOrderQueuesAd {
             index, io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -12220,16 +12220,7 @@ public final class OmGetPurchaseOrderQueuesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -12248,19 +12239,19 @@ public final class OmGetPurchaseOrderQueuesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPurchaseOrderQueues_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetPurchaseOrderQueues_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPurchaseOrderQueues_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetPurchaseOrderQueues_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPurchaseOrderQueues_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetPurchaseOrderQueues_Ad_Response_Row_fieldAccessorTable;
 
@@ -12268,7 +12259,7 @@ public final class OmGetPurchaseOrderQueuesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

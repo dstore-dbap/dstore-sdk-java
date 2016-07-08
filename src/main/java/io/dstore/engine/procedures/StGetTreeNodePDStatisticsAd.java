@@ -128,7 +128,8 @@ public final class StGetTreeNodePDStatisticsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -238,11 +239,10 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -526,34 +526,40 @@ public final class StGetTreeNodePDStatisticsAd {
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -763,7 +769,7 @@ public final class StGetTreeNodePDStatisticsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1516,16 +1522,7 @@ public final class StGetTreeNodePDStatisticsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1597,45 +1594,45 @@ public final class StGetTreeNodePDStatisticsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1664,7 +1661,8 @@ public final class StGetTreeNodePDStatisticsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1708,11 +1706,10 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1748,127 +1745,127 @@ public final class StGetTreeNodePDStatisticsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-       *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        */
       boolean hasTotalValue();
       /**
-       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-       *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        */
       io.dstore.Values.decimalValue getTotalValue();
       /**
-       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-       *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getTotalValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       boolean hasHTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       io.dstore.Values.integerValue getHTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-       *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
        */
       boolean hasDirectValue();
       /**
-       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-       *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
        */
       io.dstore.Values.decimalValue getDirectValue();
       /**
-       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-       *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getDirectValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue date = 10004;</code>
-       *
        * <pre>
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date = 10004;</code>
        */
       boolean hasDate();
       /**
-       * <code>optional .dstore.values.timestampValue date = 10004;</code>
-       *
        * <pre>
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date = 10004;</code>
        */
       io.dstore.Values.timestampValue getDate();
       /**
-       * <code>optional .dstore.values.timestampValue date = 10004;</code>
-       *
        * <pre>
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date = 10004;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getDateOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       boolean hasBasicCharacteristicNumber();
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       io.dstore.Values.integerValue getBasicCharacteristicNumber();
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
     }
@@ -1894,7 +1891,8 @@ public final class StGetTreeNodePDStatisticsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1984,11 +1982,10 @@ public final class StGetTreeNodePDStatisticsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2017,31 +2014,31 @@ public final class StGetTreeNodePDStatisticsAd {
       public static final int TOTAL_VALUE_FIELD_NUMBER = 10001;
       private io.dstore.Values.decimalValue totalValue_;
       /**
-       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-       *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        */
       public boolean hasTotalValue() {
         return totalValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-       *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        */
       public io.dstore.Values.decimalValue getTotalValue() {
         return totalValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalValue_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-       *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getTotalValueOrBuilder() {
         return getTotalValue();
@@ -2050,31 +2047,31 @@ public final class StGetTreeNodePDStatisticsAd {
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue hTreeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getHTreeNodeId() {
         return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
@@ -2083,31 +2080,31 @@ public final class StGetTreeNodePDStatisticsAd {
       public static final int DIRECT_VALUE_FIELD_NUMBER = 10003;
       private io.dstore.Values.decimalValue directValue_;
       /**
-       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-       *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
        */
       public boolean hasDirectValue() {
         return directValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-       *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
        */
       public io.dstore.Values.decimalValue getDirectValue() {
         return directValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : directValue_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-       *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getDirectValueOrBuilder() {
         return getDirectValue();
@@ -2116,31 +2113,31 @@ public final class StGetTreeNodePDStatisticsAd {
       public static final int DATE_FIELD_NUMBER = 10004;
       private io.dstore.Values.timestampValue date_;
       /**
-       * <code>optional .dstore.values.timestampValue date = 10004;</code>
-       *
        * <pre>
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date = 10004;</code>
        */
       public boolean hasDate() {
         return date_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 10004;</code>
-       *
        * <pre>
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date = 10004;</code>
        */
       public io.dstore.Values.timestampValue getDate() {
         return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 10004;</code>
-       *
        * <pre>
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date = 10004;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
         return getDate();
@@ -2149,31 +2146,31 @@ public final class StGetTreeNodePDStatisticsAd {
       public static final int BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue basicCharacteristicNumber_;
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         return getBasicCharacteristicNumber();
@@ -2268,34 +2265,40 @@ public final class StGetTreeNodePDStatisticsAd {
       }
       public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2481,7 +2484,7 @@ public final class StGetTreeNodePDStatisticsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2520,21 +2523,21 @@ public final class StGetTreeNodePDStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalValueBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-         *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          */
         public boolean hasTotalValue() {
           return totalValueBuilder_ != null || totalValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-         *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          */
         public io.dstore.Values.decimalValue getTotalValue() {
           if (totalValueBuilder_ == null) {
@@ -2544,11 +2547,11 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-         *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          */
         public Builder setTotalValue(io.dstore.Values.decimalValue value) {
           if (totalValueBuilder_ == null) {
@@ -2564,11 +2567,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-         *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          */
         public Builder setTotalValue(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -2582,11 +2585,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-         *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          */
         public Builder mergeTotalValue(io.dstore.Values.decimalValue value) {
           if (totalValueBuilder_ == null) {
@@ -2604,11 +2607,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-         *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          */
         public Builder clearTotalValue() {
           if (totalValueBuilder_ == null) {
@@ -2622,11 +2625,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-         *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          */
         public io.dstore.Values.decimalValue.Builder getTotalValueBuilder() {
           
@@ -2634,11 +2637,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return getTotalValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-         *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getTotalValueOrBuilder() {
           if (totalValueBuilder_ != null) {
@@ -2649,11 +2652,11 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
-         *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -2673,21 +2676,21 @@ public final class StGetTreeNodePDStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -2697,11 +2700,11 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -2717,11 +2720,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder setHTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2735,11 +2738,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -2757,11 +2760,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -2775,11 +2778,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
           
@@ -2787,11 +2790,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return getHTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
@@ -2802,11 +2805,11 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2826,21 +2829,21 @@ public final class StGetTreeNodePDStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> directValueBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-         *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
          */
         public boolean hasDirectValue() {
           return directValueBuilder_ != null || directValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-         *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
          */
         public io.dstore.Values.decimalValue getDirectValue() {
           if (directValueBuilder_ == null) {
@@ -2850,11 +2853,11 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-         *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
          */
         public Builder setDirectValue(io.dstore.Values.decimalValue value) {
           if (directValueBuilder_ == null) {
@@ -2870,11 +2873,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-         *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
          */
         public Builder setDirectValue(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -2888,11 +2891,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-         *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
          */
         public Builder mergeDirectValue(io.dstore.Values.decimalValue value) {
           if (directValueBuilder_ == null) {
@@ -2910,11 +2913,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-         *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
          */
         public Builder clearDirectValue() {
           if (directValueBuilder_ == null) {
@@ -2928,11 +2931,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-         *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
          */
         public io.dstore.Values.decimalValue.Builder getDirectValueBuilder() {
           
@@ -2940,11 +2943,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return getDirectValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-         *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getDirectValueOrBuilder() {
           if (directValueBuilder_ != null) {
@@ -2955,11 +2958,11 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
-         *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue direct_value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -2979,21 +2982,21 @@ public final class StGetTreeNodePDStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue date = 10004;</code>
-         *
          * <pre>
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date = 10004;</code>
          */
         public boolean hasDate() {
           return dateBuilder_ != null || date_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue date = 10004;</code>
-         *
          * <pre>
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date = 10004;</code>
          */
         public io.dstore.Values.timestampValue getDate() {
           if (dateBuilder_ == null) {
@@ -3003,11 +3006,11 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue date = 10004;</code>
-         *
          * <pre>
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date = 10004;</code>
          */
         public Builder setDate(io.dstore.Values.timestampValue value) {
           if (dateBuilder_ == null) {
@@ -3023,11 +3026,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue date = 10004;</code>
-         *
          * <pre>
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date = 10004;</code>
          */
         public Builder setDate(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -3041,11 +3044,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue date = 10004;</code>
-         *
          * <pre>
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date = 10004;</code>
          */
         public Builder mergeDate(io.dstore.Values.timestampValue value) {
           if (dateBuilder_ == null) {
@@ -3063,11 +3066,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue date = 10004;</code>
-         *
          * <pre>
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date = 10004;</code>
          */
         public Builder clearDate() {
           if (dateBuilder_ == null) {
@@ -3081,11 +3084,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue date = 10004;</code>
-         *
          * <pre>
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date = 10004;</code>
          */
         public io.dstore.Values.timestampValue.Builder getDateBuilder() {
           
@@ -3093,11 +3096,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return getDateFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue date = 10004;</code>
-         *
          * <pre>
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date = 10004;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
           if (dateBuilder_ != null) {
@@ -3108,11 +3111,11 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue date = 10004;</code>
-         *
          * <pre>
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -3132,21 +3135,21 @@ public final class StGetTreeNodePDStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public boolean hasBasicCharacteristicNumber() {
           return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3156,11 +3159,11 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public Builder setBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3176,11 +3179,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public Builder setBasicCharacteristicNumber(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3194,11 +3197,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public Builder mergeBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3216,11 +3219,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public Builder clearBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3234,11 +3237,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
           
@@ -3246,11 +3249,11 @@ public final class StGetTreeNodePDStatisticsAd {
           return getBasicCharacteristicNumberFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
           if (basicCharacteristicNumberBuilder_ != null) {
@@ -3261,11 +3264,11 @@ public final class StGetTreeNodePDStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3310,16 +3313,7 @@ public final class StGetTreeNodePDStatisticsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3411,52 +3405,52 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3531,34 +3525,40 @@ public final class StGetTreeNodePDStatisticsAd {
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3795,7 +3795,7 @@ public final class StGetTreeNodePDStatisticsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4298,11 +4298,11 @@ public final class StGetTreeNodePDStatisticsAd {
           io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row, io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row.Builder, io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -4312,11 +4312,11 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -4326,11 +4326,11 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -4340,11 +4340,11 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row value) {
@@ -4361,11 +4361,11 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row.Builder builderForValue) {
@@ -4379,11 +4379,11 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -4399,11 +4399,11 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row value) {
@@ -4420,11 +4420,11 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row.Builder builderForValue) {
@@ -4438,11 +4438,11 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row.Builder builderForValue) {
@@ -4456,11 +4456,11 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row> values) {
@@ -4475,11 +4475,11 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4492,11 +4492,11 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4509,22 +4509,22 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4534,11 +4534,11 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4549,22 +4549,22 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4572,11 +4572,11 @@ public final class StGetTreeNodePDStatisticsAd {
             index, io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetTreeNodePDStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4626,16 +4626,7 @@ public final class StGetTreeNodePDStatisticsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4654,19 +4645,19 @@ public final class StGetTreeNodePDStatisticsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetTreeNodePDStatistics_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetTreeNodePDStatistics_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetTreeNodePDStatistics_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetTreeNodePDStatistics_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetTreeNodePDStatistics_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetTreeNodePDStatistics_Ad_Response_Row_fieldAccessorTable;
 
@@ -4674,7 +4665,7 @@ public final class StGetTreeNodePDStatisticsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

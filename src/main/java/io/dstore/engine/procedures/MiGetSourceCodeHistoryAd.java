@@ -128,7 +128,8 @@ public final class MiGetSourceCodeHistoryAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -238,11 +239,10 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -526,34 +526,40 @@ public final class MiGetSourceCodeHistoryAd {
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -763,7 +769,7 @@ public final class MiGetSourceCodeHistoryAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1516,16 +1522,7 @@ public final class MiGetSourceCodeHistoryAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1597,45 +1594,45 @@ public final class MiGetSourceCodeHistoryAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1664,7 +1661,8 @@ public final class MiGetSourceCodeHistoryAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1708,11 +1706,10 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1748,202 +1745,202 @@ public final class MiGetSourceCodeHistoryAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-       *
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
        */
       boolean hasObjectType();
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-       *
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
        */
       io.dstore.Values.stringValue getObjectType();
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-       *
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-       *
        * <pre>
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
        */
       boolean hasHistoryId();
       /**
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-       *
        * <pre>
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
        */
       io.dstore.Values.integerValue getHistoryId();
       /**
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-       *
        * <pre>
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getHistoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
        */
       boolean hasCreatedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
        */
       io.dstore.Values.timestampValue getCreatedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-       *
        * <pre>
        * Name eines Datenbankobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
        */
       boolean hasObjectName();
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-       *
        * <pre>
        * Name eines Datenbankobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
        */
       io.dstore.Values.stringValue getObjectName();
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-       *
        * <pre>
        * Name eines Datenbankobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
-       *
        * <pre>
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 20002;</code>
        */
       boolean hasComment();
       /**
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
-       *
        * <pre>
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 20002;</code>
        */
       io.dstore.Values.stringValue getComment();
       /**
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
-       *
        * <pre>
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 20002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCommentOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-       *
        * <pre>
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
        */
       boolean hasRowNo();
       /**
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-       *
        * <pre>
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
        */
       io.dstore.Values.integerValue getRowNo();
       /**
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-       *
        * <pre>
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getRowNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-       *
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
        */
       boolean hasCodeLineNumber();
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-       *
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
        */
       io.dstore.Values.integerValue getCodeLineNumber();
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-       *
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-       *
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
        */
       boolean hasCodeLine();
       /**
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-       *
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
        */
       io.dstore.Values.stringValue getCodeLine();
       /**
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-       *
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder();
     }
@@ -1969,7 +1966,8 @@ public final class MiGetSourceCodeHistoryAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2098,11 +2096,10 @@ public final class MiGetSourceCodeHistoryAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2131,31 +2128,31 @@ public final class MiGetSourceCodeHistoryAd {
       public static final int OBJECT_TYPE_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue objectType_;
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-       *
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
        */
       public boolean hasObjectType() {
         return objectType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-       *
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
        */
       public io.dstore.Values.stringValue getObjectType() {
         return objectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-       *
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
         return getObjectType();
@@ -2164,31 +2161,31 @@ public final class MiGetSourceCodeHistoryAd {
       public static final int HISTORY_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue historyId_;
       /**
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-       *
        * <pre>
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
        */
       public boolean hasHistoryId() {
         return historyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-       *
        * <pre>
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getHistoryId() {
         return historyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : historyId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-       *
        * <pre>
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getHistoryIdOrBuilder() {
         return getHistoryId();
@@ -2197,31 +2194,31 @@ public final class MiGetSourceCodeHistoryAd {
       public static final int CREATED_AT_DATE_AND_TIME_FIELD_NUMBER = 10003;
       private io.dstore.Values.timestampValue createdAtDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
        */
       public boolean hasCreatedAtDateAndTime() {
         return createdAtDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
        */
       public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
         return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-       *
        * <pre>
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
         return getCreatedAtDateAndTime();
@@ -2230,31 +2227,31 @@ public final class MiGetSourceCodeHistoryAd {
       public static final int OBJECT_NAME_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue objectName_;
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-       *
        * <pre>
        * Name eines Datenbankobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
        */
       public boolean hasObjectName() {
         return objectName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-       *
        * <pre>
        * Name eines Datenbankobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
        */
       public io.dstore.Values.stringValue getObjectName() {
         return objectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-       *
        * <pre>
        * Name eines Datenbankobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
         return getObjectName();
@@ -2263,31 +2260,31 @@ public final class MiGetSourceCodeHistoryAd {
       public static final int COMMENT_FIELD_NUMBER = 20002;
       private io.dstore.Values.stringValue comment_;
       /**
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
-       *
        * <pre>
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 20002;</code>
        */
       public boolean hasComment() {
         return comment_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
-       *
        * <pre>
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 20002;</code>
        */
       public io.dstore.Values.stringValue getComment() {
         return comment_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : comment_;
       }
       /**
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
-       *
        * <pre>
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 20002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCommentOrBuilder() {
         return getComment();
@@ -2296,31 +2293,31 @@ public final class MiGetSourceCodeHistoryAd {
       public static final int ROW_NO_FIELD_NUMBER = 20004;
       private io.dstore.Values.integerValue rowNo_;
       /**
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-       *
        * <pre>
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
        */
       public boolean hasRowNo() {
         return rowNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-       *
        * <pre>
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
        */
       public io.dstore.Values.integerValue getRowNo() {
         return rowNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-       *
        * <pre>
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getRowNoOrBuilder() {
         return getRowNo();
@@ -2329,31 +2326,31 @@ public final class MiGetSourceCodeHistoryAd {
       public static final int CODE_LINE_NUMBER_FIELD_NUMBER = 30001;
       private io.dstore.Values.integerValue codeLineNumber_;
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-       *
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
        */
       public boolean hasCodeLineNumber() {
         return codeLineNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-       *
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
        */
       public io.dstore.Values.integerValue getCodeLineNumber() {
         return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
       }
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-       *
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
         return getCodeLineNumber();
@@ -2362,31 +2359,31 @@ public final class MiGetSourceCodeHistoryAd {
       public static final int CODE_LINE_FIELD_NUMBER = 30002;
       private io.dstore.Values.stringValue codeLine_;
       /**
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-       *
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
        */
       public boolean hasCodeLine() {
         return codeLine_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-       *
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
        */
       public io.dstore.Values.stringValue getCodeLine() {
         return codeLine_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
       }
       /**
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-       *
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
         return getCodeLine();
@@ -2502,34 +2499,40 @@ public final class MiGetSourceCodeHistoryAd {
       }
       public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2757,7 +2760,7 @@ public final class MiGetSourceCodeHistoryAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2796,21 +2799,21 @@ public final class MiGetSourceCodeHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-         *
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
          */
         public boolean hasObjectType() {
           return objectTypeBuilder_ != null || objectType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-         *
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
          */
         public io.dstore.Values.stringValue getObjectType() {
           if (objectTypeBuilder_ == null) {
@@ -2820,11 +2823,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-         *
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
          */
         public Builder setObjectType(io.dstore.Values.stringValue value) {
           if (objectTypeBuilder_ == null) {
@@ -2840,11 +2843,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-         *
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
          */
         public Builder setObjectType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2858,11 +2861,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-         *
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
          */
         public Builder mergeObjectType(io.dstore.Values.stringValue value) {
           if (objectTypeBuilder_ == null) {
@@ -2880,11 +2883,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-         *
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
          */
         public Builder clearObjectType() {
           if (objectTypeBuilder_ == null) {
@@ -2898,11 +2901,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-         *
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getObjectTypeBuilder() {
           
@@ -2910,11 +2913,11 @@ public final class MiGetSourceCodeHistoryAd {
           return getObjectTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-         *
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
           if (objectTypeBuilder_ != null) {
@@ -2925,11 +2928,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
-         *
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2949,21 +2952,21 @@ public final class MiGetSourceCodeHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> historyIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-         *
          * <pre>
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
          */
         public boolean hasHistoryId() {
           return historyIdBuilder_ != null || historyId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-         *
          * <pre>
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getHistoryId() {
           if (historyIdBuilder_ == null) {
@@ -2973,11 +2976,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-         *
          * <pre>
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
          */
         public Builder setHistoryId(io.dstore.Values.integerValue value) {
           if (historyIdBuilder_ == null) {
@@ -2993,11 +2996,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-         *
          * <pre>
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
          */
         public Builder setHistoryId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3011,11 +3014,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-         *
          * <pre>
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
          */
         public Builder mergeHistoryId(io.dstore.Values.integerValue value) {
           if (historyIdBuilder_ == null) {
@@ -3033,11 +3036,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-         *
          * <pre>
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
          */
         public Builder clearHistoryId() {
           if (historyIdBuilder_ == null) {
@@ -3051,11 +3054,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-         *
          * <pre>
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getHistoryIdBuilder() {
           
@@ -3063,11 +3066,11 @@ public final class MiGetSourceCodeHistoryAd {
           return getHistoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-         *
          * <pre>
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getHistoryIdOrBuilder() {
           if (historyIdBuilder_ != null) {
@@ -3078,11 +3081,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
-         *
          * <pre>
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3102,21 +3105,21 @@ public final class MiGetSourceCodeHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> createdAtDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
          */
         public boolean hasCreatedAtDateAndTime() {
           return createdAtDateAndTimeBuilder_ != null || createdAtDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
          */
         public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -3126,11 +3129,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
          */
         public Builder setCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -3146,11 +3149,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
          */
         public Builder setCreatedAtDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -3164,11 +3167,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
          */
         public Builder mergeCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -3186,11 +3189,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
          */
         public Builder clearCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -3204,11 +3207,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
          */
         public io.dstore.Values.timestampValue.Builder getCreatedAtDateAndTimeBuilder() {
           
@@ -3216,11 +3219,11 @@ public final class MiGetSourceCodeHistoryAd {
           return getCreatedAtDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
           if (createdAtDateAndTimeBuilder_ != null) {
@@ -3231,11 +3234,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
-         *
          * <pre>
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -3255,21 +3258,21 @@ public final class MiGetSourceCodeHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-         *
          * <pre>
          * Name eines Datenbankobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
          */
         public boolean hasObjectName() {
           return objectNameBuilder_ != null || objectName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-         *
          * <pre>
          * Name eines Datenbankobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
          */
         public io.dstore.Values.stringValue getObjectName() {
           if (objectNameBuilder_ == null) {
@@ -3279,11 +3282,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-         *
          * <pre>
          * Name eines Datenbankobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
          */
         public Builder setObjectName(io.dstore.Values.stringValue value) {
           if (objectNameBuilder_ == null) {
@@ -3299,11 +3302,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-         *
          * <pre>
          * Name eines Datenbankobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
          */
         public Builder setObjectName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3317,11 +3320,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-         *
          * <pre>
          * Name eines Datenbankobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
          */
         public Builder mergeObjectName(io.dstore.Values.stringValue value) {
           if (objectNameBuilder_ == null) {
@@ -3339,11 +3342,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-         *
          * <pre>
          * Name eines Datenbankobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
          */
         public Builder clearObjectName() {
           if (objectNameBuilder_ == null) {
@@ -3357,11 +3360,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-         *
          * <pre>
          * Name eines Datenbankobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getObjectNameBuilder() {
           
@@ -3369,11 +3372,11 @@ public final class MiGetSourceCodeHistoryAd {
           return getObjectNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-         *
          * <pre>
          * Name eines Datenbankobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
           if (objectNameBuilder_ != null) {
@@ -3384,11 +3387,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
-         *
          * <pre>
          * Name eines Datenbankobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3408,21 +3411,21 @@ public final class MiGetSourceCodeHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> commentBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
-         *
          * <pre>
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 20002;</code>
          */
         public boolean hasComment() {
           return commentBuilder_ != null || comment_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
-         *
          * <pre>
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 20002;</code>
          */
         public io.dstore.Values.stringValue getComment() {
           if (commentBuilder_ == null) {
@@ -3432,11 +3435,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
-         *
          * <pre>
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 20002;</code>
          */
         public Builder setComment(io.dstore.Values.stringValue value) {
           if (commentBuilder_ == null) {
@@ -3452,11 +3455,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
-         *
          * <pre>
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 20002;</code>
          */
         public Builder setComment(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3470,11 +3473,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
-         *
          * <pre>
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 20002;</code>
          */
         public Builder mergeComment(io.dstore.Values.stringValue value) {
           if (commentBuilder_ == null) {
@@ -3492,11 +3495,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
-         *
          * <pre>
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 20002;</code>
          */
         public Builder clearComment() {
           if (commentBuilder_ == null) {
@@ -3510,11 +3513,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
-         *
          * <pre>
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 20002;</code>
          */
         public io.dstore.Values.stringValue.Builder getCommentBuilder() {
           
@@ -3522,11 +3525,11 @@ public final class MiGetSourceCodeHistoryAd {
           return getCommentFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
-         *
          * <pre>
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 20002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCommentOrBuilder() {
           if (commentBuilder_ != null) {
@@ -3537,11 +3540,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
-         *
          * <pre>
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3561,21 +3564,21 @@ public final class MiGetSourceCodeHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-         *
          * <pre>
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
          */
         public boolean hasRowNo() {
           return rowNoBuilder_ != null || rowNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-         *
          * <pre>
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
          */
         public io.dstore.Values.integerValue getRowNo() {
           if (rowNoBuilder_ == null) {
@@ -3585,11 +3588,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-         *
          * <pre>
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
          */
         public Builder setRowNo(io.dstore.Values.integerValue value) {
           if (rowNoBuilder_ == null) {
@@ -3605,11 +3608,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-         *
          * <pre>
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
          */
         public Builder setRowNo(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3623,11 +3626,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-         *
          * <pre>
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
          */
         public Builder mergeRowNo(io.dstore.Values.integerValue value) {
           if (rowNoBuilder_ == null) {
@@ -3645,11 +3648,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-         *
          * <pre>
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
          */
         public Builder clearRowNo() {
           if (rowNoBuilder_ == null) {
@@ -3663,11 +3666,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-         *
          * <pre>
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
          */
         public io.dstore.Values.integerValue.Builder getRowNoBuilder() {
           
@@ -3675,11 +3678,11 @@ public final class MiGetSourceCodeHistoryAd {
           return getRowNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-         *
          * <pre>
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getRowNoOrBuilder() {
           if (rowNoBuilder_ != null) {
@@ -3690,11 +3693,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
-         *
          * <pre>
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3714,21 +3717,21 @@ public final class MiGetSourceCodeHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> codeLineNumberBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-         *
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
          */
         public boolean hasCodeLineNumber() {
           return codeLineNumberBuilder_ != null || codeLineNumber_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-         *
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
          */
         public io.dstore.Values.integerValue getCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
@@ -3738,11 +3741,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-         *
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
          */
         public Builder setCodeLineNumber(io.dstore.Values.integerValue value) {
           if (codeLineNumberBuilder_ == null) {
@@ -3758,11 +3761,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-         *
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
          */
         public Builder setCodeLineNumber(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3776,11 +3779,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-         *
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
          */
         public Builder mergeCodeLineNumber(io.dstore.Values.integerValue value) {
           if (codeLineNumberBuilder_ == null) {
@@ -3798,11 +3801,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-         *
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
          */
         public Builder clearCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
@@ -3816,11 +3819,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-         *
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
          */
         public io.dstore.Values.integerValue.Builder getCodeLineNumberBuilder() {
           
@@ -3828,11 +3831,11 @@ public final class MiGetSourceCodeHistoryAd {
           return getCodeLineNumberFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-         *
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
           if (codeLineNumberBuilder_ != null) {
@@ -3843,11 +3846,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
-         *
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3867,21 +3870,21 @@ public final class MiGetSourceCodeHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> codeLineBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-         *
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
          */
         public boolean hasCodeLine() {
           return codeLineBuilder_ != null || codeLine_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-         *
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
          */
         public io.dstore.Values.stringValue getCodeLine() {
           if (codeLineBuilder_ == null) {
@@ -3891,11 +3894,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-         *
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
          */
         public Builder setCodeLine(io.dstore.Values.stringValue value) {
           if (codeLineBuilder_ == null) {
@@ -3911,11 +3914,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-         *
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
          */
         public Builder setCodeLine(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3929,11 +3932,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-         *
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
          */
         public Builder mergeCodeLine(io.dstore.Values.stringValue value) {
           if (codeLineBuilder_ == null) {
@@ -3951,11 +3954,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-         *
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
          */
         public Builder clearCodeLine() {
           if (codeLineBuilder_ == null) {
@@ -3969,11 +3972,11 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-         *
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
          */
         public io.dstore.Values.stringValue.Builder getCodeLineBuilder() {
           
@@ -3981,11 +3984,11 @@ public final class MiGetSourceCodeHistoryAd {
           return getCodeLineFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-         *
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
           if (codeLineBuilder_ != null) {
@@ -3996,11 +3999,11 @@ public final class MiGetSourceCodeHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
-         *
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4045,16 +4048,7 @@ public final class MiGetSourceCodeHistoryAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4146,52 +4140,52 @@ public final class MiGetSourceCodeHistoryAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4266,34 +4260,40 @@ public final class MiGetSourceCodeHistoryAd {
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4530,7 +4530,7 @@ public final class MiGetSourceCodeHistoryAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5033,11 +5033,11 @@ public final class MiGetSourceCodeHistoryAd {
           io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row, io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -5047,11 +5047,11 @@ public final class MiGetSourceCodeHistoryAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -5061,11 +5061,11 @@ public final class MiGetSourceCodeHistoryAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -5075,11 +5075,11 @@ public final class MiGetSourceCodeHistoryAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row value) {
@@ -5096,11 +5096,11 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row.Builder builderForValue) {
@@ -5114,11 +5114,11 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -5134,11 +5134,11 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row value) {
@@ -5155,11 +5155,11 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row.Builder builderForValue) {
@@ -5173,11 +5173,11 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row.Builder builderForValue) {
@@ -5191,11 +5191,11 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row> values) {
@@ -5210,11 +5210,11 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -5227,11 +5227,11 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5244,22 +5244,22 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5269,11 +5269,11 @@ public final class MiGetSourceCodeHistoryAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5284,22 +5284,22 @@ public final class MiGetSourceCodeHistoryAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5307,11 +5307,11 @@ public final class MiGetSourceCodeHistoryAd {
             index, io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5361,16 +5361,7 @@ public final class MiGetSourceCodeHistoryAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5389,19 +5380,19 @@ public final class MiGetSourceCodeHistoryAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetSourceCodeHistory_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetSourceCodeHistory_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetSourceCodeHistory_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetSourceCodeHistory_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetSourceCodeHistory_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetSourceCodeHistory_Ad_Response_Row_fieldAccessorTable;
 
@@ -5409,7 +5400,7 @@ public final class MiGetSourceCodeHistoryAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

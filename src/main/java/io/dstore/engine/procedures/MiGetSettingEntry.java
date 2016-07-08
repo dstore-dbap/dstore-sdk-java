@@ -109,7 +109,8 @@ public final class MiGetSettingEntry {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -201,11 +202,10 @@ public final class MiGetSettingEntry {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -445,34 +445,40 @@ public final class MiGetSettingEntry {
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -662,7 +668,7 @@ public final class MiGetSettingEntry {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetSettingEntry.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1272,16 +1278,7 @@ public final class MiGetSettingEntry {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1413,7 +1410,8 @@ public final class MiGetSettingEntry {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1470,11 +1468,10 @@ public final class MiGetSettingEntry {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1510,27 +1507,27 @@ public final class MiGetSettingEntry {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
-       *
        * <pre>
        * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
-       *
        * <pre>
        * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        */
       io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
-       *
        * <pre>
        * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
     }
@@ -1556,7 +1553,8 @@ public final class MiGetSettingEntry {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1594,11 +1592,10 @@ public final class MiGetSettingEntry {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1627,31 +1624,31 @@ public final class MiGetSettingEntry {
       public static final int VALUE_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
-       *
        * <pre>
        * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        */
       public boolean hasValue() {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
-       *
        * <pre>
        * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        */
       public io.dstore.Values.stringValue getValue() {
         return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
-       *
        * <pre>
        * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1718,34 +1715,40 @@ public final class MiGetSettingEntry {
       }
       public static io.dstore.engine.procedures.MiGetSettingEntry.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetSettingEntry.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetSettingEntry.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetSettingEntry.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetSettingEntry.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetSettingEntry.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1875,7 +1878,7 @@ public final class MiGetSettingEntry {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetSettingEntry.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1914,21 +1917,21 @@ public final class MiGetSettingEntry {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
-         *
          * <pre>
          * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
-         *
          * <pre>
          * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          */
         public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
@@ -1938,11 +1941,11 @@ public final class MiGetSettingEntry {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
-         *
          * <pre>
          * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          */
         public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
@@ -1958,11 +1961,11 @@ public final class MiGetSettingEntry {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
-         *
          * <pre>
          * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          */
         public Builder setValue(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1976,11 +1979,11 @@ public final class MiGetSettingEntry {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
-         *
          * <pre>
          * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          */
         public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
@@ -1998,11 +2001,11 @@ public final class MiGetSettingEntry {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
-         *
          * <pre>
          * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2016,11 +2019,11 @@ public final class MiGetSettingEntry {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
-         *
          * <pre>
          * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
@@ -2028,11 +2031,11 @@ public final class MiGetSettingEntry {
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
-         *
          * <pre>
          * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2043,11 +2046,11 @@ public final class MiGetSettingEntry {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
-         *
          * <pre>
          * Der für den Benutzer "&#64;UserID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2092,16 +2095,7 @@ public final class MiGetSettingEntry {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2322,34 +2316,40 @@ public final class MiGetSettingEntry {
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetSettingEntry.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2602,7 +2602,7 @@ public final class MiGetSettingEntry {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetSettingEntry.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3478,16 +3478,7 @@ public final class MiGetSettingEntry {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3506,19 +3497,19 @@ public final class MiGetSettingEntry {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetSettingEntry_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetSettingEntry_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetSettingEntry_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetSettingEntry_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetSettingEntry_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetSettingEntry_Response_Row_fieldAccessorTable;
 
@@ -3526,7 +3517,7 @@ public final class MiGetSettingEntry {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

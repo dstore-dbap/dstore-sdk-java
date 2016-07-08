@@ -166,7 +166,8 @@ public final class CoGetOnlineStatusPu {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -312,11 +313,10 @@ public final class CoGetOnlineStatusPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -688,34 +688,40 @@ public final class CoGetOnlineStatusPu {
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -965,7 +971,7 @@ public final class CoGetOnlineStatusPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoGetOnlineStatusPu.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2004,16 +2010,7 @@ public final class CoGetOnlineStatusPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2145,7 +2142,8 @@ public final class CoGetOnlineStatusPu {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2202,11 +2200,10 @@ public final class CoGetOnlineStatusPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2242,52 +2239,52 @@ public final class CoGetOnlineStatusPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-       *
        * <pre>
        * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
        */
       boolean hasCommunityMemberId();
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-       *
        * <pre>
        * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
        */
       io.dstore.Values.integerValue getCommunityMemberId();
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-       *
        * <pre>
        * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-       *
        * <pre>
        * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
        */
       boolean hasOnlineStatus();
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-       *
        * <pre>
        * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
        */
       io.dstore.Values.integerValue getOnlineStatus();
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-       *
        * <pre>
        * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder();
     }
@@ -2313,7 +2310,8 @@ public final class CoGetOnlineStatusPu {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2364,11 +2362,10 @@ public final class CoGetOnlineStatusPu {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2397,31 +2394,31 @@ public final class CoGetOnlineStatusPu {
       public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue communityMemberId_;
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-       *
        * <pre>
        * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-       *
        * <pre>
        * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getCommunityMemberId() {
         return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-       *
        * <pre>
        * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
         return getCommunityMemberId();
@@ -2430,31 +2427,31 @@ public final class CoGetOnlineStatusPu {
       public static final int ONLINE_STATUS_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue onlineStatus_;
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-       *
        * <pre>
        * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
        */
       public boolean hasOnlineStatus() {
         return onlineStatus_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-       *
        * <pre>
        * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
        */
       public io.dstore.Values.integerValue getOnlineStatus() {
         return onlineStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlineStatus_;
       }
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-       *
        * <pre>
        * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
         return getOnlineStatus();
@@ -2528,34 +2525,40 @@ public final class CoGetOnlineStatusPu {
       }
       public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2699,7 +2702,7 @@ public final class CoGetOnlineStatusPu {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.CoGetOnlineStatusPu.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2738,21 +2741,21 @@ public final class CoGetOnlineStatusPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-         *
          * <pre>
          * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
          */
         public boolean hasCommunityMemberId() {
           return communityMemberIdBuilder_ != null || communityMemberId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-         *
          * <pre>
          * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
@@ -2762,11 +2765,11 @@ public final class CoGetOnlineStatusPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-         *
          * <pre>
          * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
          */
         public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
           if (communityMemberIdBuilder_ == null) {
@@ -2782,11 +2785,11 @@ public final class CoGetOnlineStatusPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-         *
          * <pre>
          * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
          */
         public Builder setCommunityMemberId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2800,11 +2803,11 @@ public final class CoGetOnlineStatusPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-         *
          * <pre>
          * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
          */
         public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
           if (communityMemberIdBuilder_ == null) {
@@ -2822,11 +2825,11 @@ public final class CoGetOnlineStatusPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-         *
          * <pre>
          * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
          */
         public Builder clearCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
@@ -2840,11 +2843,11 @@ public final class CoGetOnlineStatusPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-         *
          * <pre>
          * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
           
@@ -2852,11 +2855,11 @@ public final class CoGetOnlineStatusPu {
           return getCommunityMemberIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-         *
          * <pre>
          * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
           if (communityMemberIdBuilder_ != null) {
@@ -2867,11 +2870,11 @@ public final class CoGetOnlineStatusPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
-         *
          * <pre>
          * ID des identifizierten Mitglieds der Community "&#64;CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2891,21 +2894,21 @@ public final class CoGetOnlineStatusPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> onlineStatusBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-         *
          * <pre>
          * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
          */
         public boolean hasOnlineStatus() {
           return onlineStatusBuilder_ != null || onlineStatus_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-         *
          * <pre>
          * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
          */
         public io.dstore.Values.integerValue getOnlineStatus() {
           if (onlineStatusBuilder_ == null) {
@@ -2915,11 +2918,11 @@ public final class CoGetOnlineStatusPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-         *
          * <pre>
          * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
          */
         public Builder setOnlineStatus(io.dstore.Values.integerValue value) {
           if (onlineStatusBuilder_ == null) {
@@ -2935,11 +2938,11 @@ public final class CoGetOnlineStatusPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-         *
          * <pre>
          * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
          */
         public Builder setOnlineStatus(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2953,11 +2956,11 @@ public final class CoGetOnlineStatusPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-         *
          * <pre>
          * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
          */
         public Builder mergeOnlineStatus(io.dstore.Values.integerValue value) {
           if (onlineStatusBuilder_ == null) {
@@ -2975,11 +2978,11 @@ public final class CoGetOnlineStatusPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-         *
          * <pre>
          * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
          */
         public Builder clearOnlineStatus() {
           if (onlineStatusBuilder_ == null) {
@@ -2993,11 +2996,11 @@ public final class CoGetOnlineStatusPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-         *
          * <pre>
          * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getOnlineStatusBuilder() {
           
@@ -3005,11 +3008,11 @@ public final class CoGetOnlineStatusPu {
           return getOnlineStatusFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-         *
          * <pre>
          * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
           if (onlineStatusBuilder_ != null) {
@@ -3020,11 +3023,11 @@ public final class CoGetOnlineStatusPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
-         *
          * <pre>
          * Enthält entweder einen Fehler-Code (wie "-772" für "User ist nicht angemeldet") oder aber den "Status" (ein Wert zwischen "0" und "254") des identifizierten Mitglieds "CommunityMemberID" aus "CurrentlyUsersOnline"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3069,16 +3072,7 @@ public final class CoGetOnlineStatusPu {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3299,34 +3293,40 @@ public final class CoGetOnlineStatusPu {
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetOnlineStatusPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3579,7 +3579,7 @@ public final class CoGetOnlineStatusPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoGetOnlineStatusPu.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4455,16 +4455,7 @@ public final class CoGetOnlineStatusPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4483,19 +4474,19 @@ public final class CoGetOnlineStatusPu {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetOnlineStatus_Pu_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetOnlineStatus_Pu_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetOnlineStatus_Pu_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetOnlineStatus_Pu_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetOnlineStatus_Pu_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetOnlineStatus_Pu_Response_Row_fieldAccessorTable;
 
@@ -4503,7 +4494,7 @@ public final class CoGetOnlineStatusPu {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

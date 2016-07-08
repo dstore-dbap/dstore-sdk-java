@@ -394,7 +394,8 @@ public final class PmInsertNewPersonPu {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       int mutable_bitField1_ = 0;
@@ -757,11 +758,10 @@ public final class PmInsertNewPersonPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -1661,34 +1661,40 @@ public final class PmInsertNewPersonPu {
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2178,7 +2184,7 @@ public final class PmInsertNewPersonPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.PmInsertNewPersonPu.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4933,16 +4939,7 @@ public final class PmInsertNewPersonPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5113,7 +5110,8 @@ public final class PmInsertNewPersonPu {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -5209,11 +5207,10 @@ public final class PmInsertNewPersonPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -5249,52 +5246,52 @@ public final class PmInsertNewPersonPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       io.dstore.Values.integerValue getPersonCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-       *
        * <pre>
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
        */
       boolean hasResultCode();
       /**
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-       *
        * <pre>
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
        */
       io.dstore.Values.integerValue getResultCode();
       /**
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-       *
        * <pre>
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getResultCodeOrBuilder();
     }
@@ -5320,7 +5317,8 @@ public final class PmInsertNewPersonPu {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -5371,11 +5369,10 @@ public final class PmInsertNewPersonPu {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -5404,31 +5401,31 @@ public final class PmInsertNewPersonPu {
       public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue personCharacteristicId_;
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getPersonCharacteristicId() {
         return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
@@ -5437,31 +5434,31 @@ public final class PmInsertNewPersonPu {
       public static final int RESULT_CODE_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue resultCode_;
       /**
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-       *
        * <pre>
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
        */
       public boolean hasResultCode() {
         return resultCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-       *
        * <pre>
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
        */
       public io.dstore.Values.integerValue getResultCode() {
         return resultCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : resultCode_;
       }
       /**
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-       *
        * <pre>
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getResultCodeOrBuilder() {
         return getResultCode();
@@ -5535,34 +5532,40 @@ public final class PmInsertNewPersonPu {
       }
       public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -5706,7 +5709,7 @@ public final class PmInsertNewPersonPu {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.PmInsertNewPersonPu.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -5745,21 +5748,21 @@ public final class PmInsertNewPersonPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -5769,11 +5772,11 @@ public final class PmInsertNewPersonPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public Builder setPersonCharacteristicId(io.dstore.Values.integerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -5789,11 +5792,11 @@ public final class PmInsertNewPersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public Builder setPersonCharacteristicId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5807,11 +5810,11 @@ public final class PmInsertNewPersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public Builder mergePersonCharacteristicId(io.dstore.Values.integerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -5829,11 +5832,11 @@ public final class PmInsertNewPersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -5847,11 +5850,11 @@ public final class PmInsertNewPersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getPersonCharacteristicIdBuilder() {
           
@@ -5859,11 +5862,11 @@ public final class PmInsertNewPersonPu {
           return getPersonCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
@@ -5874,11 +5877,11 @@ public final class PmInsertNewPersonPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5898,21 +5901,21 @@ public final class PmInsertNewPersonPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> resultCodeBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-         *
          * <pre>
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
          */
         public boolean hasResultCode() {
           return resultCodeBuilder_ != null || resultCode_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-         *
          * <pre>
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
          */
         public io.dstore.Values.integerValue getResultCode() {
           if (resultCodeBuilder_ == null) {
@@ -5922,11 +5925,11 @@ public final class PmInsertNewPersonPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-         *
          * <pre>
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
          */
         public Builder setResultCode(io.dstore.Values.integerValue value) {
           if (resultCodeBuilder_ == null) {
@@ -5942,11 +5945,11 @@ public final class PmInsertNewPersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-         *
          * <pre>
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
          */
         public Builder setResultCode(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5960,11 +5963,11 @@ public final class PmInsertNewPersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-         *
          * <pre>
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
          */
         public Builder mergeResultCode(io.dstore.Values.integerValue value) {
           if (resultCodeBuilder_ == null) {
@@ -5982,11 +5985,11 @@ public final class PmInsertNewPersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-         *
          * <pre>
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
          */
         public Builder clearResultCode() {
           if (resultCodeBuilder_ == null) {
@@ -6000,11 +6003,11 @@ public final class PmInsertNewPersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-         *
          * <pre>
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getResultCodeBuilder() {
           
@@ -6012,11 +6015,11 @@ public final class PmInsertNewPersonPu {
           return getResultCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-         *
          * <pre>
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getResultCodeOrBuilder() {
           if (resultCodeBuilder_ != null) {
@@ -6027,11 +6030,11 @@ public final class PmInsertNewPersonPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
-         *
          * <pre>
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -6076,16 +6079,7 @@ public final class PmInsertNewPersonPu {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -6390,34 +6384,40 @@ public final class PmInsertNewPersonPu {
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmInsertNewPersonPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -6712,7 +6712,7 @@ public final class PmInsertNewPersonPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.PmInsertNewPersonPu.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -7939,16 +7939,7 @@ public final class PmInsertNewPersonPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -7967,19 +7958,19 @@ public final class PmInsertNewPersonPu {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_InsertNewPerson_Pu_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_InsertNewPerson_Pu_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_InsertNewPerson_Pu_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_InsertNewPerson_Pu_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_InsertNewPerson_Pu_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_InsertNewPerson_Pu_Response_Row_fieldAccessorTable;
 
@@ -7987,7 +7978,7 @@ public final class PmInsertNewPersonPu {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

@@ -71,7 +71,8 @@ public final class OmGetOrderInformationTypesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -127,11 +128,10 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -283,34 +283,40 @@ public final class OmGetOrderInformationTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -460,7 +466,7 @@ public final class OmGetOrderInformationTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -784,16 +790,7 @@ public final class OmGetOrderInformationTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -865,45 +862,45 @@ public final class OmGetOrderInformationTypesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -932,7 +929,8 @@ public final class OmGetOrderInformationTypesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -976,11 +974,10 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1016,127 +1013,127 @@ public final class OmGetOrderInformationTypesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "PersonCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       boolean hasCharacteristicDescription();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "PersonCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       io.dstore.Values.stringValue getCharacteristicDescription();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "PersonCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        */
       boolean hasFieldTypeId();
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        */
       io.dstore.Values.integerValue getFieldTypeId();
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-       *
        * <pre>
        * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-       *
        * <pre>
        * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
        */
       io.dstore.Values.integerValue getPersonCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-       *
        * <pre>
        * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der "OrderInformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
        */
       boolean hasInformationType();
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der "OrderInformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
        */
       io.dstore.Values.stringValue getInformationType();
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der "OrderInformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
        */
       boolean hasOrderInformationTypeId();
       /**
-       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
        */
       io.dstore.Values.integerValue getOrderInformationTypeId();
       /**
-       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getOrderInformationTypeIdOrBuilder();
     }
@@ -1162,7 +1159,8 @@ public final class OmGetOrderInformationTypesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1252,11 +1250,10 @@ public final class OmGetOrderInformationTypesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1285,31 +1282,31 @@ public final class OmGetOrderInformationTypesAd {
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue characteristicDescription_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "PersonCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "PersonCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       public io.dstore.Values.stringValue getCharacteristicDescription() {
         return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "PersonCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
@@ -1318,31 +1315,31 @@ public final class OmGetOrderInformationTypesAd {
       public static final int FIELD_TYPE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue fieldTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        */
       public boolean hasFieldTypeId() {
         return fieldTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getFieldTypeId() {
         return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
         return getFieldTypeId();
@@ -1351,31 +1348,31 @@ public final class OmGetOrderInformationTypesAd {
       public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue personCharacteristicId_;
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-       *
        * <pre>
        * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-       *
        * <pre>
        * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getPersonCharacteristicId() {
         return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-       *
        * <pre>
        * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
@@ -1384,31 +1381,31 @@ public final class OmGetOrderInformationTypesAd {
       public static final int INFORMATION_TYPE_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue informationType_;
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der "OrderInformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der "OrderInformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
        */
       public io.dstore.Values.stringValue getInformationType() {
         return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der "OrderInformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
@@ -1417,31 +1414,31 @@ public final class OmGetOrderInformationTypesAd {
       public static final int ORDER_INFORMATION_TYPE_ID_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue orderInformationTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
        */
       public boolean hasOrderInformationTypeId() {
         return orderInformationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
        */
       public io.dstore.Values.integerValue getOrderInformationTypeId() {
         return orderInformationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderInformationTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOrderInformationTypeIdOrBuilder() {
         return getOrderInformationTypeId();
@@ -1536,34 +1533,40 @@ public final class OmGetOrderInformationTypesAd {
       }
       public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1749,7 +1752,7 @@ public final class OmGetOrderInformationTypesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1788,21 +1791,21 @@ public final class OmGetOrderInformationTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "PersonCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public boolean hasCharacteristicDescription() {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "PersonCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public io.dstore.Values.stringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -1812,11 +1815,11 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "PersonCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
@@ -1832,11 +1835,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "PersonCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public Builder setCharacteristicDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1850,11 +1853,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "PersonCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
@@ -1872,11 +1875,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "PersonCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public Builder clearCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -1890,11 +1893,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "PersonCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
           
@@ -1902,11 +1905,11 @@ public final class OmGetOrderInformationTypesAd {
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "PersonCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
@@ -1917,11 +1920,11 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "PersonCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1941,21 +1944,21 @@ public final class OmGetOrderInformationTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          */
         public boolean hasFieldTypeId() {
           return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
@@ -1965,11 +1968,11 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          */
         public Builder setFieldTypeId(io.dstore.Values.integerValue value) {
           if (fieldTypeIdBuilder_ == null) {
@@ -1985,11 +1988,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          */
         public Builder setFieldTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2003,11 +2006,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          */
         public Builder mergeFieldTypeId(io.dstore.Values.integerValue value) {
           if (fieldTypeIdBuilder_ == null) {
@@ -2025,11 +2028,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          */
         public Builder clearFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
@@ -2043,11 +2046,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getFieldTypeIdBuilder() {
           
@@ -2055,11 +2058,11 @@ public final class OmGetOrderInformationTypesAd {
           return getFieldTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
           if (fieldTypeIdBuilder_ != null) {
@@ -2070,11 +2073,11 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "OrderInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2094,21 +2097,21 @@ public final class OmGetOrderInformationTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-         *
          * <pre>
          * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-         *
          * <pre>
          * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2118,11 +2121,11 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-         *
          * <pre>
          * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
          */
         public Builder setPersonCharacteristicId(io.dstore.Values.integerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2138,11 +2141,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-         *
          * <pre>
          * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
          */
         public Builder setPersonCharacteristicId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2156,11 +2159,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-         *
          * <pre>
          * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
          */
         public Builder mergePersonCharacteristicId(io.dstore.Values.integerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2178,11 +2181,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-         *
          * <pre>
          * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2196,11 +2199,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-         *
          * <pre>
          * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getPersonCharacteristicIdBuilder() {
           
@@ -2208,11 +2211,11 @@ public final class OmGetOrderInformationTypesAd {
           return getPersonCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-         *
          * <pre>
          * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
@@ -2223,11 +2226,11 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
-         *
          * <pre>
          * ID eines Merkmals, das zur "OrderInformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2247,21 +2250,21 @@ public final class OmGetOrderInformationTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der "OrderInformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der "OrderInformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
          */
         public io.dstore.Values.stringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -2271,11 +2274,11 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der "OrderInformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
          */
         public Builder setInformationType(io.dstore.Values.stringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -2291,11 +2294,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der "OrderInformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
          */
         public Builder setInformationType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2309,11 +2312,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der "OrderInformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
          */
         public Builder mergeInformationType(io.dstore.Values.stringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -2331,11 +2334,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der "OrderInformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -2349,11 +2352,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der "OrderInformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getInformationTypeBuilder() {
           
@@ -2361,11 +2364,11 @@ public final class OmGetOrderInformationTypesAd {
           return getInformationTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der "OrderInformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
@@ -2376,11 +2379,11 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der "OrderInformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2400,21 +2403,21 @@ public final class OmGetOrderInformationTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderInformationTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
          */
         public boolean hasOrderInformationTypeId() {
           return orderInformationTypeIdBuilder_ != null || orderInformationTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
          */
         public io.dstore.Values.integerValue getOrderInformationTypeId() {
           if (orderInformationTypeIdBuilder_ == null) {
@@ -2424,11 +2427,11 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
          */
         public Builder setOrderInformationTypeId(io.dstore.Values.integerValue value) {
           if (orderInformationTypeIdBuilder_ == null) {
@@ -2444,11 +2447,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
          */
         public Builder setOrderInformationTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2462,11 +2465,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
          */
         public Builder mergeOrderInformationTypeId(io.dstore.Values.integerValue value) {
           if (orderInformationTypeIdBuilder_ == null) {
@@ -2484,11 +2487,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
          */
         public Builder clearOrderInformationTypeId() {
           if (orderInformationTypeIdBuilder_ == null) {
@@ -2502,11 +2505,11 @@ public final class OmGetOrderInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getOrderInformationTypeIdBuilder() {
           
@@ -2514,11 +2517,11 @@ public final class OmGetOrderInformationTypesAd {
           return getOrderInformationTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getOrderInformationTypeIdOrBuilder() {
           if (orderInformationTypeIdBuilder_ != null) {
@@ -2529,11 +2532,11 @@ public final class OmGetOrderInformationTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_information_type_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2578,16 +2581,7 @@ public final class OmGetOrderInformationTypesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2679,52 +2673,52 @@ public final class OmGetOrderInformationTypesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2799,34 +2793,40 @@ public final class OmGetOrderInformationTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3063,7 +3063,7 @@ public final class OmGetOrderInformationTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3566,11 +3566,11 @@ public final class OmGetOrderInformationTypesAd {
           io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row, io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3580,11 +3580,11 @@ public final class OmGetOrderInformationTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3594,11 +3594,11 @@ public final class OmGetOrderInformationTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3608,11 +3608,11 @@ public final class OmGetOrderInformationTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row value) {
@@ -3629,11 +3629,11 @@ public final class OmGetOrderInformationTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row.Builder builderForValue) {
@@ -3647,11 +3647,11 @@ public final class OmGetOrderInformationTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3667,11 +3667,11 @@ public final class OmGetOrderInformationTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row value) {
@@ -3688,11 +3688,11 @@ public final class OmGetOrderInformationTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row.Builder builderForValue) {
@@ -3706,11 +3706,11 @@ public final class OmGetOrderInformationTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row.Builder builderForValue) {
@@ -3724,11 +3724,11 @@ public final class OmGetOrderInformationTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row> values) {
@@ -3743,11 +3743,11 @@ public final class OmGetOrderInformationTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3760,11 +3760,11 @@ public final class OmGetOrderInformationTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3777,22 +3777,22 @@ public final class OmGetOrderInformationTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3802,11 +3802,11 @@ public final class OmGetOrderInformationTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3817,22 +3817,22 @@ public final class OmGetOrderInformationTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3840,11 +3840,11 @@ public final class OmGetOrderInformationTypesAd {
             index, io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderInformationTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3894,16 +3894,7 @@ public final class OmGetOrderInformationTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3922,19 +3913,19 @@ public final class OmGetOrderInformationTypesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderInformationTypes_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderInformationTypes_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderInformationTypes_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderInformationTypes_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderInformationTypes_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderInformationTypes_Ad_Response_Row_fieldAccessorTable;
 
@@ -3942,7 +3933,7 @@ public final class OmGetOrderInformationTypesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

@@ -128,7 +128,8 @@ public final class DoGetProcedureNamesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -238,11 +239,10 @@ public final class DoGetProcedureNamesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -526,34 +526,40 @@ public final class DoGetProcedureNamesAd {
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -763,7 +769,7 @@ public final class DoGetProcedureNamesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.DoGetProcedureNamesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1516,16 +1522,7 @@ public final class DoGetProcedureNamesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1597,45 +1594,45 @@ public final class DoGetProcedureNamesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1664,7 +1661,8 @@ public final class DoGetProcedureNamesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1708,11 +1706,10 @@ public final class DoGetProcedureNamesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1748,377 +1745,377 @@ public final class DoGetProcedureNamesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
        */
       boolean hasProcedureType();
       /**
-       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
        */
       io.dstore.Values.stringValue getProcedureType();
       /**
-       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getProcedureTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-       *
        * <pre>
        * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        */
       boolean hasProcedureCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-       *
        * <pre>
        * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        */
       io.dstore.Values.integerValue getProcedureCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-       *
        * <pre>
        * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-       *
        * <pre>
        * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
        */
       boolean hasProcedureFunction();
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-       *
        * <pre>
        * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
        */
       io.dstore.Values.stringValue getProcedureFunction();
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-       *
        * <pre>
        * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getProcedureFunctionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
        */
       boolean hasProcedureCategory();
       /**
-       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
        */
       io.dstore.Values.stringValue getProcedureCategory();
       /**
-       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getProcedureCategoryOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
        */
       boolean hasActualdstoreVersion();
       /**
-       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
        */
       io.dstore.Values.stringValue getActualdstoreVersion();
       /**
-       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getActualdstoreVersionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-       *
        * <pre>
        * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
        */
       boolean hasProcedureTypeId();
       /**
-       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-       *
        * <pre>
        * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
        */
       io.dstore.Values.integerValue getProcedureTypeId();
       /**
-       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-       *
        * <pre>
        * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getProcedureTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-       *
        * <pre>
        * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
        */
       boolean hasLastEditedAtChar();
       /**
-       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-       *
        * <pre>
        * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
        */
       io.dstore.Values.stringValue getLastEditedAtChar();
       /**
-       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-       *
        * <pre>
        * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getLastEditedAtCharOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
        */
       boolean hasProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
        */
       io.dstore.Values.stringValue getProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
        */
       io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
        */
       boolean hasFirstdstoreVersion();
       /**
-       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
        */
       io.dstore.Values.stringValue getFirstdstoreVersion();
       /**
-       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
        */
       io.dstore.Values.stringValueOrBuilder getFirstdstoreVersionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue author = 10010;</code>
-       *
        * <pre>
        * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue author = 10010;</code>
        */
       boolean hasAuthor();
       /**
-       * <code>optional .dstore.values.stringValue author = 10010;</code>
-       *
        * <pre>
        * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue author = 10010;</code>
        */
       io.dstore.Values.stringValue getAuthor();
       /**
-       * <code>optional .dstore.values.stringValue author = 10010;</code>
-       *
        * <pre>
        * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue author = 10010;</code>
        */
       io.dstore.Values.stringValueOrBuilder getAuthorOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-       *
        * <pre>
        * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
        */
       boolean hasFirstCreatedAtChar();
       /**
-       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-       *
        * <pre>
        * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
        */
       io.dstore.Values.stringValue getFirstCreatedAtChar();
       /**
-       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-       *
        * <pre>
        * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
        */
       io.dstore.Values.stringValueOrBuilder getFirstCreatedAtCharOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-       *
        * <pre>
        * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
        */
       boolean hasAliasProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-       *
        * <pre>
        * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
        */
       io.dstore.Values.stringValue getAliasProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-       *
        * <pre>
        * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
        */
       io.dstore.Values.stringValueOrBuilder getAliasProcedureNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-       *
        * <pre>
        * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
        */
       boolean hasRegisteredForDocu();
       /**
-       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-       *
        * <pre>
        * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
        */
       io.dstore.Values.booleanValue getRegisteredForDocu();
       /**
-       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-       *
        * <pre>
        * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getRegisteredForDocuOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-       *
        * <pre>
        * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
        */
       boolean hasLastCreatedAtChar();
       /**
-       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-       *
        * <pre>
        * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
        */
       io.dstore.Values.stringValue getLastCreatedAtChar();
       /**
-       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-       *
        * <pre>
        * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
        */
       io.dstore.Values.stringValueOrBuilder getLastCreatedAtCharOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-       *
        * <pre>
        * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
        */
       boolean hasDocuExists();
       /**
-       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-       *
        * <pre>
        * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
        */
       io.dstore.Values.booleanValue getDocuExists();
       /**
-       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-       *
        * <pre>
        * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getDocuExistsOrBuilder();
     }
@@ -2144,7 +2141,8 @@ public final class DoGetProcedureNamesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2364,11 +2362,10 @@ public final class DoGetProcedureNamesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2397,31 +2394,31 @@ public final class DoGetProcedureNamesAd {
       public static final int PROCEDURE_TYPE_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue procedureType_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
        */
       public boolean hasProcedureType() {
         return procedureType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
        */
       public io.dstore.Values.stringValue getProcedureType() {
         return procedureType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getProcedureTypeOrBuilder() {
         return getProcedureType();
@@ -2430,31 +2427,31 @@ public final class DoGetProcedureNamesAd {
       public static final int PROCEDURE_CATEGORY_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue procedureCategoryId_;
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-       *
        * <pre>
        * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        */
       public boolean hasProcedureCategoryId() {
         return procedureCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-       *
        * <pre>
        * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getProcedureCategoryId() {
         return procedureCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-       *
        * <pre>
        * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
         return getProcedureCategoryId();
@@ -2463,31 +2460,31 @@ public final class DoGetProcedureNamesAd {
       public static final int PROCEDURE_FUNCTION_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue procedureFunction_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-       *
        * <pre>
        * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
        */
       public boolean hasProcedureFunction() {
         return procedureFunction_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-       *
        * <pre>
        * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
        */
       public io.dstore.Values.stringValue getProcedureFunction() {
         return procedureFunction_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureFunction_;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-       *
        * <pre>
        * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getProcedureFunctionOrBuilder() {
         return getProcedureFunction();
@@ -2496,31 +2493,31 @@ public final class DoGetProcedureNamesAd {
       public static final int PROCEDURE_CATEGORY_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue procedureCategory_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
        */
       public boolean hasProcedureCategory() {
         return procedureCategory_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
        */
       public io.dstore.Values.stringValue getProcedureCategory() {
         return procedureCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureCategory_;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getProcedureCategoryOrBuilder() {
         return getProcedureCategory();
@@ -2529,31 +2526,31 @@ public final class DoGetProcedureNamesAd {
       public static final int ACTUALDSTORE_VERSION_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue actualdstoreVersion_;
       /**
-       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
        */
       public boolean hasActualdstoreVersion() {
         return actualdstoreVersion_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
        */
       public io.dstore.Values.stringValue getActualdstoreVersion() {
         return actualdstoreVersion_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : actualdstoreVersion_;
       }
       /**
-       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getActualdstoreVersionOrBuilder() {
         return getActualdstoreVersion();
@@ -2562,31 +2559,31 @@ public final class DoGetProcedureNamesAd {
       public static final int PROCEDURE_TYPE_ID_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue procedureTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-       *
        * <pre>
        * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
        */
       public boolean hasProcedureTypeId() {
         return procedureTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-       *
        * <pre>
        * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
        */
       public io.dstore.Values.integerValue getProcedureTypeId() {
         return procedureTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-       *
        * <pre>
        * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getProcedureTypeIdOrBuilder() {
         return getProcedureTypeId();
@@ -2595,31 +2592,31 @@ public final class DoGetProcedureNamesAd {
       public static final int LAST_EDITED_AT_CHAR_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue lastEditedAtChar_;
       /**
-       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-       *
        * <pre>
        * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
        */
       public boolean hasLastEditedAtChar() {
         return lastEditedAtChar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-       *
        * <pre>
        * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
        */
       public io.dstore.Values.stringValue getLastEditedAtChar() {
         return lastEditedAtChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lastEditedAtChar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-       *
        * <pre>
        * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getLastEditedAtCharOrBuilder() {
         return getLastEditedAtChar();
@@ -2628,31 +2625,31 @@ public final class DoGetProcedureNamesAd {
       public static final int PROCEDURE_NAME_FIELD_NUMBER = 10008;
       private io.dstore.Values.stringValue procedureName_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
        */
       public io.dstore.Values.stringValue getProcedureName() {
         return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
@@ -2661,31 +2658,31 @@ public final class DoGetProcedureNamesAd {
       public static final int FIRSTDSTORE_VERSION_FIELD_NUMBER = 10009;
       private io.dstore.Values.stringValue firstdstoreVersion_;
       /**
-       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
        */
       public boolean hasFirstdstoreVersion() {
         return firstdstoreVersion_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
        */
       public io.dstore.Values.stringValue getFirstdstoreVersion() {
         return firstdstoreVersion_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : firstdstoreVersion_;
       }
       /**
-       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-       *
        * <pre>
        * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFirstdstoreVersionOrBuilder() {
         return getFirstdstoreVersion();
@@ -2694,31 +2691,31 @@ public final class DoGetProcedureNamesAd {
       public static final int AUTHOR_FIELD_NUMBER = 10010;
       private io.dstore.Values.stringValue author_;
       /**
-       * <code>optional .dstore.values.stringValue author = 10010;</code>
-       *
        * <pre>
        * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue author = 10010;</code>
        */
       public boolean hasAuthor() {
         return author_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue author = 10010;</code>
-       *
        * <pre>
        * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue author = 10010;</code>
        */
       public io.dstore.Values.stringValue getAuthor() {
         return author_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : author_;
       }
       /**
-       * <code>optional .dstore.values.stringValue author = 10010;</code>
-       *
        * <pre>
        * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue author = 10010;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getAuthorOrBuilder() {
         return getAuthor();
@@ -2727,31 +2724,31 @@ public final class DoGetProcedureNamesAd {
       public static final int FIRST_CREATED_AT_CHAR_FIELD_NUMBER = 10011;
       private io.dstore.Values.stringValue firstCreatedAtChar_;
       /**
-       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-       *
        * <pre>
        * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
        */
       public boolean hasFirstCreatedAtChar() {
         return firstCreatedAtChar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-       *
        * <pre>
        * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
        */
       public io.dstore.Values.stringValue getFirstCreatedAtChar() {
         return firstCreatedAtChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : firstCreatedAtChar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-       *
        * <pre>
        * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFirstCreatedAtCharOrBuilder() {
         return getFirstCreatedAtChar();
@@ -2760,31 +2757,31 @@ public final class DoGetProcedureNamesAd {
       public static final int ALIAS_PROCEDURE_NAME_FIELD_NUMBER = 10012;
       private io.dstore.Values.stringValue aliasProcedureName_;
       /**
-       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-       *
        * <pre>
        * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
        */
       public boolean hasAliasProcedureName() {
         return aliasProcedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-       *
        * <pre>
        * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
        */
       public io.dstore.Values.stringValue getAliasProcedureName() {
         return aliasProcedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : aliasProcedureName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-       *
        * <pre>
        * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getAliasProcedureNameOrBuilder() {
         return getAliasProcedureName();
@@ -2793,31 +2790,31 @@ public final class DoGetProcedureNamesAd {
       public static final int REGISTERED_FOR_DOCU_FIELD_NUMBER = 10013;
       private io.dstore.Values.booleanValue registeredForDocu_;
       /**
-       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-       *
        * <pre>
        * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
        */
       public boolean hasRegisteredForDocu() {
         return registeredForDocu_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-       *
        * <pre>
        * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
        */
       public io.dstore.Values.booleanValue getRegisteredForDocu() {
         return registeredForDocu_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : registeredForDocu_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-       *
        * <pre>
        * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getRegisteredForDocuOrBuilder() {
         return getRegisteredForDocu();
@@ -2826,31 +2823,31 @@ public final class DoGetProcedureNamesAd {
       public static final int LAST_CREATED_AT_CHAR_FIELD_NUMBER = 10014;
       private io.dstore.Values.stringValue lastCreatedAtChar_;
       /**
-       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-       *
        * <pre>
        * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
        */
       public boolean hasLastCreatedAtChar() {
         return lastCreatedAtChar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-       *
        * <pre>
        * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
        */
       public io.dstore.Values.stringValue getLastCreatedAtChar() {
         return lastCreatedAtChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lastCreatedAtChar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-       *
        * <pre>
        * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getLastCreatedAtCharOrBuilder() {
         return getLastCreatedAtChar();
@@ -2859,31 +2856,31 @@ public final class DoGetProcedureNamesAd {
       public static final int DOCU_EXISTS_FIELD_NUMBER = 10015;
       private io.dstore.Values.booleanValue docuExists_;
       /**
-       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-       *
        * <pre>
        * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
        */
       public boolean hasDocuExists() {
         return docuExists_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-       *
        * <pre>
        * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
        */
       public io.dstore.Values.booleanValue getDocuExists() {
         return docuExists_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : docuExists_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-       *
        * <pre>
        * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDocuExistsOrBuilder() {
         return getDocuExists();
@@ -3048,34 +3045,40 @@ public final class DoGetProcedureNamesAd {
       }
       public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -3401,7 +3404,7 @@ public final class DoGetProcedureNamesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -3440,21 +3443,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
          */
         public boolean hasProcedureType() {
           return procedureTypeBuilder_ != null || procedureType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
          */
         public io.dstore.Values.stringValue getProcedureType() {
           if (procedureTypeBuilder_ == null) {
@@ -3464,11 +3467,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
          */
         public Builder setProcedureType(io.dstore.Values.stringValue value) {
           if (procedureTypeBuilder_ == null) {
@@ -3484,11 +3487,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
          */
         public Builder setProcedureType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3502,11 +3505,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
          */
         public Builder mergeProcedureType(io.dstore.Values.stringValue value) {
           if (procedureTypeBuilder_ == null) {
@@ -3524,11 +3527,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
          */
         public Builder clearProcedureType() {
           if (procedureTypeBuilder_ == null) {
@@ -3542,11 +3545,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getProcedureTypeBuilder() {
           
@@ -3554,11 +3557,11 @@ public final class DoGetProcedureNamesAd {
           return getProcedureTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getProcedureTypeOrBuilder() {
           if (procedureTypeBuilder_ != null) {
@@ -3569,11 +3572,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3593,21 +3596,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-         *
          * <pre>
          * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          */
         public boolean hasProcedureCategoryId() {
           return procedureCategoryIdBuilder_ != null || procedureCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-         *
          * <pre>
          * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getProcedureCategoryId() {
           if (procedureCategoryIdBuilder_ == null) {
@@ -3617,11 +3620,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-         *
          * <pre>
          * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          */
         public Builder setProcedureCategoryId(io.dstore.Values.integerValue value) {
           if (procedureCategoryIdBuilder_ == null) {
@@ -3637,11 +3640,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-         *
          * <pre>
          * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          */
         public Builder setProcedureCategoryId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3655,11 +3658,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-         *
          * <pre>
          * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          */
         public Builder mergeProcedureCategoryId(io.dstore.Values.integerValue value) {
           if (procedureCategoryIdBuilder_ == null) {
@@ -3677,11 +3680,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-         *
          * <pre>
          * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          */
         public Builder clearProcedureCategoryId() {
           if (procedureCategoryIdBuilder_ == null) {
@@ -3695,11 +3698,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-         *
          * <pre>
          * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getProcedureCategoryIdBuilder() {
           
@@ -3707,11 +3710,11 @@ public final class DoGetProcedureNamesAd {
           return getProcedureCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-         *
          * <pre>
          * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
           if (procedureCategoryIdBuilder_ != null) {
@@ -3722,11 +3725,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
-         *
          * <pre>
          * ID einer Kategorie von Prozeduren (siehe "do_GetProcedureCategories_Ad"), der die Prozedur "ProcedureName" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3746,21 +3749,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureFunctionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-         *
          * <pre>
          * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
          */
         public boolean hasProcedureFunction() {
           return procedureFunctionBuilder_ != null || procedureFunction_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-         *
          * <pre>
          * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
          */
         public io.dstore.Values.stringValue getProcedureFunction() {
           if (procedureFunctionBuilder_ == null) {
@@ -3770,11 +3773,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-         *
          * <pre>
          * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
          */
         public Builder setProcedureFunction(io.dstore.Values.stringValue value) {
           if (procedureFunctionBuilder_ == null) {
@@ -3790,11 +3793,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-         *
          * <pre>
          * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
          */
         public Builder setProcedureFunction(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3808,11 +3811,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-         *
          * <pre>
          * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
          */
         public Builder mergeProcedureFunction(io.dstore.Values.stringValue value) {
           if (procedureFunctionBuilder_ == null) {
@@ -3830,11 +3833,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-         *
          * <pre>
          * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
          */
         public Builder clearProcedureFunction() {
           if (procedureFunctionBuilder_ == null) {
@@ -3848,11 +3851,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-         *
          * <pre>
          * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getProcedureFunctionBuilder() {
           
@@ -3860,11 +3863,11 @@ public final class DoGetProcedureNamesAd {
           return getProcedureFunctionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-         *
          * <pre>
          * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getProcedureFunctionOrBuilder() {
           if (procedureFunctionBuilder_ != null) {
@@ -3875,11 +3878,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
-         *
          * <pre>
          * Eine kurze Charakterisierung der Prozedur, also welchem Zweck sie dient
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3899,21 +3902,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureCategoryBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
          */
         public boolean hasProcedureCategory() {
           return procedureCategoryBuilder_ != null || procedureCategory_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
          */
         public io.dstore.Values.stringValue getProcedureCategory() {
           if (procedureCategoryBuilder_ == null) {
@@ -3923,11 +3926,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
          */
         public Builder setProcedureCategory(io.dstore.Values.stringValue value) {
           if (procedureCategoryBuilder_ == null) {
@@ -3943,11 +3946,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
          */
         public Builder setProcedureCategory(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3961,11 +3964,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
          */
         public Builder mergeProcedureCategory(io.dstore.Values.stringValue value) {
           if (procedureCategoryBuilder_ == null) {
@@ -3983,11 +3986,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
          */
         public Builder clearProcedureCategory() {
           if (procedureCategoryBuilder_ == null) {
@@ -4001,11 +4004,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getProcedureCategoryBuilder() {
           
@@ -4013,11 +4016,11 @@ public final class DoGetProcedureNamesAd {
           return getProcedureCategoryFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getProcedureCategoryOrBuilder() {
           if (procedureCategoryBuilder_ != null) {
@@ -4028,11 +4031,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_category = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4052,21 +4055,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> actualdstoreVersionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
          */
         public boolean hasActualdstoreVersion() {
           return actualdstoreVersionBuilder_ != null || actualdstoreVersion_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
          */
         public io.dstore.Values.stringValue getActualdstoreVersion() {
           if (actualdstoreVersionBuilder_ == null) {
@@ -4076,11 +4079,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
          */
         public Builder setActualdstoreVersion(io.dstore.Values.stringValue value) {
           if (actualdstoreVersionBuilder_ == null) {
@@ -4096,11 +4099,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
          */
         public Builder setActualdstoreVersion(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4114,11 +4117,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
          */
         public Builder mergeActualdstoreVersion(io.dstore.Values.stringValue value) {
           if (actualdstoreVersionBuilder_ == null) {
@@ -4136,11 +4139,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
          */
         public Builder clearActualdstoreVersion() {
           if (actualdstoreVersionBuilder_ == null) {
@@ -4154,11 +4157,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getActualdstoreVersionBuilder() {
           
@@ -4166,11 +4169,11 @@ public final class DoGetProcedureNamesAd {
           return getActualdstoreVersionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getActualdstoreVersionOrBuilder() {
           if (actualdstoreVersionBuilder_ != null) {
@@ -4181,11 +4184,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" zuletzt geändert
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue actualdstore_version = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4205,21 +4208,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-         *
          * <pre>
          * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
          */
         public boolean hasProcedureTypeId() {
           return procedureTypeIdBuilder_ != null || procedureTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-         *
          * <pre>
          * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
          */
         public io.dstore.Values.integerValue getProcedureTypeId() {
           if (procedureTypeIdBuilder_ == null) {
@@ -4229,11 +4232,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-         *
          * <pre>
          * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
          */
         public Builder setProcedureTypeId(io.dstore.Values.integerValue value) {
           if (procedureTypeIdBuilder_ == null) {
@@ -4249,11 +4252,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-         *
          * <pre>
          * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
          */
         public Builder setProcedureTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4267,11 +4270,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-         *
          * <pre>
          * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
          */
         public Builder mergeProcedureTypeId(io.dstore.Values.integerValue value) {
           if (procedureTypeIdBuilder_ == null) {
@@ -4289,11 +4292,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-         *
          * <pre>
          * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
          */
         public Builder clearProcedureTypeId() {
           if (procedureTypeIdBuilder_ == null) {
@@ -4307,11 +4310,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-         *
          * <pre>
          * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getProcedureTypeIdBuilder() {
           
@@ -4319,11 +4322,11 @@ public final class DoGetProcedureNamesAd {
           return getProcedureTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-         *
          * <pre>
          * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getProcedureTypeIdOrBuilder() {
           if (procedureTypeIdBuilder_ != null) {
@@ -4334,11 +4337,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
-         *
          * <pre>
          * ID eines Prozedur-Typs (siehe "do_GetProcedureTypes_Ad"), von dem die Prozedur "ProcedureName" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_type_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4358,21 +4361,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> lastEditedAtCharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-         *
          * <pre>
          * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
          */
         public boolean hasLastEditedAtChar() {
           return lastEditedAtCharBuilder_ != null || lastEditedAtChar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-         *
          * <pre>
          * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
          */
         public io.dstore.Values.stringValue getLastEditedAtChar() {
           if (lastEditedAtCharBuilder_ == null) {
@@ -4382,11 +4385,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-         *
          * <pre>
          * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
          */
         public Builder setLastEditedAtChar(io.dstore.Values.stringValue value) {
           if (lastEditedAtCharBuilder_ == null) {
@@ -4402,11 +4405,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-         *
          * <pre>
          * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
          */
         public Builder setLastEditedAtChar(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4420,11 +4423,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-         *
          * <pre>
          * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
          */
         public Builder mergeLastEditedAtChar(io.dstore.Values.stringValue value) {
           if (lastEditedAtCharBuilder_ == null) {
@@ -4442,11 +4445,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-         *
          * <pre>
          * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
          */
         public Builder clearLastEditedAtChar() {
           if (lastEditedAtCharBuilder_ == null) {
@@ -4460,11 +4463,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-         *
          * <pre>
          * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getLastEditedAtCharBuilder() {
           
@@ -4472,11 +4475,11 @@ public final class DoGetProcedureNamesAd {
           return getLastEditedAtCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-         *
          * <pre>
          * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getLastEditedAtCharOrBuilder() {
           if (lastEditedAtCharBuilder_ != null) {
@@ -4487,11 +4490,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
-         *
          * <pre>
          * Datum wann die Prozedur vom Autor als "zuletzt editiert" gekennzeichnet wurde Hinweise : 1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy 2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_edited_at_char = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4511,21 +4514,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
          */
         public io.dstore.Values.stringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -4535,11 +4538,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
          */
         public Builder setProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -4555,11 +4558,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
          */
         public Builder setProcedureName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4573,11 +4576,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
          */
         public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -4595,11 +4598,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -4613,11 +4616,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
          */
         public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
           
@@ -4625,11 +4628,11 @@ public final class DoGetProcedureNamesAd {
           return getProcedureNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
@@ -4640,11 +4643,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, zu der es eine Beschreibung gibt (siehe "do_GetProcedureDocu_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4664,21 +4667,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> firstdstoreVersionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
          */
         public boolean hasFirstdstoreVersion() {
           return firstdstoreVersionBuilder_ != null || firstdstoreVersion_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
          */
         public io.dstore.Values.stringValue getFirstdstoreVersion() {
           if (firstdstoreVersionBuilder_ == null) {
@@ -4688,11 +4691,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
          */
         public Builder setFirstdstoreVersion(io.dstore.Values.stringValue value) {
           if (firstdstoreVersionBuilder_ == null) {
@@ -4708,11 +4711,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
          */
         public Builder setFirstdstoreVersion(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4726,11 +4729,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
          */
         public Builder mergeFirstdstoreVersion(io.dstore.Values.stringValue value) {
           if (firstdstoreVersionBuilder_ == null) {
@@ -4748,11 +4751,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
          */
         public Builder clearFirstdstoreVersion() {
           if (firstdstoreVersionBuilder_ == null) {
@@ -4766,11 +4769,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
          */
         public io.dstore.Values.stringValue.Builder getFirstdstoreVersionBuilder() {
           
@@ -4778,11 +4781,11 @@ public final class DoGetProcedureNamesAd {
           return getFirstdstoreVersionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getFirstdstoreVersionOrBuilder() {
           if (firstdstoreVersionBuilder_ != null) {
@@ -4793,11 +4796,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
-         *
          * <pre>
          * In welcher "dStore"-Version wurde die Prozedur "ProcedureName" eingeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue firstdstore_version = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4817,21 +4820,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> authorBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue author = 10010;</code>
-         *
          * <pre>
          * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue author = 10010;</code>
          */
         public boolean hasAuthor() {
           return authorBuilder_ != null || author_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue author = 10010;</code>
-         *
          * <pre>
          * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue author = 10010;</code>
          */
         public io.dstore.Values.stringValue getAuthor() {
           if (authorBuilder_ == null) {
@@ -4841,11 +4844,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue author = 10010;</code>
-         *
          * <pre>
          * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue author = 10010;</code>
          */
         public Builder setAuthor(io.dstore.Values.stringValue value) {
           if (authorBuilder_ == null) {
@@ -4861,11 +4864,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue author = 10010;</code>
-         *
          * <pre>
          * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue author = 10010;</code>
          */
         public Builder setAuthor(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4879,11 +4882,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue author = 10010;</code>
-         *
          * <pre>
          * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue author = 10010;</code>
          */
         public Builder mergeAuthor(io.dstore.Values.stringValue value) {
           if (authorBuilder_ == null) {
@@ -4901,11 +4904,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue author = 10010;</code>
-         *
          * <pre>
          * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue author = 10010;</code>
          */
         public Builder clearAuthor() {
           if (authorBuilder_ == null) {
@@ -4919,11 +4922,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue author = 10010;</code>
-         *
          * <pre>
          * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue author = 10010;</code>
          */
         public io.dstore.Values.stringValue.Builder getAuthorBuilder() {
           
@@ -4931,11 +4934,11 @@ public final class DoGetProcedureNamesAd {
           return getAuthorFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue author = 10010;</code>
-         *
          * <pre>
          * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue author = 10010;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getAuthorOrBuilder() {
           if (authorBuilder_ != null) {
@@ -4946,11 +4949,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue author = 10010;</code>
-         *
          * <pre>
          * Autor der Prozedur. Im Fall "DocuExists = 0" wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue author = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4970,21 +4973,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> firstCreatedAtCharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-         *
          * <pre>
          * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
          */
         public boolean hasFirstCreatedAtChar() {
           return firstCreatedAtCharBuilder_ != null || firstCreatedAtChar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-         *
          * <pre>
          * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
          */
         public io.dstore.Values.stringValue getFirstCreatedAtChar() {
           if (firstCreatedAtCharBuilder_ == null) {
@@ -4994,11 +4997,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-         *
          * <pre>
          * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
          */
         public Builder setFirstCreatedAtChar(io.dstore.Values.stringValue value) {
           if (firstCreatedAtCharBuilder_ == null) {
@@ -5014,11 +5017,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-         *
          * <pre>
          * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
          */
         public Builder setFirstCreatedAtChar(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5032,11 +5035,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-         *
          * <pre>
          * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
          */
         public Builder mergeFirstCreatedAtChar(io.dstore.Values.stringValue value) {
           if (firstCreatedAtCharBuilder_ == null) {
@@ -5054,11 +5057,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-         *
          * <pre>
          * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
          */
         public Builder clearFirstCreatedAtChar() {
           if (firstCreatedAtCharBuilder_ == null) {
@@ -5072,11 +5075,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-         *
          * <pre>
          * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
          */
         public io.dstore.Values.stringValue.Builder getFirstCreatedAtCharBuilder() {
           
@@ -5084,11 +5087,11 @@ public final class DoGetProcedureNamesAd {
           return getFirstCreatedAtCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-         *
          * <pre>
          * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getFirstCreatedAtCharOrBuilder() {
           if (firstCreatedAtCharBuilder_ != null) {
@@ -5099,11 +5102,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
-         *
          * <pre>
          * Wann die Prozedur zum ersten Mal erstellt wurde. Hinweise :1. Nur eine Tagesangabe als "string" im Formt mm/dd/yyyy2. Im Fall "DocuExists = 0"wird diese Info aus dem Quellcode herausgeparst und kann daher u.U. fehlen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue first_created_at_char = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5123,21 +5126,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> aliasProcedureNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-         *
          * <pre>
          * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
          */
         public boolean hasAliasProcedureName() {
           return aliasProcedureNameBuilder_ != null || aliasProcedureName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-         *
          * <pre>
          * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
          */
         public io.dstore.Values.stringValue getAliasProcedureName() {
           if (aliasProcedureNameBuilder_ == null) {
@@ -5147,11 +5150,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-         *
          * <pre>
          * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
          */
         public Builder setAliasProcedureName(io.dstore.Values.stringValue value) {
           if (aliasProcedureNameBuilder_ == null) {
@@ -5167,11 +5170,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-         *
          * <pre>
          * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
          */
         public Builder setAliasProcedureName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5185,11 +5188,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-         *
          * <pre>
          * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
          */
         public Builder mergeAliasProcedureName(io.dstore.Values.stringValue value) {
           if (aliasProcedureNameBuilder_ == null) {
@@ -5207,11 +5210,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-         *
          * <pre>
          * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
          */
         public Builder clearAliasProcedureName() {
           if (aliasProcedureNameBuilder_ == null) {
@@ -5225,11 +5228,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-         *
          * <pre>
          * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
          */
         public io.dstore.Values.stringValue.Builder getAliasProcedureNameBuilder() {
           
@@ -5237,11 +5240,11 @@ public final class DoGetProcedureNamesAd {
           return getAliasProcedureNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-         *
          * <pre>
          * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getAliasProcedureNameOrBuilder() {
           if (aliasProcedureNameBuilder_ != null) {
@@ -5252,11 +5255,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
-         *
          * <pre>
          * Optionaler Alias-Name für "ProcedureName", der in aller erster Linie den Sinn hat, den "vollständigen" Namen angeben zu können, weil "ProcedureName" häufig Abkürzungen enthält (Beispiel : s. Wert für "pm_GetPChAccRestrForGroups_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue alias_procedure_name = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5276,21 +5279,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> registeredForDocuBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-         *
          * <pre>
          * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
          */
         public boolean hasRegisteredForDocu() {
           return registeredForDocuBuilder_ != null || registeredForDocu_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-         *
          * <pre>
          * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
          */
         public io.dstore.Values.booleanValue getRegisteredForDocu() {
           if (registeredForDocuBuilder_ == null) {
@@ -5300,11 +5303,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-         *
          * <pre>
          * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
          */
         public Builder setRegisteredForDocu(io.dstore.Values.booleanValue value) {
           if (registeredForDocuBuilder_ == null) {
@@ -5320,11 +5323,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-         *
          * <pre>
          * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
          */
         public Builder setRegisteredForDocu(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -5338,11 +5341,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-         *
          * <pre>
          * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
          */
         public Builder mergeRegisteredForDocu(io.dstore.Values.booleanValue value) {
           if (registeredForDocuBuilder_ == null) {
@@ -5360,11 +5363,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-         *
          * <pre>
          * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
          */
         public Builder clearRegisteredForDocu() {
           if (registeredForDocuBuilder_ == null) {
@@ -5378,11 +5381,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-         *
          * <pre>
          * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
          */
         public io.dstore.Values.booleanValue.Builder getRegisteredForDocuBuilder() {
           
@@ -5390,11 +5393,11 @@ public final class DoGetProcedureNamesAd {
           return getRegisteredForDocuFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-         *
          * <pre>
          * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getRegisteredForDocuOrBuilder() {
           if (registeredForDocuBuilder_ != null) {
@@ -5405,11 +5408,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
-         *
          * <pre>
          * Gibt an, ob ein Datensatz in "dstore.dbo.ProcedureDevelopement" (hier sind alle grundsätzlich dokumentierbaren Prozeduren registriert) existiert ("1") oder nicht ("0"). Insbesondere ist also immer "DocuExists = 0" falls hier "0" zurückgegeben wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue registered_for_docu = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -5429,21 +5432,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> lastCreatedAtCharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-         *
          * <pre>
          * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
          */
         public boolean hasLastCreatedAtChar() {
           return lastCreatedAtCharBuilder_ != null || lastCreatedAtChar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-         *
          * <pre>
          * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
          */
         public io.dstore.Values.stringValue getLastCreatedAtChar() {
           if (lastCreatedAtCharBuilder_ == null) {
@@ -5453,11 +5456,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-         *
          * <pre>
          * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
          */
         public Builder setLastCreatedAtChar(io.dstore.Values.stringValue value) {
           if (lastCreatedAtCharBuilder_ == null) {
@@ -5473,11 +5476,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-         *
          * <pre>
          * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
          */
         public Builder setLastCreatedAtChar(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5491,11 +5494,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-         *
          * <pre>
          * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
          */
         public Builder mergeLastCreatedAtChar(io.dstore.Values.stringValue value) {
           if (lastCreatedAtCharBuilder_ == null) {
@@ -5513,11 +5516,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-         *
          * <pre>
          * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
          */
         public Builder clearLastCreatedAtChar() {
           if (lastCreatedAtCharBuilder_ == null) {
@@ -5531,11 +5534,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-         *
          * <pre>
          * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
          */
         public io.dstore.Values.stringValue.Builder getLastCreatedAtCharBuilder() {
           
@@ -5543,11 +5546,11 @@ public final class DoGetProcedureNamesAd {
           return getLastCreatedAtCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-         *
          * <pre>
          * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getLastCreatedAtCharOrBuilder() {
           if (lastCreatedAtCharBuilder_ != null) {
@@ -5558,11 +5561,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
-         *
          * <pre>
          * Wann die Prozedur zuletzt übersetzt wurde. Hinweise :1. Ein "string" im Formt mm/dd/yyyy hh:mi:ss:ms2. Im Fall "DocuExists = 0" kommt diese Info aus einer entsprechenden Systemtabelle (Erstellungsdatum des Objekts)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_created_at_char = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5582,21 +5585,21 @@ public final class DoGetProcedureNamesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> docuExistsBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-         *
          * <pre>
          * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
          */
         public boolean hasDocuExists() {
           return docuExistsBuilder_ != null || docuExists_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-         *
          * <pre>
          * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
          */
         public io.dstore.Values.booleanValue getDocuExists() {
           if (docuExistsBuilder_ == null) {
@@ -5606,11 +5609,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-         *
          * <pre>
          * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
          */
         public Builder setDocuExists(io.dstore.Values.booleanValue value) {
           if (docuExistsBuilder_ == null) {
@@ -5626,11 +5629,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-         *
          * <pre>
          * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
          */
         public Builder setDocuExists(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -5644,11 +5647,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-         *
          * <pre>
          * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
          */
         public Builder mergeDocuExists(io.dstore.Values.booleanValue value) {
           if (docuExistsBuilder_ == null) {
@@ -5666,11 +5669,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-         *
          * <pre>
          * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
          */
         public Builder clearDocuExists() {
           if (docuExistsBuilder_ == null) {
@@ -5684,11 +5687,11 @@ public final class DoGetProcedureNamesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-         *
          * <pre>
          * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
          */
         public io.dstore.Values.booleanValue.Builder getDocuExistsBuilder() {
           
@@ -5696,11 +5699,11 @@ public final class DoGetProcedureNamesAd {
           return getDocuExistsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-         *
          * <pre>
          * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getDocuExistsOrBuilder() {
           if (docuExistsBuilder_ != null) {
@@ -5711,11 +5714,11 @@ public final class DoGetProcedureNamesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
-         *
          * <pre>
          * Gibt an, ob eine (Haupt-)Doku existiert ("1") oder nicht ("0"). Hier steht immer "1" beim Aufruf mit Standardwerten und immer "0" wenn "&#64;GetProcsWithMissingDocu = 1" ist. Bei gegebenem "&#64;ProcedureName" hängt der Wert davon ab, ob eine Doku vorhanden ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue docu_exists = 10015;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -5760,16 +5763,7 @@ public final class DoGetProcedureNamesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -5861,52 +5855,52 @@ public final class DoGetProcedureNamesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -5981,34 +5975,40 @@ public final class DoGetProcedureNamesAd {
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureNamesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -6245,7 +6245,7 @@ public final class DoGetProcedureNamesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.DoGetProcedureNamesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -6748,11 +6748,11 @@ public final class DoGetProcedureNamesAd {
           io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row, io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row.Builder, io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -6762,11 +6762,11 @@ public final class DoGetProcedureNamesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -6776,11 +6776,11 @@ public final class DoGetProcedureNamesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -6790,11 +6790,11 @@ public final class DoGetProcedureNamesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row value) {
@@ -6811,11 +6811,11 @@ public final class DoGetProcedureNamesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row.Builder builderForValue) {
@@ -6829,11 +6829,11 @@ public final class DoGetProcedureNamesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -6849,11 +6849,11 @@ public final class DoGetProcedureNamesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row value) {
@@ -6870,11 +6870,11 @@ public final class DoGetProcedureNamesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row.Builder builderForValue) {
@@ -6888,11 +6888,11 @@ public final class DoGetProcedureNamesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row.Builder builderForValue) {
@@ -6906,11 +6906,11 @@ public final class DoGetProcedureNamesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row> values) {
@@ -6925,11 +6925,11 @@ public final class DoGetProcedureNamesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -6942,11 +6942,11 @@ public final class DoGetProcedureNamesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -6959,22 +6959,22 @@ public final class DoGetProcedureNamesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -6984,11 +6984,11 @@ public final class DoGetProcedureNamesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -6999,22 +6999,22 @@ public final class DoGetProcedureNamesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -7022,11 +7022,11 @@ public final class DoGetProcedureNamesAd {
             index, io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureNames_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.DoGetProcedureNamesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -7076,16 +7076,7 @@ public final class DoGetProcedureNamesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -7104,19 +7095,19 @@ public final class DoGetProcedureNamesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureNames_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureNames_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureNames_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureNames_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureNames_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureNames_Ad_Response_Row_fieldAccessorTable;
 
@@ -7124,7 +7115,7 @@ public final class DoGetProcedureNamesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

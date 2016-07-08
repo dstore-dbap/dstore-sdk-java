@@ -280,7 +280,8 @@ public final class MiDatatypeTestAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -534,11 +535,10 @@ public final class MiDatatypeTestAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -1174,34 +1174,40 @@ public final class MiDatatypeTestAd {
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1571,7 +1577,7 @@ public final class MiDatatypeTestAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiDatatypeTestAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3468,16 +3474,7 @@ public final class MiDatatypeTestAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3739,7 +3736,8 @@ public final class MiDatatypeTestAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -3926,11 +3924,10 @@ public final class MiDatatypeTestAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -3966,727 +3963,727 @@ public final class MiDatatypeTestAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-       *
        * <pre>
        * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
        */
       boolean hasTestText();
       /**
-       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-       *
        * <pre>
        * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
        */
       io.dstore.Values.stringValue getTestText();
       /**
-       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-       *
        * <pre>
        * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestTextOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
        */
       boolean hasTestDecimalParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
        */
       io.dstore.Values.stringValue getTestDecimalParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestDecimalParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-       *
        * <pre>
        * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
        */
       boolean hasTestDatetime();
       /**
-       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-       *
        * <pre>
        * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
        */
       io.dstore.Values.timestampValue getTestDatetime();
       /**
-       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-       *
        * <pre>
        * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getTestDatetimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
        */
       boolean hasTestTextParamInputByteLength();
       /**
-       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
        */
       io.dstore.Values.integerValue getTestTextParamInputByteLength();
       /**
-       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTestTextParamInputByteLengthOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-       *
        * <pre>
        * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
        */
       boolean hasTestTextParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-       *
        * <pre>
        * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
        */
       io.dstore.Values.stringValue getTestTextParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-       *
        * <pre>
        * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestTextParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-       *
        * <pre>
        * Wert "-17.425923" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
        */
       boolean hasTestDecimal();
       /**
-       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-       *
        * <pre>
        * Wert "-17.425923" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
        */
       io.dstore.Values.decimalValue getTestDecimal();
       /**
-       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-       *
        * <pre>
        * Wert "-17.425923" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getTestDecimalOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
        */
       boolean hasTestSmallintParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
        */
       io.dstore.Values.stringValue getTestSmallintParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestSmallintParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-       *
        * <pre>
        * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
        */
       boolean hasTestChar();
       /**
-       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-       *
        * <pre>
        * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
        */
       io.dstore.Values.stringValue getTestChar();
       /**
-       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-       *
        * <pre>
        * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestCharOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
        */
       boolean hasTestTinyintParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
        */
       io.dstore.Values.stringValue getTestTinyintParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestTinyintParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-       *
        * <pre>
        * Wert "1" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
        */
       boolean hasTestBit();
       /**
-       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-       *
        * <pre>
        * Wert "1" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
        */
       io.dstore.Values.booleanValue getTestBit();
       /**
-       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-       *
        * <pre>
        * Wert "1" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getTestBitOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-       *
        * <pre>
        * Wert "17" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
        */
       boolean hasTestInteger();
       /**
-       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-       *
        * <pre>
        * Wert "17" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
        */
       io.dstore.Values.integerValue getTestInteger();
       /**
-       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-       *
        * <pre>
        * Wert "17" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTestIntegerOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-       *
        * <pre>
        * Wert "128" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
        */
       boolean hasTestTinyint();
       /**
-       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-       *
        * <pre>
        * Wert "128" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
        */
       io.dstore.Values.integerValue getTestTinyint();
       /**
-       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-       *
        * <pre>
        * Wert "128" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTestTinyintOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
        */
       boolean hasTestMoneyParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
        */
       io.dstore.Values.stringValue getTestMoneyParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestMoneyParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
        */
       boolean hasTestImageParamInputByteLength();
       /**
-       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
        */
       io.dstore.Values.integerValue getTestImageParamInputByteLength();
       /**
-       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTestImageParamInputByteLengthOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
        */
       boolean hasTestTextParamInputMD5();
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
        */
       io.dstore.Values.stringValue getTestTextParamInputMD5();
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestTextParamInputMD5OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
        */
       boolean hasTestCharParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
        */
       io.dstore.Values.stringValue getTestCharParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestCharParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-       *
        * <pre>
        * Wert "23" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
        */
       boolean hasTestSmallint();
       /**
-       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-       *
        * <pre>
        * Wert "23" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
        */
       io.dstore.Values.integerValue getTestSmallint();
       /**
-       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-       *
        * <pre>
        * Wert "23" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTestSmallintOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
        */
       boolean hasTestBitParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
        */
       io.dstore.Values.stringValue getTestBitParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestBitParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-       *
        * <pre>
        * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
        */
       boolean hasTestImage();
       /**
-       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-       *
        * <pre>
        * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
        */
       io.dstore.Values.bytesValue getTestImage();
       /**
-       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-       *
        * <pre>
        * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
        */
       io.dstore.Values.bytesValueOrBuilder getTestImageOrBuilder();
 
       /**
-       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-       *
        * <pre>
        * Wert "1234567891011" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
        */
       boolean hasTestBigint();
       /**
-       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-       *
        * <pre>
        * Wert "1234567891011" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
        */
       io.dstore.Values.longValue getTestBigint();
       /**
-       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-       *
        * <pre>
        * Wert "1234567891011" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
        */
       io.dstore.Values.longValueOrBuilder getTestBigintOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
        */
       boolean hasTestImageParamInputMD5();
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
        */
       io.dstore.Values.stringValue getTestImageParamInputMD5();
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestImageParamInputMD5OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
        */
       boolean hasTestIntegerParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
        */
       io.dstore.Values.stringValue getTestIntegerParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestIntegerParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-       *
        * <pre>
        * Wert "test sysname" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
        */
       boolean hasTestSysname();
       /**
-       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-       *
        * <pre>
        * Wert "test sysname" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
        */
       io.dstore.Values.stringValue getTestSysname();
       /**
-       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-       *
        * <pre>
        * Wert "test sysname" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestSysnameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
        */
       boolean hasTestVarcharParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
        */
       io.dstore.Values.stringValue getTestVarcharParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestVarcharParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
        */
       boolean hasTestDatetimeParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
        */
       io.dstore.Values.stringValue getTestDatetimeParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestDatetimeParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-       *
        * <pre>
        * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
        */
       boolean hasTestImageParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-       *
        * <pre>
        * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
        */
       io.dstore.Values.stringValue getTestImageParamInput();
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-       *
        * <pre>
        * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestImageParamInputOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-       *
        * <pre>
        * Wert "17.4259" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
        */
       boolean hasTestMoney();
       /**
-       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-       *
        * <pre>
        * Wert "17.4259" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
        */
       io.dstore.Values.decimalValue getTestMoney();
       /**
-       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-       *
        * <pre>
        * Wert "17.4259" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getTestMoneyOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-       *
        * <pre>
        * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
        */
       boolean hasTestVarchar();
       /**
-       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-       *
        * <pre>
        * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
        */
       io.dstore.Values.stringValue getTestVarchar();
       /**
-       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-       *
        * <pre>
        * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTestVarcharOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-       *
        * <pre>
        * Wert "123.45" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
        */
       boolean hasTestNumeric();
       /**
-       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-       *
        * <pre>
        * Wert "123.45" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
        */
       io.dstore.Values.decimalValue getTestNumeric();
       /**
-       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-       *
        * <pre>
        * Wert "123.45" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getTestNumericOrBuilder();
     }
@@ -4712,7 +4709,8 @@ public final class MiDatatypeTestAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -5114,11 +5112,10 @@ public final class MiDatatypeTestAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -5147,31 +5144,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_TEXT_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue testText_;
       /**
-       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-       *
        * <pre>
        * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
        */
       public boolean hasTestText() {
         return testText_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-       *
        * <pre>
        * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
        */
       public io.dstore.Values.stringValue getTestText() {
         return testText_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testText_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-       *
        * <pre>
        * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestTextOrBuilder() {
         return getTestText();
@@ -5180,31 +5177,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_DECIMAL_PARAM_INPUT_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue testDecimalParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
        */
       public boolean hasTestDecimalParamInput() {
         return testDecimalParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
        */
       public io.dstore.Values.stringValue getTestDecimalParamInput() {
         return testDecimalParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testDecimalParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestDecimalParamInputOrBuilder() {
         return getTestDecimalParamInput();
@@ -5213,31 +5210,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_DATETIME_FIELD_NUMBER = 10003;
       private io.dstore.Values.timestampValue testDatetime_;
       /**
-       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-       *
        * <pre>
        * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
        */
       public boolean hasTestDatetime() {
         return testDatetime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-       *
        * <pre>
        * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
        */
       public io.dstore.Values.timestampValue getTestDatetime() {
         return testDatetime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : testDatetime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-       *
        * <pre>
        * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getTestDatetimeOrBuilder() {
         return getTestDatetime();
@@ -5246,31 +5243,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_TEXT_PARAM_INPUT_BYTE_LENGTH_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue testTextParamInputByteLength_;
       /**
-       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
        */
       public boolean hasTestTextParamInputByteLength() {
         return testTextParamInputByteLength_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
        */
       public io.dstore.Values.integerValue getTestTextParamInputByteLength() {
         return testTextParamInputByteLength_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testTextParamInputByteLength_;
       }
       /**
-       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTestTextParamInputByteLengthOrBuilder() {
         return getTestTextParamInputByteLength();
@@ -5279,31 +5276,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_TEXT_PARAM_INPUT_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue testTextParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-       *
        * <pre>
        * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
        */
       public boolean hasTestTextParamInput() {
         return testTextParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-       *
        * <pre>
        * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
        */
       public io.dstore.Values.stringValue getTestTextParamInput() {
         return testTextParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testTextParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-       *
        * <pre>
        * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestTextParamInputOrBuilder() {
         return getTestTextParamInput();
@@ -5312,31 +5309,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_DECIMAL_FIELD_NUMBER = 10006;
       private io.dstore.Values.decimalValue testDecimal_;
       /**
-       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-       *
        * <pre>
        * Wert "-17.425923" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
        */
       public boolean hasTestDecimal() {
         return testDecimal_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-       *
        * <pre>
        * Wert "-17.425923" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
        */
       public io.dstore.Values.decimalValue getTestDecimal() {
         return testDecimal_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : testDecimal_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-       *
        * <pre>
        * Wert "-17.425923" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getTestDecimalOrBuilder() {
         return getTestDecimal();
@@ -5345,31 +5342,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_SMALLINT_PARAM_INPUT_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue testSmallintParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
        */
       public boolean hasTestSmallintParamInput() {
         return testSmallintParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
        */
       public io.dstore.Values.stringValue getTestSmallintParamInput() {
         return testSmallintParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testSmallintParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestSmallintParamInputOrBuilder() {
         return getTestSmallintParamInput();
@@ -5378,31 +5375,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_CHAR_FIELD_NUMBER = 10008;
       private io.dstore.Values.stringValue testChar_;
       /**
-       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-       *
        * <pre>
        * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
        */
       public boolean hasTestChar() {
         return testChar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-       *
        * <pre>
        * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
        */
       public io.dstore.Values.stringValue getTestChar() {
         return testChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testChar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-       *
        * <pre>
        * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char = 10008;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestCharOrBuilder() {
         return getTestChar();
@@ -5411,31 +5408,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_TINYINT_PARAM_INPUT_FIELD_NUMBER = 10009;
       private io.dstore.Values.stringValue testTinyintParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
        */
       public boolean hasTestTinyintParamInput() {
         return testTinyintParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
        */
       public io.dstore.Values.stringValue getTestTinyintParamInput() {
         return testTinyintParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testTinyintParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestTinyintParamInputOrBuilder() {
         return getTestTinyintParamInput();
@@ -5444,31 +5441,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_BIT_FIELD_NUMBER = 10010;
       private io.dstore.Values.booleanValue testBit_;
       /**
-       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-       *
        * <pre>
        * Wert "1" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
        */
       public boolean hasTestBit() {
         return testBit_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-       *
        * <pre>
        * Wert "1" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
        */
       public io.dstore.Values.booleanValue getTestBit() {
         return testBit_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : testBit_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-       *
        * <pre>
        * Wert "1" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getTestBitOrBuilder() {
         return getTestBit();
@@ -5477,31 +5474,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_INTEGER_FIELD_NUMBER = 10011;
       private io.dstore.Values.integerValue testInteger_;
       /**
-       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-       *
        * <pre>
        * Wert "17" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
        */
       public boolean hasTestInteger() {
         return testInteger_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-       *
        * <pre>
        * Wert "17" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
        */
       public io.dstore.Values.integerValue getTestInteger() {
         return testInteger_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testInteger_;
       }
       /**
-       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-       *
        * <pre>
        * Wert "17" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTestIntegerOrBuilder() {
         return getTestInteger();
@@ -5510,31 +5507,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_TINYINT_FIELD_NUMBER = 10012;
       private io.dstore.Values.integerValue testTinyint_;
       /**
-       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-       *
        * <pre>
        * Wert "128" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
        */
       public boolean hasTestTinyint() {
         return testTinyint_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-       *
        * <pre>
        * Wert "128" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
        */
       public io.dstore.Values.integerValue getTestTinyint() {
         return testTinyint_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testTinyint_;
       }
       /**
-       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-       *
        * <pre>
        * Wert "128" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTestTinyintOrBuilder() {
         return getTestTinyint();
@@ -5543,31 +5540,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_MONEY_PARAM_INPUT_FIELD_NUMBER = 10013;
       private io.dstore.Values.stringValue testMoneyParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
        */
       public boolean hasTestMoneyParamInput() {
         return testMoneyParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
        */
       public io.dstore.Values.stringValue getTestMoneyParamInput() {
         return testMoneyParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testMoneyParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestMoneyParamInputOrBuilder() {
         return getTestMoneyParamInput();
@@ -5576,31 +5573,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_IMAGE_PARAM_INPUT_BYTE_LENGTH_FIELD_NUMBER = 10014;
       private io.dstore.Values.integerValue testImageParamInputByteLength_;
       /**
-       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
        */
       public boolean hasTestImageParamInputByteLength() {
         return testImageParamInputByteLength_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
        */
       public io.dstore.Values.integerValue getTestImageParamInputByteLength() {
         return testImageParamInputByteLength_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testImageParamInputByteLength_;
       }
       /**
-       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-       *
        * <pre>
        * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTestImageParamInputByteLengthOrBuilder() {
         return getTestImageParamInputByteLength();
@@ -5609,31 +5606,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_TEXT_PARAM_INPUT_M_D5_FIELD_NUMBER = 10015;
       private io.dstore.Values.stringValue testTextParamInputMD5_;
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
        */
       public boolean hasTestTextParamInputMD5() {
         return testTextParamInputMD5_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
        */
       public io.dstore.Values.stringValue getTestTextParamInputMD5() {
         return testTextParamInputMD5_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testTextParamInputMD5_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestTextParamInputMD5OrBuilder() {
         return getTestTextParamInputMD5();
@@ -5642,31 +5639,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_CHAR_PARAM_INPUT_FIELD_NUMBER = 10016;
       private io.dstore.Values.stringValue testCharParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
        */
       public boolean hasTestCharParamInput() {
         return testCharParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
        */
       public io.dstore.Values.stringValue getTestCharParamInput() {
         return testCharParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testCharParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestCharParamInputOrBuilder() {
         return getTestCharParamInput();
@@ -5675,31 +5672,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_SMALLINT_FIELD_NUMBER = 10017;
       private io.dstore.Values.integerValue testSmallint_;
       /**
-       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-       *
        * <pre>
        * Wert "23" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
        */
       public boolean hasTestSmallint() {
         return testSmallint_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-       *
        * <pre>
        * Wert "23" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
        */
       public io.dstore.Values.integerValue getTestSmallint() {
         return testSmallint_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : testSmallint_;
       }
       /**
-       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-       *
        * <pre>
        * Wert "23" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTestSmallintOrBuilder() {
         return getTestSmallint();
@@ -5708,31 +5705,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_BIT_PARAM_INPUT_FIELD_NUMBER = 10018;
       private io.dstore.Values.stringValue testBitParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
        */
       public boolean hasTestBitParamInput() {
         return testBitParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
        */
       public io.dstore.Values.stringValue getTestBitParamInput() {
         return testBitParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testBitParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestBitParamInputOrBuilder() {
         return getTestBitParamInput();
@@ -5741,31 +5738,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_IMAGE_FIELD_NUMBER = 10019;
       private io.dstore.Values.bytesValue testImage_;
       /**
-       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-       *
        * <pre>
        * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
        */
       public boolean hasTestImage() {
         return testImage_ != null;
       }
       /**
-       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-       *
        * <pre>
        * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
        */
       public io.dstore.Values.bytesValue getTestImage() {
         return testImage_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : testImage_;
       }
       /**
-       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-       *
        * <pre>
        * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
        */
       public io.dstore.Values.bytesValueOrBuilder getTestImageOrBuilder() {
         return getTestImage();
@@ -5774,31 +5771,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_BIGINT_FIELD_NUMBER = 10020;
       private io.dstore.Values.longValue testBigint_;
       /**
-       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-       *
        * <pre>
        * Wert "1234567891011" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
        */
       public boolean hasTestBigint() {
         return testBigint_ != null;
       }
       /**
-       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-       *
        * <pre>
        * Wert "1234567891011" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
        */
       public io.dstore.Values.longValue getTestBigint() {
         return testBigint_ == null ? io.dstore.Values.longValue.getDefaultInstance() : testBigint_;
       }
       /**
-       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-       *
        * <pre>
        * Wert "1234567891011" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
        */
       public io.dstore.Values.longValueOrBuilder getTestBigintOrBuilder() {
         return getTestBigint();
@@ -5807,31 +5804,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_IMAGE_PARAM_INPUT_M_D5_FIELD_NUMBER = 10021;
       private io.dstore.Values.stringValue testImageParamInputMD5_;
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
        */
       public boolean hasTestImageParamInputMD5() {
         return testImageParamInputMD5_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
        */
       public io.dstore.Values.stringValue getTestImageParamInputMD5() {
         return testImageParamInputMD5_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testImageParamInputMD5_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-       *
        * <pre>
        * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestImageParamInputMD5OrBuilder() {
         return getTestImageParamInputMD5();
@@ -5840,31 +5837,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_INTEGER_PARAM_INPUT_FIELD_NUMBER = 10022;
       private io.dstore.Values.stringValue testIntegerParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
        */
       public boolean hasTestIntegerParamInput() {
         return testIntegerParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
        */
       public io.dstore.Values.stringValue getTestIntegerParamInput() {
         return testIntegerParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testIntegerParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestIntegerParamInputOrBuilder() {
         return getTestIntegerParamInput();
@@ -5873,31 +5870,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_SYSNAME_FIELD_NUMBER = 10023;
       private io.dstore.Values.stringValue testSysname_;
       /**
-       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-       *
        * <pre>
        * Wert "test sysname" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
        */
       public boolean hasTestSysname() {
         return testSysname_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-       *
        * <pre>
        * Wert "test sysname" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
        */
       public io.dstore.Values.stringValue getTestSysname() {
         return testSysname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testSysname_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-       *
        * <pre>
        * Wert "test sysname" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestSysnameOrBuilder() {
         return getTestSysname();
@@ -5906,31 +5903,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_VARCHAR_PARAM_INPUT_FIELD_NUMBER = 10024;
       private io.dstore.Values.stringValue testVarcharParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
        */
       public boolean hasTestVarcharParamInput() {
         return testVarcharParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
        */
       public io.dstore.Values.stringValue getTestVarcharParamInput() {
         return testVarcharParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testVarcharParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestVarcharParamInputOrBuilder() {
         return getTestVarcharParamInput();
@@ -5939,31 +5936,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_DATETIME_PARAM_INPUT_FIELD_NUMBER = 10025;
       private io.dstore.Values.stringValue testDatetimeParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
        */
       public boolean hasTestDatetimeParamInput() {
         return testDatetimeParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
        */
       public io.dstore.Values.stringValue getTestDatetimeParamInput() {
         return testDatetimeParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testDatetimeParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-       *
        * <pre>
        * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestDatetimeParamInputOrBuilder() {
         return getTestDatetimeParamInput();
@@ -5972,31 +5969,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_IMAGE_PARAM_INPUT_FIELD_NUMBER = 10026;
       private io.dstore.Values.stringValue testImageParamInput_;
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-       *
        * <pre>
        * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
        */
       public boolean hasTestImageParamInput() {
         return testImageParamInput_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-       *
        * <pre>
        * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
        */
       public io.dstore.Values.stringValue getTestImageParamInput() {
         return testImageParamInput_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testImageParamInput_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-       *
        * <pre>
        * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestImageParamInputOrBuilder() {
         return getTestImageParamInput();
@@ -6005,31 +6002,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_MONEY_FIELD_NUMBER = 10027;
       private io.dstore.Values.decimalValue testMoney_;
       /**
-       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-       *
        * <pre>
        * Wert "17.4259" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
        */
       public boolean hasTestMoney() {
         return testMoney_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-       *
        * <pre>
        * Wert "17.4259" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
        */
       public io.dstore.Values.decimalValue getTestMoney() {
         return testMoney_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : testMoney_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-       *
        * <pre>
        * Wert "17.4259" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getTestMoneyOrBuilder() {
         return getTestMoney();
@@ -6038,31 +6035,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_VARCHAR_FIELD_NUMBER = 10028;
       private io.dstore.Values.stringValue testVarchar_;
       /**
-       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-       *
        * <pre>
        * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
        */
       public boolean hasTestVarchar() {
         return testVarchar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-       *
        * <pre>
        * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
        */
       public io.dstore.Values.stringValue getTestVarchar() {
         return testVarchar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : testVarchar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-       *
        * <pre>
        * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTestVarcharOrBuilder() {
         return getTestVarchar();
@@ -6071,31 +6068,31 @@ public final class MiDatatypeTestAd {
       public static final int TEST_NUMERIC_FIELD_NUMBER = 10029;
       private io.dstore.Values.decimalValue testNumeric_;
       /**
-       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-       *
        * <pre>
        * Wert "123.45" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
        */
       public boolean hasTestNumeric() {
         return testNumeric_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-       *
        * <pre>
        * Wert "123.45" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
        */
       public io.dstore.Values.decimalValue getTestNumeric() {
         return testNumeric_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : testNumeric_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-       *
        * <pre>
        * Wert "123.45" wird zurückgegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getTestNumericOrBuilder() {
         return getTestNumeric();
@@ -6358,34 +6355,40 @@ public final class MiDatatypeTestAd {
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -6907,7 +6910,7 @@ public final class MiDatatypeTestAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -6946,21 +6949,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTextBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-         *
          * <pre>
          * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
          */
         public boolean hasTestText() {
           return testTextBuilder_ != null || testText_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-         *
          * <pre>
          * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
          */
         public io.dstore.Values.stringValue getTestText() {
           if (testTextBuilder_ == null) {
@@ -6970,11 +6973,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-         *
          * <pre>
          * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
          */
         public Builder setTestText(io.dstore.Values.stringValue value) {
           if (testTextBuilder_ == null) {
@@ -6990,11 +6993,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-         *
          * <pre>
          * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
          */
         public Builder setTestText(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -7008,11 +7011,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-         *
          * <pre>
          * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
          */
         public Builder mergeTestText(io.dstore.Values.stringValue value) {
           if (testTextBuilder_ == null) {
@@ -7030,11 +7033,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-         *
          * <pre>
          * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
          */
         public Builder clearTestText() {
           if (testTextBuilder_ == null) {
@@ -7048,11 +7051,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-         *
          * <pre>
          * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestTextBuilder() {
           
@@ -7060,11 +7063,11 @@ public final class MiDatatypeTestAd {
           return getTestTextFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-         *
          * <pre>
          * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestTextOrBuilder() {
           if (testTextBuilder_ != null) {
@@ -7075,11 +7078,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
-         *
          * <pre>
          * Wert "test text      " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -7099,21 +7102,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testDecimalParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
          */
         public boolean hasTestDecimalParamInput() {
           return testDecimalParamInputBuilder_ != null || testDecimalParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
          */
         public io.dstore.Values.stringValue getTestDecimalParamInput() {
           if (testDecimalParamInputBuilder_ == null) {
@@ -7123,11 +7126,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
          */
         public Builder setTestDecimalParamInput(io.dstore.Values.stringValue value) {
           if (testDecimalParamInputBuilder_ == null) {
@@ -7143,11 +7146,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
          */
         public Builder setTestDecimalParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -7161,11 +7164,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
          */
         public Builder mergeTestDecimalParamInput(io.dstore.Values.stringValue value) {
           if (testDecimalParamInputBuilder_ == null) {
@@ -7183,11 +7186,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
          */
         public Builder clearTestDecimalParamInput() {
           if (testDecimalParamInputBuilder_ == null) {
@@ -7201,11 +7204,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestDecimalParamInputBuilder() {
           
@@ -7213,11 +7216,11 @@ public final class MiDatatypeTestAd {
           return getTestDecimalParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestDecimalParamInputOrBuilder() {
           if (testDecimalParamInputBuilder_ != null) {
@@ -7228,11 +7231,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDecimal" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -7252,21 +7255,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> testDatetimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-         *
          * <pre>
          * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
          */
         public boolean hasTestDatetime() {
           return testDatetimeBuilder_ != null || testDatetime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-         *
          * <pre>
          * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
          */
         public io.dstore.Values.timestampValue getTestDatetime() {
           if (testDatetimeBuilder_ == null) {
@@ -7276,11 +7279,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-         *
          * <pre>
          * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
          */
         public Builder setTestDatetime(io.dstore.Values.timestampValue value) {
           if (testDatetimeBuilder_ == null) {
@@ -7296,11 +7299,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-         *
          * <pre>
          * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
          */
         public Builder setTestDatetime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -7314,11 +7317,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-         *
          * <pre>
          * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
          */
         public Builder mergeTestDatetime(io.dstore.Values.timestampValue value) {
           if (testDatetimeBuilder_ == null) {
@@ -7336,11 +7339,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-         *
          * <pre>
          * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
          */
         public Builder clearTestDatetime() {
           if (testDatetimeBuilder_ == null) {
@@ -7354,11 +7357,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-         *
          * <pre>
          * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
          */
         public io.dstore.Values.timestampValue.Builder getTestDatetimeBuilder() {
           
@@ -7366,11 +7369,11 @@ public final class MiDatatypeTestAd {
           return getTestDatetimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-         *
          * <pre>
          * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getTestDatetimeOrBuilder() {
           if (testDatetimeBuilder_ != null) {
@@ -7381,11 +7384,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
-         *
          * <pre>
          * Datum mit Uhrzeit für den Zeitpunkt "23.05.2006 17:42:59:333" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -7405,21 +7408,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testTextParamInputByteLengthBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
          */
         public boolean hasTestTextParamInputByteLength() {
           return testTextParamInputByteLengthBuilder_ != null || testTextParamInputByteLength_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
          */
         public io.dstore.Values.integerValue getTestTextParamInputByteLength() {
           if (testTextParamInputByteLengthBuilder_ == null) {
@@ -7429,11 +7432,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
          */
         public Builder setTestTextParamInputByteLength(io.dstore.Values.integerValue value) {
           if (testTextParamInputByteLengthBuilder_ == null) {
@@ -7449,11 +7452,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
          */
         public Builder setTestTextParamInputByteLength(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -7467,11 +7470,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
          */
         public Builder mergeTestTextParamInputByteLength(io.dstore.Values.integerValue value) {
           if (testTextParamInputByteLengthBuilder_ == null) {
@@ -7489,11 +7492,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
          */
         public Builder clearTestTextParamInputByteLength() {
           if (testTextParamInputByteLengthBuilder_ == null) {
@@ -7507,11 +7510,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getTestTextParamInputByteLengthBuilder() {
           
@@ -7519,11 +7522,11 @@ public final class MiDatatypeTestAd {
           return getTestTextParamInputByteLengthFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTestTextParamInputByteLengthOrBuilder() {
           if (testTextParamInputByteLengthBuilder_ != null) {
@@ -7534,11 +7537,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestText" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -7558,21 +7561,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTextParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-         *
          * <pre>
          * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
          */
         public boolean hasTestTextParamInput() {
           return testTextParamInputBuilder_ != null || testTextParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-         *
          * <pre>
          * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
          */
         public io.dstore.Values.stringValue getTestTextParamInput() {
           if (testTextParamInputBuilder_ == null) {
@@ -7582,11 +7585,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-         *
          * <pre>
          * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
          */
         public Builder setTestTextParamInput(io.dstore.Values.stringValue value) {
           if (testTextParamInputBuilder_ == null) {
@@ -7602,11 +7605,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-         *
          * <pre>
          * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
          */
         public Builder setTestTextParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -7620,11 +7623,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-         *
          * <pre>
          * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
          */
         public Builder mergeTestTextParamInput(io.dstore.Values.stringValue value) {
           if (testTextParamInputBuilder_ == null) {
@@ -7642,11 +7645,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-         *
          * <pre>
          * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
          */
         public Builder clearTestTextParamInput() {
           if (testTextParamInputBuilder_ == null) {
@@ -7660,11 +7663,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-         *
          * <pre>
          * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestTextParamInputBuilder() {
           
@@ -7672,11 +7675,11 @@ public final class MiDatatypeTestAd {
           return getTestTextParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-         *
          * <pre>
          * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestTextParamInputOrBuilder() {
           if (testTextParamInputBuilder_ != null) {
@@ -7687,11 +7690,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
-         *
          * <pre>
          * Es werden die ersten 1000 Bytes des Wertes, der in "&#64;TestText" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -7711,21 +7714,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testDecimalBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-         *
          * <pre>
          * Wert "-17.425923" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
          */
         public boolean hasTestDecimal() {
           return testDecimalBuilder_ != null || testDecimal_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-         *
          * <pre>
          * Wert "-17.425923" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
          */
         public io.dstore.Values.decimalValue getTestDecimal() {
           if (testDecimalBuilder_ == null) {
@@ -7735,11 +7738,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-         *
          * <pre>
          * Wert "-17.425923" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
          */
         public Builder setTestDecimal(io.dstore.Values.decimalValue value) {
           if (testDecimalBuilder_ == null) {
@@ -7755,11 +7758,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-         *
          * <pre>
          * Wert "-17.425923" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
          */
         public Builder setTestDecimal(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -7773,11 +7776,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-         *
          * <pre>
          * Wert "-17.425923" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
          */
         public Builder mergeTestDecimal(io.dstore.Values.decimalValue value) {
           if (testDecimalBuilder_ == null) {
@@ -7795,11 +7798,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-         *
          * <pre>
          * Wert "-17.425923" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
          */
         public Builder clearTestDecimal() {
           if (testDecimalBuilder_ == null) {
@@ -7813,11 +7816,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-         *
          * <pre>
          * Wert "-17.425923" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
          */
         public io.dstore.Values.decimalValue.Builder getTestDecimalBuilder() {
           
@@ -7825,11 +7828,11 @@ public final class MiDatatypeTestAd {
           return getTestDecimalFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-         *
          * <pre>
          * Wert "-17.425923" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getTestDecimalOrBuilder() {
           if (testDecimalBuilder_ != null) {
@@ -7840,11 +7843,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
-         *
          * <pre>
          * Wert "-17.425923" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -7864,21 +7867,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testSmallintParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
          */
         public boolean hasTestSmallintParamInput() {
           return testSmallintParamInputBuilder_ != null || testSmallintParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
          */
         public io.dstore.Values.stringValue getTestSmallintParamInput() {
           if (testSmallintParamInputBuilder_ == null) {
@@ -7888,11 +7891,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
          */
         public Builder setTestSmallintParamInput(io.dstore.Values.stringValue value) {
           if (testSmallintParamInputBuilder_ == null) {
@@ -7908,11 +7911,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
          */
         public Builder setTestSmallintParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -7926,11 +7929,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
          */
         public Builder mergeTestSmallintParamInput(io.dstore.Values.stringValue value) {
           if (testSmallintParamInputBuilder_ == null) {
@@ -7948,11 +7951,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
          */
         public Builder clearTestSmallintParamInput() {
           if (testSmallintParamInputBuilder_ == null) {
@@ -7966,11 +7969,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestSmallintParamInputBuilder() {
           
@@ -7978,11 +7981,11 @@ public final class MiDatatypeTestAd {
           return getTestSmallintParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestSmallintParamInputOrBuilder() {
           if (testSmallintParamInputBuilder_ != null) {
@@ -7993,11 +7996,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestSmallint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -8017,21 +8020,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testCharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-         *
          * <pre>
          * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
          */
         public boolean hasTestChar() {
           return testCharBuilder_ != null || testChar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-         *
          * <pre>
          * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
          */
         public io.dstore.Values.stringValue getTestChar() {
           if (testCharBuilder_ == null) {
@@ -8041,11 +8044,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-         *
          * <pre>
          * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
          */
         public Builder setTestChar(io.dstore.Values.stringValue value) {
           if (testCharBuilder_ == null) {
@@ -8061,11 +8064,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-         *
          * <pre>
          * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
          */
         public Builder setTestChar(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -8079,11 +8082,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-         *
          * <pre>
          * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
          */
         public Builder mergeTestChar(io.dstore.Values.stringValue value) {
           if (testCharBuilder_ == null) {
@@ -8101,11 +8104,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-         *
          * <pre>
          * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
          */
         public Builder clearTestChar() {
           if (testCharBuilder_ == null) {
@@ -8119,11 +8122,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-         *
          * <pre>
          * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestCharBuilder() {
           
@@ -8131,11 +8134,11 @@ public final class MiDatatypeTestAd {
           return getTestCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-         *
          * <pre>
          * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestCharOrBuilder() {
           if (testCharBuilder_ != null) {
@@ -8146,11 +8149,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
-         *
          * <pre>
          * Wert "test char           " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -8170,21 +8173,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTinyintParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
          */
         public boolean hasTestTinyintParamInput() {
           return testTinyintParamInputBuilder_ != null || testTinyintParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
          */
         public io.dstore.Values.stringValue getTestTinyintParamInput() {
           if (testTinyintParamInputBuilder_ == null) {
@@ -8194,11 +8197,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
          */
         public Builder setTestTinyintParamInput(io.dstore.Values.stringValue value) {
           if (testTinyintParamInputBuilder_ == null) {
@@ -8214,11 +8217,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
          */
         public Builder setTestTinyintParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -8232,11 +8235,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
          */
         public Builder mergeTestTinyintParamInput(io.dstore.Values.stringValue value) {
           if (testTinyintParamInputBuilder_ == null) {
@@ -8254,11 +8257,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
          */
         public Builder clearTestTinyintParamInput() {
           if (testTinyintParamInputBuilder_ == null) {
@@ -8272,11 +8275,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestTinyintParamInputBuilder() {
           
@@ -8284,11 +8287,11 @@ public final class MiDatatypeTestAd {
           return getTestTinyintParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestTinyintParamInputOrBuilder() {
           if (testTinyintParamInputBuilder_ != null) {
@@ -8299,11 +8302,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestTinyint" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -8323,21 +8326,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> testBitBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-         *
          * <pre>
          * Wert "1" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
          */
         public boolean hasTestBit() {
           return testBitBuilder_ != null || testBit_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-         *
          * <pre>
          * Wert "1" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
          */
         public io.dstore.Values.booleanValue getTestBit() {
           if (testBitBuilder_ == null) {
@@ -8347,11 +8350,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-         *
          * <pre>
          * Wert "1" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
          */
         public Builder setTestBit(io.dstore.Values.booleanValue value) {
           if (testBitBuilder_ == null) {
@@ -8367,11 +8370,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-         *
          * <pre>
          * Wert "1" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
          */
         public Builder setTestBit(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -8385,11 +8388,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-         *
          * <pre>
          * Wert "1" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
          */
         public Builder mergeTestBit(io.dstore.Values.booleanValue value) {
           if (testBitBuilder_ == null) {
@@ -8407,11 +8410,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-         *
          * <pre>
          * Wert "1" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
          */
         public Builder clearTestBit() {
           if (testBitBuilder_ == null) {
@@ -8425,11 +8428,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-         *
          * <pre>
          * Wert "1" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
          */
         public io.dstore.Values.booleanValue.Builder getTestBitBuilder() {
           
@@ -8437,11 +8440,11 @@ public final class MiDatatypeTestAd {
           return getTestBitFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-         *
          * <pre>
          * Wert "1" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getTestBitOrBuilder() {
           if (testBitBuilder_ != null) {
@@ -8452,11 +8455,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
-         *
          * <pre>
          * Wert "1" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -8476,21 +8479,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testIntegerBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-         *
          * <pre>
          * Wert "17" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
          */
         public boolean hasTestInteger() {
           return testIntegerBuilder_ != null || testInteger_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-         *
          * <pre>
          * Wert "17" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
          */
         public io.dstore.Values.integerValue getTestInteger() {
           if (testIntegerBuilder_ == null) {
@@ -8500,11 +8503,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-         *
          * <pre>
          * Wert "17" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
          */
         public Builder setTestInteger(io.dstore.Values.integerValue value) {
           if (testIntegerBuilder_ == null) {
@@ -8520,11 +8523,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-         *
          * <pre>
          * Wert "17" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
          */
         public Builder setTestInteger(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -8538,11 +8541,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-         *
          * <pre>
          * Wert "17" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
          */
         public Builder mergeTestInteger(io.dstore.Values.integerValue value) {
           if (testIntegerBuilder_ == null) {
@@ -8560,11 +8563,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-         *
          * <pre>
          * Wert "17" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
          */
         public Builder clearTestInteger() {
           if (testIntegerBuilder_ == null) {
@@ -8578,11 +8581,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-         *
          * <pre>
          * Wert "17" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
          */
         public io.dstore.Values.integerValue.Builder getTestIntegerBuilder() {
           
@@ -8590,11 +8593,11 @@ public final class MiDatatypeTestAd {
           return getTestIntegerFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-         *
          * <pre>
          * Wert "17" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTestIntegerOrBuilder() {
           if (testIntegerBuilder_ != null) {
@@ -8605,11 +8608,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
-         *
          * <pre>
          * Wert "17" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -8629,21 +8632,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testTinyintBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-         *
          * <pre>
          * Wert "128" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
          */
         public boolean hasTestTinyint() {
           return testTinyintBuilder_ != null || testTinyint_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-         *
          * <pre>
          * Wert "128" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
          */
         public io.dstore.Values.integerValue getTestTinyint() {
           if (testTinyintBuilder_ == null) {
@@ -8653,11 +8656,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-         *
          * <pre>
          * Wert "128" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
          */
         public Builder setTestTinyint(io.dstore.Values.integerValue value) {
           if (testTinyintBuilder_ == null) {
@@ -8673,11 +8676,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-         *
          * <pre>
          * Wert "128" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
          */
         public Builder setTestTinyint(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -8691,11 +8694,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-         *
          * <pre>
          * Wert "128" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
          */
         public Builder mergeTestTinyint(io.dstore.Values.integerValue value) {
           if (testTinyintBuilder_ == null) {
@@ -8713,11 +8716,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-         *
          * <pre>
          * Wert "128" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
          */
         public Builder clearTestTinyint() {
           if (testTinyintBuilder_ == null) {
@@ -8731,11 +8734,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-         *
          * <pre>
          * Wert "128" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
          */
         public io.dstore.Values.integerValue.Builder getTestTinyintBuilder() {
           
@@ -8743,11 +8746,11 @@ public final class MiDatatypeTestAd {
           return getTestTinyintFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-         *
          * <pre>
          * Wert "128" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTestTinyintOrBuilder() {
           if (testTinyintBuilder_ != null) {
@@ -8758,11 +8761,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
-         *
          * <pre>
          * Wert "128" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -8782,21 +8785,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testMoneyParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
          */
         public boolean hasTestMoneyParamInput() {
           return testMoneyParamInputBuilder_ != null || testMoneyParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
          */
         public io.dstore.Values.stringValue getTestMoneyParamInput() {
           if (testMoneyParamInputBuilder_ == null) {
@@ -8806,11 +8809,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
          */
         public Builder setTestMoneyParamInput(io.dstore.Values.stringValue value) {
           if (testMoneyParamInputBuilder_ == null) {
@@ -8826,11 +8829,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
          */
         public Builder setTestMoneyParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -8844,11 +8847,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
          */
         public Builder mergeTestMoneyParamInput(io.dstore.Values.stringValue value) {
           if (testMoneyParamInputBuilder_ == null) {
@@ -8866,11 +8869,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
          */
         public Builder clearTestMoneyParamInput() {
           if (testMoneyParamInputBuilder_ == null) {
@@ -8884,11 +8887,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestMoneyParamInputBuilder() {
           
@@ -8896,11 +8899,11 @@ public final class MiDatatypeTestAd {
           return getTestMoneyParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestMoneyParamInputOrBuilder() {
           if (testMoneyParamInputBuilder_ != null) {
@@ -8911,11 +8914,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestMoney" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -8935,21 +8938,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testImageParamInputByteLengthBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
          */
         public boolean hasTestImageParamInputByteLength() {
           return testImageParamInputByteLengthBuilder_ != null || testImageParamInputByteLength_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
          */
         public io.dstore.Values.integerValue getTestImageParamInputByteLength() {
           if (testImageParamInputByteLengthBuilder_ == null) {
@@ -8959,11 +8962,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
          */
         public Builder setTestImageParamInputByteLength(io.dstore.Values.integerValue value) {
           if (testImageParamInputByteLengthBuilder_ == null) {
@@ -8979,11 +8982,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
          */
         public Builder setTestImageParamInputByteLength(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -8997,11 +9000,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
          */
         public Builder mergeTestImageParamInputByteLength(io.dstore.Values.integerValue value) {
           if (testImageParamInputByteLengthBuilder_ == null) {
@@ -9019,11 +9022,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
          */
         public Builder clearTestImageParamInputByteLength() {
           if (testImageParamInputByteLengthBuilder_ == null) {
@@ -9037,11 +9040,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
          */
         public io.dstore.Values.integerValue.Builder getTestImageParamInputByteLengthBuilder() {
           
@@ -9049,11 +9052,11 @@ public final class MiDatatypeTestAd {
           return getTestImageParamInputByteLengthFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTestImageParamInputByteLengthOrBuilder() {
           if (testImageParamInputByteLengthBuilder_ != null) {
@@ -9064,11 +9067,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
-         *
          * <pre>
          * Die Anzahl Bytes, die in "&#64;TestImage" übergeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -9088,21 +9091,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTextParamInputMD5Builder_;
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
          */
         public boolean hasTestTextParamInputMD5() {
           return testTextParamInputMD5Builder_ != null || testTextParamInputMD5_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
          */
         public io.dstore.Values.stringValue getTestTextParamInputMD5() {
           if (testTextParamInputMD5Builder_ == null) {
@@ -9112,11 +9115,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
          */
         public Builder setTestTextParamInputMD5(io.dstore.Values.stringValue value) {
           if (testTextParamInputMD5Builder_ == null) {
@@ -9132,11 +9135,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
          */
         public Builder setTestTextParamInputMD5(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -9150,11 +9153,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
          */
         public Builder mergeTestTextParamInputMD5(io.dstore.Values.stringValue value) {
           if (testTextParamInputMD5Builder_ == null) {
@@ -9172,11 +9175,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
          */
         public Builder clearTestTextParamInputMD5() {
           if (testTextParamInputMD5Builder_ == null) {
@@ -9190,11 +9193,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestTextParamInputMD5Builder() {
           
@@ -9202,11 +9205,11 @@ public final class MiDatatypeTestAd {
           return getTestTextParamInputMD5FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestTextParamInputMD5OrBuilder() {
           if (testTextParamInputMD5Builder_ != null) {
@@ -9217,11 +9220,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestText"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -9241,21 +9244,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testCharParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
          */
         public boolean hasTestCharParamInput() {
           return testCharParamInputBuilder_ != null || testCharParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
          */
         public io.dstore.Values.stringValue getTestCharParamInput() {
           if (testCharParamInputBuilder_ == null) {
@@ -9265,11 +9268,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
          */
         public Builder setTestCharParamInput(io.dstore.Values.stringValue value) {
           if (testCharParamInputBuilder_ == null) {
@@ -9285,11 +9288,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
          */
         public Builder setTestCharParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -9303,11 +9306,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
          */
         public Builder mergeTestCharParamInput(io.dstore.Values.stringValue value) {
           if (testCharParamInputBuilder_ == null) {
@@ -9325,11 +9328,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
          */
         public Builder clearTestCharParamInput() {
           if (testCharParamInputBuilder_ == null) {
@@ -9343,11 +9346,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestCharParamInputBuilder() {
           
@@ -9355,11 +9358,11 @@ public final class MiDatatypeTestAd {
           return getTestCharParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestCharParamInputOrBuilder() {
           if (testCharParamInputBuilder_ != null) {
@@ -9370,11 +9373,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestChar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -9394,21 +9397,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testSmallintBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-         *
          * <pre>
          * Wert "23" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
          */
         public boolean hasTestSmallint() {
           return testSmallintBuilder_ != null || testSmallint_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-         *
          * <pre>
          * Wert "23" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
          */
         public io.dstore.Values.integerValue getTestSmallint() {
           if (testSmallintBuilder_ == null) {
@@ -9418,11 +9421,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-         *
          * <pre>
          * Wert "23" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
          */
         public Builder setTestSmallint(io.dstore.Values.integerValue value) {
           if (testSmallintBuilder_ == null) {
@@ -9438,11 +9441,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-         *
          * <pre>
          * Wert "23" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
          */
         public Builder setTestSmallint(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -9456,11 +9459,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-         *
          * <pre>
          * Wert "23" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
          */
         public Builder mergeTestSmallint(io.dstore.Values.integerValue value) {
           if (testSmallintBuilder_ == null) {
@@ -9478,11 +9481,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-         *
          * <pre>
          * Wert "23" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
          */
         public Builder clearTestSmallint() {
           if (testSmallintBuilder_ == null) {
@@ -9496,11 +9499,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-         *
          * <pre>
          * Wert "23" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
          */
         public io.dstore.Values.integerValue.Builder getTestSmallintBuilder() {
           
@@ -9508,11 +9511,11 @@ public final class MiDatatypeTestAd {
           return getTestSmallintFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-         *
          * <pre>
          * Wert "23" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTestSmallintOrBuilder() {
           if (testSmallintBuilder_ != null) {
@@ -9523,11 +9526,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
-         *
          * <pre>
          * Wert "23" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -9547,21 +9550,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testBitParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
          */
         public boolean hasTestBitParamInput() {
           return testBitParamInputBuilder_ != null || testBitParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
          */
         public io.dstore.Values.stringValue getTestBitParamInput() {
           if (testBitParamInputBuilder_ == null) {
@@ -9571,11 +9574,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
          */
         public Builder setTestBitParamInput(io.dstore.Values.stringValue value) {
           if (testBitParamInputBuilder_ == null) {
@@ -9591,11 +9594,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
          */
         public Builder setTestBitParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -9609,11 +9612,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
          */
         public Builder mergeTestBitParamInput(io.dstore.Values.stringValue value) {
           if (testBitParamInputBuilder_ == null) {
@@ -9631,11 +9634,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
          */
         public Builder clearTestBitParamInput() {
           if (testBitParamInputBuilder_ == null) {
@@ -9649,11 +9652,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestBitParamInputBuilder() {
           
@@ -9661,11 +9664,11 @@ public final class MiDatatypeTestAd {
           return getTestBitParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestBitParamInputOrBuilder() {
           if (testBitParamInputBuilder_ != null) {
@@ -9676,11 +9679,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestBit" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -9700,21 +9703,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> testImageBuilder_;
         /**
-         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-         *
          * <pre>
          * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
          */
         public boolean hasTestImage() {
           return testImageBuilder_ != null || testImage_ != null;
         }
         /**
-         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-         *
          * <pre>
          * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
          */
         public io.dstore.Values.bytesValue getTestImage() {
           if (testImageBuilder_ == null) {
@@ -9724,11 +9727,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-         *
          * <pre>
          * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
          */
         public Builder setTestImage(io.dstore.Values.bytesValue value) {
           if (testImageBuilder_ == null) {
@@ -9744,11 +9747,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-         *
          * <pre>
          * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
          */
         public Builder setTestImage(
             io.dstore.Values.bytesValue.Builder builderForValue) {
@@ -9762,11 +9765,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-         *
          * <pre>
          * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
          */
         public Builder mergeTestImage(io.dstore.Values.bytesValue value) {
           if (testImageBuilder_ == null) {
@@ -9784,11 +9787,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-         *
          * <pre>
          * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
          */
         public Builder clearTestImage() {
           if (testImageBuilder_ == null) {
@@ -9802,11 +9805,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-         *
          * <pre>
          * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
          */
         public io.dstore.Values.bytesValue.Builder getTestImageBuilder() {
           
@@ -9814,11 +9817,11 @@ public final class MiDatatypeTestAd {
           return getTestImageFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-         *
          * <pre>
          * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
          */
         public io.dstore.Values.bytesValueOrBuilder getTestImageOrBuilder() {
           if (testImageBuilder_ != null) {
@@ -9829,11 +9832,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
-         *
          * <pre>
          * Icon für die "LevelID = 0", sprich für das "root"-Element des Artikelbaums, wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
@@ -9853,21 +9856,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> testBigintBuilder_;
         /**
-         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-         *
          * <pre>
          * Wert "1234567891011" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
          */
         public boolean hasTestBigint() {
           return testBigintBuilder_ != null || testBigint_ != null;
         }
         /**
-         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-         *
          * <pre>
          * Wert "1234567891011" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
          */
         public io.dstore.Values.longValue getTestBigint() {
           if (testBigintBuilder_ == null) {
@@ -9877,11 +9880,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-         *
          * <pre>
          * Wert "1234567891011" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
          */
         public Builder setTestBigint(io.dstore.Values.longValue value) {
           if (testBigintBuilder_ == null) {
@@ -9897,11 +9900,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-         *
          * <pre>
          * Wert "1234567891011" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
          */
         public Builder setTestBigint(
             io.dstore.Values.longValue.Builder builderForValue) {
@@ -9915,11 +9918,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-         *
          * <pre>
          * Wert "1234567891011" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
          */
         public Builder mergeTestBigint(io.dstore.Values.longValue value) {
           if (testBigintBuilder_ == null) {
@@ -9937,11 +9940,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-         *
          * <pre>
          * Wert "1234567891011" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
          */
         public Builder clearTestBigint() {
           if (testBigintBuilder_ == null) {
@@ -9955,11 +9958,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-         *
          * <pre>
          * Wert "1234567891011" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
          */
         public io.dstore.Values.longValue.Builder getTestBigintBuilder() {
           
@@ -9967,11 +9970,11 @@ public final class MiDatatypeTestAd {
           return getTestBigintFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-         *
          * <pre>
          * Wert "1234567891011" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
          */
         public io.dstore.Values.longValueOrBuilder getTestBigintOrBuilder() {
           if (testBigintBuilder_ != null) {
@@ -9982,11 +9985,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
-         *
          * <pre>
          * Wert "1234567891011" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> 
@@ -10006,21 +10009,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testImageParamInputMD5Builder_;
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
          */
         public boolean hasTestImageParamInputMD5() {
           return testImageParamInputMD5Builder_ != null || testImageParamInputMD5_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
          */
         public io.dstore.Values.stringValue getTestImageParamInputMD5() {
           if (testImageParamInputMD5Builder_ == null) {
@@ -10030,11 +10033,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
          */
         public Builder setTestImageParamInputMD5(io.dstore.Values.stringValue value) {
           if (testImageParamInputMD5Builder_ == null) {
@@ -10050,11 +10053,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
          */
         public Builder setTestImageParamInputMD5(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10068,11 +10071,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
          */
         public Builder mergeTestImageParamInputMD5(io.dstore.Values.stringValue value) {
           if (testImageParamInputMD5Builder_ == null) {
@@ -10090,11 +10093,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
          */
         public Builder clearTestImageParamInputMD5() {
           if (testImageParamInputMD5Builder_ == null) {
@@ -10108,11 +10111,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestImageParamInputMD5Builder() {
           
@@ -10120,11 +10123,11 @@ public final class MiDatatypeTestAd {
           return getTestImageParamInputMD5FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestImageParamInputMD5OrBuilder() {
           if (testImageParamInputMD5Builder_ != null) {
@@ -10135,11 +10138,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
-         *
          * <pre>
          * Der MD5-Hash-Wert (als "string") der ersten 16384 Bytes (mehr ist in der aktuellen ASE-Version 15.7 nicht möglich) von "&#64;TestImage"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10159,21 +10162,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testIntegerParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
          */
         public boolean hasTestIntegerParamInput() {
           return testIntegerParamInputBuilder_ != null || testIntegerParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
          */
         public io.dstore.Values.stringValue getTestIntegerParamInput() {
           if (testIntegerParamInputBuilder_ == null) {
@@ -10183,11 +10186,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
          */
         public Builder setTestIntegerParamInput(io.dstore.Values.stringValue value) {
           if (testIntegerParamInputBuilder_ == null) {
@@ -10203,11 +10206,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
          */
         public Builder setTestIntegerParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10221,11 +10224,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
          */
         public Builder mergeTestIntegerParamInput(io.dstore.Values.stringValue value) {
           if (testIntegerParamInputBuilder_ == null) {
@@ -10243,11 +10246,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
          */
         public Builder clearTestIntegerParamInput() {
           if (testIntegerParamInputBuilder_ == null) {
@@ -10261,11 +10264,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestIntegerParamInputBuilder() {
           
@@ -10273,11 +10276,11 @@ public final class MiDatatypeTestAd {
           return getTestIntegerParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestIntegerParamInputOrBuilder() {
           if (testIntegerParamInputBuilder_ != null) {
@@ -10288,11 +10291,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestInteger" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10312,21 +10315,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testSysnameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-         *
          * <pre>
          * Wert "test sysname" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
          */
         public boolean hasTestSysname() {
           return testSysnameBuilder_ != null || testSysname_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-         *
          * <pre>
          * Wert "test sysname" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
          */
         public io.dstore.Values.stringValue getTestSysname() {
           if (testSysnameBuilder_ == null) {
@@ -10336,11 +10339,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-         *
          * <pre>
          * Wert "test sysname" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
          */
         public Builder setTestSysname(io.dstore.Values.stringValue value) {
           if (testSysnameBuilder_ == null) {
@@ -10356,11 +10359,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-         *
          * <pre>
          * Wert "test sysname" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
          */
         public Builder setTestSysname(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10374,11 +10377,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-         *
          * <pre>
          * Wert "test sysname" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
          */
         public Builder mergeTestSysname(io.dstore.Values.stringValue value) {
           if (testSysnameBuilder_ == null) {
@@ -10396,11 +10399,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-         *
          * <pre>
          * Wert "test sysname" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
          */
         public Builder clearTestSysname() {
           if (testSysnameBuilder_ == null) {
@@ -10414,11 +10417,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-         *
          * <pre>
          * Wert "test sysname" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestSysnameBuilder() {
           
@@ -10426,11 +10429,11 @@ public final class MiDatatypeTestAd {
           return getTestSysnameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-         *
          * <pre>
          * Wert "test sysname" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestSysnameOrBuilder() {
           if (testSysnameBuilder_ != null) {
@@ -10441,11 +10444,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
-         *
          * <pre>
          * Wert "test sysname" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10465,21 +10468,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testVarcharParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
          */
         public boolean hasTestVarcharParamInput() {
           return testVarcharParamInputBuilder_ != null || testVarcharParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
          */
         public io.dstore.Values.stringValue getTestVarcharParamInput() {
           if (testVarcharParamInputBuilder_ == null) {
@@ -10489,11 +10492,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
          */
         public Builder setTestVarcharParamInput(io.dstore.Values.stringValue value) {
           if (testVarcharParamInputBuilder_ == null) {
@@ -10509,11 +10512,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
          */
         public Builder setTestVarcharParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10527,11 +10530,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
          */
         public Builder mergeTestVarcharParamInput(io.dstore.Values.stringValue value) {
           if (testVarcharParamInputBuilder_ == null) {
@@ -10549,11 +10552,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
          */
         public Builder clearTestVarcharParamInput() {
           if (testVarcharParamInputBuilder_ == null) {
@@ -10567,11 +10570,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestVarcharParamInputBuilder() {
           
@@ -10579,11 +10582,11 @@ public final class MiDatatypeTestAd {
           return getTestVarcharParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestVarcharParamInputOrBuilder() {
           if (testVarcharParamInputBuilder_ != null) {
@@ -10594,11 +10597,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestVarchar" übergeben wurde (bzw. der default-Wert) ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10618,21 +10621,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testDatetimeParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
          */
         public boolean hasTestDatetimeParamInput() {
           return testDatetimeParamInputBuilder_ != null || testDatetimeParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
          */
         public io.dstore.Values.stringValue getTestDatetimeParamInput() {
           if (testDatetimeParamInputBuilder_ == null) {
@@ -10642,11 +10645,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
          */
         public Builder setTestDatetimeParamInput(io.dstore.Values.stringValue value) {
           if (testDatetimeParamInputBuilder_ == null) {
@@ -10662,11 +10665,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
          */
         public Builder setTestDatetimeParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10680,11 +10683,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
          */
         public Builder mergeTestDatetimeParamInput(io.dstore.Values.stringValue value) {
           if (testDatetimeParamInputBuilder_ == null) {
@@ -10702,11 +10705,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
          */
         public Builder clearTestDatetimeParamInput() {
           if (testDatetimeParamInputBuilder_ == null) {
@@ -10720,11 +10723,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestDatetimeParamInputBuilder() {
           
@@ -10732,11 +10735,11 @@ public final class MiDatatypeTestAd {
           return getTestDatetimeParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestDatetimeParamInputOrBuilder() {
           if (testDatetimeParamInputBuilder_ != null) {
@@ -10747,11 +10750,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
-         *
          * <pre>
          * Es wird der Wert, der in "&#64;TestDatetime" übergeben wurde (bzw. der default-Wert) als "string" im Format "yyyy.mm.ddThh:mi:ss:mmm" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10771,21 +10774,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testImageParamInputBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-         *
          * <pre>
          * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
          */
         public boolean hasTestImageParamInput() {
           return testImageParamInputBuilder_ != null || testImageParamInput_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-         *
          * <pre>
          * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
          */
         public io.dstore.Values.stringValue getTestImageParamInput() {
           if (testImageParamInputBuilder_ == null) {
@@ -10795,11 +10798,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-         *
          * <pre>
          * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
          */
         public Builder setTestImageParamInput(io.dstore.Values.stringValue value) {
           if (testImageParamInputBuilder_ == null) {
@@ -10815,11 +10818,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-         *
          * <pre>
          * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
          */
         public Builder setTestImageParamInput(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10833,11 +10836,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-         *
          * <pre>
          * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
          */
         public Builder mergeTestImageParamInput(io.dstore.Values.stringValue value) {
           if (testImageParamInputBuilder_ == null) {
@@ -10855,11 +10858,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-         *
          * <pre>
          * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
          */
         public Builder clearTestImageParamInput() {
           if (testImageParamInputBuilder_ == null) {
@@ -10873,11 +10876,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-         *
          * <pre>
          * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestImageParamInputBuilder() {
           
@@ -10885,11 +10888,11 @@ public final class MiDatatypeTestAd {
           return getTestImageParamInputFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-         *
          * <pre>
          * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestImageParamInputOrBuilder() {
           if (testImageParamInputBuilder_ != null) {
@@ -10900,11 +10903,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
-         *
          * <pre>
          * Es werden die ersten 500 Bytes des Wertes, der in "&#64;TestImage" übergeben wurde (bzw. der default-Wert) als "string" ausgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10924,21 +10927,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testMoneyBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-         *
          * <pre>
          * Wert "17.4259" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
          */
         public boolean hasTestMoney() {
           return testMoneyBuilder_ != null || testMoney_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-         *
          * <pre>
          * Wert "17.4259" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
          */
         public io.dstore.Values.decimalValue getTestMoney() {
           if (testMoneyBuilder_ == null) {
@@ -10948,11 +10951,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-         *
          * <pre>
          * Wert "17.4259" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
          */
         public Builder setTestMoney(io.dstore.Values.decimalValue value) {
           if (testMoneyBuilder_ == null) {
@@ -10968,11 +10971,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-         *
          * <pre>
          * Wert "17.4259" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
          */
         public Builder setTestMoney(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -10986,11 +10989,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-         *
          * <pre>
          * Wert "17.4259" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
          */
         public Builder mergeTestMoney(io.dstore.Values.decimalValue value) {
           if (testMoneyBuilder_ == null) {
@@ -11008,11 +11011,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-         *
          * <pre>
          * Wert "17.4259" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
          */
         public Builder clearTestMoney() {
           if (testMoneyBuilder_ == null) {
@@ -11026,11 +11029,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-         *
          * <pre>
          * Wert "17.4259" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
          */
         public io.dstore.Values.decimalValue.Builder getTestMoneyBuilder() {
           
@@ -11038,11 +11041,11 @@ public final class MiDatatypeTestAd {
           return getTestMoneyFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-         *
          * <pre>
          * Wert "17.4259" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getTestMoneyOrBuilder() {
           if (testMoneyBuilder_ != null) {
@@ -11053,11 +11056,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
-         *
          * <pre>
          * Wert "17.4259" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -11077,21 +11080,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testVarcharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-         *
          * <pre>
          * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
          */
         public boolean hasTestVarchar() {
           return testVarcharBuilder_ != null || testVarchar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-         *
          * <pre>
          * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
          */
         public io.dstore.Values.stringValue getTestVarchar() {
           if (testVarcharBuilder_ == null) {
@@ -11101,11 +11104,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-         *
          * <pre>
          * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
          */
         public Builder setTestVarchar(io.dstore.Values.stringValue value) {
           if (testVarcharBuilder_ == null) {
@@ -11121,11 +11124,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-         *
          * <pre>
          * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
          */
         public Builder setTestVarchar(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -11139,11 +11142,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-         *
          * <pre>
          * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
          */
         public Builder mergeTestVarchar(io.dstore.Values.stringValue value) {
           if (testVarcharBuilder_ == null) {
@@ -11161,11 +11164,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-         *
          * <pre>
          * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
          */
         public Builder clearTestVarchar() {
           if (testVarcharBuilder_ == null) {
@@ -11179,11 +11182,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-         *
          * <pre>
          * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
          */
         public io.dstore.Values.stringValue.Builder getTestVarcharBuilder() {
           
@@ -11191,11 +11194,11 @@ public final class MiDatatypeTestAd {
           return getTestVarcharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-         *
          * <pre>
          * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTestVarcharOrBuilder() {
           if (testVarcharBuilder_ != null) {
@@ -11206,11 +11209,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
-         *
          * <pre>
          * Wert "test varchar                  " wird zurückgegeben (man beachte die Leerzeichen am Ende)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -11230,21 +11233,21 @@ public final class MiDatatypeTestAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testNumericBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-         *
          * <pre>
          * Wert "123.45" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
          */
         public boolean hasTestNumeric() {
           return testNumericBuilder_ != null || testNumeric_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-         *
          * <pre>
          * Wert "123.45" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
          */
         public io.dstore.Values.decimalValue getTestNumeric() {
           if (testNumericBuilder_ == null) {
@@ -11254,11 +11257,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-         *
          * <pre>
          * Wert "123.45" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
          */
         public Builder setTestNumeric(io.dstore.Values.decimalValue value) {
           if (testNumericBuilder_ == null) {
@@ -11274,11 +11277,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-         *
          * <pre>
          * Wert "123.45" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
          */
         public Builder setTestNumeric(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -11292,11 +11295,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-         *
          * <pre>
          * Wert "123.45" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
          */
         public Builder mergeTestNumeric(io.dstore.Values.decimalValue value) {
           if (testNumericBuilder_ == null) {
@@ -11314,11 +11317,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-         *
          * <pre>
          * Wert "123.45" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
          */
         public Builder clearTestNumeric() {
           if (testNumericBuilder_ == null) {
@@ -11332,11 +11335,11 @@ public final class MiDatatypeTestAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-         *
          * <pre>
          * Wert "123.45" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
          */
         public io.dstore.Values.decimalValue.Builder getTestNumericBuilder() {
           
@@ -11344,11 +11347,11 @@ public final class MiDatatypeTestAd {
           return getTestNumericFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-         *
          * <pre>
          * Wert "123.45" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getTestNumericOrBuilder() {
           if (testNumericBuilder_ != null) {
@@ -11359,11 +11362,11 @@ public final class MiDatatypeTestAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
-         *
          * <pre>
          * Wert "123.45" wird zurückgegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -11408,16 +11411,7 @@ public final class MiDatatypeTestAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -11918,34 +11912,40 @@ public final class MiDatatypeTestAd {
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -12338,7 +12338,7 @@ public final class MiDatatypeTestAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiDatatypeTestAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -14384,16 +14384,7 @@ public final class MiDatatypeTestAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -14412,19 +14403,19 @@ public final class MiDatatypeTestAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_fieldAccessorTable;
 
@@ -14432,7 +14423,7 @@ public final class MiDatatypeTestAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

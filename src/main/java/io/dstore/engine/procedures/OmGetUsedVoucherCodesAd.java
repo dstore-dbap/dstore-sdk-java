@@ -128,7 +128,8 @@ public final class OmGetUsedVoucherCodesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -238,11 +239,10 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -526,34 +526,40 @@ public final class OmGetUsedVoucherCodesAd {
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -763,7 +769,7 @@ public final class OmGetUsedVoucherCodesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1516,16 +1522,7 @@ public final class OmGetUsedVoucherCodesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1597,45 +1594,45 @@ public final class OmGetUsedVoucherCodesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1664,7 +1661,8 @@ public final class OmGetUsedVoucherCodesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1708,11 +1706,10 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1748,127 +1745,127 @@ public final class OmGetUsedVoucherCodesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-       *
        * <pre>
        * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
        */
       boolean hasVoucherCode();
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-       *
        * <pre>
        * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
        */
       io.dstore.Values.stringValue getVoucherCode();
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-       *
        * <pre>
        * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-       *
        * <pre>
        * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
        */
       boolean hasPersonId();
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-       *
        * <pre>
        * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
        */
       io.dstore.Values.integerValue getPersonId();
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-       *
        * <pre>
        * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-       *
        * <pre>
        * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
        */
       boolean hasLastValidationDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-       *
        * <pre>
        * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
        */
       io.dstore.Values.timestampValue getLastValidationDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-       *
        * <pre>
        * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getLastValidationDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-       *
        * <pre>
        * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
        */
       boolean hasVisitorOrOrderId();
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-       *
        * <pre>
        * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
        */
       io.dstore.Values.integerValue getVisitorOrOrderId();
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-       *
        * <pre>
        * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getVisitorOrOrderIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
        */
       boolean hasIsOrderId();
       /**
-       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
        */
       io.dstore.Values.integerValue getIsOrderId();
       /**
-       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getIsOrderIdOrBuilder();
     }
@@ -1894,7 +1891,8 @@ public final class OmGetUsedVoucherCodesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1984,11 +1982,10 @@ public final class OmGetUsedVoucherCodesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2017,31 +2014,31 @@ public final class OmGetUsedVoucherCodesAd {
       public static final int VOUCHER_CODE_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue voucherCode_;
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-       *
        * <pre>
        * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
        */
       public boolean hasVoucherCode() {
         return voucherCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-       *
        * <pre>
        * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
        */
       public io.dstore.Values.stringValue getVoucherCode() {
         return voucherCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherCode_;
       }
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-       *
        * <pre>
        * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder() {
         return getVoucherCode();
@@ -2050,31 +2047,31 @@ public final class OmGetUsedVoucherCodesAd {
       public static final int PERSON_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue personId_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-       *
        * <pre>
        * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-       *
        * <pre>
        * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getPersonId() {
         return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-       *
        * <pre>
        * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
@@ -2083,31 +2080,31 @@ public final class OmGetUsedVoucherCodesAd {
       public static final int LAST_VALIDATION_DATE_AND_TIME_FIELD_NUMBER = 10003;
       private io.dstore.Values.timestampValue lastValidationDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-       *
        * <pre>
        * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
        */
       public boolean hasLastValidationDateAndTime() {
         return lastValidationDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-       *
        * <pre>
        * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
        */
       public io.dstore.Values.timestampValue getLastValidationDateAndTime() {
         return lastValidationDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastValidationDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-       *
        * <pre>
        * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getLastValidationDateAndTimeOrBuilder() {
         return getLastValidationDateAndTime();
@@ -2116,31 +2113,31 @@ public final class OmGetUsedVoucherCodesAd {
       public static final int VISITOR_OR_ORDER_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue visitorOrOrderId_;
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-       *
        * <pre>
        * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
        */
       public boolean hasVisitorOrOrderId() {
         return visitorOrOrderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-       *
        * <pre>
        * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
        */
       public io.dstore.Values.integerValue getVisitorOrOrderId() {
         return visitorOrOrderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorOrOrderId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-       *
        * <pre>
        * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getVisitorOrOrderIdOrBuilder() {
         return getVisitorOrOrderId();
@@ -2149,31 +2146,31 @@ public final class OmGetUsedVoucherCodesAd {
       public static final int IS_ORDER_ID_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue isOrderId_;
       /**
-       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
        */
       public boolean hasIsOrderId() {
         return isOrderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
        */
       public io.dstore.Values.integerValue getIsOrderId() {
         return isOrderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : isOrderId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getIsOrderIdOrBuilder() {
         return getIsOrderId();
@@ -2268,34 +2265,40 @@ public final class OmGetUsedVoucherCodesAd {
       }
       public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2481,7 +2484,7 @@ public final class OmGetUsedVoucherCodesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2520,21 +2523,21 @@ public final class OmGetUsedVoucherCodesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> voucherCodeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-         *
          * <pre>
          * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
          */
         public boolean hasVoucherCode() {
           return voucherCodeBuilder_ != null || voucherCode_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-         *
          * <pre>
          * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
          */
         public io.dstore.Values.stringValue getVoucherCode() {
           if (voucherCodeBuilder_ == null) {
@@ -2544,11 +2547,11 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-         *
          * <pre>
          * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
          */
         public Builder setVoucherCode(io.dstore.Values.stringValue value) {
           if (voucherCodeBuilder_ == null) {
@@ -2564,11 +2567,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-         *
          * <pre>
          * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
          */
         public Builder setVoucherCode(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2582,11 +2585,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-         *
          * <pre>
          * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
          */
         public Builder mergeVoucherCode(io.dstore.Values.stringValue value) {
           if (voucherCodeBuilder_ == null) {
@@ -2604,11 +2607,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-         *
          * <pre>
          * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
          */
         public Builder clearVoucherCode() {
           if (voucherCodeBuilder_ == null) {
@@ -2622,11 +2625,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-         *
          * <pre>
          * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getVoucherCodeBuilder() {
           
@@ -2634,11 +2637,11 @@ public final class OmGetUsedVoucherCodesAd {
           return getVoucherCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-         *
          * <pre>
          * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder() {
           if (voucherCodeBuilder_ != null) {
@@ -2649,11 +2652,11 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
-         *
          * <pre>
          * Ein Gutschein-Code, der im Auftrag "VisitorOrOrderID" eingelöst (falls "IsOrderID = 1") oder zum Warenkorb hinterlegt (wenn "IsOrderID = 0") wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue voucher_code = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2673,21 +2676,21 @@ public final class OmGetUsedVoucherCodesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-         *
          * <pre>
          * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-         *
          * <pre>
          * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getPersonId() {
           if (personIdBuilder_ == null) {
@@ -2697,11 +2700,11 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-         *
          * <pre>
          * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
          */
         public Builder setPersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
@@ -2717,11 +2720,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-         *
          * <pre>
          * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
          */
         public Builder setPersonId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2735,11 +2738,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-         *
          * <pre>
          * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
          */
         public Builder mergePersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
@@ -2757,11 +2760,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-         *
          * <pre>
          * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -2775,11 +2778,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-         *
          * <pre>
          * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
           
@@ -2787,11 +2790,11 @@ public final class OmGetUsedVoucherCodesAd {
           return getPersonIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-         *
          * <pre>
          * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
@@ -2802,11 +2805,11 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
-         *
          * <pre>
          * ID des Auftraggebers ("IsOrderID = 1") bzw. der identifizerten Person ("IsOrderID = 0") vom Auftrag bzw. zum Warenkorb "VisitorOrOrderID". Anmerkung : Bei "IsOrderID = 0" kann hier "NULL" stehen, weil der (zukünftige) Auftraggeber noch nicht bekannt ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2826,21 +2829,21 @@ public final class OmGetUsedVoucherCodesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastValidationDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-         *
          * <pre>
          * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
          */
         public boolean hasLastValidationDateAndTime() {
           return lastValidationDateAndTimeBuilder_ != null || lastValidationDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-         *
          * <pre>
          * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
          */
         public io.dstore.Values.timestampValue getLastValidationDateAndTime() {
           if (lastValidationDateAndTimeBuilder_ == null) {
@@ -2850,11 +2853,11 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-         *
          * <pre>
          * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
          */
         public Builder setLastValidationDateAndTime(io.dstore.Values.timestampValue value) {
           if (lastValidationDateAndTimeBuilder_ == null) {
@@ -2870,11 +2873,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-         *
          * <pre>
          * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
          */
         public Builder setLastValidationDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -2888,11 +2891,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-         *
          * <pre>
          * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
          */
         public Builder mergeLastValidationDateAndTime(io.dstore.Values.timestampValue value) {
           if (lastValidationDateAndTimeBuilder_ == null) {
@@ -2910,11 +2913,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-         *
          * <pre>
          * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
          */
         public Builder clearLastValidationDateAndTime() {
           if (lastValidationDateAndTimeBuilder_ == null) {
@@ -2928,11 +2931,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-         *
          * <pre>
          * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
          */
         public io.dstore.Values.timestampValue.Builder getLastValidationDateAndTimeBuilder() {
           
@@ -2940,11 +2943,11 @@ public final class OmGetUsedVoucherCodesAd {
           return getLastValidationDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-         *
          * <pre>
          * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getLastValidationDateAndTimeOrBuilder() {
           if (lastValidationDateAndTimeBuilder_ != null) {
@@ -2955,11 +2958,11 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
-         *
          * <pre>
          * Der Zeitpunkt der letzten (erfolgreichen) Validierung des Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_validation_date_and_time = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -2979,21 +2982,21 @@ public final class OmGetUsedVoucherCodesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorOrOrderIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-         *
          * <pre>
          * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
          */
         public boolean hasVisitorOrOrderId() {
           return visitorOrOrderIdBuilder_ != null || visitorOrOrderId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-         *
          * <pre>
          * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
          */
         public io.dstore.Values.integerValue getVisitorOrOrderId() {
           if (visitorOrOrderIdBuilder_ == null) {
@@ -3003,11 +3006,11 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-         *
          * <pre>
          * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
          */
         public Builder setVisitorOrOrderId(io.dstore.Values.integerValue value) {
           if (visitorOrOrderIdBuilder_ == null) {
@@ -3023,11 +3026,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-         *
          * <pre>
          * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
          */
         public Builder setVisitorOrOrderId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3041,11 +3044,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-         *
          * <pre>
          * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
          */
         public Builder mergeVisitorOrOrderId(io.dstore.Values.integerValue value) {
           if (visitorOrOrderIdBuilder_ == null) {
@@ -3063,11 +3066,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-         *
          * <pre>
          * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
          */
         public Builder clearVisitorOrOrderId() {
           if (visitorOrOrderIdBuilder_ == null) {
@@ -3081,11 +3084,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-         *
          * <pre>
          * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getVisitorOrOrderIdBuilder() {
           
@@ -3093,11 +3096,11 @@ public final class OmGetUsedVoucherCodesAd {
           return getVisitorOrOrderIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-         *
          * <pre>
          * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getVisitorOrOrderIdOrBuilder() {
           if (visitorOrOrderIdBuilder_ != null) {
@@ -3108,11 +3111,11 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
-         *
          * <pre>
          * ID eines Warenkorbs (wenn "IsOrderID = 0") oder Auftrags (wenn "IsOrderID = 1")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_or_order_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3132,21 +3135,21 @@ public final class OmGetUsedVoucherCodesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> isOrderIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
          */
         public boolean hasIsOrderId() {
           return isOrderIdBuilder_ != null || isOrderId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
          */
         public io.dstore.Values.integerValue getIsOrderId() {
           if (isOrderIdBuilder_ == null) {
@@ -3156,11 +3159,11 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
          */
         public Builder setIsOrderId(io.dstore.Values.integerValue value) {
           if (isOrderIdBuilder_ == null) {
@@ -3176,11 +3179,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
          */
         public Builder setIsOrderId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3194,11 +3197,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
          */
         public Builder mergeIsOrderId(io.dstore.Values.integerValue value) {
           if (isOrderIdBuilder_ == null) {
@@ -3216,11 +3219,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
          */
         public Builder clearIsOrderId() {
           if (isOrderIdBuilder_ == null) {
@@ -3234,11 +3237,11 @@ public final class OmGetUsedVoucherCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getIsOrderIdBuilder() {
           
@@ -3246,11 +3249,11 @@ public final class OmGetUsedVoucherCodesAd {
           return getIsOrderIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getIsOrderIdOrBuilder() {
           if (isOrderIdBuilder_ != null) {
@@ -3261,11 +3264,11 @@ public final class OmGetUsedVoucherCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob es sich bei "VisitorOrOrderID" um einen Warenkorb ("0" oder Auftrag ("1") handelt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_order_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3310,16 +3313,7 @@ public final class OmGetUsedVoucherCodesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3411,52 +3405,52 @@ public final class OmGetUsedVoucherCodesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3531,34 +3525,40 @@ public final class OmGetUsedVoucherCodesAd {
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3795,7 +3795,7 @@ public final class OmGetUsedVoucherCodesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4298,11 +4298,11 @@ public final class OmGetUsedVoucherCodesAd {
           io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row, io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -4312,11 +4312,11 @@ public final class OmGetUsedVoucherCodesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -4326,11 +4326,11 @@ public final class OmGetUsedVoucherCodesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -4340,11 +4340,11 @@ public final class OmGetUsedVoucherCodesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row value) {
@@ -4361,11 +4361,11 @@ public final class OmGetUsedVoucherCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row.Builder builderForValue) {
@@ -4379,11 +4379,11 @@ public final class OmGetUsedVoucherCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -4399,11 +4399,11 @@ public final class OmGetUsedVoucherCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row value) {
@@ -4420,11 +4420,11 @@ public final class OmGetUsedVoucherCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row.Builder builderForValue) {
@@ -4438,11 +4438,11 @@ public final class OmGetUsedVoucherCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row.Builder builderForValue) {
@@ -4456,11 +4456,11 @@ public final class OmGetUsedVoucherCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row> values) {
@@ -4475,11 +4475,11 @@ public final class OmGetUsedVoucherCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4492,11 +4492,11 @@ public final class OmGetUsedVoucherCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4509,22 +4509,22 @@ public final class OmGetUsedVoucherCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4534,11 +4534,11 @@ public final class OmGetUsedVoucherCodesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4549,22 +4549,22 @@ public final class OmGetUsedVoucherCodesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4572,11 +4572,11 @@ public final class OmGetUsedVoucherCodesAd {
             index, io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetUsedVoucherCodes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4626,16 +4626,7 @@ public final class OmGetUsedVoucherCodesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4654,19 +4645,19 @@ public final class OmGetUsedVoucherCodesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetUsedVoucherCodes_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetUsedVoucherCodes_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetUsedVoucherCodes_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetUsedVoucherCodes_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetUsedVoucherCodes_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetUsedVoucherCodes_Ad_Response_Row_fieldAccessorTable;
 
@@ -4674,7 +4665,7 @@ public final class OmGetUsedVoucherCodesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

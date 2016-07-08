@@ -128,7 +128,8 @@ public final class CoGetCommunityStatisticsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -238,11 +239,10 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -526,34 +526,40 @@ public final class CoGetCommunityStatisticsAd {
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -763,7 +769,7 @@ public final class CoGetCommunityStatisticsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1516,16 +1522,7 @@ public final class CoGetCommunityStatisticsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1597,45 +1594,45 @@ public final class CoGetCommunityStatisticsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1664,7 +1661,8 @@ public final class CoGetCommunityStatisticsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1708,11 +1706,10 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1748,202 +1745,202 @@ public final class CoGetCommunityStatisticsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-       *
        * <pre>
        * ID einer Community auf die sich die Statistiken beziehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
        */
       boolean hasCommunityId();
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-       *
        * <pre>
        * ID einer Community auf die sich die Statistiken beziehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
        */
       io.dstore.Values.integerValue getCommunityId();
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-       *
        * <pre>
        * ID einer Community auf die sich die Statistiken beziehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-       *
        * <pre>
        * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
        */
       boolean hasIsPublic();
       /**
-       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-       *
        * <pre>
        * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
        */
       io.dstore.Values.booleanValue getIsPublic();
       /**
-       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-       *
        * <pre>
        * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getIsPublicOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue value = 10004;</code>
-       *
        * <pre>
        * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10004;</code>
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.values.decimalValue value = 10004;</code>
-       *
        * <pre>
        * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10004;</code>
        */
       io.dstore.Values.decimalValue getValue();
       /**
-       * <code>optional .dstore.values.decimalValue value = 10004;</code>
-       *
        * <pre>
        * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10004;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
        */
       boolean hasCommunityName();
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
        */
       io.dstore.Values.stringValue getCommunityName();
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-       *
        * <pre>
        * ID einer statistischen Information
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
        */
       boolean hasStatisticInformationId();
       /**
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-       *
        * <pre>
        * ID einer statistischen Information
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
        */
       io.dstore.Values.integerValue getStatisticInformationId();
       /**
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-       *
        * <pre>
        * ID einer statistischen Information
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getStatisticInformationIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
        */
       boolean hasStatisticInformation();
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
        */
       io.dstore.Values.stringValue getStatisticInformation();
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue day = 10008;</code>
-       *
        * <pre>
        * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue day = 10008;</code>
        */
       boolean hasDay();
       /**
-       * <code>optional .dstore.values.timestampValue day = 10008;</code>
-       *
        * <pre>
        * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue day = 10008;</code>
        */
       io.dstore.Values.timestampValue getDay();
       /**
-       * <code>optional .dstore.values.timestampValue day = 10008;</code>
-       *
        * <pre>
        * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue day = 10008;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getDayOrBuilder();
     }
@@ -1969,7 +1966,8 @@ public final class CoGetCommunityStatisticsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2098,11 +2096,10 @@ public final class CoGetCommunityStatisticsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2131,31 +2128,31 @@ public final class CoGetCommunityStatisticsAd {
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public io.dstore.Values.stringValue getDescription() {
         return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -2164,31 +2161,31 @@ public final class CoGetCommunityStatisticsAd {
       public static final int COMMUNITY_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue communityId_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-       *
        * <pre>
        * ID einer Community auf die sich die Statistiken beziehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
        */
       public boolean hasCommunityId() {
         return communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-       *
        * <pre>
        * ID einer Community auf die sich die Statistiken beziehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getCommunityId() {
         return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-       *
        * <pre>
        * ID einer Community auf die sich die Statistiken beziehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
         return getCommunityId();
@@ -2197,31 +2194,31 @@ public final class CoGetCommunityStatisticsAd {
       public static final int IS_PUBLIC_FIELD_NUMBER = 10003;
       private io.dstore.Values.booleanValue isPublic_;
       /**
-       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-       *
        * <pre>
        * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
        */
       public boolean hasIsPublic() {
         return isPublic_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-       *
        * <pre>
        * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
        */
       public io.dstore.Values.booleanValue getIsPublic() {
         return isPublic_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isPublic_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-       *
        * <pre>
        * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getIsPublicOrBuilder() {
         return getIsPublic();
@@ -2230,31 +2227,31 @@ public final class CoGetCommunityStatisticsAd {
       public static final int VALUE_FIELD_NUMBER = 10004;
       private io.dstore.Values.decimalValue value_;
       /**
-       * <code>optional .dstore.values.decimalValue value = 10004;</code>
-       *
        * <pre>
        * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10004;</code>
        */
       public boolean hasValue() {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 10004;</code>
-       *
        * <pre>
        * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10004;</code>
        */
       public io.dstore.Values.decimalValue getValue() {
         return value_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 10004;</code>
-       *
        * <pre>
        * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10004;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -2263,31 +2260,31 @@ public final class CoGetCommunityStatisticsAd {
       public static final int COMMUNITY_NAME_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue communityName_;
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
        */
       public boolean hasCommunityName() {
         return communityName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
        */
       public io.dstore.Values.stringValue getCommunityName() {
         return communityName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : communityName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder() {
         return getCommunityName();
@@ -2296,31 +2293,31 @@ public final class CoGetCommunityStatisticsAd {
       public static final int STATISTIC_INFORMATION_ID_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue statisticInformationId_;
       /**
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-       *
        * <pre>
        * ID einer statistischen Information
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
        */
       public boolean hasStatisticInformationId() {
         return statisticInformationId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-       *
        * <pre>
        * ID einer statistischen Information
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
        */
       public io.dstore.Values.integerValue getStatisticInformationId() {
         return statisticInformationId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : statisticInformationId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-       *
        * <pre>
        * ID einer statistischen Information
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getStatisticInformationIdOrBuilder() {
         return getStatisticInformationId();
@@ -2329,31 +2326,31 @@ public final class CoGetCommunityStatisticsAd {
       public static final int STATISTIC_INFORMATION_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue statisticInformation_;
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
        */
       public boolean hasStatisticInformation() {
         return statisticInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
        */
       public io.dstore.Values.stringValue getStatisticInformation() {
         return statisticInformation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : statisticInformation_;
       }
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-       *
        * <pre>
        * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder() {
         return getStatisticInformation();
@@ -2362,31 +2359,31 @@ public final class CoGetCommunityStatisticsAd {
       public static final int DAY_FIELD_NUMBER = 10008;
       private io.dstore.Values.timestampValue day_;
       /**
-       * <code>optional .dstore.values.timestampValue day = 10008;</code>
-       *
        * <pre>
        * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue day = 10008;</code>
        */
       public boolean hasDay() {
         return day_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue day = 10008;</code>
-       *
        * <pre>
        * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue day = 10008;</code>
        */
       public io.dstore.Values.timestampValue getDay() {
         return day_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : day_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue day = 10008;</code>
-       *
        * <pre>
        * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue day = 10008;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getDayOrBuilder() {
         return getDay();
@@ -2502,34 +2499,40 @@ public final class CoGetCommunityStatisticsAd {
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2757,7 +2760,7 @@ public final class CoGetCommunityStatisticsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2796,21 +2799,21 @@ public final class CoGetCommunityStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -2820,11 +2823,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -2840,11 +2843,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder setDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2858,11 +2861,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -2880,11 +2883,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -2898,11 +2901,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
@@ -2910,11 +2913,11 @@ public final class CoGetCommunityStatisticsAd {
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -2925,11 +2928,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Genauere Beschreibung, was unter der Information "StatisticInformationID" zu verstehen ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2949,21 +2952,21 @@ public final class CoGetCommunityStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-         *
          * <pre>
          * ID einer Community auf die sich die Statistiken beziehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
          */
         public boolean hasCommunityId() {
           return communityIdBuilder_ != null || communityId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-         *
          * <pre>
          * ID einer Community auf die sich die Statistiken beziehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getCommunityId() {
           if (communityIdBuilder_ == null) {
@@ -2973,11 +2976,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-         *
          * <pre>
          * ID einer Community auf die sich die Statistiken beziehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
          */
         public Builder setCommunityId(io.dstore.Values.integerValue value) {
           if (communityIdBuilder_ == null) {
@@ -2993,11 +2996,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-         *
          * <pre>
          * ID einer Community auf die sich die Statistiken beziehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
          */
         public Builder setCommunityId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3011,11 +3014,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-         *
          * <pre>
          * ID einer Community auf die sich die Statistiken beziehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
          */
         public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
           if (communityIdBuilder_ == null) {
@@ -3033,11 +3036,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-         *
          * <pre>
          * ID einer Community auf die sich die Statistiken beziehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
          */
         public Builder clearCommunityId() {
           if (communityIdBuilder_ == null) {
@@ -3051,11 +3054,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-         *
          * <pre>
          * ID einer Community auf die sich die Statistiken beziehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
           
@@ -3063,11 +3066,11 @@ public final class CoGetCommunityStatisticsAd {
           return getCommunityIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-         *
          * <pre>
          * ID einer Community auf die sich die Statistiken beziehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
           if (communityIdBuilder_ != null) {
@@ -3078,11 +3081,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
-         *
          * <pre>
          * ID einer Community auf die sich die Statistiken beziehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3102,21 +3105,21 @@ public final class CoGetCommunityStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isPublicBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-         *
          * <pre>
          * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
          */
         public boolean hasIsPublic() {
           return isPublicBuilder_ != null || isPublic_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-         *
          * <pre>
          * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
          */
         public io.dstore.Values.booleanValue getIsPublic() {
           if (isPublicBuilder_ == null) {
@@ -3126,11 +3129,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-         *
          * <pre>
          * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
          */
         public Builder setIsPublic(io.dstore.Values.booleanValue value) {
           if (isPublicBuilder_ == null) {
@@ -3146,11 +3149,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-         *
          * <pre>
          * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
          */
         public Builder setIsPublic(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -3164,11 +3167,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-         *
          * <pre>
          * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
          */
         public Builder mergeIsPublic(io.dstore.Values.booleanValue value) {
           if (isPublicBuilder_ == null) {
@@ -3186,11 +3189,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-         *
          * <pre>
          * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
          */
         public Builder clearIsPublic() {
           if (isPublicBuilder_ == null) {
@@ -3204,11 +3207,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-         *
          * <pre>
          * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
          */
         public io.dstore.Values.booleanValue.Builder getIsPublicBuilder() {
           
@@ -3216,11 +3219,11 @@ public final class CoGetCommunityStatisticsAd {
           return getIsPublicFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-         *
          * <pre>
          * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getIsPublicOrBuilder() {
           if (isPublicBuilder_ != null) {
@@ -3231,11 +3234,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
-         *
          * <pre>
          * Handelt es sich um eine statistische Information, die dem öffentlichen Benutzer ausgegeben werden darf ? Wird derzeit nicht beachtet !
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -3255,21 +3258,21 @@ public final class CoGetCommunityStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue value = 10004;</code>
-         *
          * <pre>
          * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10004;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10004;</code>
-         *
          * <pre>
          * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10004;</code>
          */
         public io.dstore.Values.decimalValue getValue() {
           if (valueBuilder_ == null) {
@@ -3279,11 +3282,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10004;</code>
-         *
          * <pre>
          * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10004;</code>
          */
         public Builder setValue(io.dstore.Values.decimalValue value) {
           if (valueBuilder_ == null) {
@@ -3299,11 +3302,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10004;</code>
-         *
          * <pre>
          * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10004;</code>
          */
         public Builder setValue(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -3317,11 +3320,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10004;</code>
-         *
          * <pre>
          * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10004;</code>
          */
         public Builder mergeValue(io.dstore.Values.decimalValue value) {
           if (valueBuilder_ == null) {
@@ -3339,11 +3342,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10004;</code>
-         *
          * <pre>
          * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10004;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -3357,11 +3360,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10004;</code>
-         *
          * <pre>
          * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10004;</code>
          */
         public io.dstore.Values.decimalValue.Builder getValueBuilder() {
           
@@ -3369,11 +3372,11 @@ public final class CoGetCommunityStatisticsAd {
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10004;</code>
-         *
          * <pre>
          * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10004;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -3384,11 +3387,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10004;</code>
-         *
          * <pre>
          * Der statistische Wert zur "StatisticInformationID" in der Community "CommunityID" am Tag "Day"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -3408,21 +3411,21 @@ public final class CoGetCommunityStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> communityNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
          */
         public boolean hasCommunityName() {
           return communityNameBuilder_ != null || communityName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
          */
         public io.dstore.Values.stringValue getCommunityName() {
           if (communityNameBuilder_ == null) {
@@ -3432,11 +3435,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
          */
         public Builder setCommunityName(io.dstore.Values.stringValue value) {
           if (communityNameBuilder_ == null) {
@@ -3452,11 +3455,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
          */
         public Builder setCommunityName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3470,11 +3473,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
          */
         public Builder mergeCommunityName(io.dstore.Values.stringValue value) {
           if (communityNameBuilder_ == null) {
@@ -3492,11 +3495,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
          */
         public Builder clearCommunityName() {
           if (communityNameBuilder_ == null) {
@@ -3510,11 +3513,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getCommunityNameBuilder() {
           
@@ -3522,11 +3525,11 @@ public final class CoGetCommunityStatisticsAd {
           return getCommunityNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder() {
           if (communityNameBuilder_ != null) {
@@ -3537,11 +3540,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3561,21 +3564,21 @@ public final class CoGetCommunityStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> statisticInformationIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-         *
          * <pre>
          * ID einer statistischen Information
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
          */
         public boolean hasStatisticInformationId() {
           return statisticInformationIdBuilder_ != null || statisticInformationId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-         *
          * <pre>
          * ID einer statistischen Information
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
          */
         public io.dstore.Values.integerValue getStatisticInformationId() {
           if (statisticInformationIdBuilder_ == null) {
@@ -3585,11 +3588,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-         *
          * <pre>
          * ID einer statistischen Information
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
          */
         public Builder setStatisticInformationId(io.dstore.Values.integerValue value) {
           if (statisticInformationIdBuilder_ == null) {
@@ -3605,11 +3608,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-         *
          * <pre>
          * ID einer statistischen Information
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
          */
         public Builder setStatisticInformationId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3623,11 +3626,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-         *
          * <pre>
          * ID einer statistischen Information
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
          */
         public Builder mergeStatisticInformationId(io.dstore.Values.integerValue value) {
           if (statisticInformationIdBuilder_ == null) {
@@ -3645,11 +3648,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-         *
          * <pre>
          * ID einer statistischen Information
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
          */
         public Builder clearStatisticInformationId() {
           if (statisticInformationIdBuilder_ == null) {
@@ -3663,11 +3666,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-         *
          * <pre>
          * ID einer statistischen Information
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getStatisticInformationIdBuilder() {
           
@@ -3675,11 +3678,11 @@ public final class CoGetCommunityStatisticsAd {
           return getStatisticInformationIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-         *
          * <pre>
          * ID einer statistischen Information
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getStatisticInformationIdOrBuilder() {
           if (statisticInformationIdBuilder_ != null) {
@@ -3690,11 +3693,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
-         *
          * <pre>
          * ID einer statistischen Information
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3714,21 +3717,21 @@ public final class CoGetCommunityStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> statisticInformationBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
          */
         public boolean hasStatisticInformation() {
           return statisticInformationBuilder_ != null || statisticInformation_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
          */
         public io.dstore.Values.stringValue getStatisticInformation() {
           if (statisticInformationBuilder_ == null) {
@@ -3738,11 +3741,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
          */
         public Builder setStatisticInformation(io.dstore.Values.stringValue value) {
           if (statisticInformationBuilder_ == null) {
@@ -3758,11 +3761,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
          */
         public Builder setStatisticInformation(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3776,11 +3779,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
          */
         public Builder mergeStatisticInformation(io.dstore.Values.stringValue value) {
           if (statisticInformationBuilder_ == null) {
@@ -3798,11 +3801,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
          */
         public Builder clearStatisticInformation() {
           if (statisticInformationBuilder_ == null) {
@@ -3816,11 +3819,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getStatisticInformationBuilder() {
           
@@ -3828,11 +3831,11 @@ public final class CoGetCommunityStatisticsAd {
           return getStatisticInformationFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder() {
           if (statisticInformationBuilder_ != null) {
@@ -3843,11 +3846,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
-         *
          * <pre>
          * Bezeichnung der statistischen Information "StatisticInformationID" (z.B. "Online-Minuten", "Logins" etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3867,21 +3870,21 @@ public final class CoGetCommunityStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dayBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue day = 10008;</code>
-         *
          * <pre>
          * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue day = 10008;</code>
          */
         public boolean hasDay() {
           return dayBuilder_ != null || day_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue day = 10008;</code>
-         *
          * <pre>
          * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue day = 10008;</code>
          */
         public io.dstore.Values.timestampValue getDay() {
           if (dayBuilder_ == null) {
@@ -3891,11 +3894,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue day = 10008;</code>
-         *
          * <pre>
          * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue day = 10008;</code>
          */
         public Builder setDay(io.dstore.Values.timestampValue value) {
           if (dayBuilder_ == null) {
@@ -3911,11 +3914,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue day = 10008;</code>
-         *
          * <pre>
          * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue day = 10008;</code>
          */
         public Builder setDay(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -3929,11 +3932,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue day = 10008;</code>
-         *
          * <pre>
          * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue day = 10008;</code>
          */
         public Builder mergeDay(io.dstore.Values.timestampValue value) {
           if (dayBuilder_ == null) {
@@ -3951,11 +3954,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue day = 10008;</code>
-         *
          * <pre>
          * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue day = 10008;</code>
          */
         public Builder clearDay() {
           if (dayBuilder_ == null) {
@@ -3969,11 +3972,11 @@ public final class CoGetCommunityStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue day = 10008;</code>
-         *
          * <pre>
          * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue day = 10008;</code>
          */
         public io.dstore.Values.timestampValue.Builder getDayBuilder() {
           
@@ -3981,11 +3984,11 @@ public final class CoGetCommunityStatisticsAd {
           return getDayFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue day = 10008;</code>
-         *
          * <pre>
          * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue day = 10008;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getDayOrBuilder() {
           if (dayBuilder_ != null) {
@@ -3996,11 +3999,11 @@ public final class CoGetCommunityStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue day = 10008;</code>
-         *
          * <pre>
          * Tagesdatum, auf das sich der Wert "Value" bezieht. Es ist für jeden Tag im Zeitraum "&#64;FromDate" bis "&#64;ToDate" ein Datensatz vorhanden !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue day = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -4045,16 +4048,7 @@ public final class CoGetCommunityStatisticsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4146,52 +4140,52 @@ public final class CoGetCommunityStatisticsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4266,34 +4260,40 @@ public final class CoGetCommunityStatisticsAd {
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4530,7 +4530,7 @@ public final class CoGetCommunityStatisticsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5033,11 +5033,11 @@ public final class CoGetCommunityStatisticsAd {
           io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -5047,11 +5047,11 @@ public final class CoGetCommunityStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -5061,11 +5061,11 @@ public final class CoGetCommunityStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -5075,11 +5075,11 @@ public final class CoGetCommunityStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row value) {
@@ -5096,11 +5096,11 @@ public final class CoGetCommunityStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder builderForValue) {
@@ -5114,11 +5114,11 @@ public final class CoGetCommunityStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -5134,11 +5134,11 @@ public final class CoGetCommunityStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row value) {
@@ -5155,11 +5155,11 @@ public final class CoGetCommunityStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder builderForValue) {
@@ -5173,11 +5173,11 @@ public final class CoGetCommunityStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder builderForValue) {
@@ -5191,11 +5191,11 @@ public final class CoGetCommunityStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row> values) {
@@ -5210,11 +5210,11 @@ public final class CoGetCommunityStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -5227,11 +5227,11 @@ public final class CoGetCommunityStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5244,22 +5244,22 @@ public final class CoGetCommunityStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5269,11 +5269,11 @@ public final class CoGetCommunityStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5284,22 +5284,22 @@ public final class CoGetCommunityStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5307,11 +5307,11 @@ public final class CoGetCommunityStatisticsAd {
             index, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetCommunityStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5361,16 +5361,7 @@ public final class CoGetCommunityStatisticsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5389,19 +5380,19 @@ public final class CoGetCommunityStatisticsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_fieldAccessorTable;
 
@@ -5409,7 +5400,7 @@ public final class CoGetCommunityStatisticsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

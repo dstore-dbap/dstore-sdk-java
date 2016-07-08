@@ -90,7 +90,8 @@ public final class DoGetProcedureDocuAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class DoGetProcedureDocuAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class DoGetProcedureDocuAd {
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class DoGetProcedureDocuAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.DoGetProcedureDocuAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class DoGetProcedureDocuAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class DoGetProcedureDocuAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class DoGetProcedureDocuAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class DoGetProcedureDocuAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,77 +1257,77 @@ public final class DoGetProcedureDocuAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-       *
        * <pre>
        * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
        */
       boolean hasDstoreVersion();
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-       *
        * <pre>
        * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
        */
       io.dstore.Values.stringValue getDstoreVersion();
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-       *
        * <pre>
        * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDstoreVersionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-       *
        * <pre>
        * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
        */
       boolean hasDocumentation();
       /**
-       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-       *
        * <pre>
        * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
        */
       io.dstore.Values.stringValue getDocumentation();
       /**
-       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-       *
        * <pre>
        * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDocumentationOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-       *
        * <pre>
        * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
        */
       boolean hasLastEdited();
       /**
-       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-       *
        * <pre>
        * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
        */
       io.dstore.Values.timestampValue getLastEdited();
       /**
-       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-       *
        * <pre>
        * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getLastEditedOrBuilder();
     }
@@ -1356,7 +1353,8 @@ public final class DoGetProcedureDocuAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1420,11 +1418,10 @@ public final class DoGetProcedureDocuAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1453,31 +1450,31 @@ public final class DoGetProcedureDocuAd {
       public static final int DSTORE_VERSION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue dstoreVersion_;
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-       *
        * <pre>
        * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
        */
       public boolean hasDstoreVersion() {
         return dstoreVersion_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-       *
        * <pre>
        * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
        */
       public io.dstore.Values.stringValue getDstoreVersion() {
         return dstoreVersion_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dstoreVersion_;
       }
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-       *
        * <pre>
        * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDstoreVersionOrBuilder() {
         return getDstoreVersion();
@@ -1486,31 +1483,31 @@ public final class DoGetProcedureDocuAd {
       public static final int DOCUMENTATION_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue documentation_;
       /**
-       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-       *
        * <pre>
        * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
        */
       public boolean hasDocumentation() {
         return documentation_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-       *
        * <pre>
        * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
        */
       public io.dstore.Values.stringValue getDocumentation() {
         return documentation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : documentation_;
       }
       /**
-       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-       *
        * <pre>
        * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue documentation = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDocumentationOrBuilder() {
         return getDocumentation();
@@ -1519,31 +1516,31 @@ public final class DoGetProcedureDocuAd {
       public static final int LAST_EDITED_FIELD_NUMBER = 10003;
       private io.dstore.Values.timestampValue lastEdited_;
       /**
-       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-       *
        * <pre>
        * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
        */
       public boolean hasLastEdited() {
         return lastEdited_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-       *
        * <pre>
        * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
        */
       public io.dstore.Values.timestampValue getLastEdited() {
         return lastEdited_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastEdited_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-       *
        * <pre>
        * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getLastEditedOrBuilder() {
         return getLastEdited();
@@ -1624,34 +1621,40 @@ public final class DoGetProcedureDocuAd {
       }
       public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1809,7 +1812,7 @@ public final class DoGetProcedureDocuAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1848,21 +1851,21 @@ public final class DoGetProcedureDocuAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dstoreVersionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-         *
          * <pre>
          * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
          */
         public boolean hasDstoreVersion() {
           return dstoreVersionBuilder_ != null || dstoreVersion_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-         *
          * <pre>
          * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
          */
         public io.dstore.Values.stringValue getDstoreVersion() {
           if (dstoreVersionBuilder_ == null) {
@@ -1872,11 +1875,11 @@ public final class DoGetProcedureDocuAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-         *
          * <pre>
          * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
          */
         public Builder setDstoreVersion(io.dstore.Values.stringValue value) {
           if (dstoreVersionBuilder_ == null) {
@@ -1892,11 +1895,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-         *
          * <pre>
          * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
          */
         public Builder setDstoreVersion(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1910,11 +1913,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-         *
          * <pre>
          * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
          */
         public Builder mergeDstoreVersion(io.dstore.Values.stringValue value) {
           if (dstoreVersionBuilder_ == null) {
@@ -1932,11 +1935,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-         *
          * <pre>
          * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
          */
         public Builder clearDstoreVersion() {
           if (dstoreVersionBuilder_ == null) {
@@ -1950,11 +1953,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-         *
          * <pre>
          * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getDstoreVersionBuilder() {
           
@@ -1962,11 +1965,11 @@ public final class DoGetProcedureDocuAd {
           return getDstoreVersionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-         *
          * <pre>
          * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDstoreVersionOrBuilder() {
           if (dstoreVersionBuilder_ != null) {
@@ -1977,11 +1980,11 @@ public final class DoGetProcedureDocuAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
-         *
          * <pre>
          * Version, auf die sich die Dokumentation "Documentation" bezieht. Die Dokumentation ist natürlich im Regelfall noch für spätere Versionen gültig - solange jedenfalls bis es eine separate Dokumentation für eine höhere Version gibt...
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2001,21 +2004,21 @@ public final class DoGetProcedureDocuAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> documentationBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-         *
          * <pre>
          * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
          */
         public boolean hasDocumentation() {
           return documentationBuilder_ != null || documentation_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-         *
          * <pre>
          * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
          */
         public io.dstore.Values.stringValue getDocumentation() {
           if (documentationBuilder_ == null) {
@@ -2025,11 +2028,11 @@ public final class DoGetProcedureDocuAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-         *
          * <pre>
          * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
          */
         public Builder setDocumentation(io.dstore.Values.stringValue value) {
           if (documentationBuilder_ == null) {
@@ -2045,11 +2048,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-         *
          * <pre>
          * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
          */
         public Builder setDocumentation(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2063,11 +2066,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-         *
          * <pre>
          * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
          */
         public Builder mergeDocumentation(io.dstore.Values.stringValue value) {
           if (documentationBuilder_ == null) {
@@ -2085,11 +2088,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-         *
          * <pre>
          * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
          */
         public Builder clearDocumentation() {
           if (documentationBuilder_ == null) {
@@ -2103,11 +2106,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-         *
          * <pre>
          * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getDocumentationBuilder() {
           
@@ -2115,11 +2118,11 @@ public final class DoGetProcedureDocuAd {
           return getDocumentationFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-         *
          * <pre>
          * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDocumentationOrBuilder() {
           if (documentationBuilder_ != null) {
@@ -2130,11 +2133,11 @@ public final class DoGetProcedureDocuAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
-         *
          * <pre>
          * Beschreibung, wozu die Prozedur "ProcedureName" dient, sowie evtl. einige Hinweise und Anmerkungen. Im Fall "&#64;GetProcedureHeader = 1" steht hier die "interne Beschreibung" (kompletter "Prozedur-Kopf" des Quelltextes)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue documentation = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2154,21 +2157,21 @@ public final class DoGetProcedureDocuAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastEditedBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-         *
          * <pre>
          * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
          */
         public boolean hasLastEdited() {
           return lastEditedBuilder_ != null || lastEdited_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-         *
          * <pre>
          * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
          */
         public io.dstore.Values.timestampValue getLastEdited() {
           if (lastEditedBuilder_ == null) {
@@ -2178,11 +2181,11 @@ public final class DoGetProcedureDocuAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-         *
          * <pre>
          * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
          */
         public Builder setLastEdited(io.dstore.Values.timestampValue value) {
           if (lastEditedBuilder_ == null) {
@@ -2198,11 +2201,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-         *
          * <pre>
          * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
          */
         public Builder setLastEdited(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -2216,11 +2219,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-         *
          * <pre>
          * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
          */
         public Builder mergeLastEdited(io.dstore.Values.timestampValue value) {
           if (lastEditedBuilder_ == null) {
@@ -2238,11 +2241,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-         *
          * <pre>
          * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
          */
         public Builder clearLastEdited() {
           if (lastEditedBuilder_ == null) {
@@ -2256,11 +2259,11 @@ public final class DoGetProcedureDocuAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-         *
          * <pre>
          * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
          */
         public io.dstore.Values.timestampValue.Builder getLastEditedBuilder() {
           
@@ -2268,11 +2271,11 @@ public final class DoGetProcedureDocuAd {
           return getLastEditedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-         *
          * <pre>
          * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getLastEditedOrBuilder() {
           if (lastEditedBuilder_ != null) {
@@ -2283,11 +2286,11 @@ public final class DoGetProcedureDocuAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
-         *
          * <pre>
          * Wann "Documentation" (in der Version "dStoreVersion") zuletzt geändert wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_edited = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -2332,16 +2335,7 @@ public final class DoGetProcedureDocuAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2433,52 +2427,52 @@ public final class DoGetProcedureDocuAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2553,34 +2547,40 @@ public final class DoGetProcedureDocuAd {
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDocuAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2817,7 +2817,7 @@ public final class DoGetProcedureDocuAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.DoGetProcedureDocuAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3320,11 +3320,11 @@ public final class DoGetProcedureDocuAd {
           io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row, io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row.Builder, io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3334,11 +3334,11 @@ public final class DoGetProcedureDocuAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3348,11 +3348,11 @@ public final class DoGetProcedureDocuAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3362,11 +3362,11 @@ public final class DoGetProcedureDocuAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row value) {
@@ -3383,11 +3383,11 @@ public final class DoGetProcedureDocuAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row.Builder builderForValue) {
@@ -3401,11 +3401,11 @@ public final class DoGetProcedureDocuAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3421,11 +3421,11 @@ public final class DoGetProcedureDocuAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row value) {
@@ -3442,11 +3442,11 @@ public final class DoGetProcedureDocuAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row.Builder builderForValue) {
@@ -3460,11 +3460,11 @@ public final class DoGetProcedureDocuAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row.Builder builderForValue) {
@@ -3478,11 +3478,11 @@ public final class DoGetProcedureDocuAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row> values) {
@@ -3497,11 +3497,11 @@ public final class DoGetProcedureDocuAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3514,11 +3514,11 @@ public final class DoGetProcedureDocuAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3531,22 +3531,22 @@ public final class DoGetProcedureDocuAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3556,11 +3556,11 @@ public final class DoGetProcedureDocuAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3571,22 +3571,22 @@ public final class DoGetProcedureDocuAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3594,11 +3594,11 @@ public final class DoGetProcedureDocuAd {
             index, io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDocu_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.DoGetProcedureDocuAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3648,16 +3648,7 @@ public final class DoGetProcedureDocuAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3676,19 +3667,19 @@ public final class DoGetProcedureDocuAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureDocu_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureDocu_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureDocu_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureDocu_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureDocu_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureDocu_Ad_Response_Row_fieldAccessorTable;
 
@@ -3696,7 +3687,7 @@ public final class DoGetProcedureDocuAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

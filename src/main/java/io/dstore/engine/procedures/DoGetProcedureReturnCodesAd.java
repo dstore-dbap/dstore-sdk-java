@@ -109,7 +109,8 @@ public final class DoGetProcedureReturnCodesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -201,11 +202,10 @@ public final class DoGetProcedureReturnCodesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -445,34 +445,40 @@ public final class DoGetProcedureReturnCodesAd {
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -662,7 +668,7 @@ public final class DoGetProcedureReturnCodesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1272,16 +1278,7 @@ public final class DoGetProcedureReturnCodesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1353,45 +1350,45 @@ public final class DoGetProcedureReturnCodesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1420,7 +1417,8 @@ public final class DoGetProcedureReturnCodesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1464,11 +1462,10 @@ public final class DoGetProcedureReturnCodesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1504,102 +1501,102 @@ public final class DoGetProcedureReturnCodesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-       *
        * <pre>
        * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        */
       boolean hasReturnCode();
       /**
-       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-       *
        * <pre>
        * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        */
       io.dstore.Values.integerValue getReturnCode();
       /**
-       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-       *
        * <pre>
        * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
-       *
        * <pre>
        * Kurze Erläuterung der Bedeutung des "ReturnCode"s
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
-       *
        * <pre>
        * Kurze Erläuterung der Bedeutung des "ReturnCode"s
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        */
       io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
-       *
        * <pre>
        * Kurze Erläuterung der Bedeutung des "ReturnCode"s
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-       *
        * <pre>
        * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
        */
       boolean hasReturnCodeOccurence();
       /**
-       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-       *
        * <pre>
        * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
        */
       io.dstore.Values.integerValue getReturnCodeOccurence();
       /**
-       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-       *
        * <pre>
        * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getReturnCodeOccurenceOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       boolean hasProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       io.dstore.Values.stringValue getProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
     }
@@ -1625,7 +1622,8 @@ public final class DoGetProcedureReturnCodesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1702,11 +1700,10 @@ public final class DoGetProcedureReturnCodesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1735,31 +1732,31 @@ public final class DoGetProcedureReturnCodesAd {
       public static final int RETURN_CODE_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue returnCode_;
       /**
-       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-       *
        * <pre>
        * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        */
       public boolean hasReturnCode() {
         return returnCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-       *
        * <pre>
        * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        */
       public io.dstore.Values.integerValue getReturnCode() {
         return returnCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-       *
        * <pre>
        * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
         return getReturnCode();
@@ -1768,31 +1765,31 @@ public final class DoGetProcedureReturnCodesAd {
       public static final int DESCRIPTION_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
-       *
        * <pre>
        * Kurze Erläuterung der Bedeutung des "ReturnCode"s
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
-       *
        * <pre>
        * Kurze Erläuterung der Bedeutung des "ReturnCode"s
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        */
       public io.dstore.Values.stringValue getDescription() {
         return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
-       *
        * <pre>
        * Kurze Erläuterung der Bedeutung des "ReturnCode"s
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -1801,31 +1798,31 @@ public final class DoGetProcedureReturnCodesAd {
       public static final int RETURN_CODE_OCCURENCE_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue returnCodeOccurence_;
       /**
-       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-       *
        * <pre>
        * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
        */
       public boolean hasReturnCodeOccurence() {
         return returnCodeOccurence_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-       *
        * <pre>
        * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
        */
       public io.dstore.Values.integerValue getReturnCodeOccurence() {
         return returnCodeOccurence_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCodeOccurence_;
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-       *
        * <pre>
        * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getReturnCodeOccurenceOrBuilder() {
         return getReturnCodeOccurence();
@@ -1834,31 +1831,31 @@ public final class DoGetProcedureReturnCodesAd {
       public static final int PROCEDURE_NAME_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue procedureName_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       public io.dstore.Values.stringValue getProcedureName() {
         return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
@@ -1946,34 +1943,40 @@ public final class DoGetProcedureReturnCodesAd {
       }
       public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2145,7 +2148,7 @@ public final class DoGetProcedureReturnCodesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2184,21 +2187,21 @@ public final class DoGetProcedureReturnCodesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> returnCodeBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-         *
          * <pre>
          * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          */
         public boolean hasReturnCode() {
           return returnCodeBuilder_ != null || returnCode_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-         *
          * <pre>
          * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          */
         public io.dstore.Values.integerValue getReturnCode() {
           if (returnCodeBuilder_ == null) {
@@ -2208,11 +2211,11 @@ public final class DoGetProcedureReturnCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-         *
          * <pre>
          * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          */
         public Builder setReturnCode(io.dstore.Values.integerValue value) {
           if (returnCodeBuilder_ == null) {
@@ -2228,11 +2231,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-         *
          * <pre>
          * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          */
         public Builder setReturnCode(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2246,11 +2249,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-         *
          * <pre>
          * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          */
         public Builder mergeReturnCode(io.dstore.Values.integerValue value) {
           if (returnCodeBuilder_ == null) {
@@ -2268,11 +2271,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-         *
          * <pre>
          * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          */
         public Builder clearReturnCode() {
           if (returnCodeBuilder_ == null) {
@@ -2286,11 +2289,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-         *
          * <pre>
          * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getReturnCodeBuilder() {
           
@@ -2298,11 +2301,11 @@ public final class DoGetProcedureReturnCodesAd {
           return getReturnCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-         *
          * <pre>
          * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
           if (returnCodeBuilder_ != null) {
@@ -2313,11 +2316,11 @@ public final class DoGetProcedureReturnCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
-         *
          * <pre>
          * Ein "dStore"-Return-Code, der von der Prozedur "ProcedureName" bei der Ausführung zurückgegeben werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2337,21 +2340,21 @@ public final class DoGetProcedureReturnCodesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
-         *
          * <pre>
          * Kurze Erläuterung der Bedeutung des "ReturnCode"s
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
-         *
          * <pre>
          * Kurze Erläuterung der Bedeutung des "ReturnCode"s
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          */
         public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -2361,11 +2364,11 @@ public final class DoGetProcedureReturnCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
-         *
          * <pre>
          * Kurze Erläuterung der Bedeutung des "ReturnCode"s
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          */
         public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -2381,11 +2384,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
-         *
          * <pre>
          * Kurze Erläuterung der Bedeutung des "ReturnCode"s
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          */
         public Builder setDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2399,11 +2402,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
-         *
          * <pre>
          * Kurze Erläuterung der Bedeutung des "ReturnCode"s
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          */
         public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -2421,11 +2424,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
-         *
          * <pre>
          * Kurze Erläuterung der Bedeutung des "ReturnCode"s
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -2439,11 +2442,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
-         *
          * <pre>
          * Kurze Erläuterung der Bedeutung des "ReturnCode"s
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
@@ -2451,11 +2454,11 @@ public final class DoGetProcedureReturnCodesAd {
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
-         *
          * <pre>
          * Kurze Erläuterung der Bedeutung des "ReturnCode"s
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -2466,11 +2469,11 @@ public final class DoGetProcedureReturnCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
-         *
          * <pre>
          * Kurze Erläuterung der Bedeutung des "ReturnCode"s
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2490,21 +2493,21 @@ public final class DoGetProcedureReturnCodesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> returnCodeOccurenceBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-         *
          * <pre>
          * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
          */
         public boolean hasReturnCodeOccurence() {
           return returnCodeOccurenceBuilder_ != null || returnCodeOccurence_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-         *
          * <pre>
          * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
          */
         public io.dstore.Values.integerValue getReturnCodeOccurence() {
           if (returnCodeOccurenceBuilder_ == null) {
@@ -2514,11 +2517,11 @@ public final class DoGetProcedureReturnCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-         *
          * <pre>
          * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
          */
         public Builder setReturnCodeOccurence(io.dstore.Values.integerValue value) {
           if (returnCodeOccurenceBuilder_ == null) {
@@ -2534,11 +2537,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-         *
          * <pre>
          * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
          */
         public Builder setReturnCodeOccurence(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2552,11 +2555,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-         *
          * <pre>
          * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
          */
         public Builder mergeReturnCodeOccurence(io.dstore.Values.integerValue value) {
           if (returnCodeOccurenceBuilder_ == null) {
@@ -2574,11 +2577,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-         *
          * <pre>
          * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
          */
         public Builder clearReturnCodeOccurence() {
           if (returnCodeOccurenceBuilder_ == null) {
@@ -2592,11 +2595,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-         *
          * <pre>
          * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getReturnCodeOccurenceBuilder() {
           
@@ -2604,11 +2607,11 @@ public final class DoGetProcedureReturnCodesAd {
           return getReturnCodeOccurenceFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-         *
          * <pre>
          * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getReturnCodeOccurenceOrBuilder() {
           if (returnCodeOccurenceBuilder_ != null) {
@@ -2619,11 +2622,11 @@ public final class DoGetProcedureReturnCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
-         *
          * <pre>
          * Der "ReturnCode" kann..."0" : ...direkt in der Prozedur auftreten"1" : ...nur durch eine intern aufgerufene Prozedur auftreten"2" : ...sowohl von der Prozedur selbst als auch von einer intern aufgerufenen Prozedur zurückgegeben werden
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue return_code_occurence = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2643,21 +2646,21 @@ public final class DoGetProcedureReturnCodesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public io.dstore.Values.stringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2667,11 +2670,11 @@ public final class DoGetProcedureReturnCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2687,11 +2690,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2705,11 +2708,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2727,11 +2730,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2745,11 +2748,11 @@ public final class DoGetProcedureReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
           
@@ -2757,11 +2760,11 @@ public final class DoGetProcedureReturnCodesAd {
           return getProcedureNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
@@ -2772,11 +2775,11 @@ public final class DoGetProcedureReturnCodesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2821,16 +2824,7 @@ public final class DoGetProcedureReturnCodesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2922,52 +2916,52 @@ public final class DoGetProcedureReturnCodesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3042,34 +3036,40 @@ public final class DoGetProcedureReturnCodesAd {
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3306,7 +3306,7 @@ public final class DoGetProcedureReturnCodesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3809,11 +3809,11 @@ public final class DoGetProcedureReturnCodesAd {
           io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row, io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row.Builder, io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3823,11 +3823,11 @@ public final class DoGetProcedureReturnCodesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3837,11 +3837,11 @@ public final class DoGetProcedureReturnCodesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3851,11 +3851,11 @@ public final class DoGetProcedureReturnCodesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row value) {
@@ -3872,11 +3872,11 @@ public final class DoGetProcedureReturnCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row.Builder builderForValue) {
@@ -3890,11 +3890,11 @@ public final class DoGetProcedureReturnCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3910,11 +3910,11 @@ public final class DoGetProcedureReturnCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row value) {
@@ -3931,11 +3931,11 @@ public final class DoGetProcedureReturnCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row.Builder builderForValue) {
@@ -3949,11 +3949,11 @@ public final class DoGetProcedureReturnCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row.Builder builderForValue) {
@@ -3967,11 +3967,11 @@ public final class DoGetProcedureReturnCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row> values) {
@@ -3986,11 +3986,11 @@ public final class DoGetProcedureReturnCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4003,11 +4003,11 @@ public final class DoGetProcedureReturnCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4020,22 +4020,22 @@ public final class DoGetProcedureReturnCodesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4045,11 +4045,11 @@ public final class DoGetProcedureReturnCodesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4060,22 +4060,22 @@ public final class DoGetProcedureReturnCodesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4083,11 +4083,11 @@ public final class DoGetProcedureReturnCodesAd {
             index, io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureReturnCodes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4137,16 +4137,7 @@ public final class DoGetProcedureReturnCodesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4165,19 +4156,19 @@ public final class DoGetProcedureReturnCodesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureReturnCodes_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureReturnCodes_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureReturnCodes_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureReturnCodes_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureReturnCodes_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureReturnCodes_Ad_Response_Row_fieldAccessorTable;
 
@@ -4185,7 +4176,7 @@ public final class DoGetProcedureReturnCodesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

@@ -71,7 +71,8 @@ public final class OmGetSurchargeTypesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -127,11 +128,10 @@ public final class OmGetSurchargeTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -283,34 +283,40 @@ public final class OmGetSurchargeTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -460,7 +466,7 @@ public final class OmGetSurchargeTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetSurchargeTypesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -784,16 +790,7 @@ public final class OmGetSurchargeTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -865,45 +862,45 @@ public final class OmGetSurchargeTypesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -932,7 +929,8 @@ public final class OmGetSurchargeTypesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -976,11 +974,10 @@ public final class OmGetSurchargeTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1016,277 +1013,277 @@ public final class OmGetSurchargeTypesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
        */
       boolean hasRelative();
       /**
-       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
        */
       io.dstore.Values.booleanValue getRelative();
       /**
-       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getRelativeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-       *
        * <pre>
        * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        */
       boolean hasUnitId();
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-       *
        * <pre>
        * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        */
       io.dstore.Values.integerValue getUnitId();
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-       *
        * <pre>
        * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-       *
        * <pre>
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
        */
       boolean hasCategoryPriorityNo();
       /**
-       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-       *
        * <pre>
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
        */
       io.dstore.Values.integerValue getCategoryPriorityNo();
       /**
-       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-       *
        * <pre>
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCategoryPriorityNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-       *
        * <pre>
        * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
        */
       boolean hasTranslatedDescription();
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-       *
        * <pre>
        * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
        */
       io.dstore.Values.stringValue getTranslatedDescription();
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-       *
        * <pre>
        * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
        */
       boolean hasBrutto();
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
        */
       io.dstore.Values.booleanValue getBrutto();
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getBruttoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        */
       boolean hasUnitSymbol();
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        */
       io.dstore.Values.stringValue getUnitSymbol();
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung von "SurchargeTypeCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
        */
       boolean hasCategoryDescription();
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung von "SurchargeTypeCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
        */
       io.dstore.Values.stringValue getCategoryDescription();
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung von "SurchargeTypeCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       boolean hasSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       io.dstore.Values.stringValue getSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-       *
        * <pre>
        * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
        */
       boolean hasIsAbsoluteValue();
       /**
-       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-       *
        * <pre>
        * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
        */
       io.dstore.Values.integerValue getIsAbsoluteValue();
       /**
-       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-       *
        * <pre>
        * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
        */
       io.dstore.Values.integerValueOrBuilder getIsAbsoluteValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-       *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
        */
       boolean hasSurchargeTypeId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-       *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
        */
       io.dstore.Values.integerValue getSurchargeTypeId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-       *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
        */
       boolean hasSurchargeTypeCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
        */
       io.dstore.Values.integerValue getSurchargeTypeCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder();
     }
@@ -1312,7 +1309,8 @@ public final class OmGetSurchargeTypesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1480,11 +1478,10 @@ public final class OmGetSurchargeTypesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1513,31 +1510,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int RELATIVE_FIELD_NUMBER = 10001;
       private io.dstore.Values.booleanValue relative_;
       /**
-       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
        */
       public boolean hasRelative() {
         return relative_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
        */
       public io.dstore.Values.booleanValue getRelative() {
         return relative_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : relative_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue relative = 10001;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getRelativeOrBuilder() {
         return getRelative();
@@ -1546,31 +1543,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int UNIT_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue unitId_;
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-       *
        * <pre>
        * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        */
       public boolean hasUnitId() {
         return unitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-       *
        * <pre>
        * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getUnitId() {
         return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-       *
        * <pre>
        * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
         return getUnitId();
@@ -1579,31 +1576,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int CATEGORY_PRIORITY_NO_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue categoryPriorityNo_;
       /**
-       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-       *
        * <pre>
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
        */
       public boolean hasCategoryPriorityNo() {
         return categoryPriorityNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-       *
        * <pre>
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
        */
       public io.dstore.Values.integerValue getCategoryPriorityNo() {
         return categoryPriorityNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : categoryPriorityNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-       *
        * <pre>
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCategoryPriorityNoOrBuilder() {
         return getCategoryPriorityNo();
@@ -1612,31 +1609,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int TRANSLATED_DESCRIPTION_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue translatedDescription_;
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-       *
        * <pre>
        * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
        */
       public boolean hasTranslatedDescription() {
         return translatedDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-       *
        * <pre>
        * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
        */
       public io.dstore.Values.stringValue getTranslatedDescription() {
         return translatedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : translatedDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-       *
        * <pre>
        * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder() {
         return getTranslatedDescription();
@@ -1645,31 +1642,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int BRUTTO_FIELD_NUMBER = 10005;
       private io.dstore.Values.booleanValue brutto_;
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
        */
       public boolean hasBrutto() {
         return brutto_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
        */
       public io.dstore.Values.booleanValue getBrutto() {
         return brutto_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : brutto_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-       *
        * <pre>
        * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getBruttoOrBuilder() {
         return getBrutto();
@@ -1678,31 +1675,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int UNIT_SYMBOL_FIELD_NUMBER = 10006;
       private io.dstore.Values.stringValue unitSymbol_;
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        */
       public boolean hasUnitSymbol() {
         return unitSymbol_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        */
       public io.dstore.Values.stringValue getUnitSymbol() {
         return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
       }
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
         return getUnitSymbol();
@@ -1711,31 +1708,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int CATEGORY_DESCRIPTION_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue categoryDescription_;
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung von "SurchargeTypeCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung von "SurchargeTypeCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
        */
       public io.dstore.Values.stringValue getCategoryDescription() {
         return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung von "SurchargeTypeCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
@@ -1744,31 +1741,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 10008;
       private io.dstore.Values.stringValue surchargeTypeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       public boolean hasSurchargeTypeDescription() {
         return surchargeTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       public io.dstore.Values.stringValue getSurchargeTypeDescription() {
         return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
         return getSurchargeTypeDescription();
@@ -1777,31 +1774,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int IS_ABSOLUTE_VALUE_FIELD_NUMBER = 10009;
       private io.dstore.Values.integerValue isAbsoluteValue_;
       /**
-       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-       *
        * <pre>
        * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
        */
       public boolean hasIsAbsoluteValue() {
         return isAbsoluteValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-       *
        * <pre>
        * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
        */
       public io.dstore.Values.integerValue getIsAbsoluteValue() {
         return isAbsoluteValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : isAbsoluteValue_;
       }
       /**
-       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-       *
        * <pre>
        * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getIsAbsoluteValueOrBuilder() {
         return getIsAbsoluteValue();
@@ -1810,31 +1807,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 10010;
       private io.dstore.Values.integerValue surchargeTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-       *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-       *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
        */
       public io.dstore.Values.integerValue getSurchargeTypeId() {
         return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-       *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         return getSurchargeTypeId();
@@ -1843,31 +1840,31 @@ public final class OmGetSurchargeTypesAd {
       public static final int SURCHARGE_TYPE_CATEGORY_ID_FIELD_NUMBER = 10011;
       private io.dstore.Values.integerValue surchargeTypeCategoryId_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
        */
       public boolean hasSurchargeTypeCategoryId() {
         return surchargeTypeCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
        */
       public io.dstore.Values.integerValue getSurchargeTypeCategoryId() {
         return surchargeTypeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeCategoryId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
         return getSurchargeTypeCategoryId();
@@ -2004,34 +2001,40 @@ public final class OmGetSurchargeTypesAd {
       }
       public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2301,7 +2304,7 @@ public final class OmGetSurchargeTypesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2340,21 +2343,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> relativeBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
          */
         public boolean hasRelative() {
           return relativeBuilder_ != null || relative_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
          */
         public io.dstore.Values.booleanValue getRelative() {
           if (relativeBuilder_ == null) {
@@ -2364,11 +2367,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
          */
         public Builder setRelative(io.dstore.Values.booleanValue value) {
           if (relativeBuilder_ == null) {
@@ -2384,11 +2387,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
          */
         public Builder setRelative(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2402,11 +2405,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
          */
         public Builder mergeRelative(io.dstore.Values.booleanValue value) {
           if (relativeBuilder_ == null) {
@@ -2424,11 +2427,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
          */
         public Builder clearRelative() {
           if (relativeBuilder_ == null) {
@@ -2442,11 +2445,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
          */
         public io.dstore.Values.booleanValue.Builder getRelativeBuilder() {
           
@@ -2454,11 +2457,11 @@ public final class OmGetSurchargeTypesAd {
           return getRelativeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getRelativeOrBuilder() {
           if (relativeBuilder_ != null) {
@@ -2469,11 +2472,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob "Surcharge"-Werte absolut ("0") oder relativ/prozentual ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue relative = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2493,21 +2496,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-         *
          * <pre>
          * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          */
         public boolean hasUnitId() {
           return unitIdBuilder_ != null || unitId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-         *
          * <pre>
          * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getUnitId() {
           if (unitIdBuilder_ == null) {
@@ -2517,11 +2520,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-         *
          * <pre>
          * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          */
         public Builder setUnitId(io.dstore.Values.integerValue value) {
           if (unitIdBuilder_ == null) {
@@ -2537,11 +2540,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-         *
          * <pre>
          * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          */
         public Builder setUnitId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2555,11 +2558,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-         *
          * <pre>
          * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          */
         public Builder mergeUnitId(io.dstore.Values.integerValue value) {
           if (unitIdBuilder_ == null) {
@@ -2577,11 +2580,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-         *
          * <pre>
          * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          */
         public Builder clearUnitId() {
           if (unitIdBuilder_ == null) {
@@ -2595,11 +2598,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-         *
          * <pre>
          * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getUnitIdBuilder() {
           
@@ -2607,11 +2610,11 @@ public final class OmGetSurchargeTypesAd {
           return getUnitIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-         *
          * <pre>
          * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
           if (unitIdBuilder_ != null) {
@@ -2622,11 +2625,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
-         *
          * <pre>
          * ID einer Währungs-Einheit (wenn "IsAbsoluteValue &gt; 0") oder der Prozent-Einheit (wenn "IsAbsoluteValue = 0" ist) - also die Einheit, in der die konkreten Rabatte/Aufschläge (wie z.B. in "PersonSurcharges") zu verstehen sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2646,21 +2649,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> categoryPriorityNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-         *
          * <pre>
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
          */
         public boolean hasCategoryPriorityNo() {
           return categoryPriorityNoBuilder_ != null || categoryPriorityNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-         *
          * <pre>
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
          */
         public io.dstore.Values.integerValue getCategoryPriorityNo() {
           if (categoryPriorityNoBuilder_ == null) {
@@ -2670,11 +2673,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-         *
          * <pre>
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
          */
         public Builder setCategoryPriorityNo(io.dstore.Values.integerValue value) {
           if (categoryPriorityNoBuilder_ == null) {
@@ -2690,11 +2693,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-         *
          * <pre>
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
          */
         public Builder setCategoryPriorityNo(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2708,11 +2711,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-         *
          * <pre>
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
          */
         public Builder mergeCategoryPriorityNo(io.dstore.Values.integerValue value) {
           if (categoryPriorityNoBuilder_ == null) {
@@ -2730,11 +2733,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-         *
          * <pre>
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
          */
         public Builder clearCategoryPriorityNo() {
           if (categoryPriorityNoBuilder_ == null) {
@@ -2748,11 +2751,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-         *
          * <pre>
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getCategoryPriorityNoBuilder() {
           
@@ -2760,11 +2763,11 @@ public final class OmGetSurchargeTypesAd {
           return getCategoryPriorityNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-         *
          * <pre>
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCategoryPriorityNoOrBuilder() {
           if (categoryPriorityNoBuilder_ != null) {
@@ -2775,11 +2778,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
-         *
          * <pre>
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue category_priority_no = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2799,21 +2802,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> translatedDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-         *
          * <pre>
          * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
          */
         public boolean hasTranslatedDescription() {
           return translatedDescriptionBuilder_ != null || translatedDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-         *
          * <pre>
          * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
          */
         public io.dstore.Values.stringValue getTranslatedDescription() {
           if (translatedDescriptionBuilder_ == null) {
@@ -2823,11 +2826,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-         *
          * <pre>
          * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
          */
         public Builder setTranslatedDescription(io.dstore.Values.stringValue value) {
           if (translatedDescriptionBuilder_ == null) {
@@ -2843,11 +2846,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-         *
          * <pre>
          * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
          */
         public Builder setTranslatedDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2861,11 +2864,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-         *
          * <pre>
          * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
          */
         public Builder mergeTranslatedDescription(io.dstore.Values.stringValue value) {
           if (translatedDescriptionBuilder_ == null) {
@@ -2883,11 +2886,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-         *
          * <pre>
          * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
          */
         public Builder clearTranslatedDescription() {
           if (translatedDescriptionBuilder_ == null) {
@@ -2901,11 +2904,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-         *
          * <pre>
          * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getTranslatedDescriptionBuilder() {
           
@@ -2913,11 +2916,11 @@ public final class OmGetSurchargeTypesAd {
           return getTranslatedDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-         *
          * <pre>
          * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder() {
           if (translatedDescriptionBuilder_ != null) {
@@ -2928,11 +2931,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
-         *
          * <pre>
          * Übersetzung von "SurchargeTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache ("NULL", falls keine Übersetzung existiert)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2952,21 +2955,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> bruttoBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
          */
         public boolean hasBrutto() {
           return bruttoBuilder_ != null || brutto_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
          */
         public io.dstore.Values.booleanValue getBrutto() {
           if (bruttoBuilder_ == null) {
@@ -2976,11 +2979,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
          */
         public Builder setBrutto(io.dstore.Values.booleanValue value) {
           if (bruttoBuilder_ == null) {
@@ -2996,11 +2999,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
          */
         public Builder setBrutto(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -3014,11 +3017,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
          */
         public Builder mergeBrutto(io.dstore.Values.booleanValue value) {
           if (bruttoBuilder_ == null) {
@@ -3036,11 +3039,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
          */
         public Builder clearBrutto() {
           if (bruttoBuilder_ == null) {
@@ -3054,11 +3057,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
          */
         public io.dstore.Values.booleanValue.Builder getBruttoBuilder() {
           
@@ -3066,11 +3069,11 @@ public final class OmGetSurchargeTypesAd {
           return getBruttoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getBruttoOrBuilder() {
           if (bruttoBuilder_ != null) {
@@ -3081,11 +3084,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
-         *
          * <pre>
          * Redundante Information (s. "IsAbsoluteValue"), aufgrund der Abwärtskompatibilität beibehalten. Gibt an, ob absolute "Surcharge"-Werte (nur relevant im Fall "Relative = 1" also) Netto ("0") oder Brutto ("1") zu verstehen sind.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue brutto = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -3105,21 +3108,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          */
         public boolean hasUnitSymbol() {
           return unitSymbolBuilder_ != null || unitSymbol_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          */
         public io.dstore.Values.stringValue getUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
@@ -3129,11 +3132,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          */
         public Builder setUnitSymbol(io.dstore.Values.stringValue value) {
           if (unitSymbolBuilder_ == null) {
@@ -3149,11 +3152,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          */
         public Builder setUnitSymbol(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3167,11 +3170,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          */
         public Builder mergeUnitSymbol(io.dstore.Values.stringValue value) {
           if (unitSymbolBuilder_ == null) {
@@ -3189,11 +3192,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          */
         public Builder clearUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
@@ -3207,11 +3210,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          */
         public io.dstore.Values.stringValue.Builder getUnitSymbolBuilder() {
           
@@ -3219,11 +3222,11 @@ public final class OmGetSurchargeTypesAd {
           return getUnitSymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
           if (unitSymbolBuilder_ != null) {
@@ -3234,11 +3237,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3258,21 +3261,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung von "SurchargeTypeCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
          */
         public boolean hasCategoryDescription() {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung von "SurchargeTypeCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
          */
         public io.dstore.Values.stringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -3282,11 +3285,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung von "SurchargeTypeCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
          */
         public Builder setCategoryDescription(io.dstore.Values.stringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -3302,11 +3305,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung von "SurchargeTypeCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
          */
         public Builder setCategoryDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3320,11 +3323,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung von "SurchargeTypeCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
          */
         public Builder mergeCategoryDescription(io.dstore.Values.stringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -3342,11 +3345,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung von "SurchargeTypeCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
          */
         public Builder clearCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -3360,11 +3363,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung von "SurchargeTypeCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getCategoryDescriptionBuilder() {
           
@@ -3372,11 +3375,11 @@ public final class OmGetSurchargeTypesAd {
           return getCategoryDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung von "SurchargeTypeCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
@@ -3387,11 +3390,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung von "SurchargeTypeCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3411,21 +3414,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public boolean hasSurchargeTypeDescription() {
           return surchargeTypeDescriptionBuilder_ != null || surchargeTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public io.dstore.Values.stringValue getSurchargeTypeDescription() {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -3435,11 +3438,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public Builder setSurchargeTypeDescription(io.dstore.Values.stringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -3455,11 +3458,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public Builder setSurchargeTypeDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3473,11 +3476,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public Builder mergeSurchargeTypeDescription(io.dstore.Values.stringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -3495,11 +3498,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public Builder clearSurchargeTypeDescription() {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -3513,11 +3516,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public io.dstore.Values.stringValue.Builder getSurchargeTypeDescriptionBuilder() {
           
@@ -3525,11 +3528,11 @@ public final class OmGetSurchargeTypesAd {
           return getSurchargeTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
           if (surchargeTypeDescriptionBuilder_ != null) {
@@ -3540,11 +3543,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3564,21 +3567,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> isAbsoluteValueBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-         *
          * <pre>
          * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
          */
         public boolean hasIsAbsoluteValue() {
           return isAbsoluteValueBuilder_ != null || isAbsoluteValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-         *
          * <pre>
          * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
          */
         public io.dstore.Values.integerValue getIsAbsoluteValue() {
           if (isAbsoluteValueBuilder_ == null) {
@@ -3588,11 +3591,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-         *
          * <pre>
          * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
          */
         public Builder setIsAbsoluteValue(io.dstore.Values.integerValue value) {
           if (isAbsoluteValueBuilder_ == null) {
@@ -3608,11 +3611,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-         *
          * <pre>
          * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
          */
         public Builder setIsAbsoluteValue(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3626,11 +3629,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-         *
          * <pre>
          * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
          */
         public Builder mergeIsAbsoluteValue(io.dstore.Values.integerValue value) {
           if (isAbsoluteValueBuilder_ == null) {
@@ -3648,11 +3651,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-         *
          * <pre>
          * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
          */
         public Builder clearIsAbsoluteValue() {
           if (isAbsoluteValueBuilder_ == null) {
@@ -3666,11 +3669,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-         *
          * <pre>
          * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
          */
         public io.dstore.Values.integerValue.Builder getIsAbsoluteValueBuilder() {
           
@@ -3678,11 +3681,11 @@ public final class OmGetSurchargeTypesAd {
           return getIsAbsoluteValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-         *
          * <pre>
          * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getIsAbsoluteValueOrBuilder() {
           if (isAbsoluteValueBuilder_ != null) {
@@ -3693,11 +3696,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
-         *
          * <pre>
          * Fasst "Relative" und "Brutto" in einer Einstellung zusammen, wie die Werte also zu verstehen sind :- "0" : relativ (prozentual)- "1" : absolute Netto-Werte- "2" : absolute Brutto-Werte
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue is_absolute_value = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3717,21 +3720,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-         *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
          */
         public boolean hasSurchargeTypeId() {
           return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-         *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
          */
         public io.dstore.Values.integerValue getSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
@@ -3741,11 +3744,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-         *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
          */
         public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
@@ -3761,11 +3764,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-         *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
          */
         public Builder setSurchargeTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3779,11 +3782,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-         *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
          */
         public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
@@ -3801,11 +3804,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-         *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
          */
         public Builder clearSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
@@ -3819,11 +3822,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-         *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
          */
         public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
           
@@ -3831,11 +3834,11 @@ public final class OmGetSurchargeTypesAd {
           return getSurchargeTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-         *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
           if (surchargeTypeIdBuilder_ != null) {
@@ -3846,11 +3849,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
-         *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3870,21 +3873,21 @@ public final class OmGetSurchargeTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
          */
         public boolean hasSurchargeTypeCategoryId() {
           return surchargeTypeCategoryIdBuilder_ != null || surchargeTypeCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
          */
         public io.dstore.Values.integerValue getSurchargeTypeCategoryId() {
           if (surchargeTypeCategoryIdBuilder_ == null) {
@@ -3894,11 +3897,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
          */
         public Builder setSurchargeTypeCategoryId(io.dstore.Values.integerValue value) {
           if (surchargeTypeCategoryIdBuilder_ == null) {
@@ -3914,11 +3917,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
          */
         public Builder setSurchargeTypeCategoryId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3932,11 +3935,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
          */
         public Builder mergeSurchargeTypeCategoryId(io.dstore.Values.integerValue value) {
           if (surchargeTypeCategoryIdBuilder_ == null) {
@@ -3954,11 +3957,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
          */
         public Builder clearSurchargeTypeCategoryId() {
           if (surchargeTypeCategoryIdBuilder_ == null) {
@@ -3972,11 +3975,11 @@ public final class OmGetSurchargeTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
          */
         public io.dstore.Values.integerValue.Builder getSurchargeTypeCategoryIdBuilder() {
           
@@ -3984,11 +3987,11 @@ public final class OmGetSurchargeTypesAd {
           return getSurchargeTypeCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
           if (surchargeTypeCategoryIdBuilder_ != null) {
@@ -3999,11 +4002,11 @@ public final class OmGetSurchargeTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Surcharges", der "SurchargeTypeID" zugeordnet ist Anmerkung : Es ist eine 1:1-Zuordnung, d.h. die "SurchargeTypeID" muß einer Kategorie zugeordnet sein, sie kann aber auch nicht mehreren Kategorien zugeordnet sein !
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4048,16 +4051,7 @@ public final class OmGetSurchargeTypesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4149,52 +4143,52 @@ public final class OmGetSurchargeTypesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4269,34 +4263,40 @@ public final class OmGetSurchargeTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4533,7 +4533,7 @@ public final class OmGetSurchargeTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5036,11 +5036,11 @@ public final class OmGetSurchargeTypesAd {
           io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row, io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -5050,11 +5050,11 @@ public final class OmGetSurchargeTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -5064,11 +5064,11 @@ public final class OmGetSurchargeTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -5078,11 +5078,11 @@ public final class OmGetSurchargeTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row value) {
@@ -5099,11 +5099,11 @@ public final class OmGetSurchargeTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row.Builder builderForValue) {
@@ -5117,11 +5117,11 @@ public final class OmGetSurchargeTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -5137,11 +5137,11 @@ public final class OmGetSurchargeTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row value) {
@@ -5158,11 +5158,11 @@ public final class OmGetSurchargeTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row.Builder builderForValue) {
@@ -5176,11 +5176,11 @@ public final class OmGetSurchargeTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row.Builder builderForValue) {
@@ -5194,11 +5194,11 @@ public final class OmGetSurchargeTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row> values) {
@@ -5213,11 +5213,11 @@ public final class OmGetSurchargeTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -5230,11 +5230,11 @@ public final class OmGetSurchargeTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5247,22 +5247,22 @@ public final class OmGetSurchargeTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5272,11 +5272,11 @@ public final class OmGetSurchargeTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5287,22 +5287,22 @@ public final class OmGetSurchargeTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5310,11 +5310,11 @@ public final class OmGetSurchargeTypesAd {
             index, io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetSurchargeTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5364,16 +5364,7 @@ public final class OmGetSurchargeTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5392,19 +5383,19 @@ public final class OmGetSurchargeTypesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetSurchargeTypes_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetSurchargeTypes_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetSurchargeTypes_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetSurchargeTypes_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetSurchargeTypes_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetSurchargeTypes_Ad_Response_Row_fieldAccessorTable;
 
@@ -5412,7 +5403,7 @@ public final class OmGetSurchargeTypesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

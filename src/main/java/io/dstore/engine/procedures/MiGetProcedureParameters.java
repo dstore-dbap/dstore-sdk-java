@@ -90,7 +90,8 @@ public final class MiGetProcedureParameters {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class MiGetProcedureParameters {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class MiGetProcedureParameters {
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class MiGetProcedureParameters {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetProcedureParameters.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class MiGetProcedureParameters {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class MiGetProcedureParameters {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class MiGetProcedureParameters {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class MiGetProcedureParameters {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,227 +1257,227 @@ public final class MiGetProcedureParameters {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
        */
       boolean hasIsOutputParameter();
       /**
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
        */
       io.dstore.Values.booleanValue getIsOutputParameter();
       /**
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getIsOutputParameterOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       boolean hasLength();
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       io.dstore.Values.integerValue getLength();
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getLengthOrBuilder();
 
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-       *
        * <pre>
        * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
        */
       boolean hasJDBCScale();
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-       *
        * <pre>
        * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
        */
       io.dstore.Values.longValue getJDBCScale();
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-       *
        * <pre>
        * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
        */
       io.dstore.Values.longValueOrBuilder getJDBCScaleOrBuilder();
 
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-       *
        * <pre>
        * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
        */
       boolean hasJDBCPrecision();
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-       *
        * <pre>
        * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
        */
       io.dstore.Values.longValue getJDBCPrecision();
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-       *
        * <pre>
        * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
        */
       io.dstore.Values.longValueOrBuilder getJDBCPrecisionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
        */
       boolean hasPrecisionValue();
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
        */
       io.dstore.Values.integerValue getPrecisionValue();
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-       *
        * <pre>
        * Name eines Parameters der Prozedur "&#64;ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
        */
       boolean hasParameterName();
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-       *
        * <pre>
        * Name eines Parameters der Prozedur "&#64;ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
        */
       io.dstore.Values.stringValue getParameterName();
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-       *
        * <pre>
        * Name eines Parameters der Prozedur "&#64;ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
        */
       io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue scale = 10007;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10007;</code>
        */
       boolean hasScale();
       /**
-       * <code>optional .dstore.values.integerValue scale = 10007;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10007;</code>
        */
       io.dstore.Values.integerValue getScale();
       /**
-       * <code>optional .dstore.values.integerValue scale = 10007;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10007;</code>
        */
       io.dstore.Values.integerValueOrBuilder getScaleOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-       *
        * <pre>
        * Entsprechung von "Datatype" im JDBC-Treiber
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
        */
       boolean hasJDBCDatatypeId();
       /**
-       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-       *
        * <pre>
        * Entsprechung von "Datatype" im JDBC-Treiber
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
        */
       io.dstore.Values.integerValue getJDBCDatatypeId();
       /**
-       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-       *
        * <pre>
        * Entsprechung von "Datatype" im JDBC-Treiber
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
        */
       io.dstore.Values.integerValueOrBuilder getJDBCDatatypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-       *
        * <pre>
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
        */
       boolean hasDatatype();
       /**
-       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-       *
        * <pre>
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
        */
       io.dstore.Values.stringValue getDatatype();
       /**
-       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-       *
        * <pre>
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDatatypeOrBuilder();
     }
@@ -1506,7 +1503,8 @@ public final class MiGetProcedureParameters {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1648,11 +1646,10 @@ public final class MiGetProcedureParameters {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1681,31 +1678,31 @@ public final class MiGetProcedureParameters {
       public static final int IS_OUTPUT_PARAMETER_FIELD_NUMBER = 10001;
       private io.dstore.Values.booleanValue isOutputParameter_;
       /**
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
        */
       public boolean hasIsOutputParameter() {
         return isOutputParameter_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
        */
       public io.dstore.Values.booleanValue getIsOutputParameter() {
         return isOutputParameter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isOutputParameter_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getIsOutputParameterOrBuilder() {
         return getIsOutputParameter();
@@ -1714,31 +1711,31 @@ public final class MiGetProcedureParameters {
       public static final int LENGTH_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue length_;
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       public boolean hasLength() {
         return length_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       public io.dstore.Values.integerValue getLength() {
         return length_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : length_;
       }
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getLengthOrBuilder() {
         return getLength();
@@ -1747,31 +1744,31 @@ public final class MiGetProcedureParameters {
       public static final int J_D_B_C_SCALE_FIELD_NUMBER = 10003;
       private io.dstore.Values.longValue jDBCScale_;
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-       *
        * <pre>
        * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
        */
       public boolean hasJDBCScale() {
         return jDBCScale_ != null;
       }
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-       *
        * <pre>
        * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
        */
       public io.dstore.Values.longValue getJDBCScale() {
         return jDBCScale_ == null ? io.dstore.Values.longValue.getDefaultInstance() : jDBCScale_;
       }
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-       *
        * <pre>
        * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
        */
       public io.dstore.Values.longValueOrBuilder getJDBCScaleOrBuilder() {
         return getJDBCScale();
@@ -1780,31 +1777,31 @@ public final class MiGetProcedureParameters {
       public static final int J_D_B_C_PRECISION_FIELD_NUMBER = 10004;
       private io.dstore.Values.longValue jDBCPrecision_;
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-       *
        * <pre>
        * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
        */
       public boolean hasJDBCPrecision() {
         return jDBCPrecision_ != null;
       }
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-       *
        * <pre>
        * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
        */
       public io.dstore.Values.longValue getJDBCPrecision() {
         return jDBCPrecision_ == null ? io.dstore.Values.longValue.getDefaultInstance() : jDBCPrecision_;
       }
       /**
-       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-       *
        * <pre>
        * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
        * </pre>
+       *
+       * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
        */
       public io.dstore.Values.longValueOrBuilder getJDBCPrecisionOrBuilder() {
         return getJDBCPrecision();
@@ -1813,31 +1810,31 @@ public final class MiGetProcedureParameters {
       public static final int PRECISION_VALUE_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue precisionValue_;
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
        */
       public boolean hasPrecisionValue() {
         return precisionValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
        */
       public io.dstore.Values.integerValue getPrecisionValue() {
         return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
       }
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
         return getPrecisionValue();
@@ -1846,31 +1843,31 @@ public final class MiGetProcedureParameters {
       public static final int PARAMETER_NAME_FIELD_NUMBER = 10006;
       private io.dstore.Values.stringValue parameterName_;
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-       *
        * <pre>
        * Name eines Parameters der Prozedur "&#64;ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
        */
       public boolean hasParameterName() {
         return parameterName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-       *
        * <pre>
        * Name eines Parameters der Prozedur "&#64;ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
        */
       public io.dstore.Values.stringValue getParameterName() {
         return parameterName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-       *
        * <pre>
        * Name eines Parameters der Prozedur "&#64;ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder() {
         return getParameterName();
@@ -1879,31 +1876,31 @@ public final class MiGetProcedureParameters {
       public static final int SCALE_FIELD_NUMBER = 10007;
       private io.dstore.Values.integerValue scale_;
       /**
-       * <code>optional .dstore.values.integerValue scale = 10007;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10007;</code>
        */
       public boolean hasScale() {
         return scale_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue scale = 10007;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10007;</code>
        */
       public io.dstore.Values.integerValue getScale() {
         return scale_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : scale_;
       }
       /**
-       * <code>optional .dstore.values.integerValue scale = 10007;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10007;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getScaleOrBuilder() {
         return getScale();
@@ -1912,31 +1909,31 @@ public final class MiGetProcedureParameters {
       public static final int J_D_B_C_DATATYPE_ID_FIELD_NUMBER = 10008;
       private io.dstore.Values.integerValue jDBCDatatypeId_;
       /**
-       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-       *
        * <pre>
        * Entsprechung von "Datatype" im JDBC-Treiber
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
        */
       public boolean hasJDBCDatatypeId() {
         return jDBCDatatypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-       *
        * <pre>
        * Entsprechung von "Datatype" im JDBC-Treiber
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
        */
       public io.dstore.Values.integerValue getJDBCDatatypeId() {
         return jDBCDatatypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : jDBCDatatypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-       *
        * <pre>
        * Entsprechung von "Datatype" im JDBC-Treiber
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getJDBCDatatypeIdOrBuilder() {
         return getJDBCDatatypeId();
@@ -1945,31 +1942,31 @@ public final class MiGetProcedureParameters {
       public static final int DATATYPE_FIELD_NUMBER = 10009;
       private io.dstore.Values.stringValue datatype_;
       /**
-       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-       *
        * <pre>
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
        */
       public boolean hasDatatype() {
         return datatype_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-       *
        * <pre>
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
        */
       public io.dstore.Values.stringValue getDatatype() {
         return datatype_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : datatype_;
       }
       /**
-       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-       *
        * <pre>
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue datatype = 10009;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDatatypeOrBuilder() {
         return getDatatype();
@@ -2092,34 +2089,40 @@ public final class MiGetProcedureParameters {
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2361,7 +2364,7 @@ public final class MiGetProcedureParameters {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2400,21 +2403,21 @@ public final class MiGetProcedureParameters {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isOutputParameterBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
          */
         public boolean hasIsOutputParameter() {
           return isOutputParameterBuilder_ != null || isOutputParameter_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
          */
         public io.dstore.Values.booleanValue getIsOutputParameter() {
           if (isOutputParameterBuilder_ == null) {
@@ -2424,11 +2427,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
          */
         public Builder setIsOutputParameter(io.dstore.Values.booleanValue value) {
           if (isOutputParameterBuilder_ == null) {
@@ -2444,11 +2447,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
          */
         public Builder setIsOutputParameter(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2462,11 +2465,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
          */
         public Builder mergeIsOutputParameter(io.dstore.Values.booleanValue value) {
           if (isOutputParameterBuilder_ == null) {
@@ -2484,11 +2487,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
          */
         public Builder clearIsOutputParameter() {
           if (isOutputParameterBuilder_ == null) {
@@ -2502,11 +2505,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
          */
         public io.dstore.Values.booleanValue.Builder getIsOutputParameterBuilder() {
           
@@ -2514,11 +2517,11 @@ public final class MiGetProcedureParameters {
           return getIsOutputParameterFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getIsOutputParameterOrBuilder() {
           if (isOutputParameterBuilder_ != null) {
@@ -2529,11 +2532,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2553,21 +2556,21 @@ public final class MiGetProcedureParameters {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lengthBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public boolean hasLength() {
           return lengthBuilder_ != null || length_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public io.dstore.Values.integerValue getLength() {
           if (lengthBuilder_ == null) {
@@ -2577,11 +2580,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public Builder setLength(io.dstore.Values.integerValue value) {
           if (lengthBuilder_ == null) {
@@ -2597,11 +2600,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public Builder setLength(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2615,11 +2618,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public Builder mergeLength(io.dstore.Values.integerValue value) {
           if (lengthBuilder_ == null) {
@@ -2637,11 +2640,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public Builder clearLength() {
           if (lengthBuilder_ == null) {
@@ -2655,11 +2658,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getLengthBuilder() {
           
@@ -2667,11 +2670,11 @@ public final class MiGetProcedureParameters {
           return getLengthFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getLengthOrBuilder() {
           if (lengthBuilder_ != null) {
@@ -2682,11 +2685,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2706,21 +2709,21 @@ public final class MiGetProcedureParameters {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> jDBCScaleBuilder_;
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-         *
          * <pre>
          * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
          */
         public boolean hasJDBCScale() {
           return jDBCScaleBuilder_ != null || jDBCScale_ != null;
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-         *
          * <pre>
          * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
          */
         public io.dstore.Values.longValue getJDBCScale() {
           if (jDBCScaleBuilder_ == null) {
@@ -2730,11 +2733,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-         *
          * <pre>
          * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
          */
         public Builder setJDBCScale(io.dstore.Values.longValue value) {
           if (jDBCScaleBuilder_ == null) {
@@ -2750,11 +2753,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-         *
          * <pre>
          * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
          */
         public Builder setJDBCScale(
             io.dstore.Values.longValue.Builder builderForValue) {
@@ -2768,11 +2771,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-         *
          * <pre>
          * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
          */
         public Builder mergeJDBCScale(io.dstore.Values.longValue value) {
           if (jDBCScaleBuilder_ == null) {
@@ -2790,11 +2793,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-         *
          * <pre>
          * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
          */
         public Builder clearJDBCScale() {
           if (jDBCScaleBuilder_ == null) {
@@ -2808,11 +2811,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-         *
          * <pre>
          * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
          */
         public io.dstore.Values.longValue.Builder getJDBCScaleBuilder() {
           
@@ -2820,11 +2823,11 @@ public final class MiGetProcedureParameters {
           return getJDBCScaleFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-         *
          * <pre>
          * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
          */
         public io.dstore.Values.longValueOrBuilder getJDBCScaleOrBuilder() {
           if (jDBCScaleBuilder_ != null) {
@@ -2835,11 +2838,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
-         *
          * <pre>
          * Nur relevant für numerische Daten-Typen (immer "0" sonst), wie z.B. "decimal" (aber auch "datetime" s. Beschreibung !) und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen, für Werte des Typs "JDBC_DatatypeID" an
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> 
@@ -2859,21 +2862,21 @@ public final class MiGetProcedureParameters {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> jDBCPrecisionBuilder_;
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-         *
          * <pre>
          * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
          */
         public boolean hasJDBCPrecision() {
           return jDBCPrecisionBuilder_ != null || jDBCPrecision_ != null;
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-         *
          * <pre>
          * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
          */
         public io.dstore.Values.longValue getJDBCPrecision() {
           if (jDBCPrecisionBuilder_ == null) {
@@ -2883,11 +2886,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-         *
          * <pre>
          * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
          */
         public Builder setJDBCPrecision(io.dstore.Values.longValue value) {
           if (jDBCPrecisionBuilder_ == null) {
@@ -2903,11 +2906,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-         *
          * <pre>
          * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
          */
         public Builder setJDBCPrecision(
             io.dstore.Values.longValue.Builder builderForValue) {
@@ -2921,11 +2924,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-         *
          * <pre>
          * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
          */
         public Builder mergeJDBCPrecision(io.dstore.Values.longValue value) {
           if (jDBCPrecisionBuilder_ == null) {
@@ -2943,11 +2946,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-         *
          * <pre>
          * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
          */
         public Builder clearJDBCPrecision() {
           if (jDBCPrecisionBuilder_ == null) {
@@ -2961,11 +2964,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-         *
          * <pre>
          * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
          */
         public io.dstore.Values.longValue.Builder getJDBCPrecisionBuilder() {
           
@@ -2973,11 +2976,11 @@ public final class MiGetProcedureParameters {
           return getJDBCPrecisionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-         *
          * <pre>
          * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
          */
         public io.dstore.Values.longValueOrBuilder getJDBCPrecisionOrBuilder() {
           if (jDBCPrecisionBuilder_ != null) {
@@ -2988,11 +2991,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
-         *
          * <pre>
          * Gibt bei numerischen Datentypen die maximale Anzahl Stellen an, die ein Wert für den Datentyp "JDBC_DatatypeID" haben kann, sonst die maximale Anzahl Bytes (z.B. beim "text"-Datentyp)
          * </pre>
+         *
+         * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> 
@@ -3012,21 +3015,21 @@ public final class MiGetProcedureParameters {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> precisionValueBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
          */
         public boolean hasPrecisionValue() {
           return precisionValueBuilder_ != null || precisionValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
          */
         public io.dstore.Values.integerValue getPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -3036,11 +3039,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
          */
         public Builder setPrecisionValue(io.dstore.Values.integerValue value) {
           if (precisionValueBuilder_ == null) {
@@ -3056,11 +3059,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
          */
         public Builder setPrecisionValue(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3074,11 +3077,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
          */
         public Builder mergePrecisionValue(io.dstore.Values.integerValue value) {
           if (precisionValueBuilder_ == null) {
@@ -3096,11 +3099,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
          */
         public Builder clearPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -3114,11 +3117,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getPrecisionValueBuilder() {
           
@@ -3126,11 +3129,11 @@ public final class MiGetProcedureParameters {
           return getPrecisionValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
           if (precisionValueBuilder_ != null) {
@@ -3141,11 +3144,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3165,21 +3168,21 @@ public final class MiGetProcedureParameters {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> parameterNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-         *
          * <pre>
          * Name eines Parameters der Prozedur "&#64;ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
          */
         public boolean hasParameterName() {
           return parameterNameBuilder_ != null || parameterName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-         *
          * <pre>
          * Name eines Parameters der Prozedur "&#64;ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
          */
         public io.dstore.Values.stringValue getParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -3189,11 +3192,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-         *
          * <pre>
          * Name eines Parameters der Prozedur "&#64;ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
          */
         public Builder setParameterName(io.dstore.Values.stringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -3209,11 +3212,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-         *
          * <pre>
          * Name eines Parameters der Prozedur "&#64;ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
          */
         public Builder setParameterName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3227,11 +3230,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-         *
          * <pre>
          * Name eines Parameters der Prozedur "&#64;ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
          */
         public Builder mergeParameterName(io.dstore.Values.stringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -3249,11 +3252,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-         *
          * <pre>
          * Name eines Parameters der Prozedur "&#64;ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
          */
         public Builder clearParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -3267,11 +3270,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-         *
          * <pre>
          * Name eines Parameters der Prozedur "&#64;ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
          */
         public io.dstore.Values.stringValue.Builder getParameterNameBuilder() {
           
@@ -3279,11 +3282,11 @@ public final class MiGetProcedureParameters {
           return getParameterNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-         *
          * <pre>
          * Name eines Parameters der Prozedur "&#64;ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder() {
           if (parameterNameBuilder_ != null) {
@@ -3294,11 +3297,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
-         *
          * <pre>
          * Name eines Parameters der Prozedur "&#64;ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3318,21 +3321,21 @@ public final class MiGetProcedureParameters {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> scaleBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue scale = 10007;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10007;</code>
          */
         public boolean hasScale() {
           return scaleBuilder_ != null || scale_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10007;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10007;</code>
          */
         public io.dstore.Values.integerValue getScale() {
           if (scaleBuilder_ == null) {
@@ -3342,11 +3345,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10007;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10007;</code>
          */
         public Builder setScale(io.dstore.Values.integerValue value) {
           if (scaleBuilder_ == null) {
@@ -3362,11 +3365,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10007;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10007;</code>
          */
         public Builder setScale(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3380,11 +3383,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10007;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10007;</code>
          */
         public Builder mergeScale(io.dstore.Values.integerValue value) {
           if (scaleBuilder_ == null) {
@@ -3402,11 +3405,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10007;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10007;</code>
          */
         public Builder clearScale() {
           if (scaleBuilder_ == null) {
@@ -3420,11 +3423,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10007;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10007;</code>
          */
         public io.dstore.Values.integerValue.Builder getScaleBuilder() {
           
@@ -3432,11 +3435,11 @@ public final class MiGetProcedureParameters {
           return getScaleFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10007;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10007;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getScaleOrBuilder() {
           if (scaleBuilder_ != null) {
@@ -3447,11 +3450,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10007;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3471,21 +3474,21 @@ public final class MiGetProcedureParameters {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> jDBCDatatypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-         *
          * <pre>
          * Entsprechung von "Datatype" im JDBC-Treiber
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
          */
         public boolean hasJDBCDatatypeId() {
           return jDBCDatatypeIdBuilder_ != null || jDBCDatatypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-         *
          * <pre>
          * Entsprechung von "Datatype" im JDBC-Treiber
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
          */
         public io.dstore.Values.integerValue getJDBCDatatypeId() {
           if (jDBCDatatypeIdBuilder_ == null) {
@@ -3495,11 +3498,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-         *
          * <pre>
          * Entsprechung von "Datatype" im JDBC-Treiber
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
          */
         public Builder setJDBCDatatypeId(io.dstore.Values.integerValue value) {
           if (jDBCDatatypeIdBuilder_ == null) {
@@ -3515,11 +3518,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-         *
          * <pre>
          * Entsprechung von "Datatype" im JDBC-Treiber
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
          */
         public Builder setJDBCDatatypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3533,11 +3536,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-         *
          * <pre>
          * Entsprechung von "Datatype" im JDBC-Treiber
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
          */
         public Builder mergeJDBCDatatypeId(io.dstore.Values.integerValue value) {
           if (jDBCDatatypeIdBuilder_ == null) {
@@ -3555,11 +3558,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-         *
          * <pre>
          * Entsprechung von "Datatype" im JDBC-Treiber
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
          */
         public Builder clearJDBCDatatypeId() {
           if (jDBCDatatypeIdBuilder_ == null) {
@@ -3573,11 +3576,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-         *
          * <pre>
          * Entsprechung von "Datatype" im JDBC-Treiber
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
          */
         public io.dstore.Values.integerValue.Builder getJDBCDatatypeIdBuilder() {
           
@@ -3585,11 +3588,11 @@ public final class MiGetProcedureParameters {
           return getJDBCDatatypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-         *
          * <pre>
          * Entsprechung von "Datatype" im JDBC-Treiber
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getJDBCDatatypeIdOrBuilder() {
           if (jDBCDatatypeIdBuilder_ != null) {
@@ -3600,11 +3603,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
-         *
          * <pre>
          * Entsprechung von "Datatype" im JDBC-Treiber
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3624,21 +3627,21 @@ public final class MiGetProcedureParameters {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> datatypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-         *
          * <pre>
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
          */
         public boolean hasDatatype() {
           return datatypeBuilder_ != null || datatype_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-         *
          * <pre>
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
          */
         public io.dstore.Values.stringValue getDatatype() {
           if (datatypeBuilder_ == null) {
@@ -3648,11 +3651,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-         *
          * <pre>
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
          */
         public Builder setDatatype(io.dstore.Values.stringValue value) {
           if (datatypeBuilder_ == null) {
@@ -3668,11 +3671,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-         *
          * <pre>
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
          */
         public Builder setDatatype(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3686,11 +3689,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-         *
          * <pre>
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
          */
         public Builder mergeDatatype(io.dstore.Values.stringValue value) {
           if (datatypeBuilder_ == null) {
@@ -3708,11 +3711,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-         *
          * <pre>
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
          */
         public Builder clearDatatype() {
           if (datatypeBuilder_ == null) {
@@ -3726,11 +3729,11 @@ public final class MiGetProcedureParameters {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-         *
          * <pre>
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
          */
         public io.dstore.Values.stringValue.Builder getDatatypeBuilder() {
           
@@ -3738,11 +3741,11 @@ public final class MiGetProcedureParameters {
           return getDatatypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-         *
          * <pre>
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDatatypeOrBuilder() {
           if (datatypeBuilder_ != null) {
@@ -3753,11 +3756,11 @@ public final class MiGetProcedureParameters {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
-         *
          * <pre>
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue datatype = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3802,16 +3805,7 @@ public final class MiGetProcedureParameters {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3903,52 +3897,52 @@ public final class MiGetProcedureParameters {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4023,34 +4017,40 @@ public final class MiGetProcedureParameters {
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4287,7 +4287,7 @@ public final class MiGetProcedureParameters {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetProcedureParameters.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4790,11 +4790,11 @@ public final class MiGetProcedureParameters {
           io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row, io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder, io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -4804,11 +4804,11 @@ public final class MiGetProcedureParameters {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -4818,11 +4818,11 @@ public final class MiGetProcedureParameters {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -4832,11 +4832,11 @@ public final class MiGetProcedureParameters {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row value) {
@@ -4853,11 +4853,11 @@ public final class MiGetProcedureParameters {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder builderForValue) {
@@ -4871,11 +4871,11 @@ public final class MiGetProcedureParameters {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -4891,11 +4891,11 @@ public final class MiGetProcedureParameters {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row value) {
@@ -4912,11 +4912,11 @@ public final class MiGetProcedureParameters {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder builderForValue) {
@@ -4930,11 +4930,11 @@ public final class MiGetProcedureParameters {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder builderForValue) {
@@ -4948,11 +4948,11 @@ public final class MiGetProcedureParameters {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row> values) {
@@ -4967,11 +4967,11 @@ public final class MiGetProcedureParameters {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4984,11 +4984,11 @@ public final class MiGetProcedureParameters {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5001,22 +5001,22 @@ public final class MiGetProcedureParameters {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5026,11 +5026,11 @@ public final class MiGetProcedureParameters {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5041,22 +5041,22 @@ public final class MiGetProcedureParameters {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5064,11 +5064,11 @@ public final class MiGetProcedureParameters {
             index, io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcedureParameters.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5118,16 +5118,7 @@ public final class MiGetProcedureParameters {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5146,19 +5137,19 @@ public final class MiGetProcedureParameters {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetProcedureParameters_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetProcedureParameters_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_fieldAccessorTable;
 
@@ -5166,7 +5157,7 @@ public final class MiGetProcedureParameters {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

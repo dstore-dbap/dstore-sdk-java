@@ -223,7 +223,8 @@ public final class MiSearchBinariesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -423,11 +424,10 @@ public final class MiSearchBinariesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -931,34 +931,40 @@ public final class MiSearchBinariesAd {
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1268,7 +1274,7 @@ public final class MiSearchBinariesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiSearchBinariesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2736,16 +2742,7 @@ public final class MiSearchBinariesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2877,7 +2874,8 @@ public final class MiSearchBinariesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2934,11 +2932,10 @@ public final class MiSearchBinariesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2974,177 +2971,177 @@ public final class MiSearchBinariesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-       *
        * <pre>
        * ID eines gefundenen Binaries
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
        */
       boolean hasBinaryCodeId();
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-       *
        * <pre>
        * ID eines gefundenen Binaries
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
        */
       io.dstore.Values.integerValue getBinaryCodeId();
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-       *
        * <pre>
        * ID eines gefundenen Binaries
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
        */
       boolean hasBinaryValue1();
       /**
-       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
        */
       io.dstore.Values.stringValue getBinaryValue1();
       /**
-       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getBinaryValue1OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
        */
       boolean hasBinaryValue3();
       /**
-       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
        */
       io.dstore.Values.stringValue getBinaryValue3();
       /**
-       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getBinaryValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-       *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
        */
       boolean hasThumbnailCode();
       /**
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-       *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
        */
       io.dstore.Values.bytesValue getThumbnailCode();
       /**
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-       *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
        */
       io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
        */
       boolean hasBinaryValue2();
       /**
-       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
        */
       io.dstore.Values.stringValue getBinaryValue2();
       /**
-       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getBinaryValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-       *
        * <pre>
        * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
        */
       boolean hasUsedInTableBitmap();
       /**
-       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-       *
        * <pre>
        * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
        */
       io.dstore.Values.integerValue getUsedInTableBitmap();
       /**
-       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-       *
        * <pre>
        * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUsedInTableBitmapOrBuilder();
 
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-       *
        * <pre>
        * Die Binärdaten selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
        */
       boolean hasBinaryCode();
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-       *
        * <pre>
        * Die Binärdaten selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
        */
       io.dstore.Values.bytesValue getBinaryCode();
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-       *
        * <pre>
        * Die Binärdaten selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
        */
       io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder();
     }
@@ -3170,7 +3167,8 @@ public final class MiSearchBinariesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -3286,11 +3284,10 @@ public final class MiSearchBinariesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -3319,31 +3316,31 @@ public final class MiSearchBinariesAd {
       public static final int BINARY_CODE_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue binaryCodeId_;
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-       *
        * <pre>
        * ID eines gefundenen Binaries
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-       *
        * <pre>
        * ID eines gefundenen Binaries
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getBinaryCodeId() {
         return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-       *
        * <pre>
        * ID eines gefundenen Binaries
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
@@ -3352,31 +3349,31 @@ public final class MiSearchBinariesAd {
       public static final int BINARY_VALUE1_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue binaryValue1_;
       /**
-       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
        */
       public boolean hasBinaryValue1() {
         return binaryValue1_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
        */
       public io.dstore.Values.stringValue getBinaryValue1() {
         return binaryValue1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryValue1_;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getBinaryValue1OrBuilder() {
         return getBinaryValue1();
@@ -3385,31 +3382,31 @@ public final class MiSearchBinariesAd {
       public static final int BINARY_VALUE3_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue binaryValue3_;
       /**
-       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
        */
       public boolean hasBinaryValue3() {
         return binaryValue3_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
        */
       public io.dstore.Values.stringValue getBinaryValue3() {
         return binaryValue3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryValue3_;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getBinaryValue3OrBuilder() {
         return getBinaryValue3();
@@ -3418,31 +3415,31 @@ public final class MiSearchBinariesAd {
       public static final int THUMBNAIL_CODE_FIELD_NUMBER = 10004;
       private io.dstore.Values.bytesValue thumbnailCode_;
       /**
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-       *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
        */
       public boolean hasThumbnailCode() {
         return thumbnailCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-       *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
        */
       public io.dstore.Values.bytesValue getThumbnailCode() {
         return thumbnailCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
       }
       /**
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-       *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
        */
       public io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
         return getThumbnailCode();
@@ -3451,31 +3448,31 @@ public final class MiSearchBinariesAd {
       public static final int BINARY_VALUE2_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue binaryValue2_;
       /**
-       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
        */
       public boolean hasBinaryValue2() {
         return binaryValue2_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
        */
       public io.dstore.Values.stringValue getBinaryValue2() {
         return binaryValue2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryValue2_;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getBinaryValue2OrBuilder() {
         return getBinaryValue2();
@@ -3484,31 +3481,31 @@ public final class MiSearchBinariesAd {
       public static final int USED_IN_TABLE_BITMAP_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue usedInTableBitmap_;
       /**
-       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-       *
        * <pre>
        * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
        */
       public boolean hasUsedInTableBitmap() {
         return usedInTableBitmap_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-       *
        * <pre>
        * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
        */
       public io.dstore.Values.integerValue getUsedInTableBitmap() {
         return usedInTableBitmap_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInTableBitmap_;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-       *
        * <pre>
        * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUsedInTableBitmapOrBuilder() {
         return getUsedInTableBitmap();
@@ -3517,31 +3514,31 @@ public final class MiSearchBinariesAd {
       public static final int BINARY_CODE_FIELD_NUMBER = 10007;
       private io.dstore.Values.bytesValue binaryCode_;
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-       *
        * <pre>
        * Die Binärdaten selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
        */
       public boolean hasBinaryCode() {
         return binaryCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-       *
        * <pre>
        * Die Binärdaten selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
        */
       public io.dstore.Values.bytesValue getBinaryCode() {
         return binaryCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
       }
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-       *
        * <pre>
        * Die Binärdaten selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
        */
       public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
         return getBinaryCode();
@@ -3650,34 +3647,40 @@ public final class MiSearchBinariesAd {
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -3891,7 +3894,7 @@ public final class MiSearchBinariesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -3930,21 +3933,21 @@ public final class MiSearchBinariesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-         *
          * <pre>
          * ID eines gefundenen Binaries
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
          */
         public boolean hasBinaryCodeId() {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-         *
          * <pre>
          * ID eines gefundenen Binaries
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -3954,11 +3957,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-         *
          * <pre>
          * ID eines gefundenen Binaries
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
          */
         public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
           if (binaryCodeIdBuilder_ == null) {
@@ -3974,11 +3977,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-         *
          * <pre>
          * ID eines gefundenen Binaries
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
          */
         public Builder setBinaryCodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3992,11 +3995,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-         *
          * <pre>
          * ID eines gefundenen Binaries
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
          */
         public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
           if (binaryCodeIdBuilder_ == null) {
@@ -4014,11 +4017,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-         *
          * <pre>
          * ID eines gefundenen Binaries
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
          */
         public Builder clearBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -4032,11 +4035,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-         *
          * <pre>
          * ID eines gefundenen Binaries
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
           
@@ -4044,11 +4047,11 @@ public final class MiSearchBinariesAd {
           return getBinaryCodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-         *
          * <pre>
          * ID eines gefundenen Binaries
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
@@ -4059,11 +4062,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
-         *
          * <pre>
          * ID eines gefundenen Binaries
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4083,21 +4086,21 @@ public final class MiSearchBinariesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryValue1Builder_;
         /**
-         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
          */
         public boolean hasBinaryValue1() {
           return binaryValue1Builder_ != null || binaryValue1_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
          */
         public io.dstore.Values.stringValue getBinaryValue1() {
           if (binaryValue1Builder_ == null) {
@@ -4107,11 +4110,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
          */
         public Builder setBinaryValue1(io.dstore.Values.stringValue value) {
           if (binaryValue1Builder_ == null) {
@@ -4127,11 +4130,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
          */
         public Builder setBinaryValue1(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4145,11 +4148,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
          */
         public Builder mergeBinaryValue1(io.dstore.Values.stringValue value) {
           if (binaryValue1Builder_ == null) {
@@ -4167,11 +4170,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
          */
         public Builder clearBinaryValue1() {
           if (binaryValue1Builder_ == null) {
@@ -4185,11 +4188,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getBinaryValue1Builder() {
           
@@ -4197,11 +4200,11 @@ public final class MiSearchBinariesAd {
           return getBinaryValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getBinaryValue1OrBuilder() {
           if (binaryValue1Builder_ != null) {
@@ -4212,11 +4215,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4236,21 +4239,21 @@ public final class MiSearchBinariesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryValue3Builder_;
         /**
-         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
          */
         public boolean hasBinaryValue3() {
           return binaryValue3Builder_ != null || binaryValue3_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
          */
         public io.dstore.Values.stringValue getBinaryValue3() {
           if (binaryValue3Builder_ == null) {
@@ -4260,11 +4263,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
          */
         public Builder setBinaryValue3(io.dstore.Values.stringValue value) {
           if (binaryValue3Builder_ == null) {
@@ -4280,11 +4283,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
          */
         public Builder setBinaryValue3(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4298,11 +4301,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
          */
         public Builder mergeBinaryValue3(io.dstore.Values.stringValue value) {
           if (binaryValue3Builder_ == null) {
@@ -4320,11 +4323,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
          */
         public Builder clearBinaryValue3() {
           if (binaryValue3Builder_ == null) {
@@ -4338,11 +4341,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getBinaryValue3Builder() {
           
@@ -4350,11 +4353,11 @@ public final class MiSearchBinariesAd {
           return getBinaryValue3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getBinaryValue3OrBuilder() {
           if (binaryValue3Builder_ != null) {
@@ -4365,11 +4368,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4389,21 +4392,21 @@ public final class MiSearchBinariesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> thumbnailCodeBuilder_;
         /**
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-         *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
          */
         public boolean hasThumbnailCode() {
           return thumbnailCodeBuilder_ != null || thumbnailCode_ != null;
         }
         /**
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-         *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
          */
         public io.dstore.Values.bytesValue getThumbnailCode() {
           if (thumbnailCodeBuilder_ == null) {
@@ -4413,11 +4416,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-         *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
          */
         public Builder setThumbnailCode(io.dstore.Values.bytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
@@ -4433,11 +4436,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-         *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
          */
         public Builder setThumbnailCode(
             io.dstore.Values.bytesValue.Builder builderForValue) {
@@ -4451,11 +4454,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-         *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
          */
         public Builder mergeThumbnailCode(io.dstore.Values.bytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
@@ -4473,11 +4476,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-         *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
          */
         public Builder clearThumbnailCode() {
           if (thumbnailCodeBuilder_ == null) {
@@ -4491,11 +4494,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-         *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
          */
         public io.dstore.Values.bytesValue.Builder getThumbnailCodeBuilder() {
           
@@ -4503,11 +4506,11 @@ public final class MiSearchBinariesAd {
           return getThumbnailCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-         *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
          */
         public io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
           if (thumbnailCodeBuilder_ != null) {
@@ -4518,11 +4521,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
-         *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
@@ -4542,21 +4545,21 @@ public final class MiSearchBinariesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryValue2Builder_;
         /**
-         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
          */
         public boolean hasBinaryValue2() {
           return binaryValue2Builder_ != null || binaryValue2_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
          */
         public io.dstore.Values.stringValue getBinaryValue2() {
           if (binaryValue2Builder_ == null) {
@@ -4566,11 +4569,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
          */
         public Builder setBinaryValue2(io.dstore.Values.stringValue value) {
           if (binaryValue2Builder_ == null) {
@@ -4586,11 +4589,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
          */
         public Builder setBinaryValue2(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4604,11 +4607,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
          */
         public Builder mergeBinaryValue2(io.dstore.Values.stringValue value) {
           if (binaryValue2Builder_ == null) {
@@ -4626,11 +4629,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
          */
         public Builder clearBinaryValue2() {
           if (binaryValue2Builder_ == null) {
@@ -4644,11 +4647,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getBinaryValue2Builder() {
           
@@ -4656,11 +4659,11 @@ public final class MiSearchBinariesAd {
           return getBinaryValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getBinaryValue2OrBuilder() {
           if (binaryValue2Builder_ != null) {
@@ -4671,11 +4674,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4695,21 +4698,21 @@ public final class MiSearchBinariesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInTableBitmapBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-         *
          * <pre>
          * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
          */
         public boolean hasUsedInTableBitmap() {
           return usedInTableBitmapBuilder_ != null || usedInTableBitmap_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-         *
          * <pre>
          * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
          */
         public io.dstore.Values.integerValue getUsedInTableBitmap() {
           if (usedInTableBitmapBuilder_ == null) {
@@ -4719,11 +4722,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-         *
          * <pre>
          * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
          */
         public Builder setUsedInTableBitmap(io.dstore.Values.integerValue value) {
           if (usedInTableBitmapBuilder_ == null) {
@@ -4739,11 +4742,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-         *
          * <pre>
          * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
          */
         public Builder setUsedInTableBitmap(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4757,11 +4760,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-         *
          * <pre>
          * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
          */
         public Builder mergeUsedInTableBitmap(io.dstore.Values.integerValue value) {
           if (usedInTableBitmapBuilder_ == null) {
@@ -4779,11 +4782,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-         *
          * <pre>
          * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
          */
         public Builder clearUsedInTableBitmap() {
           if (usedInTableBitmapBuilder_ == null) {
@@ -4797,11 +4800,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-         *
          * <pre>
          * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getUsedInTableBitmapBuilder() {
           
@@ -4809,11 +4812,11 @@ public final class MiSearchBinariesAd {
           return getUsedInTableBitmapFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-         *
          * <pre>
          * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUsedInTableBitmapOrBuilder() {
           if (usedInTableBitmapBuilder_ != null) {
@@ -4824,11 +4827,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
-         *
          * <pre>
          * Wo "BinaryCodeID" referenziert wird. Summe folgeder Werte :- "1" : "NodePresentations" (Artikel-Elemente)- "2" : "BinariesForValues" (Artikel-Eigenschaften)- "4" : "BinariesForPersons" (Personen)- "8" : "AuctionItems" (Auktionen)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4848,21 +4851,21 @@ public final class MiSearchBinariesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> binaryCodeBuilder_;
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-         *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
          */
         public boolean hasBinaryCode() {
           return binaryCodeBuilder_ != null || binaryCode_ != null;
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-         *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
          */
         public io.dstore.Values.bytesValue getBinaryCode() {
           if (binaryCodeBuilder_ == null) {
@@ -4872,11 +4875,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-         *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
          */
         public Builder setBinaryCode(io.dstore.Values.bytesValue value) {
           if (binaryCodeBuilder_ == null) {
@@ -4892,11 +4895,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-         *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
          */
         public Builder setBinaryCode(
             io.dstore.Values.bytesValue.Builder builderForValue) {
@@ -4910,11 +4913,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-         *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
          */
         public Builder mergeBinaryCode(io.dstore.Values.bytesValue value) {
           if (binaryCodeBuilder_ == null) {
@@ -4932,11 +4935,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-         *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
          */
         public Builder clearBinaryCode() {
           if (binaryCodeBuilder_ == null) {
@@ -4950,11 +4953,11 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-         *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
          */
         public io.dstore.Values.bytesValue.Builder getBinaryCodeBuilder() {
           
@@ -4962,11 +4965,11 @@ public final class MiSearchBinariesAd {
           return getBinaryCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-         *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
          */
         public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
           if (binaryCodeBuilder_ != null) {
@@ -4977,11 +4980,11 @@ public final class MiSearchBinariesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
-         *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
@@ -5026,16 +5029,7 @@ public final class MiSearchBinariesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -5256,34 +5250,40 @@ public final class MiSearchBinariesAd {
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -5536,7 +5536,7 @@ public final class MiSearchBinariesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiSearchBinariesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -6412,16 +6412,7 @@ public final class MiSearchBinariesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -6440,19 +6431,19 @@ public final class MiSearchBinariesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_fieldAccessorTable;
 
@@ -6460,7 +6451,7 @@ public final class MiSearchBinariesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

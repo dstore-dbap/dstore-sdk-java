@@ -33,7 +33,8 @@ public final class MiGetLicenceKeyData {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       try {
         boolean done = false;
@@ -52,11 +53,10 @@ public final class MiGetLicenceKeyData {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -120,34 +120,40 @@ public final class MiGetLicenceKeyData {
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -257,7 +263,7 @@ public final class MiGetLicenceKeyData {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetLicenceKeyData.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -295,16 +301,7 @@ public final class MiGetLicenceKeyData {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -376,45 +373,45 @@ public final class MiGetLicenceKeyData {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetLicenceKeyData.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetLicenceKeyData.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -443,7 +440,8 @@ public final class MiGetLicenceKeyData {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -487,11 +485,10 @@ public final class MiGetLicenceKeyData {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -527,127 +524,127 @@ public final class MiGetLicenceKeyData {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue comment = 10001;</code>
-       *
        * <pre>
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10001;</code>
        */
       boolean hasComment();
       /**
-       * <code>optional .dstore.values.stringValue comment = 10001;</code>
-       *
        * <pre>
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10001;</code>
        */
       io.dstore.Values.stringValue getComment();
       /**
-       * <code>optional .dstore.values.stringValue comment = 10001;</code>
-       *
        * <pre>
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCommentOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-       *
        * <pre>
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
        */
       boolean hasUnderlyingTimePeriod();
       /**
-       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-       *
        * <pre>
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
        */
       io.dstore.Values.stringValue getUnderlyingTimePeriod();
       /**
-       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-       *
        * <pre>
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUnderlyingTimePeriodOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-       *
        * <pre>
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
        */
       boolean hasCurrentValue();
       /**
-       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-       *
        * <pre>
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
        */
       io.dstore.Values.stringValue getCurrentValue();
       /**
-       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-       *
        * <pre>
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCurrentValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-       *
        * <pre>
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
        */
       boolean hasLicenceParameter();
       /**
-       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-       *
        * <pre>
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
        */
       io.dstore.Values.stringValue getLicenceParameter();
       /**
-       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-       *
        * <pre>
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getLicenceParameterOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-       *
        * <pre>
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
        */
       boolean hasCurrentDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-       *
        * <pre>
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
        */
       io.dstore.Values.timestampValue getCurrentDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-       *
        * <pre>
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getCurrentDateAndTimeOrBuilder();
     }
@@ -673,7 +670,8 @@ public final class MiGetLicenceKeyData {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -763,11 +761,10 @@ public final class MiGetLicenceKeyData {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -796,31 +793,31 @@ public final class MiGetLicenceKeyData {
       public static final int COMMENT_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue comment_;
       /**
-       * <code>optional .dstore.values.stringValue comment = 10001;</code>
-       *
        * <pre>
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10001;</code>
        */
       public boolean hasComment() {
         return comment_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue comment = 10001;</code>
-       *
        * <pre>
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10001;</code>
        */
       public io.dstore.Values.stringValue getComment() {
         return comment_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : comment_;
       }
       /**
-       * <code>optional .dstore.values.stringValue comment = 10001;</code>
-       *
        * <pre>
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue comment = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCommentOrBuilder() {
         return getComment();
@@ -829,31 +826,31 @@ public final class MiGetLicenceKeyData {
       public static final int UNDERLYING_TIME_PERIOD_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue underlyingTimePeriod_;
       /**
-       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-       *
        * <pre>
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
        */
       public boolean hasUnderlyingTimePeriod() {
         return underlyingTimePeriod_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-       *
        * <pre>
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
        */
       public io.dstore.Values.stringValue getUnderlyingTimePeriod() {
         return underlyingTimePeriod_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : underlyingTimePeriod_;
       }
       /**
-       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-       *
        * <pre>
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUnderlyingTimePeriodOrBuilder() {
         return getUnderlyingTimePeriod();
@@ -862,31 +859,31 @@ public final class MiGetLicenceKeyData {
       public static final int CURRENT_VALUE_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue currentValue_;
       /**
-       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-       *
        * <pre>
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
        */
       public boolean hasCurrentValue() {
         return currentValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-       *
        * <pre>
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
        */
       public io.dstore.Values.stringValue getCurrentValue() {
         return currentValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : currentValue_;
       }
       /**
-       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-       *
        * <pre>
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue current_value = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCurrentValueOrBuilder() {
         return getCurrentValue();
@@ -895,31 +892,31 @@ public final class MiGetLicenceKeyData {
       public static final int LICENCE_PARAMETER_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue licenceParameter_;
       /**
-       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-       *
        * <pre>
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
        */
       public boolean hasLicenceParameter() {
         return licenceParameter_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-       *
        * <pre>
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
        */
       public io.dstore.Values.stringValue getLicenceParameter() {
         return licenceParameter_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : licenceParameter_;
       }
       /**
-       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-       *
        * <pre>
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getLicenceParameterOrBuilder() {
         return getLicenceParameter();
@@ -928,31 +925,31 @@ public final class MiGetLicenceKeyData {
       public static final int CURRENT_DATE_AND_TIME_FIELD_NUMBER = 10005;
       private io.dstore.Values.timestampValue currentDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-       *
        * <pre>
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
        */
       public boolean hasCurrentDateAndTime() {
         return currentDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-       *
        * <pre>
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
        */
       public io.dstore.Values.timestampValue getCurrentDateAndTime() {
         return currentDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : currentDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-       *
        * <pre>
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getCurrentDateAndTimeOrBuilder() {
         return getCurrentDateAndTime();
@@ -1047,34 +1044,40 @@ public final class MiGetLicenceKeyData {
       }
       public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1260,7 +1263,7 @@ public final class MiGetLicenceKeyData {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1299,21 +1302,21 @@ public final class MiGetLicenceKeyData {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> commentBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue comment = 10001;</code>
-         *
          * <pre>
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10001;</code>
          */
         public boolean hasComment() {
           return commentBuilder_ != null || comment_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10001;</code>
-         *
          * <pre>
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10001;</code>
          */
         public io.dstore.Values.stringValue getComment() {
           if (commentBuilder_ == null) {
@@ -1323,11 +1326,11 @@ public final class MiGetLicenceKeyData {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10001;</code>
-         *
          * <pre>
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10001;</code>
          */
         public Builder setComment(io.dstore.Values.stringValue value) {
           if (commentBuilder_ == null) {
@@ -1343,11 +1346,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10001;</code>
-         *
          * <pre>
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10001;</code>
          */
         public Builder setComment(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1361,11 +1364,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10001;</code>
-         *
          * <pre>
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10001;</code>
          */
         public Builder mergeComment(io.dstore.Values.stringValue value) {
           if (commentBuilder_ == null) {
@@ -1383,11 +1386,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10001;</code>
-         *
          * <pre>
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10001;</code>
          */
         public Builder clearComment() {
           if (commentBuilder_ == null) {
@@ -1401,11 +1404,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10001;</code>
-         *
          * <pre>
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getCommentBuilder() {
           
@@ -1413,11 +1416,11 @@ public final class MiGetLicenceKeyData {
           return getCommentFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10001;</code>
-         *
          * <pre>
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCommentOrBuilder() {
           if (commentBuilder_ != null) {
@@ -1428,11 +1431,11 @@ public final class MiGetLicenceKeyData {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue comment = 10001;</code>
-         *
          * <pre>
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue comment = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1452,21 +1455,21 @@ public final class MiGetLicenceKeyData {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> underlyingTimePeriodBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-         *
          * <pre>
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
          */
         public boolean hasUnderlyingTimePeriod() {
           return underlyingTimePeriodBuilder_ != null || underlyingTimePeriod_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-         *
          * <pre>
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
          */
         public io.dstore.Values.stringValue getUnderlyingTimePeriod() {
           if (underlyingTimePeriodBuilder_ == null) {
@@ -1476,11 +1479,11 @@ public final class MiGetLicenceKeyData {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-         *
          * <pre>
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
          */
         public Builder setUnderlyingTimePeriod(io.dstore.Values.stringValue value) {
           if (underlyingTimePeriodBuilder_ == null) {
@@ -1496,11 +1499,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-         *
          * <pre>
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
          */
         public Builder setUnderlyingTimePeriod(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1514,11 +1517,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-         *
          * <pre>
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
          */
         public Builder mergeUnderlyingTimePeriod(io.dstore.Values.stringValue value) {
           if (underlyingTimePeriodBuilder_ == null) {
@@ -1536,11 +1539,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-         *
          * <pre>
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
          */
         public Builder clearUnderlyingTimePeriod() {
           if (underlyingTimePeriodBuilder_ == null) {
@@ -1554,11 +1557,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-         *
          * <pre>
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getUnderlyingTimePeriodBuilder() {
           
@@ -1566,11 +1569,11 @@ public final class MiGetLicenceKeyData {
           return getUnderlyingTimePeriodFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-         *
          * <pre>
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUnderlyingTimePeriodOrBuilder() {
           if (underlyingTimePeriodBuilder_ != null) {
@@ -1581,11 +1584,11 @@ public final class MiGetLicenceKeyData {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
-         *
          * <pre>
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue underlying_time_period = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1605,21 +1608,21 @@ public final class MiGetLicenceKeyData {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> currentValueBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-         *
          * <pre>
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
          */
         public boolean hasCurrentValue() {
           return currentValueBuilder_ != null || currentValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-         *
          * <pre>
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
          */
         public io.dstore.Values.stringValue getCurrentValue() {
           if (currentValueBuilder_ == null) {
@@ -1629,11 +1632,11 @@ public final class MiGetLicenceKeyData {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-         *
          * <pre>
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
          */
         public Builder setCurrentValue(io.dstore.Values.stringValue value) {
           if (currentValueBuilder_ == null) {
@@ -1649,11 +1652,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-         *
          * <pre>
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
          */
         public Builder setCurrentValue(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1667,11 +1670,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-         *
          * <pre>
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
          */
         public Builder mergeCurrentValue(io.dstore.Values.stringValue value) {
           if (currentValueBuilder_ == null) {
@@ -1689,11 +1692,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-         *
          * <pre>
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
          */
         public Builder clearCurrentValue() {
           if (currentValueBuilder_ == null) {
@@ -1707,11 +1710,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-         *
          * <pre>
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getCurrentValueBuilder() {
           
@@ -1719,11 +1722,11 @@ public final class MiGetLicenceKeyData {
           return getCurrentValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-         *
          * <pre>
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCurrentValueOrBuilder() {
           if (currentValueBuilder_ != null) {
@@ -1734,11 +1737,11 @@ public final class MiGetLicenceKeyData {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
-         *
          * <pre>
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue current_value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1758,21 +1761,21 @@ public final class MiGetLicenceKeyData {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> licenceParameterBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-         *
          * <pre>
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
          */
         public boolean hasLicenceParameter() {
           return licenceParameterBuilder_ != null || licenceParameter_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-         *
          * <pre>
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
          */
         public io.dstore.Values.stringValue getLicenceParameter() {
           if (licenceParameterBuilder_ == null) {
@@ -1782,11 +1785,11 @@ public final class MiGetLicenceKeyData {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-         *
          * <pre>
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
          */
         public Builder setLicenceParameter(io.dstore.Values.stringValue value) {
           if (licenceParameterBuilder_ == null) {
@@ -1802,11 +1805,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-         *
          * <pre>
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
          */
         public Builder setLicenceParameter(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1820,11 +1823,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-         *
          * <pre>
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
          */
         public Builder mergeLicenceParameter(io.dstore.Values.stringValue value) {
           if (licenceParameterBuilder_ == null) {
@@ -1842,11 +1845,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-         *
          * <pre>
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
          */
         public Builder clearLicenceParameter() {
           if (licenceParameterBuilder_ == null) {
@@ -1860,11 +1863,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-         *
          * <pre>
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getLicenceParameterBuilder() {
           
@@ -1872,11 +1875,11 @@ public final class MiGetLicenceKeyData {
           return getLicenceParameterFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-         *
          * <pre>
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getLicenceParameterOrBuilder() {
           if (licenceParameterBuilder_ != null) {
@@ -1887,11 +1890,11 @@ public final class MiGetLicenceKeyData {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
-         *
          * <pre>
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue licence_parameter = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1911,21 +1914,21 @@ public final class MiGetLicenceKeyData {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> currentDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-         *
          * <pre>
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
          */
         public boolean hasCurrentDateAndTime() {
           return currentDateAndTimeBuilder_ != null || currentDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-         *
          * <pre>
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
          */
         public io.dstore.Values.timestampValue getCurrentDateAndTime() {
           if (currentDateAndTimeBuilder_ == null) {
@@ -1935,11 +1938,11 @@ public final class MiGetLicenceKeyData {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-         *
          * <pre>
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
          */
         public Builder setCurrentDateAndTime(io.dstore.Values.timestampValue value) {
           if (currentDateAndTimeBuilder_ == null) {
@@ -1955,11 +1958,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-         *
          * <pre>
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
          */
         public Builder setCurrentDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -1973,11 +1976,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-         *
          * <pre>
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
          */
         public Builder mergeCurrentDateAndTime(io.dstore.Values.timestampValue value) {
           if (currentDateAndTimeBuilder_ == null) {
@@ -1995,11 +1998,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-         *
          * <pre>
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
          */
         public Builder clearCurrentDateAndTime() {
           if (currentDateAndTimeBuilder_ == null) {
@@ -2013,11 +2016,11 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-         *
          * <pre>
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
          */
         public io.dstore.Values.timestampValue.Builder getCurrentDateAndTimeBuilder() {
           
@@ -2025,11 +2028,11 @@ public final class MiGetLicenceKeyData {
           return getCurrentDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-         *
          * <pre>
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getCurrentDateAndTimeOrBuilder() {
           if (currentDateAndTimeBuilder_ != null) {
@@ -2040,11 +2043,11 @@ public final class MiGetLicenceKeyData {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
-         *
          * <pre>
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue current_date_and_time = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -2089,16 +2092,7 @@ public final class MiGetLicenceKeyData {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2190,52 +2184,52 @@ public final class MiGetLicenceKeyData {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetLicenceKeyData.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetLicenceKeyData.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2310,34 +2304,40 @@ public final class MiGetLicenceKeyData {
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetLicenceKeyData.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2574,7 +2574,7 @@ public final class MiGetLicenceKeyData {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetLicenceKeyData.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3077,11 +3077,11 @@ public final class MiGetLicenceKeyData {
           io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row, io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row.Builder, io.dstore.engine.procedures.MiGetLicenceKeyData.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3091,11 +3091,11 @@ public final class MiGetLicenceKeyData {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3105,11 +3105,11 @@ public final class MiGetLicenceKeyData {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3119,11 +3119,11 @@ public final class MiGetLicenceKeyData {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row value) {
@@ -3140,11 +3140,11 @@ public final class MiGetLicenceKeyData {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row.Builder builderForValue) {
@@ -3158,11 +3158,11 @@ public final class MiGetLicenceKeyData {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3178,11 +3178,11 @@ public final class MiGetLicenceKeyData {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row value) {
@@ -3199,11 +3199,11 @@ public final class MiGetLicenceKeyData {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row.Builder builderForValue) {
@@ -3217,11 +3217,11 @@ public final class MiGetLicenceKeyData {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row.Builder builderForValue) {
@@ -3235,11 +3235,11 @@ public final class MiGetLicenceKeyData {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row> values) {
@@ -3254,11 +3254,11 @@ public final class MiGetLicenceKeyData {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3271,11 +3271,11 @@ public final class MiGetLicenceKeyData {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3288,22 +3288,22 @@ public final class MiGetLicenceKeyData {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetLicenceKeyData.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3313,11 +3313,11 @@ public final class MiGetLicenceKeyData {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetLicenceKeyData.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3328,22 +3328,22 @@ public final class MiGetLicenceKeyData {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3351,11 +3351,11 @@ public final class MiGetLicenceKeyData {
             index, io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetLicenceKeyData.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetLicenceKeyData.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3405,16 +3405,7 @@ public final class MiGetLicenceKeyData {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3433,19 +3424,19 @@ public final class MiGetLicenceKeyData {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetLicenceKeyData_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetLicenceKeyData_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetLicenceKeyData_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetLicenceKeyData_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetLicenceKeyData_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetLicenceKeyData_Response_Row_fieldAccessorTable;
 
@@ -3453,7 +3444,7 @@ public final class MiGetLicenceKeyData {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

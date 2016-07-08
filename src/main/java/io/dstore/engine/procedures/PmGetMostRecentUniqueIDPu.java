@@ -90,7 +90,8 @@ public final class PmGetMostRecentUniqueIDPu {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class PmGetMostRecentUniqueIDPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class PmGetMostRecentUniqueIDPu {
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class PmGetMostRecentUniqueIDPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class PmGetMostRecentUniqueIDPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class PmGetMostRecentUniqueIDPu {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class PmGetMostRecentUniqueIDPu {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class PmGetMostRecentUniqueIDPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,102 +1257,102 @@ public final class PmGetMostRecentUniqueIDPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-       *
        * <pre>
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        */
       boolean hasVisitorId();
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-       *
        * <pre>
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        */
       io.dstore.Values.integerValue getVisitorId();
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-       *
        * <pre>
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-       *
        * <pre>
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
        */
       boolean hasUniqueId();
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-       *
        * <pre>
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
        */
       io.dstore.Values.stringValue getUniqueId();
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-       *
        * <pre>
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID der identifizierten Person
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       boolean hasPersonId();
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID der identifizierten Person
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       io.dstore.Values.integerValue getPersonId();
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID der identifizierten Person
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-       *
        * <pre>
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
        */
       boolean hasValidFrom();
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-       *
        * <pre>
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
        */
       io.dstore.Values.timestampValue getValidFrom();
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-       *
        * <pre>
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
     }
@@ -1381,7 +1378,8 @@ public final class PmGetMostRecentUniqueIDPu {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1458,11 +1456,10 @@ public final class PmGetMostRecentUniqueIDPu {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1491,31 +1488,31 @@ public final class PmGetMostRecentUniqueIDPu {
       public static final int VISITOR_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue visitorId_;
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-       *
        * <pre>
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        */
       public boolean hasVisitorId() {
         return visitorId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-       *
        * <pre>
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getVisitorId() {
         return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-       *
        * <pre>
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
         return getVisitorId();
@@ -1524,31 +1521,31 @@ public final class PmGetMostRecentUniqueIDPu {
       public static final int UNIQUE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue uniqueId_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-       *
        * <pre>
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
        */
       public boolean hasUniqueId() {
         return uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-       *
        * <pre>
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
        */
       public io.dstore.Values.stringValue getUniqueId() {
         return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-       *
        * <pre>
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         return getUniqueId();
@@ -1557,31 +1554,31 @@ public final class PmGetMostRecentUniqueIDPu {
       public static final int PERSON_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue personId_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID der identifizierten Person
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID der identifizierten Person
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getPersonId() {
         return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID der identifizierten Person
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
@@ -1590,31 +1587,31 @@ public final class PmGetMostRecentUniqueIDPu {
       public static final int VALID_FROM_FIELD_NUMBER = 10004;
       private io.dstore.Values.timestampValue validFrom_;
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-       *
        * <pre>
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
        */
       public boolean hasValidFrom() {
         return validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-       *
        * <pre>
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
        */
       public io.dstore.Values.timestampValue getValidFrom() {
         return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-       *
        * <pre>
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
         return getValidFrom();
@@ -1702,34 +1699,40 @@ public final class PmGetMostRecentUniqueIDPu {
       }
       public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1901,7 +1904,7 @@ public final class PmGetMostRecentUniqueIDPu {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1940,21 +1943,21 @@ public final class PmGetMostRecentUniqueIDPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-         *
          * <pre>
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          */
         public boolean hasVisitorId() {
           return visitorIdBuilder_ != null || visitorId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-         *
          * <pre>
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getVisitorId() {
           if (visitorIdBuilder_ == null) {
@@ -1964,11 +1967,11 @@ public final class PmGetMostRecentUniqueIDPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-         *
          * <pre>
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          */
         public Builder setVisitorId(io.dstore.Values.integerValue value) {
           if (visitorIdBuilder_ == null) {
@@ -1984,11 +1987,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-         *
          * <pre>
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          */
         public Builder setVisitorId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2002,11 +2005,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-         *
          * <pre>
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          */
         public Builder mergeVisitorId(io.dstore.Values.integerValue value) {
           if (visitorIdBuilder_ == null) {
@@ -2024,11 +2027,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-         *
          * <pre>
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          */
         public Builder clearVisitorId() {
           if (visitorIdBuilder_ == null) {
@@ -2042,11 +2045,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-         *
          * <pre>
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getVisitorIdBuilder() {
           
@@ -2054,11 +2057,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return getVisitorIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-         *
          * <pre>
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
           if (visitorIdBuilder_ != null) {
@@ -2069,11 +2072,11 @@ public final class PmGetMostRecentUniqueIDPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
-         *
          * <pre>
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2093,21 +2096,21 @@ public final class PmGetMostRecentUniqueIDPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-         *
          * <pre>
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
          */
         public boolean hasUniqueId() {
           return uniqueIdBuilder_ != null || uniqueId_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-         *
          * <pre>
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
          */
         public io.dstore.Values.stringValue getUniqueId() {
           if (uniqueIdBuilder_ == null) {
@@ -2117,11 +2120,11 @@ public final class PmGetMostRecentUniqueIDPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-         *
          * <pre>
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
          */
         public Builder setUniqueId(io.dstore.Values.stringValue value) {
           if (uniqueIdBuilder_ == null) {
@@ -2137,11 +2140,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-         *
          * <pre>
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
          */
         public Builder setUniqueId(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2155,11 +2158,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-         *
          * <pre>
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
          */
         public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
           if (uniqueIdBuilder_ == null) {
@@ -2177,11 +2180,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-         *
          * <pre>
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
          */
         public Builder clearUniqueId() {
           if (uniqueIdBuilder_ == null) {
@@ -2195,11 +2198,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-         *
          * <pre>
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
           
@@ -2207,11 +2210,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return getUniqueIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-         *
          * <pre>
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
           if (uniqueIdBuilder_ != null) {
@@ -2222,11 +2225,11 @@ public final class PmGetMostRecentUniqueIDPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
-         *
          * <pre>
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2246,21 +2249,21 @@ public final class PmGetMostRecentUniqueIDPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID der identifizierten Person
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID der identifizierten Person
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getPersonId() {
           if (personIdBuilder_ == null) {
@@ -2270,11 +2273,11 @@ public final class PmGetMostRecentUniqueIDPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID der identifizierten Person
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public Builder setPersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
@@ -2290,11 +2293,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID der identifizierten Person
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public Builder setPersonId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2308,11 +2311,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID der identifizierten Person
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public Builder mergePersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
@@ -2330,11 +2333,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID der identifizierten Person
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -2348,11 +2351,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID der identifizierten Person
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
           
@@ -2360,11 +2363,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return getPersonIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID der identifizierten Person
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
@@ -2375,11 +2378,11 @@ public final class PmGetMostRecentUniqueIDPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID der identifizierten Person
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2399,21 +2402,21 @@ public final class PmGetMostRecentUniqueIDPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-         *
          * <pre>
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
          */
         public boolean hasValidFrom() {
           return validFromBuilder_ != null || validFrom_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-         *
          * <pre>
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
          */
         public io.dstore.Values.timestampValue getValidFrom() {
           if (validFromBuilder_ == null) {
@@ -2423,11 +2426,11 @@ public final class PmGetMostRecentUniqueIDPu {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-         *
          * <pre>
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
          */
         public Builder setValidFrom(io.dstore.Values.timestampValue value) {
           if (validFromBuilder_ == null) {
@@ -2443,11 +2446,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-         *
          * <pre>
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
          */
         public Builder setValidFrom(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -2461,11 +2464,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-         *
          * <pre>
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
          */
         public Builder mergeValidFrom(io.dstore.Values.timestampValue value) {
           if (validFromBuilder_ == null) {
@@ -2483,11 +2486,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-         *
          * <pre>
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
          */
         public Builder clearValidFrom() {
           if (validFromBuilder_ == null) {
@@ -2501,11 +2504,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-         *
          * <pre>
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
          */
         public io.dstore.Values.timestampValue.Builder getValidFromBuilder() {
           
@@ -2513,11 +2516,11 @@ public final class PmGetMostRecentUniqueIDPu {
           return getValidFromFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-         *
          * <pre>
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
           if (validFromBuilder_ != null) {
@@ -2528,11 +2531,11 @@ public final class PmGetMostRecentUniqueIDPu {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
-         *
          * <pre>
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -2577,16 +2580,7 @@ public final class PmGetMostRecentUniqueIDPu {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2678,52 +2672,52 @@ public final class PmGetMostRecentUniqueIDPu {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2798,34 +2792,40 @@ public final class PmGetMostRecentUniqueIDPu {
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3062,7 +3062,7 @@ public final class PmGetMostRecentUniqueIDPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3565,11 +3565,11 @@ public final class PmGetMostRecentUniqueIDPu {
           io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row, io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row.Builder, io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3579,11 +3579,11 @@ public final class PmGetMostRecentUniqueIDPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3593,11 +3593,11 @@ public final class PmGetMostRecentUniqueIDPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3607,11 +3607,11 @@ public final class PmGetMostRecentUniqueIDPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row value) {
@@ -3628,11 +3628,11 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row.Builder builderForValue) {
@@ -3646,11 +3646,11 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3666,11 +3666,11 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row value) {
@@ -3687,11 +3687,11 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row.Builder builderForValue) {
@@ -3705,11 +3705,11 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row.Builder builderForValue) {
@@ -3723,11 +3723,11 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row> values) {
@@ -3742,11 +3742,11 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3759,11 +3759,11 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3776,22 +3776,22 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3801,11 +3801,11 @@ public final class PmGetMostRecentUniqueIDPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3816,22 +3816,22 @@ public final class PmGetMostRecentUniqueIDPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3839,11 +3839,11 @@ public final class PmGetMostRecentUniqueIDPu {
             index, io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3893,16 +3893,7 @@ public final class PmGetMostRecentUniqueIDPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3921,19 +3912,19 @@ public final class PmGetMostRecentUniqueIDPu {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetMostRecentUniqueID_Pu_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_GetMostRecentUniqueID_Pu_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetMostRecentUniqueID_Pu_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_GetMostRecentUniqueID_Pu_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetMostRecentUniqueID_Pu_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_GetMostRecentUniqueID_Pu_Response_Row_fieldAccessorTable;
 
@@ -3941,7 +3932,7 @@ public final class PmGetMostRecentUniqueIDPu {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

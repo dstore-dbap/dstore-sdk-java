@@ -185,7 +185,8 @@ public final class FoGetPostingBinariesPu {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -349,11 +350,10 @@ public final class FoGetPostingBinariesPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -769,34 +769,40 @@ public final class FoGetPostingBinariesPu {
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1066,7 +1072,7 @@ public final class FoGetPostingBinariesPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.FoGetPostingBinariesPu.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2248,16 +2254,7 @@ public final class FoGetPostingBinariesPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2329,45 +2326,45 @@ public final class FoGetPostingBinariesPu {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -2396,7 +2393,8 @@ public final class FoGetPostingBinariesPu {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2440,11 +2438,10 @@ public final class FoGetPostingBinariesPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2480,227 +2477,227 @@ public final class FoGetPostingBinariesPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung zum "SortNo"ten Binärobjekt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung zum "SortNo"ten Binärobjekt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung zum "SortNo"ten Binärobjekt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-       *
        * <pre>
        * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
        */
       boolean hasContentType();
       /**
-       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-       *
        * <pre>
        * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
        */
       io.dstore.Values.stringValue getContentType();
       /**
-       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-       *
        * <pre>
        * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getContentTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-       *
        * <pre>
        * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
        */
       boolean hasPostingBinaryIdentifier();
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-       *
        * <pre>
        * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
        */
       io.dstore.Values.stringValue getPostingBinaryIdentifier();
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-       *
        * <pre>
        * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getPostingBinaryIdentifierOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue filename = 10004;</code>
-       *
        * <pre>
        * Dateiname des "SortNo"ten Binärobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filename = 10004;</code>
        */
       boolean hasFilename();
       /**
-       * <code>optional .dstore.values.stringValue filename = 10004;</code>
-       *
        * <pre>
        * Dateiname des "SortNo"ten Binärobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filename = 10004;</code>
        */
       io.dstore.Values.stringValue getFilename();
       /**
-       * <code>optional .dstore.values.stringValue filename = 10004;</code>
-       *
        * <pre>
        * Dateiname des "SortNo"ten Binärobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filename = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getFilenameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-       *
        * <pre>
        * Größe des "SortNo"ten Binärobjektes in KiloBytes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
        */
       boolean hasFilesizeInKB();
       /**
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-       *
        * <pre>
        * Größe des "SortNo"ten Binärobjektes in KiloBytes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
        */
       io.dstore.Values.integerValue getFilesizeInKB();
       /**
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-       *
        * <pre>
        * Größe des "SortNo"ten Binärobjektes in KiloBytes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getFilesizeInKBOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-       *
        * <pre>
        * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
        */
       boolean hasLastModifiedAtDateAndTimeChar();
       /**
-       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-       *
        * <pre>
        * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
        */
       io.dstore.Values.stringValue getLastModifiedAtDateAndTimeChar();
       /**
-       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-       *
        * <pre>
        * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
        */
       io.dstore.Values.stringValueOrBuilder getLastModifiedAtDateAndTimeCharOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-       *
        * <pre>
        * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
        */
       boolean hasSortNo();
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-       *
        * <pre>
        * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
        */
       io.dstore.Values.integerValue getSortNo();
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-       *
        * <pre>
        * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-       *
        * <pre>
        * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
        */
       boolean hasLastModifiedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-       *
        * <pre>
        * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
        */
       io.dstore.Values.timestampValue getLastModifiedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-       *
        * <pre>
        * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getLastModifiedAtDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-       *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
        */
       boolean hasBinaryCode();
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-       *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
        */
       io.dstore.Values.bytesValue getBinaryCode();
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-       *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
        */
       io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder();
     }
@@ -2726,7 +2723,8 @@ public final class FoGetPostingBinariesPu {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2868,11 +2866,10 @@ public final class FoGetPostingBinariesPu {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2901,31 +2898,31 @@ public final class FoGetPostingBinariesPu {
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung zum "SortNo"ten Binärobjekt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung zum "SortNo"ten Binärobjekt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public io.dstore.Values.stringValue getDescription() {
         return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung zum "SortNo"ten Binärobjekt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -2934,31 +2931,31 @@ public final class FoGetPostingBinariesPu {
       public static final int CONTENT_TYPE_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue contentType_;
       /**
-       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-       *
        * <pre>
        * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
        */
       public boolean hasContentType() {
         return contentType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-       *
        * <pre>
        * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
        */
       public io.dstore.Values.stringValue getContentType() {
         return contentType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : contentType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-       *
        * <pre>
        * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue content_type = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getContentTypeOrBuilder() {
         return getContentType();
@@ -2967,31 +2964,31 @@ public final class FoGetPostingBinariesPu {
       public static final int POSTING_BINARY_IDENTIFIER_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue postingBinaryIdentifier_;
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-       *
        * <pre>
        * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
        */
       public boolean hasPostingBinaryIdentifier() {
         return postingBinaryIdentifier_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-       *
        * <pre>
        * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
        */
       public io.dstore.Values.stringValue getPostingBinaryIdentifier() {
         return postingBinaryIdentifier_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : postingBinaryIdentifier_;
       }
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-       *
        * <pre>
        * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getPostingBinaryIdentifierOrBuilder() {
         return getPostingBinaryIdentifier();
@@ -3000,31 +2997,31 @@ public final class FoGetPostingBinariesPu {
       public static final int FILENAME_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue filename_;
       /**
-       * <code>optional .dstore.values.stringValue filename = 10004;</code>
-       *
        * <pre>
        * Dateiname des "SortNo"ten Binärobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filename = 10004;</code>
        */
       public boolean hasFilename() {
         return filename_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue filename = 10004;</code>
-       *
        * <pre>
        * Dateiname des "SortNo"ten Binärobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filename = 10004;</code>
        */
       public io.dstore.Values.stringValue getFilename() {
         return filename_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filename_;
       }
       /**
-       * <code>optional .dstore.values.stringValue filename = 10004;</code>
-       *
        * <pre>
        * Dateiname des "SortNo"ten Binärobjektes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filename = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFilenameOrBuilder() {
         return getFilename();
@@ -3033,31 +3030,31 @@ public final class FoGetPostingBinariesPu {
       public static final int FILESIZE_IN_K_B_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue filesizeInKB_;
       /**
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-       *
        * <pre>
        * Größe des "SortNo"ten Binärobjektes in KiloBytes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
        */
       public boolean hasFilesizeInKB() {
         return filesizeInKB_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-       *
        * <pre>
        * Größe des "SortNo"ten Binärobjektes in KiloBytes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
        */
       public io.dstore.Values.integerValue getFilesizeInKB() {
         return filesizeInKB_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filesizeInKB_;
       }
       /**
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-       *
        * <pre>
        * Größe des "SortNo"ten Binärobjektes in KiloBytes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getFilesizeInKBOrBuilder() {
         return getFilesizeInKB();
@@ -3066,31 +3063,31 @@ public final class FoGetPostingBinariesPu {
       public static final int LAST_MODIFIED_AT_DATE_AND_TIME_CHAR_FIELD_NUMBER = 10006;
       private io.dstore.Values.stringValue lastModifiedAtDateAndTimeChar_;
       /**
-       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-       *
        * <pre>
        * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
        */
       public boolean hasLastModifiedAtDateAndTimeChar() {
         return lastModifiedAtDateAndTimeChar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-       *
        * <pre>
        * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
        */
       public io.dstore.Values.stringValue getLastModifiedAtDateAndTimeChar() {
         return lastModifiedAtDateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lastModifiedAtDateAndTimeChar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-       *
        * <pre>
        * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getLastModifiedAtDateAndTimeCharOrBuilder() {
         return getLastModifiedAtDateAndTimeChar();
@@ -3099,31 +3096,31 @@ public final class FoGetPostingBinariesPu {
       public static final int SORT_NO_FIELD_NUMBER = 10007;
       private io.dstore.Values.integerValue sortNo_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-       *
        * <pre>
        * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-       *
        * <pre>
        * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
        */
       public io.dstore.Values.integerValue getSortNo() {
         return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-       *
        * <pre>
        * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -3132,31 +3129,31 @@ public final class FoGetPostingBinariesPu {
       public static final int LAST_MODIFIED_AT_DATE_AND_TIME_FIELD_NUMBER = 10008;
       private io.dstore.Values.timestampValue lastModifiedAtDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-       *
        * <pre>
        * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
        */
       public boolean hasLastModifiedAtDateAndTime() {
         return lastModifiedAtDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-       *
        * <pre>
        * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
        */
       public io.dstore.Values.timestampValue getLastModifiedAtDateAndTime() {
         return lastModifiedAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastModifiedAtDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-       *
        * <pre>
        * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getLastModifiedAtDateAndTimeOrBuilder() {
         return getLastModifiedAtDateAndTime();
@@ -3165,31 +3162,31 @@ public final class FoGetPostingBinariesPu {
       public static final int BINARY_CODE_FIELD_NUMBER = 20009;
       private io.dstore.Values.bytesValue binaryCode_;
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-       *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
        */
       public boolean hasBinaryCode() {
         return binaryCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-       *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
        */
       public io.dstore.Values.bytesValue getBinaryCode() {
         return binaryCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
       }
       /**
-       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-       *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
        */
       public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
         return getBinaryCode();
@@ -3312,34 +3309,40 @@ public final class FoGetPostingBinariesPu {
       }
       public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -3581,7 +3584,7 @@ public final class FoGetPostingBinariesPu {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -3620,21 +3623,21 @@ public final class FoGetPostingBinariesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung zum "SortNo"ten Binärobjekt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung zum "SortNo"ten Binärobjekt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -3644,11 +3647,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung zum "SortNo"ten Binärobjekt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -3664,11 +3667,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung zum "SortNo"ten Binärobjekt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder setDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3682,11 +3685,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung zum "SortNo"ten Binärobjekt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -3704,11 +3707,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung zum "SortNo"ten Binärobjekt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -3722,11 +3725,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung zum "SortNo"ten Binärobjekt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
@@ -3734,11 +3737,11 @@ public final class FoGetPostingBinariesPu {
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung zum "SortNo"ten Binärobjekt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -3749,11 +3752,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung zum "SortNo"ten Binärobjekt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3773,21 +3776,21 @@ public final class FoGetPostingBinariesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> contentTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-         *
          * <pre>
          * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
          */
         public boolean hasContentType() {
           return contentTypeBuilder_ != null || contentType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-         *
          * <pre>
          * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
          */
         public io.dstore.Values.stringValue getContentType() {
           if (contentTypeBuilder_ == null) {
@@ -3797,11 +3800,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-         *
          * <pre>
          * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
          */
         public Builder setContentType(io.dstore.Values.stringValue value) {
           if (contentTypeBuilder_ == null) {
@@ -3817,11 +3820,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-         *
          * <pre>
          * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
          */
         public Builder setContentType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3835,11 +3838,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-         *
          * <pre>
          * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
          */
         public Builder mergeContentType(io.dstore.Values.stringValue value) {
           if (contentTypeBuilder_ == null) {
@@ -3857,11 +3860,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-         *
          * <pre>
          * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
          */
         public Builder clearContentType() {
           if (contentTypeBuilder_ == null) {
@@ -3875,11 +3878,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-         *
          * <pre>
          * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getContentTypeBuilder() {
           
@@ -3887,11 +3890,11 @@ public final class FoGetPostingBinariesPu {
           return getContentTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-         *
          * <pre>
          * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getContentTypeOrBuilder() {
           if (contentTypeBuilder_ != null) {
@@ -3902,11 +3905,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
-         *
          * <pre>
          * Das Format des "SortNo"ten Binärobjektes (z.B. "gif"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert (wird durch "fo_InsertBinaryForPosting_Pu" vom gleichnamigen Parameter übernommen) wirklich den Typ des "Binaries" darstellt !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue content_type = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3926,21 +3929,21 @@ public final class FoGetPostingBinariesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> postingBinaryIdentifierBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-         *
          * <pre>
          * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
          */
         public boolean hasPostingBinaryIdentifier() {
           return postingBinaryIdentifierBuilder_ != null || postingBinaryIdentifier_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-         *
          * <pre>
          * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
          */
         public io.dstore.Values.stringValue getPostingBinaryIdentifier() {
           if (postingBinaryIdentifierBuilder_ == null) {
@@ -3950,11 +3953,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-         *
          * <pre>
          * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
          */
         public Builder setPostingBinaryIdentifier(io.dstore.Values.stringValue value) {
           if (postingBinaryIdentifierBuilder_ == null) {
@@ -3970,11 +3973,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-         *
          * <pre>
          * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
          */
         public Builder setPostingBinaryIdentifier(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3988,11 +3991,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-         *
          * <pre>
          * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
          */
         public Builder mergePostingBinaryIdentifier(io.dstore.Values.stringValue value) {
           if (postingBinaryIdentifierBuilder_ == null) {
@@ -4010,11 +4013,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-         *
          * <pre>
          * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
          */
         public Builder clearPostingBinaryIdentifier() {
           if (postingBinaryIdentifierBuilder_ == null) {
@@ -4028,11 +4031,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-         *
          * <pre>
          * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getPostingBinaryIdentifierBuilder() {
           
@@ -4040,11 +4043,11 @@ public final class FoGetPostingBinariesPu {
           return getPostingBinaryIdentifierFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-         *
          * <pre>
          * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getPostingBinaryIdentifierOrBuilder() {
           if (postingBinaryIdentifierBuilder_ != null) {
@@ -4055,11 +4058,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
-         *
          * <pre>
          * Wert, der das "SortNo"te "Binary" zum Beitrag EINDEUTIG referenziert, und damit quasi eine Alternative zur "SortNo" (siehe z.B. "fo_DeletePostingBinary_Pu")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue posting_binary_identifier = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4079,21 +4082,21 @@ public final class FoGetPostingBinariesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filenameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue filename = 10004;</code>
-         *
          * <pre>
          * Dateiname des "SortNo"ten Binärobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filename = 10004;</code>
          */
         public boolean hasFilename() {
           return filenameBuilder_ != null || filename_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue filename = 10004;</code>
-         *
          * <pre>
          * Dateiname des "SortNo"ten Binärobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filename = 10004;</code>
          */
         public io.dstore.Values.stringValue getFilename() {
           if (filenameBuilder_ == null) {
@@ -4103,11 +4106,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue filename = 10004;</code>
-         *
          * <pre>
          * Dateiname des "SortNo"ten Binärobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filename = 10004;</code>
          */
         public Builder setFilename(io.dstore.Values.stringValue value) {
           if (filenameBuilder_ == null) {
@@ -4123,11 +4126,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue filename = 10004;</code>
-         *
          * <pre>
          * Dateiname des "SortNo"ten Binärobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filename = 10004;</code>
          */
         public Builder setFilename(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4141,11 +4144,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue filename = 10004;</code>
-         *
          * <pre>
          * Dateiname des "SortNo"ten Binärobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filename = 10004;</code>
          */
         public Builder mergeFilename(io.dstore.Values.stringValue value) {
           if (filenameBuilder_ == null) {
@@ -4163,11 +4166,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue filename = 10004;</code>
-         *
          * <pre>
          * Dateiname des "SortNo"ten Binärobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filename = 10004;</code>
          */
         public Builder clearFilename() {
           if (filenameBuilder_ == null) {
@@ -4181,11 +4184,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue filename = 10004;</code>
-         *
          * <pre>
          * Dateiname des "SortNo"ten Binärobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filename = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getFilenameBuilder() {
           
@@ -4193,11 +4196,11 @@ public final class FoGetPostingBinariesPu {
           return getFilenameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue filename = 10004;</code>
-         *
          * <pre>
          * Dateiname des "SortNo"ten Binärobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filename = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getFilenameOrBuilder() {
           if (filenameBuilder_ != null) {
@@ -4208,11 +4211,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue filename = 10004;</code>
-         *
          * <pre>
          * Dateiname des "SortNo"ten Binärobjektes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filename = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4232,21 +4235,21 @@ public final class FoGetPostingBinariesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filesizeInKBBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-         *
          * <pre>
          * Größe des "SortNo"ten Binärobjektes in KiloBytes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
          */
         public boolean hasFilesizeInKB() {
           return filesizeInKBBuilder_ != null || filesizeInKB_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-         *
          * <pre>
          * Größe des "SortNo"ten Binärobjektes in KiloBytes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
          */
         public io.dstore.Values.integerValue getFilesizeInKB() {
           if (filesizeInKBBuilder_ == null) {
@@ -4256,11 +4259,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-         *
          * <pre>
          * Größe des "SortNo"ten Binärobjektes in KiloBytes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
          */
         public Builder setFilesizeInKB(io.dstore.Values.integerValue value) {
           if (filesizeInKBBuilder_ == null) {
@@ -4276,11 +4279,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-         *
          * <pre>
          * Größe des "SortNo"ten Binärobjektes in KiloBytes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
          */
         public Builder setFilesizeInKB(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4294,11 +4297,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-         *
          * <pre>
          * Größe des "SortNo"ten Binärobjektes in KiloBytes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
          */
         public Builder mergeFilesizeInKB(io.dstore.Values.integerValue value) {
           if (filesizeInKBBuilder_ == null) {
@@ -4316,11 +4319,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-         *
          * <pre>
          * Größe des "SortNo"ten Binärobjektes in KiloBytes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
          */
         public Builder clearFilesizeInKB() {
           if (filesizeInKBBuilder_ == null) {
@@ -4334,11 +4337,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-         *
          * <pre>
          * Größe des "SortNo"ten Binärobjektes in KiloBytes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getFilesizeInKBBuilder() {
           
@@ -4346,11 +4349,11 @@ public final class FoGetPostingBinariesPu {
           return getFilesizeInKBFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-         *
          * <pre>
          * Größe des "SortNo"ten Binärobjektes in KiloBytes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getFilesizeInKBOrBuilder() {
           if (filesizeInKBBuilder_ != null) {
@@ -4361,11 +4364,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
-         *
          * <pre>
          * Größe des "SortNo"ten Binärobjektes in KiloBytes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4385,21 +4388,21 @@ public final class FoGetPostingBinariesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> lastModifiedAtDateAndTimeCharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-         *
          * <pre>
          * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
          */
         public boolean hasLastModifiedAtDateAndTimeChar() {
           return lastModifiedAtDateAndTimeCharBuilder_ != null || lastModifiedAtDateAndTimeChar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-         *
          * <pre>
          * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
          */
         public io.dstore.Values.stringValue getLastModifiedAtDateAndTimeChar() {
           if (lastModifiedAtDateAndTimeCharBuilder_ == null) {
@@ -4409,11 +4412,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-         *
          * <pre>
          * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
          */
         public Builder setLastModifiedAtDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (lastModifiedAtDateAndTimeCharBuilder_ == null) {
@@ -4429,11 +4432,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-         *
          * <pre>
          * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
          */
         public Builder setLastModifiedAtDateAndTimeChar(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4447,11 +4450,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-         *
          * <pre>
          * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
          */
         public Builder mergeLastModifiedAtDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (lastModifiedAtDateAndTimeCharBuilder_ == null) {
@@ -4469,11 +4472,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-         *
          * <pre>
          * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
          */
         public Builder clearLastModifiedAtDateAndTimeChar() {
           if (lastModifiedAtDateAndTimeCharBuilder_ == null) {
@@ -4487,11 +4490,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-         *
          * <pre>
          * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
          */
         public io.dstore.Values.stringValue.Builder getLastModifiedAtDateAndTimeCharBuilder() {
           
@@ -4499,11 +4502,11 @@ public final class FoGetPostingBinariesPu {
           return getLastModifiedAtDateAndTimeCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-         *
          * <pre>
          * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getLastModifiedAtDateAndTimeCharOrBuilder() {
           if (lastModifiedAtDateAndTimeCharBuilder_ != null) {
@@ -4514,11 +4517,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
-         *
          * <pre>
          * "LastModifiedAtDateAndTime" als String im Format "15.04.2000 12:33:28:120"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue last_modified_at_date_and_time_char = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4538,21 +4541,21 @@ public final class FoGetPostingBinariesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-         *
          * <pre>
          * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-         *
          * <pre>
          * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
          */
         public io.dstore.Values.integerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -4562,11 +4565,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-         *
          * <pre>
          * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
          */
         public Builder setSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
@@ -4582,11 +4585,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-         *
          * <pre>
          * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
          */
         public Builder setSortNo(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4600,11 +4603,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-         *
          * <pre>
          * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
          */
         public Builder mergeSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
@@ -4622,11 +4625,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-         *
          * <pre>
          * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -4640,11 +4643,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-         *
          * <pre>
          * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
          */
         public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
           
@@ -4652,11 +4655,11 @@ public final class FoGetPostingBinariesPu {
           return getSortNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-         *
          * <pre>
          * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -4667,11 +4670,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
-         *
          * <pre>
          * Nummer des Posting-Binärobjekts (falls angegeben, gleich "&#64;SortNo")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4691,21 +4694,21 @@ public final class FoGetPostingBinariesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastModifiedAtDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-         *
          * <pre>
          * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
          */
         public boolean hasLastModifiedAtDateAndTime() {
           return lastModifiedAtDateAndTimeBuilder_ != null || lastModifiedAtDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-         *
          * <pre>
          * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
          */
         public io.dstore.Values.timestampValue getLastModifiedAtDateAndTime() {
           if (lastModifiedAtDateAndTimeBuilder_ == null) {
@@ -4715,11 +4718,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-         *
          * <pre>
          * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
          */
         public Builder setLastModifiedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (lastModifiedAtDateAndTimeBuilder_ == null) {
@@ -4735,11 +4738,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-         *
          * <pre>
          * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
          */
         public Builder setLastModifiedAtDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -4753,11 +4756,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-         *
          * <pre>
          * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
          */
         public Builder mergeLastModifiedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (lastModifiedAtDateAndTimeBuilder_ == null) {
@@ -4775,11 +4778,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-         *
          * <pre>
          * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
          */
         public Builder clearLastModifiedAtDateAndTime() {
           if (lastModifiedAtDateAndTimeBuilder_ == null) {
@@ -4793,11 +4796,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-         *
          * <pre>
          * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
          */
         public io.dstore.Values.timestampValue.Builder getLastModifiedAtDateAndTimeBuilder() {
           
@@ -4805,11 +4808,11 @@ public final class FoGetPostingBinariesPu {
           return getLastModifiedAtDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-         *
          * <pre>
          * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getLastModifiedAtDateAndTimeOrBuilder() {
           if (lastModifiedAtDateAndTimeBuilder_ != null) {
@@ -4820,11 +4823,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
-         *
          * <pre>
          * Ist "NULL" für ALLE "PostingBinaries", die VOR dem Update auf 5.1.6 eingefügt wurden ! Ansonsten steht hier der Zeitpunkt, wann der "BinaryCode" eingefügt bzw. geändert wurde. Anmerkung : Derzeit immer die Angabe, wann der "BinaryCode" eingefügt wurde !
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_modified_at_date_and_time = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -4844,21 +4847,21 @@ public final class FoGetPostingBinariesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> binaryCodeBuilder_;
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-         *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
          */
         public boolean hasBinaryCode() {
           return binaryCodeBuilder_ != null || binaryCode_ != null;
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-         *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
          */
         public io.dstore.Values.bytesValue getBinaryCode() {
           if (binaryCodeBuilder_ == null) {
@@ -4868,11 +4871,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-         *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
          */
         public Builder setBinaryCode(io.dstore.Values.bytesValue value) {
           if (binaryCodeBuilder_ == null) {
@@ -4888,11 +4891,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-         *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
          */
         public Builder setBinaryCode(
             io.dstore.Values.bytesValue.Builder builderForValue) {
@@ -4906,11 +4909,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-         *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
          */
         public Builder mergeBinaryCode(io.dstore.Values.bytesValue value) {
           if (binaryCodeBuilder_ == null) {
@@ -4928,11 +4931,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-         *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
          */
         public Builder clearBinaryCode() {
           if (binaryCodeBuilder_ == null) {
@@ -4946,11 +4949,11 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-         *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
          */
         public io.dstore.Values.bytesValue.Builder getBinaryCodeBuilder() {
           
@@ -4958,11 +4961,11 @@ public final class FoGetPostingBinariesPu {
           return getBinaryCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-         *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
          */
         public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
           if (binaryCodeBuilder_ != null) {
@@ -4973,11 +4976,11 @@ public final class FoGetPostingBinariesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
-         *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue binary_code = 20009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
@@ -5022,16 +5025,7 @@ public final class FoGetPostingBinariesPu {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -5123,52 +5117,52 @@ public final class FoGetPostingBinariesPu {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -5243,34 +5237,40 @@ public final class FoGetPostingBinariesPu {
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingBinariesPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -5507,7 +5507,7 @@ public final class FoGetPostingBinariesPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.FoGetPostingBinariesPu.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -6010,11 +6010,11 @@ public final class FoGetPostingBinariesPu {
           io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row, io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row.Builder, io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -6024,11 +6024,11 @@ public final class FoGetPostingBinariesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -6038,11 +6038,11 @@ public final class FoGetPostingBinariesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -6052,11 +6052,11 @@ public final class FoGetPostingBinariesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row value) {
@@ -6073,11 +6073,11 @@ public final class FoGetPostingBinariesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row.Builder builderForValue) {
@@ -6091,11 +6091,11 @@ public final class FoGetPostingBinariesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -6111,11 +6111,11 @@ public final class FoGetPostingBinariesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row value) {
@@ -6132,11 +6132,11 @@ public final class FoGetPostingBinariesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row.Builder builderForValue) {
@@ -6150,11 +6150,11 @@ public final class FoGetPostingBinariesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row.Builder builderForValue) {
@@ -6168,11 +6168,11 @@ public final class FoGetPostingBinariesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row> values) {
@@ -6187,11 +6187,11 @@ public final class FoGetPostingBinariesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -6204,11 +6204,11 @@ public final class FoGetPostingBinariesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -6221,22 +6221,22 @@ public final class FoGetPostingBinariesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -6246,11 +6246,11 @@ public final class FoGetPostingBinariesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -6261,22 +6261,22 @@ public final class FoGetPostingBinariesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row.Builder addRowBuilder(
           int index) {
@@ -6284,11 +6284,11 @@ public final class FoGetPostingBinariesPu {
             index, io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.fo_GetPostingBinaries_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.FoGetPostingBinariesPu.Response.Row.Builder> 
            getRowBuilderList() {
@@ -6338,16 +6338,7 @@ public final class FoGetPostingBinariesPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -6366,19 +6357,19 @@ public final class FoGetPostingBinariesPu {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_fo_GetPostingBinaries_Pu_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_fo_GetPostingBinaries_Pu_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_fo_GetPostingBinaries_Pu_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_fo_GetPostingBinaries_Pu_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_fo_GetPostingBinaries_Pu_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_fo_GetPostingBinaries_Pu_Response_Row_fieldAccessorTable;
 
@@ -6386,7 +6377,7 @@ public final class FoGetPostingBinariesPu {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

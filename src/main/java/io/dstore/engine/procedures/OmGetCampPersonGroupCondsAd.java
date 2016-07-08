@@ -52,7 +52,8 @@ public final class OmGetCampPersonGroupCondsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -90,11 +91,10 @@ public final class OmGetCampPersonGroupCondsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -202,34 +202,40 @@ public final class OmGetCampPersonGroupCondsAd {
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -359,7 +365,7 @@ public final class OmGetCampPersonGroupCondsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -540,16 +546,7 @@ public final class OmGetCampPersonGroupCondsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -621,45 +618,45 @@ public final class OmGetCampPersonGroupCondsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -688,7 +685,8 @@ public final class OmGetCampPersonGroupCondsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -732,11 +730,10 @@ public final class OmGetCampPersonGroupCondsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -772,102 +769,102 @@ public final class OmGetCampPersonGroupCondsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-       *
        * <pre>
        * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
        */
       boolean hasFilterByPersonGroupIds();
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-       *
        * <pre>
        * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
        */
       io.dstore.Values.stringValue getFilterByPersonGroupIds();
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-       *
        * <pre>
        * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getFilterByPersonGroupIdsOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
        */
       boolean hasAnyIdInFilter();
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
        */
       io.dstore.Values.booleanValue getAnyIdInFilter();
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getAnyIdInFilterOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-       *
        * <pre>
        * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
        */
       boolean hasConditionId();
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-       *
        * <pre>
        * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
        */
       io.dstore.Values.integerValue getConditionId();
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-       *
        * <pre>
        * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-       *
        * <pre>
        * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
        */
       boolean hasNegateFilter();
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-       *
        * <pre>
        * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
        */
       io.dstore.Values.booleanValue getNegateFilter();
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-       *
        * <pre>
        * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder();
     }
@@ -893,7 +890,8 @@ public final class OmGetCampPersonGroupCondsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -970,11 +968,10 @@ public final class OmGetCampPersonGroupCondsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1003,31 +1000,31 @@ public final class OmGetCampPersonGroupCondsAd {
       public static final int FILTER_BY_PERSON_GROUP_IDS_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue filterByPersonGroupIds_;
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-       *
        * <pre>
        * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
        */
       public boolean hasFilterByPersonGroupIds() {
         return filterByPersonGroupIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-       *
        * <pre>
        * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
        */
       public io.dstore.Values.stringValue getFilterByPersonGroupIds() {
         return filterByPersonGroupIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByPersonGroupIds_;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-       *
        * <pre>
        * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFilterByPersonGroupIdsOrBuilder() {
         return getFilterByPersonGroupIds();
@@ -1036,31 +1033,31 @@ public final class OmGetCampPersonGroupCondsAd {
       public static final int ANY_ID_IN_FILTER_FIELD_NUMBER = 10002;
       private io.dstore.Values.booleanValue anyIdInFilter_;
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
        */
       public boolean hasAnyIdInFilter() {
         return anyIdInFilter_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
        */
       public io.dstore.Values.booleanValue getAnyIdInFilter() {
         return anyIdInFilter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : anyIdInFilter_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getAnyIdInFilterOrBuilder() {
         return getAnyIdInFilter();
@@ -1069,31 +1066,31 @@ public final class OmGetCampPersonGroupCondsAd {
       public static final int CONDITION_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue conditionId_;
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-       *
        * <pre>
        * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
        */
       public boolean hasConditionId() {
         return conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-       *
        * <pre>
        * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getConditionId() {
         return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-       *
        * <pre>
        * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
         return getConditionId();
@@ -1102,31 +1099,31 @@ public final class OmGetCampPersonGroupCondsAd {
       public static final int NEGATE_FILTER_FIELD_NUMBER = 10004;
       private io.dstore.Values.booleanValue negateFilter_;
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-       *
        * <pre>
        * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
        */
       public boolean hasNegateFilter() {
         return negateFilter_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-       *
        * <pre>
        * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
        */
       public io.dstore.Values.booleanValue getNegateFilter() {
         return negateFilter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-       *
        * <pre>
        * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
         return getNegateFilter();
@@ -1214,34 +1211,40 @@ public final class OmGetCampPersonGroupCondsAd {
       }
       public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1413,7 +1416,7 @@ public final class OmGetCampPersonGroupCondsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1452,21 +1455,21 @@ public final class OmGetCampPersonGroupCondsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filterByPersonGroupIdsBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-         *
          * <pre>
          * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
          */
         public boolean hasFilterByPersonGroupIds() {
           return filterByPersonGroupIdsBuilder_ != null || filterByPersonGroupIds_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-         *
          * <pre>
          * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
          */
         public io.dstore.Values.stringValue getFilterByPersonGroupIds() {
           if (filterByPersonGroupIdsBuilder_ == null) {
@@ -1476,11 +1479,11 @@ public final class OmGetCampPersonGroupCondsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-         *
          * <pre>
          * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
          */
         public Builder setFilterByPersonGroupIds(io.dstore.Values.stringValue value) {
           if (filterByPersonGroupIdsBuilder_ == null) {
@@ -1496,11 +1499,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-         *
          * <pre>
          * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
          */
         public Builder setFilterByPersonGroupIds(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1514,11 +1517,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-         *
          * <pre>
          * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
          */
         public Builder mergeFilterByPersonGroupIds(io.dstore.Values.stringValue value) {
           if (filterByPersonGroupIdsBuilder_ == null) {
@@ -1536,11 +1539,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-         *
          * <pre>
          * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
          */
         public Builder clearFilterByPersonGroupIds() {
           if (filterByPersonGroupIdsBuilder_ == null) {
@@ -1554,11 +1557,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-         *
          * <pre>
          * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getFilterByPersonGroupIdsBuilder() {
           
@@ -1566,11 +1569,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return getFilterByPersonGroupIdsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-         *
          * <pre>
          * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getFilterByPersonGroupIdsOrBuilder() {
           if (filterByPersonGroupIdsBuilder_ != null) {
@@ -1581,11 +1584,11 @@ public final class OmGetCampPersonGroupCondsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
-         *
          * <pre>
          * Liste von (existierenden) "GroupID"s (mögliche Werte : s. "pm_GetGroups_Ad"), die durch "," getrennt sind
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue filter_by_person_group_ids = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1605,21 +1608,21 @@ public final class OmGetCampPersonGroupCondsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> anyIdInFilterBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
          */
         public boolean hasAnyIdInFilter() {
           return anyIdInFilterBuilder_ != null || anyIdInFilter_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
          */
         public io.dstore.Values.booleanValue getAnyIdInFilter() {
           if (anyIdInFilterBuilder_ == null) {
@@ -1629,11 +1632,11 @@ public final class OmGetCampPersonGroupCondsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
          */
         public Builder setAnyIdInFilter(io.dstore.Values.booleanValue value) {
           if (anyIdInFilterBuilder_ == null) {
@@ -1649,11 +1652,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
          */
         public Builder setAnyIdInFilter(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1667,11 +1670,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
          */
         public Builder mergeAnyIdInFilter(io.dstore.Values.booleanValue value) {
           if (anyIdInFilterBuilder_ == null) {
@@ -1689,11 +1692,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
          */
         public Builder clearAnyIdInFilter() {
           if (anyIdInFilterBuilder_ == null) {
@@ -1707,11 +1710,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
          */
         public io.dstore.Values.booleanValue.Builder getAnyIdInFilterBuilder() {
           
@@ -1719,11 +1722,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return getAnyIdInFilterFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getAnyIdInFilterOrBuilder() {
           if (anyIdInFilterBuilder_ != null) {
@@ -1734,11 +1737,11 @@ public final class OmGetCampPersonGroupCondsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob der Auftraggeber MINDESTENS ("1") einer der Gruppen (in "FilterByPersonGroupIDs") zugeordnet sein muß oder ALLEN ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue any_id_in_filter = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1758,21 +1761,21 @@ public final class OmGetCampPersonGroupCondsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-         *
          * <pre>
          * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
          */
         public boolean hasConditionId() {
           return conditionIdBuilder_ != null || conditionId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-         *
          * <pre>
          * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -1782,11 +1785,11 @@ public final class OmGetCampPersonGroupCondsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-         *
          * <pre>
          * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
          */
         public Builder setConditionId(io.dstore.Values.integerValue value) {
           if (conditionIdBuilder_ == null) {
@@ -1802,11 +1805,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-         *
          * <pre>
          * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
          */
         public Builder setConditionId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1820,11 +1823,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-         *
          * <pre>
          * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
          */
         public Builder mergeConditionId(io.dstore.Values.integerValue value) {
           if (conditionIdBuilder_ == null) {
@@ -1842,11 +1845,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-         *
          * <pre>
          * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
          */
         public Builder clearConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -1860,11 +1863,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-         *
          * <pre>
          * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
           
@@ -1872,11 +1875,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return getConditionIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-         *
          * <pre>
          * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
           if (conditionIdBuilder_ != null) {
@@ -1887,11 +1890,11 @@ public final class OmGetCampPersonGroupCondsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
-         *
          * <pre>
          * ID einer "Personengruppen-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1911,21 +1914,21 @@ public final class OmGetCampPersonGroupCondsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateFilterBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-         *
          * <pre>
          * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
          */
         public boolean hasNegateFilter() {
           return negateFilterBuilder_ != null || negateFilter_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-         *
          * <pre>
          * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
          */
         public io.dstore.Values.booleanValue getNegateFilter() {
           if (negateFilterBuilder_ == null) {
@@ -1935,11 +1938,11 @@ public final class OmGetCampPersonGroupCondsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-         *
          * <pre>
          * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
          */
         public Builder setNegateFilter(io.dstore.Values.booleanValue value) {
           if (negateFilterBuilder_ == null) {
@@ -1955,11 +1958,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-         *
          * <pre>
          * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
          */
         public Builder setNegateFilter(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1973,11 +1976,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-         *
          * <pre>
          * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
          */
         public Builder mergeNegateFilter(io.dstore.Values.booleanValue value) {
           if (negateFilterBuilder_ == null) {
@@ -1995,11 +1998,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-         *
          * <pre>
          * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
          */
         public Builder clearNegateFilter() {
           if (negateFilterBuilder_ == null) {
@@ -2013,11 +2016,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-         *
          * <pre>
          * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
          */
         public io.dstore.Values.booleanValue.Builder getNegateFilterBuilder() {
           
@@ -2025,11 +2028,11 @@ public final class OmGetCampPersonGroupCondsAd {
           return getNegateFilterFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-         *
          * <pre>
          * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
           if (negateFilterBuilder_ != null) {
@@ -2040,11 +2043,11 @@ public final class OmGetCampPersonGroupCondsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
-         *
          * <pre>
          * "1" bedeutet eine Negierung der Bedingung, d.h. der Auftraggeber darf entweder KEINER der Gruppen ("AnyIDInFilter = 1") oder er darf NICHT ALLEN Gruppen ("AnyIDInFilter = 0") zugeordnet sein
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_filter = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2089,16 +2092,7 @@ public final class OmGetCampPersonGroupCondsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2190,52 +2184,52 @@ public final class OmGetCampPersonGroupCondsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2310,34 +2304,40 @@ public final class OmGetCampPersonGroupCondsAd {
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2574,7 +2574,7 @@ public final class OmGetCampPersonGroupCondsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3077,11 +3077,11 @@ public final class OmGetCampPersonGroupCondsAd {
           io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row, io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3091,11 +3091,11 @@ public final class OmGetCampPersonGroupCondsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3105,11 +3105,11 @@ public final class OmGetCampPersonGroupCondsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3119,11 +3119,11 @@ public final class OmGetCampPersonGroupCondsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row value) {
@@ -3140,11 +3140,11 @@ public final class OmGetCampPersonGroupCondsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row.Builder builderForValue) {
@@ -3158,11 +3158,11 @@ public final class OmGetCampPersonGroupCondsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3178,11 +3178,11 @@ public final class OmGetCampPersonGroupCondsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row value) {
@@ -3199,11 +3199,11 @@ public final class OmGetCampPersonGroupCondsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row.Builder builderForValue) {
@@ -3217,11 +3217,11 @@ public final class OmGetCampPersonGroupCondsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row.Builder builderForValue) {
@@ -3235,11 +3235,11 @@ public final class OmGetCampPersonGroupCondsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row> values) {
@@ -3254,11 +3254,11 @@ public final class OmGetCampPersonGroupCondsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3271,11 +3271,11 @@ public final class OmGetCampPersonGroupCondsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3288,22 +3288,22 @@ public final class OmGetCampPersonGroupCondsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3313,11 +3313,11 @@ public final class OmGetCampPersonGroupCondsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3328,22 +3328,22 @@ public final class OmGetCampPersonGroupCondsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3351,11 +3351,11 @@ public final class OmGetCampPersonGroupCondsAd {
             index, io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampPersonGroupConds_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3405,16 +3405,7 @@ public final class OmGetCampPersonGroupCondsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3433,19 +3424,19 @@ public final class OmGetCampPersonGroupCondsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampPersonGroupConds_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampPersonGroupConds_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampPersonGroupConds_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampPersonGroupConds_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampPersonGroupConds_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampPersonGroupConds_Ad_Response_Row_fieldAccessorTable;
 
@@ -3453,7 +3444,7 @@ public final class OmGetCampPersonGroupCondsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

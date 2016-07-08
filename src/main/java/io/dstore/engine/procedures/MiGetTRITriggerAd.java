@@ -90,7 +90,8 @@ public final class MiGetTRITriggerAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class MiGetTRITriggerAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class MiGetTRITriggerAd {
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class MiGetTRITriggerAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetTRITriggerAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class MiGetTRITriggerAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class MiGetTRITriggerAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetTRITriggerAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetTRITriggerAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class MiGetTRITriggerAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class MiGetTRITriggerAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,177 +1257,177 @@ public final class MiGetTRITriggerAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-       *
        * <pre>
        * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
        */
       boolean hasTriggerTypeId();
       /**
-       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-       *
        * <pre>
        * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
        */
       io.dstore.Values.integerValue getTriggerTypeId();
       /**
-       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-       *
        * <pre>
        * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTriggerTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der "TriggerTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
        */
       boolean hasTriggerType();
       /**
-       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der "TriggerTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
        */
       io.dstore.Values.stringValue getTriggerType();
       /**
-       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der "TriggerTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTriggerTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
        */
       boolean hasExecuteProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
        */
       io.dstore.Values.stringValue getExecuteProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getExecuteProcedureNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-       *
        * <pre>
        * Name des Triggers "TriggerID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
        */
       boolean hasTriggerName();
       /**
-       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-       *
        * <pre>
        * Name des Triggers "TriggerID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
        */
       io.dstore.Values.stringValue getTriggerName();
       /**
-       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-       *
        * <pre>
        * Name des Triggers "TriggerID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTriggerNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-       *
        * <pre>
        * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
        */
       boolean hasTriggerDescription();
       /**
-       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-       *
        * <pre>
        * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
        */
       io.dstore.Values.stringValue getTriggerDescription();
       /**
-       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-       *
        * <pre>
        * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTriggerDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-       *
        * <pre>
        * ID eines "TRI-Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
        */
       boolean hasTriggerId();
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-       *
        * <pre>
        * ID eines "TRI-Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
        */
       io.dstore.Values.integerValue getTriggerId();
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-       *
        * <pre>
        * ID eines "TRI-Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-       *
        * <pre>
        * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
        */
       boolean hasTriggerStatus();
       /**
-       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-       *
        * <pre>
        * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
        */
       io.dstore.Values.integerValue getTriggerStatus();
       /**
-       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-       *
        * <pre>
        * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTriggerStatusOrBuilder();
     }
@@ -1456,7 +1453,8 @@ public final class MiGetTRITriggerAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1572,11 +1570,10 @@ public final class MiGetTRITriggerAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1605,31 +1602,31 @@ public final class MiGetTRITriggerAd {
       public static final int TRIGGER_TYPE_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue triggerTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-       *
        * <pre>
        * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
        */
       public boolean hasTriggerTypeId() {
         return triggerTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-       *
        * <pre>
        * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getTriggerTypeId() {
         return triggerTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-       *
        * <pre>
        * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTriggerTypeIdOrBuilder() {
         return getTriggerTypeId();
@@ -1638,31 +1635,31 @@ public final class MiGetTRITriggerAd {
       public static final int TRIGGER_TYPE_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue triggerType_;
       /**
-       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der "TriggerTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
        */
       public boolean hasTriggerType() {
         return triggerType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der "TriggerTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
        */
       public io.dstore.Values.stringValue getTriggerType() {
         return triggerType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : triggerType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der "TriggerTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTriggerTypeOrBuilder() {
         return getTriggerType();
@@ -1671,31 +1668,31 @@ public final class MiGetTRITriggerAd {
       public static final int EXECUTE_PROCEDURE_NAME_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue executeProcedureName_;
       /**
-       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
        */
       public boolean hasExecuteProcedureName() {
         return executeProcedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
        */
       public io.dstore.Values.stringValue getExecuteProcedureName() {
         return executeProcedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : executeProcedureName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getExecuteProcedureNameOrBuilder() {
         return getExecuteProcedureName();
@@ -1704,31 +1701,31 @@ public final class MiGetTRITriggerAd {
       public static final int TRIGGER_NAME_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue triggerName_;
       /**
-       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-       *
        * <pre>
        * Name des Triggers "TriggerID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
        */
       public boolean hasTriggerName() {
         return triggerName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-       *
        * <pre>
        * Name des Triggers "TriggerID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
        */
       public io.dstore.Values.stringValue getTriggerName() {
         return triggerName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : triggerName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-       *
        * <pre>
        * Name des Triggers "TriggerID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTriggerNameOrBuilder() {
         return getTriggerName();
@@ -1737,31 +1734,31 @@ public final class MiGetTRITriggerAd {
       public static final int TRIGGER_DESCRIPTION_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue triggerDescription_;
       /**
-       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-       *
        * <pre>
        * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
        */
       public boolean hasTriggerDescription() {
         return triggerDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-       *
        * <pre>
        * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
        */
       public io.dstore.Values.stringValue getTriggerDescription() {
         return triggerDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : triggerDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-       *
        * <pre>
        * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTriggerDescriptionOrBuilder() {
         return getTriggerDescription();
@@ -1770,31 +1767,31 @@ public final class MiGetTRITriggerAd {
       public static final int TRIGGER_ID_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue triggerId_;
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-       *
        * <pre>
        * ID eines "TRI-Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
        */
       public boolean hasTriggerId() {
         return triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-       *
        * <pre>
        * ID eines "TRI-Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
        */
       public io.dstore.Values.integerValue getTriggerId() {
         return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-       *
        * <pre>
        * ID eines "TRI-Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
         return getTriggerId();
@@ -1803,31 +1800,31 @@ public final class MiGetTRITriggerAd {
       public static final int TRIGGER_STATUS_FIELD_NUMBER = 10007;
       private io.dstore.Values.integerValue triggerStatus_;
       /**
-       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-       *
        * <pre>
        * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
        */
       public boolean hasTriggerStatus() {
         return triggerStatus_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-       *
        * <pre>
        * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
        */
       public io.dstore.Values.integerValue getTriggerStatus() {
         return triggerStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerStatus_;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-       *
        * <pre>
        * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTriggerStatusOrBuilder() {
         return getTriggerStatus();
@@ -1936,34 +1933,40 @@ public final class MiGetTRITriggerAd {
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2177,7 +2180,7 @@ public final class MiGetTRITriggerAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2216,21 +2219,21 @@ public final class MiGetTRITriggerAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-         *
          * <pre>
          * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
          */
         public boolean hasTriggerTypeId() {
           return triggerTypeIdBuilder_ != null || triggerTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-         *
          * <pre>
          * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getTriggerTypeId() {
           if (triggerTypeIdBuilder_ == null) {
@@ -2240,11 +2243,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-         *
          * <pre>
          * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
          */
         public Builder setTriggerTypeId(io.dstore.Values.integerValue value) {
           if (triggerTypeIdBuilder_ == null) {
@@ -2260,11 +2263,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-         *
          * <pre>
          * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
          */
         public Builder setTriggerTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2278,11 +2281,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-         *
          * <pre>
          * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
          */
         public Builder mergeTriggerTypeId(io.dstore.Values.integerValue value) {
           if (triggerTypeIdBuilder_ == null) {
@@ -2300,11 +2303,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-         *
          * <pre>
          * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
          */
         public Builder clearTriggerTypeId() {
           if (triggerTypeIdBuilder_ == null) {
@@ -2318,11 +2321,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-         *
          * <pre>
          * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getTriggerTypeIdBuilder() {
           
@@ -2330,11 +2333,11 @@ public final class MiGetTRITriggerAd {
           return getTriggerTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-         *
          * <pre>
          * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTriggerTypeIdOrBuilder() {
           if (triggerTypeIdBuilder_ != null) {
@@ -2345,11 +2348,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
-         *
          * <pre>
          * ID des Typs von Triggern dem "TriggerID" angehört (mögliche Werte : s. "mi_GetTRITriggerTypes_Ad"), sprich letztlich die Information, bei welcher Art von Datenänderung der Trigger ausgelöst werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2369,21 +2372,21 @@ public final class MiGetTRITriggerAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> triggerTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der "TriggerTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
          */
         public boolean hasTriggerType() {
           return triggerTypeBuilder_ != null || triggerType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der "TriggerTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
          */
         public io.dstore.Values.stringValue getTriggerType() {
           if (triggerTypeBuilder_ == null) {
@@ -2393,11 +2396,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der "TriggerTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
          */
         public Builder setTriggerType(io.dstore.Values.stringValue value) {
           if (triggerTypeBuilder_ == null) {
@@ -2413,11 +2416,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der "TriggerTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
          */
         public Builder setTriggerType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2431,11 +2434,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der "TriggerTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
          */
         public Builder mergeTriggerType(io.dstore.Values.stringValue value) {
           if (triggerTypeBuilder_ == null) {
@@ -2453,11 +2456,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der "TriggerTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
          */
         public Builder clearTriggerType() {
           if (triggerTypeBuilder_ == null) {
@@ -2471,11 +2474,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der "TriggerTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getTriggerTypeBuilder() {
           
@@ -2483,11 +2486,11 @@ public final class MiGetTRITriggerAd {
           return getTriggerTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der "TriggerTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTriggerTypeOrBuilder() {
           if (triggerTypeBuilder_ != null) {
@@ -2498,11 +2501,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der "TriggerTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_type = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2522,21 +2525,21 @@ public final class MiGetTRITriggerAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> executeProcedureNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
          */
         public boolean hasExecuteProcedureName() {
           return executeProcedureNameBuilder_ != null || executeProcedureName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
          */
         public io.dstore.Values.stringValue getExecuteProcedureName() {
           if (executeProcedureNameBuilder_ == null) {
@@ -2546,11 +2549,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
          */
         public Builder setExecuteProcedureName(io.dstore.Values.stringValue value) {
           if (executeProcedureNameBuilder_ == null) {
@@ -2566,11 +2569,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
          */
         public Builder setExecuteProcedureName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2584,11 +2587,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
          */
         public Builder mergeExecuteProcedureName(io.dstore.Values.stringValue value) {
           if (executeProcedureNameBuilder_ == null) {
@@ -2606,11 +2609,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
          */
         public Builder clearExecuteProcedureName() {
           if (executeProcedureNameBuilder_ == null) {
@@ -2624,11 +2627,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getExecuteProcedureNameBuilder() {
           
@@ -2636,11 +2639,11 @@ public final class MiGetTRITriggerAd {
           return getExecuteProcedureNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getExecuteProcedureNameOrBuilder() {
           if (executeProcedureNameBuilder_ != null) {
@@ -2651,11 +2654,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer Prozedur, die (wenn der Trigger ausgelöst wird) aufgerufen werden soll. Nur falls nicht konfiguriert (also "NULL"), steht die komplexere Definition eines Triggers (s. "mi_ModifyTRITriggerWorkflow_Ad") zur Verfügung.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue execute_procedure_name = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2675,21 +2678,21 @@ public final class MiGetTRITriggerAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> triggerNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-         *
          * <pre>
          * Name des Triggers "TriggerID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
          */
         public boolean hasTriggerName() {
           return triggerNameBuilder_ != null || triggerName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-         *
          * <pre>
          * Name des Triggers "TriggerID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
          */
         public io.dstore.Values.stringValue getTriggerName() {
           if (triggerNameBuilder_ == null) {
@@ -2699,11 +2702,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-         *
          * <pre>
          * Name des Triggers "TriggerID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
          */
         public Builder setTriggerName(io.dstore.Values.stringValue value) {
           if (triggerNameBuilder_ == null) {
@@ -2719,11 +2722,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-         *
          * <pre>
          * Name des Triggers "TriggerID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
          */
         public Builder setTriggerName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2737,11 +2740,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-         *
          * <pre>
          * Name des Triggers "TriggerID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
          */
         public Builder mergeTriggerName(io.dstore.Values.stringValue value) {
           if (triggerNameBuilder_ == null) {
@@ -2759,11 +2762,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-         *
          * <pre>
          * Name des Triggers "TriggerID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
          */
         public Builder clearTriggerName() {
           if (triggerNameBuilder_ == null) {
@@ -2777,11 +2780,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-         *
          * <pre>
          * Name des Triggers "TriggerID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getTriggerNameBuilder() {
           
@@ -2789,11 +2792,11 @@ public final class MiGetTRITriggerAd {
           return getTriggerNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-         *
          * <pre>
          * Name des Triggers "TriggerID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTriggerNameOrBuilder() {
           if (triggerNameBuilder_ != null) {
@@ -2804,11 +2807,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
-         *
          * <pre>
          * Name des Triggers "TriggerID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2828,21 +2831,21 @@ public final class MiGetTRITriggerAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> triggerDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-         *
          * <pre>
          * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
          */
         public boolean hasTriggerDescription() {
           return triggerDescriptionBuilder_ != null || triggerDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-         *
          * <pre>
          * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
          */
         public io.dstore.Values.stringValue getTriggerDescription() {
           if (triggerDescriptionBuilder_ == null) {
@@ -2852,11 +2855,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-         *
          * <pre>
          * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
          */
         public Builder setTriggerDescription(io.dstore.Values.stringValue value) {
           if (triggerDescriptionBuilder_ == null) {
@@ -2872,11 +2875,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-         *
          * <pre>
          * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
          */
         public Builder setTriggerDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2890,11 +2893,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-         *
          * <pre>
          * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
          */
         public Builder mergeTriggerDescription(io.dstore.Values.stringValue value) {
           if (triggerDescriptionBuilder_ == null) {
@@ -2912,11 +2915,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-         *
          * <pre>
          * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
          */
         public Builder clearTriggerDescription() {
           if (triggerDescriptionBuilder_ == null) {
@@ -2930,11 +2933,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-         *
          * <pre>
          * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getTriggerDescriptionBuilder() {
           
@@ -2942,11 +2945,11 @@ public final class MiGetTRITriggerAd {
           return getTriggerDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-         *
          * <pre>
          * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTriggerDescriptionOrBuilder() {
           if (triggerDescriptionBuilder_ != null) {
@@ -2957,11 +2960,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
-         *
          * <pre>
          * Kurze Beschreibung des Triggers (wozu er dient, was er macht etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue trigger_description = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2981,21 +2984,21 @@ public final class MiGetTRITriggerAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-         *
          * <pre>
          * ID eines "TRI-Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
          */
         public boolean hasTriggerId() {
           return triggerIdBuilder_ != null || triggerId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-         *
          * <pre>
          * ID eines "TRI-Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
          */
         public io.dstore.Values.integerValue getTriggerId() {
           if (triggerIdBuilder_ == null) {
@@ -3005,11 +3008,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-         *
          * <pre>
          * ID eines "TRI-Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
          */
         public Builder setTriggerId(io.dstore.Values.integerValue value) {
           if (triggerIdBuilder_ == null) {
@@ -3025,11 +3028,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-         *
          * <pre>
          * ID eines "TRI-Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
          */
         public Builder setTriggerId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3043,11 +3046,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-         *
          * <pre>
          * ID eines "TRI-Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
          */
         public Builder mergeTriggerId(io.dstore.Values.integerValue value) {
           if (triggerIdBuilder_ == null) {
@@ -3065,11 +3068,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-         *
          * <pre>
          * ID eines "TRI-Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
          */
         public Builder clearTriggerId() {
           if (triggerIdBuilder_ == null) {
@@ -3083,11 +3086,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-         *
          * <pre>
          * ID eines "TRI-Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getTriggerIdBuilder() {
           
@@ -3095,11 +3098,11 @@ public final class MiGetTRITriggerAd {
           return getTriggerIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-         *
          * <pre>
          * ID eines "TRI-Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
           if (triggerIdBuilder_ != null) {
@@ -3110,11 +3113,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
-         *
          * <pre>
          * ID eines "TRI-Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3134,21 +3137,21 @@ public final class MiGetTRITriggerAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerStatusBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-         *
          * <pre>
          * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
          */
         public boolean hasTriggerStatus() {
           return triggerStatusBuilder_ != null || triggerStatus_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-         *
          * <pre>
          * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
          */
         public io.dstore.Values.integerValue getTriggerStatus() {
           if (triggerStatusBuilder_ == null) {
@@ -3158,11 +3161,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-         *
          * <pre>
          * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
          */
         public Builder setTriggerStatus(io.dstore.Values.integerValue value) {
           if (triggerStatusBuilder_ == null) {
@@ -3178,11 +3181,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-         *
          * <pre>
          * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
          */
         public Builder setTriggerStatus(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3196,11 +3199,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-         *
          * <pre>
          * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
          */
         public Builder mergeTriggerStatus(io.dstore.Values.integerValue value) {
           if (triggerStatusBuilder_ == null) {
@@ -3218,11 +3221,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-         *
          * <pre>
          * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
          */
         public Builder clearTriggerStatus() {
           if (triggerStatusBuilder_ == null) {
@@ -3236,11 +3239,11 @@ public final class MiGetTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-         *
          * <pre>
          * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
          */
         public io.dstore.Values.integerValue.Builder getTriggerStatusBuilder() {
           
@@ -3248,11 +3251,11 @@ public final class MiGetTRITriggerAd {
           return getTriggerStatusFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-         *
          * <pre>
          * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTriggerStatusOrBuilder() {
           if (triggerStatusBuilder_ != null) {
@@ -3263,11 +3266,11 @@ public final class MiGetTRITriggerAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
-         *
          * <pre>
          * Status-Bitmap, also Summe folgender Werte :- "1" : Trigger-Definition ist fehlerhaft- "2" : Trigger-Definition ist ok- "4" : Trigger ist zugewiesen (also aktiv)Sonderfall : "0" bedeutet, daß der Trigger und seine Definition noch NICHT geprüft wurde.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trigger_status = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3312,16 +3315,7 @@ public final class MiGetTRITriggerAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3413,52 +3407,52 @@ public final class MiGetTRITriggerAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetTRITriggerAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetTRITriggerAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3533,34 +3527,40 @@ public final class MiGetTRITriggerAd {
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3797,7 +3797,7 @@ public final class MiGetTRITriggerAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetTRITriggerAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4300,11 +4300,11 @@ public final class MiGetTRITriggerAd {
           io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row, io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTRITriggerAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -4314,11 +4314,11 @@ public final class MiGetTRITriggerAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -4328,11 +4328,11 @@ public final class MiGetTRITriggerAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -4342,11 +4342,11 @@ public final class MiGetTRITriggerAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row value) {
@@ -4363,11 +4363,11 @@ public final class MiGetTRITriggerAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row.Builder builderForValue) {
@@ -4381,11 +4381,11 @@ public final class MiGetTRITriggerAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -4401,11 +4401,11 @@ public final class MiGetTRITriggerAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row value) {
@@ -4422,11 +4422,11 @@ public final class MiGetTRITriggerAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row.Builder builderForValue) {
@@ -4440,11 +4440,11 @@ public final class MiGetTRITriggerAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row.Builder builderForValue) {
@@ -4458,11 +4458,11 @@ public final class MiGetTRITriggerAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row> values) {
@@ -4477,11 +4477,11 @@ public final class MiGetTRITriggerAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4494,11 +4494,11 @@ public final class MiGetTRITriggerAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4511,22 +4511,22 @@ public final class MiGetTRITriggerAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTRITriggerAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4536,11 +4536,11 @@ public final class MiGetTRITriggerAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetTRITriggerAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4551,22 +4551,22 @@ public final class MiGetTRITriggerAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4574,11 +4574,11 @@ public final class MiGetTRITriggerAd {
             index, io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITrigger_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetTRITriggerAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4628,16 +4628,7 @@ public final class MiGetTRITriggerAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4656,19 +4647,19 @@ public final class MiGetTRITriggerAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTRITrigger_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTRITrigger_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTRITrigger_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTRITrigger_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTRITrigger_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTRITrigger_Ad_Response_Row_fieldAccessorTable;
 
@@ -4676,7 +4667,7 @@ public final class MiGetTRITriggerAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

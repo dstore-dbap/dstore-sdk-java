@@ -109,7 +109,8 @@ public final class OmGetOrderContentInfoRulesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -201,11 +202,10 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -445,34 +445,40 @@ public final class OmGetOrderContentInfoRulesAd {
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -662,7 +668,7 @@ public final class OmGetOrderContentInfoRulesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1272,16 +1278,7 @@ public final class OmGetOrderContentInfoRulesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1353,45 +1350,45 @@ public final class OmGetOrderContentInfoRulesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1420,7 +1417,8 @@ public final class OmGetOrderContentInfoRulesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1464,11 +1462,10 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1504,177 +1501,177 @@ public final class OmGetOrderContentInfoRulesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       boolean hasUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       io.dstore.Values.stringValue getUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       boolean hasInformationTypeId();
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       io.dstore.Values.integerValue getInformationTypeId();
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       boolean hasUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       io.dstore.Values.integerValue getUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-       *
        * <pre>
        * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        */
       boolean hasOrderStateId();
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-       *
        * <pre>
        * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        */
       io.dstore.Values.integerValue getOrderStateId();
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-       *
        * <pre>
        * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-       *
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
        */
       boolean hasInformationType();
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-       *
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
        */
       io.dstore.Values.stringValue getInformationType();
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-       *
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "OrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        */
       boolean hasOrderState();
       /**
-       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "OrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        */
       io.dstore.Values.stringValue getOrderState();
       /**
-       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "OrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        */
       io.dstore.Values.stringValueOrBuilder getOrderStateOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-       *
        * <pre>
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
        */
       boolean hasModificationAllowed();
       /**
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-       *
        * <pre>
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
        */
       io.dstore.Values.integerValue getModificationAllowed();
       /**
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-       *
        * <pre>
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
        */
       io.dstore.Values.integerValueOrBuilder getModificationAllowedOrBuilder();
     }
@@ -1700,7 +1697,8 @@ public final class OmGetOrderContentInfoRulesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1816,11 +1814,10 @@ public final class OmGetOrderContentInfoRulesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1849,31 +1846,31 @@ public final class OmGetOrderContentInfoRulesAd {
       public static final int USER_NAME_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue userName_;
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       public io.dstore.Values.stringValue getUserName() {
         return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
@@ -1882,31 +1879,31 @@ public final class OmGetOrderContentInfoRulesAd {
       public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue informationTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getInformationTypeId() {
         return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
@@ -1915,31 +1912,31 @@ public final class OmGetOrderContentInfoRulesAd {
       public static final int USER_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue userId_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getUserId() {
         return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
@@ -1948,31 +1945,31 @@ public final class OmGetOrderContentInfoRulesAd {
       public static final int ORDER_STATE_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue orderStateId_;
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-       *
        * <pre>
        * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        */
       public boolean hasOrderStateId() {
         return orderStateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-       *
        * <pre>
        * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        */
       public io.dstore.Values.integerValue getOrderStateId() {
         return orderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-       *
        * <pre>
        * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
         return getOrderStateId();
@@ -1981,31 +1978,31 @@ public final class OmGetOrderContentInfoRulesAd {
       public static final int INFORMATION_TYPE_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue informationType_;
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-       *
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-       *
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
        */
       public io.dstore.Values.stringValue getInformationType() {
         return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-       *
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
@@ -2014,31 +2011,31 @@ public final class OmGetOrderContentInfoRulesAd {
       public static final int ORDER_STATE_FIELD_NUMBER = 10006;
       private io.dstore.Values.stringValue orderState_;
       /**
-       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "OrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        */
       public boolean hasOrderState() {
         return orderState_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "OrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        */
       public io.dstore.Values.stringValue getOrderState() {
         return orderState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderState_;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Status "OrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getOrderStateOrBuilder() {
         return getOrderState();
@@ -2047,31 +2044,31 @@ public final class OmGetOrderContentInfoRulesAd {
       public static final int MODIFICATION_ALLOWED_FIELD_NUMBER = 10007;
       private io.dstore.Values.integerValue modificationAllowed_;
       /**
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-       *
        * <pre>
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
        */
       public boolean hasModificationAllowed() {
         return modificationAllowed_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-       *
        * <pre>
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
        */
       public io.dstore.Values.integerValue getModificationAllowed() {
         return modificationAllowed_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : modificationAllowed_;
       }
       /**
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-       *
        * <pre>
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getModificationAllowedOrBuilder() {
         return getModificationAllowed();
@@ -2180,34 +2177,40 @@ public final class OmGetOrderContentInfoRulesAd {
       }
       public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2421,7 +2424,7 @@ public final class OmGetOrderContentInfoRulesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2460,21 +2463,21 @@ public final class OmGetOrderContentInfoRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public io.dstore.Values.stringValue getUserName() {
           if (userNameBuilder_ == null) {
@@ -2484,11 +2487,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder setUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -2504,11 +2507,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder setUserName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2522,11 +2525,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder mergeUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -2544,11 +2547,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -2562,11 +2565,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
           
@@ -2574,11 +2577,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return getUserNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
@@ -2589,11 +2592,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2613,21 +2616,21 @@ public final class OmGetOrderContentInfoRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2637,11 +2640,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -2657,11 +2660,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public Builder setInformationTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2675,11 +2678,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -2697,11 +2700,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2715,11 +2718,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
           
@@ -2727,11 +2730,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return getInformationTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
@@ -2742,11 +2745,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen, die zu Auftrags-Positionen hinterlegt werden können (mögliche Werte : s. "om_GetOrderContentInfoTypes_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2766,21 +2769,21 @@ public final class OmGetOrderContentInfoRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getUserId() {
           if (userIdBuilder_ == null) {
@@ -2790,11 +2793,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public Builder setUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -2810,11 +2813,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public Builder setUserId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2828,11 +2831,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public Builder mergeUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -2850,11 +2853,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -2868,11 +2871,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
           
@@ -2880,11 +2883,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return getUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
@@ -2895,11 +2898,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen durchführen (oder nicht), und zwar an Informationen zu Auftrags-Positionen, die sich im Status "OrderStateID" befinden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2919,21 +2922,21 @@ public final class OmGetOrderContentInfoRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderStateIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-         *
          * <pre>
          * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          */
         public boolean hasOrderStateId() {
           return orderStateIdBuilder_ != null || orderStateId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-         *
          * <pre>
          * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          */
         public io.dstore.Values.integerValue getOrderStateId() {
           if (orderStateIdBuilder_ == null) {
@@ -2943,11 +2946,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-         *
          * <pre>
          * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          */
         public Builder setOrderStateId(io.dstore.Values.integerValue value) {
           if (orderStateIdBuilder_ == null) {
@@ -2963,11 +2966,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-         *
          * <pre>
          * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          */
         public Builder setOrderStateId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2981,11 +2984,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-         *
          * <pre>
          * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          */
         public Builder mergeOrderStateId(io.dstore.Values.integerValue value) {
           if (orderStateIdBuilder_ == null) {
@@ -3003,11 +3006,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-         *
          * <pre>
          * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          */
         public Builder clearOrderStateId() {
           if (orderStateIdBuilder_ == null) {
@@ -3021,11 +3024,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-         *
          * <pre>
          * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getOrderStateIdBuilder() {
           
@@ -3033,11 +3036,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return getOrderStateIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-         *
          * <pre>
          * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
           if (orderStateIdBuilder_ != null) {
@@ -3048,11 +3051,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
-         *
          * <pre>
          * ID eines Auftrags-(Positions-)Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Position in diesem Status befindet.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3072,21 +3075,21 @@ public final class OmGetOrderContentInfoRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-         *
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-         *
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
          */
         public io.dstore.Values.stringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -3096,11 +3099,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-         *
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
          */
         public Builder setInformationType(io.dstore.Values.stringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -3116,11 +3119,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-         *
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
          */
         public Builder setInformationType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3134,11 +3137,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-         *
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
          */
         public Builder mergeInformationType(io.dstore.Values.stringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -3156,11 +3159,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-         *
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -3174,11 +3177,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-         *
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getInformationTypeBuilder() {
           
@@ -3186,11 +3189,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return getInformationTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-         *
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
@@ -3201,11 +3204,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
-         *
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3225,21 +3228,21 @@ public final class OmGetOrderContentInfoRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderStateBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "OrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          */
         public boolean hasOrderState() {
           return orderStateBuilder_ != null || orderState_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "OrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          */
         public io.dstore.Values.stringValue getOrderState() {
           if (orderStateBuilder_ == null) {
@@ -3249,11 +3252,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "OrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          */
         public Builder setOrderState(io.dstore.Values.stringValue value) {
           if (orderStateBuilder_ == null) {
@@ -3269,11 +3272,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "OrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          */
         public Builder setOrderState(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3287,11 +3290,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "OrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          */
         public Builder mergeOrderState(io.dstore.Values.stringValue value) {
           if (orderStateBuilder_ == null) {
@@ -3309,11 +3312,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "OrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          */
         public Builder clearOrderState() {
           if (orderStateBuilder_ == null) {
@@ -3327,11 +3330,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "OrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          */
         public io.dstore.Values.stringValue.Builder getOrderStateBuilder() {
           
@@ -3339,11 +3342,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return getOrderStateFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "OrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getOrderStateOrBuilder() {
           if (orderStateBuilder_ != null) {
@@ -3354,11 +3357,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Status "OrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3378,21 +3381,21 @@ public final class OmGetOrderContentInfoRulesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> modificationAllowedBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-         *
          * <pre>
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
          */
         public boolean hasModificationAllowed() {
           return modificationAllowedBuilder_ != null || modificationAllowed_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-         *
          * <pre>
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
          */
         public io.dstore.Values.integerValue getModificationAllowed() {
           if (modificationAllowedBuilder_ == null) {
@@ -3402,11 +3405,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-         *
          * <pre>
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
          */
         public Builder setModificationAllowed(io.dstore.Values.integerValue value) {
           if (modificationAllowedBuilder_ == null) {
@@ -3422,11 +3425,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-         *
          * <pre>
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
          */
         public Builder setModificationAllowed(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3440,11 +3443,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-         *
          * <pre>
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
          */
         public Builder mergeModificationAllowed(io.dstore.Values.integerValue value) {
           if (modificationAllowedBuilder_ == null) {
@@ -3462,11 +3465,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-         *
          * <pre>
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
          */
         public Builder clearModificationAllowed() {
           if (modificationAllowedBuilder_ == null) {
@@ -3480,11 +3483,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-         *
          * <pre>
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
          */
         public io.dstore.Values.integerValue.Builder getModificationAllowedBuilder() {
           
@@ -3492,11 +3495,11 @@ public final class OmGetOrderContentInfoRulesAd {
           return getModificationAllowedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-         *
          * <pre>
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getModificationAllowedOrBuilder() {
           if (modificationAllowedBuilder_ != null) {
@@ -3507,11 +3510,11 @@ public final class OmGetOrderContentInfoRulesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
-         *
          * <pre>
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3556,16 +3559,7 @@ public final class OmGetOrderContentInfoRulesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3657,52 +3651,52 @@ public final class OmGetOrderContentInfoRulesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3777,34 +3771,40 @@ public final class OmGetOrderContentInfoRulesAd {
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4041,7 +4041,7 @@ public final class OmGetOrderContentInfoRulesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4544,11 +4544,11 @@ public final class OmGetOrderContentInfoRulesAd {
           io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row, io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -4558,11 +4558,11 @@ public final class OmGetOrderContentInfoRulesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -4572,11 +4572,11 @@ public final class OmGetOrderContentInfoRulesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -4586,11 +4586,11 @@ public final class OmGetOrderContentInfoRulesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row value) {
@@ -4607,11 +4607,11 @@ public final class OmGetOrderContentInfoRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row.Builder builderForValue) {
@@ -4625,11 +4625,11 @@ public final class OmGetOrderContentInfoRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -4645,11 +4645,11 @@ public final class OmGetOrderContentInfoRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row value) {
@@ -4666,11 +4666,11 @@ public final class OmGetOrderContentInfoRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row.Builder builderForValue) {
@@ -4684,11 +4684,11 @@ public final class OmGetOrderContentInfoRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row.Builder builderForValue) {
@@ -4702,11 +4702,11 @@ public final class OmGetOrderContentInfoRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row> values) {
@@ -4721,11 +4721,11 @@ public final class OmGetOrderContentInfoRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4738,11 +4738,11 @@ public final class OmGetOrderContentInfoRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4755,22 +4755,22 @@ public final class OmGetOrderContentInfoRulesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4780,11 +4780,11 @@ public final class OmGetOrderContentInfoRulesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4795,22 +4795,22 @@ public final class OmGetOrderContentInfoRulesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4818,11 +4818,11 @@ public final class OmGetOrderContentInfoRulesAd {
             index, io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4872,16 +4872,7 @@ public final class OmGetOrderContentInfoRulesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4900,19 +4891,19 @@ public final class OmGetOrderContentInfoRulesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderContentInfoRules_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderContentInfoRules_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderContentInfoRules_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderContentInfoRules_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderContentInfoRules_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderContentInfoRules_Ad_Response_Row_fieldAccessorTable;
 
@@ -4920,7 +4911,7 @@ public final class OmGetOrderContentInfoRulesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

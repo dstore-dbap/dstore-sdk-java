@@ -90,7 +90,8 @@ public final class DoGetSettingsDescriptionsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class DoGetSettingsDescriptionsAd {
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class DoGetSettingsDescriptionsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class DoGetSettingsDescriptionsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class DoGetSettingsDescriptionsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class DoGetSettingsDescriptionsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,227 +1257,227 @@ public final class DoGetSettingsDescriptionsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Settings"-Einträgen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        */
       boolean hasSettingsEntryCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Settings"-Einträgen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        */
       io.dstore.Values.integerValue getSettingsEntryCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Settings"-Einträgen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-       *
        * <pre>
        * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
        */
       boolean hasSettingsTable();
       /**
-       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-       *
        * <pre>
        * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
        */
       io.dstore.Values.stringValue getSettingsTable();
       /**
-       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-       *
        * <pre>
        * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getSettingsTableOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
-       *
        * <pre>
        * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
-       *
        * <pre>
        * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        */
       io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
-       *
        * <pre>
        * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue required = 10004;</code>
-       *
        * <pre>
        * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue required = 10004;</code>
        */
       boolean hasRequired();
       /**
-       * <code>optional .dstore.values.booleanValue required = 10004;</code>
-       *
        * <pre>
        * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue required = 10004;</code>
        */
       io.dstore.Values.booleanValue getRequired();
       /**
-       * <code>optional .dstore.values.booleanValue required = 10004;</code>
-       *
        * <pre>
        * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue required = 10004;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getRequiredOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-       *
        * <pre>
        * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
        */
       boolean hasDstoreVersion();
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-       *
        * <pre>
        * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
        */
       io.dstore.Values.stringValue getDstoreVersion();
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-       *
        * <pre>
        * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDstoreVersionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-       *
        * <pre>
        * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
        */
       boolean hasUserDependent();
       /**
-       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-       *
        * <pre>
        * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
        */
       io.dstore.Values.booleanValue getUserDependent();
       /**
-       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-       *
        * <pre>
        * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getUserDependentOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-       *
        * <pre>
        * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        */
       boolean hasKeyVariable();
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-       *
        * <pre>
        * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        */
       io.dstore.Values.stringValue getKeyVariable();
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-       *
        * <pre>
        * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "SettingsEntryCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
        */
       boolean hasSettingsEntryCategory();
       /**
-       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "SettingsEntryCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
        */
       io.dstore.Values.stringValue getSettingsEntryCategory();
       /**
-       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "SettingsEntryCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
        */
       io.dstore.Values.stringValueOrBuilder getSettingsEntryCategoryOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-       *
        * <pre>
        * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
        */
       boolean hasDataTypeForValue();
       /**
-       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-       *
        * <pre>
        * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
        */
       io.dstore.Values.stringValue getDataTypeForValue();
       /**
-       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-       *
        * <pre>
        * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDataTypeForValueOrBuilder();
     }
@@ -1506,7 +1503,8 @@ public final class DoGetSettingsDescriptionsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1648,11 +1646,10 @@ public final class DoGetSettingsDescriptionsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1681,31 +1678,31 @@ public final class DoGetSettingsDescriptionsAd {
       public static final int SETTINGS_ENTRY_CATEGORY_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue settingsEntryCategoryId_;
       /**
-       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Settings"-Einträgen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        */
       public boolean hasSettingsEntryCategoryId() {
         return settingsEntryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Settings"-Einträgen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getSettingsEntryCategoryId() {
         return settingsEntryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie von "Settings"-Einträgen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
         return getSettingsEntryCategoryId();
@@ -1714,31 +1711,31 @@ public final class DoGetSettingsDescriptionsAd {
       public static final int SETTINGS_TABLE_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue settingsTable_;
       /**
-       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-       *
        * <pre>
        * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
        */
       public boolean hasSettingsTable() {
         return settingsTable_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-       *
        * <pre>
        * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
        */
       public io.dstore.Values.stringValue getSettingsTable() {
         return settingsTable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : settingsTable_;
       }
       /**
-       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-       *
        * <pre>
        * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSettingsTableOrBuilder() {
         return getSettingsTable();
@@ -1747,31 +1744,31 @@ public final class DoGetSettingsDescriptionsAd {
       public static final int DESCRIPTION_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
-       *
        * <pre>
        * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
-       *
        * <pre>
        * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        */
       public io.dstore.Values.stringValue getDescription() {
         return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
-       *
        * <pre>
        * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -1780,31 +1777,31 @@ public final class DoGetSettingsDescriptionsAd {
       public static final int REQUIRED_FIELD_NUMBER = 10004;
       private io.dstore.Values.booleanValue required_;
       /**
-       * <code>optional .dstore.values.booleanValue required = 10004;</code>
-       *
        * <pre>
        * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue required = 10004;</code>
        */
       public boolean hasRequired() {
         return required_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue required = 10004;</code>
-       *
        * <pre>
        * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue required = 10004;</code>
        */
       public io.dstore.Values.booleanValue getRequired() {
         return required_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : required_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue required = 10004;</code>
-       *
        * <pre>
        * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue required = 10004;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getRequiredOrBuilder() {
         return getRequired();
@@ -1813,31 +1810,31 @@ public final class DoGetSettingsDescriptionsAd {
       public static final int DSTORE_VERSION_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue dstoreVersion_;
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-       *
        * <pre>
        * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
        */
       public boolean hasDstoreVersion() {
         return dstoreVersion_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-       *
        * <pre>
        * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
        */
       public io.dstore.Values.stringValue getDstoreVersion() {
         return dstoreVersion_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dstoreVersion_;
       }
       /**
-       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-       *
        * <pre>
        * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDstoreVersionOrBuilder() {
         return getDstoreVersion();
@@ -1846,31 +1843,31 @@ public final class DoGetSettingsDescriptionsAd {
       public static final int USER_DEPENDENT_FIELD_NUMBER = 10006;
       private io.dstore.Values.booleanValue userDependent_;
       /**
-       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-       *
        * <pre>
        * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
        */
       public boolean hasUserDependent() {
         return userDependent_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-       *
        * <pre>
        * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
        */
       public io.dstore.Values.booleanValue getUserDependent() {
         return userDependent_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : userDependent_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-       *
        * <pre>
        * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getUserDependentOrBuilder() {
         return getUserDependent();
@@ -1879,31 +1876,31 @@ public final class DoGetSettingsDescriptionsAd {
       public static final int KEY_VARIABLE_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue keyVariable_;
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-       *
        * <pre>
        * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-       *
        * <pre>
        * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        */
       public io.dstore.Values.stringValue getKeyVariable() {
         return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-       *
        * <pre>
        * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
@@ -1912,31 +1909,31 @@ public final class DoGetSettingsDescriptionsAd {
       public static final int SETTINGS_ENTRY_CATEGORY_FIELD_NUMBER = 10008;
       private io.dstore.Values.stringValue settingsEntryCategory_;
       /**
-       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "SettingsEntryCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
        */
       public boolean hasSettingsEntryCategory() {
         return settingsEntryCategory_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "SettingsEntryCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
        */
       public io.dstore.Values.stringValue getSettingsEntryCategory() {
         return settingsEntryCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : settingsEntryCategory_;
       }
       /**
-       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "SettingsEntryCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSettingsEntryCategoryOrBuilder() {
         return getSettingsEntryCategory();
@@ -1945,31 +1942,31 @@ public final class DoGetSettingsDescriptionsAd {
       public static final int DATA_TYPE_FOR_VALUE_FIELD_NUMBER = 10009;
       private io.dstore.Values.stringValue dataTypeForValue_;
       /**
-       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-       *
        * <pre>
        * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
        */
       public boolean hasDataTypeForValue() {
         return dataTypeForValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-       *
        * <pre>
        * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
        */
       public io.dstore.Values.stringValue getDataTypeForValue() {
         return dataTypeForValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dataTypeForValue_;
       }
       /**
-       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-       *
        * <pre>
        * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDataTypeForValueOrBuilder() {
         return getDataTypeForValue();
@@ -2092,34 +2089,40 @@ public final class DoGetSettingsDescriptionsAd {
       }
       public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2361,7 +2364,7 @@ public final class DoGetSettingsDescriptionsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2400,21 +2403,21 @@ public final class DoGetSettingsDescriptionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> settingsEntryCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Settings"-Einträgen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          */
         public boolean hasSettingsEntryCategoryId() {
           return settingsEntryCategoryIdBuilder_ != null || settingsEntryCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Settings"-Einträgen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getSettingsEntryCategoryId() {
           if (settingsEntryCategoryIdBuilder_ == null) {
@@ -2424,11 +2427,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Settings"-Einträgen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          */
         public Builder setSettingsEntryCategoryId(io.dstore.Values.integerValue value) {
           if (settingsEntryCategoryIdBuilder_ == null) {
@@ -2444,11 +2447,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Settings"-Einträgen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          */
         public Builder setSettingsEntryCategoryId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2462,11 +2465,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Settings"-Einträgen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          */
         public Builder mergeSettingsEntryCategoryId(io.dstore.Values.integerValue value) {
           if (settingsEntryCategoryIdBuilder_ == null) {
@@ -2484,11 +2487,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Settings"-Einträgen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          */
         public Builder clearSettingsEntryCategoryId() {
           if (settingsEntryCategoryIdBuilder_ == null) {
@@ -2502,11 +2505,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Settings"-Einträgen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getSettingsEntryCategoryIdBuilder() {
           
@@ -2514,11 +2517,11 @@ public final class DoGetSettingsDescriptionsAd {
           return getSettingsEntryCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Settings"-Einträgen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
           if (settingsEntryCategoryIdBuilder_ != null) {
@@ -2529,11 +2532,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie von "Settings"-Einträgen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2553,21 +2556,21 @@ public final class DoGetSettingsDescriptionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> settingsTableBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-         *
          * <pre>
          * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
          */
         public boolean hasSettingsTable() {
           return settingsTableBuilder_ != null || settingsTable_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-         *
          * <pre>
          * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
          */
         public io.dstore.Values.stringValue getSettingsTable() {
           if (settingsTableBuilder_ == null) {
@@ -2577,11 +2580,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-         *
          * <pre>
          * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
          */
         public Builder setSettingsTable(io.dstore.Values.stringValue value) {
           if (settingsTableBuilder_ == null) {
@@ -2597,11 +2600,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-         *
          * <pre>
          * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
          */
         public Builder setSettingsTable(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2615,11 +2618,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-         *
          * <pre>
          * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
          */
         public Builder mergeSettingsTable(io.dstore.Values.stringValue value) {
           if (settingsTableBuilder_ == null) {
@@ -2637,11 +2640,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-         *
          * <pre>
          * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
          */
         public Builder clearSettingsTable() {
           if (settingsTableBuilder_ == null) {
@@ -2655,11 +2658,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-         *
          * <pre>
          * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getSettingsTableBuilder() {
           
@@ -2667,11 +2670,11 @@ public final class DoGetSettingsDescriptionsAd {
           return getSettingsTableFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-         *
          * <pre>
          * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getSettingsTableOrBuilder() {
           if (settingsTableBuilder_ != null) {
@@ -2682,11 +2685,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
-         *
          * <pre>
          * Name einer "Settings"-Tabelle des "dStore" (mögliche Werte siehe Parameter "&#64;SettingsTable")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_table = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2706,21 +2709,21 @@ public final class DoGetSettingsDescriptionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
-         *
          * <pre>
          * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
-         *
          * <pre>
          * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          */
         public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -2730,11 +2733,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
-         *
          * <pre>
          * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          */
         public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -2750,11 +2753,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
-         *
          * <pre>
          * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          */
         public Builder setDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2768,11 +2771,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
-         *
          * <pre>
          * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          */
         public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -2790,11 +2793,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
-         *
          * <pre>
          * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -2808,11 +2811,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
-         *
          * <pre>
          * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
@@ -2820,11 +2823,11 @@ public final class DoGetSettingsDescriptionsAd {
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
-         *
          * <pre>
          * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -2835,11 +2838,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
-         *
          * <pre>
          * Eine Beschreibung, wozu der Schlüssel "KeyVariable" benötigt/verwendet wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2859,21 +2862,21 @@ public final class DoGetSettingsDescriptionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> requiredBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue required = 10004;</code>
-         *
          * <pre>
          * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue required = 10004;</code>
          */
         public boolean hasRequired() {
           return requiredBuilder_ != null || required_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue required = 10004;</code>
-         *
          * <pre>
          * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue required = 10004;</code>
          */
         public io.dstore.Values.booleanValue getRequired() {
           if (requiredBuilder_ == null) {
@@ -2883,11 +2886,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue required = 10004;</code>
-         *
          * <pre>
          * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue required = 10004;</code>
          */
         public Builder setRequired(io.dstore.Values.booleanValue value) {
           if (requiredBuilder_ == null) {
@@ -2903,11 +2906,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue required = 10004;</code>
-         *
          * <pre>
          * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue required = 10004;</code>
          */
         public Builder setRequired(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2921,11 +2924,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue required = 10004;</code>
-         *
          * <pre>
          * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue required = 10004;</code>
          */
         public Builder mergeRequired(io.dstore.Values.booleanValue value) {
           if (requiredBuilder_ == null) {
@@ -2943,11 +2946,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue required = 10004;</code>
-         *
          * <pre>
          * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue required = 10004;</code>
          */
         public Builder clearRequired() {
           if (requiredBuilder_ == null) {
@@ -2961,11 +2964,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue required = 10004;</code>
-         *
          * <pre>
          * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue required = 10004;</code>
          */
         public io.dstore.Values.booleanValue.Builder getRequiredBuilder() {
           
@@ -2973,11 +2976,11 @@ public final class DoGetSettingsDescriptionsAd {
           return getRequiredFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue required = 10004;</code>
-         *
          * <pre>
          * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue required = 10004;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getRequiredOrBuilder() {
           if (requiredBuilder_ != null) {
@@ -2988,11 +2991,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue required = 10004;</code>
-         *
          * <pre>
          * "0" : Optionaler Schlüssel, d.h. er wird nur für irgendeine ZUSÄTZLICHE Funktionalität benötigt"1" : Zwingend für den laufenden Betrieb des "dStore" erforderlich
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue required = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -3012,21 +3015,21 @@ public final class DoGetSettingsDescriptionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dstoreVersionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-         *
          * <pre>
          * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
          */
         public boolean hasDstoreVersion() {
           return dstoreVersionBuilder_ != null || dstoreVersion_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-         *
          * <pre>
          * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
          */
         public io.dstore.Values.stringValue getDstoreVersion() {
           if (dstoreVersionBuilder_ == null) {
@@ -3036,11 +3039,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-         *
          * <pre>
          * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
          */
         public Builder setDstoreVersion(io.dstore.Values.stringValue value) {
           if (dstoreVersionBuilder_ == null) {
@@ -3056,11 +3059,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-         *
          * <pre>
          * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
          */
         public Builder setDstoreVersion(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3074,11 +3077,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-         *
          * <pre>
          * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
          */
         public Builder mergeDstoreVersion(io.dstore.Values.stringValue value) {
           if (dstoreVersionBuilder_ == null) {
@@ -3096,11 +3099,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-         *
          * <pre>
          * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
          */
         public Builder clearDstoreVersion() {
           if (dstoreVersionBuilder_ == null) {
@@ -3114,11 +3117,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-         *
          * <pre>
          * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getDstoreVersionBuilder() {
           
@@ -3126,11 +3129,11 @@ public final class DoGetSettingsDescriptionsAd {
           return getDstoreVersionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-         *
          * <pre>
          * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDstoreVersionOrBuilder() {
           if (dstoreVersionBuilder_ != null) {
@@ -3141,11 +3144,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
-         *
          * <pre>
          * Seit welcher "dStore"-Version gibt es den Schlüssel "KeyVariable"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue dstore_version = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3165,21 +3168,21 @@ public final class DoGetSettingsDescriptionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> userDependentBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-         *
          * <pre>
          * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
          */
         public boolean hasUserDependent() {
           return userDependentBuilder_ != null || userDependent_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-         *
          * <pre>
          * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
          */
         public io.dstore.Values.booleanValue getUserDependent() {
           if (userDependentBuilder_ == null) {
@@ -3189,11 +3192,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-         *
          * <pre>
          * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
          */
         public Builder setUserDependent(io.dstore.Values.booleanValue value) {
           if (userDependentBuilder_ == null) {
@@ -3209,11 +3212,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-         *
          * <pre>
          * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
          */
         public Builder setUserDependent(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -3227,11 +3230,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-         *
          * <pre>
          * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
          */
         public Builder mergeUserDependent(io.dstore.Values.booleanValue value) {
           if (userDependentBuilder_ == null) {
@@ -3249,11 +3252,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-         *
          * <pre>
          * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
          */
         public Builder clearUserDependent() {
           if (userDependentBuilder_ == null) {
@@ -3267,11 +3270,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-         *
          * <pre>
          * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
          */
         public io.dstore.Values.booleanValue.Builder getUserDependentBuilder() {
           
@@ -3279,11 +3282,11 @@ public final class DoGetSettingsDescriptionsAd {
           return getUserDependentFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-         *
          * <pre>
          * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getUserDependentOrBuilder() {
           if (userDependentBuilder_ != null) {
@@ -3294,11 +3297,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
-         *
          * <pre>
          * "0" : Der Schlüssel "KeyVariable" gilt "global", d.h. für ALLE Benutzer (aus "UserInfo") bzw. Personen (CommunityMitglieder etc.) im "dStore""1" : Einstellungen zum Schlüssel gelten nur für einen Benutzer bzw. für eine Person (Auktions-Teilnehmer etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue user_dependent = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -3318,21 +3321,21 @@ public final class DoGetSettingsDescriptionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-         *
          * <pre>
          * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          */
         public boolean hasKeyVariable() {
           return keyVariableBuilder_ != null || keyVariable_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-         *
          * <pre>
          * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          */
         public io.dstore.Values.stringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -3342,11 +3345,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-         *
          * <pre>
          * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          */
         public Builder setKeyVariable(io.dstore.Values.stringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -3362,11 +3365,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-         *
          * <pre>
          * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          */
         public Builder setKeyVariable(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3380,11 +3383,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-         *
          * <pre>
          * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          */
         public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -3402,11 +3405,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-         *
          * <pre>
          * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          */
         public Builder clearKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -3420,11 +3423,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-         *
          * <pre>
          * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
           
@@ -3432,11 +3435,11 @@ public final class DoGetSettingsDescriptionsAd {
           return getKeyVariableFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-         *
          * <pre>
          * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
@@ -3447,11 +3450,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
-         *
          * <pre>
          * Ein möglicher Schlüssel, zu dem in der durch "SettingsTable" angegebenen Tabelle ein Wert hinterlegt werden kann
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3471,21 +3474,21 @@ public final class DoGetSettingsDescriptionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> settingsEntryCategoryBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "SettingsEntryCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
          */
         public boolean hasSettingsEntryCategory() {
           return settingsEntryCategoryBuilder_ != null || settingsEntryCategory_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "SettingsEntryCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
          */
         public io.dstore.Values.stringValue getSettingsEntryCategory() {
           if (settingsEntryCategoryBuilder_ == null) {
@@ -3495,11 +3498,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "SettingsEntryCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
          */
         public Builder setSettingsEntryCategory(io.dstore.Values.stringValue value) {
           if (settingsEntryCategoryBuilder_ == null) {
@@ -3515,11 +3518,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "SettingsEntryCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
          */
         public Builder setSettingsEntryCategory(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3533,11 +3536,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "SettingsEntryCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
          */
         public Builder mergeSettingsEntryCategory(io.dstore.Values.stringValue value) {
           if (settingsEntryCategoryBuilder_ == null) {
@@ -3555,11 +3558,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "SettingsEntryCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
          */
         public Builder clearSettingsEntryCategory() {
           if (settingsEntryCategoryBuilder_ == null) {
@@ -3573,11 +3576,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "SettingsEntryCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
          */
         public io.dstore.Values.stringValue.Builder getSettingsEntryCategoryBuilder() {
           
@@ -3585,11 +3588,11 @@ public final class DoGetSettingsDescriptionsAd {
           return getSettingsEntryCategoryFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "SettingsEntryCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getSettingsEntryCategoryOrBuilder() {
           if (settingsEntryCategoryBuilder_ != null) {
@@ -3600,11 +3603,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "SettingsEntryCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3624,21 +3627,21 @@ public final class DoGetSettingsDescriptionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dataTypeForValueBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-         *
          * <pre>
          * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
          */
         public boolean hasDataTypeForValue() {
           return dataTypeForValueBuilder_ != null || dataTypeForValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-         *
          * <pre>
          * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
          */
         public io.dstore.Values.stringValue getDataTypeForValue() {
           if (dataTypeForValueBuilder_ == null) {
@@ -3648,11 +3651,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-         *
          * <pre>
          * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
          */
         public Builder setDataTypeForValue(io.dstore.Values.stringValue value) {
           if (dataTypeForValueBuilder_ == null) {
@@ -3668,11 +3671,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-         *
          * <pre>
          * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
          */
         public Builder setDataTypeForValue(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3686,11 +3689,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-         *
          * <pre>
          * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
          */
         public Builder mergeDataTypeForValue(io.dstore.Values.stringValue value) {
           if (dataTypeForValueBuilder_ == null) {
@@ -3708,11 +3711,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-         *
          * <pre>
          * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
          */
         public Builder clearDataTypeForValue() {
           if (dataTypeForValueBuilder_ == null) {
@@ -3726,11 +3729,11 @@ public final class DoGetSettingsDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-         *
          * <pre>
          * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
          */
         public io.dstore.Values.stringValue.Builder getDataTypeForValueBuilder() {
           
@@ -3738,11 +3741,11 @@ public final class DoGetSettingsDescriptionsAd {
           return getDataTypeForValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-         *
          * <pre>
          * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDataTypeForValueOrBuilder() {
           if (dataTypeForValueBuilder_ != null) {
@@ -3753,11 +3756,11 @@ public final class DoGetSettingsDescriptionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
-         *
          * <pre>
          * Von welchem Datentyp müssen die Werte zum Schlüssel "KeyVariable" sein
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type_for_value = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3802,16 +3805,7 @@ public final class DoGetSettingsDescriptionsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3903,52 +3897,52 @@ public final class DoGetSettingsDescriptionsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4023,34 +4017,40 @@ public final class DoGetSettingsDescriptionsAd {
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4287,7 +4287,7 @@ public final class DoGetSettingsDescriptionsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4790,11 +4790,11 @@ public final class DoGetSettingsDescriptionsAd {
           io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row, io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row.Builder, io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -4804,11 +4804,11 @@ public final class DoGetSettingsDescriptionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -4818,11 +4818,11 @@ public final class DoGetSettingsDescriptionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -4832,11 +4832,11 @@ public final class DoGetSettingsDescriptionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row value) {
@@ -4853,11 +4853,11 @@ public final class DoGetSettingsDescriptionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row.Builder builderForValue) {
@@ -4871,11 +4871,11 @@ public final class DoGetSettingsDescriptionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -4891,11 +4891,11 @@ public final class DoGetSettingsDescriptionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row value) {
@@ -4912,11 +4912,11 @@ public final class DoGetSettingsDescriptionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row.Builder builderForValue) {
@@ -4930,11 +4930,11 @@ public final class DoGetSettingsDescriptionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row.Builder builderForValue) {
@@ -4948,11 +4948,11 @@ public final class DoGetSettingsDescriptionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row> values) {
@@ -4967,11 +4967,11 @@ public final class DoGetSettingsDescriptionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4984,11 +4984,11 @@ public final class DoGetSettingsDescriptionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5001,22 +5001,22 @@ public final class DoGetSettingsDescriptionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5026,11 +5026,11 @@ public final class DoGetSettingsDescriptionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5041,22 +5041,22 @@ public final class DoGetSettingsDescriptionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5064,11 +5064,11 @@ public final class DoGetSettingsDescriptionsAd {
             index, io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetSettingsDescriptions_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5118,16 +5118,7 @@ public final class DoGetSettingsDescriptionsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5146,19 +5137,19 @@ public final class DoGetSettingsDescriptionsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetSettingsDescriptions_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetSettingsDescriptions_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetSettingsDescriptions_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetSettingsDescriptions_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetSettingsDescriptions_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetSettingsDescriptions_Ad_Response_Row_fieldAccessorTable;
 
@@ -5166,7 +5157,7 @@ public final class DoGetSettingsDescriptionsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

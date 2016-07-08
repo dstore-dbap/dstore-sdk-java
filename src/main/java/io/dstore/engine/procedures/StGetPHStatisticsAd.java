@@ -90,7 +90,8 @@ public final class StGetPHStatisticsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class StGetPHStatisticsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class StGetPHStatisticsAd {
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class StGetPHStatisticsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetPHStatisticsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class StGetPHStatisticsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class StGetPHStatisticsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.StGetPHStatisticsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetPHStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class StGetPHStatisticsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class StGetPHStatisticsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,127 +1257,127 @@ public final class StGetPHStatisticsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-       *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
        */
       boolean hasBasicCharacteristic();
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-       *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
        */
       io.dstore.Values.stringValue getBasicCharacteristic();
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-       *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
-       *
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10003;</code>
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
-       *
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10003;</code>
        */
       io.dstore.Values.decimalValue getValue();
       /**
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
-       *
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10003;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-       *
        * <pre>
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
        */
       boolean hasDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-       *
        * <pre>
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
        */
       io.dstore.Values.timestampValue getDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-       *
        * <pre>
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       boolean hasBasicCharacteristicNumber();
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       io.dstore.Values.integerValue getBasicCharacteristicNumber();
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
     }
@@ -1406,7 +1403,8 @@ public final class StGetPHStatisticsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1496,11 +1494,10 @@ public final class StGetPHStatisticsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1529,31 +1526,31 @@ public final class StGetPHStatisticsAd {
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public io.dstore.Values.stringValue getDescription() {
         return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -1562,31 +1559,31 @@ public final class StGetPHStatisticsAd {
       public static final int BASIC_CHARACTERISTIC_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue basicCharacteristic_;
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-       *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
        */
       public boolean hasBasicCharacteristic() {
         return basicCharacteristic_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-       *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
        */
       public io.dstore.Values.stringValue getBasicCharacteristic() {
         return basicCharacteristic_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-       *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
         return getBasicCharacteristic();
@@ -1595,31 +1592,31 @@ public final class StGetPHStatisticsAd {
       public static final int VALUE_FIELD_NUMBER = 10003;
       private io.dstore.Values.decimalValue value_;
       /**
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
-       *
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10003;</code>
        */
       public boolean hasValue() {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
-       *
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10003;</code>
        */
       public io.dstore.Values.decimalValue getValue() {
         return value_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
-       *
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue value = 10003;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1628,31 +1625,31 @@ public final class StGetPHStatisticsAd {
       public static final int DATE_AND_TIME_FIELD_NUMBER = 10004;
       private io.dstore.Values.timestampValue dateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-       *
        * <pre>
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
        */
       public boolean hasDateAndTime() {
         return dateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-       *
        * <pre>
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
        */
       public io.dstore.Values.timestampValue getDateAndTime() {
         return dateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-       *
        * <pre>
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder() {
         return getDateAndTime();
@@ -1661,31 +1658,31 @@ public final class StGetPHStatisticsAd {
       public static final int BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue basicCharacteristicNumber_;
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-       *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         return getBasicCharacteristicNumber();
@@ -1780,34 +1777,40 @@ public final class StGetPHStatisticsAd {
       }
       public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1993,7 +1996,7 @@ public final class StGetPHStatisticsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2032,21 +2035,21 @@ public final class StGetPHStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -2056,11 +2059,11 @@ public final class StGetPHStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -2076,11 +2079,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder setDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2094,11 +2097,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -2116,11 +2119,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -2134,11 +2137,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
@@ -2146,11 +2149,11 @@ public final class StGetPHStatisticsAd {
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -2161,11 +2164,11 @@ public final class StGetPHStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2185,21 +2188,21 @@ public final class StGetPHStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-         *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
          */
         public boolean hasBasicCharacteristic() {
           return basicCharacteristicBuilder_ != null || basicCharacteristic_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-         *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
          */
         public io.dstore.Values.stringValue getBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
@@ -2209,11 +2212,11 @@ public final class StGetPHStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-         *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
          */
         public Builder setBasicCharacteristic(io.dstore.Values.stringValue value) {
           if (basicCharacteristicBuilder_ == null) {
@@ -2229,11 +2232,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-         *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
          */
         public Builder setBasicCharacteristic(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2247,11 +2250,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-         *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
          */
         public Builder mergeBasicCharacteristic(io.dstore.Values.stringValue value) {
           if (basicCharacteristicBuilder_ == null) {
@@ -2269,11 +2272,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-         *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
          */
         public Builder clearBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
@@ -2287,11 +2290,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-         *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getBasicCharacteristicBuilder() {
           
@@ -2299,11 +2302,11 @@ public final class StGetPHStatisticsAd {
           return getBasicCharacteristicFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-         *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
           if (basicCharacteristicBuilder_ != null) {
@@ -2314,11 +2317,11 @@ public final class StGetPHStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
-         *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2338,21 +2341,21 @@ public final class StGetPHStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
-         *
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10003;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
-         *
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10003;</code>
          */
         public io.dstore.Values.decimalValue getValue() {
           if (valueBuilder_ == null) {
@@ -2362,11 +2365,11 @@ public final class StGetPHStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
-         *
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10003;</code>
          */
         public Builder setValue(io.dstore.Values.decimalValue value) {
           if (valueBuilder_ == null) {
@@ -2382,11 +2385,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
-         *
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10003;</code>
          */
         public Builder setValue(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -2400,11 +2403,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
-         *
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10003;</code>
          */
         public Builder mergeValue(io.dstore.Values.decimalValue value) {
           if (valueBuilder_ == null) {
@@ -2422,11 +2425,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
-         *
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10003;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2440,11 +2443,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
-         *
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10003;</code>
          */
         public io.dstore.Values.decimalValue.Builder getValueBuilder() {
           
@@ -2452,11 +2455,11 @@ public final class StGetPHStatisticsAd {
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
-         *
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10003;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2467,11 +2470,11 @@ public final class StGetPHStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
-         *
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -2491,21 +2494,21 @@ public final class StGetPHStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-         *
          * <pre>
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
          */
         public boolean hasDateAndTime() {
           return dateAndTimeBuilder_ != null || dateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-         *
          * <pre>
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
          */
         public io.dstore.Values.timestampValue getDateAndTime() {
           if (dateAndTimeBuilder_ == null) {
@@ -2515,11 +2518,11 @@ public final class StGetPHStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-         *
          * <pre>
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
          */
         public Builder setDateAndTime(io.dstore.Values.timestampValue value) {
           if (dateAndTimeBuilder_ == null) {
@@ -2535,11 +2538,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-         *
          * <pre>
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
          */
         public Builder setDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -2553,11 +2556,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-         *
          * <pre>
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
          */
         public Builder mergeDateAndTime(io.dstore.Values.timestampValue value) {
           if (dateAndTimeBuilder_ == null) {
@@ -2575,11 +2578,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-         *
          * <pre>
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
          */
         public Builder clearDateAndTime() {
           if (dateAndTimeBuilder_ == null) {
@@ -2593,11 +2596,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-         *
          * <pre>
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
          */
         public io.dstore.Values.timestampValue.Builder getDateAndTimeBuilder() {
           
@@ -2605,11 +2608,11 @@ public final class StGetPHStatisticsAd {
           return getDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-         *
          * <pre>
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder() {
           if (dateAndTimeBuilder_ != null) {
@@ -2620,11 +2623,11 @@ public final class StGetPHStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
-         *
          * <pre>
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -2644,21 +2647,21 @@ public final class StGetPHStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public boolean hasBasicCharacteristicNumber() {
           return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -2668,11 +2671,11 @@ public final class StGetPHStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public Builder setBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -2688,11 +2691,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public Builder setBasicCharacteristicNumber(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2706,11 +2709,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public Builder mergeBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -2728,11 +2731,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public Builder clearBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -2746,11 +2749,11 @@ public final class StGetPHStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
           
@@ -2758,11 +2761,11 @@ public final class StGetPHStatisticsAd {
           return getBasicCharacteristicNumberFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
           if (basicCharacteristicNumberBuilder_ != null) {
@@ -2773,11 +2776,11 @@ public final class StGetPHStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
-         *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2822,16 +2825,7 @@ public final class StGetPHStatisticsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2923,52 +2917,52 @@ public final class StGetPHStatisticsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.StGetPHStatisticsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetPHStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3043,34 +3037,40 @@ public final class StGetPHStatisticsAd {
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPHStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3307,7 +3307,7 @@ public final class StGetPHStatisticsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetPHStatisticsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3810,11 +3810,11 @@ public final class StGetPHStatisticsAd {
           io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row, io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row.Builder, io.dstore.engine.procedures.StGetPHStatisticsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3824,11 +3824,11 @@ public final class StGetPHStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3838,11 +3838,11 @@ public final class StGetPHStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3852,11 +3852,11 @@ public final class StGetPHStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row value) {
@@ -3873,11 +3873,11 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row.Builder builderForValue) {
@@ -3891,11 +3891,11 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3911,11 +3911,11 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row value) {
@@ -3932,11 +3932,11 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row.Builder builderForValue) {
@@ -3950,11 +3950,11 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row.Builder builderForValue) {
@@ -3968,11 +3968,11 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row> values) {
@@ -3987,11 +3987,11 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4004,11 +4004,11 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4021,22 +4021,22 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetPHStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4046,11 +4046,11 @@ public final class StGetPHStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.StGetPHStatisticsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4061,22 +4061,22 @@ public final class StGetPHStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4084,11 +4084,11 @@ public final class StGetPHStatisticsAd {
             index, io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPHStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetPHStatisticsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4138,16 +4138,7 @@ public final class StGetPHStatisticsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4166,19 +4157,19 @@ public final class StGetPHStatisticsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetPHStatistics_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetPHStatistics_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetPHStatistics_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetPHStatistics_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetPHStatistics_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetPHStatistics_Ad_Response_Row_fieldAccessorTable;
 
@@ -4186,7 +4177,7 @@ public final class StGetPHStatisticsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

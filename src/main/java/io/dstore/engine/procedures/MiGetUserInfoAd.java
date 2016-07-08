@@ -90,7 +90,8 @@ public final class MiGetUserInfoAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class MiGetUserInfoAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class MiGetUserInfoAd {
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class MiGetUserInfoAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetUserInfoAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class MiGetUserInfoAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class MiGetUserInfoAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetUserInfoAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetUserInfoAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class MiGetUserInfoAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class MiGetUserInfoAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,152 +1257,152 @@ public final class MiGetUserInfoAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       boolean hasUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       io.dstore.Values.stringValue getUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        */
       boolean hasUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        */
       io.dstore.Values.integerValue getUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-       *
        * <pre>
        * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
        */
       boolean hasGroupName();
       /**
-       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-       *
        * <pre>
        * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
        */
       io.dstore.Values.stringValue getGroupName();
       /**
-       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-       *
        * <pre>
        * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getGroupNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-       *
        * <pre>
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
        */
       boolean hasGroupDescription();
       /**
-       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-       *
        * <pre>
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
        */
       io.dstore.Values.stringValue getGroupDescription();
       /**
-       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-       *
        * <pre>
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-       *
        * <pre>
        * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
        */
       boolean hasUserGroupId();
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-       *
        * <pre>
        * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
        */
       io.dstore.Values.integerValue getUserGroupId();
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-       *
        * <pre>
        * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-       *
        * <pre>
        * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
        */
       boolean hasSortNo();
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-       *
        * <pre>
        * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
        */
       io.dstore.Values.integerValue getSortNo();
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-       *
        * <pre>
        * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
     }
@@ -1431,7 +1428,8 @@ public final class MiGetUserInfoAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1534,11 +1532,10 @@ public final class MiGetUserInfoAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1567,31 +1564,31 @@ public final class MiGetUserInfoAd {
       public static final int USER_NAME_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue userName_;
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       public io.dstore.Values.stringValue getUserName() {
         return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
@@ -1600,31 +1597,31 @@ public final class MiGetUserInfoAd {
       public static final int USER_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue userId_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getUserId() {
         return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
@@ -1633,31 +1630,31 @@ public final class MiGetUserInfoAd {
       public static final int GROUP_NAME_FIELD_NUMBER = 20001;
       private io.dstore.Values.stringValue groupName_;
       /**
-       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-       *
        * <pre>
        * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
        */
       public boolean hasGroupName() {
         return groupName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-       *
        * <pre>
        * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
        */
       public io.dstore.Values.stringValue getGroupName() {
         return groupName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : groupName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-       *
        * <pre>
        * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_name = 20001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getGroupNameOrBuilder() {
         return getGroupName();
@@ -1666,31 +1663,31 @@ public final class MiGetUserInfoAd {
       public static final int GROUP_DESCRIPTION_FIELD_NUMBER = 20002;
       private io.dstore.Values.stringValue groupDescription_;
       /**
-       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-       *
        * <pre>
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
        */
       public boolean hasGroupDescription() {
         return groupDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-       *
        * <pre>
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
        */
       public io.dstore.Values.stringValue getGroupDescription() {
         return groupDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : groupDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-       *
        * <pre>
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 20002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder() {
         return getGroupDescription();
@@ -1699,31 +1696,31 @@ public final class MiGetUserInfoAd {
       public static final int USER_GROUP_ID_FIELD_NUMBER = 20005;
       private io.dstore.Values.integerValue userGroupId_;
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-       *
        * <pre>
        * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
        */
       public boolean hasUserGroupId() {
         return userGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-       *
        * <pre>
        * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
        */
       public io.dstore.Values.integerValue getUserGroupId() {
         return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-       *
        * <pre>
        * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
         return getUserGroupId();
@@ -1732,31 +1729,31 @@ public final class MiGetUserInfoAd {
       public static final int SORT_NO_FIELD_NUMBER = 20006;
       private io.dstore.Values.integerValue sortNo_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-       *
        * <pre>
        * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-       *
        * <pre>
        * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
        */
       public io.dstore.Values.integerValue getSortNo() {
         return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-       *
        * <pre>
        * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -1858,34 +1855,40 @@ public final class MiGetUserInfoAd {
       }
       public static io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2085,7 +2088,7 @@ public final class MiGetUserInfoAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2124,21 +2127,21 @@ public final class MiGetUserInfoAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public io.dstore.Values.stringValue getUserName() {
           if (userNameBuilder_ == null) {
@@ -2148,11 +2151,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder setUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -2168,11 +2171,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder setUserName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2186,11 +2189,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder mergeUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -2208,11 +2211,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -2226,11 +2229,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
           
@@ -2238,11 +2241,11 @@ public final class MiGetUserInfoAd {
           return getUserNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
@@ -2253,11 +2256,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2277,21 +2280,21 @@ public final class MiGetUserInfoAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getUserId() {
           if (userIdBuilder_ == null) {
@@ -2301,11 +2304,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          */
         public Builder setUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -2321,11 +2324,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          */
         public Builder setUserId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2339,11 +2342,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          */
         public Builder mergeUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -2361,11 +2364,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -2379,11 +2382,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
           
@@ -2391,11 +2394,11 @@ public final class MiGetUserInfoAd {
           return getUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
@@ -2406,11 +2409,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2430,21 +2433,21 @@ public final class MiGetUserInfoAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> groupNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-         *
          * <pre>
          * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
          */
         public boolean hasGroupName() {
           return groupNameBuilder_ != null || groupName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-         *
          * <pre>
          * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
          */
         public io.dstore.Values.stringValue getGroupName() {
           if (groupNameBuilder_ == null) {
@@ -2454,11 +2457,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-         *
          * <pre>
          * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
          */
         public Builder setGroupName(io.dstore.Values.stringValue value) {
           if (groupNameBuilder_ == null) {
@@ -2474,11 +2477,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-         *
          * <pre>
          * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
          */
         public Builder setGroupName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2492,11 +2495,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-         *
          * <pre>
          * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
          */
         public Builder mergeGroupName(io.dstore.Values.stringValue value) {
           if (groupNameBuilder_ == null) {
@@ -2514,11 +2517,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-         *
          * <pre>
          * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
          */
         public Builder clearGroupName() {
           if (groupNameBuilder_ == null) {
@@ -2532,11 +2535,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-         *
          * <pre>
          * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
          */
         public io.dstore.Values.stringValue.Builder getGroupNameBuilder() {
           
@@ -2544,11 +2547,11 @@ public final class MiGetUserInfoAd {
           return getGroupNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-         *
          * <pre>
          * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getGroupNameOrBuilder() {
           if (groupNameBuilder_ != null) {
@@ -2559,11 +2562,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
-         *
          * <pre>
          * Beschreibung, wofür die Gruppe "UserGroupID" da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_name = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2583,21 +2586,21 @@ public final class MiGetUserInfoAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> groupDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-         *
          * <pre>
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
          */
         public boolean hasGroupDescription() {
           return groupDescriptionBuilder_ != null || groupDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-         *
          * <pre>
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
          */
         public io.dstore.Values.stringValue getGroupDescription() {
           if (groupDescriptionBuilder_ == null) {
@@ -2607,11 +2610,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-         *
          * <pre>
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
          */
         public Builder setGroupDescription(io.dstore.Values.stringValue value) {
           if (groupDescriptionBuilder_ == null) {
@@ -2627,11 +2630,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-         *
          * <pre>
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
          */
         public Builder setGroupDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2645,11 +2648,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-         *
          * <pre>
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
          */
         public Builder mergeGroupDescription(io.dstore.Values.stringValue value) {
           if (groupDescriptionBuilder_ == null) {
@@ -2667,11 +2670,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-         *
          * <pre>
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
          */
         public Builder clearGroupDescription() {
           if (groupDescriptionBuilder_ == null) {
@@ -2685,11 +2688,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-         *
          * <pre>
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
          */
         public io.dstore.Values.stringValue.Builder getGroupDescriptionBuilder() {
           
@@ -2697,11 +2700,11 @@ public final class MiGetUserInfoAd {
           return getGroupDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-         *
          * <pre>
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder() {
           if (groupDescriptionBuilder_ != null) {
@@ -2712,11 +2715,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
-         *
          * <pre>
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2736,21 +2739,21 @@ public final class MiGetUserInfoAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userGroupIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-         *
          * <pre>
          * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
          */
         public boolean hasUserGroupId() {
           return userGroupIdBuilder_ != null || userGroupId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-         *
          * <pre>
          * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
          */
         public io.dstore.Values.integerValue getUserGroupId() {
           if (userGroupIdBuilder_ == null) {
@@ -2760,11 +2763,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-         *
          * <pre>
          * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
          */
         public Builder setUserGroupId(io.dstore.Values.integerValue value) {
           if (userGroupIdBuilder_ == null) {
@@ -2780,11 +2783,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-         *
          * <pre>
          * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
          */
         public Builder setUserGroupId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2798,11 +2801,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-         *
          * <pre>
          * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
          */
         public Builder mergeUserGroupId(io.dstore.Values.integerValue value) {
           if (userGroupIdBuilder_ == null) {
@@ -2820,11 +2823,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-         *
          * <pre>
          * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
          */
         public Builder clearUserGroupId() {
           if (userGroupIdBuilder_ == null) {
@@ -2838,11 +2841,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-         *
          * <pre>
          * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
          */
         public io.dstore.Values.integerValue.Builder getUserGroupIdBuilder() {
           
@@ -2850,11 +2853,11 @@ public final class MiGetUserInfoAd {
           return getUserGroupIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-         *
          * <pre>
          * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
           if (userGroupIdBuilder_ != null) {
@@ -2865,11 +2868,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
-         *
          * <pre>
          * ID einer Benutzer-Gruppe, in die der Benutzer "UserID" eingeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_group_id = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2889,21 +2892,21 @@ public final class MiGetUserInfoAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-         *
          * <pre>
          * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-         *
          * <pre>
          * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
          */
         public io.dstore.Values.integerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -2913,11 +2916,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-         *
          * <pre>
          * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
          */
         public Builder setSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
@@ -2933,11 +2936,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-         *
          * <pre>
          * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
          */
         public Builder setSortNo(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2951,11 +2954,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-         *
          * <pre>
          * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
          */
         public Builder mergeSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
@@ -2973,11 +2976,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-         *
          * <pre>
          * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -2991,11 +2994,11 @@ public final class MiGetUserInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-         *
          * <pre>
          * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
          */
         public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
           
@@ -3003,11 +3006,11 @@ public final class MiGetUserInfoAd {
           return getSortNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-         *
          * <pre>
          * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -3018,11 +3021,11 @@ public final class MiGetUserInfoAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
-         *
          * <pre>
          * Priorität der Zuordnung. "1" bedeutet, daß der Benutzer primär der Gruppe angehört (dies ist wichtig für die Überprüfung von Ausführungsbeschränkungen, s. "mi_ModifyProcExRestForUser_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3067,16 +3070,7 @@ public final class MiGetUserInfoAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3168,52 +3162,52 @@ public final class MiGetUserInfoAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetUserInfoAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetUserInfoAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3288,34 +3282,40 @@ public final class MiGetUserInfoAd {
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfoAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3552,7 +3552,7 @@ public final class MiGetUserInfoAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetUserInfoAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4055,11 +4055,11 @@ public final class MiGetUserInfoAd {
           io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row, io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetUserInfoAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -4069,11 +4069,11 @@ public final class MiGetUserInfoAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -4083,11 +4083,11 @@ public final class MiGetUserInfoAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -4097,11 +4097,11 @@ public final class MiGetUserInfoAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row value) {
@@ -4118,11 +4118,11 @@ public final class MiGetUserInfoAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row.Builder builderForValue) {
@@ -4136,11 +4136,11 @@ public final class MiGetUserInfoAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -4156,11 +4156,11 @@ public final class MiGetUserInfoAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row value) {
@@ -4177,11 +4177,11 @@ public final class MiGetUserInfoAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row.Builder builderForValue) {
@@ -4195,11 +4195,11 @@ public final class MiGetUserInfoAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row.Builder builderForValue) {
@@ -4213,11 +4213,11 @@ public final class MiGetUserInfoAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row> values) {
@@ -4232,11 +4232,11 @@ public final class MiGetUserInfoAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4249,11 +4249,11 @@ public final class MiGetUserInfoAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4266,22 +4266,22 @@ public final class MiGetUserInfoAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetUserInfoAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4291,11 +4291,11 @@ public final class MiGetUserInfoAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetUserInfoAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4306,22 +4306,22 @@ public final class MiGetUserInfoAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4329,11 +4329,11 @@ public final class MiGetUserInfoAd {
             index, io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUserInfo_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetUserInfoAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4383,16 +4383,7 @@ public final class MiGetUserInfoAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4411,19 +4402,19 @@ public final class MiGetUserInfoAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUserInfo_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUserInfo_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUserInfo_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUserInfo_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUserInfo_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUserInfo_Ad_Response_Row_fieldAccessorTable;
 
@@ -4431,7 +4422,7 @@ public final class MiGetUserInfoAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

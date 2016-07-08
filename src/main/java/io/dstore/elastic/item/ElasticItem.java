@@ -112,7 +112,8 @@ public final class ElasticItem {
     }
     private Item(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -183,11 +184,10 @@ public final class ElasticItem {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           variantNode_ = java.util.Collections.unmodifiableList(variantNode_);
@@ -449,34 +449,40 @@ public final class ElasticItem {
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -679,7 +685,7 @@ public final class ElasticItem {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.item.ElasticItem.Item) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1356,16 +1362,7 @@ public final class ElasticItem {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Item(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1423,20 +1420,20 @@ public final class ElasticItem {
         int index);
 
     /**
-     * <code>optional double range_from = 10;</code>
-     *
      * <pre>
      * Only filled when using a range-facet
      * </pre>
+     *
+     * <code>optional double range_from = 10;</code>
      */
     double getRangeFrom();
 
     /**
-     * <code>optional double range_to = 11;</code>
-     *
      * <pre>
      * Only filled when using a range-facet
      * </pre>
+     *
+     * <code>optional double range_to = 11;</code>
      */
     double getRangeTo();
   }
@@ -1465,7 +1462,8 @@ public final class ElasticItem {
     }
     private Facet(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1509,11 +1507,10 @@ public final class ElasticItem {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           facetValue_ = java.util.Collections.unmodifiableList(facetValue_);
@@ -1561,29 +1558,29 @@ public final class ElasticItem {
       int getMatchingItemCount();
 
       /**
-       * <code>optional bool active = 4;</code>
-       *
        * <pre>
        * Only filled when using a term-facet
        * </pre>
+       *
+       * <code>optional bool active = 4;</code>
        */
       boolean getActive();
 
       /**
-       * <code>optional double min_value = 5;</code>
-       *
        * <pre>
        * Only filled when using a range-facet
        * </pre>
+       *
+       * <code>optional double min_value = 5;</code>
        */
       double getMinValue();
 
       /**
-       * <code>optional double max_value = 6;</code>
-       *
        * <pre>
        * Only filled when using a range-facet
        * </pre>
+       *
+       * <code>optional double max_value = 6;</code>
        */
       double getMaxValue();
     }
@@ -1613,7 +1610,8 @@ public final class ElasticItem {
       }
       private FacetValue(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1671,11 +1669,10 @@ public final class ElasticItem {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1734,11 +1731,11 @@ public final class ElasticItem {
       public static final int ACTIVE_FIELD_NUMBER = 4;
       private boolean active_;
       /**
-       * <code>optional bool active = 4;</code>
-       *
        * <pre>
        * Only filled when using a term-facet
        * </pre>
+       *
+       * <code>optional bool active = 4;</code>
        */
       public boolean getActive() {
         return active_;
@@ -1747,11 +1744,11 @@ public final class ElasticItem {
       public static final int MIN_VALUE_FIELD_NUMBER = 5;
       private double minValue_;
       /**
-       * <code>optional double min_value = 5;</code>
-       *
        * <pre>
        * Only filled when using a range-facet
        * </pre>
+       *
+       * <code>optional double min_value = 5;</code>
        */
       public double getMinValue() {
         return minValue_;
@@ -1760,11 +1757,11 @@ public final class ElasticItem {
       public static final int MAX_VALUE_FIELD_NUMBER = 6;
       private double maxValue_;
       /**
-       * <code>optional double max_value = 6;</code>
-       *
        * <pre>
        * Only filled when using a range-facet
        * </pre>
+       *
+       * <code>optional double max_value = 6;</code>
        */
       public double getMaxValue() {
         return maxValue_;
@@ -1859,34 +1856,40 @@ public final class ElasticItem {
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2040,7 +2043,7 @@ public final class ElasticItem {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.elastic.item.ElasticItem.Facet.FacetValue) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2220,21 +2223,21 @@ public final class ElasticItem {
 
         private boolean active_ ;
         /**
-         * <code>optional bool active = 4;</code>
-         *
          * <pre>
          * Only filled when using a term-facet
          * </pre>
+         *
+         * <code>optional bool active = 4;</code>
          */
         public boolean getActive() {
           return active_;
         }
         /**
-         * <code>optional bool active = 4;</code>
-         *
          * <pre>
          * Only filled when using a term-facet
          * </pre>
+         *
+         * <code>optional bool active = 4;</code>
          */
         public Builder setActive(boolean value) {
           
@@ -2243,11 +2246,11 @@ public final class ElasticItem {
           return this;
         }
         /**
-         * <code>optional bool active = 4;</code>
-         *
          * <pre>
          * Only filled when using a term-facet
          * </pre>
+         *
+         * <code>optional bool active = 4;</code>
          */
         public Builder clearActive() {
           
@@ -2258,21 +2261,21 @@ public final class ElasticItem {
 
         private double minValue_ ;
         /**
-         * <code>optional double min_value = 5;</code>
-         *
          * <pre>
          * Only filled when using a range-facet
          * </pre>
+         *
+         * <code>optional double min_value = 5;</code>
          */
         public double getMinValue() {
           return minValue_;
         }
         /**
-         * <code>optional double min_value = 5;</code>
-         *
          * <pre>
          * Only filled when using a range-facet
          * </pre>
+         *
+         * <code>optional double min_value = 5;</code>
          */
         public Builder setMinValue(double value) {
           
@@ -2281,11 +2284,11 @@ public final class ElasticItem {
           return this;
         }
         /**
-         * <code>optional double min_value = 5;</code>
-         *
          * <pre>
          * Only filled when using a range-facet
          * </pre>
+         *
+         * <code>optional double min_value = 5;</code>
          */
         public Builder clearMinValue() {
           
@@ -2296,21 +2299,21 @@ public final class ElasticItem {
 
         private double maxValue_ ;
         /**
-         * <code>optional double max_value = 6;</code>
-         *
          * <pre>
          * Only filled when using a range-facet
          * </pre>
+         *
+         * <code>optional double max_value = 6;</code>
          */
         public double getMaxValue() {
           return maxValue_;
         }
         /**
-         * <code>optional double max_value = 6;</code>
-         *
          * <pre>
          * Only filled when using a range-facet
          * </pre>
+         *
+         * <code>optional double max_value = 6;</code>
          */
         public Builder setMaxValue(double value) {
           
@@ -2319,11 +2322,11 @@ public final class ElasticItem {
           return this;
         }
         /**
-         * <code>optional double max_value = 6;</code>
-         *
          * <pre>
          * Only filled when using a range-facet
          * </pre>
+         *
+         * <code>optional double max_value = 6;</code>
          */
         public Builder clearMaxValue() {
           
@@ -2361,16 +2364,7 @@ public final class ElasticItem {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new FacetValue(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2462,11 +2456,11 @@ public final class ElasticItem {
     public static final int RANGE_FROM_FIELD_NUMBER = 10;
     private double rangeFrom_;
     /**
-     * <code>optional double range_from = 10;</code>
-     *
      * <pre>
      * Only filled when using a range-facet
      * </pre>
+     *
+     * <code>optional double range_from = 10;</code>
      */
     public double getRangeFrom() {
       return rangeFrom_;
@@ -2475,11 +2469,11 @@ public final class ElasticItem {
     public static final int RANGE_TO_FIELD_NUMBER = 11;
     private double rangeTo_;
     /**
-     * <code>optional double range_to = 11;</code>
-     *
      * <pre>
      * Only filled when using a range-facet
      * </pre>
+     *
+     * <code>optional double range_to = 11;</code>
      */
     public double getRangeTo() {
       return rangeTo_;
@@ -2559,34 +2553,40 @@ public final class ElasticItem {
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2760,7 +2760,7 @@ public final class ElasticItem {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.item.ElasticItem.Facet) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3081,21 +3081,21 @@ public final class ElasticItem {
 
       private double rangeFrom_ ;
       /**
-       * <code>optional double range_from = 10;</code>
-       *
        * <pre>
        * Only filled when using a range-facet
        * </pre>
+       *
+       * <code>optional double range_from = 10;</code>
        */
       public double getRangeFrom() {
         return rangeFrom_;
       }
       /**
-       * <code>optional double range_from = 10;</code>
-       *
        * <pre>
        * Only filled when using a range-facet
        * </pre>
+       *
+       * <code>optional double range_from = 10;</code>
        */
       public Builder setRangeFrom(double value) {
         
@@ -3104,11 +3104,11 @@ public final class ElasticItem {
         return this;
       }
       /**
-       * <code>optional double range_from = 10;</code>
-       *
        * <pre>
        * Only filled when using a range-facet
        * </pre>
+       *
+       * <code>optional double range_from = 10;</code>
        */
       public Builder clearRangeFrom() {
         
@@ -3119,21 +3119,21 @@ public final class ElasticItem {
 
       private double rangeTo_ ;
       /**
-       * <code>optional double range_to = 11;</code>
-       *
        * <pre>
        * Only filled when using a range-facet
        * </pre>
+       *
+       * <code>optional double range_to = 11;</code>
        */
       public double getRangeTo() {
         return rangeTo_;
       }
       /**
-       * <code>optional double range_to = 11;</code>
-       *
        * <pre>
        * Only filled when using a range-facet
        * </pre>
+       *
+       * <code>optional double range_to = 11;</code>
        */
       public Builder setRangeTo(double value) {
         
@@ -3142,11 +3142,11 @@ public final class ElasticItem {
         return this;
       }
       /**
-       * <code>optional double range_to = 11;</code>
-       *
        * <pre>
        * Only filled when using a range-facet
        * </pre>
+       *
+       * <code>optional double range_to = 11;</code>
        */
       public Builder clearRangeTo() {
         
@@ -3184,16 +3184,7 @@ public final class ElasticItem {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Facet(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3212,19 +3203,19 @@ public final class ElasticItem {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_item_Item_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_item_Item_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_item_Facet_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_item_Facet_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_item_Facet_FacetValue_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable;
 
@@ -3232,7 +3223,7 @@ public final class ElasticItem {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

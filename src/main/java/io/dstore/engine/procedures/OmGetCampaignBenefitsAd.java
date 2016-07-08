@@ -71,7 +71,8 @@ public final class OmGetCampaignBenefitsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -127,11 +128,10 @@ public final class OmGetCampaignBenefitsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -283,34 +283,40 @@ public final class OmGetCampaignBenefitsAd {
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -460,7 +466,7 @@ public final class OmGetCampaignBenefitsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -784,16 +790,7 @@ public final class OmGetCampaignBenefitsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -865,45 +862,45 @@ public final class OmGetCampaignBenefitsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -932,7 +929,8 @@ public final class OmGetCampaignBenefitsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -976,11 +974,10 @@ public final class OmGetCampaignBenefitsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1016,102 +1013,102 @@ public final class OmGetCampaignBenefitsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-       *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        */
       boolean hasBenefitId();
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-       *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        */
       io.dstore.Values.integerValue getBenefitId();
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-       *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-       *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        */
       boolean hasCampaignId();
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-       *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        */
       io.dstore.Values.integerValue getCampaignId();
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-       *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-       *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        */
       boolean hasBenefitTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-       *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        */
       io.dstore.Values.stringValue getBenefitTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-       *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getBenefitTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-       *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        */
       boolean hasBenefitTypeId();
       /**
-       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-       *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        */
       io.dstore.Values.integerValue getBenefitTypeId();
       /**
-       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-       *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder();
     }
@@ -1137,7 +1134,8 @@ public final class OmGetCampaignBenefitsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1214,11 +1212,10 @@ public final class OmGetCampaignBenefitsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1247,31 +1244,31 @@ public final class OmGetCampaignBenefitsAd {
       public static final int BENEFIT_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue benefitId_;
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-       *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        */
       public boolean hasBenefitId() {
         return benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-       *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getBenefitId() {
         return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-       *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
         return getBenefitId();
@@ -1280,31 +1277,31 @@ public final class OmGetCampaignBenefitsAd {
       public static final int CAMPAIGN_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue campaignId_;
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-       *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        */
       public boolean hasCampaignId() {
         return campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-       *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getCampaignId() {
         return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-       *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
         return getCampaignId();
@@ -1313,31 +1310,31 @@ public final class OmGetCampaignBenefitsAd {
       public static final int BENEFIT_TYPE_DESCRIPTION_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue benefitTypeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-       *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        */
       public boolean hasBenefitTypeDescription() {
         return benefitTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-       *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        */
       public io.dstore.Values.stringValue getBenefitTypeDescription() {
         return benefitTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : benefitTypeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-       *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getBenefitTypeDescriptionOrBuilder() {
         return getBenefitTypeDescription();
@@ -1346,31 +1343,31 @@ public final class OmGetCampaignBenefitsAd {
       public static final int BENEFIT_TYPE_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue benefitTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-       *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        */
       public boolean hasBenefitTypeId() {
         return benefitTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-       *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        */
       public io.dstore.Values.integerValue getBenefitTypeId() {
         return benefitTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-       *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder() {
         return getBenefitTypeId();
@@ -1458,34 +1455,40 @@ public final class OmGetCampaignBenefitsAd {
       }
       public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1657,7 +1660,7 @@ public final class OmGetCampaignBenefitsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1696,21 +1699,21 @@ public final class OmGetCampaignBenefitsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-         *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          */
         public boolean hasBenefitId() {
           return benefitIdBuilder_ != null || benefitId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-         *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getBenefitId() {
           if (benefitIdBuilder_ == null) {
@@ -1720,11 +1723,11 @@ public final class OmGetCampaignBenefitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-         *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          */
         public Builder setBenefitId(io.dstore.Values.integerValue value) {
           if (benefitIdBuilder_ == null) {
@@ -1740,11 +1743,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-         *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          */
         public Builder setBenefitId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1758,11 +1761,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-         *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          */
         public Builder mergeBenefitId(io.dstore.Values.integerValue value) {
           if (benefitIdBuilder_ == null) {
@@ -1780,11 +1783,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-         *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          */
         public Builder clearBenefitId() {
           if (benefitIdBuilder_ == null) {
@@ -1798,11 +1801,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-         *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getBenefitIdBuilder() {
           
@@ -1810,11 +1813,11 @@ public final class OmGetCampaignBenefitsAd {
           return getBenefitIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-         *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
           if (benefitIdBuilder_ != null) {
@@ -1825,11 +1828,11 @@ public final class OmGetCampaignBenefitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
-         *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1849,21 +1852,21 @@ public final class OmGetCampaignBenefitsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-         *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          */
         public boolean hasCampaignId() {
           return campaignIdBuilder_ != null || campaignId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-         *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getCampaignId() {
           if (campaignIdBuilder_ == null) {
@@ -1873,11 +1876,11 @@ public final class OmGetCampaignBenefitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-         *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          */
         public Builder setCampaignId(io.dstore.Values.integerValue value) {
           if (campaignIdBuilder_ == null) {
@@ -1893,11 +1896,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-         *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          */
         public Builder setCampaignId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1911,11 +1914,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-         *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          */
         public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
           if (campaignIdBuilder_ == null) {
@@ -1933,11 +1936,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-         *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          */
         public Builder clearCampaignId() {
           if (campaignIdBuilder_ == null) {
@@ -1951,11 +1954,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-         *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
           
@@ -1963,11 +1966,11 @@ public final class OmGetCampaignBenefitsAd {
           return getCampaignIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-         *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
           if (campaignIdBuilder_ != null) {
@@ -1978,11 +1981,11 @@ public final class OmGetCampaignBenefitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
-         *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2002,21 +2005,21 @@ public final class OmGetCampaignBenefitsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> benefitTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-         *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          */
         public boolean hasBenefitTypeDescription() {
           return benefitTypeDescriptionBuilder_ != null || benefitTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-         *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          */
         public io.dstore.Values.stringValue getBenefitTypeDescription() {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -2026,11 +2029,11 @@ public final class OmGetCampaignBenefitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-         *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          */
         public Builder setBenefitTypeDescription(io.dstore.Values.stringValue value) {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -2046,11 +2049,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-         *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          */
         public Builder setBenefitTypeDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2064,11 +2067,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-         *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          */
         public Builder mergeBenefitTypeDescription(io.dstore.Values.stringValue value) {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -2086,11 +2089,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-         *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          */
         public Builder clearBenefitTypeDescription() {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -2104,11 +2107,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-         *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getBenefitTypeDescriptionBuilder() {
           
@@ -2116,11 +2119,11 @@ public final class OmGetCampaignBenefitsAd {
           return getBenefitTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-         *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getBenefitTypeDescriptionOrBuilder() {
           if (benefitTypeDescriptionBuilder_ != null) {
@@ -2131,11 +2134,11 @@ public final class OmGetCampaignBenefitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
-         *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2155,21 +2158,21 @@ public final class OmGetCampaignBenefitsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-         *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          */
         public boolean hasBenefitTypeId() {
           return benefitTypeIdBuilder_ != null || benefitTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-         *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          */
         public io.dstore.Values.integerValue getBenefitTypeId() {
           if (benefitTypeIdBuilder_ == null) {
@@ -2179,11 +2182,11 @@ public final class OmGetCampaignBenefitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-         *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          */
         public Builder setBenefitTypeId(io.dstore.Values.integerValue value) {
           if (benefitTypeIdBuilder_ == null) {
@@ -2199,11 +2202,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-         *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          */
         public Builder setBenefitTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2217,11 +2220,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-         *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          */
         public Builder mergeBenefitTypeId(io.dstore.Values.integerValue value) {
           if (benefitTypeIdBuilder_ == null) {
@@ -2239,11 +2242,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-         *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          */
         public Builder clearBenefitTypeId() {
           if (benefitTypeIdBuilder_ == null) {
@@ -2257,11 +2260,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-         *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getBenefitTypeIdBuilder() {
           
@@ -2269,11 +2272,11 @@ public final class OmGetCampaignBenefitsAd {
           return getBenefitTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-         *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder() {
           if (benefitTypeIdBuilder_ != null) {
@@ -2284,11 +2287,11 @@ public final class OmGetCampaignBenefitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
-         *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2333,16 +2336,7 @@ public final class OmGetCampaignBenefitsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2434,52 +2428,52 @@ public final class OmGetCampaignBenefitsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2554,34 +2548,40 @@ public final class OmGetCampaignBenefitsAd {
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2818,7 +2818,7 @@ public final class OmGetCampaignBenefitsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3321,11 +3321,11 @@ public final class OmGetCampaignBenefitsAd {
           io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row, io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3335,11 +3335,11 @@ public final class OmGetCampaignBenefitsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3349,11 +3349,11 @@ public final class OmGetCampaignBenefitsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3363,11 +3363,11 @@ public final class OmGetCampaignBenefitsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row value) {
@@ -3384,11 +3384,11 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row.Builder builderForValue) {
@@ -3402,11 +3402,11 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3422,11 +3422,11 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row value) {
@@ -3443,11 +3443,11 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row.Builder builderForValue) {
@@ -3461,11 +3461,11 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row.Builder builderForValue) {
@@ -3479,11 +3479,11 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row> values) {
@@ -3498,11 +3498,11 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3515,11 +3515,11 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3532,22 +3532,22 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3557,11 +3557,11 @@ public final class OmGetCampaignBenefitsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3572,22 +3572,22 @@ public final class OmGetCampaignBenefitsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3595,11 +3595,11 @@ public final class OmGetCampaignBenefitsAd {
             index, io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignBenefits_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3649,16 +3649,7 @@ public final class OmGetCampaignBenefitsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3677,19 +3668,19 @@ public final class OmGetCampaignBenefitsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaignBenefits_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaignBenefits_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaignBenefits_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaignBenefits_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaignBenefits_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaignBenefits_Ad_Response_Row_fieldAccessorTable;
 
@@ -3697,7 +3688,7 @@ public final class OmGetCampaignBenefitsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

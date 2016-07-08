@@ -52,7 +52,8 @@ public final class OmGetTrolleyContInfoTypesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -90,11 +91,10 @@ public final class OmGetTrolleyContInfoTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -202,34 +202,40 @@ public final class OmGetTrolleyContInfoTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -359,7 +365,7 @@ public final class OmGetTrolleyContInfoTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -540,16 +546,7 @@ public final class OmGetTrolleyContInfoTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -621,45 +618,45 @@ public final class OmGetTrolleyContInfoTypesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -688,7 +685,8 @@ public final class OmGetTrolleyContInfoTypesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -732,11 +730,10 @@ public final class OmGetTrolleyContInfoTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -772,102 +769,102 @@ public final class OmGetTrolleyContInfoTypesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        */
       boolean hasFieldTypeId();
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        */
       io.dstore.Values.integerValue getFieldTypeId();
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        */
       boolean hasTrolleyContentInfoTypeId();
       /**
-       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        */
       io.dstore.Values.integerValue getTrolleyContentInfoTypeId();
       /**
-       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTrolleyContentInfoTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-       *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        */
       boolean hasInformationType();
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-       *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        */
       io.dstore.Values.stringValue getInformationType();
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-       *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        */
       boolean hasCorrespOrderContInfoTypeId();
       /**
-       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        */
       io.dstore.Values.integerValue getCorrespOrderContInfoTypeId();
       /**
-       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCorrespOrderContInfoTypeIdOrBuilder();
     }
@@ -893,7 +890,8 @@ public final class OmGetTrolleyContInfoTypesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -970,11 +968,10 @@ public final class OmGetTrolleyContInfoTypesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1003,31 +1000,31 @@ public final class OmGetTrolleyContInfoTypesAd {
       public static final int FIELD_TYPE_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue fieldTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        */
       public boolean hasFieldTypeId() {
         return fieldTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getFieldTypeId() {
         return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-       *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
         return getFieldTypeId();
@@ -1036,31 +1033,31 @@ public final class OmGetTrolleyContInfoTypesAd {
       public static final int TROLLEY_CONTENT_INFO_TYPE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue trolleyContentInfoTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        */
       public boolean hasTrolleyContentInfoTypeId() {
         return trolleyContentInfoTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getTrolleyContentInfoTypeId() {
         return trolleyContentInfoTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : trolleyContentInfoTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-       *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTrolleyContentInfoTypeIdOrBuilder() {
         return getTrolleyContentInfoTypeId();
@@ -1069,31 +1066,31 @@ public final class OmGetTrolleyContInfoTypesAd {
       public static final int INFORMATION_TYPE_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue informationType_;
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-       *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-       *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        */
       public io.dstore.Values.stringValue getInformationType() {
         return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-       *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
@@ -1102,31 +1099,31 @@ public final class OmGetTrolleyContInfoTypesAd {
       public static final int CORRESP_ORDER_CONT_INFO_TYPE_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue correspOrderContInfoTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        */
       public boolean hasCorrespOrderContInfoTypeId() {
         return correspOrderContInfoTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        */
       public io.dstore.Values.integerValue getCorrespOrderContInfoTypeId() {
         return correspOrderContInfoTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correspOrderContInfoTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCorrespOrderContInfoTypeIdOrBuilder() {
         return getCorrespOrderContInfoTypeId();
@@ -1214,34 +1211,40 @@ public final class OmGetTrolleyContInfoTypesAd {
       }
       public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1413,7 +1416,7 @@ public final class OmGetTrolleyContInfoTypesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1452,21 +1455,21 @@ public final class OmGetTrolleyContInfoTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          */
         public boolean hasFieldTypeId() {
           return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
@@ -1476,11 +1479,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          */
         public Builder setFieldTypeId(io.dstore.Values.integerValue value) {
           if (fieldTypeIdBuilder_ == null) {
@@ -1496,11 +1499,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          */
         public Builder setFieldTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1514,11 +1517,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          */
         public Builder mergeFieldTypeId(io.dstore.Values.integerValue value) {
           if (fieldTypeIdBuilder_ == null) {
@@ -1536,11 +1539,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          */
         public Builder clearFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
@@ -1554,11 +1557,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getFieldTypeIdBuilder() {
           
@@ -1566,11 +1569,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return getFieldTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
           if (fieldTypeIdBuilder_ != null) {
@@ -1581,11 +1584,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
-         *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1605,21 +1608,21 @@ public final class OmGetTrolleyContInfoTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> trolleyContentInfoTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          */
         public boolean hasTrolleyContentInfoTypeId() {
           return trolleyContentInfoTypeIdBuilder_ != null || trolleyContentInfoTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getTrolleyContentInfoTypeId() {
           if (trolleyContentInfoTypeIdBuilder_ == null) {
@@ -1629,11 +1632,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          */
         public Builder setTrolleyContentInfoTypeId(io.dstore.Values.integerValue value) {
           if (trolleyContentInfoTypeIdBuilder_ == null) {
@@ -1649,11 +1652,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          */
         public Builder setTrolleyContentInfoTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1667,11 +1670,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          */
         public Builder mergeTrolleyContentInfoTypeId(io.dstore.Values.integerValue value) {
           if (trolleyContentInfoTypeIdBuilder_ == null) {
@@ -1689,11 +1692,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          */
         public Builder clearTrolleyContentInfoTypeId() {
           if (trolleyContentInfoTypeIdBuilder_ == null) {
@@ -1707,11 +1710,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getTrolleyContentInfoTypeIdBuilder() {
           
@@ -1719,11 +1722,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return getTrolleyContentInfoTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTrolleyContentInfoTypeIdOrBuilder() {
           if (trolleyContentInfoTypeIdBuilder_ != null) {
@@ -1734,11 +1737,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
-         *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1758,21 +1761,21 @@ public final class OmGetTrolleyContInfoTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-         *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-         *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          */
         public io.dstore.Values.stringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -1782,11 +1785,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-         *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          */
         public Builder setInformationType(io.dstore.Values.stringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -1802,11 +1805,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-         *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          */
         public Builder setInformationType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1820,11 +1823,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-         *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          */
         public Builder mergeInformationType(io.dstore.Values.stringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -1842,11 +1845,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-         *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -1860,11 +1863,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-         *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getInformationTypeBuilder() {
           
@@ -1872,11 +1875,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return getInformationTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-         *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
@@ -1887,11 +1890,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
-         *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1911,21 +1914,21 @@ public final class OmGetTrolleyContInfoTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> correspOrderContInfoTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          */
         public boolean hasCorrespOrderContInfoTypeId() {
           return correspOrderContInfoTypeIdBuilder_ != null || correspOrderContInfoTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          */
         public io.dstore.Values.integerValue getCorrespOrderContInfoTypeId() {
           if (correspOrderContInfoTypeIdBuilder_ == null) {
@@ -1935,11 +1938,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          */
         public Builder setCorrespOrderContInfoTypeId(io.dstore.Values.integerValue value) {
           if (correspOrderContInfoTypeIdBuilder_ == null) {
@@ -1955,11 +1958,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          */
         public Builder setCorrespOrderContInfoTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1973,11 +1976,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          */
         public Builder mergeCorrespOrderContInfoTypeId(io.dstore.Values.integerValue value) {
           if (correspOrderContInfoTypeIdBuilder_ == null) {
@@ -1995,11 +1998,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          */
         public Builder clearCorrespOrderContInfoTypeId() {
           if (correspOrderContInfoTypeIdBuilder_ == null) {
@@ -2013,11 +2016,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getCorrespOrderContInfoTypeIdBuilder() {
           
@@ -2025,11 +2028,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return getCorrespOrderContInfoTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCorrespOrderContInfoTypeIdOrBuilder() {
           if (correspOrderContInfoTypeIdBuilder_ != null) {
@@ -2040,11 +2043,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2089,16 +2092,7 @@ public final class OmGetTrolleyContInfoTypesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2190,52 +2184,52 @@ public final class OmGetTrolleyContInfoTypesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2310,34 +2304,40 @@ public final class OmGetTrolleyContInfoTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2574,7 +2574,7 @@ public final class OmGetTrolleyContInfoTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3077,11 +3077,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row, io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3091,11 +3091,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3105,11 +3105,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3119,11 +3119,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row value) {
@@ -3140,11 +3140,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row.Builder builderForValue) {
@@ -3158,11 +3158,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3178,11 +3178,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row value) {
@@ -3199,11 +3199,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row.Builder builderForValue) {
@@ -3217,11 +3217,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row.Builder builderForValue) {
@@ -3235,11 +3235,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row> values) {
@@ -3254,11 +3254,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3271,11 +3271,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3288,22 +3288,22 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3313,11 +3313,11 @@ public final class OmGetTrolleyContInfoTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3328,22 +3328,22 @@ public final class OmGetTrolleyContInfoTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3351,11 +3351,11 @@ public final class OmGetTrolleyContInfoTypesAd {
             index, io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3405,16 +3405,7 @@ public final class OmGetTrolleyContInfoTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3433,19 +3424,19 @@ public final class OmGetTrolleyContInfoTypesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetTrolleyContInfoTypes_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetTrolleyContInfoTypes_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetTrolleyContInfoTypes_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetTrolleyContInfoTypes_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetTrolleyContInfoTypes_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetTrolleyContInfoTypes_Ad_Response_Row_fieldAccessorTable;
 
@@ -3453,7 +3444,7 @@ public final class OmGetTrolleyContInfoTypesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

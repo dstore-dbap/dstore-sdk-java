@@ -147,7 +147,8 @@ public final class OmCheckCampCondsForTNIDsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -275,11 +276,10 @@ public final class OmCheckCampCondsForTNIDsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -607,34 +607,40 @@ public final class OmCheckCampCondsForTNIDsAd {
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -864,7 +870,7 @@ public final class OmCheckCampCondsForTNIDsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1760,16 +1766,7 @@ public final class OmCheckCampCondsForTNIDsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1841,45 +1838,45 @@ public final class OmCheckCampCondsForTNIDsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1908,7 +1905,8 @@ public final class OmCheckCampCondsForTNIDsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1952,11 +1950,10 @@ public final class OmCheckCampCondsForTNIDsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1992,27 +1989,27 @@ public final class OmCheckCampCondsForTNIDsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-       *
        * <pre>
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-       *
        * <pre>
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        */
       io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-       *
        * <pre>
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
     }
@@ -2038,7 +2035,8 @@ public final class OmCheckCampCondsForTNIDsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2076,11 +2074,10 @@ public final class OmCheckCampCondsForTNIDsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2109,31 +2106,31 @@ public final class OmCheckCampCondsForTNIDsAd {
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-       *
        * <pre>
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-       *
        * <pre>
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-       *
        * <pre>
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -2200,34 +2197,40 @@ public final class OmCheckCampCondsForTNIDsAd {
       }
       public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2357,7 +2360,7 @@ public final class OmCheckCampCondsForTNIDsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2396,21 +2399,21 @@ public final class OmCheckCampCondsForTNIDsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-         *
          * <pre>
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-         *
          * <pre>
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -2420,11 +2423,11 @@ public final class OmCheckCampCondsForTNIDsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-         *
          * <pre>
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          */
         public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -2440,11 +2443,11 @@ public final class OmCheckCampCondsForTNIDsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-         *
          * <pre>
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2458,11 +2461,11 @@ public final class OmCheckCampCondsForTNIDsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-         *
          * <pre>
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -2480,11 +2483,11 @@ public final class OmCheckCampCondsForTNIDsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-         *
          * <pre>
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -2498,11 +2501,11 @@ public final class OmCheckCampCondsForTNIDsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-         *
          * <pre>
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
@@ -2510,11 +2513,11 @@ public final class OmCheckCampCondsForTNIDsAd {
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-         *
          * <pre>
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -2525,11 +2528,11 @@ public final class OmCheckCampCondsForTNIDsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
-         *
          * <pre>
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2574,16 +2577,7 @@ public final class OmCheckCampCondsForTNIDsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2675,52 +2669,52 @@ public final class OmCheckCampCondsForTNIDsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2795,34 +2789,40 @@ public final class OmCheckCampCondsForTNIDsAd {
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3059,7 +3059,7 @@ public final class OmCheckCampCondsForTNIDsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3562,11 +3562,11 @@ public final class OmCheckCampCondsForTNIDsAd {
           io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row, io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row.Builder, io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3576,11 +3576,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3590,11 +3590,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3604,11 +3604,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row value) {
@@ -3625,11 +3625,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row.Builder builderForValue) {
@@ -3643,11 +3643,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3663,11 +3663,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row value) {
@@ -3684,11 +3684,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row.Builder builderForValue) {
@@ -3702,11 +3702,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row.Builder builderForValue) {
@@ -3720,11 +3720,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row> values) {
@@ -3739,11 +3739,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3756,11 +3756,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3773,22 +3773,22 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3798,11 +3798,11 @@ public final class OmCheckCampCondsForTNIDsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3813,22 +3813,22 @@ public final class OmCheckCampCondsForTNIDsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3836,11 +3836,11 @@ public final class OmCheckCampCondsForTNIDsAd {
             index, io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3890,16 +3890,7 @@ public final class OmCheckCampCondsForTNIDsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3918,19 +3909,19 @@ public final class OmCheckCampCondsForTNIDsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CheckCampCondsForTNIDs_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_CheckCampCondsForTNIDs_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CheckCampCondsForTNIDs_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_CheckCampCondsForTNIDs_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CheckCampCondsForTNIDs_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_CheckCampCondsForTNIDs_Ad_Response_Row_fieldAccessorTable;
 
@@ -3938,7 +3929,7 @@ public final class OmCheckCampCondsForTNIDsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

@@ -147,7 +147,8 @@ public final class StGetVisitorPersonsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -275,11 +276,10 @@ public final class StGetVisitorPersonsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -607,34 +607,40 @@ public final class StGetVisitorPersonsAd {
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -864,7 +870,7 @@ public final class StGetVisitorPersonsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetVisitorPersonsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1760,16 +1766,7 @@ public final class StGetVisitorPersonsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1841,45 +1838,45 @@ public final class StGetVisitorPersonsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1908,7 +1905,8 @@ public final class StGetVisitorPersonsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1952,11 +1950,10 @@ public final class StGetVisitorPersonsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1992,252 +1989,252 @@ public final class StGetVisitorPersonsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
        */
       boolean hasCharacVal2RestrByPattern();
       /**
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
        */
       io.dstore.Values.stringValue getCharacVal2RestrByPattern();
       /**
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCharacVal2RestrByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-       *
        * <pre>
        * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
        */
       boolean hasVisitorId();
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-       *
        * <pre>
        * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
        */
       io.dstore.Values.integerValue getVisitorId();
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-       *
        * <pre>
        * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       boolean hasPersonId();
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       io.dstore.Values.integerValue getPersonId();
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-       *
        * <pre>
        * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
        */
       boolean hasValidTo();
       /**
-       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-       *
        * <pre>
        * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
        */
       io.dstore.Values.stringValue getValidTo();
       /**
-       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-       *
        * <pre>
        * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValidToOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-       *
        * <pre>
        * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
        */
       boolean hasValidFrom();
       /**
-       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-       *
        * <pre>
        * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
        */
       io.dstore.Values.stringValue getValidFrom();
       /**
-       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-       *
        * <pre>
        * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValidFromOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
        */
       boolean hasPersonType();
       /**
-       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
        */
       io.dstore.Values.stringValue getPersonType();
       /**
-       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
        */
       io.dstore.Values.stringValueOrBuilder getPersonTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
        */
       boolean hasCharacteristicValue2();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
        */
       io.dstore.Values.stringValue getCharacteristicValue2();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCharacteristicValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-       *
        * <pre>
        * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
        */
       boolean hasCharacVal1RestrByPattern();
       /**
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-       *
        * <pre>
        * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
        */
       io.dstore.Values.stringValue getCharacVal1RestrByPattern();
       /**
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-       *
        * <pre>
        * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCharacVal1RestrByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
        */
       boolean hasCharacteristicValue1();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
        */
       io.dstore.Values.stringValue getCharacteristicValue1();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCharacteristicValue1OrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-       *
        * <pre>
        * ID des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
        */
       boolean hasPersonTypeId();
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-       *
        * <pre>
        * ID des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
        */
       io.dstore.Values.integerValue getPersonTypeId();
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-       *
        * <pre>
        * ID des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
     }
@@ -2263,7 +2260,8 @@ public final class StGetVisitorPersonsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2418,11 +2416,10 @@ public final class StGetVisitorPersonsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2451,31 +2448,31 @@ public final class StGetVisitorPersonsAd {
       public static final int CHARAC_VAL2_RESTR_BY_PATTERN_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue characVal2RestrByPattern_;
       /**
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
        */
       public boolean hasCharacVal2RestrByPattern() {
         return characVal2RestrByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
        */
       public io.dstore.Values.stringValue getCharacVal2RestrByPattern() {
         return characVal2RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characVal2RestrByPattern_;
       }
       /**
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-       *
        * <pre>
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCharacVal2RestrByPatternOrBuilder() {
         return getCharacVal2RestrByPattern();
@@ -2484,31 +2481,31 @@ public final class StGetVisitorPersonsAd {
       public static final int VISITOR_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue visitorId_;
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-       *
        * <pre>
        * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
        */
       public boolean hasVisitorId() {
         return visitorId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-       *
        * <pre>
        * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getVisitorId() {
         return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-       *
        * <pre>
        * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
         return getVisitorId();
@@ -2517,31 +2514,31 @@ public final class StGetVisitorPersonsAd {
       public static final int PERSON_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue personId_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getPersonId() {
         return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-       *
        * <pre>
        * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
@@ -2550,31 +2547,31 @@ public final class StGetVisitorPersonsAd {
       public static final int VALID_TO_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue validTo_;
       /**
-       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-       *
        * <pre>
        * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
        */
       public boolean hasValidTo() {
         return validTo_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-       *
        * <pre>
        * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
        */
       public io.dstore.Values.stringValue getValidTo() {
         return validTo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : validTo_;
       }
       /**
-       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-       *
        * <pre>
        * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValidToOrBuilder() {
         return getValidTo();
@@ -2583,31 +2580,31 @@ public final class StGetVisitorPersonsAd {
       public static final int VALID_FROM_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue validFrom_;
       /**
-       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-       *
        * <pre>
        * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
        */
       public boolean hasValidFrom() {
         return validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-       *
        * <pre>
        * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
        */
       public io.dstore.Values.stringValue getValidFrom() {
         return validFrom_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : validFrom_;
       }
       /**
-       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-       *
        * <pre>
        * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValidFromOrBuilder() {
         return getValidFrom();
@@ -2616,31 +2613,31 @@ public final class StGetVisitorPersonsAd {
       public static final int PERSON_TYPE_FIELD_NUMBER = 10006;
       private io.dstore.Values.stringValue personType_;
       /**
-       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
        */
       public boolean hasPersonType() {
         return personType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
        */
       public io.dstore.Values.stringValue getPersonType() {
         return personType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-       *
        * <pre>
        * Bezeichnung des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type = 10006;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getPersonTypeOrBuilder() {
         return getPersonType();
@@ -2649,31 +2646,31 @@ public final class StGetVisitorPersonsAd {
       public static final int CHARACTERISTIC_VALUE2_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue characteristicValue2_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
        */
       public boolean hasCharacteristicValue2() {
         return characteristicValue2_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
        */
       public io.dstore.Values.stringValue getCharacteristicValue2() {
         return characteristicValue2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicValue2_;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCharacteristicValue2OrBuilder() {
         return getCharacteristicValue2();
@@ -2682,31 +2679,31 @@ public final class StGetVisitorPersonsAd {
       public static final int CHARAC_VAL1_RESTR_BY_PATTERN_FIELD_NUMBER = 10008;
       private io.dstore.Values.stringValue characVal1RestrByPattern_;
       /**
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-       *
        * <pre>
        * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
        */
       public boolean hasCharacVal1RestrByPattern() {
         return characVal1RestrByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-       *
        * <pre>
        * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
        */
       public io.dstore.Values.stringValue getCharacVal1RestrByPattern() {
         return characVal1RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characVal1RestrByPattern_;
       }
       /**
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-       *
        * <pre>
        * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCharacVal1RestrByPatternOrBuilder() {
         return getCharacVal1RestrByPattern();
@@ -2715,31 +2712,31 @@ public final class StGetVisitorPersonsAd {
       public static final int CHARACTERISTIC_VALUE1_FIELD_NUMBER = 10009;
       private io.dstore.Values.stringValue characteristicValue1_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
        */
       public boolean hasCharacteristicValue1() {
         return characteristicValue1_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
        */
       public io.dstore.Values.stringValue getCharacteristicValue1() {
         return characteristicValue1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicValue1_;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-       *
        * <pre>
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCharacteristicValue1OrBuilder() {
         return getCharacteristicValue1();
@@ -2748,31 +2745,31 @@ public final class StGetVisitorPersonsAd {
       public static final int PERSON_TYPE_ID_FIELD_NUMBER = 10010;
       private io.dstore.Values.integerValue personTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-       *
        * <pre>
        * ID des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-       *
        * <pre>
        * ID des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
        */
       public io.dstore.Values.integerValue getPersonTypeId() {
         return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-       *
        * <pre>
        * ID des Typs der Person "PersonID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
         return getPersonTypeId();
@@ -2902,34 +2899,40 @@ public final class StGetVisitorPersonsAd {
       }
       public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -3185,7 +3188,7 @@ public final class StGetVisitorPersonsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -3224,21 +3227,21 @@ public final class StGetVisitorPersonsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characVal2RestrByPatternBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
          */
         public boolean hasCharacVal2RestrByPattern() {
           return characVal2RestrByPatternBuilder_ != null || characVal2RestrByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
          */
         public io.dstore.Values.stringValue getCharacVal2RestrByPattern() {
           if (characVal2RestrByPatternBuilder_ == null) {
@@ -3248,11 +3251,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
          */
         public Builder setCharacVal2RestrByPattern(io.dstore.Values.stringValue value) {
           if (characVal2RestrByPatternBuilder_ == null) {
@@ -3268,11 +3271,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
          */
         public Builder setCharacVal2RestrByPattern(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3286,11 +3289,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
          */
         public Builder mergeCharacVal2RestrByPattern(io.dstore.Values.stringValue value) {
           if (characVal2RestrByPatternBuilder_ == null) {
@@ -3308,11 +3311,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
          */
         public Builder clearCharacVal2RestrByPattern() {
           if (characVal2RestrByPatternBuilder_ == null) {
@@ -3326,11 +3329,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getCharacVal2RestrByPatternBuilder() {
           
@@ -3338,11 +3341,11 @@ public final class StGetVisitorPersonsAd {
           return getCharacVal2RestrByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCharacVal2RestrByPatternOrBuilder() {
           if (characVal2RestrByPatternBuilder_ != null) {
@@ -3353,11 +3356,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
-         *
          * <pre>
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CharacteristicValue2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3377,21 +3380,21 @@ public final class StGetVisitorPersonsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-         *
          * <pre>
          * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
          */
         public boolean hasVisitorId() {
           return visitorIdBuilder_ != null || visitorId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-         *
          * <pre>
          * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getVisitorId() {
           if (visitorIdBuilder_ == null) {
@@ -3401,11 +3404,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-         *
          * <pre>
          * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
          */
         public Builder setVisitorId(io.dstore.Values.integerValue value) {
           if (visitorIdBuilder_ == null) {
@@ -3421,11 +3424,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-         *
          * <pre>
          * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
          */
         public Builder setVisitorId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3439,11 +3442,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-         *
          * <pre>
          * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
          */
         public Builder mergeVisitorId(io.dstore.Values.integerValue value) {
           if (visitorIdBuilder_ == null) {
@@ -3461,11 +3464,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-         *
          * <pre>
          * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
          */
         public Builder clearVisitorId() {
           if (visitorIdBuilder_ == null) {
@@ -3479,11 +3482,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-         *
          * <pre>
          * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getVisitorIdBuilder() {
           
@@ -3491,11 +3494,11 @@ public final class StGetVisitorPersonsAd {
           return getVisitorIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-         *
          * <pre>
          * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
           if (visitorIdBuilder_ != null) {
@@ -3506,11 +3509,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
-         *
          * <pre>
          * ID eines Besuchers, der im Zeitraum "ValidFrom" bis "ValidTo" der Person "PersonID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3530,21 +3533,21 @@ public final class StGetVisitorPersonsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getPersonId() {
           if (personIdBuilder_ == null) {
@@ -3554,11 +3557,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public Builder setPersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
@@ -3574,11 +3577,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public Builder setPersonId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3592,11 +3595,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public Builder mergePersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
@@ -3614,11 +3617,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -3632,11 +3635,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
           
@@ -3644,11 +3647,11 @@ public final class StGetVisitorPersonsAd {
           return getPersonIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
@@ -3659,11 +3662,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
-         *
          * <pre>
          * ID einer Person, die im Zeitraum "ValidFrom" bis "ValidTo" dem Besucher "VisitorID" zugeordnet war (bzw. immer noch ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3683,21 +3686,21 @@ public final class StGetVisitorPersonsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> validToBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-         *
          * <pre>
          * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
          */
         public boolean hasValidTo() {
           return validToBuilder_ != null || validTo_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-         *
          * <pre>
          * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
          */
         public io.dstore.Values.stringValue getValidTo() {
           if (validToBuilder_ == null) {
@@ -3707,11 +3710,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-         *
          * <pre>
          * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
          */
         public Builder setValidTo(io.dstore.Values.stringValue value) {
           if (validToBuilder_ == null) {
@@ -3727,11 +3730,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-         *
          * <pre>
          * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
          */
         public Builder setValidTo(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3745,11 +3748,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-         *
          * <pre>
          * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
          */
         public Builder mergeValidTo(io.dstore.Values.stringValue value) {
           if (validToBuilder_ == null) {
@@ -3767,11 +3770,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-         *
          * <pre>
          * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
          */
         public Builder clearValidTo() {
           if (validToBuilder_ == null) {
@@ -3785,11 +3788,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-         *
          * <pre>
          * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getValidToBuilder() {
           
@@ -3797,11 +3800,11 @@ public final class StGetVisitorPersonsAd {
           return getValidToFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-         *
          * <pre>
          * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValidToOrBuilder() {
           if (validToBuilder_ != null) {
@@ -3812,11 +3815,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
-         *
          * <pre>
          * Ende des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115". "NULL" bedeutet, daß die Zuordnung aktuell noch gültig ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3836,21 +3839,21 @@ public final class StGetVisitorPersonsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> validFromBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-         *
          * <pre>
          * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
          */
         public boolean hasValidFrom() {
           return validFromBuilder_ != null || validFrom_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-         *
          * <pre>
          * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
          */
         public io.dstore.Values.stringValue getValidFrom() {
           if (validFromBuilder_ == null) {
@@ -3860,11 +3863,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-         *
          * <pre>
          * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
          */
         public Builder setValidFrom(io.dstore.Values.stringValue value) {
           if (validFromBuilder_ == null) {
@@ -3880,11 +3883,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-         *
          * <pre>
          * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
          */
         public Builder setValidFrom(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3898,11 +3901,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-         *
          * <pre>
          * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
          */
         public Builder mergeValidFrom(io.dstore.Values.stringValue value) {
           if (validFromBuilder_ == null) {
@@ -3920,11 +3923,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-         *
          * <pre>
          * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
          */
         public Builder clearValidFrom() {
           if (validFromBuilder_ == null) {
@@ -3938,11 +3941,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-         *
          * <pre>
          * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getValidFromBuilder() {
           
@@ -3950,11 +3953,11 @@ public final class StGetVisitorPersonsAd {
           return getValidFromFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-         *
          * <pre>
          * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValidFromOrBuilder() {
           if (validFromBuilder_ != null) {
@@ -3965,11 +3968,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
-         *
          * <pre>
          * Beginn des Zeitraums, in dem die Zuordnung "VisitorID"-"PersonID" bestand (bzw. evtl. noch besteht) als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3989,21 +3992,21 @@ public final class StGetVisitorPersonsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
          */
         public boolean hasPersonType() {
           return personTypeBuilder_ != null || personType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
          */
         public io.dstore.Values.stringValue getPersonType() {
           if (personTypeBuilder_ == null) {
@@ -4013,11 +4016,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
          */
         public Builder setPersonType(io.dstore.Values.stringValue value) {
           if (personTypeBuilder_ == null) {
@@ -4033,11 +4036,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
          */
         public Builder setPersonType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4051,11 +4054,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
          */
         public Builder mergePersonType(io.dstore.Values.stringValue value) {
           if (personTypeBuilder_ == null) {
@@ -4073,11 +4076,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
          */
         public Builder clearPersonType() {
           if (personTypeBuilder_ == null) {
@@ -4091,11 +4094,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
          */
         public io.dstore.Values.stringValue.Builder getPersonTypeBuilder() {
           
@@ -4103,11 +4106,11 @@ public final class StGetVisitorPersonsAd {
           return getPersonTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getPersonTypeOrBuilder() {
           if (personTypeBuilder_ != null) {
@@ -4118,11 +4121,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
-         *
          * <pre>
          * Bezeichnung des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4142,21 +4145,21 @@ public final class StGetVisitorPersonsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicValue2Builder_;
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
          */
         public boolean hasCharacteristicValue2() {
           return characteristicValue2Builder_ != null || characteristicValue2_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
          */
         public io.dstore.Values.stringValue getCharacteristicValue2() {
           if (characteristicValue2Builder_ == null) {
@@ -4166,11 +4169,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
          */
         public Builder setCharacteristicValue2(io.dstore.Values.stringValue value) {
           if (characteristicValue2Builder_ == null) {
@@ -4186,11 +4189,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
          */
         public Builder setCharacteristicValue2(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4204,11 +4207,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
          */
         public Builder mergeCharacteristicValue2(io.dstore.Values.stringValue value) {
           if (characteristicValue2Builder_ == null) {
@@ -4226,11 +4229,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
          */
         public Builder clearCharacteristicValue2() {
           if (characteristicValue2Builder_ == null) {
@@ -4244,11 +4247,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getCharacteristicValue2Builder() {
           
@@ -4256,11 +4259,11 @@ public final class StGetVisitorPersonsAd {
           return getCharacteristicValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCharacteristicValue2OrBuilder() {
           if (characteristicValue2Builder_ != null) {
@@ -4271,11 +4274,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value2 = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4295,21 +4298,21 @@ public final class StGetVisitorPersonsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characVal1RestrByPatternBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-         *
          * <pre>
          * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
          */
         public boolean hasCharacVal1RestrByPattern() {
           return characVal1RestrByPatternBuilder_ != null || characVal1RestrByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-         *
          * <pre>
          * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
          */
         public io.dstore.Values.stringValue getCharacVal1RestrByPattern() {
           if (characVal1RestrByPatternBuilder_ == null) {
@@ -4319,11 +4322,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-         *
          * <pre>
          * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
          */
         public Builder setCharacVal1RestrByPattern(io.dstore.Values.stringValue value) {
           if (characVal1RestrByPatternBuilder_ == null) {
@@ -4339,11 +4342,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-         *
          * <pre>
          * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
          */
         public Builder setCharacVal1RestrByPattern(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4357,11 +4360,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-         *
          * <pre>
          * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
          */
         public Builder mergeCharacVal1RestrByPattern(io.dstore.Values.stringValue value) {
           if (characVal1RestrByPatternBuilder_ == null) {
@@ -4379,11 +4382,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-         *
          * <pre>
          * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
          */
         public Builder clearCharacVal1RestrByPattern() {
           if (characVal1RestrByPatternBuilder_ == null) {
@@ -4397,11 +4400,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-         *
          * <pre>
          * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
          */
         public io.dstore.Values.stringValue.Builder getCharacVal1RestrByPatternBuilder() {
           
@@ -4409,11 +4412,11 @@ public final class StGetVisitorPersonsAd {
           return getCharacVal1RestrByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-         *
          * <pre>
          * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCharacVal1RestrByPatternOrBuilder() {
           if (characVal1RestrByPatternBuilder_ != null) {
@@ -4424,11 +4427,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
-         *
          * <pre>
          * Was enthält "CharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CharacteristicValue1" dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4448,21 +4451,21 @@ public final class StGetVisitorPersonsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicValue1Builder_;
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
          */
         public boolean hasCharacteristicValue1() {
           return characteristicValue1Builder_ != null || characteristicValue1_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
          */
         public io.dstore.Values.stringValue getCharacteristicValue1() {
           if (characteristicValue1Builder_ == null) {
@@ -4472,11 +4475,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
          */
         public Builder setCharacteristicValue1(io.dstore.Values.stringValue value) {
           if (characteristicValue1Builder_ == null) {
@@ -4492,11 +4495,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
          */
         public Builder setCharacteristicValue1(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4510,11 +4513,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
          */
         public Builder mergeCharacteristicValue1(io.dstore.Values.stringValue value) {
           if (characteristicValue1Builder_ == null) {
@@ -4532,11 +4535,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
          */
         public Builder clearCharacteristicValue1() {
           if (characteristicValue1Builder_ == null) {
@@ -4550,11 +4553,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
          */
         public io.dstore.Values.stringValue.Builder getCharacteristicValue1Builder() {
           
@@ -4562,11 +4565,11 @@ public final class StGetVisitorPersonsAd {
           return getCharacteristicValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCharacteristicValue1OrBuilder() {
           if (characteristicValue1Builder_ != null) {
@@ -4577,11 +4580,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
-         *
          * <pre>
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" (zum entspr. Personentyp) zum Schlüssel "PersonCharacteristicIDsGrantedByUniqueID" konfig. ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_value1 = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4601,21 +4604,21 @@ public final class StGetVisitorPersonsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-         *
          * <pre>
          * ID des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
          */
         public boolean hasPersonTypeId() {
           return personTypeIdBuilder_ != null || personTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-         *
          * <pre>
          * ID des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
          */
         public io.dstore.Values.integerValue getPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -4625,11 +4628,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-         *
          * <pre>
          * ID des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
          */
         public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
           if (personTypeIdBuilder_ == null) {
@@ -4645,11 +4648,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-         *
          * <pre>
          * ID des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
          */
         public Builder setPersonTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4663,11 +4666,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-         *
          * <pre>
          * ID des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
          */
         public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
           if (personTypeIdBuilder_ == null) {
@@ -4685,11 +4688,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-         *
          * <pre>
          * ID des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
          */
         public Builder clearPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -4703,11 +4706,11 @@ public final class StGetVisitorPersonsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-         *
          * <pre>
          * ID des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
          */
         public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
           
@@ -4715,11 +4718,11 @@ public final class StGetVisitorPersonsAd {
           return getPersonTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-         *
          * <pre>
          * ID des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
           if (personTypeIdBuilder_ != null) {
@@ -4730,11 +4733,11 @@ public final class StGetVisitorPersonsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
-         *
          * <pre>
          * ID des Typs der Person "PersonID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4779,16 +4782,7 @@ public final class StGetVisitorPersonsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4880,52 +4874,52 @@ public final class StGetVisitorPersonsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -5000,34 +4994,40 @@ public final class StGetVisitorPersonsAd {
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorPersonsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -5264,7 +5264,7 @@ public final class StGetVisitorPersonsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetVisitorPersonsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5767,11 +5767,11 @@ public final class StGetVisitorPersonsAd {
           io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row, io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row.Builder, io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -5781,11 +5781,11 @@ public final class StGetVisitorPersonsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -5795,11 +5795,11 @@ public final class StGetVisitorPersonsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -5809,11 +5809,11 @@ public final class StGetVisitorPersonsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row value) {
@@ -5830,11 +5830,11 @@ public final class StGetVisitorPersonsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row.Builder builderForValue) {
@@ -5848,11 +5848,11 @@ public final class StGetVisitorPersonsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -5868,11 +5868,11 @@ public final class StGetVisitorPersonsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row value) {
@@ -5889,11 +5889,11 @@ public final class StGetVisitorPersonsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row.Builder builderForValue) {
@@ -5907,11 +5907,11 @@ public final class StGetVisitorPersonsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row.Builder builderForValue) {
@@ -5925,11 +5925,11 @@ public final class StGetVisitorPersonsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row> values) {
@@ -5944,11 +5944,11 @@ public final class StGetVisitorPersonsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -5961,11 +5961,11 @@ public final class StGetVisitorPersonsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5978,22 +5978,22 @@ public final class StGetVisitorPersonsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -6003,11 +6003,11 @@ public final class StGetVisitorPersonsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -6018,22 +6018,22 @@ public final class StGetVisitorPersonsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -6041,11 +6041,11 @@ public final class StGetVisitorPersonsAd {
             index, io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorPersons_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetVisitorPersonsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -6095,16 +6095,7 @@ public final class StGetVisitorPersonsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -6123,19 +6114,19 @@ public final class StGetVisitorPersonsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetVisitorPersons_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetVisitorPersons_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetVisitorPersons_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetVisitorPersons_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetVisitorPersons_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetVisitorPersons_Ad_Response_Row_fieldAccessorTable;
 
@@ -6143,7 +6134,7 @@ public final class StGetVisitorPersonsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

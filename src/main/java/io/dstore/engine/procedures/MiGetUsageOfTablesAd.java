@@ -128,7 +128,8 @@ public final class MiGetUsageOfTablesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -238,11 +239,10 @@ public final class MiGetUsageOfTablesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -526,34 +526,40 @@ public final class MiGetUsageOfTablesAd {
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -763,7 +769,7 @@ public final class MiGetUsageOfTablesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetUsageOfTablesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1516,16 +1522,7 @@ public final class MiGetUsageOfTablesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1657,7 +1654,8 @@ public final class MiGetUsageOfTablesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1714,11 +1712,10 @@ public final class MiGetUsageOfTablesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1754,127 +1751,127 @@ public final class MiGetUsageOfTablesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-       *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        */
       boolean hasTableName();
       /**
-       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-       *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        */
       io.dstore.Values.stringValue getTableName();
       /**
-       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-       *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-       *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        */
       boolean hasObjectType();
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-       *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        */
       io.dstore.Values.stringValue getObjectType();
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-       *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-       *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        */
       boolean hasCodeLineNumber();
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-       *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        */
       io.dstore.Values.integerValue getCodeLineNumber();
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-       *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-       *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        */
       boolean hasCodeLine();
       /**
-       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-       *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        */
       io.dstore.Values.stringValue getCodeLine();
       /**
-       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-       *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-       *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        */
       boolean hasObjectName();
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-       *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        */
       io.dstore.Values.stringValue getObjectName();
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-       *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder();
     }
@@ -1900,7 +1897,8 @@ public final class MiGetUsageOfTablesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1990,11 +1988,10 @@ public final class MiGetUsageOfTablesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2023,31 +2020,31 @@ public final class MiGetUsageOfTablesAd {
       public static final int TABLE_NAME_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue tableName_;
       /**
-       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-       *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        */
       public boolean hasTableName() {
         return tableName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-       *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        */
       public io.dstore.Values.stringValue getTableName() {
         return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-       *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
         return getTableName();
@@ -2056,31 +2053,31 @@ public final class MiGetUsageOfTablesAd {
       public static final int OBJECT_TYPE_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue objectType_;
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-       *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        */
       public boolean hasObjectType() {
         return objectType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-       *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        */
       public io.dstore.Values.stringValue getObjectType() {
         return objectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-       *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
         return getObjectType();
@@ -2089,31 +2086,31 @@ public final class MiGetUsageOfTablesAd {
       public static final int CODE_LINE_NUMBER_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue codeLineNumber_;
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-       *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        */
       public boolean hasCodeLineNumber() {
         return codeLineNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-       *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        */
       public io.dstore.Values.integerValue getCodeLineNumber() {
         return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
       }
       /**
-       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-       *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
         return getCodeLineNumber();
@@ -2122,31 +2119,31 @@ public final class MiGetUsageOfTablesAd {
       public static final int CODE_LINE_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue codeLine_;
       /**
-       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-       *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        */
       public boolean hasCodeLine() {
         return codeLine_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-       *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        */
       public io.dstore.Values.stringValue getCodeLine() {
         return codeLine_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
       }
       /**
-       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-       *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
         return getCodeLine();
@@ -2155,31 +2152,31 @@ public final class MiGetUsageOfTablesAd {
       public static final int OBJECT_NAME_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue objectName_;
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-       *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        */
       public boolean hasObjectName() {
         return objectName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-       *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        */
       public io.dstore.Values.stringValue getObjectName() {
         return objectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-       *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
         return getObjectName();
@@ -2274,34 +2271,40 @@ public final class MiGetUsageOfTablesAd {
       }
       public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2487,7 +2490,7 @@ public final class MiGetUsageOfTablesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2526,21 +2529,21 @@ public final class MiGetUsageOfTablesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-         *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          */
         public boolean hasTableName() {
           return tableNameBuilder_ != null || tableName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-         *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          */
         public io.dstore.Values.stringValue getTableName() {
           if (tableNameBuilder_ == null) {
@@ -2550,11 +2553,11 @@ public final class MiGetUsageOfTablesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-         *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          */
         public Builder setTableName(io.dstore.Values.stringValue value) {
           if (tableNameBuilder_ == null) {
@@ -2570,11 +2573,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-         *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          */
         public Builder setTableName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2588,11 +2591,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-         *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          */
         public Builder mergeTableName(io.dstore.Values.stringValue value) {
           if (tableNameBuilder_ == null) {
@@ -2610,11 +2613,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-         *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          */
         public Builder clearTableName() {
           if (tableNameBuilder_ == null) {
@@ -2628,11 +2631,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-         *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
           
@@ -2640,11 +2643,11 @@ public final class MiGetUsageOfTablesAd {
           return getTableNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-         *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
           if (tableNameBuilder_ != null) {
@@ -2655,11 +2658,11 @@ public final class MiGetUsageOfTablesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
-         *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2679,21 +2682,21 @@ public final class MiGetUsageOfTablesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-         *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          */
         public boolean hasObjectType() {
           return objectTypeBuilder_ != null || objectType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-         *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          */
         public io.dstore.Values.stringValue getObjectType() {
           if (objectTypeBuilder_ == null) {
@@ -2703,11 +2706,11 @@ public final class MiGetUsageOfTablesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-         *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          */
         public Builder setObjectType(io.dstore.Values.stringValue value) {
           if (objectTypeBuilder_ == null) {
@@ -2723,11 +2726,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-         *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          */
         public Builder setObjectType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2741,11 +2744,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-         *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          */
         public Builder mergeObjectType(io.dstore.Values.stringValue value) {
           if (objectTypeBuilder_ == null) {
@@ -2763,11 +2766,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-         *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          */
         public Builder clearObjectType() {
           if (objectTypeBuilder_ == null) {
@@ -2781,11 +2784,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-         *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getObjectTypeBuilder() {
           
@@ -2793,11 +2796,11 @@ public final class MiGetUsageOfTablesAd {
           return getObjectTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-         *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
           if (objectTypeBuilder_ != null) {
@@ -2808,11 +2811,11 @@ public final class MiGetUsageOfTablesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
-         *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2832,21 +2835,21 @@ public final class MiGetUsageOfTablesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> codeLineNumberBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-         *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          */
         public boolean hasCodeLineNumber() {
           return codeLineNumberBuilder_ != null || codeLineNumber_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-         *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          */
         public io.dstore.Values.integerValue getCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
@@ -2856,11 +2859,11 @@ public final class MiGetUsageOfTablesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-         *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          */
         public Builder setCodeLineNumber(io.dstore.Values.integerValue value) {
           if (codeLineNumberBuilder_ == null) {
@@ -2876,11 +2879,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-         *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          */
         public Builder setCodeLineNumber(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2894,11 +2897,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-         *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          */
         public Builder mergeCodeLineNumber(io.dstore.Values.integerValue value) {
           if (codeLineNumberBuilder_ == null) {
@@ -2916,11 +2919,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-         *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          */
         public Builder clearCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
@@ -2934,11 +2937,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-         *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getCodeLineNumberBuilder() {
           
@@ -2946,11 +2949,11 @@ public final class MiGetUsageOfTablesAd {
           return getCodeLineNumberFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-         *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
           if (codeLineNumberBuilder_ != null) {
@@ -2961,11 +2964,11 @@ public final class MiGetUsageOfTablesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
-         *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2985,21 +2988,21 @@ public final class MiGetUsageOfTablesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> codeLineBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-         *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          */
         public boolean hasCodeLine() {
           return codeLineBuilder_ != null || codeLine_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-         *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          */
         public io.dstore.Values.stringValue getCodeLine() {
           if (codeLineBuilder_ == null) {
@@ -3009,11 +3012,11 @@ public final class MiGetUsageOfTablesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-         *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          */
         public Builder setCodeLine(io.dstore.Values.stringValue value) {
           if (codeLineBuilder_ == null) {
@@ -3029,11 +3032,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-         *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          */
         public Builder setCodeLine(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3047,11 +3050,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-         *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          */
         public Builder mergeCodeLine(io.dstore.Values.stringValue value) {
           if (codeLineBuilder_ == null) {
@@ -3069,11 +3072,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-         *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          */
         public Builder clearCodeLine() {
           if (codeLineBuilder_ == null) {
@@ -3087,11 +3090,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-         *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getCodeLineBuilder() {
           
@@ -3099,11 +3102,11 @@ public final class MiGetUsageOfTablesAd {
           return getCodeLineFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-         *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
           if (codeLineBuilder_ != null) {
@@ -3114,11 +3117,11 @@ public final class MiGetUsageOfTablesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
-         *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3138,21 +3141,21 @@ public final class MiGetUsageOfTablesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-         *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          */
         public boolean hasObjectName() {
           return objectNameBuilder_ != null || objectName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-         *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          */
         public io.dstore.Values.stringValue getObjectName() {
           if (objectNameBuilder_ == null) {
@@ -3162,11 +3165,11 @@ public final class MiGetUsageOfTablesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-         *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          */
         public Builder setObjectName(io.dstore.Values.stringValue value) {
           if (objectNameBuilder_ == null) {
@@ -3182,11 +3185,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-         *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          */
         public Builder setObjectName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3200,11 +3203,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-         *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          */
         public Builder mergeObjectName(io.dstore.Values.stringValue value) {
           if (objectNameBuilder_ == null) {
@@ -3222,11 +3225,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-         *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          */
         public Builder clearObjectName() {
           if (objectNameBuilder_ == null) {
@@ -3240,11 +3243,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-         *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getObjectNameBuilder() {
           
@@ -3252,11 +3255,11 @@ public final class MiGetUsageOfTablesAd {
           return getObjectNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-         *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
           if (objectNameBuilder_ != null) {
@@ -3267,11 +3270,11 @@ public final class MiGetUsageOfTablesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
-         *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3316,16 +3319,7 @@ public final class MiGetUsageOfTablesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3546,34 +3540,40 @@ public final class MiGetUsageOfTablesAd {
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3826,7 +3826,7 @@ public final class MiGetUsageOfTablesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4702,16 +4702,7 @@ public final class MiGetUsageOfTablesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4730,19 +4721,19 @@ public final class MiGetUsageOfTablesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Response_Row_fieldAccessorTable;
 
@@ -4750,7 +4741,7 @@ public final class MiGetUsageOfTablesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

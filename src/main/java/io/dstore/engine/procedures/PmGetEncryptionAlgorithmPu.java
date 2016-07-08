@@ -128,7 +128,8 @@ public final class PmGetEncryptionAlgorithmPu {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -238,11 +239,10 @@ public final class PmGetEncryptionAlgorithmPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -526,34 +526,40 @@ public final class PmGetEncryptionAlgorithmPu {
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -763,7 +769,7 @@ public final class PmGetEncryptionAlgorithmPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1516,16 +1522,7 @@ public final class PmGetEncryptionAlgorithmPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1597,45 +1594,45 @@ public final class PmGetEncryptionAlgorithmPu {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1664,7 +1661,8 @@ public final class PmGetEncryptionAlgorithmPu {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1708,11 +1706,10 @@ public final class PmGetEncryptionAlgorithmPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1748,52 +1745,52 @@ public final class PmGetEncryptionAlgorithmPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       io.dstore.Values.integerValue getPersonCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-       *
        * <pre>
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
        */
       boolean hasEncryptionAlgorithm();
       /**
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-       *
        * <pre>
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
        */
       io.dstore.Values.stringValue getEncryptionAlgorithm();
       /**
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-       *
        * <pre>
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getEncryptionAlgorithmOrBuilder();
     }
@@ -1819,7 +1816,8 @@ public final class PmGetEncryptionAlgorithmPu {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1870,11 +1868,10 @@ public final class PmGetEncryptionAlgorithmPu {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1903,31 +1900,31 @@ public final class PmGetEncryptionAlgorithmPu {
       public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue personCharacteristicId_;
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getPersonCharacteristicId() {
         return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-       *
        * <pre>
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
@@ -1936,31 +1933,31 @@ public final class PmGetEncryptionAlgorithmPu {
       public static final int ENCRYPTION_ALGORITHM_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue encryptionAlgorithm_;
       /**
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-       *
        * <pre>
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
        */
       public boolean hasEncryptionAlgorithm() {
         return encryptionAlgorithm_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-       *
        * <pre>
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
        */
       public io.dstore.Values.stringValue getEncryptionAlgorithm() {
         return encryptionAlgorithm_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : encryptionAlgorithm_;
       }
       /**
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-       *
        * <pre>
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getEncryptionAlgorithmOrBuilder() {
         return getEncryptionAlgorithm();
@@ -2034,34 +2031,40 @@ public final class PmGetEncryptionAlgorithmPu {
       }
       public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2205,7 +2208,7 @@ public final class PmGetEncryptionAlgorithmPu {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2244,21 +2247,21 @@ public final class PmGetEncryptionAlgorithmPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2268,11 +2271,11 @@ public final class PmGetEncryptionAlgorithmPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public Builder setPersonCharacteristicId(io.dstore.Values.integerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2288,11 +2291,11 @@ public final class PmGetEncryptionAlgorithmPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public Builder setPersonCharacteristicId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2306,11 +2309,11 @@ public final class PmGetEncryptionAlgorithmPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public Builder mergePersonCharacteristicId(io.dstore.Values.integerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2328,11 +2331,11 @@ public final class PmGetEncryptionAlgorithmPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2346,11 +2349,11 @@ public final class PmGetEncryptionAlgorithmPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getPersonCharacteristicIdBuilder() {
           
@@ -2358,11 +2361,11 @@ public final class PmGetEncryptionAlgorithmPu {
           return getPersonCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
@@ -2373,11 +2376,11 @@ public final class PmGetEncryptionAlgorithmPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
-         *
          * <pre>
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2397,21 +2400,21 @@ public final class PmGetEncryptionAlgorithmPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> encryptionAlgorithmBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-         *
          * <pre>
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
          */
         public boolean hasEncryptionAlgorithm() {
           return encryptionAlgorithmBuilder_ != null || encryptionAlgorithm_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-         *
          * <pre>
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
          */
         public io.dstore.Values.stringValue getEncryptionAlgorithm() {
           if (encryptionAlgorithmBuilder_ == null) {
@@ -2421,11 +2424,11 @@ public final class PmGetEncryptionAlgorithmPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-         *
          * <pre>
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
          */
         public Builder setEncryptionAlgorithm(io.dstore.Values.stringValue value) {
           if (encryptionAlgorithmBuilder_ == null) {
@@ -2441,11 +2444,11 @@ public final class PmGetEncryptionAlgorithmPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-         *
          * <pre>
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
          */
         public Builder setEncryptionAlgorithm(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2459,11 +2462,11 @@ public final class PmGetEncryptionAlgorithmPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-         *
          * <pre>
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
          */
         public Builder mergeEncryptionAlgorithm(io.dstore.Values.stringValue value) {
           if (encryptionAlgorithmBuilder_ == null) {
@@ -2481,11 +2484,11 @@ public final class PmGetEncryptionAlgorithmPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-         *
          * <pre>
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
          */
         public Builder clearEncryptionAlgorithm() {
           if (encryptionAlgorithmBuilder_ == null) {
@@ -2499,11 +2502,11 @@ public final class PmGetEncryptionAlgorithmPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-         *
          * <pre>
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getEncryptionAlgorithmBuilder() {
           
@@ -2511,11 +2514,11 @@ public final class PmGetEncryptionAlgorithmPu {
           return getEncryptionAlgorithmFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-         *
          * <pre>
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getEncryptionAlgorithmOrBuilder() {
           if (encryptionAlgorithmBuilder_ != null) {
@@ -2526,11 +2529,11 @@ public final class PmGetEncryptionAlgorithmPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
-         *
          * <pre>
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2575,16 +2578,7 @@ public final class PmGetEncryptionAlgorithmPu {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2676,52 +2670,52 @@ public final class PmGetEncryptionAlgorithmPu {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2796,34 +2790,40 @@ public final class PmGetEncryptionAlgorithmPu {
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3060,7 +3060,7 @@ public final class PmGetEncryptionAlgorithmPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3563,11 +3563,11 @@ public final class PmGetEncryptionAlgorithmPu {
           io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row, io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row.Builder, io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3577,11 +3577,11 @@ public final class PmGetEncryptionAlgorithmPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3591,11 +3591,11 @@ public final class PmGetEncryptionAlgorithmPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3605,11 +3605,11 @@ public final class PmGetEncryptionAlgorithmPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row value) {
@@ -3626,11 +3626,11 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row.Builder builderForValue) {
@@ -3644,11 +3644,11 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3664,11 +3664,11 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row value) {
@@ -3685,11 +3685,11 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row.Builder builderForValue) {
@@ -3703,11 +3703,11 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row.Builder builderForValue) {
@@ -3721,11 +3721,11 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row> values) {
@@ -3740,11 +3740,11 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3757,11 +3757,11 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3774,22 +3774,22 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3799,11 +3799,11 @@ public final class PmGetEncryptionAlgorithmPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3814,22 +3814,22 @@ public final class PmGetEncryptionAlgorithmPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3837,11 +3837,11 @@ public final class PmGetEncryptionAlgorithmPu {
             index, io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3891,16 +3891,7 @@ public final class PmGetEncryptionAlgorithmPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3919,19 +3910,19 @@ public final class PmGetEncryptionAlgorithmPu {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetEncryptionAlgorithm_Pu_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_GetEncryptionAlgorithm_Pu_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetEncryptionAlgorithm_Pu_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_GetEncryptionAlgorithm_Pu_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetEncryptionAlgorithm_Pu_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_GetEncryptionAlgorithm_Pu_Response_Row_fieldAccessorTable;
 
@@ -3939,7 +3930,7 @@ public final class PmGetEncryptionAlgorithmPu {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

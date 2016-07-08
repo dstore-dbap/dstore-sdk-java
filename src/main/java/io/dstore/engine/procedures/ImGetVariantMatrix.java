@@ -147,7 +147,8 @@ public final class ImGetVariantMatrix {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -275,11 +276,10 @@ public final class ImGetVariantMatrix {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -607,34 +607,40 @@ public final class ImGetVariantMatrix {
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -864,7 +870,7 @@ public final class ImGetVariantMatrix {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.ImGetVariantMatrix.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1760,16 +1766,7 @@ public final class ImGetVariantMatrix {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1841,45 +1838,45 @@ public final class ImGetVariantMatrix {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.ImGetVariantMatrix.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.ImGetVariantMatrix.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1908,7 +1905,8 @@ public final class ImGetVariantMatrix {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1952,11 +1950,10 @@ public final class ImGetVariantMatrix {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1992,202 +1989,202 @@ public final class ImGetVariantMatrix {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-       *
        * <pre>
        * ID der Eigenschaft "YAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
        */
       boolean hasYAxisValueId();
       /**
-       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-       *
        * <pre>
        * ID der Eigenschaft "YAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
        */
       io.dstore.Values.integerValue getYAxisValueId();
       /**
-       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-       *
        * <pre>
        * ID der Eigenschaft "YAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getYAxisValueIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       boolean hasHTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       io.dstore.Values.integerValue getHTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
        */
       io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        */
       io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
        */
       boolean hasXAxisValue();
       /**
-       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
        */
       io.dstore.Values.stringValue getXAxisValue();
       /**
-       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getXAxisValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
        */
       boolean hasValueId();
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
        */
       io.dstore.Values.integerValue getValueId();
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
        */
       boolean hasYAxisValue();
       /**
-       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
        */
       io.dstore.Values.stringValue getYAxisValue();
       /**
-       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getYAxisValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-       *
        * <pre>
        * ID der Eigenschaft "XAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
        */
       boolean hasXAxisValueId();
       /**
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-       *
        * <pre>
        * ID der Eigenschaft "XAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
        */
       io.dstore.Values.integerValue getXAxisValueId();
       /**
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-       *
        * <pre>
        * ID der Eigenschaft "XAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
        */
       io.dstore.Values.integerValueOrBuilder getXAxisValueIdOrBuilder();
     }
@@ -2213,7 +2210,8 @@ public final class ImGetVariantMatrix {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2342,11 +2340,10 @@ public final class ImGetVariantMatrix {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2375,31 +2372,31 @@ public final class ImGetVariantMatrix {
       public static final int Y_AXIS_VALUE_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue yAxisValueId_;
       /**
-       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-       *
        * <pre>
        * ID der Eigenschaft "YAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
        */
       public boolean hasYAxisValueId() {
         return yAxisValueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-       *
        * <pre>
        * ID der Eigenschaft "YAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getYAxisValueId() {
         return yAxisValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : yAxisValueId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-       *
        * <pre>
        * ID der Eigenschaft "YAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getYAxisValueIdOrBuilder() {
         return getYAxisValueId();
@@ -2408,31 +2405,31 @@ public final class ImGetVariantMatrix {
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue hTreeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getHTreeNodeId() {
         return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
@@ -2441,31 +2438,31 @@ public final class ImGetVariantMatrix {
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -2474,31 +2471,31 @@ public final class ImGetVariantMatrix {
       public static final int VALUE_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        */
       public boolean hasValue() {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        */
       public io.dstore.Values.stringValue getValue() {
         return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -2507,31 +2504,31 @@ public final class ImGetVariantMatrix {
       public static final int X_AXIS_VALUE_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue xAxisValue_;
       /**
-       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
        */
       public boolean hasXAxisValue() {
         return xAxisValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
        */
       public io.dstore.Values.stringValue getXAxisValue() {
         return xAxisValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : xAxisValue_;
       }
       /**
-       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getXAxisValueOrBuilder() {
         return getXAxisValue();
@@ -2540,31 +2537,31 @@ public final class ImGetVariantMatrix {
       public static final int VALUE_ID_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue valueId_;
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
        */
       public io.dstore.Values.integerValue getValueId() {
         return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
@@ -2573,31 +2570,31 @@ public final class ImGetVariantMatrix {
       public static final int Y_AXIS_VALUE_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue yAxisValue_;
       /**
-       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
        */
       public boolean hasYAxisValue() {
         return yAxisValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
        */
       public io.dstore.Values.stringValue getYAxisValue() {
         return yAxisValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : yAxisValue_;
       }
       /**
-       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-       *
        * <pre>
        * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getYAxisValueOrBuilder() {
         return getYAxisValue();
@@ -2606,31 +2603,31 @@ public final class ImGetVariantMatrix {
       public static final int X_AXIS_VALUE_ID_FIELD_NUMBER = 10008;
       private io.dstore.Values.integerValue xAxisValueId_;
       /**
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-       *
        * <pre>
        * ID der Eigenschaft "XAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
        */
       public boolean hasXAxisValueId() {
         return xAxisValueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-       *
        * <pre>
        * ID der Eigenschaft "XAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
        */
       public io.dstore.Values.integerValue getXAxisValueId() {
         return xAxisValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : xAxisValueId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-       *
        * <pre>
        * ID der Eigenschaft "XAxisValue"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getXAxisValueIdOrBuilder() {
         return getXAxisValueId();
@@ -2746,34 +2743,40 @@ public final class ImGetVariantMatrix {
       }
       public static io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -3001,7 +3004,7 @@ public final class ImGetVariantMatrix {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -3040,21 +3043,21 @@ public final class ImGetVariantMatrix {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> yAxisValueIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-         *
          * <pre>
          * ID der Eigenschaft "YAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
          */
         public boolean hasYAxisValueId() {
           return yAxisValueIdBuilder_ != null || yAxisValueId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-         *
          * <pre>
          * ID der Eigenschaft "YAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getYAxisValueId() {
           if (yAxisValueIdBuilder_ == null) {
@@ -3064,11 +3067,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-         *
          * <pre>
          * ID der Eigenschaft "YAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
          */
         public Builder setYAxisValueId(io.dstore.Values.integerValue value) {
           if (yAxisValueIdBuilder_ == null) {
@@ -3084,11 +3087,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-         *
          * <pre>
          * ID der Eigenschaft "YAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
          */
         public Builder setYAxisValueId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3102,11 +3105,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-         *
          * <pre>
          * ID der Eigenschaft "YAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
          */
         public Builder mergeYAxisValueId(io.dstore.Values.integerValue value) {
           if (yAxisValueIdBuilder_ == null) {
@@ -3124,11 +3127,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-         *
          * <pre>
          * ID der Eigenschaft "YAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
          */
         public Builder clearYAxisValueId() {
           if (yAxisValueIdBuilder_ == null) {
@@ -3142,11 +3145,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-         *
          * <pre>
          * ID der Eigenschaft "YAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getYAxisValueIdBuilder() {
           
@@ -3154,11 +3157,11 @@ public final class ImGetVariantMatrix {
           return getYAxisValueIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-         *
          * <pre>
          * ID der Eigenschaft "YAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getYAxisValueIdOrBuilder() {
           if (yAxisValueIdBuilder_ != null) {
@@ -3169,11 +3172,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
-         *
          * <pre>
          * ID der Eigenschaft "YAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue y_axis_value_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3193,21 +3196,21 @@ public final class ImGetVariantMatrix {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -3217,11 +3220,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -3237,11 +3240,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder setHTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3255,11 +3258,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -3277,11 +3280,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -3295,11 +3298,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
           
@@ -3307,11 +3310,11 @@ public final class ImGetVariantMatrix {
           return getHTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
@@ -3322,11 +3325,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3346,21 +3349,21 @@ public final class ImGetVariantMatrix {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -3370,11 +3373,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
          */
         public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -3390,11 +3393,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3408,11 +3411,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -3430,11 +3433,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -3448,11 +3451,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
@@ -3460,11 +3463,11 @@ public final class ImGetVariantMatrix {
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -3475,11 +3478,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, das Nachfolger von "&#64;TreeNodeID" ist und dessen zugehöriges Artikel-Element ("NodeID") sich auf der "Varianten"-Hierarchie (das ist die mit der größten "LevelNo") befindet
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3499,21 +3502,21 @@ public final class ImGetVariantMatrix {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          */
         public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
@@ -3523,11 +3526,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          */
         public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
@@ -3543,11 +3546,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          */
         public Builder setValue(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3561,11 +3564,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          */
         public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
@@ -3583,11 +3586,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -3601,11 +3604,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
@@ -3613,11 +3616,11 @@ public final class ImGetVariantMatrix {
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -3628,11 +3631,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;ValueCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3652,21 +3655,21 @@ public final class ImGetVariantMatrix {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> xAxisValueBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
          */
         public boolean hasXAxisValue() {
           return xAxisValueBuilder_ != null || xAxisValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
          */
         public io.dstore.Values.stringValue getXAxisValue() {
           if (xAxisValueBuilder_ == null) {
@@ -3676,11 +3679,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
          */
         public Builder setXAxisValue(io.dstore.Values.stringValue value) {
           if (xAxisValueBuilder_ == null) {
@@ -3696,11 +3699,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
          */
         public Builder setXAxisValue(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3714,11 +3717,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
          */
         public Builder mergeXAxisValue(io.dstore.Values.stringValue value) {
           if (xAxisValueBuilder_ == null) {
@@ -3736,11 +3739,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
          */
         public Builder clearXAxisValue() {
           if (xAxisValueBuilder_ == null) {
@@ -3754,11 +3757,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getXAxisValueBuilder() {
           
@@ -3766,11 +3769,11 @@ public final class ImGetVariantMatrix {
           return getXAxisValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getXAxisValueOrBuilder() {
           if (xAxisValueBuilder_ != null) {
@@ -3781,11 +3784,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;XAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue x_axis_value = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3805,21 +3808,21 @@ public final class ImGetVariantMatrix {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
         public io.dstore.Values.integerValue getValueId() {
           if (valueIdBuilder_ == null) {
@@ -3829,11 +3832,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
         public Builder setValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
@@ -3849,11 +3852,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
         public Builder setValueId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3867,11 +3870,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
         public Builder mergeValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
@@ -3889,11 +3892,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -3907,11 +3910,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
           
@@ -3919,11 +3922,11 @@ public final class ImGetVariantMatrix {
           return getValueIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
@@ -3934,11 +3937,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3958,21 +3961,21 @@ public final class ImGetVariantMatrix {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> yAxisValueBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
          */
         public boolean hasYAxisValue() {
           return yAxisValueBuilder_ != null || yAxisValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
          */
         public io.dstore.Values.stringValue getYAxisValue() {
           if (yAxisValueBuilder_ == null) {
@@ -3982,11 +3985,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
          */
         public Builder setYAxisValue(io.dstore.Values.stringValue value) {
           if (yAxisValueBuilder_ == null) {
@@ -4002,11 +4005,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
          */
         public Builder setYAxisValue(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4020,11 +4023,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
          */
         public Builder mergeYAxisValue(io.dstore.Values.stringValue value) {
           if (yAxisValueBuilder_ == null) {
@@ -4042,11 +4045,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
          */
         public Builder clearYAxisValue() {
           if (yAxisValueBuilder_ == null) {
@@ -4060,11 +4063,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getYAxisValueBuilder() {
           
@@ -4072,11 +4075,11 @@ public final class ImGetVariantMatrix {
           return getYAxisValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getYAxisValueOrBuilder() {
           if (yAxisValueBuilder_ != null) {
@@ -4087,11 +4090,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
-         *
          * <pre>
          * Eigenschaft der "TreeNodeID" zum Merkmal "&#64;YAxisCharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue y_axis_value = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4111,21 +4114,21 @@ public final class ImGetVariantMatrix {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> xAxisValueIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-         *
          * <pre>
          * ID der Eigenschaft "XAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
          */
         public boolean hasXAxisValueId() {
           return xAxisValueIdBuilder_ != null || xAxisValueId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-         *
          * <pre>
          * ID der Eigenschaft "XAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
          */
         public io.dstore.Values.integerValue getXAxisValueId() {
           if (xAxisValueIdBuilder_ == null) {
@@ -4135,11 +4138,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-         *
          * <pre>
          * ID der Eigenschaft "XAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
          */
         public Builder setXAxisValueId(io.dstore.Values.integerValue value) {
           if (xAxisValueIdBuilder_ == null) {
@@ -4155,11 +4158,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-         *
          * <pre>
          * ID der Eigenschaft "XAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
          */
         public Builder setXAxisValueId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4173,11 +4176,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-         *
          * <pre>
          * ID der Eigenschaft "XAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
          */
         public Builder mergeXAxisValueId(io.dstore.Values.integerValue value) {
           if (xAxisValueIdBuilder_ == null) {
@@ -4195,11 +4198,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-         *
          * <pre>
          * ID der Eigenschaft "XAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
          */
         public Builder clearXAxisValueId() {
           if (xAxisValueIdBuilder_ == null) {
@@ -4213,11 +4216,11 @@ public final class ImGetVariantMatrix {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-         *
          * <pre>
          * ID der Eigenschaft "XAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
          */
         public io.dstore.Values.integerValue.Builder getXAxisValueIdBuilder() {
           
@@ -4225,11 +4228,11 @@ public final class ImGetVariantMatrix {
           return getXAxisValueIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-         *
          * <pre>
          * ID der Eigenschaft "XAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getXAxisValueIdOrBuilder() {
           if (xAxisValueIdBuilder_ != null) {
@@ -4240,11 +4243,11 @@ public final class ImGetVariantMatrix {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
-         *
          * <pre>
          * ID der Eigenschaft "XAxisValue"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue x_axis_value_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4289,16 +4292,7 @@ public final class ImGetVariantMatrix {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4390,52 +4384,52 @@ public final class ImGetVariantMatrix {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.ImGetVariantMatrix.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.ImGetVariantMatrix.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4510,34 +4504,40 @@ public final class ImGetVariantMatrix {
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetVariantMatrix.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4774,7 +4774,7 @@ public final class ImGetVariantMatrix {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.ImGetVariantMatrix.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5277,11 +5277,11 @@ public final class ImGetVariantMatrix {
           io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row, io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row.Builder, io.dstore.engine.procedures.ImGetVariantMatrix.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -5291,11 +5291,11 @@ public final class ImGetVariantMatrix {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -5305,11 +5305,11 @@ public final class ImGetVariantMatrix {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -5319,11 +5319,11 @@ public final class ImGetVariantMatrix {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row value) {
@@ -5340,11 +5340,11 @@ public final class ImGetVariantMatrix {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row.Builder builderForValue) {
@@ -5358,11 +5358,11 @@ public final class ImGetVariantMatrix {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -5378,11 +5378,11 @@ public final class ImGetVariantMatrix {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row value) {
@@ -5399,11 +5399,11 @@ public final class ImGetVariantMatrix {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row.Builder builderForValue) {
@@ -5417,11 +5417,11 @@ public final class ImGetVariantMatrix {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row.Builder builderForValue) {
@@ -5435,11 +5435,11 @@ public final class ImGetVariantMatrix {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row> values) {
@@ -5454,11 +5454,11 @@ public final class ImGetVariantMatrix {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -5471,11 +5471,11 @@ public final class ImGetVariantMatrix {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5488,22 +5488,22 @@ public final class ImGetVariantMatrix {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetVariantMatrix.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5513,11 +5513,11 @@ public final class ImGetVariantMatrix {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.ImGetVariantMatrix.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5528,22 +5528,22 @@ public final class ImGetVariantMatrix {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5551,11 +5551,11 @@ public final class ImGetVariantMatrix {
             index, io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetVariantMatrix.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.ImGetVariantMatrix.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5605,16 +5605,7 @@ public final class ImGetVariantMatrix {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5633,19 +5624,19 @@ public final class ImGetVariantMatrix {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetVariantMatrix_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_GetVariantMatrix_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetVariantMatrix_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_GetVariantMatrix_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetVariantMatrix_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_GetVariantMatrix_Response_Row_fieldAccessorTable;
 
@@ -5653,7 +5644,7 @@ public final class ImGetVariantMatrix {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

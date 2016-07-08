@@ -52,7 +52,8 @@ public final class ImGetNodeSymbolsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -90,11 +91,10 @@ public final class ImGetNodeSymbolsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -202,34 +202,40 @@ public final class ImGetNodeSymbolsAd {
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -359,7 +365,7 @@ public final class ImGetNodeSymbolsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.ImGetNodeSymbolsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -540,16 +546,7 @@ public final class ImGetNodeSymbolsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -621,45 +618,45 @@ public final class ImGetNodeSymbolsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -688,7 +685,8 @@ public final class ImGetNodeSymbolsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -732,11 +730,10 @@ public final class ImGetNodeSymbolsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -772,52 +769,52 @@ public final class ImGetNodeSymbolsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-       *
        * <pre>
        * Das Symbol selbst (also der Binärcode)
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
        */
       boolean hasSymbol();
       /**
-       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-       *
        * <pre>
        * Das Symbol selbst (also der Binärcode)
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
        */
       io.dstore.Values.bytesValue getSymbol();
       /**
-       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-       *
        * <pre>
        * Das Symbol selbst (also der Binärcode)
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
        */
       io.dstore.Values.bytesValueOrBuilder getSymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-       *
        * <pre>
        * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
        */
       boolean hasSymbolId();
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-       *
        * <pre>
        * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
        */
       io.dstore.Values.integerValue getSymbolId();
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-       *
        * <pre>
        * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder();
     }
@@ -843,7 +840,8 @@ public final class ImGetNodeSymbolsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -894,11 +892,10 @@ public final class ImGetNodeSymbolsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -927,31 +924,31 @@ public final class ImGetNodeSymbolsAd {
       public static final int SYMBOL_FIELD_NUMBER = 10001;
       private io.dstore.Values.bytesValue symbol_;
       /**
-       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-       *
        * <pre>
        * Das Symbol selbst (also der Binärcode)
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
        */
       public boolean hasSymbol() {
         return symbol_ != null;
       }
       /**
-       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-       *
        * <pre>
        * Das Symbol selbst (also der Binärcode)
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
        */
       public io.dstore.Values.bytesValue getSymbol() {
         return symbol_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : symbol_;
       }
       /**
-       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-       *
        * <pre>
        * Das Symbol selbst (also der Binärcode)
        * </pre>
+       *
+       * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
        */
       public io.dstore.Values.bytesValueOrBuilder getSymbolOrBuilder() {
         return getSymbol();
@@ -960,31 +957,31 @@ public final class ImGetNodeSymbolsAd {
       public static final int SYMBOL_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue symbolId_;
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-       *
        * <pre>
        * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
        */
       public boolean hasSymbolId() {
         return symbolId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-       *
        * <pre>
        * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getSymbolId() {
         return symbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-       *
        * <pre>
        * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
         return getSymbolId();
@@ -1058,34 +1055,40 @@ public final class ImGetNodeSymbolsAd {
       }
       public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1229,7 +1232,7 @@ public final class ImGetNodeSymbolsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1268,21 +1271,21 @@ public final class ImGetNodeSymbolsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> symbolBuilder_;
         /**
-         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-         *
          * <pre>
          * Das Symbol selbst (also der Binärcode)
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
          */
         public boolean hasSymbol() {
           return symbolBuilder_ != null || symbol_ != null;
         }
         /**
-         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-         *
          * <pre>
          * Das Symbol selbst (also der Binärcode)
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
          */
         public io.dstore.Values.bytesValue getSymbol() {
           if (symbolBuilder_ == null) {
@@ -1292,11 +1295,11 @@ public final class ImGetNodeSymbolsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-         *
          * <pre>
          * Das Symbol selbst (also der Binärcode)
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
          */
         public Builder setSymbol(io.dstore.Values.bytesValue value) {
           if (symbolBuilder_ == null) {
@@ -1312,11 +1315,11 @@ public final class ImGetNodeSymbolsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-         *
          * <pre>
          * Das Symbol selbst (also der Binärcode)
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
          */
         public Builder setSymbol(
             io.dstore.Values.bytesValue.Builder builderForValue) {
@@ -1330,11 +1333,11 @@ public final class ImGetNodeSymbolsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-         *
          * <pre>
          * Das Symbol selbst (also der Binärcode)
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
          */
         public Builder mergeSymbol(io.dstore.Values.bytesValue value) {
           if (symbolBuilder_ == null) {
@@ -1352,11 +1355,11 @@ public final class ImGetNodeSymbolsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-         *
          * <pre>
          * Das Symbol selbst (also der Binärcode)
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
          */
         public Builder clearSymbol() {
           if (symbolBuilder_ == null) {
@@ -1370,11 +1373,11 @@ public final class ImGetNodeSymbolsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-         *
          * <pre>
          * Das Symbol selbst (also der Binärcode)
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
          */
         public io.dstore.Values.bytesValue.Builder getSymbolBuilder() {
           
@@ -1382,11 +1385,11 @@ public final class ImGetNodeSymbolsAd {
           return getSymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-         *
          * <pre>
          * Das Symbol selbst (also der Binärcode)
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
          */
         public io.dstore.Values.bytesValueOrBuilder getSymbolOrBuilder() {
           if (symbolBuilder_ != null) {
@@ -1397,11 +1400,11 @@ public final class ImGetNodeSymbolsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
-         *
          * <pre>
          * Das Symbol selbst (also der Binärcode)
          * </pre>
+         *
+         * <code>optional .dstore.values.bytesValue symbol = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
@@ -1421,21 +1424,21 @@ public final class ImGetNodeSymbolsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> symbolIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-         *
          * <pre>
          * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
          */
         public boolean hasSymbolId() {
           return symbolIdBuilder_ != null || symbolId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-         *
          * <pre>
          * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getSymbolId() {
           if (symbolIdBuilder_ == null) {
@@ -1445,11 +1448,11 @@ public final class ImGetNodeSymbolsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-         *
          * <pre>
          * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
          */
         public Builder setSymbolId(io.dstore.Values.integerValue value) {
           if (symbolIdBuilder_ == null) {
@@ -1465,11 +1468,11 @@ public final class ImGetNodeSymbolsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-         *
          * <pre>
          * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
          */
         public Builder setSymbolId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1483,11 +1486,11 @@ public final class ImGetNodeSymbolsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-         *
          * <pre>
          * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
          */
         public Builder mergeSymbolId(io.dstore.Values.integerValue value) {
           if (symbolIdBuilder_ == null) {
@@ -1505,11 +1508,11 @@ public final class ImGetNodeSymbolsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-         *
          * <pre>
          * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
          */
         public Builder clearSymbolId() {
           if (symbolIdBuilder_ == null) {
@@ -1523,11 +1526,11 @@ public final class ImGetNodeSymbolsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-         *
          * <pre>
          * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getSymbolIdBuilder() {
           
@@ -1535,11 +1538,11 @@ public final class ImGetNodeSymbolsAd {
           return getSymbolIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-         *
          * <pre>
          * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
           if (symbolIdBuilder_ != null) {
@@ -1550,11 +1553,11 @@ public final class ImGetNodeSymbolsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
-         *
          * <pre>
          * ID eines Symbols, mit dem Artikel-Elemente graphisch dargestellt werden können
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue symbol_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1599,16 +1602,7 @@ public final class ImGetNodeSymbolsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -1700,52 +1694,52 @@ public final class ImGetNodeSymbolsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -1820,34 +1814,40 @@ public final class ImGetNodeSymbolsAd {
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2084,7 +2084,7 @@ public final class ImGetNodeSymbolsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2587,11 +2587,11 @@ public final class ImGetNodeSymbolsAd {
           io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row, io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row.Builder, io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -2601,11 +2601,11 @@ public final class ImGetNodeSymbolsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -2615,11 +2615,11 @@ public final class ImGetNodeSymbolsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -2629,11 +2629,11 @@ public final class ImGetNodeSymbolsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row value) {
@@ -2650,11 +2650,11 @@ public final class ImGetNodeSymbolsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row.Builder builderForValue) {
@@ -2668,11 +2668,11 @@ public final class ImGetNodeSymbolsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -2688,11 +2688,11 @@ public final class ImGetNodeSymbolsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row value) {
@@ -2709,11 +2709,11 @@ public final class ImGetNodeSymbolsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row.Builder builderForValue) {
@@ -2727,11 +2727,11 @@ public final class ImGetNodeSymbolsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row.Builder builderForValue) {
@@ -2745,11 +2745,11 @@ public final class ImGetNodeSymbolsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row> values) {
@@ -2764,11 +2764,11 @@ public final class ImGetNodeSymbolsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -2781,11 +2781,11 @@ public final class ImGetNodeSymbolsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -2798,22 +2798,22 @@ public final class ImGetNodeSymbolsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -2823,11 +2823,11 @@ public final class ImGetNodeSymbolsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -2838,22 +2838,22 @@ public final class ImGetNodeSymbolsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -2861,11 +2861,11 @@ public final class ImGetNodeSymbolsAd {
             index, io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeSymbols_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -2915,16 +2915,7 @@ public final class ImGetNodeSymbolsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2943,19 +2934,19 @@ public final class ImGetNodeSymbolsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetNodeSymbols_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_GetNodeSymbols_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetNodeSymbols_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_GetNodeSymbols_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetNodeSymbols_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_GetNodeSymbols_Ad_Response_Row_fieldAccessorTable;
 
@@ -2963,7 +2954,7 @@ public final class ImGetNodeSymbolsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

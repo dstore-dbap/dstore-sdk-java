@@ -90,7 +90,8 @@ public final class StGetVisitorInfoStatisticsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class StGetVisitorInfoStatisticsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class StGetVisitorInfoStatisticsAd {
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class StGetVisitorInfoStatisticsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class StGetVisitorInfoStatisticsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class StGetVisitorInfoStatisticsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class StGetVisitorInfoStatisticsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class StGetVisitorInfoStatisticsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,77 +1257,77 @@ public final class StGetVisitorInfoStatisticsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-       *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        */
       boolean hasNumberOfDistinctValues();
       /**
-       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-       *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        */
       io.dstore.Values.integerValue getNumberOfDistinctValues();
       /**
-       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-       *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNumberOfDistinctValuesOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-       *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        */
       boolean hasNumberOfValues();
       /**
-       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-       *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        */
       io.dstore.Values.integerValue getNumberOfValues();
       /**
-       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-       *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNumberOfValuesOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-       *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        */
       boolean hasStatisticInformation();
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-       *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        */
       io.dstore.Values.stringValue getStatisticInformation();
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-       *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder();
     }
@@ -1356,7 +1353,8 @@ public final class StGetVisitorInfoStatisticsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1420,11 +1418,10 @@ public final class StGetVisitorInfoStatisticsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1453,31 +1450,31 @@ public final class StGetVisitorInfoStatisticsAd {
       public static final int NUMBER_OF_DISTINCT_VALUES_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue numberOfDistinctValues_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-       *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        */
       public boolean hasNumberOfDistinctValues() {
         return numberOfDistinctValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-       *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        */
       public io.dstore.Values.integerValue getNumberOfDistinctValues() {
         return numberOfDistinctValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfDistinctValues_;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-       *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNumberOfDistinctValuesOrBuilder() {
         return getNumberOfDistinctValues();
@@ -1486,31 +1483,31 @@ public final class StGetVisitorInfoStatisticsAd {
       public static final int NUMBER_OF_VALUES_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue numberOfValues_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-       *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        */
       public boolean hasNumberOfValues() {
         return numberOfValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-       *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        */
       public io.dstore.Values.integerValue getNumberOfValues() {
         return numberOfValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfValues_;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-       *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNumberOfValuesOrBuilder() {
         return getNumberOfValues();
@@ -1519,31 +1516,31 @@ public final class StGetVisitorInfoStatisticsAd {
       public static final int STATISTIC_INFORMATION_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue statisticInformation_;
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-       *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        */
       public boolean hasStatisticInformation() {
         return statisticInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-       *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        */
       public io.dstore.Values.stringValue getStatisticInformation() {
         return statisticInformation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : statisticInformation_;
       }
       /**
-       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-       *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder() {
         return getStatisticInformation();
@@ -1624,34 +1621,40 @@ public final class StGetVisitorInfoStatisticsAd {
       }
       public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1809,7 +1812,7 @@ public final class StGetVisitorInfoStatisticsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1848,21 +1851,21 @@ public final class StGetVisitorInfoStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfDistinctValuesBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-         *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          */
         public boolean hasNumberOfDistinctValues() {
           return numberOfDistinctValuesBuilder_ != null || numberOfDistinctValues_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-         *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          */
         public io.dstore.Values.integerValue getNumberOfDistinctValues() {
           if (numberOfDistinctValuesBuilder_ == null) {
@@ -1872,11 +1875,11 @@ public final class StGetVisitorInfoStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-         *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          */
         public Builder setNumberOfDistinctValues(io.dstore.Values.integerValue value) {
           if (numberOfDistinctValuesBuilder_ == null) {
@@ -1892,11 +1895,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-         *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          */
         public Builder setNumberOfDistinctValues(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1910,11 +1913,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-         *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          */
         public Builder mergeNumberOfDistinctValues(io.dstore.Values.integerValue value) {
           if (numberOfDistinctValuesBuilder_ == null) {
@@ -1932,11 +1935,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-         *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          */
         public Builder clearNumberOfDistinctValues() {
           if (numberOfDistinctValuesBuilder_ == null) {
@@ -1950,11 +1953,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-         *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getNumberOfDistinctValuesBuilder() {
           
@@ -1962,11 +1965,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return getNumberOfDistinctValuesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-         *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNumberOfDistinctValuesOrBuilder() {
           if (numberOfDistinctValuesBuilder_ != null) {
@@ -1977,11 +1980,11 @@ public final class StGetVisitorInfoStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
-         *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2001,21 +2004,21 @@ public final class StGetVisitorInfoStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfValuesBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-         *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          */
         public boolean hasNumberOfValues() {
           return numberOfValuesBuilder_ != null || numberOfValues_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-         *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          */
         public io.dstore.Values.integerValue getNumberOfValues() {
           if (numberOfValuesBuilder_ == null) {
@@ -2025,11 +2028,11 @@ public final class StGetVisitorInfoStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-         *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          */
         public Builder setNumberOfValues(io.dstore.Values.integerValue value) {
           if (numberOfValuesBuilder_ == null) {
@@ -2045,11 +2048,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-         *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          */
         public Builder setNumberOfValues(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2063,11 +2066,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-         *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          */
         public Builder mergeNumberOfValues(io.dstore.Values.integerValue value) {
           if (numberOfValuesBuilder_ == null) {
@@ -2085,11 +2088,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-         *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          */
         public Builder clearNumberOfValues() {
           if (numberOfValuesBuilder_ == null) {
@@ -2103,11 +2106,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-         *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getNumberOfValuesBuilder() {
           
@@ -2115,11 +2118,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return getNumberOfValuesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-         *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNumberOfValuesOrBuilder() {
           if (numberOfValuesBuilder_ != null) {
@@ -2130,11 +2133,11 @@ public final class StGetVisitorInfoStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
-         *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2154,21 +2157,21 @@ public final class StGetVisitorInfoStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> statisticInformationBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-         *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          */
         public boolean hasStatisticInformation() {
           return statisticInformationBuilder_ != null || statisticInformation_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-         *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          */
         public io.dstore.Values.stringValue getStatisticInformation() {
           if (statisticInformationBuilder_ == null) {
@@ -2178,11 +2181,11 @@ public final class StGetVisitorInfoStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-         *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          */
         public Builder setStatisticInformation(io.dstore.Values.stringValue value) {
           if (statisticInformationBuilder_ == null) {
@@ -2198,11 +2201,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-         *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          */
         public Builder setStatisticInformation(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2216,11 +2219,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-         *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          */
         public Builder mergeStatisticInformation(io.dstore.Values.stringValue value) {
           if (statisticInformationBuilder_ == null) {
@@ -2238,11 +2241,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-         *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          */
         public Builder clearStatisticInformation() {
           if (statisticInformationBuilder_ == null) {
@@ -2256,11 +2259,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-         *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getStatisticInformationBuilder() {
           
@@ -2268,11 +2271,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return getStatisticInformationFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-         *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder() {
           if (statisticInformationBuilder_ != null) {
@@ -2283,11 +2286,11 @@ public final class StGetVisitorInfoStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
-         *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2332,16 +2335,7 @@ public final class StGetVisitorInfoStatisticsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2433,52 +2427,52 @@ public final class StGetVisitorInfoStatisticsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2553,34 +2547,40 @@ public final class StGetVisitorInfoStatisticsAd {
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2817,7 +2817,7 @@ public final class StGetVisitorInfoStatisticsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3320,11 +3320,11 @@ public final class StGetVisitorInfoStatisticsAd {
           io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row, io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row.Builder, io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3334,11 +3334,11 @@ public final class StGetVisitorInfoStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3348,11 +3348,11 @@ public final class StGetVisitorInfoStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3362,11 +3362,11 @@ public final class StGetVisitorInfoStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row value) {
@@ -3383,11 +3383,11 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row.Builder builderForValue) {
@@ -3401,11 +3401,11 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3421,11 +3421,11 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row value) {
@@ -3442,11 +3442,11 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row.Builder builderForValue) {
@@ -3460,11 +3460,11 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row.Builder builderForValue) {
@@ -3478,11 +3478,11 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row> values) {
@@ -3497,11 +3497,11 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3514,11 +3514,11 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3531,22 +3531,22 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3556,11 +3556,11 @@ public final class StGetVisitorInfoStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3571,22 +3571,22 @@ public final class StGetVisitorInfoStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3594,11 +3594,11 @@ public final class StGetVisitorInfoStatisticsAd {
             index, io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3648,16 +3648,7 @@ public final class StGetVisitorInfoStatisticsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3676,19 +3667,19 @@ public final class StGetVisitorInfoStatisticsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetVisitorInfoStatistics_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetVisitorInfoStatistics_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetVisitorInfoStatistics_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetVisitorInfoStatistics_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetVisitorInfoStatistics_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetVisitorInfoStatistics_Ad_Response_Row_fieldAccessorTable;
 
@@ -3696,7 +3687,7 @@ public final class StGetVisitorInfoStatisticsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

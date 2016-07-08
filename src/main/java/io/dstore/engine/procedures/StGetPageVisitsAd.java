@@ -204,7 +204,8 @@ public final class StGetPageVisitsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -386,11 +387,10 @@ public final class StGetPageVisitsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -850,34 +850,40 @@ public final class StGetPageVisitsAd {
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1167,7 +1173,7 @@ public final class StGetPageVisitsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetPageVisitsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2492,16 +2498,7 @@ public final class StGetPageVisitsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2573,45 +2570,45 @@ public final class StGetPageVisitsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -2640,7 +2637,8 @@ public final class StGetPageVisitsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2684,11 +2682,10 @@ public final class StGetPageVisitsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2724,152 +2721,152 @@ public final class StGetPageVisitsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue counter = 10001;</code>
-       *
        * <pre>
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue counter = 10001;</code>
        */
       boolean hasCounter();
       /**
-       * <code>optional .dstore.values.integerValue counter = 10001;</code>
-       *
        * <pre>
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue counter = 10001;</code>
        */
       io.dstore.Values.integerValue getCounter();
       /**
-       * <code>optional .dstore.values.integerValue counter = 10001;</code>
-       *
        * <pre>
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue counter = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCounterOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-       *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
        */
       boolean hasPageNo();
       /**
-       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-       *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
        */
       io.dstore.Values.integerValue getPageNo();
       /**
-       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-       *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPageNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue page = 10003;</code>
-       *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page = 10003;</code>
        */
       boolean hasPage();
       /**
-       * <code>optional .dstore.values.stringValue page = 10003;</code>
-       *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page = 10003;</code>
        */
       io.dstore.Values.stringValue getPage();
       /**
-       * <code>optional .dstore.values.stringValue page = 10003;</code>
-       *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getPageOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue day = 10004;</code>
-       *
        * <pre>
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue day = 10004;</code>
        */
       boolean hasDay();
       /**
-       * <code>optional .dstore.values.stringValue day = 10004;</code>
-       *
        * <pre>
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue day = 10004;</code>
        */
       io.dstore.Values.stringValue getDay();
       /**
-       * <code>optional .dstore.values.stringValue day = 10004;</code>
-       *
        * <pre>
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue day = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDayOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-       *
        * <pre>
        * ID einer Kategorie für Seiten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
        */
       boolean hasPageCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-       *
        * <pre>
        * ID einer Kategorie für Seiten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
        */
       io.dstore.Values.integerValue getPageCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-       *
        * <pre>
        * ID einer Kategorie für Seiten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPageCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-       *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
        */
       boolean hasPageCategoryDescription();
       /**
-       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-       *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
        */
       io.dstore.Values.stringValue getPageCategoryDescription();
       /**
-       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-       *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getPageCategoryDescriptionOrBuilder();
     }
@@ -2895,7 +2892,8 @@ public final class StGetPageVisitsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2998,11 +2996,10 @@ public final class StGetPageVisitsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -3031,31 +3028,31 @@ public final class StGetPageVisitsAd {
       public static final int COUNTER_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue counter_;
       /**
-       * <code>optional .dstore.values.integerValue counter = 10001;</code>
-       *
        * <pre>
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue counter = 10001;</code>
        */
       public boolean hasCounter() {
         return counter_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue counter = 10001;</code>
-       *
        * <pre>
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue counter = 10001;</code>
        */
       public io.dstore.Values.integerValue getCounter() {
         return counter_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : counter_;
       }
       /**
-       * <code>optional .dstore.values.integerValue counter = 10001;</code>
-       *
        * <pre>
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue counter = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCounterOrBuilder() {
         return getCounter();
@@ -3064,31 +3061,31 @@ public final class StGetPageVisitsAd {
       public static final int PAGE_NO_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue pageNo_;
       /**
-       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-       *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
        */
       public boolean hasPageNo() {
         return pageNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-       *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
        */
       public io.dstore.Values.integerValue getPageNo() {
         return pageNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-       *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_no = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPageNoOrBuilder() {
         return getPageNo();
@@ -3097,31 +3094,31 @@ public final class StGetPageVisitsAd {
       public static final int PAGE_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue page_;
       /**
-       * <code>optional .dstore.values.stringValue page = 10003;</code>
-       *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page = 10003;</code>
        */
       public boolean hasPage() {
         return page_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue page = 10003;</code>
-       *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page = 10003;</code>
        */
       public io.dstore.Values.stringValue getPage() {
         return page_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : page_;
       }
       /**
-       * <code>optional .dstore.values.stringValue page = 10003;</code>
-       *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getPageOrBuilder() {
         return getPage();
@@ -3130,31 +3127,31 @@ public final class StGetPageVisitsAd {
       public static final int DAY_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue day_;
       /**
-       * <code>optional .dstore.values.stringValue day = 10004;</code>
-       *
        * <pre>
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue day = 10004;</code>
        */
       public boolean hasDay() {
         return day_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue day = 10004;</code>
-       *
        * <pre>
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue day = 10004;</code>
        */
       public io.dstore.Values.stringValue getDay() {
         return day_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : day_;
       }
       /**
-       * <code>optional .dstore.values.stringValue day = 10004;</code>
-       *
        * <pre>
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue day = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDayOrBuilder() {
         return getDay();
@@ -3163,31 +3160,31 @@ public final class StGetPageVisitsAd {
       public static final int PAGE_CATEGORY_ID_FIELD_NUMBER = 20002;
       private io.dstore.Values.integerValue pageCategoryId_;
       /**
-       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-       *
        * <pre>
        * ID einer Kategorie für Seiten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
        */
       public boolean hasPageCategoryId() {
         return pageCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-       *
        * <pre>
        * ID einer Kategorie für Seiten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
        */
       public io.dstore.Values.integerValue getPageCategoryId() {
         return pageCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageCategoryId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-       *
        * <pre>
        * ID einer Kategorie für Seiten
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPageCategoryIdOrBuilder() {
         return getPageCategoryId();
@@ -3196,31 +3193,31 @@ public final class StGetPageVisitsAd {
       public static final int PAGE_CATEGORY_DESCRIPTION_FIELD_NUMBER = 20003;
       private io.dstore.Values.stringValue pageCategoryDescription_;
       /**
-       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-       *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
        */
       public boolean hasPageCategoryDescription() {
         return pageCategoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-       *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
        */
       public io.dstore.Values.stringValue getPageCategoryDescription() {
         return pageCategoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : pageCategoryDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-       *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getPageCategoryDescriptionOrBuilder() {
         return getPageCategoryDescription();
@@ -3322,34 +3319,40 @@ public final class StGetPageVisitsAd {
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -3549,7 +3552,7 @@ public final class StGetPageVisitsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -3588,21 +3591,21 @@ public final class StGetPageVisitsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> counterBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue counter = 10001;</code>
-         *
          * <pre>
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue counter = 10001;</code>
          */
         public boolean hasCounter() {
           return counterBuilder_ != null || counter_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue counter = 10001;</code>
-         *
          * <pre>
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue counter = 10001;</code>
          */
         public io.dstore.Values.integerValue getCounter() {
           if (counterBuilder_ == null) {
@@ -3612,11 +3615,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue counter = 10001;</code>
-         *
          * <pre>
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue counter = 10001;</code>
          */
         public Builder setCounter(io.dstore.Values.integerValue value) {
           if (counterBuilder_ == null) {
@@ -3632,11 +3635,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue counter = 10001;</code>
-         *
          * <pre>
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue counter = 10001;</code>
          */
         public Builder setCounter(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3650,11 +3653,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue counter = 10001;</code>
-         *
          * <pre>
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue counter = 10001;</code>
          */
         public Builder mergeCounter(io.dstore.Values.integerValue value) {
           if (counterBuilder_ == null) {
@@ -3672,11 +3675,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue counter = 10001;</code>
-         *
          * <pre>
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue counter = 10001;</code>
          */
         public Builder clearCounter() {
           if (counterBuilder_ == null) {
@@ -3690,11 +3693,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue counter = 10001;</code>
-         *
          * <pre>
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue counter = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getCounterBuilder() {
           
@@ -3702,11 +3705,11 @@ public final class StGetPageVisitsAd {
           return getCounterFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue counter = 10001;</code>
-         *
          * <pre>
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue counter = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCounterOrBuilder() {
           if (counterBuilder_ != null) {
@@ -3717,11 +3720,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue counter = 10001;</code>
-         *
          * <pre>
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue counter = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3741,21 +3744,21 @@ public final class StGetPageVisitsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-         *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
          */
         public boolean hasPageNo() {
           return pageNoBuilder_ != null || pageNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-         *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
          */
         public io.dstore.Values.integerValue getPageNo() {
           if (pageNoBuilder_ == null) {
@@ -3765,11 +3768,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-         *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
          */
         public Builder setPageNo(io.dstore.Values.integerValue value) {
           if (pageNoBuilder_ == null) {
@@ -3785,11 +3788,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-         *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
          */
         public Builder setPageNo(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3803,11 +3806,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-         *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
          */
         public Builder mergePageNo(io.dstore.Values.integerValue value) {
           if (pageNoBuilder_ == null) {
@@ -3825,11 +3828,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-         *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
          */
         public Builder clearPageNo() {
           if (pageNoBuilder_ == null) {
@@ -3843,11 +3846,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-         *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getPageNoBuilder() {
           
@@ -3855,11 +3858,11 @@ public final class StGetPageVisitsAd {
           return getPageNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-         *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPageNoOrBuilder() {
           if (pageNoBuilder_ != null) {
@@ -3870,11 +3873,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
-         *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_no = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3894,21 +3897,21 @@ public final class StGetPageVisitsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> pageBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue page = 10003;</code>
-         *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page = 10003;</code>
          */
         public boolean hasPage() {
           return pageBuilder_ != null || page_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue page = 10003;</code>
-         *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page = 10003;</code>
          */
         public io.dstore.Values.stringValue getPage() {
           if (pageBuilder_ == null) {
@@ -3918,11 +3921,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue page = 10003;</code>
-         *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page = 10003;</code>
          */
         public Builder setPage(io.dstore.Values.stringValue value) {
           if (pageBuilder_ == null) {
@@ -3938,11 +3941,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue page = 10003;</code>
-         *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page = 10003;</code>
          */
         public Builder setPage(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3956,11 +3959,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue page = 10003;</code>
-         *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page = 10003;</code>
          */
         public Builder mergePage(io.dstore.Values.stringValue value) {
           if (pageBuilder_ == null) {
@@ -3978,11 +3981,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue page = 10003;</code>
-         *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page = 10003;</code>
          */
         public Builder clearPage() {
           if (pageBuilder_ == null) {
@@ -3996,11 +3999,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue page = 10003;</code>
-         *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getPageBuilder() {
           
@@ -4008,11 +4011,11 @@ public final class StGetPageVisitsAd {
           return getPageFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue page = 10003;</code>
-         *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getPageOrBuilder() {
           if (pageBuilder_ != null) {
@@ -4023,11 +4026,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue page = 10003;</code>
-         *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4047,21 +4050,21 @@ public final class StGetPageVisitsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dayBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue day = 10004;</code>
-         *
          * <pre>
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue day = 10004;</code>
          */
         public boolean hasDay() {
           return dayBuilder_ != null || day_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue day = 10004;</code>
-         *
          * <pre>
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue day = 10004;</code>
          */
         public io.dstore.Values.stringValue getDay() {
           if (dayBuilder_ == null) {
@@ -4071,11 +4074,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue day = 10004;</code>
-         *
          * <pre>
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue day = 10004;</code>
          */
         public Builder setDay(io.dstore.Values.stringValue value) {
           if (dayBuilder_ == null) {
@@ -4091,11 +4094,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue day = 10004;</code>
-         *
          * <pre>
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue day = 10004;</code>
          */
         public Builder setDay(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4109,11 +4112,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue day = 10004;</code>
-         *
          * <pre>
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue day = 10004;</code>
          */
         public Builder mergeDay(io.dstore.Values.stringValue value) {
           if (dayBuilder_ == null) {
@@ -4131,11 +4134,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue day = 10004;</code>
-         *
          * <pre>
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue day = 10004;</code>
          */
         public Builder clearDay() {
           if (dayBuilder_ == null) {
@@ -4149,11 +4152,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue day = 10004;</code>
-         *
          * <pre>
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue day = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getDayBuilder() {
           
@@ -4161,11 +4164,11 @@ public final class StGetPageVisitsAd {
           return getDayFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue day = 10004;</code>
-         *
          * <pre>
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue day = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDayOrBuilder() {
           if (dayBuilder_ != null) {
@@ -4176,11 +4179,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue day = 10004;</code>
-         *
          * <pre>
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue day = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4200,21 +4203,21 @@ public final class StGetPageVisitsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-         *
          * <pre>
          * ID einer Kategorie für Seiten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
          */
         public boolean hasPageCategoryId() {
           return pageCategoryIdBuilder_ != null || pageCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-         *
          * <pre>
          * ID einer Kategorie für Seiten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
          */
         public io.dstore.Values.integerValue getPageCategoryId() {
           if (pageCategoryIdBuilder_ == null) {
@@ -4224,11 +4227,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-         *
          * <pre>
          * ID einer Kategorie für Seiten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
          */
         public Builder setPageCategoryId(io.dstore.Values.integerValue value) {
           if (pageCategoryIdBuilder_ == null) {
@@ -4244,11 +4247,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-         *
          * <pre>
          * ID einer Kategorie für Seiten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
          */
         public Builder setPageCategoryId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4262,11 +4265,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-         *
          * <pre>
          * ID einer Kategorie für Seiten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
          */
         public Builder mergePageCategoryId(io.dstore.Values.integerValue value) {
           if (pageCategoryIdBuilder_ == null) {
@@ -4284,11 +4287,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-         *
          * <pre>
          * ID einer Kategorie für Seiten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
          */
         public Builder clearPageCategoryId() {
           if (pageCategoryIdBuilder_ == null) {
@@ -4302,11 +4305,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-         *
          * <pre>
          * ID einer Kategorie für Seiten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
          */
         public io.dstore.Values.integerValue.Builder getPageCategoryIdBuilder() {
           
@@ -4314,11 +4317,11 @@ public final class StGetPageVisitsAd {
           return getPageCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-         *
          * <pre>
          * ID einer Kategorie für Seiten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPageCategoryIdOrBuilder() {
           if (pageCategoryIdBuilder_ != null) {
@@ -4329,11 +4332,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
-         *
          * <pre>
          * ID einer Kategorie für Seiten
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4353,21 +4356,21 @@ public final class StGetPageVisitsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> pageCategoryDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-         *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
          */
         public boolean hasPageCategoryDescription() {
           return pageCategoryDescriptionBuilder_ != null || pageCategoryDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-         *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
          */
         public io.dstore.Values.stringValue getPageCategoryDescription() {
           if (pageCategoryDescriptionBuilder_ == null) {
@@ -4377,11 +4380,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-         *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
          */
         public Builder setPageCategoryDescription(io.dstore.Values.stringValue value) {
           if (pageCategoryDescriptionBuilder_ == null) {
@@ -4397,11 +4400,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-         *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
          */
         public Builder setPageCategoryDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4415,11 +4418,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-         *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
          */
         public Builder mergePageCategoryDescription(io.dstore.Values.stringValue value) {
           if (pageCategoryDescriptionBuilder_ == null) {
@@ -4437,11 +4440,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-         *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
          */
         public Builder clearPageCategoryDescription() {
           if (pageCategoryDescriptionBuilder_ == null) {
@@ -4455,11 +4458,11 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-         *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
          */
         public io.dstore.Values.stringValue.Builder getPageCategoryDescriptionBuilder() {
           
@@ -4467,11 +4470,11 @@ public final class StGetPageVisitsAd {
           return getPageCategoryDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-         *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getPageCategoryDescriptionOrBuilder() {
           if (pageCategoryDescriptionBuilder_ != null) {
@@ -4482,11 +4485,11 @@ public final class StGetPageVisitsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
-         *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4531,16 +4534,7 @@ public final class StGetPageVisitsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4632,52 +4626,52 @@ public final class StGetPageVisitsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4752,34 +4746,40 @@ public final class StGetPageVisitsAd {
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -5016,7 +5016,7 @@ public final class StGetPageVisitsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetPageVisitsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5519,11 +5519,11 @@ public final class StGetPageVisitsAd {
           io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row, io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder, io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -5533,11 +5533,11 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -5547,11 +5547,11 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -5561,11 +5561,11 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row value) {
@@ -5582,11 +5582,11 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder builderForValue) {
@@ -5600,11 +5600,11 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -5620,11 +5620,11 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row value) {
@@ -5641,11 +5641,11 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder builderForValue) {
@@ -5659,11 +5659,11 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder builderForValue) {
@@ -5677,11 +5677,11 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row> values) {
@@ -5696,11 +5696,11 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -5713,11 +5713,11 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5730,22 +5730,22 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5755,11 +5755,11 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5770,22 +5770,22 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5793,11 +5793,11 @@ public final class StGetPageVisitsAd {
             index, io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetPageVisits_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5847,16 +5847,7 @@ public final class StGetPageVisitsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5875,19 +5866,19 @@ public final class StGetPageVisitsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetPageVisits_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetPageVisits_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_fieldAccessorTable;
 
@@ -5895,7 +5886,7 @@ public final class StGetPageVisitsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

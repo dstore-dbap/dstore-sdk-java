@@ -52,7 +52,8 @@ public final class MiGetTemplatesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -90,11 +91,10 @@ public final class MiGetTemplatesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -202,34 +202,40 @@ public final class MiGetTemplatesAd {
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -359,7 +365,7 @@ public final class MiGetTemplatesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetTemplatesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -540,16 +546,7 @@ public final class MiGetTemplatesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -621,45 +618,45 @@ public final class MiGetTemplatesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetTemplatesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetTemplatesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -688,7 +685,8 @@ public final class MiGetTemplatesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -732,11 +730,10 @@ public final class MiGetTemplatesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -772,177 +769,177 @@ public final class MiGetTemplatesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Templates "TemplateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Templates "TemplateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Templates "TemplateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
        */
       boolean hasFrameName();
       /**
-       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
        */
       io.dstore.Values.stringValue getFrameName();
       /**
-       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getFrameNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-       *
        * <pre>
        * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
        */
       boolean hasFileName();
       /**
-       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-       *
        * <pre>
        * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
        */
       io.dstore.Values.stringValue getFileName();
       /**
-       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-       *
        * <pre>
        * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getFileNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-       *
        * <pre>
        * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
        */
       boolean hasCanBeSourceTemplate();
       /**
-       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-       *
        * <pre>
        * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
        */
       io.dstore.Values.booleanValue getCanBeSourceTemplate();
       /**
-       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-       *
        * <pre>
        * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getCanBeSourceTemplateOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
        */
       boolean hasIsRealTimeTemplate();
       /**
-       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
        */
       io.dstore.Values.booleanValue getIsRealTimeTemplate();
       /**
-       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getIsRealTimeTemplateOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-       *
        * <pre>
        * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
        */
       boolean hasTemplateId();
       /**
-       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-       *
        * <pre>
        * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
        */
       io.dstore.Values.integerValue getTemplateId();
       /**
-       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-       *
        * <pre>
        * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTemplateIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-       *
        * <pre>
        * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        */
       boolean hasLanguageId();
       /**
-       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-       *
        * <pre>
        * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        */
       io.dstore.Values.integerValue getLanguageId();
       /**
-       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-       *
        * <pre>
        * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        */
       io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
     }
@@ -968,7 +965,8 @@ public final class MiGetTemplatesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1084,11 +1082,10 @@ public final class MiGetTemplatesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1117,31 +1114,31 @@ public final class MiGetTemplatesAd {
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Templates "TemplateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Templates "TemplateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public io.dstore.Values.stringValue getDescription() {
         return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Templates "TemplateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -1150,31 +1147,31 @@ public final class MiGetTemplatesAd {
       public static final int FRAME_NAME_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue frameName_;
       /**
-       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
        */
       public boolean hasFrameName() {
         return frameName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
        */
       public io.dstore.Values.stringValue getFrameName() {
         return frameName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : frameName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFrameNameOrBuilder() {
         return getFrameName();
@@ -1183,31 +1180,31 @@ public final class MiGetTemplatesAd {
       public static final int FILE_NAME_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue fileName_;
       /**
-       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-       *
        * <pre>
        * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
        */
       public boolean hasFileName() {
         return fileName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-       *
        * <pre>
        * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
        */
       public io.dstore.Values.stringValue getFileName() {
         return fileName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fileName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-       *
        * <pre>
        * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue file_name = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFileNameOrBuilder() {
         return getFileName();
@@ -1216,31 +1213,31 @@ public final class MiGetTemplatesAd {
       public static final int CAN_BE_SOURCE_TEMPLATE_FIELD_NUMBER = 10004;
       private io.dstore.Values.booleanValue canBeSourceTemplate_;
       /**
-       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-       *
        * <pre>
        * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
        */
       public boolean hasCanBeSourceTemplate() {
         return canBeSourceTemplate_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-       *
        * <pre>
        * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
        */
       public io.dstore.Values.booleanValue getCanBeSourceTemplate() {
         return canBeSourceTemplate_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : canBeSourceTemplate_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-       *
        * <pre>
        * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getCanBeSourceTemplateOrBuilder() {
         return getCanBeSourceTemplate();
@@ -1249,31 +1246,31 @@ public final class MiGetTemplatesAd {
       public static final int IS_REAL_TIME_TEMPLATE_FIELD_NUMBER = 10005;
       private io.dstore.Values.booleanValue isRealTimeTemplate_;
       /**
-       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
        */
       public boolean hasIsRealTimeTemplate() {
         return isRealTimeTemplate_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
        */
       public io.dstore.Values.booleanValue getIsRealTimeTemplate() {
         return isRealTimeTemplate_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isRealTimeTemplate_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-       *
        * <pre>
        * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getIsRealTimeTemplateOrBuilder() {
         return getIsRealTimeTemplate();
@@ -1282,31 +1279,31 @@ public final class MiGetTemplatesAd {
       public static final int TEMPLATE_ID_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue templateId_;
       /**
-       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-       *
        * <pre>
        * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
        */
       public boolean hasTemplateId() {
         return templateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-       *
        * <pre>
        * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
        */
       public io.dstore.Values.integerValue getTemplateId() {
         return templateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : templateId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-       *
        * <pre>
        * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue template_id = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTemplateIdOrBuilder() {
         return getTemplateId();
@@ -1315,31 +1312,31 @@ public final class MiGetTemplatesAd {
       public static final int LANGUAGE_ID_FIELD_NUMBER = 10007;
       private io.dstore.Values.integerValue languageId_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-       *
        * <pre>
        * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        */
       public boolean hasLanguageId() {
         return languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-       *
        * <pre>
        * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        */
       public io.dstore.Values.integerValue getLanguageId() {
         return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-       *
        * <pre>
        * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
@@ -1448,34 +1445,40 @@ public final class MiGetTemplatesAd {
       }
       public static io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1689,7 +1692,7 @@ public final class MiGetTemplatesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1728,21 +1731,21 @@ public final class MiGetTemplatesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Templates "TemplateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Templates "TemplateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -1752,11 +1755,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Templates "TemplateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -1772,11 +1775,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Templates "TemplateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder setDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1790,11 +1793,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Templates "TemplateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
@@ -1812,11 +1815,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Templates "TemplateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -1830,11 +1833,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Templates "TemplateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
@@ -1842,11 +1845,11 @@ public final class MiGetTemplatesAd {
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Templates "TemplateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -1857,11 +1860,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Templates "TemplateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1881,21 +1884,21 @@ public final class MiGetTemplatesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> frameNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
          */
         public boolean hasFrameName() {
           return frameNameBuilder_ != null || frameName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
          */
         public io.dstore.Values.stringValue getFrameName() {
           if (frameNameBuilder_ == null) {
@@ -1905,11 +1908,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
          */
         public Builder setFrameName(io.dstore.Values.stringValue value) {
           if (frameNameBuilder_ == null) {
@@ -1925,11 +1928,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
          */
         public Builder setFrameName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1943,11 +1946,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
          */
         public Builder mergeFrameName(io.dstore.Values.stringValue value) {
           if (frameNameBuilder_ == null) {
@@ -1965,11 +1968,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
          */
         public Builder clearFrameName() {
           if (frameNameBuilder_ == null) {
@@ -1983,11 +1986,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getFrameNameBuilder() {
           
@@ -1995,11 +1998,11 @@ public final class MiGetTemplatesAd {
           return getFrameNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getFrameNameOrBuilder() {
           if (frameNameBuilder_ != null) {
@@ -2010,11 +2013,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2034,21 +2037,21 @@ public final class MiGetTemplatesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fileNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-         *
          * <pre>
          * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
          */
         public boolean hasFileName() {
           return fileNameBuilder_ != null || fileName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-         *
          * <pre>
          * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
          */
         public io.dstore.Values.stringValue getFileName() {
           if (fileNameBuilder_ == null) {
@@ -2058,11 +2061,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-         *
          * <pre>
          * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
          */
         public Builder setFileName(io.dstore.Values.stringValue value) {
           if (fileNameBuilder_ == null) {
@@ -2078,11 +2081,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-         *
          * <pre>
          * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
          */
         public Builder setFileName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2096,11 +2099,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-         *
          * <pre>
          * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
          */
         public Builder mergeFileName(io.dstore.Values.stringValue value) {
           if (fileNameBuilder_ == null) {
@@ -2118,11 +2121,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-         *
          * <pre>
          * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
          */
         public Builder clearFileName() {
           if (fileNameBuilder_ == null) {
@@ -2136,11 +2139,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-         *
          * <pre>
          * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getFileNameBuilder() {
           
@@ -2148,11 +2151,11 @@ public final class MiGetTemplatesAd {
           return getFileNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-         *
          * <pre>
          * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getFileNameOrBuilder() {
           if (fileNameBuilder_ != null) {
@@ -2163,11 +2166,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
-         *
          * <pre>
          * Dateiname des Templates (in dem quasi der Source-Code des Templates gespeichert ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue file_name = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2187,21 +2190,21 @@ public final class MiGetTemplatesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> canBeSourceTemplateBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-         *
          * <pre>
          * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
          */
         public boolean hasCanBeSourceTemplate() {
           return canBeSourceTemplateBuilder_ != null || canBeSourceTemplate_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-         *
          * <pre>
          * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
          */
         public io.dstore.Values.booleanValue getCanBeSourceTemplate() {
           if (canBeSourceTemplateBuilder_ == null) {
@@ -2211,11 +2214,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-         *
          * <pre>
          * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
          */
         public Builder setCanBeSourceTemplate(io.dstore.Values.booleanValue value) {
           if (canBeSourceTemplateBuilder_ == null) {
@@ -2231,11 +2234,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-         *
          * <pre>
          * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
          */
         public Builder setCanBeSourceTemplate(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2249,11 +2252,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-         *
          * <pre>
          * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
          */
         public Builder mergeCanBeSourceTemplate(io.dstore.Values.booleanValue value) {
           if (canBeSourceTemplateBuilder_ == null) {
@@ -2271,11 +2274,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-         *
          * <pre>
          * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
          */
         public Builder clearCanBeSourceTemplate() {
           if (canBeSourceTemplateBuilder_ == null) {
@@ -2289,11 +2292,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-         *
          * <pre>
          * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
          */
         public io.dstore.Values.booleanValue.Builder getCanBeSourceTemplateBuilder() {
           
@@ -2301,11 +2304,11 @@ public final class MiGetTemplatesAd {
           return getCanBeSourceTemplateFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-         *
          * <pre>
          * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getCanBeSourceTemplateOrBuilder() {
           if (canBeSourceTemplateBuilder_ != null) {
@@ -2316,11 +2319,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
-         *
          * <pre>
          * Handelt es sich um ein "SourceTemplate" ? Damit ist eine Art "Kontext" gemeint, unter der ein "Element" dargestellt werden soll. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue can_be_source_template = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2340,21 +2343,21 @@ public final class MiGetTemplatesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isRealTimeTemplateBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
          */
         public boolean hasIsRealTimeTemplate() {
           return isRealTimeTemplateBuilder_ != null || isRealTimeTemplate_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
          */
         public io.dstore.Values.booleanValue getIsRealTimeTemplate() {
           if (isRealTimeTemplateBuilder_ == null) {
@@ -2364,11 +2367,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
          */
         public Builder setIsRealTimeTemplate(io.dstore.Values.booleanValue value) {
           if (isRealTimeTemplateBuilder_ == null) {
@@ -2384,11 +2387,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
          */
         public Builder setIsRealTimeTemplate(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2402,11 +2405,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
          */
         public Builder mergeIsRealTimeTemplate(io.dstore.Values.booleanValue value) {
           if (isRealTimeTemplateBuilder_ == null) {
@@ -2424,11 +2427,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
          */
         public Builder clearIsRealTimeTemplate() {
           if (isRealTimeTemplateBuilder_ == null) {
@@ -2442,11 +2445,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
          */
         public io.dstore.Values.booleanValue.Builder getIsRealTimeTemplateBuilder() {
           
@@ -2454,11 +2457,11 @@ public final class MiGetTemplatesAd {
           return getIsRealTimeTemplateFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getIsRealTimeTemplateOrBuilder() {
           if (isRealTimeTemplateBuilder_ != null) {
@@ -2469,11 +2472,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
-         *
          * <pre>
          * Gibt an, ob die Daten, die in dem Template angezeigt werden, in der Client-Anwendung ge"cache"d werden dürfen oder ob die Daten immer "RealTime" dargestellt werden müssen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_real_time_template = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2493,21 +2496,21 @@ public final class MiGetTemplatesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> templateIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-         *
          * <pre>
          * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
          */
         public boolean hasTemplateId() {
           return templateIdBuilder_ != null || templateId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-         *
          * <pre>
          * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
          */
         public io.dstore.Values.integerValue getTemplateId() {
           if (templateIdBuilder_ == null) {
@@ -2517,11 +2520,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-         *
          * <pre>
          * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
          */
         public Builder setTemplateId(io.dstore.Values.integerValue value) {
           if (templateIdBuilder_ == null) {
@@ -2537,11 +2540,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-         *
          * <pre>
          * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
          */
         public Builder setTemplateId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2555,11 +2558,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-         *
          * <pre>
          * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
          */
         public Builder mergeTemplateId(io.dstore.Values.integerValue value) {
           if (templateIdBuilder_ == null) {
@@ -2577,11 +2580,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-         *
          * <pre>
          * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
          */
         public Builder clearTemplateId() {
           if (templateIdBuilder_ == null) {
@@ -2595,11 +2598,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-         *
          * <pre>
          * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getTemplateIdBuilder() {
           
@@ -2607,11 +2610,11 @@ public final class MiGetTemplatesAd {
           return getTemplateIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-         *
          * <pre>
          * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTemplateIdOrBuilder() {
           if (templateIdBuilder_ != null) {
@@ -2622,11 +2625,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
-         *
          * <pre>
          * ID eines Templates (Näheres zu "Templates" : siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue template_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2646,21 +2649,21 @@ public final class MiGetTemplatesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-         *
          * <pre>
          * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          */
         public boolean hasLanguageId() {
           return languageIdBuilder_ != null || languageId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-         *
          * <pre>
          * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          */
         public io.dstore.Values.integerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -2670,11 +2673,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-         *
          * <pre>
          * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          */
         public Builder setLanguageId(io.dstore.Values.integerValue value) {
           if (languageIdBuilder_ == null) {
@@ -2690,11 +2693,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-         *
          * <pre>
          * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          */
         public Builder setLanguageId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2708,11 +2711,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-         *
          * <pre>
          * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          */
         public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
           if (languageIdBuilder_ == null) {
@@ -2730,11 +2733,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-         *
          * <pre>
          * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          */
         public Builder clearLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -2748,11 +2751,11 @@ public final class MiGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-         *
          * <pre>
          * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          */
         public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
           
@@ -2760,11 +2763,11 @@ public final class MiGetTemplatesAd {
           return getLanguageIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-         *
          * <pre>
          * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
@@ -2775,11 +2778,11 @@ public final class MiGetTemplatesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
-         *
          * <pre>
          * ID einer Sprache. Da ein Template u.U. Text-Informationen enthält, entsteht eine Sprachabhängigkeit. Falls keine sprachabhängigen Informationen im Template vorhanden sind, kann die Sprache des Templates auch "Sprachunabhängig" (ID "0") sein.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2824,16 +2827,7 @@ public final class MiGetTemplatesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2925,52 +2919,52 @@ public final class MiGetTemplatesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetTemplatesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetTemplatesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3045,34 +3039,40 @@ public final class MiGetTemplatesAd {
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTemplatesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3309,7 +3309,7 @@ public final class MiGetTemplatesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetTemplatesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3812,11 +3812,11 @@ public final class MiGetTemplatesAd {
           io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row, io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTemplatesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3826,11 +3826,11 @@ public final class MiGetTemplatesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3840,11 +3840,11 @@ public final class MiGetTemplatesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3854,11 +3854,11 @@ public final class MiGetTemplatesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row value) {
@@ -3875,11 +3875,11 @@ public final class MiGetTemplatesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row.Builder builderForValue) {
@@ -3893,11 +3893,11 @@ public final class MiGetTemplatesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3913,11 +3913,11 @@ public final class MiGetTemplatesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row value) {
@@ -3934,11 +3934,11 @@ public final class MiGetTemplatesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row.Builder builderForValue) {
@@ -3952,11 +3952,11 @@ public final class MiGetTemplatesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row.Builder builderForValue) {
@@ -3970,11 +3970,11 @@ public final class MiGetTemplatesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row> values) {
@@ -3989,11 +3989,11 @@ public final class MiGetTemplatesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4006,11 +4006,11 @@ public final class MiGetTemplatesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4023,22 +4023,22 @@ public final class MiGetTemplatesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTemplatesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4048,11 +4048,11 @@ public final class MiGetTemplatesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetTemplatesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4063,22 +4063,22 @@ public final class MiGetTemplatesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4086,11 +4086,11 @@ public final class MiGetTemplatesAd {
             index, io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTemplates_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetTemplatesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4140,16 +4140,7 @@ public final class MiGetTemplatesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4168,19 +4159,19 @@ public final class MiGetTemplatesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTemplates_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTemplates_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTemplates_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTemplates_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTemplates_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTemplates_Ad_Response_Row_fieldAccessorTable;
 
@@ -4188,7 +4179,7 @@ public final class MiGetTemplatesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

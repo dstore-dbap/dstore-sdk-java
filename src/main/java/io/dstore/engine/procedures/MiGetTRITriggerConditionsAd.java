@@ -71,7 +71,8 @@ public final class MiGetTRITriggerConditionsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -127,11 +128,10 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -283,34 +283,40 @@ public final class MiGetTRITriggerConditionsAd {
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -460,7 +466,7 @@ public final class MiGetTRITriggerConditionsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -784,16 +790,7 @@ public final class MiGetTRITriggerConditionsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -865,45 +862,45 @@ public final class MiGetTRITriggerConditionsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -932,7 +929,8 @@ public final class MiGetTRITriggerConditionsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -976,11 +974,10 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1016,152 +1013,152 @@ public final class MiGetTRITriggerConditionsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
-       *
        * <pre>
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator = 10001;</code>
        */
       boolean hasOperator();
       /**
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
-       *
        * <pre>
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator = 10001;</code>
        */
       io.dstore.Values.stringValue getOperator();
       /**
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
-       *
        * <pre>
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getOperatorOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
-       *
        * <pre>
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition = 10002;</code>
        */
       boolean hasCondition();
       /**
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
-       *
        * <pre>
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition = 10002;</code>
        */
       io.dstore.Values.stringValue getCondition();
       /**
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
-       *
        * <pre>
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getConditionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-       *
        * <pre>
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
        */
       boolean hasNegateCondition();
       /**
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-       *
        * <pre>
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
        */
       io.dstore.Values.booleanValue getNegateCondition();
       /**
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-       *
        * <pre>
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getNegateConditionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-       *
        * <pre>
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
        */
       boolean hasCheckEachAffectedId();
       /**
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-       *
        * <pre>
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
        */
       io.dstore.Values.booleanValue getCheckEachAffectedId();
       /**
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-       *
        * <pre>
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getCheckEachAffectedIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-       *
        * <pre>
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
        */
       boolean hasConditionNumber();
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-       *
        * <pre>
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
        */
       io.dstore.Values.integerValue getConditionNumber();
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-       *
        * <pre>
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getConditionNumberOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-       *
        * <pre>
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
        */
       boolean hasStrToCompare();
       /**
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-       *
        * <pre>
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
        */
       io.dstore.Values.stringValue getStrToCompare();
       /**
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-       *
        * <pre>
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
        */
       io.dstore.Values.stringValueOrBuilder getStrToCompareOrBuilder();
     }
@@ -1187,7 +1184,8 @@ public final class MiGetTRITriggerConditionsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1290,11 +1288,10 @@ public final class MiGetTRITriggerConditionsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1323,31 +1320,31 @@ public final class MiGetTRITriggerConditionsAd {
       public static final int OPERATOR_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue operator_;
       /**
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
-       *
        * <pre>
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator = 10001;</code>
        */
       public boolean hasOperator() {
         return operator_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
-       *
        * <pre>
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator = 10001;</code>
        */
       public io.dstore.Values.stringValue getOperator() {
         return operator_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator_;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
-       *
        * <pre>
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getOperatorOrBuilder() {
         return getOperator();
@@ -1356,31 +1353,31 @@ public final class MiGetTRITriggerConditionsAd {
       public static final int CONDITION_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue condition_;
       /**
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
-       *
        * <pre>
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition = 10002;</code>
        */
       public boolean hasCondition() {
         return condition_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
-       *
        * <pre>
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition = 10002;</code>
        */
       public io.dstore.Values.stringValue getCondition() {
         return condition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition_;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
-       *
        * <pre>
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getConditionOrBuilder() {
         return getCondition();
@@ -1389,31 +1386,31 @@ public final class MiGetTRITriggerConditionsAd {
       public static final int NEGATE_CONDITION_FIELD_NUMBER = 10003;
       private io.dstore.Values.booleanValue negateCondition_;
       /**
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-       *
        * <pre>
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
        */
       public boolean hasNegateCondition() {
         return negateCondition_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-       *
        * <pre>
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
        */
       public io.dstore.Values.booleanValue getNegateCondition() {
         return negateCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateCondition_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-       *
        * <pre>
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getNegateConditionOrBuilder() {
         return getNegateCondition();
@@ -1422,31 +1419,31 @@ public final class MiGetTRITriggerConditionsAd {
       public static final int CHECK_EACH_AFFECTED_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.booleanValue checkEachAffectedId_;
       /**
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-       *
        * <pre>
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
        */
       public boolean hasCheckEachAffectedId() {
         return checkEachAffectedId_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-       *
        * <pre>
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
        */
       public io.dstore.Values.booleanValue getCheckEachAffectedId() {
         return checkEachAffectedId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkEachAffectedId_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-       *
        * <pre>
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getCheckEachAffectedIdOrBuilder() {
         return getCheckEachAffectedId();
@@ -1455,31 +1452,31 @@ public final class MiGetTRITriggerConditionsAd {
       public static final int CONDITION_NUMBER_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue conditionNumber_;
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-       *
        * <pre>
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
        */
       public boolean hasConditionNumber() {
         return conditionNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-       *
        * <pre>
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
        */
       public io.dstore.Values.integerValue getConditionNumber() {
         return conditionNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionNumber_;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-       *
        * <pre>
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getConditionNumberOrBuilder() {
         return getConditionNumber();
@@ -1488,31 +1485,31 @@ public final class MiGetTRITriggerConditionsAd {
       public static final int STR_TO_COMPARE_FIELD_NUMBER = 10006;
       private io.dstore.Values.stringValue strToCompare_;
       /**
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-       *
        * <pre>
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
        */
       public boolean hasStrToCompare() {
         return strToCompare_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-       *
        * <pre>
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
        */
       public io.dstore.Values.stringValue getStrToCompare() {
         return strToCompare_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : strToCompare_;
       }
       /**
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-       *
        * <pre>
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getStrToCompareOrBuilder() {
         return getStrToCompare();
@@ -1614,34 +1611,40 @@ public final class MiGetTRITriggerConditionsAd {
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1841,7 +1844,7 @@ public final class MiGetTRITriggerConditionsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1880,21 +1883,21 @@ public final class MiGetTRITriggerConditionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operatorBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
-         *
          * <pre>
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator = 10001;</code>
          */
         public boolean hasOperator() {
           return operatorBuilder_ != null || operator_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
-         *
          * <pre>
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator = 10001;</code>
          */
         public io.dstore.Values.stringValue getOperator() {
           if (operatorBuilder_ == null) {
@@ -1904,11 +1907,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
-         *
          * <pre>
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator = 10001;</code>
          */
         public Builder setOperator(io.dstore.Values.stringValue value) {
           if (operatorBuilder_ == null) {
@@ -1924,11 +1927,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
-         *
          * <pre>
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator = 10001;</code>
          */
         public Builder setOperator(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1942,11 +1945,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
-         *
          * <pre>
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator = 10001;</code>
          */
         public Builder mergeOperator(io.dstore.Values.stringValue value) {
           if (operatorBuilder_ == null) {
@@ -1964,11 +1967,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
-         *
          * <pre>
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator = 10001;</code>
          */
         public Builder clearOperator() {
           if (operatorBuilder_ == null) {
@@ -1982,11 +1985,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
-         *
          * <pre>
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getOperatorBuilder() {
           
@@ -1994,11 +1997,11 @@ public final class MiGetTRITriggerConditionsAd {
           return getOperatorFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
-         *
          * <pre>
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getOperatorOrBuilder() {
           if (operatorBuilder_ != null) {
@@ -2009,11 +2012,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
-         *
          * <pre>
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2033,21 +2036,21 @@ public final class MiGetTRITriggerConditionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
-         *
          * <pre>
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition = 10002;</code>
          */
         public boolean hasCondition() {
           return conditionBuilder_ != null || condition_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
-         *
          * <pre>
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition = 10002;</code>
          */
         public io.dstore.Values.stringValue getCondition() {
           if (conditionBuilder_ == null) {
@@ -2057,11 +2060,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
-         *
          * <pre>
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition = 10002;</code>
          */
         public Builder setCondition(io.dstore.Values.stringValue value) {
           if (conditionBuilder_ == null) {
@@ -2077,11 +2080,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
-         *
          * <pre>
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition = 10002;</code>
          */
         public Builder setCondition(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2095,11 +2098,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
-         *
          * <pre>
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition = 10002;</code>
          */
         public Builder mergeCondition(io.dstore.Values.stringValue value) {
           if (conditionBuilder_ == null) {
@@ -2117,11 +2120,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
-         *
          * <pre>
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition = 10002;</code>
          */
         public Builder clearCondition() {
           if (conditionBuilder_ == null) {
@@ -2135,11 +2138,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
-         *
          * <pre>
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getConditionBuilder() {
           
@@ -2147,11 +2150,11 @@ public final class MiGetTRITriggerConditionsAd {
           return getConditionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
-         *
          * <pre>
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getConditionOrBuilder() {
           if (conditionBuilder_ != null) {
@@ -2162,11 +2165,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
-         *
          * <pre>
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2186,21 +2189,21 @@ public final class MiGetTRITriggerConditionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateConditionBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-         *
          * <pre>
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
          */
         public boolean hasNegateCondition() {
           return negateConditionBuilder_ != null || negateCondition_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-         *
          * <pre>
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
          */
         public io.dstore.Values.booleanValue getNegateCondition() {
           if (negateConditionBuilder_ == null) {
@@ -2210,11 +2213,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-         *
          * <pre>
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
          */
         public Builder setNegateCondition(io.dstore.Values.booleanValue value) {
           if (negateConditionBuilder_ == null) {
@@ -2230,11 +2233,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-         *
          * <pre>
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
          */
         public Builder setNegateCondition(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2248,11 +2251,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-         *
          * <pre>
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
          */
         public Builder mergeNegateCondition(io.dstore.Values.booleanValue value) {
           if (negateConditionBuilder_ == null) {
@@ -2270,11 +2273,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-         *
          * <pre>
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
          */
         public Builder clearNegateCondition() {
           if (negateConditionBuilder_ == null) {
@@ -2288,11 +2291,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-         *
          * <pre>
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
          */
         public io.dstore.Values.booleanValue.Builder getNegateConditionBuilder() {
           
@@ -2300,11 +2303,11 @@ public final class MiGetTRITriggerConditionsAd {
           return getNegateConditionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-         *
          * <pre>
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getNegateConditionOrBuilder() {
           if (negateConditionBuilder_ != null) {
@@ -2315,11 +2318,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
-         *
          * <pre>
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2339,21 +2342,21 @@ public final class MiGetTRITriggerConditionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> checkEachAffectedIdBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-         *
          * <pre>
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
          */
         public boolean hasCheckEachAffectedId() {
           return checkEachAffectedIdBuilder_ != null || checkEachAffectedId_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-         *
          * <pre>
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
          */
         public io.dstore.Values.booleanValue getCheckEachAffectedId() {
           if (checkEachAffectedIdBuilder_ == null) {
@@ -2363,11 +2366,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-         *
          * <pre>
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
          */
         public Builder setCheckEachAffectedId(io.dstore.Values.booleanValue value) {
           if (checkEachAffectedIdBuilder_ == null) {
@@ -2383,11 +2386,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-         *
          * <pre>
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
          */
         public Builder setCheckEachAffectedId(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2401,11 +2404,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-         *
          * <pre>
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
          */
         public Builder mergeCheckEachAffectedId(io.dstore.Values.booleanValue value) {
           if (checkEachAffectedIdBuilder_ == null) {
@@ -2423,11 +2426,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-         *
          * <pre>
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
          */
         public Builder clearCheckEachAffectedId() {
           if (checkEachAffectedIdBuilder_ == null) {
@@ -2441,11 +2444,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-         *
          * <pre>
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
          */
         public io.dstore.Values.booleanValue.Builder getCheckEachAffectedIdBuilder() {
           
@@ -2453,11 +2456,11 @@ public final class MiGetTRITriggerConditionsAd {
           return getCheckEachAffectedIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-         *
          * <pre>
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getCheckEachAffectedIdOrBuilder() {
           if (checkEachAffectedIdBuilder_ != null) {
@@ -2468,11 +2471,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
-         *
          * <pre>
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2492,21 +2495,21 @@ public final class MiGetTRITriggerConditionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionNumberBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-         *
          * <pre>
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
          */
         public boolean hasConditionNumber() {
           return conditionNumberBuilder_ != null || conditionNumber_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-         *
          * <pre>
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
          */
         public io.dstore.Values.integerValue getConditionNumber() {
           if (conditionNumberBuilder_ == null) {
@@ -2516,11 +2519,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-         *
          * <pre>
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
          */
         public Builder setConditionNumber(io.dstore.Values.integerValue value) {
           if (conditionNumberBuilder_ == null) {
@@ -2536,11 +2539,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-         *
          * <pre>
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
          */
         public Builder setConditionNumber(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2554,11 +2557,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-         *
          * <pre>
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
          */
         public Builder mergeConditionNumber(io.dstore.Values.integerValue value) {
           if (conditionNumberBuilder_ == null) {
@@ -2576,11 +2579,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-         *
          * <pre>
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
          */
         public Builder clearConditionNumber() {
           if (conditionNumberBuilder_ == null) {
@@ -2594,11 +2597,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-         *
          * <pre>
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getConditionNumberBuilder() {
           
@@ -2606,11 +2609,11 @@ public final class MiGetTRITriggerConditionsAd {
           return getConditionNumberFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-         *
          * <pre>
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getConditionNumberOrBuilder() {
           if (conditionNumberBuilder_ != null) {
@@ -2621,11 +2624,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
-         *
          * <pre>
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2645,21 +2648,21 @@ public final class MiGetTRITriggerConditionsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> strToCompareBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-         *
          * <pre>
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
          */
         public boolean hasStrToCompare() {
           return strToCompareBuilder_ != null || strToCompare_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-         *
          * <pre>
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
          */
         public io.dstore.Values.stringValue getStrToCompare() {
           if (strToCompareBuilder_ == null) {
@@ -2669,11 +2672,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-         *
          * <pre>
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
          */
         public Builder setStrToCompare(io.dstore.Values.stringValue value) {
           if (strToCompareBuilder_ == null) {
@@ -2689,11 +2692,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-         *
          * <pre>
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
          */
         public Builder setStrToCompare(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2707,11 +2710,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-         *
          * <pre>
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
          */
         public Builder mergeStrToCompare(io.dstore.Values.stringValue value) {
           if (strToCompareBuilder_ == null) {
@@ -2729,11 +2732,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-         *
          * <pre>
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
          */
         public Builder clearStrToCompare() {
           if (strToCompareBuilder_ == null) {
@@ -2747,11 +2750,11 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-         *
          * <pre>
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
          */
         public io.dstore.Values.stringValue.Builder getStrToCompareBuilder() {
           
@@ -2759,11 +2762,11 @@ public final class MiGetTRITriggerConditionsAd {
           return getStrToCompareFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-         *
          * <pre>
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getStrToCompareOrBuilder() {
           if (strToCompareBuilder_ != null) {
@@ -2774,11 +2777,11 @@ public final class MiGetTRITriggerConditionsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
-         *
          * <pre>
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2823,16 +2826,7 @@ public final class MiGetTRITriggerConditionsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2924,52 +2918,52 @@ public final class MiGetTRITriggerConditionsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3044,34 +3038,40 @@ public final class MiGetTRITriggerConditionsAd {
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3308,7 +3308,7 @@ public final class MiGetTRITriggerConditionsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3811,11 +3811,11 @@ public final class MiGetTRITriggerConditionsAd {
           io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row, io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3825,11 +3825,11 @@ public final class MiGetTRITriggerConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3839,11 +3839,11 @@ public final class MiGetTRITriggerConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3853,11 +3853,11 @@ public final class MiGetTRITriggerConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row value) {
@@ -3874,11 +3874,11 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row.Builder builderForValue) {
@@ -3892,11 +3892,11 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3912,11 +3912,11 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row value) {
@@ -3933,11 +3933,11 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row.Builder builderForValue) {
@@ -3951,11 +3951,11 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row.Builder builderForValue) {
@@ -3969,11 +3969,11 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row> values) {
@@ -3988,11 +3988,11 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4005,11 +4005,11 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4022,22 +4022,22 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4047,11 +4047,11 @@ public final class MiGetTRITriggerConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4062,22 +4062,22 @@ public final class MiGetTRITriggerConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4085,11 +4085,11 @@ public final class MiGetTRITriggerConditionsAd {
             index, io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4139,16 +4139,7 @@ public final class MiGetTRITriggerConditionsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4167,19 +4158,19 @@ public final class MiGetTRITriggerConditionsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTRITriggerConditions_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTRITriggerConditions_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTRITriggerConditions_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTRITriggerConditions_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTRITriggerConditions_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTRITriggerConditions_Ad_Response_Row_fieldAccessorTable;
 
@@ -4187,7 +4178,7 @@ public final class MiGetTRITriggerConditionsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

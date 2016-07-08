@@ -16,12 +16,12 @@ public final class ElasticError {
     /**
      * <code>UNKOWN = 0;</code>
      */
-    UNKOWN(0, 0),
+    UNKOWN(0),
     /**
      * <code>IO_EXCEPTION = 1;</code>
      */
-    IO_EXCEPTION(1, 1),
-    UNRECOGNIZED(-1, -1),
+    IO_EXCEPTION(1),
+    UNRECOGNIZED(-1),
     ;
 
     /**
@@ -35,14 +35,22 @@ public final class ElasticError {
 
 
     public final int getNumber() {
-      if (index == -1) {
+      if (this == UNRECOGNIZED) {
         throw new java.lang.IllegalArgumentException(
             "Can't get the number of an unknown enum value.");
       }
       return value;
     }
 
+    /**
+     * @deprecated Use {@link #forNumber(int)} instead.
+     */
+    @java.lang.Deprecated
     public static Types valueOf(int value) {
+      return forNumber(value);
+    }
+
+    public static Types forNumber(int value) {
       switch (value) {
         case 0: return UNKOWN;
         case 1: return IO_EXCEPTION;
@@ -58,13 +66,13 @@ public final class ElasticError {
         Types> internalValueMap =
           new com.google.protobuf.Internal.EnumLiteMap<Types>() {
             public Types findValueByNumber(int number) {
-              return Types.valueOf(number);
+              return Types.forNumber(number);
             }
           };
 
     public final com.google.protobuf.Descriptors.EnumValueDescriptor
         getValueDescriptor() {
-      return getDescriptor().getValues().get(index);
+      return getDescriptor().getValues().get(ordinal());
     }
     public final com.google.protobuf.Descriptors.EnumDescriptor
         getDescriptorForType() {
@@ -89,11 +97,9 @@ public final class ElasticError {
       return VALUES[desc.getIndex()];
     }
 
-    private final int index;
     private final int value;
 
-    private Types(int index, int value) {
-      this.index = index;
+    private Types(int value) {
       this.value = value;
     }
 
@@ -168,7 +174,8 @@ public final class ElasticError {
     }
     private Error(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -212,11 +219,10 @@ public final class ElasticError {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -245,7 +251,7 @@ public final class ElasticError {
      * <code>optional .dstore.elastic.error.Types type = 1;</code>
      */
     public io.dstore.elastic.ElasticError.Types getType() {
-      io.dstore.elastic.ElasticError.Types result = io.dstore.elastic.ElasticError.Types.valueOf(type_);
+      io.dstore.elastic.ElasticError.Types result = io.dstore.elastic.ElasticError.Types.forNumber(type_);
       return result == null ? io.dstore.elastic.ElasticError.Types.UNRECOGNIZED : result;
     }
 
@@ -423,34 +429,40 @@ public final class ElasticError {
     }
     public static io.dstore.elastic.ElasticError.Error parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.ElasticError.Error parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.ElasticError.Error parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.ElasticError.Error parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.ElasticError.Error parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.ElasticError.Error parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -587,7 +599,7 @@ public final class ElasticError {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.ElasticError.Error) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -615,7 +627,7 @@ public final class ElasticError {
        * <code>optional .dstore.elastic.error.Types type = 1;</code>
        */
       public io.dstore.elastic.ElasticError.Types getType() {
-        io.dstore.elastic.ElasticError.Types result = io.dstore.elastic.ElasticError.Types.valueOf(type_);
+        io.dstore.elastic.ElasticError.Types result = io.dstore.elastic.ElasticError.Types.forNumber(type_);
         return result == null ? io.dstore.elastic.ElasticError.Types.UNRECOGNIZED : result;
       }
       /**
@@ -876,16 +888,7 @@ public final class ElasticError {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Error(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -904,9 +907,9 @@ public final class ElasticError {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_error_Error_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_error_Error_fieldAccessorTable;
 
@@ -914,7 +917,7 @@ public final class ElasticError {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

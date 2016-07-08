@@ -185,7 +185,8 @@ public final class StGetSalesByInformationAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -349,11 +350,10 @@ public final class StGetSalesByInformationAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -769,34 +769,40 @@ public final class StGetSalesByInformationAd {
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1066,7 +1072,7 @@ public final class StGetSalesByInformationAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2248,16 +2254,7 @@ public final class StGetSalesByInformationAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2329,45 +2326,45 @@ public final class StGetSalesByInformationAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -2396,7 +2393,8 @@ public final class StGetSalesByInformationAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2440,11 +2438,10 @@ public final class StGetSalesByInformationAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2480,152 +2477,152 @@ public final class StGetSalesByInformationAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
-       *
        * <pre>
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information = 10001;</code>
        */
       boolean hasInformation();
       /**
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
-       *
        * <pre>
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information = 10001;</code>
        */
       io.dstore.Values.stringValue getInformation();
       /**
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
-       *
        * <pre>
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getInformationOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-       *
        * <pre>
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
        */
       boolean hasNettoOrderSales();
       /**
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-       *
        * <pre>
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
        */
       io.dstore.Values.decimalValue getNettoOrderSales();
       /**
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-       *
        * <pre>
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getNettoOrderSalesOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-       *
        * <pre>
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
        */
       boolean hasOrderDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-       *
        * <pre>
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
        */
       io.dstore.Values.timestampValue getOrderDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-       *
        * <pre>
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getOrderDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-       *
        * <pre>
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
        */
       boolean hasPersonId();
       /**
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-       *
        * <pre>
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
        */
       io.dstore.Values.integerValue getPersonId();
       /**
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-       *
        * <pre>
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-       *
        * <pre>
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
        */
       boolean hasNettoSum();
       /**
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-       *
        * <pre>
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
        */
       io.dstore.Values.decimalValue getNettoSum();
       /**
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-       *
        * <pre>
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-       *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        */
       boolean hasOrderId();
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-       *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        */
       io.dstore.Values.integerValue getOrderId();
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-       *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder();
     }
@@ -2651,7 +2648,8 @@ public final class StGetSalesByInformationAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2754,11 +2752,10 @@ public final class StGetSalesByInformationAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2787,31 +2784,31 @@ public final class StGetSalesByInformationAd {
       public static final int INFORMATION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue information_;
       /**
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
-       *
        * <pre>
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information = 10001;</code>
        */
       public boolean hasInformation() {
         return information_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
-       *
        * <pre>
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information = 10001;</code>
        */
       public io.dstore.Values.stringValue getInformation() {
         return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
       }
       /**
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
-       *
        * <pre>
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue information = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
@@ -2820,31 +2817,31 @@ public final class StGetSalesByInformationAd {
       public static final int NETTO_ORDER_SALES_FIELD_NUMBER = 10002;
       private io.dstore.Values.decimalValue nettoOrderSales_;
       /**
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-       *
        * <pre>
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
        */
       public boolean hasNettoOrderSales() {
         return nettoOrderSales_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-       *
        * <pre>
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
        */
       public io.dstore.Values.decimalValue getNettoOrderSales() {
         return nettoOrderSales_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoOrderSales_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-       *
        * <pre>
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getNettoOrderSalesOrBuilder() {
         return getNettoOrderSales();
@@ -2853,31 +2850,31 @@ public final class StGetSalesByInformationAd {
       public static final int ORDER_DATE_AND_TIME_FIELD_NUMBER = 20001;
       private io.dstore.Values.timestampValue orderDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-       *
        * <pre>
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
        */
       public boolean hasOrderDateAndTime() {
         return orderDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-       *
        * <pre>
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
        */
       public io.dstore.Values.timestampValue getOrderDateAndTime() {
         return orderDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : orderDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-       *
        * <pre>
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getOrderDateAndTimeOrBuilder() {
         return getOrderDateAndTime();
@@ -2886,31 +2883,31 @@ public final class StGetSalesByInformationAd {
       public static final int PERSON_ID_FIELD_NUMBER = 20002;
       private io.dstore.Values.integerValue personId_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-       *
        * <pre>
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-       *
        * <pre>
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
        */
       public io.dstore.Values.integerValue getPersonId() {
         return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-       *
        * <pre>
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
@@ -2919,31 +2916,31 @@ public final class StGetSalesByInformationAd {
       public static final int NETTO_SUM_FIELD_NUMBER = 20003;
       private io.dstore.Values.decimalValue nettoSum_;
       /**
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-       *
        * <pre>
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
        */
       public boolean hasNettoSum() {
         return nettoSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-       *
        * <pre>
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
        */
       public io.dstore.Values.decimalValue getNettoSum() {
         return nettoSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoSum_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-       *
        * <pre>
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder() {
         return getNettoSum();
@@ -2952,31 +2949,31 @@ public final class StGetSalesByInformationAd {
       public static final int ORDER_ID_FIELD_NUMBER = 20005;
       private io.dstore.Values.integerValue orderId_;
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-       *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        */
       public boolean hasOrderId() {
         return orderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-       *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        */
       public io.dstore.Values.integerValue getOrderId() {
         return orderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-       *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
         return getOrderId();
@@ -3078,34 +3075,40 @@ public final class StGetSalesByInformationAd {
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -3305,7 +3308,7 @@ public final class StGetSalesByInformationAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -3344,21 +3347,21 @@ public final class StGetSalesByInformationAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
-         *
          * <pre>
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information = 10001;</code>
          */
         public boolean hasInformation() {
           return informationBuilder_ != null || information_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
-         *
          * <pre>
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information = 10001;</code>
          */
         public io.dstore.Values.stringValue getInformation() {
           if (informationBuilder_ == null) {
@@ -3368,11 +3371,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
-         *
          * <pre>
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information = 10001;</code>
          */
         public Builder setInformation(io.dstore.Values.stringValue value) {
           if (informationBuilder_ == null) {
@@ -3388,11 +3391,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
-         *
          * <pre>
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information = 10001;</code>
          */
         public Builder setInformation(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3406,11 +3409,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
-         *
          * <pre>
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information = 10001;</code>
          */
         public Builder mergeInformation(io.dstore.Values.stringValue value) {
           if (informationBuilder_ == null) {
@@ -3428,11 +3431,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
-         *
          * <pre>
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information = 10001;</code>
          */
         public Builder clearInformation() {
           if (informationBuilder_ == null) {
@@ -3446,11 +3449,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
-         *
          * <pre>
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getInformationBuilder() {
           
@@ -3458,11 +3461,11 @@ public final class StGetSalesByInformationAd {
           return getInformationFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
-         *
          * <pre>
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
@@ -3473,11 +3476,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
-         *
          * <pre>
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue information = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3497,21 +3500,21 @@ public final class StGetSalesByInformationAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoOrderSalesBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-         *
          * <pre>
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
          */
         public boolean hasNettoOrderSales() {
           return nettoOrderSalesBuilder_ != null || nettoOrderSales_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-         *
          * <pre>
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
          */
         public io.dstore.Values.decimalValue getNettoOrderSales() {
           if (nettoOrderSalesBuilder_ == null) {
@@ -3521,11 +3524,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-         *
          * <pre>
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
          */
         public Builder setNettoOrderSales(io.dstore.Values.decimalValue value) {
           if (nettoOrderSalesBuilder_ == null) {
@@ -3541,11 +3544,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-         *
          * <pre>
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
          */
         public Builder setNettoOrderSales(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -3559,11 +3562,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-         *
          * <pre>
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
          */
         public Builder mergeNettoOrderSales(io.dstore.Values.decimalValue value) {
           if (nettoOrderSalesBuilder_ == null) {
@@ -3581,11 +3584,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-         *
          * <pre>
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
          */
         public Builder clearNettoOrderSales() {
           if (nettoOrderSalesBuilder_ == null) {
@@ -3599,11 +3602,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-         *
          * <pre>
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
          */
         public io.dstore.Values.decimalValue.Builder getNettoOrderSalesBuilder() {
           
@@ -3611,11 +3614,11 @@ public final class StGetSalesByInformationAd {
           return getNettoOrderSalesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-         *
          * <pre>
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getNettoOrderSalesOrBuilder() {
           if (nettoOrderSalesBuilder_ != null) {
@@ -3626,11 +3629,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
-         *
          * <pre>
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -3650,21 +3653,21 @@ public final class StGetSalesByInformationAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> orderDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-         *
          * <pre>
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
          */
         public boolean hasOrderDateAndTime() {
           return orderDateAndTimeBuilder_ != null || orderDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-         *
          * <pre>
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
          */
         public io.dstore.Values.timestampValue getOrderDateAndTime() {
           if (orderDateAndTimeBuilder_ == null) {
@@ -3674,11 +3677,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-         *
          * <pre>
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
          */
         public Builder setOrderDateAndTime(io.dstore.Values.timestampValue value) {
           if (orderDateAndTimeBuilder_ == null) {
@@ -3694,11 +3697,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-         *
          * <pre>
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
          */
         public Builder setOrderDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -3712,11 +3715,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-         *
          * <pre>
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
          */
         public Builder mergeOrderDateAndTime(io.dstore.Values.timestampValue value) {
           if (orderDateAndTimeBuilder_ == null) {
@@ -3734,11 +3737,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-         *
          * <pre>
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
          */
         public Builder clearOrderDateAndTime() {
           if (orderDateAndTimeBuilder_ == null) {
@@ -3752,11 +3755,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-         *
          * <pre>
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
          */
         public io.dstore.Values.timestampValue.Builder getOrderDateAndTimeBuilder() {
           
@@ -3764,11 +3767,11 @@ public final class StGetSalesByInformationAd {
           return getOrderDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-         *
          * <pre>
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getOrderDateAndTimeOrBuilder() {
           if (orderDateAndTimeBuilder_ != null) {
@@ -3779,11 +3782,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
-         *
          * <pre>
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -3803,21 +3806,21 @@ public final class StGetSalesByInformationAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-         *
          * <pre>
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-         *
          * <pre>
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
          */
         public io.dstore.Values.integerValue getPersonId() {
           if (personIdBuilder_ == null) {
@@ -3827,11 +3830,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-         *
          * <pre>
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
          */
         public Builder setPersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
@@ -3847,11 +3850,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-         *
          * <pre>
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
          */
         public Builder setPersonId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3865,11 +3868,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-         *
          * <pre>
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
          */
         public Builder mergePersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
@@ -3887,11 +3890,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-         *
          * <pre>
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -3905,11 +3908,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-         *
          * <pre>
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
          */
         public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
           
@@ -3917,11 +3920,11 @@ public final class StGetSalesByInformationAd {
           return getPersonIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-         *
          * <pre>
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
@@ -3932,11 +3935,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
-         *
          * <pre>
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3956,21 +3959,21 @@ public final class StGetSalesByInformationAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoSumBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-         *
          * <pre>
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
          */
         public boolean hasNettoSum() {
           return nettoSumBuilder_ != null || nettoSum_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-         *
          * <pre>
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
          */
         public io.dstore.Values.decimalValue getNettoSum() {
           if (nettoSumBuilder_ == null) {
@@ -3980,11 +3983,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-         *
          * <pre>
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
          */
         public Builder setNettoSum(io.dstore.Values.decimalValue value) {
           if (nettoSumBuilder_ == null) {
@@ -4000,11 +4003,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-         *
          * <pre>
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
          */
         public Builder setNettoSum(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -4018,11 +4021,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-         *
          * <pre>
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
          */
         public Builder mergeNettoSum(io.dstore.Values.decimalValue value) {
           if (nettoSumBuilder_ == null) {
@@ -4040,11 +4043,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-         *
          * <pre>
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
          */
         public Builder clearNettoSum() {
           if (nettoSumBuilder_ == null) {
@@ -4058,11 +4061,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-         *
          * <pre>
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
          */
         public io.dstore.Values.decimalValue.Builder getNettoSumBuilder() {
           
@@ -4070,11 +4073,11 @@ public final class StGetSalesByInformationAd {
           return getNettoSumFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-         *
          * <pre>
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder() {
           if (nettoSumBuilder_ != null) {
@@ -4085,11 +4088,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
-         *
          * <pre>
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -4109,21 +4112,21 @@ public final class StGetSalesByInformationAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-         *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          */
         public boolean hasOrderId() {
           return orderIdBuilder_ != null || orderId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-         *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          */
         public io.dstore.Values.integerValue getOrderId() {
           if (orderIdBuilder_ == null) {
@@ -4133,11 +4136,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-         *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          */
         public Builder setOrderId(io.dstore.Values.integerValue value) {
           if (orderIdBuilder_ == null) {
@@ -4153,11 +4156,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-         *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          */
         public Builder setOrderId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4171,11 +4174,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-         *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          */
         public Builder mergeOrderId(io.dstore.Values.integerValue value) {
           if (orderIdBuilder_ == null) {
@@ -4193,11 +4196,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-         *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          */
         public Builder clearOrderId() {
           if (orderIdBuilder_ == null) {
@@ -4211,11 +4214,11 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-         *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          */
         public io.dstore.Values.integerValue.Builder getOrderIdBuilder() {
           
@@ -4223,11 +4226,11 @@ public final class StGetSalesByInformationAd {
           return getOrderIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-         *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
           if (orderIdBuilder_ != null) {
@@ -4238,11 +4241,11 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
-         *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4287,16 +4290,7 @@ public final class StGetSalesByInformationAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4388,52 +4382,52 @@ public final class StGetSalesByInformationAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4508,34 +4502,40 @@ public final class StGetSalesByInformationAd {
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4772,7 +4772,7 @@ public final class StGetSalesByInformationAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetSalesByInformationAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5275,11 +5275,11 @@ public final class StGetSalesByInformationAd {
           io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -5289,11 +5289,11 @@ public final class StGetSalesByInformationAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -5303,11 +5303,11 @@ public final class StGetSalesByInformationAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -5317,11 +5317,11 @@ public final class StGetSalesByInformationAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row value) {
@@ -5338,11 +5338,11 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder builderForValue) {
@@ -5356,11 +5356,11 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -5376,11 +5376,11 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row value) {
@@ -5397,11 +5397,11 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder builderForValue) {
@@ -5415,11 +5415,11 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder builderForValue) {
@@ -5433,11 +5433,11 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row> values) {
@@ -5452,11 +5452,11 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -5469,11 +5469,11 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5486,22 +5486,22 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5511,11 +5511,11 @@ public final class StGetSalesByInformationAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5526,22 +5526,22 @@ public final class StGetSalesByInformationAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5549,11 +5549,11 @@ public final class StGetSalesByInformationAd {
             index, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetSales_ByInformation_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5603,16 +5603,7 @@ public final class StGetSalesByInformationAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5631,19 +5622,19 @@ public final class StGetSalesByInformationAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_fieldAccessorTable;
 
@@ -5651,7 +5642,7 @@ public final class StGetSalesByInformationAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

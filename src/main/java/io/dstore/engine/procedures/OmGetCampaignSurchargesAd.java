@@ -90,7 +90,8 @@ public final class OmGetCampaignSurchargesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class OmGetCampaignSurchargesAd {
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class OmGetCampaignSurchargesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class OmGetCampaignSurchargesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class OmGetCampaignSurchargesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class OmGetCampaignSurchargesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,277 +1257,277 @@ public final class OmGetCampaignSurchargesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-       *
        * <pre>
        * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
        */
       boolean hasItemConditionId();
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-       *
        * <pre>
        * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
        */
       io.dstore.Values.integerValue getItemConditionId();
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-       *
        * <pre>
        * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-       *
        * <pre>
        * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
        */
       boolean hasBenefitId();
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-       *
        * <pre>
        * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
        */
       io.dstore.Values.integerValue getBenefitId();
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-       *
        * <pre>
        * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
        */
       boolean hasSurchargeValueUnitSymbol();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
        */
       io.dstore.Values.stringValue getSurchargeValueUnitSymbol();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getSurchargeValueUnitSymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
        */
       boolean hasDerivedFromPersonCharacId();
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
        */
       io.dstore.Values.booleanValue getDerivedFromPersonCharacId();
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getDerivedFromPersonCharacIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-       *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
        */
       boolean hasSurchargeIsAbsoluteValue();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-       *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
        */
       io.dstore.Values.integerValue getSurchargeIsAbsoluteValue();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-       *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-       *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
        */
       boolean hasSurchargeValueUnitId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-       *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
        */
       io.dstore.Values.integerValue getSurchargeValueUnitId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-       *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSurchargeValueUnitIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
        */
       boolean hasDerivedFromNodeCharacId();
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
        */
       io.dstore.Values.booleanValue getDerivedFromNodeCharacId();
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getDerivedFromNodeCharacIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       boolean hasSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       io.dstore.Values.stringValue getSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-       *
        * <pre>
        * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        */
       boolean hasSurchargeValue();
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-       *
        * <pre>
        * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        */
       io.dstore.Values.decimalValue getSurchargeValue();
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-       *
        * <pre>
        * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-       *
        * <pre>
        * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
        */
       boolean hasApplyToOption();
       /**
-       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-       *
        * <pre>
        * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
        */
       io.dstore.Values.integerValue getApplyToOption();
       /**
-       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-       *
        * <pre>
        * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
        */
       io.dstore.Values.integerValueOrBuilder getApplyToOptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-       *
        * <pre>
        * ID einer Rabatt-/Aufschlags-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        */
       boolean hasSurchargeTypeId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-       *
        * <pre>
        * ID einer Rabatt-/Aufschlags-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        */
       io.dstore.Values.integerValue getSurchargeTypeId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-       *
        * <pre>
        * ID einer Rabatt-/Aufschlags-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
     }
@@ -1556,7 +1553,8 @@ public final class OmGetCampaignSurchargesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1724,11 +1722,10 @@ public final class OmGetCampaignSurchargesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1757,31 +1754,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int ITEM_CONDITION_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue itemConditionId_;
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-       *
        * <pre>
        * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
        */
       public boolean hasItemConditionId() {
         return itemConditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-       *
        * <pre>
        * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getItemConditionId() {
         return itemConditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-       *
        * <pre>
        * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
         return getItemConditionId();
@@ -1790,31 +1787,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int BENEFIT_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue benefitId_;
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-       *
        * <pre>
        * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
        */
       public boolean hasBenefitId() {
         return benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-       *
        * <pre>
        * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getBenefitId() {
         return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-       *
        * <pre>
        * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
         return getBenefitId();
@@ -1823,31 +1820,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int SURCHARGE_VALUE_UNIT_SYMBOL_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue surchargeValueUnitSymbol_;
       /**
-       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
        */
       public boolean hasSurchargeValueUnitSymbol() {
         return surchargeValueUnitSymbol_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
        */
       public io.dstore.Values.stringValue getSurchargeValueUnitSymbol() {
         return surchargeValueUnitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeValueUnitSymbol_;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-       *
        * <pre>
        * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSurchargeValueUnitSymbolOrBuilder() {
         return getSurchargeValueUnitSymbol();
@@ -1856,31 +1853,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int DERIVED_FROM_PERSON_CHARAC_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.booleanValue derivedFromPersonCharacId_;
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
        */
       public boolean hasDerivedFromPersonCharacId() {
         return derivedFromPersonCharacId_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
        */
       public io.dstore.Values.booleanValue getDerivedFromPersonCharacId() {
         return derivedFromPersonCharacId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : derivedFromPersonCharacId_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDerivedFromPersonCharacIdOrBuilder() {
         return getDerivedFromPersonCharacId();
@@ -1889,31 +1886,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int SURCHARGE_IS_ABSOLUTE_VALUE_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue surchargeIsAbsoluteValue_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-       *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
        */
       public boolean hasSurchargeIsAbsoluteValue() {
         return surchargeIsAbsoluteValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-       *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
        */
       public io.dstore.Values.integerValue getSurchargeIsAbsoluteValue() {
         return surchargeIsAbsoluteValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-       *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder() {
         return getSurchargeIsAbsoluteValue();
@@ -1922,31 +1919,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int SURCHARGE_VALUE_UNIT_ID_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue surchargeValueUnitId_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-       *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
        */
       public boolean hasSurchargeValueUnitId() {
         return surchargeValueUnitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-       *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
        */
       public io.dstore.Values.integerValue getSurchargeValueUnitId() {
         return surchargeValueUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeValueUnitId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-       *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSurchargeValueUnitIdOrBuilder() {
         return getSurchargeValueUnitId();
@@ -1955,31 +1952,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int DERIVED_FROM_NODE_CHARAC_ID_FIELD_NUMBER = 10007;
       private io.dstore.Values.booleanValue derivedFromNodeCharacId_;
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
        */
       public boolean hasDerivedFromNodeCharacId() {
         return derivedFromNodeCharacId_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
        */
       public io.dstore.Values.booleanValue getDerivedFromNodeCharacId() {
         return derivedFromNodeCharacId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : derivedFromNodeCharacId_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-       *
        * <pre>
        * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDerivedFromNodeCharacIdOrBuilder() {
         return getDerivedFromNodeCharacId();
@@ -1988,31 +1985,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 10008;
       private io.dstore.Values.stringValue surchargeTypeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       public boolean hasSurchargeTypeDescription() {
         return surchargeTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       public io.dstore.Values.stringValue getSurchargeTypeDescription() {
         return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-       *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
         return getSurchargeTypeDescription();
@@ -2021,31 +2018,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int SURCHARGE_VALUE_FIELD_NUMBER = 10009;
       private io.dstore.Values.decimalValue surchargeValue_;
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-       *
        * <pre>
        * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        */
       public boolean hasSurchargeValue() {
         return surchargeValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-       *
        * <pre>
        * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        */
       public io.dstore.Values.decimalValue getSurchargeValue() {
         return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-       *
        * <pre>
        * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
         return getSurchargeValue();
@@ -2054,31 +2051,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int APPLY_TO_OPTION_FIELD_NUMBER = 10010;
       private io.dstore.Values.integerValue applyToOption_;
       /**
-       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-       *
        * <pre>
        * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
        */
       public boolean hasApplyToOption() {
         return applyToOption_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-       *
        * <pre>
        * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
        */
       public io.dstore.Values.integerValue getApplyToOption() {
         return applyToOption_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applyToOption_;
       }
       /**
-       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-       *
        * <pre>
        * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getApplyToOptionOrBuilder() {
         return getApplyToOption();
@@ -2087,31 +2084,31 @@ public final class OmGetCampaignSurchargesAd {
       public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 10011;
       private io.dstore.Values.integerValue surchargeTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-       *
        * <pre>
        * ID einer Rabatt-/Aufschlags-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-       *
        * <pre>
        * ID einer Rabatt-/Aufschlags-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        */
       public io.dstore.Values.integerValue getSurchargeTypeId() {
         return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-       *
        * <pre>
        * ID einer Rabatt-/Aufschlags-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         return getSurchargeTypeId();
@@ -2248,34 +2245,40 @@ public final class OmGetCampaignSurchargesAd {
       }
       public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2545,7 +2548,7 @@ public final class OmGetCampaignSurchargesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2584,21 +2587,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-         *
          * <pre>
          * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
          */
         public boolean hasItemConditionId() {
           return itemConditionIdBuilder_ != null || itemConditionId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-         *
          * <pre>
          * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getItemConditionId() {
           if (itemConditionIdBuilder_ == null) {
@@ -2608,11 +2611,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-         *
          * <pre>
          * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
          */
         public Builder setItemConditionId(io.dstore.Values.integerValue value) {
           if (itemConditionIdBuilder_ == null) {
@@ -2628,11 +2631,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-         *
          * <pre>
          * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
          */
         public Builder setItemConditionId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2646,11 +2649,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-         *
          * <pre>
          * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
          */
         public Builder mergeItemConditionId(io.dstore.Values.integerValue value) {
           if (itemConditionIdBuilder_ == null) {
@@ -2668,11 +2671,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-         *
          * <pre>
          * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
          */
         public Builder clearItemConditionId() {
           if (itemConditionIdBuilder_ == null) {
@@ -2686,11 +2689,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-         *
          * <pre>
          * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getItemConditionIdBuilder() {
           
@@ -2698,11 +2701,11 @@ public final class OmGetCampaignSurchargesAd {
           return getItemConditionIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-         *
          * <pre>
          * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
           if (itemConditionIdBuilder_ != null) {
@@ -2713,11 +2716,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
-         *
          * <pre>
          * ID einer Artikel-Bedingung (mögliche Werte : s. "im_GetItemConditions_Ad"). Falls NICHT "NULL" bedeutet dies, daß der Rabatt auf alle Positionen angewandt wird, die ein Artikel-Element enthalten, das die hierdurch gegebene Bedingung erfüllt.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2737,21 +2740,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-         *
          * <pre>
          * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
          */
         public boolean hasBenefitId() {
           return benefitIdBuilder_ != null || benefitId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-         *
          * <pre>
          * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getBenefitId() {
           if (benefitIdBuilder_ == null) {
@@ -2761,11 +2764,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-         *
          * <pre>
          * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
          */
         public Builder setBenefitId(io.dstore.Values.integerValue value) {
           if (benefitIdBuilder_ == null) {
@@ -2781,11 +2784,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-         *
          * <pre>
          * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
          */
         public Builder setBenefitId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2799,11 +2802,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-         *
          * <pre>
          * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
          */
         public Builder mergeBenefitId(io.dstore.Values.integerValue value) {
           if (benefitIdBuilder_ == null) {
@@ -2821,11 +2824,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-         *
          * <pre>
          * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
          */
         public Builder clearBenefitId() {
           if (benefitIdBuilder_ == null) {
@@ -2839,11 +2842,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-         *
          * <pre>
          * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getBenefitIdBuilder() {
           
@@ -2851,11 +2854,11 @@ public final class OmGetCampaignSurchargesAd {
           return getBenefitIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-         *
          * <pre>
          * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
           if (benefitIdBuilder_ != null) {
@@ -2866,11 +2869,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
-         *
          * <pre>
          * ID eines Rabatt-Benefits für Verkaufs-Aktionen  - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2890,21 +2893,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeValueUnitSymbolBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
          */
         public boolean hasSurchargeValueUnitSymbol() {
           return surchargeValueUnitSymbolBuilder_ != null || surchargeValueUnitSymbol_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
          */
         public io.dstore.Values.stringValue getSurchargeValueUnitSymbol() {
           if (surchargeValueUnitSymbolBuilder_ == null) {
@@ -2914,11 +2917,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
          */
         public Builder setSurchargeValueUnitSymbol(io.dstore.Values.stringValue value) {
           if (surchargeValueUnitSymbolBuilder_ == null) {
@@ -2934,11 +2937,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
          */
         public Builder setSurchargeValueUnitSymbol(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2952,11 +2955,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
          */
         public Builder mergeSurchargeValueUnitSymbol(io.dstore.Values.stringValue value) {
           if (surchargeValueUnitSymbolBuilder_ == null) {
@@ -2974,11 +2977,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
          */
         public Builder clearSurchargeValueUnitSymbol() {
           if (surchargeValueUnitSymbolBuilder_ == null) {
@@ -2992,11 +2995,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getSurchargeValueUnitSymbolBuilder() {
           
@@ -3004,11 +3007,11 @@ public final class OmGetCampaignSurchargesAd {
           return getSurchargeValueUnitSymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getSurchargeValueUnitSymbolOrBuilder() {
           if (surchargeValueUnitSymbolBuilder_ != null) {
@@ -3019,11 +3022,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
-         *
          * <pre>
          * Symbol der Einheit "SurchargeValueUnitID" (z.B. "%" oder "EUR")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_value_unit_symbol = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3043,21 +3046,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> derivedFromPersonCharacIdBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
          */
         public boolean hasDerivedFromPersonCharacId() {
           return derivedFromPersonCharacIdBuilder_ != null || derivedFromPersonCharacId_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
          */
         public io.dstore.Values.booleanValue getDerivedFromPersonCharacId() {
           if (derivedFromPersonCharacIdBuilder_ == null) {
@@ -3067,11 +3070,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
          */
         public Builder setDerivedFromPersonCharacId(io.dstore.Values.booleanValue value) {
           if (derivedFromPersonCharacIdBuilder_ == null) {
@@ -3087,11 +3090,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
          */
         public Builder setDerivedFromPersonCharacId(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -3105,11 +3108,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
          */
         public Builder mergeDerivedFromPersonCharacId(io.dstore.Values.booleanValue value) {
           if (derivedFromPersonCharacIdBuilder_ == null) {
@@ -3127,11 +3130,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
          */
         public Builder clearDerivedFromPersonCharacId() {
           if (derivedFromPersonCharacIdBuilder_ == null) {
@@ -3145,11 +3148,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
          */
         public io.dstore.Values.booleanValue.Builder getDerivedFromPersonCharacIdBuilder() {
           
@@ -3157,11 +3160,11 @@ public final class OmGetCampaignSurchargesAd {
           return getDerivedFromPersonCharacIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getDerivedFromPersonCharacIdOrBuilder() {
           if (derivedFromPersonCharacIdBuilder_ != null) {
@@ -3172,11 +3175,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Personen-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-)Eigenschaft zu diesem Merkmal (der bei der Preis-Ermittlung angegebenen Person) bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_person_charac_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -3196,21 +3199,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeIsAbsoluteValueBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-         *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
          */
         public boolean hasSurchargeIsAbsoluteValue() {
           return surchargeIsAbsoluteValueBuilder_ != null || surchargeIsAbsoluteValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-         *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
          */
         public io.dstore.Values.integerValue getSurchargeIsAbsoluteValue() {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
@@ -3220,11 +3223,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-         *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
          */
         public Builder setSurchargeIsAbsoluteValue(io.dstore.Values.integerValue value) {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
@@ -3240,11 +3243,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-         *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
          */
         public Builder setSurchargeIsAbsoluteValue(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3258,11 +3261,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-         *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
          */
         public Builder mergeSurchargeIsAbsoluteValue(io.dstore.Values.integerValue value) {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
@@ -3280,11 +3283,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-         *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
          */
         public Builder clearSurchargeIsAbsoluteValue() {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
@@ -3298,11 +3301,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-         *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getSurchargeIsAbsoluteValueBuilder() {
           
@@ -3310,11 +3313,11 @@ public final class OmGetCampaignSurchargesAd {
           return getSurchargeIsAbsoluteValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-         *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder() {
           if (surchargeIsAbsoluteValueBuilder_ != null) {
@@ -3325,11 +3328,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
-         *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : relative (d.h. prozentuale) Angabe"1" : absolute Währungs-Angabe in der Einheit "SurchargeValueUnitID", und zwar ein NETTO-Wert"2" : wie "1", nur als BRUTTO-Wert zu verstehen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3349,21 +3352,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeValueUnitIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-         *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
          */
         public boolean hasSurchargeValueUnitId() {
           return surchargeValueUnitIdBuilder_ != null || surchargeValueUnitId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-         *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
          */
         public io.dstore.Values.integerValue getSurchargeValueUnitId() {
           if (surchargeValueUnitIdBuilder_ == null) {
@@ -3373,11 +3376,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-         *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
          */
         public Builder setSurchargeValueUnitId(io.dstore.Values.integerValue value) {
           if (surchargeValueUnitIdBuilder_ == null) {
@@ -3393,11 +3396,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-         *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
          */
         public Builder setSurchargeValueUnitId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3411,11 +3414,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-         *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
          */
         public Builder mergeSurchargeValueUnitId(io.dstore.Values.integerValue value) {
           if (surchargeValueUnitIdBuilder_ == null) {
@@ -3433,11 +3436,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-         *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
          */
         public Builder clearSurchargeValueUnitId() {
           if (surchargeValueUnitIdBuilder_ == null) {
@@ -3451,11 +3454,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-         *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getSurchargeValueUnitIdBuilder() {
           
@@ -3463,11 +3466,11 @@ public final class OmGetCampaignSurchargesAd {
           return getSurchargeValueUnitIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-         *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSurchargeValueUnitIdOrBuilder() {
           if (surchargeValueUnitIdBuilder_ != null) {
@@ -3478,11 +3481,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
-         *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist. Im Fall "SurchargeIsAbsoluteValue = 0" ist dies immer die "Prozent"-Einheit, ansonsten eine Währungs-Einheit.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_value_unit_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3502,21 +3505,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> derivedFromNodeCharacIdBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
          */
         public boolean hasDerivedFromNodeCharacId() {
           return derivedFromNodeCharacIdBuilder_ != null || derivedFromNodeCharacId_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
          */
         public io.dstore.Values.booleanValue getDerivedFromNodeCharacId() {
           if (derivedFromNodeCharacIdBuilder_ == null) {
@@ -3526,11 +3529,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
          */
         public Builder setDerivedFromNodeCharacId(io.dstore.Values.booleanValue value) {
           if (derivedFromNodeCharacIdBuilder_ == null) {
@@ -3546,11 +3549,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
          */
         public Builder setDerivedFromNodeCharacId(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -3564,11 +3567,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
          */
         public Builder mergeDerivedFromNodeCharacId(io.dstore.Values.booleanValue value) {
           if (derivedFromNodeCharacIdBuilder_ == null) {
@@ -3586,11 +3589,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
          */
         public Builder clearDerivedFromNodeCharacId() {
           if (derivedFromNodeCharacIdBuilder_ == null) {
@@ -3604,11 +3607,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
          */
         public io.dstore.Values.booleanValue.Builder getDerivedFromNodeCharacIdBuilder() {
           
@@ -3616,11 +3619,11 @@ public final class OmGetCampaignSurchargesAd {
           return getDerivedFromNodeCharacIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getDerivedFromNodeCharacIdOrBuilder() {
           if (derivedFromNodeCharacIdBuilder_ != null) {
@@ -3631,11 +3634,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
-         *
          * <pre>
          * Steht hier "1", handelt es sich bei "SurchargeValue" um die ID eines Artikel-Merkmals, das dynamisch zur Laufzeit den Rabatt-Wert aufgrund der (Prozent-/Währungs-)Eigenschaft (eines in Frage kommenden Artikels) zu diesem Merkmal bestimmt (s. Beschreibung)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue derived_from_node_charac_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -3655,21 +3658,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public boolean hasSurchargeTypeDescription() {
           return surchargeTypeDescriptionBuilder_ != null || surchargeTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public io.dstore.Values.stringValue getSurchargeTypeDescription() {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -3679,11 +3682,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public Builder setSurchargeTypeDescription(io.dstore.Values.stringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -3699,11 +3702,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public Builder setSurchargeTypeDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3717,11 +3720,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public Builder mergeSurchargeTypeDescription(io.dstore.Values.stringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -3739,11 +3742,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public Builder clearSurchargeTypeDescription() {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -3757,11 +3760,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public io.dstore.Values.stringValue.Builder getSurchargeTypeDescriptionBuilder() {
           
@@ -3769,11 +3772,11 @@ public final class OmGetCampaignSurchargesAd {
           return getSurchargeTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
           if (surchargeTypeDescriptionBuilder_ != null) {
@@ -3784,11 +3787,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
-         *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3808,21 +3811,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> surchargeValueBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-         *
          * <pre>
          * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          */
         public boolean hasSurchargeValue() {
           return surchargeValueBuilder_ != null || surchargeValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-         *
          * <pre>
          * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          */
         public io.dstore.Values.decimalValue getSurchargeValue() {
           if (surchargeValueBuilder_ == null) {
@@ -3832,11 +3835,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-         *
          * <pre>
          * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          */
         public Builder setSurchargeValue(io.dstore.Values.decimalValue value) {
           if (surchargeValueBuilder_ == null) {
@@ -3852,11 +3855,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-         *
          * <pre>
          * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          */
         public Builder setSurchargeValue(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -3870,11 +3873,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-         *
          * <pre>
          * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          */
         public Builder mergeSurchargeValue(io.dstore.Values.decimalValue value) {
           if (surchargeValueBuilder_ == null) {
@@ -3892,11 +3895,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-         *
          * <pre>
          * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          */
         public Builder clearSurchargeValue() {
           if (surchargeValueBuilder_ == null) {
@@ -3910,11 +3913,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-         *
          * <pre>
          * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          */
         public io.dstore.Values.decimalValue.Builder getSurchargeValueBuilder() {
           
@@ -3922,11 +3925,11 @@ public final class OmGetCampaignSurchargesAd {
           return getSurchargeValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-         *
          * <pre>
          * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
           if (surchargeValueBuilder_ != null) {
@@ -3937,11 +3940,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
-         *
          * <pre>
          * Der Rabatt-Wert (immer ein negativer Wert, Hintergrund : allgemeine "Surcharges"-Logik, bei der Rabatte negativ und Aufschläge positiv sind) oder die ID eines Personen- bzw. Artikel-Merkmals, das den Rabatt-Wert dynamisch zur Laufzeit bestimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -3961,21 +3964,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applyToOptionBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-         *
          * <pre>
          * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
          */
         public boolean hasApplyToOption() {
           return applyToOptionBuilder_ != null || applyToOption_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-         *
          * <pre>
          * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
          */
         public io.dstore.Values.integerValue getApplyToOption() {
           if (applyToOptionBuilder_ == null) {
@@ -3985,11 +3988,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-         *
          * <pre>
          * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
          */
         public Builder setApplyToOption(io.dstore.Values.integerValue value) {
           if (applyToOptionBuilder_ == null) {
@@ -4005,11 +4008,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-         *
          * <pre>
          * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
          */
         public Builder setApplyToOption(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4023,11 +4026,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-         *
          * <pre>
          * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
          */
         public Builder mergeApplyToOption(io.dstore.Values.integerValue value) {
           if (applyToOptionBuilder_ == null) {
@@ -4045,11 +4048,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-         *
          * <pre>
          * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
          */
         public Builder clearApplyToOption() {
           if (applyToOptionBuilder_ == null) {
@@ -4063,11 +4066,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-         *
          * <pre>
          * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
          */
         public io.dstore.Values.integerValue.Builder getApplyToOptionBuilder() {
           
@@ -4075,11 +4078,11 @@ public final class OmGetCampaignSurchargesAd {
           return getApplyToOptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-         *
          * <pre>
          * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getApplyToOptionOrBuilder() {
           if (applyToOptionBuilder_ != null) {
@@ -4090,11 +4093,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
-         *
          * <pre>
          * Gibt an wie/auf was der Rabatt anzuwenden ist :- "0" : auf Positionen mit einem "ItemConditionID" erfüllenden Artikel- "1" : auf die "erweiterte Artikel-Beding." erfüllende Positionen- "2" : alle Positionen- "3" : Gesamt-Rabatt ("OrderSurcharge")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue apply_to_option = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4114,21 +4117,21 @@ public final class OmGetCampaignSurchargesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-         *
          * <pre>
          * ID einer Rabatt-/Aufschlags-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          */
         public boolean hasSurchargeTypeId() {
           return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-         *
          * <pre>
          * ID einer Rabatt-/Aufschlags-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          */
         public io.dstore.Values.integerValue getSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
@@ -4138,11 +4141,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-         *
          * <pre>
          * ID einer Rabatt-/Aufschlags-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          */
         public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
@@ -4158,11 +4161,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-         *
          * <pre>
          * ID einer Rabatt-/Aufschlags-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          */
         public Builder setSurchargeTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4176,11 +4179,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-         *
          * <pre>
          * ID einer Rabatt-/Aufschlags-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          */
         public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
@@ -4198,11 +4201,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-         *
          * <pre>
          * ID einer Rabatt-/Aufschlags-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          */
         public Builder clearSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
@@ -4216,11 +4219,11 @@ public final class OmGetCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-         *
          * <pre>
          * ID einer Rabatt-/Aufschlags-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          */
         public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
           
@@ -4228,11 +4231,11 @@ public final class OmGetCampaignSurchargesAd {
           return getSurchargeTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-         *
          * <pre>
          * ID einer Rabatt-/Aufschlags-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
           if (surchargeTypeIdBuilder_ != null) {
@@ -4243,11 +4246,11 @@ public final class OmGetCampaignSurchargesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
-         *
          * <pre>
          * ID einer Rabatt-/Aufschlags-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4292,16 +4295,7 @@ public final class OmGetCampaignSurchargesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4393,52 +4387,52 @@ public final class OmGetCampaignSurchargesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4513,34 +4507,40 @@ public final class OmGetCampaignSurchargesAd {
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4777,7 +4777,7 @@ public final class OmGetCampaignSurchargesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5280,11 +5280,11 @@ public final class OmGetCampaignSurchargesAd {
           io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row, io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -5294,11 +5294,11 @@ public final class OmGetCampaignSurchargesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -5308,11 +5308,11 @@ public final class OmGetCampaignSurchargesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -5322,11 +5322,11 @@ public final class OmGetCampaignSurchargesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row value) {
@@ -5343,11 +5343,11 @@ public final class OmGetCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row.Builder builderForValue) {
@@ -5361,11 +5361,11 @@ public final class OmGetCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -5381,11 +5381,11 @@ public final class OmGetCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row value) {
@@ -5402,11 +5402,11 @@ public final class OmGetCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row.Builder builderForValue) {
@@ -5420,11 +5420,11 @@ public final class OmGetCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row.Builder builderForValue) {
@@ -5438,11 +5438,11 @@ public final class OmGetCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row> values) {
@@ -5457,11 +5457,11 @@ public final class OmGetCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -5474,11 +5474,11 @@ public final class OmGetCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5491,22 +5491,22 @@ public final class OmGetCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5516,11 +5516,11 @@ public final class OmGetCampaignSurchargesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5531,22 +5531,22 @@ public final class OmGetCampaignSurchargesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5554,11 +5554,11 @@ public final class OmGetCampaignSurchargesAd {
             index, io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCampaignSurcharges_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5608,16 +5608,7 @@ public final class OmGetCampaignSurchargesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5636,19 +5627,19 @@ public final class OmGetCampaignSurchargesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaignSurcharges_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaignSurcharges_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaignSurcharges_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaignSurcharges_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaignSurcharges_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaignSurcharges_Ad_Response_Row_fieldAccessorTable;
 
@@ -5656,7 +5647,7 @@ public final class OmGetCampaignSurchargesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

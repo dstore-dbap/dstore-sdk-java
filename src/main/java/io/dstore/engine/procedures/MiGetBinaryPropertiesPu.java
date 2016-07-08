@@ -71,7 +71,8 @@ public final class MiGetBinaryPropertiesPu {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -127,11 +128,10 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -283,34 +283,40 @@ public final class MiGetBinaryPropertiesPu {
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -460,7 +466,7 @@ public final class MiGetBinaryPropertiesPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -784,16 +790,7 @@ public final class MiGetBinaryPropertiesPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -865,45 +862,45 @@ public final class MiGetBinaryPropertiesPu {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -932,7 +929,8 @@ public final class MiGetBinaryPropertiesPu {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -976,11 +974,10 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1016,152 +1013,152 @@ public final class MiGetBinaryPropertiesPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       boolean hasCharacteristicDescription();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       io.dstore.Values.stringValue getCharacteristicDescription();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
        */
       boolean hasBinaryCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
        */
       io.dstore.Values.integerValue getBinaryCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue value = 10003;</code>
-       *
        * <pre>
        * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.values.stringValue value = 10003;</code>
-       *
        * <pre>
        * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        */
       io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.values.stringValue value = 10003;</code>
-       *
        * <pre>
        * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        */
       boolean hasValueId();
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        */
       io.dstore.Values.integerValue getValueId();
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-       *
        * <pre>
        * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
        */
       boolean hasModify();
       /**
-       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-       *
        * <pre>
        * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
        */
       io.dstore.Values.booleanValue getModify();
       /**
-       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-       *
        * <pre>
        * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getModifyOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-       *
        * <pre>
        * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
        */
       boolean hasPredefinedValues();
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-       *
        * <pre>
        * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
        */
       io.dstore.Values.booleanValue getPredefinedValues();
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-       *
        * <pre>
        * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder();
     }
@@ -1187,7 +1184,8 @@ public final class MiGetBinaryPropertiesPu {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1290,11 +1288,10 @@ public final class MiGetBinaryPropertiesPu {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1323,31 +1320,31 @@ public final class MiGetBinaryPropertiesPu {
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue characteristicDescription_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       public io.dstore.Values.stringValue getCharacteristicDescription() {
         return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
@@ -1356,31 +1353,31 @@ public final class MiGetBinaryPropertiesPu {
       public static final int BINARY_CHARACTERISTIC_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue binaryCharacteristicId_;
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
        */
       public boolean hasBinaryCharacteristicId() {
         return binaryCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getBinaryCharacteristicId() {
         return binaryCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
         return getBinaryCharacteristicId();
@@ -1389,31 +1386,31 @@ public final class MiGetBinaryPropertiesPu {
       public static final int VALUE_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.values.stringValue value = 10003;</code>
-       *
        * <pre>
        * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        */
       public boolean hasValue() {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 10003;</code>
-       *
        * <pre>
        * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        */
       public io.dstore.Values.stringValue getValue() {
         return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 10003;</code>
-       *
        * <pre>
        * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1422,31 +1419,31 @@ public final class MiGetBinaryPropertiesPu {
       public static final int VALUE_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue valueId_;
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        */
       public io.dstore.Values.integerValue getValueId() {
         return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
@@ -1455,31 +1452,31 @@ public final class MiGetBinaryPropertiesPu {
       public static final int MODIFY_FIELD_NUMBER = 10005;
       private io.dstore.Values.booleanValue modify_;
       /**
-       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-       *
        * <pre>
        * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
        */
       public boolean hasModify() {
         return modify_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-       *
        * <pre>
        * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
        */
       public io.dstore.Values.booleanValue getModify() {
         return modify_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : modify_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-       *
        * <pre>
        * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue modify = 10005;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getModifyOrBuilder() {
         return getModify();
@@ -1488,31 +1485,31 @@ public final class MiGetBinaryPropertiesPu {
       public static final int PREDEFINED_VALUES_FIELD_NUMBER = 10006;
       private io.dstore.Values.booleanValue predefinedValues_;
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-       *
        * <pre>
        * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
        */
       public boolean hasPredefinedValues() {
         return predefinedValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-       *
        * <pre>
        * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
        */
       public io.dstore.Values.booleanValue getPredefinedValues() {
         return predefinedValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : predefinedValues_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-       *
        * <pre>
        * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder() {
         return getPredefinedValues();
@@ -1614,34 +1611,40 @@ public final class MiGetBinaryPropertiesPu {
       }
       public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1841,7 +1844,7 @@ public final class MiGetBinaryPropertiesPu {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1880,21 +1883,21 @@ public final class MiGetBinaryPropertiesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public boolean hasCharacteristicDescription() {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public io.dstore.Values.stringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -1904,11 +1907,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
@@ -1924,11 +1927,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public Builder setCharacteristicDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1942,11 +1945,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
@@ -1964,11 +1967,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public Builder clearCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -1982,11 +1985,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
           
@@ -1994,11 +1997,11 @@ public final class MiGetBinaryPropertiesPu {
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
@@ -2009,11 +2012,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "BinaryCharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2033,21 +2036,21 @@ public final class MiGetBinaryPropertiesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
          */
         public boolean hasBinaryCharacteristicId() {
           return binaryCharacteristicIdBuilder_ != null || binaryCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getBinaryCharacteristicId() {
           if (binaryCharacteristicIdBuilder_ == null) {
@@ -2057,11 +2060,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
          */
         public Builder setBinaryCharacteristicId(io.dstore.Values.integerValue value) {
           if (binaryCharacteristicIdBuilder_ == null) {
@@ -2077,11 +2080,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
          */
         public Builder setBinaryCharacteristicId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2095,11 +2098,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
          */
         public Builder mergeBinaryCharacteristicId(io.dstore.Values.integerValue value) {
           if (binaryCharacteristicIdBuilder_ == null) {
@@ -2117,11 +2120,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
          */
         public Builder clearBinaryCharacteristicId() {
           if (binaryCharacteristicIdBuilder_ == null) {
@@ -2135,11 +2138,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getBinaryCharacteristicIdBuilder() {
           
@@ -2147,11 +2150,11 @@ public final class MiGetBinaryPropertiesPu {
           return getBinaryCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
           if (binaryCharacteristicIdBuilder_ != null) {
@@ -2162,11 +2165,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "Value" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_characteristic_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2186,21 +2189,21 @@ public final class MiGetBinaryPropertiesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue value = 10003;</code>
-         *
          * <pre>
          * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10003;</code>
-         *
          * <pre>
          * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
         public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
@@ -2210,11 +2213,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10003;</code>
-         *
          * <pre>
          * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
         public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
@@ -2230,11 +2233,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10003;</code>
-         *
          * <pre>
          * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
         public Builder setValue(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2248,11 +2251,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10003;</code>
-         *
          * <pre>
          * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
         public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
@@ -2270,11 +2273,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10003;</code>
-         *
          * <pre>
          * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2288,11 +2291,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10003;</code>
-         *
          * <pre>
          * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
@@ -2300,11 +2303,11 @@ public final class MiGetBinaryPropertiesPu {
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10003;</code>
-         *
          * <pre>
          * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2315,11 +2318,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10003;</code>
-         *
          * <pre>
          * Eine Eigenschaft, die "&#64;BinaryCodeID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2339,21 +2342,21 @@ public final class MiGetBinaryPropertiesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          */
         public io.dstore.Values.integerValue getValueId() {
           if (valueIdBuilder_ == null) {
@@ -2363,11 +2366,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          */
         public Builder setValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
@@ -2383,11 +2386,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          */
         public Builder setValueId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2401,11 +2404,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          */
         public Builder mergeValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
@@ -2423,11 +2426,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -2441,11 +2444,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
           
@@ -2453,11 +2456,11 @@ public final class MiGetBinaryPropertiesPu {
           return getValueIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
@@ -2468,11 +2471,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2492,21 +2495,21 @@ public final class MiGetBinaryPropertiesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> modifyBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-         *
          * <pre>
          * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
          */
         public boolean hasModify() {
           return modifyBuilder_ != null || modify_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-         *
          * <pre>
          * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
          */
         public io.dstore.Values.booleanValue getModify() {
           if (modifyBuilder_ == null) {
@@ -2516,11 +2519,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-         *
          * <pre>
          * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
          */
         public Builder setModify(io.dstore.Values.booleanValue value) {
           if (modifyBuilder_ == null) {
@@ -2536,11 +2539,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-         *
          * <pre>
          * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
          */
         public Builder setModify(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2554,11 +2557,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-         *
          * <pre>
          * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
          */
         public Builder mergeModify(io.dstore.Values.booleanValue value) {
           if (modifyBuilder_ == null) {
@@ -2576,11 +2579,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-         *
          * <pre>
          * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
          */
         public Builder clearModify() {
           if (modifyBuilder_ == null) {
@@ -2594,11 +2597,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-         *
          * <pre>
          * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
          */
         public io.dstore.Values.booleanValue.Builder getModifyBuilder() {
           
@@ -2606,11 +2609,11 @@ public final class MiGetBinaryPropertiesPu {
           return getModifyFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-         *
          * <pre>
          * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getModifyOrBuilder() {
           if (modifyBuilder_ != null) {
@@ -2621,11 +2624,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
-         *
          * <pre>
          * Dürfen Eigenschaften zu diesem Merkmal nachträglich noch geändert werden ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue modify = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2645,21 +2648,21 @@ public final class MiGetBinaryPropertiesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> predefinedValuesBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-         *
          * <pre>
          * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
          */
         public boolean hasPredefinedValues() {
           return predefinedValuesBuilder_ != null || predefinedValues_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-         *
          * <pre>
          * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
          */
         public io.dstore.Values.booleanValue getPredefinedValues() {
           if (predefinedValuesBuilder_ == null) {
@@ -2669,11 +2672,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-         *
          * <pre>
          * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
          */
         public Builder setPredefinedValues(io.dstore.Values.booleanValue value) {
           if (predefinedValuesBuilder_ == null) {
@@ -2689,11 +2692,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-         *
          * <pre>
          * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
          */
         public Builder setPredefinedValues(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2707,11 +2710,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-         *
          * <pre>
          * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
          */
         public Builder mergePredefinedValues(io.dstore.Values.booleanValue value) {
           if (predefinedValuesBuilder_ == null) {
@@ -2729,11 +2732,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-         *
          * <pre>
          * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
          */
         public Builder clearPredefinedValues() {
           if (predefinedValuesBuilder_ == null) {
@@ -2747,11 +2750,11 @@ public final class MiGetBinaryPropertiesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-         *
          * <pre>
          * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
          */
         public io.dstore.Values.booleanValue.Builder getPredefinedValuesBuilder() {
           
@@ -2759,11 +2762,11 @@ public final class MiGetBinaryPropertiesPu {
           return getPredefinedValuesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-         *
          * <pre>
          * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder() {
           if (predefinedValuesBuilder_ != null) {
@@ -2774,11 +2777,11 @@ public final class MiGetBinaryPropertiesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
-         *
          * <pre>
          * Hat das Merkmal "BinaryCharacteristicID" nur vordefinierte Werte ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue predefined_values = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2823,16 +2826,7 @@ public final class MiGetBinaryPropertiesPu {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2924,52 +2918,52 @@ public final class MiGetBinaryPropertiesPu {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3044,34 +3038,40 @@ public final class MiGetBinaryPropertiesPu {
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3308,7 +3308,7 @@ public final class MiGetBinaryPropertiesPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3811,11 +3811,11 @@ public final class MiGetBinaryPropertiesPu {
           io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row, io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row.Builder, io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3825,11 +3825,11 @@ public final class MiGetBinaryPropertiesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3839,11 +3839,11 @@ public final class MiGetBinaryPropertiesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3853,11 +3853,11 @@ public final class MiGetBinaryPropertiesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row value) {
@@ -3874,11 +3874,11 @@ public final class MiGetBinaryPropertiesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row.Builder builderForValue) {
@@ -3892,11 +3892,11 @@ public final class MiGetBinaryPropertiesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3912,11 +3912,11 @@ public final class MiGetBinaryPropertiesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row value) {
@@ -3933,11 +3933,11 @@ public final class MiGetBinaryPropertiesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row.Builder builderForValue) {
@@ -3951,11 +3951,11 @@ public final class MiGetBinaryPropertiesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row.Builder builderForValue) {
@@ -3969,11 +3969,11 @@ public final class MiGetBinaryPropertiesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row> values) {
@@ -3988,11 +3988,11 @@ public final class MiGetBinaryPropertiesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4005,11 +4005,11 @@ public final class MiGetBinaryPropertiesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4022,22 +4022,22 @@ public final class MiGetBinaryPropertiesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4047,11 +4047,11 @@ public final class MiGetBinaryPropertiesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4062,22 +4062,22 @@ public final class MiGetBinaryPropertiesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4085,11 +4085,11 @@ public final class MiGetBinaryPropertiesPu {
             index, io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetBinaryProperties_Pu.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4139,16 +4139,7 @@ public final class MiGetBinaryPropertiesPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4167,19 +4158,19 @@ public final class MiGetBinaryPropertiesPu {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetBinaryProperties_Pu_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetBinaryProperties_Pu_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetBinaryProperties_Pu_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetBinaryProperties_Pu_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetBinaryProperties_Pu_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetBinaryProperties_Pu_Response_Row_fieldAccessorTable;
 
@@ -4187,7 +4178,7 @@ public final class MiGetBinaryPropertiesPu {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

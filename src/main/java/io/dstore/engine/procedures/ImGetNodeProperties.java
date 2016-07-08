@@ -261,7 +261,8 @@ public final class ImGetNodeProperties {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -497,11 +498,10 @@ public final class ImGetNodeProperties {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -1093,34 +1093,40 @@ public final class ImGetNodeProperties {
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1470,7 +1476,7 @@ public final class ImGetNodeProperties {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.ImGetNodeProperties.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3224,16 +3230,7 @@ public final class ImGetNodeProperties {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3305,45 +3302,45 @@ public final class ImGetNodeProperties {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.ImGetNodeProperties.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.ImGetNodeProperties.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.ImGetNodeProperties.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.ImGetNodeProperties.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -3372,7 +3369,8 @@ public final class ImGetNodeProperties {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -3416,11 +3414,10 @@ public final class ImGetNodeProperties {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -3456,452 +3453,452 @@ public final class ImGetNodeProperties {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.booleanValue active = 10001;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10001;</code>
        */
       boolean hasActive();
       /**
-       * <code>optional .dstore.values.booleanValue active = 10001;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10001;</code>
        */
       io.dstore.Values.booleanValue getActive();
       /**
-       * <code>optional .dstore.values.booleanValue active = 10001;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10001;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue details = 10002;</code>
-       *
        * <pre>
        * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue details = 10002;</code>
        */
       boolean hasDetails();
       /**
-       * <code>optional .dstore.values.stringValue details = 10002;</code>
-       *
        * <pre>
        * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue details = 10002;</code>
        */
       io.dstore.Values.stringValue getDetails();
       /**
-       * <code>optional .dstore.values.stringValue details = 10002;</code>
-       *
        * <pre>
        * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue details = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDetailsOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-       *
        * <pre>
        * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
        */
       boolean hasUnitId();
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-       *
        * <pre>
        * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
        */
       io.dstore.Values.integerValue getUnitId();
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-       *
        * <pre>
        * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
        */
       boolean hasCharacteristicDescription();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
        */
       io.dstore.Values.stringValue getCharacteristicDescription();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue value = 10007;</code>
-       *
        * <pre>
        * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10007;</code>
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.values.stringValue value = 10007;</code>
-       *
        * <pre>
        * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10007;</code>
        */
       io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.values.stringValue value = 10007;</code>
-       *
        * <pre>
        * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-       *
        * <pre>
        * ID eines Merkmals
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
        */
       boolean hasCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-       *
        * <pre>
        * ID eines Merkmals
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
        */
       io.dstore.Values.integerValue getCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-       *
        * <pre>
        * ID eines Merkmals
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
        */
       boolean hasValueId();
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
        */
       io.dstore.Values.integerValue getValueId();
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
        */
       io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
        */
       boolean hasUnitSymbol();
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
        */
       io.dstore.Values.stringValue getUnitSymbol();
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
        */
       boolean hasDeleted();
       /**
-       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
        */
       io.dstore.Values.booleanValue getDeleted();
       /**
-       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getDeletedOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        */
       boolean hasSortNo();
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        */
       io.dstore.Values.integerValue getSortNo();
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-       *
        * <pre>
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
        */
       boolean hasValidToChar();
       /**
-       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-       *
        * <pre>
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
        */
       io.dstore.Values.stringValue getValidToChar();
       /**
-       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-       *
        * <pre>
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValidToCharOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-       *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        */
       boolean hasInheritsFromTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-       *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        */
       io.dstore.Values.integerValue getInheritsFromTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-       *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        */
       io.dstore.Values.integerValueOrBuilder getInheritsFromTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-       *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        */
       boolean hasValidTo();
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-       *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        */
       io.dstore.Values.timestampValue getValidTo();
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-       *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-       *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        */
       boolean hasValidFrom();
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-       *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        */
       io.dstore.Values.timestampValue getValidFrom();
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-       *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-       *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        */
       boolean hasInheritsFromNodeId();
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-       *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        */
       io.dstore.Values.integerValue getInheritsFromNodeId();
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-       *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        */
       io.dstore.Values.integerValueOrBuilder getInheritsFromNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-       *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        */
       boolean hasValidFromChar();
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-       *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        */
       io.dstore.Values.stringValue getValidFromChar();
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-       *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValidFromCharOrBuilder();
     }
@@ -3927,7 +3924,8 @@ public final class ImGetNodeProperties {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -4186,11 +4184,10 @@ public final class ImGetNodeProperties {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -4219,31 +4216,31 @@ public final class ImGetNodeProperties {
       public static final int ACTIVE_FIELD_NUMBER = 10001;
       private io.dstore.Values.booleanValue active_;
       /**
-       * <code>optional .dstore.values.booleanValue active = 10001;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10001;</code>
        */
       public boolean hasActive() {
         return active_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 10001;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10001;</code>
        */
       public io.dstore.Values.booleanValue getActive() {
         return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 10001;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10001;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
@@ -4252,31 +4249,31 @@ public final class ImGetNodeProperties {
       public static final int DETAILS_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue details_;
       /**
-       * <code>optional .dstore.values.stringValue details = 10002;</code>
-       *
        * <pre>
        * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue details = 10002;</code>
        */
       public boolean hasDetails() {
         return details_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue details = 10002;</code>
-       *
        * <pre>
        * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue details = 10002;</code>
        */
       public io.dstore.Values.stringValue getDetails() {
         return details_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : details_;
       }
       /**
-       * <code>optional .dstore.values.stringValue details = 10002;</code>
-       *
        * <pre>
        * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue details = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDetailsOrBuilder() {
         return getDetails();
@@ -4285,31 +4282,31 @@ public final class ImGetNodeProperties {
       public static final int UNIT_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue unitId_;
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-       *
        * <pre>
        * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
        */
       public boolean hasUnitId() {
         return unitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-       *
        * <pre>
        * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getUnitId() {
         return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-       *
        * <pre>
        * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
         return getUnitId();
@@ -4318,31 +4315,31 @@ public final class ImGetNodeProperties {
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue characteristicDescription_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
        */
       public io.dstore.Values.stringValue getCharacteristicDescription() {
         return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
@@ -4351,31 +4348,31 @@ public final class ImGetNodeProperties {
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       public io.dstore.Values.integerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -4384,31 +4381,31 @@ public final class ImGetNodeProperties {
       public static final int NODE_ID_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       public io.dstore.Values.integerValue getNodeId() {
         return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -4417,31 +4414,31 @@ public final class ImGetNodeProperties {
       public static final int VALUE_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.values.stringValue value = 10007;</code>
-       *
        * <pre>
        * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10007;</code>
        */
       public boolean hasValue() {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 10007;</code>
-       *
        * <pre>
        * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10007;</code>
        */
       public io.dstore.Values.stringValue getValue() {
         return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 10007;</code>
-       *
        * <pre>
        * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -4450,31 +4447,31 @@ public final class ImGetNodeProperties {
       public static final int CHARACTERISTIC_ID_FIELD_NUMBER = 10008;
       private io.dstore.Values.integerValue characteristicId_;
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-       *
        * <pre>
        * ID eines Merkmals
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
        */
       public boolean hasCharacteristicId() {
         return characteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-       *
        * <pre>
        * ID eines Merkmals
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
        */
       public io.dstore.Values.integerValue getCharacteristicId() {
         return characteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-       *
        * <pre>
        * ID eines Merkmals
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
         return getCharacteristicId();
@@ -4483,31 +4480,31 @@ public final class ImGetNodeProperties {
       public static final int VALUE_ID_FIELD_NUMBER = 10009;
       private io.dstore.Values.integerValue valueId_;
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
        */
       public io.dstore.Values.integerValue getValueId() {
         return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-       *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue value_id = 10009;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
@@ -4516,31 +4513,31 @@ public final class ImGetNodeProperties {
       public static final int UNIT_SYMBOL_FIELD_NUMBER = 10010;
       private io.dstore.Values.stringValue unitSymbol_;
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
        */
       public boolean hasUnitSymbol() {
         return unitSymbol_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
        */
       public io.dstore.Values.stringValue getUnitSymbol() {
         return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
       }
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-       *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
         return getUnitSymbol();
@@ -4549,31 +4546,31 @@ public final class ImGetNodeProperties {
       public static final int DELETED_FIELD_NUMBER = 10011;
       private io.dstore.Values.booleanValue deleted_;
       /**
-       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
        */
       public boolean hasDeleted() {
         return deleted_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
        */
       public io.dstore.Values.booleanValue getDeleted() {
         return deleted_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleted_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getDeletedOrBuilder() {
         return getDeleted();
@@ -4582,31 +4579,31 @@ public final class ImGetNodeProperties {
       public static final int SORT_NO_FIELD_NUMBER = 10012;
       private io.dstore.Values.integerValue sortNo_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        */
       public io.dstore.Values.integerValue getSortNo() {
         return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -4615,31 +4612,31 @@ public final class ImGetNodeProperties {
       public static final int VALID_TO_CHAR_FIELD_NUMBER = 30002;
       private io.dstore.Values.stringValue validToChar_;
       /**
-       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-       *
        * <pre>
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
        */
       public boolean hasValidToChar() {
         return validToChar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-       *
        * <pre>
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
        */
       public io.dstore.Values.stringValue getValidToChar() {
         return validToChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : validToChar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-       *
        * <pre>
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValidToCharOrBuilder() {
         return getValidToChar();
@@ -4648,31 +4645,31 @@ public final class ImGetNodeProperties {
       public static final int INHERITS_FROM_TREE_NODE_ID_FIELD_NUMBER = 30010;
       private io.dstore.Values.integerValue inheritsFromTreeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-       *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        */
       public boolean hasInheritsFromTreeNodeId() {
         return inheritsFromTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-       *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        */
       public io.dstore.Values.integerValue getInheritsFromTreeNodeId() {
         return inheritsFromTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inheritsFromTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-       *
        * <pre>
        * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getInheritsFromTreeNodeIdOrBuilder() {
         return getInheritsFromTreeNodeId();
@@ -4681,31 +4678,31 @@ public final class ImGetNodeProperties {
       public static final int VALID_TO_FIELD_NUMBER = 30011;
       private io.dstore.Values.timestampValue validTo_;
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-       *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        */
       public boolean hasValidTo() {
         return validTo_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-       *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        */
       public io.dstore.Values.timestampValue getValidTo() {
         return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-       *
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
         return getValidTo();
@@ -4714,31 +4711,31 @@ public final class ImGetNodeProperties {
       public static final int VALID_FROM_FIELD_NUMBER = 30015;
       private io.dstore.Values.timestampValue validFrom_;
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-       *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        */
       public boolean hasValidFrom() {
         return validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-       *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        */
       public io.dstore.Values.timestampValue getValidFrom() {
         return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-       *
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
         return getValidFrom();
@@ -4747,31 +4744,31 @@ public final class ImGetNodeProperties {
       public static final int INHERITS_FROM_NODE_ID_FIELD_NUMBER = 30017;
       private io.dstore.Values.integerValue inheritsFromNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-       *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        */
       public boolean hasInheritsFromNodeId() {
         return inheritsFromNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-       *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        */
       public io.dstore.Values.integerValue getInheritsFromNodeId() {
         return inheritsFromNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inheritsFromNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-       *
        * <pre>
        * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getInheritsFromNodeIdOrBuilder() {
         return getInheritsFromNodeId();
@@ -4780,31 +4777,31 @@ public final class ImGetNodeProperties {
       public static final int VALID_FROM_CHAR_FIELD_NUMBER = 30018;
       private io.dstore.Values.stringValue validFromChar_;
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-       *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        */
       public boolean hasValidFromChar() {
         return validFromChar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-       *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        */
       public io.dstore.Values.stringValue getValidFromChar() {
         return validFromChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : validFromChar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-       *
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValidFromCharOrBuilder() {
         return getValidFromChar();
@@ -4990,34 +4987,40 @@ public final class ImGetNodeProperties {
       }
       public static io.dstore.engine.procedures.ImGetNodeProperties.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetNodeProperties.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetNodeProperties.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetNodeProperties.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetNodeProperties.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetNodeProperties.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -5385,7 +5388,7 @@ public final class ImGetNodeProperties {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.ImGetNodeProperties.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -5424,21 +5427,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activeBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue active = 10001;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10001;</code>
          */
         public boolean hasActive() {
           return activeBuilder_ != null || active_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10001;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10001;</code>
          */
         public io.dstore.Values.booleanValue getActive() {
           if (activeBuilder_ == null) {
@@ -5448,11 +5451,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10001;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10001;</code>
          */
         public Builder setActive(io.dstore.Values.booleanValue value) {
           if (activeBuilder_ == null) {
@@ -5468,11 +5471,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10001;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10001;</code>
          */
         public Builder setActive(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -5486,11 +5489,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10001;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10001;</code>
          */
         public Builder mergeActive(io.dstore.Values.booleanValue value) {
           if (activeBuilder_ == null) {
@@ -5508,11 +5511,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10001;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10001;</code>
          */
         public Builder clearActive() {
           if (activeBuilder_ == null) {
@@ -5526,11 +5529,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10001;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10001;</code>
          */
         public io.dstore.Values.booleanValue.Builder getActiveBuilder() {
           
@@ -5538,11 +5541,11 @@ public final class ImGetNodeProperties {
           return getActiveFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10001;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10001;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
@@ -5553,11 +5556,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10001;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -5577,21 +5580,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> detailsBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue details = 10002;</code>
-         *
          * <pre>
          * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue details = 10002;</code>
          */
         public boolean hasDetails() {
           return detailsBuilder_ != null || details_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue details = 10002;</code>
-         *
          * <pre>
          * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue details = 10002;</code>
          */
         public io.dstore.Values.stringValue getDetails() {
           if (detailsBuilder_ == null) {
@@ -5601,11 +5604,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue details = 10002;</code>
-         *
          * <pre>
          * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue details = 10002;</code>
          */
         public Builder setDetails(io.dstore.Values.stringValue value) {
           if (detailsBuilder_ == null) {
@@ -5621,11 +5624,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue details = 10002;</code>
-         *
          * <pre>
          * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue details = 10002;</code>
          */
         public Builder setDetails(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5639,11 +5642,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue details = 10002;</code>
-         *
          * <pre>
          * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue details = 10002;</code>
          */
         public Builder mergeDetails(io.dstore.Values.stringValue value) {
           if (detailsBuilder_ == null) {
@@ -5661,11 +5664,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue details = 10002;</code>
-         *
          * <pre>
          * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue details = 10002;</code>
          */
         public Builder clearDetails() {
           if (detailsBuilder_ == null) {
@@ -5679,11 +5682,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue details = 10002;</code>
-         *
          * <pre>
          * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue details = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getDetailsBuilder() {
           
@@ -5691,11 +5694,11 @@ public final class ImGetNodeProperties {
           return getDetailsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue details = 10002;</code>
-         *
          * <pre>
          * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue details = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDetailsOrBuilder() {
           if (detailsBuilder_ != null) {
@@ -5706,11 +5709,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue details = 10002;</code>
-         *
          * <pre>
          * Sofern "CharacteristicID" in "&#64;GetDetailsForCharacIDList" angegeben ist, kann hier einen "Detail"-Wert, der zu "ValueID" hinterlegt ist, zurückkommen (wenn vorhanden) - sonst "NULL"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue details = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5730,21 +5733,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-         *
          * <pre>
          * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
          */
         public boolean hasUnitId() {
           return unitIdBuilder_ != null || unitId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-         *
          * <pre>
          * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getUnitId() {
           if (unitIdBuilder_ == null) {
@@ -5754,11 +5757,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-         *
          * <pre>
          * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
          */
         public Builder setUnitId(io.dstore.Values.integerValue value) {
           if (unitIdBuilder_ == null) {
@@ -5774,11 +5777,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-         *
          * <pre>
          * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
          */
         public Builder setUnitId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5792,11 +5795,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-         *
          * <pre>
          * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
          */
         public Builder mergeUnitId(io.dstore.Values.integerValue value) {
           if (unitIdBuilder_ == null) {
@@ -5814,11 +5817,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-         *
          * <pre>
          * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
          */
         public Builder clearUnitId() {
           if (unitIdBuilder_ == null) {
@@ -5832,11 +5835,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-         *
          * <pre>
          * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getUnitIdBuilder() {
           
@@ -5844,11 +5847,11 @@ public final class ImGetNodeProperties {
           return getUnitIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-         *
          * <pre>
          * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
           if (unitIdBuilder_ != null) {
@@ -5859,11 +5862,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
-         *
          * <pre>
          * ID einer Einheit, in der alle Eigenschaften zum Merkmal "CharacteristicID" sind
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5883,21 +5886,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
          */
         public boolean hasCharacteristicDescription() {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
          */
         public io.dstore.Values.stringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -5907,11 +5910,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
          */
         public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
@@ -5927,11 +5930,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
          */
         public Builder setCharacteristicDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5945,11 +5948,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
          */
         public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
@@ -5967,11 +5970,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
          */
         public Builder clearCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -5985,11 +5988,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
           
@@ -5997,11 +6000,11 @@ public final class ImGetNodeProperties {
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
@@ -6012,11 +6015,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -6036,21 +6039,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -6060,11 +6063,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -6080,11 +6083,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -6098,11 +6101,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -6120,11 +6123,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -6138,11 +6141,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
@@ -6150,11 +6153,11 @@ public final class ImGetNodeProperties {
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -6165,11 +6168,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID eines Elementes des Artikelbaums, zu dem Eigenschaften ermittelt werden sollen
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -6189,21 +6192,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public io.dstore.Values.integerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -6213,11 +6216,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public Builder setNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -6233,11 +6236,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public Builder setNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -6251,11 +6254,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public Builder mergeNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -6273,11 +6276,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -6291,11 +6294,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
           
@@ -6303,11 +6306,11 @@ public final class ImGetNodeProperties {
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -6318,11 +6321,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -6342,21 +6345,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue value = 10007;</code>
-         *
          * <pre>
          * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10007;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10007;</code>
-         *
          * <pre>
          * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10007;</code>
          */
         public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
@@ -6366,11 +6369,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10007;</code>
-         *
          * <pre>
          * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10007;</code>
          */
         public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
@@ -6386,11 +6389,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10007;</code>
-         *
          * <pre>
          * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10007;</code>
          */
         public Builder setValue(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -6404,11 +6407,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10007;</code>
-         *
          * <pre>
          * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10007;</code>
          */
         public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
@@ -6426,11 +6429,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10007;</code>
-         *
          * <pre>
          * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10007;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -6444,11 +6447,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10007;</code>
-         *
          * <pre>
          * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
@@ -6456,11 +6459,11 @@ public final class ImGetNodeProperties {
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10007;</code>
-         *
          * <pre>
          * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -6471,11 +6474,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value = 10007;</code>
-         *
          * <pre>
          * Die Eigenschaft, die "NodeID" zum Merkmal "CharacteristicID" besitzt
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -6495,21 +6498,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characteristicIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-         *
          * <pre>
          * ID eines Merkmals
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
          */
         public boolean hasCharacteristicId() {
           return characteristicIdBuilder_ != null || characteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-         *
          * <pre>
          * ID eines Merkmals
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
          */
         public io.dstore.Values.integerValue getCharacteristicId() {
           if (characteristicIdBuilder_ == null) {
@@ -6519,11 +6522,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-         *
          * <pre>
          * ID eines Merkmals
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
          */
         public Builder setCharacteristicId(io.dstore.Values.integerValue value) {
           if (characteristicIdBuilder_ == null) {
@@ -6539,11 +6542,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-         *
          * <pre>
          * ID eines Merkmals
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
          */
         public Builder setCharacteristicId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -6557,11 +6560,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-         *
          * <pre>
          * ID eines Merkmals
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
          */
         public Builder mergeCharacteristicId(io.dstore.Values.integerValue value) {
           if (characteristicIdBuilder_ == null) {
@@ -6579,11 +6582,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-         *
          * <pre>
          * ID eines Merkmals
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
          */
         public Builder clearCharacteristicId() {
           if (characteristicIdBuilder_ == null) {
@@ -6597,11 +6600,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-         *
          * <pre>
          * ID eines Merkmals
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
          */
         public io.dstore.Values.integerValue.Builder getCharacteristicIdBuilder() {
           
@@ -6609,11 +6612,11 @@ public final class ImGetNodeProperties {
           return getCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-         *
          * <pre>
          * ID eines Merkmals
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
           if (characteristicIdBuilder_ != null) {
@@ -6624,11 +6627,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
-         *
          * <pre>
          * ID eines Merkmals
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -6648,21 +6651,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
          */
         public io.dstore.Values.integerValue getValueId() {
           if (valueIdBuilder_ == null) {
@@ -6672,11 +6675,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
          */
         public Builder setValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
@@ -6692,11 +6695,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
          */
         public Builder setValueId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -6710,11 +6713,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
          */
         public Builder mergeValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
@@ -6732,11 +6735,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -6750,11 +6753,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
          */
         public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
           
@@ -6762,11 +6765,11 @@ public final class ImGetNodeProperties {
           return getValueIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
@@ -6777,11 +6780,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
-         *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue value_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -6801,21 +6804,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
          */
         public boolean hasUnitSymbol() {
           return unitSymbolBuilder_ != null || unitSymbol_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
          */
         public io.dstore.Values.stringValue getUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
@@ -6825,11 +6828,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
          */
         public Builder setUnitSymbol(io.dstore.Values.stringValue value) {
           if (unitSymbolBuilder_ == null) {
@@ -6845,11 +6848,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
          */
         public Builder setUnitSymbol(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -6863,11 +6866,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
          */
         public Builder mergeUnitSymbol(io.dstore.Values.stringValue value) {
           if (unitSymbolBuilder_ == null) {
@@ -6885,11 +6888,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
          */
         public Builder clearUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
@@ -6903,11 +6906,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
          */
         public io.dstore.Values.stringValue.Builder getUnitSymbolBuilder() {
           
@@ -6915,11 +6918,11 @@ public final class ImGetNodeProperties {
           return getUnitSymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
           if (unitSymbolBuilder_ != null) {
@@ -6930,11 +6933,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
-         *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -6954,21 +6957,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deletedBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
          */
         public boolean hasDeleted() {
           return deletedBuilder_ != null || deleted_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
          */
         public io.dstore.Values.booleanValue getDeleted() {
           if (deletedBuilder_ == null) {
@@ -6978,11 +6981,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
          */
         public Builder setDeleted(io.dstore.Values.booleanValue value) {
           if (deletedBuilder_ == null) {
@@ -6998,11 +7001,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
          */
         public Builder setDeleted(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -7016,11 +7019,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
          */
         public Builder mergeDeleted(io.dstore.Values.booleanValue value) {
           if (deletedBuilder_ == null) {
@@ -7038,11 +7041,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
          */
         public Builder clearDeleted() {
           if (deletedBuilder_ == null) {
@@ -7056,11 +7059,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
          */
         public io.dstore.Values.booleanValue.Builder getDeletedBuilder() {
           
@@ -7068,11 +7071,11 @@ public final class ImGetNodeProperties {
           return getDeletedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getDeletedOrBuilder() {
           if (deletedBuilder_ != null) {
@@ -7083,11 +7086,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue deleted = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -7107,21 +7110,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          */
         public io.dstore.Values.integerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -7131,11 +7134,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          */
         public Builder setSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
@@ -7151,11 +7154,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          */
         public Builder setSortNo(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -7169,11 +7172,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          */
         public Builder mergeSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
@@ -7191,11 +7194,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -7209,11 +7212,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          */
         public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
           
@@ -7221,11 +7224,11 @@ public final class ImGetNodeProperties {
           return getSortNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -7236,11 +7239,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge der Eigenschaft "Value" innerhalb aller Eigenschaften zum Merkmal "CharacteristicID"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -7260,21 +7263,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> validToCharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-         *
          * <pre>
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
          */
         public boolean hasValidToChar() {
           return validToCharBuilder_ != null || validToChar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-         *
          * <pre>
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
          */
         public io.dstore.Values.stringValue getValidToChar() {
           if (validToCharBuilder_ == null) {
@@ -7284,11 +7287,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-         *
          * <pre>
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
          */
         public Builder setValidToChar(io.dstore.Values.stringValue value) {
           if (validToCharBuilder_ == null) {
@@ -7304,11 +7307,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-         *
          * <pre>
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
          */
         public Builder setValidToChar(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -7322,11 +7325,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-         *
          * <pre>
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
          */
         public Builder mergeValidToChar(io.dstore.Values.stringValue value) {
           if (validToCharBuilder_ == null) {
@@ -7344,11 +7347,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-         *
          * <pre>
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
          */
         public Builder clearValidToChar() {
           if (validToCharBuilder_ == null) {
@@ -7362,11 +7365,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-         *
          * <pre>
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
          */
         public io.dstore.Values.stringValue.Builder getValidToCharBuilder() {
           
@@ -7374,11 +7377,11 @@ public final class ImGetNodeProperties {
           return getValidToCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-         *
          * <pre>
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValidToCharOrBuilder() {
           if (validToCharBuilder_ != null) {
@@ -7389,11 +7392,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
-         *
          * <pre>
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_to_char = 30002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -7413,21 +7416,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inheritsFromTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-         *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          */
         public boolean hasInheritsFromTreeNodeId() {
           return inheritsFromTreeNodeIdBuilder_ != null || inheritsFromTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-         *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          */
         public io.dstore.Values.integerValue getInheritsFromTreeNodeId() {
           if (inheritsFromTreeNodeIdBuilder_ == null) {
@@ -7437,11 +7440,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-         *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          */
         public Builder setInheritsFromTreeNodeId(io.dstore.Values.integerValue value) {
           if (inheritsFromTreeNodeIdBuilder_ == null) {
@@ -7457,11 +7460,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-         *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          */
         public Builder setInheritsFromTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -7475,11 +7478,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-         *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          */
         public Builder mergeInheritsFromTreeNodeId(io.dstore.Values.integerValue value) {
           if (inheritsFromTreeNodeIdBuilder_ == null) {
@@ -7497,11 +7500,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-         *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          */
         public Builder clearInheritsFromTreeNodeId() {
           if (inheritsFromTreeNodeIdBuilder_ == null) {
@@ -7515,11 +7518,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-         *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          */
         public io.dstore.Values.integerValue.Builder getInheritsFromTreeNodeIdBuilder() {
           
@@ -7527,11 +7530,11 @@ public final class ImGetNodeProperties {
           return getInheritsFromTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-         *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getInheritsFromTreeNodeIdOrBuilder() {
           if (inheritsFromTreeNodeIdBuilder_ != null) {
@@ -7542,11 +7545,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
-         *
          * <pre>
          * ID des Elementes im Artikelbaum, von dem "TreeNodeID" die Eigenschaft ("Value") "erbt". Der Wert hier ist identisch mit "TreeNodeID", falls die Eigenschaft direkt "NodeID" zugwiesen ist (also NICHT "geerbt" wurde).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_tree_node_id = 30010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -7566,21 +7569,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validToBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-         *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          */
         public boolean hasValidTo() {
           return validToBuilder_ != null || validTo_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-         *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          */
         public io.dstore.Values.timestampValue getValidTo() {
           if (validToBuilder_ == null) {
@@ -7590,11 +7593,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-         *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          */
         public Builder setValidTo(io.dstore.Values.timestampValue value) {
           if (validToBuilder_ == null) {
@@ -7610,11 +7613,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-         *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          */
         public Builder setValidTo(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -7628,11 +7631,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-         *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          */
         public Builder mergeValidTo(io.dstore.Values.timestampValue value) {
           if (validToBuilder_ == null) {
@@ -7650,11 +7653,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-         *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          */
         public Builder clearValidTo() {
           if (validToBuilder_ == null) {
@@ -7668,11 +7671,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-         *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          */
         public io.dstore.Values.timestampValue.Builder getValidToBuilder() {
           
@@ -7680,11 +7683,11 @@ public final class ImGetNodeProperties {
           return getValidToFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-         *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
           if (validToBuilder_ != null) {
@@ -7695,11 +7698,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
-         *
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID". "NULL" bedeutet, daß die Eigenschaft aktuell und bis auf weiteres auch in Zukunft ("für immer") "InheritsFromNodeID" zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_to = 30011;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -7719,21 +7722,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-         *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          */
         public boolean hasValidFrom() {
           return validFromBuilder_ != null || validFrom_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-         *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          */
         public io.dstore.Values.timestampValue getValidFrom() {
           if (validFromBuilder_ == null) {
@@ -7743,11 +7746,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-         *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          */
         public Builder setValidFrom(io.dstore.Values.timestampValue value) {
           if (validFromBuilder_ == null) {
@@ -7763,11 +7766,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-         *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          */
         public Builder setValidFrom(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -7781,11 +7784,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-         *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          */
         public Builder mergeValidFrom(io.dstore.Values.timestampValue value) {
           if (validFromBuilder_ == null) {
@@ -7803,11 +7806,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-         *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          */
         public Builder clearValidFrom() {
           if (validFromBuilder_ == null) {
@@ -7821,11 +7824,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-         *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          */
         public io.dstore.Values.timestampValue.Builder getValidFromBuilder() {
           
@@ -7833,11 +7836,11 @@ public final class ImGetNodeProperties {
           return getValidFromFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-         *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
           if (validFromBuilder_ != null) {
@@ -7848,11 +7851,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
-         *
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "InheritsFromNodeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue valid_from = 30015;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -7872,21 +7875,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inheritsFromNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-         *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          */
         public boolean hasInheritsFromNodeId() {
           return inheritsFromNodeIdBuilder_ != null || inheritsFromNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-         *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          */
         public io.dstore.Values.integerValue getInheritsFromNodeId() {
           if (inheritsFromNodeIdBuilder_ == null) {
@@ -7896,11 +7899,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-         *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          */
         public Builder setInheritsFromNodeId(io.dstore.Values.integerValue value) {
           if (inheritsFromNodeIdBuilder_ == null) {
@@ -7916,11 +7919,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-         *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          */
         public Builder setInheritsFromNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -7934,11 +7937,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-         *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          */
         public Builder mergeInheritsFromNodeId(io.dstore.Values.integerValue value) {
           if (inheritsFromNodeIdBuilder_ == null) {
@@ -7956,11 +7959,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-         *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          */
         public Builder clearInheritsFromNodeId() {
           if (inheritsFromNodeIdBuilder_ == null) {
@@ -7974,11 +7977,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-         *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          */
         public io.dstore.Values.integerValue.Builder getInheritsFromNodeIdBuilder() {
           
@@ -7986,11 +7989,11 @@ public final class ImGetNodeProperties {
           return getInheritsFromNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-         *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getInheritsFromNodeIdOrBuilder() {
           if (inheritsFromNodeIdBuilder_ != null) {
@@ -8001,11 +8004,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
-         *
          * <pre>
          * ID des zur "InheritsFromTreeNodeID" gehörenden Artikel-Elementes. Wert entspricht "NodeID", wenn "Value" nicht geerbt wurde, sondern "NodeID" direkt zugewiesen ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue inherits_from_node_id = 30017;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -8025,21 +8028,21 @@ public final class ImGetNodeProperties {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> validFromCharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-         *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          */
         public boolean hasValidFromChar() {
           return validFromCharBuilder_ != null || validFromChar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-         *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          */
         public io.dstore.Values.stringValue getValidFromChar() {
           if (validFromCharBuilder_ == null) {
@@ -8049,11 +8052,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-         *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          */
         public Builder setValidFromChar(io.dstore.Values.stringValue value) {
           if (validFromCharBuilder_ == null) {
@@ -8069,11 +8072,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-         *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          */
         public Builder setValidFromChar(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -8087,11 +8090,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-         *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          */
         public Builder mergeValidFromChar(io.dstore.Values.stringValue value) {
           if (validFromCharBuilder_ == null) {
@@ -8109,11 +8112,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-         *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          */
         public Builder clearValidFromChar() {
           if (validFromCharBuilder_ == null) {
@@ -8127,11 +8130,11 @@ public final class ImGetNodeProperties {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-         *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          */
         public io.dstore.Values.stringValue.Builder getValidFromCharBuilder() {
           
@@ -8139,11 +8142,11 @@ public final class ImGetNodeProperties {
           return getValidFromCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-         *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValidFromCharOrBuilder() {
           if (validFromCharBuilder_ != null) {
@@ -8154,11 +8157,11 @@ public final class ImGetNodeProperties {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
-         *
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue valid_from_char = 30018;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -8203,16 +8206,7 @@ public final class ImGetNodeProperties {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -8304,52 +8298,52 @@ public final class ImGetNodeProperties {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.ImGetNodeProperties.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.ImGetNodeProperties.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.ImGetNodeProperties.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.ImGetNodeProperties.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.ImGetNodeProperties.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -8424,34 +8418,40 @@ public final class ImGetNodeProperties {
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeProperties.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -8688,7 +8688,7 @@ public final class ImGetNodeProperties {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.ImGetNodeProperties.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -9191,11 +9191,11 @@ public final class ImGetNodeProperties {
           io.dstore.engine.procedures.ImGetNodeProperties.Response.Row, io.dstore.engine.procedures.ImGetNodeProperties.Response.Row.Builder, io.dstore.engine.procedures.ImGetNodeProperties.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.ImGetNodeProperties.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -9205,11 +9205,11 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -9219,11 +9219,11 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetNodeProperties.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -9233,11 +9233,11 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.ImGetNodeProperties.Response.Row value) {
@@ -9254,11 +9254,11 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.ImGetNodeProperties.Response.Row.Builder builderForValue) {
@@ -9272,11 +9272,11 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.ImGetNodeProperties.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -9292,11 +9292,11 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.ImGetNodeProperties.Response.Row value) {
@@ -9313,11 +9313,11 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.ImGetNodeProperties.Response.Row.Builder builderForValue) {
@@ -9331,11 +9331,11 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.ImGetNodeProperties.Response.Row.Builder builderForValue) {
@@ -9349,11 +9349,11 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.ImGetNodeProperties.Response.Row> values) {
@@ -9368,11 +9368,11 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -9385,11 +9385,11 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -9402,22 +9402,22 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetNodeProperties.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetNodeProperties.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -9427,11 +9427,11 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.ImGetNodeProperties.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -9442,22 +9442,22 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetNodeProperties.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.ImGetNodeProperties.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImGetNodeProperties.Response.Row.Builder addRowBuilder(
           int index) {
@@ -9465,11 +9465,11 @@ public final class ImGetNodeProperties {
             index, io.dstore.engine.procedures.ImGetNodeProperties.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_GetNodeProperties.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.ImGetNodeProperties.Response.Row.Builder> 
            getRowBuilderList() {
@@ -9519,16 +9519,7 @@ public final class ImGetNodeProperties {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -9547,19 +9538,19 @@ public final class ImGetNodeProperties {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetNodeProperties_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_GetNodeProperties_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetNodeProperties_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_GetNodeProperties_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetNodeProperties_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_GetNodeProperties_Response_Row_fieldAccessorTable;
 
@@ -9567,7 +9558,7 @@ public final class ImGetNodeProperties {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

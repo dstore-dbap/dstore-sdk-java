@@ -13,52 +13,52 @@ public final class FacetedNavigation {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
      */
     boolean hasBaseQuery();
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
      */
     io.dstore.elastic.Elastic.BoolQuery getBaseQuery();
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
      */
     io.dstore.elastic.Elastic.BoolQueryOrBuilder getBaseQueryOrBuilder();
 
     /**
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
      */
     boolean hasPostQuery();
     /**
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
      */
     io.dstore.elastic.Elastic.BoolQuery getPostQuery();
     /**
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
      */
     io.dstore.elastic.Elastic.BoolQueryOrBuilder getPostQueryOrBuilder();
 
@@ -135,11 +135,11 @@ public final class FacetedNavigation {
         int index);
 
     /**
-     * <code>optional int32 from = 10;</code>
-     *
      * <pre>
      * Paginierung GET /_search?size=5&amp;from=5
      * </pre>
+     *
+     * <code>optional int32 from = 10;</code>
      */
     int getFrom();
 
@@ -199,7 +199,8 @@ public final class FacetedNavigation {
     }
     private Request(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -287,11 +288,10 @@ public final class FacetedNavigation {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           facet_ = java.util.Collections.unmodifiableList(facet_);
@@ -381,7 +381,8 @@ public final class FacetedNavigation {
       }
       private RangeFacet(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -415,11 +416,10 @@ public final class FacetedNavigation {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
             range_ = java.util.Collections.unmodifiableList(range_);
@@ -569,34 +569,40 @@ public final class FacetedNavigation {
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -758,7 +764,7 @@ public final class FacetedNavigation {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1106,16 +1112,7 @@ public final class FacetedNavigation {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new RangeFacet(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -1190,7 +1187,8 @@ public final class FacetedNavigation {
       }
       private Facet(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1244,11 +1242,10 @@ public final class FacetedNavigation {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1300,7 +1297,8 @@ public final class FacetedNavigation {
         }
         private SortNoSort(
             com.google.protobuf.CodedInputStream input,
-            com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
           this();
           int mutable_bitField0_ = 0;
           try {
@@ -1326,11 +1324,10 @@ public final class FacetedNavigation {
               }
             }
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            throw new RuntimeException(e.setUnfinishedMessage(this));
+            throw e.setUnfinishedMessage(this);
           } catch (java.io.IOException e) {
-            throw new RuntimeException(
-                new com.google.protobuf.InvalidProtocolBufferException(
-                    e.getMessage()).setUnfinishedMessage(this));
+            throw new com.google.protobuf.InvalidProtocolBufferException(
+                e).setUnfinishedMessage(this);
           } finally {
             makeExtensionsImmutable();
           }
@@ -1359,7 +1356,7 @@ public final class FacetedNavigation {
          * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
          */
         public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
+          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.forNumber(sortOrder_);
           return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
         }
 
@@ -1417,34 +1414,40 @@ public final class FacetedNavigation {
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseFrom(java.io.InputStream input)
             throws java.io.IOException {
-          return PARSER.parseFrom(input);
+          return com.google.protobuf.GeneratedMessage
+              .parseWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseFrom(
             java.io.InputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return PARSER.parseFrom(input, extensionRegistry);
+          return com.google.protobuf.GeneratedMessage
+              .parseWithIOException(PARSER, input, extensionRegistry);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseDelimitedFrom(java.io.InputStream input)
             throws java.io.IOException {
-          return PARSER.parseDelimitedFrom(input);
+          return com.google.protobuf.GeneratedMessage
+              .parseDelimitedWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseDelimitedFrom(
             java.io.InputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return PARSER.parseDelimitedFrom(input, extensionRegistry);
+          return com.google.protobuf.GeneratedMessage
+              .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseFrom(
             com.google.protobuf.CodedInputStream input)
             throws java.io.IOException {
-          return PARSER.parseFrom(input);
+          return com.google.protobuf.GeneratedMessage
+              .parseWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return PARSER.parseFrom(input, extensionRegistry);
+          return com.google.protobuf.GeneratedMessage
+              .parseWithIOException(PARSER, input, extensionRegistry);
         }
 
         public Builder newBuilderForType() { return newBuilder(); }
@@ -1560,7 +1563,7 @@ public final class FacetedNavigation {
               parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
             } catch (com.google.protobuf.InvalidProtocolBufferException e) {
               parsedMessage = (io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort) e.getUnfinishedMessage();
-              throw e;
+              throw e.unwrapIOException();
             } finally {
               if (parsedMessage != null) {
                 mergeFrom(parsedMessage);
@@ -1588,7 +1591,7 @@ public final class FacetedNavigation {
            * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
            */
           public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-            io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
+            io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.forNumber(sortOrder_);
             return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
           }
           /**
@@ -1642,16 +1645,7 @@ public final class FacetedNavigation {
               com.google.protobuf.CodedInputStream input,
               com.google.protobuf.ExtensionRegistryLite extensionRegistry)
               throws com.google.protobuf.InvalidProtocolBufferException {
-            try {
               return new SortNoSort(input, extensionRegistry);
-            } catch (RuntimeException e) {
-              if (e.getCause() instanceof
-                  com.google.protobuf.InvalidProtocolBufferException) {
-                throw (com.google.protobuf.InvalidProtocolBufferException)
-                    e.getCause();
-              }
-              throw e;
-            }
           }
         };
 
@@ -1726,7 +1720,8 @@ public final class FacetedNavigation {
         }
         private FieldSort(
             com.google.protobuf.CodedInputStream input,
-            com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
           this();
           int mutable_bitField0_ = 0;
           try {
@@ -1764,11 +1759,10 @@ public final class FacetedNavigation {
               }
             }
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            throw new RuntimeException(e.setUnfinishedMessage(this));
+            throw e.setUnfinishedMessage(this);
           } catch (java.io.IOException e) {
-            throw new RuntimeException(
-                new com.google.protobuf.InvalidProtocolBufferException(
-                    e.getMessage()).setUnfinishedMessage(this));
+            throw new com.google.protobuf.InvalidProtocolBufferException(
+                e).setUnfinishedMessage(this);
           } finally {
             makeExtensionsImmutable();
           }
@@ -1831,7 +1825,7 @@ public final class FacetedNavigation {
          * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
          */
         public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
+          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.forNumber(sortOrder_);
           return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
         }
 
@@ -1847,7 +1841,7 @@ public final class FacetedNavigation {
          * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
          */
         public io.dstore.elastic.Elastic.Sort.Mode getSortMode() {
-          io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.valueOf(sortMode_);
+          io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.forNumber(sortMode_);
           return result == null ? io.dstore.elastic.Elastic.Sort.Mode.UNRECOGNIZED : result;
         }
 
@@ -1918,34 +1912,40 @@ public final class FacetedNavigation {
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseFrom(java.io.InputStream input)
             throws java.io.IOException {
-          return PARSER.parseFrom(input);
+          return com.google.protobuf.GeneratedMessage
+              .parseWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseFrom(
             java.io.InputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return PARSER.parseFrom(input, extensionRegistry);
+          return com.google.protobuf.GeneratedMessage
+              .parseWithIOException(PARSER, input, extensionRegistry);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseDelimitedFrom(java.io.InputStream input)
             throws java.io.IOException {
-          return PARSER.parseDelimitedFrom(input);
+          return com.google.protobuf.GeneratedMessage
+              .parseDelimitedWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseDelimitedFrom(
             java.io.InputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return PARSER.parseDelimitedFrom(input, extensionRegistry);
+          return com.google.protobuf.GeneratedMessage
+              .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseFrom(
             com.google.protobuf.CodedInputStream input)
             throws java.io.IOException {
-          return PARSER.parseFrom(input);
+          return com.google.protobuf.GeneratedMessage
+              .parseWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return PARSER.parseFrom(input, extensionRegistry);
+          return com.google.protobuf.GeneratedMessage
+              .parseWithIOException(PARSER, input, extensionRegistry);
         }
 
         public Builder newBuilderForType() { return newBuilder(); }
@@ -2074,7 +2074,7 @@ public final class FacetedNavigation {
               parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
             } catch (com.google.protobuf.InvalidProtocolBufferException e) {
               parsedMessage = (io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort) e.getUnfinishedMessage();
-              throw e;
+              throw e.unwrapIOException();
             } finally {
               if (parsedMessage != null) {
                 mergeFrom(parsedMessage);
@@ -2171,7 +2171,7 @@ public final class FacetedNavigation {
            * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
            */
           public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-            io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
+            io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.forNumber(sortOrder_);
             return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
           }
           /**
@@ -2215,7 +2215,7 @@ public final class FacetedNavigation {
            * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
            */
           public io.dstore.elastic.Elastic.Sort.Mode getSortMode() {
-            io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.valueOf(sortMode_);
+            io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.forNumber(sortMode_);
             return result == null ? io.dstore.elastic.Elastic.Sort.Mode.UNRECOGNIZED : result;
           }
           /**
@@ -2269,16 +2269,7 @@ public final class FacetedNavigation {
               com.google.protobuf.CodedInputStream input,
               com.google.protobuf.ExtensionRegistryLite extensionRegistry)
               throws com.google.protobuf.InvalidProtocolBufferException {
-            try {
               return new FieldSort(input, extensionRegistry);
-            } catch (RuntimeException e) {
-              if (e.getCause() instanceof
-                  com.google.protobuf.InvalidProtocolBufferException) {
-                throw (com.google.protobuf.InvalidProtocolBufferException)
-                    e.getCause();
-              }
-              throw e;
-            }
           }
         };
 
@@ -2304,17 +2295,24 @@ public final class FacetedNavigation {
         SORT_NO_SORT(2),
         FIELD_SORT(3),
         SORTBY_NOT_SET(0);
-        private int value = 0;
+        private final int value;
         private SortByCase(int value) {
           this.value = value;
         }
+        /**
+         * @deprecated Use {@link #forNumber(int)} instead.
+         */
+        @java.lang.Deprecated
         public static SortByCase valueOf(int value) {
+          return forNumber(value);
+        }
+
+        public static SortByCase forNumber(int value) {
           switch (value) {
             case 2: return SORT_NO_SORT;
             case 3: return FIELD_SORT;
             case 0: return SORTBY_NOT_SET;
-            default: throw new java.lang.IllegalArgumentException(
-              "Value is undefined for this oneof enum.");
+            default: return null;
           }
         }
         public int getNumber() {
@@ -2324,7 +2322,7 @@ public final class FacetedNavigation {
 
       public SortByCase
       getSortByCase() {
-        return SortByCase.valueOf(
+        return SortByCase.forNumber(
             sortByCase_);
       }
 
@@ -2469,34 +2467,40 @@ public final class FacetedNavigation {
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2643,7 +2647,7 @@ public final class FacetedNavigation {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.elastic.item.FacetedNavigation.Request.Facet) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2655,7 +2659,7 @@ public final class FacetedNavigation {
         private java.lang.Object sortBy_;
         public SortByCase
             getSortByCase() {
-          return SortByCase.valueOf(
+          return SortByCase.forNumber(
               sortByCase_);
         }
 
@@ -3025,16 +3029,7 @@ public final class FacetedNavigation {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Facet(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3057,31 +3052,31 @@ public final class FacetedNavigation {
     public static final int BASE_QUERY_FIELD_NUMBER = 1;
     private io.dstore.elastic.Elastic.BoolQuery baseQuery_;
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
      */
     public boolean hasBaseQuery() {
       return baseQuery_ != null;
     }
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
      */
     public io.dstore.elastic.Elastic.BoolQuery getBaseQuery() {
       return baseQuery_ == null ? io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance() : baseQuery_;
     }
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
      */
     public io.dstore.elastic.Elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
       return getBaseQuery();
@@ -3090,31 +3085,31 @@ public final class FacetedNavigation {
     public static final int POST_QUERY_FIELD_NUMBER = 2;
     private io.dstore.elastic.Elastic.BoolQuery postQuery_;
     /**
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
      */
     public boolean hasPostQuery() {
       return postQuery_ != null;
     }
     /**
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
      */
     public io.dstore.elastic.Elastic.BoolQuery getPostQuery() {
       return postQuery_ == null ? io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance() : postQuery_;
     }
     /**
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-     *
      * <pre>
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
      */
     public io.dstore.elastic.Elastic.BoolQueryOrBuilder getPostQueryOrBuilder() {
       return getPostQuery();
@@ -3228,11 +3223,11 @@ public final class FacetedNavigation {
     public static final int FROM_FIELD_NUMBER = 10;
     private int from_;
     /**
-     * <code>optional int32 from = 10;</code>
-     *
      * <pre>
      * Paginierung GET /_search?size=5&amp;from=5
      * </pre>
+     *
+     * <code>optional int32 from = 10;</code>
      */
     public int getFrom() {
       return from_;
@@ -3385,34 +3380,40 @@ public final class FacetedNavigation {
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3733,7 +3734,7 @@ public final class FacetedNavigation {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.item.FacetedNavigation.Request) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3747,21 +3748,21 @@ public final class FacetedNavigation {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> baseQueryBuilder_;
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public boolean hasBaseQuery() {
         return baseQueryBuilder_ != null || baseQuery_ != null;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public io.dstore.elastic.Elastic.BoolQuery getBaseQuery() {
         if (baseQueryBuilder_ == null) {
@@ -3771,11 +3772,11 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public Builder setBaseQuery(io.dstore.elastic.Elastic.BoolQuery value) {
         if (baseQueryBuilder_ == null) {
@@ -3791,11 +3792,11 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public Builder setBaseQuery(
           io.dstore.elastic.Elastic.BoolQuery.Builder builderForValue) {
@@ -3809,11 +3810,11 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public Builder mergeBaseQuery(io.dstore.elastic.Elastic.BoolQuery value) {
         if (baseQueryBuilder_ == null) {
@@ -3831,11 +3832,11 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public Builder clearBaseQuery() {
         if (baseQueryBuilder_ == null) {
@@ -3849,11 +3850,11 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public io.dstore.elastic.Elastic.BoolQuery.Builder getBaseQueryBuilder() {
         
@@ -3861,11 +3862,11 @@ public final class FacetedNavigation {
         return getBaseQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public io.dstore.elastic.Elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
         if (baseQueryBuilder_ != null) {
@@ -3876,11 +3877,11 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> 
@@ -3900,21 +3901,21 @@ public final class FacetedNavigation {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> postQueryBuilder_;
       /**
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public boolean hasPostQuery() {
         return postQueryBuilder_ != null || postQuery_ != null;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public io.dstore.elastic.Elastic.BoolQuery getPostQuery() {
         if (postQueryBuilder_ == null) {
@@ -3924,11 +3925,11 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public Builder setPostQuery(io.dstore.elastic.Elastic.BoolQuery value) {
         if (postQueryBuilder_ == null) {
@@ -3944,11 +3945,11 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public Builder setPostQuery(
           io.dstore.elastic.Elastic.BoolQuery.Builder builderForValue) {
@@ -3962,11 +3963,11 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public Builder mergePostQuery(io.dstore.elastic.Elastic.BoolQuery value) {
         if (postQueryBuilder_ == null) {
@@ -3984,11 +3985,11 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public Builder clearPostQuery() {
         if (postQueryBuilder_ == null) {
@@ -4002,11 +4003,11 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public io.dstore.elastic.Elastic.BoolQuery.Builder getPostQueryBuilder() {
         
@@ -4014,11 +4015,11 @@ public final class FacetedNavigation {
         return getPostQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public io.dstore.elastic.Elastic.BoolQueryOrBuilder getPostQueryOrBuilder() {
         if (postQueryBuilder_ != null) {
@@ -4029,11 +4030,11 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
-       *
        * <pre>
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> 
@@ -4771,21 +4772,21 @@ public final class FacetedNavigation {
 
       private int from_ ;
       /**
-       * <code>optional int32 from = 10;</code>
-       *
        * <pre>
        * Paginierung GET /_search?size=5&amp;from=5
        * </pre>
+       *
+       * <code>optional int32 from = 10;</code>
        */
       public int getFrom() {
         return from_;
       }
       /**
-       * <code>optional int32 from = 10;</code>
-       *
        * <pre>
        * Paginierung GET /_search?size=5&amp;from=5
        * </pre>
+       *
+       * <code>optional int32 from = 10;</code>
        */
       public Builder setFrom(int value) {
         
@@ -4794,11 +4795,11 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>optional int32 from = 10;</code>
-       *
        * <pre>
        * Paginierung GET /_search?size=5&amp;from=5
        * </pre>
+       *
+       * <code>optional int32 from = 10;</code>
        */
       public Builder clearFrom() {
         
@@ -5102,16 +5103,7 @@ public final class FacetedNavigation {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Request(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5235,7 +5227,8 @@ public final class FacetedNavigation {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -5295,11 +5288,10 @@ public final class FacetedNavigation {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           item_ = java.util.Collections.unmodifiableList(item_);
@@ -5538,34 +5530,40 @@ public final class FacetedNavigation {
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -5789,7 +5787,7 @@ public final class FacetedNavigation {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.item.FacetedNavigation.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -6520,16 +6518,7 @@ public final class FacetedNavigation {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -6548,34 +6537,34 @@ public final class FacetedNavigation {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_Facet_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Response_fieldAccessorTable;
 
@@ -6583,7 +6572,7 @@ public final class FacetedNavigation {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

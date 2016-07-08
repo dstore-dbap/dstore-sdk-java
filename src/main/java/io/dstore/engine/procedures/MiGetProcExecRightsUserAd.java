@@ -90,7 +90,8 @@ public final class MiGetProcExecRightsUserAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class MiGetProcExecRightsUserAd {
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class MiGetProcExecRightsUserAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class MiGetProcExecRightsUserAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class MiGetProcExecRightsUserAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class MiGetProcExecRightsUserAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,127 +1257,127 @@ public final class MiGetProcExecRightsUserAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-       *
        * <pre>
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
        */
       boolean hasExecutionRight();
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-       *
        * <pre>
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
        */
       io.dstore.Values.integerValue getExecutionRight();
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-       *
        * <pre>
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getExecutionRightOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
        */
       boolean hasProcedureId();
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
        */
       io.dstore.Values.integerValue getProcedureId();
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       boolean hasUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       io.dstore.Values.stringValue getUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur "ProcedureID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       boolean hasProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur "ProcedureID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       io.dstore.Values.stringValue getProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur "ProcedureID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
        */
       boolean hasUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
        */
       io.dstore.Values.integerValue getUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
     }
@@ -1406,7 +1403,8 @@ public final class MiGetProcExecRightsUserAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1496,11 +1494,10 @@ public final class MiGetProcExecRightsUserAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1529,31 +1526,31 @@ public final class MiGetProcExecRightsUserAd {
       public static final int EXECUTION_RIGHT_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue executionRight_;
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-       *
        * <pre>
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
        */
       public boolean hasExecutionRight() {
         return executionRight_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-       *
        * <pre>
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
        */
       public io.dstore.Values.integerValue getExecutionRight() {
         return executionRight_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : executionRight_;
       }
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-       *
        * <pre>
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getExecutionRightOrBuilder() {
         return getExecutionRight();
@@ -1562,31 +1559,31 @@ public final class MiGetProcExecRightsUserAd {
       public static final int PROCEDURE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue procedureId_;
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
        */
       public boolean hasProcedureId() {
         return procedureId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getProcedureId() {
         return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
         return getProcedureId();
@@ -1595,31 +1592,31 @@ public final class MiGetProcExecRightsUserAd {
       public static final int USER_NAME_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue userName_;
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       public io.dstore.Values.stringValue getUserName() {
         return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
@@ -1628,31 +1625,31 @@ public final class MiGetProcExecRightsUserAd {
       public static final int PROCEDURE_NAME_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue procedureName_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur "ProcedureID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur "ProcedureID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       public io.dstore.Values.stringValue getProcedureName() {
         return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur "ProcedureID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
@@ -1661,31 +1658,31 @@ public final class MiGetProcExecRightsUserAd {
       public static final int USER_ID_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue userId_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
        */
       public io.dstore.Values.integerValue getUserId() {
         return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-       *
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
@@ -1780,34 +1777,40 @@ public final class MiGetProcExecRightsUserAd {
       }
       public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1993,7 +1996,7 @@ public final class MiGetProcExecRightsUserAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2032,21 +2035,21 @@ public final class MiGetProcExecRightsUserAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> executionRightBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-         *
          * <pre>
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
          */
         public boolean hasExecutionRight() {
           return executionRightBuilder_ != null || executionRight_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-         *
          * <pre>
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
          */
         public io.dstore.Values.integerValue getExecutionRight() {
           if (executionRightBuilder_ == null) {
@@ -2056,11 +2059,11 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-         *
          * <pre>
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
          */
         public Builder setExecutionRight(io.dstore.Values.integerValue value) {
           if (executionRightBuilder_ == null) {
@@ -2076,11 +2079,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-         *
          * <pre>
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
          */
         public Builder setExecutionRight(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2094,11 +2097,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-         *
          * <pre>
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
          */
         public Builder mergeExecutionRight(io.dstore.Values.integerValue value) {
           if (executionRightBuilder_ == null) {
@@ -2116,11 +2119,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-         *
          * <pre>
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
          */
         public Builder clearExecutionRight() {
           if (executionRightBuilder_ == null) {
@@ -2134,11 +2137,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-         *
          * <pre>
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getExecutionRightBuilder() {
           
@@ -2146,11 +2149,11 @@ public final class MiGetProcExecRightsUserAd {
           return getExecutionRightFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-         *
          * <pre>
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getExecutionRightOrBuilder() {
           if (executionRightBuilder_ != null) {
@@ -2161,11 +2164,11 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
-         *
          * <pre>
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2185,21 +2188,21 @@ public final class MiGetProcExecRightsUserAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
          */
         public boolean hasProcedureId() {
           return procedureIdBuilder_ != null || procedureId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getProcedureId() {
           if (procedureIdBuilder_ == null) {
@@ -2209,11 +2212,11 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
          */
         public Builder setProcedureId(io.dstore.Values.integerValue value) {
           if (procedureIdBuilder_ == null) {
@@ -2229,11 +2232,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
          */
         public Builder setProcedureId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2247,11 +2250,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
          */
         public Builder mergeProcedureId(io.dstore.Values.integerValue value) {
           if (procedureIdBuilder_ == null) {
@@ -2269,11 +2272,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
          */
         public Builder clearProcedureId() {
           if (procedureIdBuilder_ == null) {
@@ -2287,11 +2290,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getProcedureIdBuilder() {
           
@@ -2299,11 +2302,11 @@ public final class MiGetProcExecRightsUserAd {
           return getProcedureIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
           if (procedureIdBuilder_ != null) {
@@ -2314,11 +2317,11 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2338,21 +2341,21 @@ public final class MiGetProcExecRightsUserAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public io.dstore.Values.stringValue getUserName() {
           if (userNameBuilder_ == null) {
@@ -2362,11 +2365,11 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public Builder setUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -2382,11 +2385,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public Builder setUserName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2400,11 +2403,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public Builder mergeUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -2422,11 +2425,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -2440,11 +2443,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
           
@@ -2452,11 +2455,11 @@ public final class MiGetProcExecRightsUserAd {
           return getUserNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
@@ -2467,11 +2470,11 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2491,21 +2494,21 @@ public final class MiGetProcExecRightsUserAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur "ProcedureID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur "ProcedureID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public io.dstore.Values.stringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2515,11 +2518,11 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur "ProcedureID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2535,11 +2538,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur "ProcedureID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2553,11 +2556,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur "ProcedureID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2575,11 +2578,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur "ProcedureID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2593,11 +2596,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur "ProcedureID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
           
@@ -2605,11 +2608,11 @@ public final class MiGetProcExecRightsUserAd {
           return getProcedureNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur "ProcedureID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
@@ -2620,11 +2623,11 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur "ProcedureID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2644,21 +2647,21 @@ public final class MiGetProcExecRightsUserAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
          */
         public io.dstore.Values.integerValue getUserId() {
           if (userIdBuilder_ == null) {
@@ -2668,11 +2671,11 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
          */
         public Builder setUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -2688,11 +2691,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
          */
         public Builder setUserId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2706,11 +2709,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
          */
         public Builder mergeUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -2728,11 +2731,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -2746,11 +2749,11 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
           
@@ -2758,11 +2761,11 @@ public final class MiGetProcExecRightsUserAd {
           return getUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
@@ -2773,11 +2776,11 @@ public final class MiGetProcExecRightsUserAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
-         *
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2822,16 +2825,7 @@ public final class MiGetProcExecRightsUserAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2923,52 +2917,52 @@ public final class MiGetProcExecRightsUserAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3043,34 +3037,40 @@ public final class MiGetProcExecRightsUserAd {
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3307,7 +3307,7 @@ public final class MiGetProcExecRightsUserAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3810,11 +3810,11 @@ public final class MiGetProcExecRightsUserAd {
           io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row, io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3824,11 +3824,11 @@ public final class MiGetProcExecRightsUserAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3838,11 +3838,11 @@ public final class MiGetProcExecRightsUserAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3852,11 +3852,11 @@ public final class MiGetProcExecRightsUserAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row value) {
@@ -3873,11 +3873,11 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row.Builder builderForValue) {
@@ -3891,11 +3891,11 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3911,11 +3911,11 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row value) {
@@ -3932,11 +3932,11 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row.Builder builderForValue) {
@@ -3950,11 +3950,11 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row.Builder builderForValue) {
@@ -3968,11 +3968,11 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row> values) {
@@ -3987,11 +3987,11 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4004,11 +4004,11 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4021,22 +4021,22 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4046,11 +4046,11 @@ public final class MiGetProcExecRightsUserAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4061,22 +4061,22 @@ public final class MiGetProcExecRightsUserAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4084,11 +4084,11 @@ public final class MiGetProcExecRightsUserAd {
             index, io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4138,16 +4138,7 @@ public final class MiGetProcExecRightsUserAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4166,19 +4157,19 @@ public final class MiGetProcExecRightsUserAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetProcExecRights_User_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetProcExecRights_User_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetProcExecRights_User_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetProcExecRights_User_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetProcExecRights_User_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetProcExecRights_User_Ad_Response_Row_fieldAccessorTable;
 
@@ -4186,7 +4177,7 @@ public final class MiGetProcExecRightsUserAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

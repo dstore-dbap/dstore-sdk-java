@@ -166,7 +166,8 @@ public final class CoSearchMemberSettingsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -312,11 +313,10 @@ public final class CoSearchMemberSettingsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -688,34 +688,40 @@ public final class CoSearchMemberSettingsAd {
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -965,7 +971,7 @@ public final class CoSearchMemberSettingsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoSearchMemberSettingsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2004,16 +2010,7 @@ public final class CoSearchMemberSettingsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2085,45 +2082,45 @@ public final class CoSearchMemberSettingsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -2152,7 +2149,8 @@ public final class CoSearchMemberSettingsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2196,11 +2194,10 @@ public final class CoSearchMemberSettingsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2236,77 +2233,77 @@ public final class CoSearchMemberSettingsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
        */
       boolean hasIdentifyingValue();
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
        */
       io.dstore.Values.stringValue getIdentifyingValue();
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-       *
        * <pre>
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
        */
       boolean hasSettingValue();
       /**
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-       *
        * <pre>
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
        */
       io.dstore.Values.stringValue getSettingValue();
       /**
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-       *
        * <pre>
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getSettingValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-       *
        * <pre>
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
        */
       boolean hasCommunityMemberId();
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-       *
        * <pre>
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
        */
       io.dstore.Values.integerValue getCommunityMemberId();
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-       *
        * <pre>
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
     }
@@ -2332,7 +2329,8 @@ public final class CoSearchMemberSettingsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2396,11 +2394,10 @@ public final class CoSearchMemberSettingsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2429,31 +2426,31 @@ public final class CoSearchMemberSettingsAd {
       public static final int IDENTIFYING_VALUE_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue identifyingValue_;
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
        */
       public boolean hasIdentifyingValue() {
         return identifyingValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
        */
       public io.dstore.Values.stringValue getIdentifyingValue() {
         return identifyingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder() {
         return getIdentifyingValue();
@@ -2462,31 +2459,31 @@ public final class CoSearchMemberSettingsAd {
       public static final int SETTING_VALUE_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue settingValue_;
       /**
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-       *
        * <pre>
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
        */
       public boolean hasSettingValue() {
         return settingValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-       *
        * <pre>
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
        */
       public io.dstore.Values.stringValue getSettingValue() {
         return settingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : settingValue_;
       }
       /**
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-       *
        * <pre>
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getSettingValueOrBuilder() {
         return getSettingValue();
@@ -2495,31 +2492,31 @@ public final class CoSearchMemberSettingsAd {
       public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue communityMemberId_;
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-       *
        * <pre>
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-       *
        * <pre>
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getCommunityMemberId() {
         return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-       *
        * <pre>
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
         return getCommunityMemberId();
@@ -2600,34 +2597,40 @@ public final class CoSearchMemberSettingsAd {
       }
       public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2785,7 +2788,7 @@ public final class CoSearchMemberSettingsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2824,21 +2827,21 @@ public final class CoSearchMemberSettingsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> identifyingValueBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
          */
         public boolean hasIdentifyingValue() {
           return identifyingValueBuilder_ != null || identifyingValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
          */
         public io.dstore.Values.stringValue getIdentifyingValue() {
           if (identifyingValueBuilder_ == null) {
@@ -2848,11 +2851,11 @@ public final class CoSearchMemberSettingsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
          */
         public Builder setIdentifyingValue(io.dstore.Values.stringValue value) {
           if (identifyingValueBuilder_ == null) {
@@ -2868,11 +2871,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
          */
         public Builder setIdentifyingValue(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2886,11 +2889,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
          */
         public Builder mergeIdentifyingValue(io.dstore.Values.stringValue value) {
           if (identifyingValueBuilder_ == null) {
@@ -2908,11 +2911,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
          */
         public Builder clearIdentifyingValue() {
           if (identifyingValueBuilder_ == null) {
@@ -2926,11 +2929,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getIdentifyingValueBuilder() {
           
@@ -2938,11 +2941,11 @@ public final class CoSearchMemberSettingsAd {
           return getIdentifyingValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder() {
           if (identifyingValueBuilder_ != null) {
@@ -2953,11 +2956,11 @@ public final class CoSearchMemberSettingsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2977,21 +2980,21 @@ public final class CoSearchMemberSettingsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> settingValueBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-         *
          * <pre>
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
          */
         public boolean hasSettingValue() {
           return settingValueBuilder_ != null || settingValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-         *
          * <pre>
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
          */
         public io.dstore.Values.stringValue getSettingValue() {
           if (settingValueBuilder_ == null) {
@@ -3001,11 +3004,11 @@ public final class CoSearchMemberSettingsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-         *
          * <pre>
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
          */
         public Builder setSettingValue(io.dstore.Values.stringValue value) {
           if (settingValueBuilder_ == null) {
@@ -3021,11 +3024,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-         *
          * <pre>
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
          */
         public Builder setSettingValue(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3039,11 +3042,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-         *
          * <pre>
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
          */
         public Builder mergeSettingValue(io.dstore.Values.stringValue value) {
           if (settingValueBuilder_ == null) {
@@ -3061,11 +3064,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-         *
          * <pre>
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
          */
         public Builder clearSettingValue() {
           if (settingValueBuilder_ == null) {
@@ -3079,11 +3082,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-         *
          * <pre>
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getSettingValueBuilder() {
           
@@ -3091,11 +3094,11 @@ public final class CoSearchMemberSettingsAd {
           return getSettingValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-         *
          * <pre>
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getSettingValueOrBuilder() {
           if (settingValueBuilder_ != null) {
@@ -3106,11 +3109,11 @@ public final class CoSearchMemberSettingsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
-         *
          * <pre>
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3130,21 +3133,21 @@ public final class CoSearchMemberSettingsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-         *
          * <pre>
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
          */
         public boolean hasCommunityMemberId() {
           return communityMemberIdBuilder_ != null || communityMemberId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-         *
          * <pre>
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
@@ -3154,11 +3157,11 @@ public final class CoSearchMemberSettingsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-         *
          * <pre>
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
          */
         public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
           if (communityMemberIdBuilder_ == null) {
@@ -3174,11 +3177,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-         *
          * <pre>
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
          */
         public Builder setCommunityMemberId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3192,11 +3195,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-         *
          * <pre>
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
          */
         public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
           if (communityMemberIdBuilder_ == null) {
@@ -3214,11 +3217,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-         *
          * <pre>
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
          */
         public Builder clearCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
@@ -3232,11 +3235,11 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-         *
          * <pre>
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
           
@@ -3244,11 +3247,11 @@ public final class CoSearchMemberSettingsAd {
           return getCommunityMemberIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-         *
          * <pre>
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
           if (communityMemberIdBuilder_ != null) {
@@ -3259,11 +3262,11 @@ public final class CoSearchMemberSettingsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
-         *
          * <pre>
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3308,16 +3311,7 @@ public final class CoSearchMemberSettingsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3409,52 +3403,52 @@ public final class CoSearchMemberSettingsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3529,34 +3523,40 @@ public final class CoSearchMemberSettingsAd {
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3793,7 +3793,7 @@ public final class CoSearchMemberSettingsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4296,11 +4296,11 @@ public final class CoSearchMemberSettingsAd {
           io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row, io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row.Builder, io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -4310,11 +4310,11 @@ public final class CoSearchMemberSettingsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -4324,11 +4324,11 @@ public final class CoSearchMemberSettingsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -4338,11 +4338,11 @@ public final class CoSearchMemberSettingsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row value) {
@@ -4359,11 +4359,11 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row.Builder builderForValue) {
@@ -4377,11 +4377,11 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -4397,11 +4397,11 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row value) {
@@ -4418,11 +4418,11 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row.Builder builderForValue) {
@@ -4436,11 +4436,11 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row.Builder builderForValue) {
@@ -4454,11 +4454,11 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row> values) {
@@ -4473,11 +4473,11 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4490,11 +4490,11 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4507,22 +4507,22 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4532,11 +4532,11 @@ public final class CoSearchMemberSettingsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4547,22 +4547,22 @@ public final class CoSearchMemberSettingsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4570,11 +4570,11 @@ public final class CoSearchMemberSettingsAd {
             index, io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_SearchMemberSettings_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4624,16 +4624,7 @@ public final class CoSearchMemberSettingsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4652,19 +4643,19 @@ public final class CoSearchMemberSettingsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_SearchMemberSettings_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_SearchMemberSettings_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_SearchMemberSettings_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_SearchMemberSettings_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_SearchMemberSettings_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_SearchMemberSettings_Ad_Response_Row_fieldAccessorTable;
 
@@ -4672,7 +4663,7 @@ public final class CoSearchMemberSettingsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

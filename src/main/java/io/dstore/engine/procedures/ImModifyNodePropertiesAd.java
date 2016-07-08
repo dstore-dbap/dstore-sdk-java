@@ -223,7 +223,8 @@ public final class ImModifyNodePropertiesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -423,11 +424,10 @@ public final class ImModifyNodePropertiesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -931,34 +931,40 @@ public final class ImModifyNodePropertiesAd {
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1268,7 +1274,7 @@ public final class ImModifyNodePropertiesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2736,16 +2742,7 @@ public final class ImModifyNodePropertiesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2877,7 +2874,8 @@ public final class ImModifyNodePropertiesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2934,11 +2932,10 @@ public final class ImModifyNodePropertiesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2974,77 +2971,77 @@ public final class ImModifyNodePropertiesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-       *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-       *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        */
       io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-       *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        */
       boolean hasNodeCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        */
       io.dstore.Values.integerValue getNodeCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       boolean hasErrorCode();
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       io.dstore.Values.integerValue getErrorCode();
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder();
     }
@@ -3070,7 +3067,8 @@ public final class ImModifyNodePropertiesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -3134,11 +3132,10 @@ public final class ImModifyNodePropertiesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -3167,31 +3164,31 @@ public final class ImModifyNodePropertiesAd {
       public static final int NODE_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-       *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-       *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getNodeId() {
         return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-       *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -3200,31 +3197,31 @@ public final class ImModifyNodePropertiesAd {
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue nodeCharacteristicId_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getNodeCharacteristicId() {
         return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-       *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
@@ -3233,31 +3230,31 @@ public final class ImModifyNodePropertiesAd {
       public static final int ERROR_CODE_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue errorCode_;
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       public boolean hasErrorCode() {
         return errorCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       public io.dstore.Values.integerValue getErrorCode() {
         return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
       }
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
@@ -3338,34 +3335,40 @@ public final class ImModifyNodePropertiesAd {
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -3523,7 +3526,7 @@ public final class ImModifyNodePropertiesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -3562,21 +3565,21 @@ public final class ImModifyNodePropertiesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-         *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-         *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -3586,11 +3589,11 @@ public final class ImModifyNodePropertiesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-         *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          */
         public Builder setNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -3606,11 +3609,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-         *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          */
         public Builder setNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3624,11 +3627,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-         *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          */
         public Builder mergeNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -3646,11 +3649,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-         *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -3664,11 +3667,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-         *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
           
@@ -3676,11 +3679,11 @@ public final class ImModifyNodePropertiesAd {
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-         *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -3691,11 +3694,11 @@ public final class ImModifyNodePropertiesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
-         *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3715,21 +3718,21 @@ public final class ImModifyNodePropertiesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
         public boolean hasNodeCharacteristicId() {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -3739,11 +3742,11 @@ public final class ImModifyNodePropertiesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
         public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -3759,11 +3762,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
         public Builder setNodeCharacteristicId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3777,11 +3780,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
         public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -3799,11 +3802,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
         public Builder clearNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -3817,11 +3820,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
           
@@ -3829,11 +3832,11 @@ public final class ImModifyNodePropertiesAd {
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
@@ -3844,11 +3847,11 @@ public final class ImModifyNodePropertiesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
-         *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3868,21 +3871,21 @@ public final class ImModifyNodePropertiesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public boolean hasErrorCode() {
           return errorCodeBuilder_ != null || errorCode_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public io.dstore.Values.integerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -3892,11 +3895,11 @@ public final class ImModifyNodePropertiesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public Builder setErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -3912,11 +3915,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public Builder setErrorCode(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3930,11 +3933,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public Builder mergeErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -3952,11 +3955,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public Builder clearErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -3970,11 +3973,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getErrorCodeBuilder() {
           
@@ -3982,11 +3985,11 @@ public final class ImModifyNodePropertiesAd {
           return getErrorCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
@@ -3997,11 +4000,11 @@ public final class ImModifyNodePropertiesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4046,16 +4049,7 @@ public final class ImModifyNodePropertiesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4276,34 +4270,40 @@ public final class ImModifyNodePropertiesAd {
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -4556,7 +4556,7 @@ public final class ImModifyNodePropertiesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5432,16 +5432,7 @@ public final class ImModifyNodePropertiesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5460,19 +5451,19 @@ public final class ImModifyNodePropertiesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_fieldAccessorTable;
 
@@ -5480,7 +5471,7 @@ public final class ImModifyNodePropertiesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

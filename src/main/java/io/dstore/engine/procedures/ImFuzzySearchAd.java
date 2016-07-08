@@ -261,7 +261,8 @@ public final class ImFuzzySearchAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -497,11 +498,10 @@ public final class ImFuzzySearchAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -1093,34 +1093,40 @@ public final class ImFuzzySearchAd {
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1470,7 +1476,7 @@ public final class ImFuzzySearchAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.ImFuzzySearchAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3224,16 +3230,7 @@ public final class ImFuzzySearchAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3305,45 +3302,45 @@ public final class ImFuzzySearchAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.ImFuzzySearchAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.ImFuzzySearchAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -3372,7 +3369,8 @@ public final class ImFuzzySearchAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -3416,11 +3414,10 @@ public final class ImFuzzySearchAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -3456,252 +3453,252 @@ public final class ImFuzzySearchAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
        */
       boolean hasNodeDescription();
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
        */
       io.dstore.Values.stringValue getNodeDescription();
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue active = 10002;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        */
       boolean hasActive();
       /**
-       * <code>optional .dstore.values.booleanValue active = 10002;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        */
       io.dstore.Values.booleanValue getActive();
       /**
-       * <code>optional .dstore.values.booleanValue active = 10002;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-       *
        * <pre>
        * Hierarchie des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
        */
       boolean hasPredecessorsLevelNo();
       /**
-       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-       *
        * <pre>
        * Hierarchie des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
        */
       io.dstore.Values.integerValue getPredecessorsLevelNo();
       /**
-       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-       *
        * <pre>
        * Hierarchie des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPredecessorsLevelNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-       *
        * <pre>
        * Hierarchie des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
        */
       boolean hasPrePredecessorsLevelNo();
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-       *
        * <pre>
        * Hierarchie des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
        */
       io.dstore.Values.integerValue getPrePredecessorsLevelNo();
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-       *
        * <pre>
        * Hierarchie des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPrePredecessorsLevelNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID des gefundenen Elementes im Artikelbaum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID des gefundenen Elementes im Artikelbaum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID des gefundenen Elementes im Artikelbaum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
        */
       boolean hasPrePredecessorsDescription();
       /**
-       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
        */
       io.dstore.Values.stringValue getPrePredecessorsDescription();
       /**
-       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getPrePredecessorsDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-       *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
        */
       boolean hasPrePredecessorsTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-       *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
        */
       io.dstore.Values.integerValue getPrePredecessorsTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-       *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-       *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
        */
       boolean hasPredecessorsTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-       *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
        */
       io.dstore.Values.integerValue getPredecessorsTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-       *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-       *
        * <pre>
        * Bezeichnung des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
        */
       boolean hasPredecessorsDescription();
       /**
-       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-       *
        * <pre>
        * Bezeichnung des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
        */
       io.dstore.Values.stringValue getPredecessorsDescription();
       /**
-       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-       *
        * <pre>
        * Bezeichnung des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
        */
       io.dstore.Values.stringValueOrBuilder getPredecessorsDescriptionOrBuilder();
     }
@@ -3727,7 +3724,8 @@ public final class ImFuzzySearchAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -3882,11 +3880,10 @@ public final class ImFuzzySearchAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -3915,31 +3912,31 @@ public final class ImFuzzySearchAd {
       public static final int NODE_DESCRIPTION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue nodeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
        */
       public io.dstore.Values.stringValue getNodeDescription() {
         return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue node_description = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
@@ -3948,31 +3945,31 @@ public final class ImFuzzySearchAd {
       public static final int ACTIVE_FIELD_NUMBER = 10002;
       private io.dstore.Values.booleanValue active_;
       /**
-       * <code>optional .dstore.values.booleanValue active = 10002;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        */
       public boolean hasActive() {
         return active_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 10002;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        */
       public io.dstore.Values.booleanValue getActive() {
         return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 10002;</code>
-       *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
@@ -3981,31 +3978,31 @@ public final class ImFuzzySearchAd {
       public static final int PREDECESSORS_LEVEL_NO_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue predecessorsLevelNo_;
       /**
-       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-       *
        * <pre>
        * Hierarchie des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
        */
       public boolean hasPredecessorsLevelNo() {
         return predecessorsLevelNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-       *
        * <pre>
        * Hierarchie des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
        */
       public io.dstore.Values.integerValue getPredecessorsLevelNo() {
         return predecessorsLevelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorsLevelNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-       *
        * <pre>
        * Hierarchie des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPredecessorsLevelNoOrBuilder() {
         return getPredecessorsLevelNo();
@@ -4014,31 +4011,31 @@ public final class ImFuzzySearchAd {
       public static final int PRE_PREDECESSORS_LEVEL_NO_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue prePredecessorsLevelNo_;
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-       *
        * <pre>
        * Hierarchie des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
        */
       public boolean hasPrePredecessorsLevelNo() {
         return prePredecessorsLevelNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-       *
        * <pre>
        * Hierarchie des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
        */
       public io.dstore.Values.integerValue getPrePredecessorsLevelNo() {
         return prePredecessorsLevelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : prePredecessorsLevelNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-       *
        * <pre>
        * Hierarchie des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPrePredecessorsLevelNoOrBuilder() {
         return getPrePredecessorsLevelNo();
@@ -4047,31 +4044,31 @@ public final class ImFuzzySearchAd {
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID des gefundenen Elementes im Artikelbaum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID des gefundenen Elementes im Artikelbaum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       public io.dstore.Values.integerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-       *
        * <pre>
        * ID des gefundenen Elementes im Artikelbaum
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -4080,31 +4077,31 @@ public final class ImFuzzySearchAd {
       public static final int NODE_ID_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       public io.dstore.Values.integerValue getNodeId() {
         return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-       *
        * <pre>
        * ID des gefundenen Artikel-Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -4113,31 +4110,31 @@ public final class ImFuzzySearchAd {
       public static final int PRE_PREDECESSORS_DESCRIPTION_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue prePredecessorsDescription_;
       /**
-       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
        */
       public boolean hasPrePredecessorsDescription() {
         return prePredecessorsDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
        */
       public io.dstore.Values.stringValue getPrePredecessorsDescription() {
         return prePredecessorsDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : prePredecessorsDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-       *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getPrePredecessorsDescriptionOrBuilder() {
         return getPrePredecessorsDescription();
@@ -4146,31 +4143,31 @@ public final class ImFuzzySearchAd {
       public static final int PRE_PREDECESSORS_TREE_NODE_ID_FIELD_NUMBER = 10008;
       private io.dstore.Values.integerValue prePredecessorsTreeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-       *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
        */
       public boolean hasPrePredecessorsTreeNodeId() {
         return prePredecessorsTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-       *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
        */
       public io.dstore.Values.integerValue getPrePredecessorsTreeNodeId() {
         return prePredecessorsTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : prePredecessorsTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-       *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder() {
         return getPrePredecessorsTreeNodeId();
@@ -4179,31 +4176,31 @@ public final class ImFuzzySearchAd {
       public static final int PREDECESSORS_TREE_NODE_ID_FIELD_NUMBER = 10009;
       private io.dstore.Values.integerValue predecessorsTreeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-       *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
        */
       public boolean hasPredecessorsTreeNodeId() {
         return predecessorsTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-       *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
        */
       public io.dstore.Values.integerValue getPredecessorsTreeNodeId() {
         return predecessorsTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorsTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-       *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder() {
         return getPredecessorsTreeNodeId();
@@ -4212,31 +4209,31 @@ public final class ImFuzzySearchAd {
       public static final int PREDECESSORS_DESCRIPTION_FIELD_NUMBER = 10010;
       private io.dstore.Values.stringValue predecessorsDescription_;
       /**
-       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-       *
        * <pre>
        * Bezeichnung des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
        */
       public boolean hasPredecessorsDescription() {
         return predecessorsDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-       *
        * <pre>
        * Bezeichnung des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
        */
       public io.dstore.Values.stringValue getPredecessorsDescription() {
         return predecessorsDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : predecessorsDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-       *
        * <pre>
        * Bezeichnung des Vorgängers
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getPredecessorsDescriptionOrBuilder() {
         return getPredecessorsDescription();
@@ -4366,34 +4363,40 @@ public final class ImFuzzySearchAd {
       }
       public static io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -4649,7 +4652,7 @@ public final class ImFuzzySearchAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -4688,21 +4691,21 @@ public final class ImFuzzySearchAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
          */
         public io.dstore.Values.stringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -4712,11 +4715,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(io.dstore.Values.stringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -4732,11 +4735,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4750,11 +4753,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
          */
         public Builder mergeNodeDescription(io.dstore.Values.stringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -4772,11 +4775,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -4790,11 +4793,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getNodeDescriptionBuilder() {
           
@@ -4802,11 +4805,11 @@ public final class ImFuzzySearchAd {
           return getNodeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
@@ -4817,11 +4820,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue node_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4841,21 +4844,21 @@ public final class ImFuzzySearchAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activeBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue active = 10002;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          */
         public boolean hasActive() {
           return activeBuilder_ != null || active_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10002;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          */
         public io.dstore.Values.booleanValue getActive() {
           if (activeBuilder_ == null) {
@@ -4865,11 +4868,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10002;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          */
         public Builder setActive(io.dstore.Values.booleanValue value) {
           if (activeBuilder_ == null) {
@@ -4885,11 +4888,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10002;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          */
         public Builder setActive(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -4903,11 +4906,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10002;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          */
         public Builder mergeActive(io.dstore.Values.booleanValue value) {
           if (activeBuilder_ == null) {
@@ -4925,11 +4928,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10002;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          */
         public Builder clearActive() {
           if (activeBuilder_ == null) {
@@ -4943,11 +4946,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10002;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          */
         public io.dstore.Values.booleanValue.Builder getActiveBuilder() {
           
@@ -4955,11 +4958,11 @@ public final class ImFuzzySearchAd {
           return getActiveFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10002;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
@@ -4970,11 +4973,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10002;</code>
-         *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -4994,21 +4997,21 @@ public final class ImFuzzySearchAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorsLevelNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-         *
          * <pre>
          * Hierarchie des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
          */
         public boolean hasPredecessorsLevelNo() {
           return predecessorsLevelNoBuilder_ != null || predecessorsLevelNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-         *
          * <pre>
          * Hierarchie des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
          */
         public io.dstore.Values.integerValue getPredecessorsLevelNo() {
           if (predecessorsLevelNoBuilder_ == null) {
@@ -5018,11 +5021,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-         *
          * <pre>
          * Hierarchie des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
          */
         public Builder setPredecessorsLevelNo(io.dstore.Values.integerValue value) {
           if (predecessorsLevelNoBuilder_ == null) {
@@ -5038,11 +5041,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-         *
          * <pre>
          * Hierarchie des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
          */
         public Builder setPredecessorsLevelNo(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5056,11 +5059,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-         *
          * <pre>
          * Hierarchie des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
          */
         public Builder mergePredecessorsLevelNo(io.dstore.Values.integerValue value) {
           if (predecessorsLevelNoBuilder_ == null) {
@@ -5078,11 +5081,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-         *
          * <pre>
          * Hierarchie des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
          */
         public Builder clearPredecessorsLevelNo() {
           if (predecessorsLevelNoBuilder_ == null) {
@@ -5096,11 +5099,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-         *
          * <pre>
          * Hierarchie des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getPredecessorsLevelNoBuilder() {
           
@@ -5108,11 +5111,11 @@ public final class ImFuzzySearchAd {
           return getPredecessorsLevelNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-         *
          * <pre>
          * Hierarchie des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPredecessorsLevelNoOrBuilder() {
           if (predecessorsLevelNoBuilder_ != null) {
@@ -5123,11 +5126,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
-         *
          * <pre>
          * Hierarchie des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_level_no = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5147,21 +5150,21 @@ public final class ImFuzzySearchAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> prePredecessorsLevelNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-         *
          * <pre>
          * Hierarchie des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
          */
         public boolean hasPrePredecessorsLevelNo() {
           return prePredecessorsLevelNoBuilder_ != null || prePredecessorsLevelNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-         *
          * <pre>
          * Hierarchie des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
          */
         public io.dstore.Values.integerValue getPrePredecessorsLevelNo() {
           if (prePredecessorsLevelNoBuilder_ == null) {
@@ -5171,11 +5174,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-         *
          * <pre>
          * Hierarchie des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
          */
         public Builder setPrePredecessorsLevelNo(io.dstore.Values.integerValue value) {
           if (prePredecessorsLevelNoBuilder_ == null) {
@@ -5191,11 +5194,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-         *
          * <pre>
          * Hierarchie des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
          */
         public Builder setPrePredecessorsLevelNo(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5209,11 +5212,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-         *
          * <pre>
          * Hierarchie des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
          */
         public Builder mergePrePredecessorsLevelNo(io.dstore.Values.integerValue value) {
           if (prePredecessorsLevelNoBuilder_ == null) {
@@ -5231,11 +5234,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-         *
          * <pre>
          * Hierarchie des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
          */
         public Builder clearPrePredecessorsLevelNo() {
           if (prePredecessorsLevelNoBuilder_ == null) {
@@ -5249,11 +5252,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-         *
          * <pre>
          * Hierarchie des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getPrePredecessorsLevelNoBuilder() {
           
@@ -5261,11 +5264,11 @@ public final class ImFuzzySearchAd {
           return getPrePredecessorsLevelNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-         *
          * <pre>
          * Hierarchie des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPrePredecessorsLevelNoOrBuilder() {
           if (prePredecessorsLevelNoBuilder_ != null) {
@@ -5276,11 +5279,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
-         *
          * <pre>
          * Hierarchie des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_level_no = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5300,21 +5303,21 @@ public final class ImFuzzySearchAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID des gefundenen Elementes im Artikelbaum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID des gefundenen Elementes im Artikelbaum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -5324,11 +5327,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID des gefundenen Elementes im Artikelbaum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -5344,11 +5347,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID des gefundenen Elementes im Artikelbaum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5362,11 +5365,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID des gefundenen Elementes im Artikelbaum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -5384,11 +5387,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID des gefundenen Elementes im Artikelbaum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -5402,11 +5405,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID des gefundenen Elementes im Artikelbaum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
@@ -5414,11 +5417,11 @@ public final class ImFuzzySearchAd {
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID des gefundenen Elementes im Artikelbaum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -5429,11 +5432,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
-         *
          * <pre>
          * ID des gefundenen Elementes im Artikelbaum
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5453,21 +5456,21 @@ public final class ImFuzzySearchAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public io.dstore.Values.integerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -5477,11 +5480,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public Builder setNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -5497,11 +5500,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public Builder setNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5515,11 +5518,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public Builder mergeNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -5537,11 +5540,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -5555,11 +5558,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
           
@@ -5567,11 +5570,11 @@ public final class ImFuzzySearchAd {
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -5582,11 +5585,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
-         *
          * <pre>
          * ID des gefundenen Artikel-Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5606,21 +5609,21 @@ public final class ImFuzzySearchAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> prePredecessorsDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
          */
         public boolean hasPrePredecessorsDescription() {
           return prePredecessorsDescriptionBuilder_ != null || prePredecessorsDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
          */
         public io.dstore.Values.stringValue getPrePredecessorsDescription() {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -5630,11 +5633,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
          */
         public Builder setPrePredecessorsDescription(io.dstore.Values.stringValue value) {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -5650,11 +5653,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
          */
         public Builder setPrePredecessorsDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5668,11 +5671,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
          */
         public Builder mergePrePredecessorsDescription(io.dstore.Values.stringValue value) {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -5690,11 +5693,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
          */
         public Builder clearPrePredecessorsDescription() {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -5708,11 +5711,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getPrePredecessorsDescriptionBuilder() {
           
@@ -5720,11 +5723,11 @@ public final class ImFuzzySearchAd {
           return getPrePredecessorsDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getPrePredecessorsDescriptionOrBuilder() {
           if (prePredecessorsDescriptionBuilder_ != null) {
@@ -5735,11 +5738,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
-         *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5759,21 +5762,21 @@ public final class ImFuzzySearchAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> prePredecessorsTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-         *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
          */
         public boolean hasPrePredecessorsTreeNodeId() {
           return prePredecessorsTreeNodeIdBuilder_ != null || prePredecessorsTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-         *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
          */
         public io.dstore.Values.integerValue getPrePredecessorsTreeNodeId() {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -5783,11 +5786,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-         *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
          */
         public Builder setPrePredecessorsTreeNodeId(io.dstore.Values.integerValue value) {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -5803,11 +5806,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-         *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
          */
         public Builder setPrePredecessorsTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5821,11 +5824,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-         *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
          */
         public Builder mergePrePredecessorsTreeNodeId(io.dstore.Values.integerValue value) {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -5843,11 +5846,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-         *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
          */
         public Builder clearPrePredecessorsTreeNodeId() {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -5861,11 +5864,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-         *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
          */
         public io.dstore.Values.integerValue.Builder getPrePredecessorsTreeNodeIdBuilder() {
           
@@ -5873,11 +5876,11 @@ public final class ImFuzzySearchAd {
           return getPrePredecessorsTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-         *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder() {
           if (prePredecessorsTreeNodeIdBuilder_ != null) {
@@ -5888,11 +5891,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
-         *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5912,21 +5915,21 @@ public final class ImFuzzySearchAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorsTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-         *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
          */
         public boolean hasPredecessorsTreeNodeId() {
           return predecessorsTreeNodeIdBuilder_ != null || predecessorsTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-         *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
          */
         public io.dstore.Values.integerValue getPredecessorsTreeNodeId() {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -5936,11 +5939,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-         *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
          */
         public Builder setPredecessorsTreeNodeId(io.dstore.Values.integerValue value) {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -5956,11 +5959,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-         *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
          */
         public Builder setPredecessorsTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5974,11 +5977,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-         *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
          */
         public Builder mergePredecessorsTreeNodeId(io.dstore.Values.integerValue value) {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -5996,11 +5999,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-         *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
          */
         public Builder clearPredecessorsTreeNodeId() {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -6014,11 +6017,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-         *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
          */
         public io.dstore.Values.integerValue.Builder getPredecessorsTreeNodeIdBuilder() {
           
@@ -6026,11 +6029,11 @@ public final class ImFuzzySearchAd {
           return getPredecessorsTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-         *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder() {
           if (predecessorsTreeNodeIdBuilder_ != null) {
@@ -6041,11 +6044,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
-         *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -6065,21 +6068,21 @@ public final class ImFuzzySearchAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> predecessorsDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-         *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
          */
         public boolean hasPredecessorsDescription() {
           return predecessorsDescriptionBuilder_ != null || predecessorsDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-         *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
          */
         public io.dstore.Values.stringValue getPredecessorsDescription() {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -6089,11 +6092,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-         *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
          */
         public Builder setPredecessorsDescription(io.dstore.Values.stringValue value) {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -6109,11 +6112,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-         *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
          */
         public Builder setPredecessorsDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -6127,11 +6130,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-         *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
          */
         public Builder mergePredecessorsDescription(io.dstore.Values.stringValue value) {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -6149,11 +6152,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-         *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
          */
         public Builder clearPredecessorsDescription() {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -6167,11 +6170,11 @@ public final class ImFuzzySearchAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-         *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
          */
         public io.dstore.Values.stringValue.Builder getPredecessorsDescriptionBuilder() {
           
@@ -6179,11 +6182,11 @@ public final class ImFuzzySearchAd {
           return getPredecessorsDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-         *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getPredecessorsDescriptionOrBuilder() {
           if (predecessorsDescriptionBuilder_ != null) {
@@ -6194,11 +6197,11 @@ public final class ImFuzzySearchAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
-         *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue predecessors_description = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -6243,16 +6246,7 @@ public final class ImFuzzySearchAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -6344,52 +6338,52 @@ public final class ImFuzzySearchAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.ImFuzzySearchAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.ImFuzzySearchAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -6464,34 +6458,40 @@ public final class ImFuzzySearchAd {
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImFuzzySearchAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -6728,7 +6728,7 @@ public final class ImFuzzySearchAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.ImFuzzySearchAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -7231,11 +7231,11 @@ public final class ImFuzzySearchAd {
           io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row, io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row.Builder, io.dstore.engine.procedures.ImFuzzySearchAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -7245,11 +7245,11 @@ public final class ImFuzzySearchAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -7259,11 +7259,11 @@ public final class ImFuzzySearchAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -7273,11 +7273,11 @@ public final class ImFuzzySearchAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row value) {
@@ -7294,11 +7294,11 @@ public final class ImFuzzySearchAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row.Builder builderForValue) {
@@ -7312,11 +7312,11 @@ public final class ImFuzzySearchAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -7332,11 +7332,11 @@ public final class ImFuzzySearchAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row value) {
@@ -7353,11 +7353,11 @@ public final class ImFuzzySearchAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row.Builder builderForValue) {
@@ -7371,11 +7371,11 @@ public final class ImFuzzySearchAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row.Builder builderForValue) {
@@ -7389,11 +7389,11 @@ public final class ImFuzzySearchAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row> values) {
@@ -7408,11 +7408,11 @@ public final class ImFuzzySearchAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -7425,11 +7425,11 @@ public final class ImFuzzySearchAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -7442,22 +7442,22 @@ public final class ImFuzzySearchAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImFuzzySearchAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -7467,11 +7467,11 @@ public final class ImFuzzySearchAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.ImFuzzySearchAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -7482,22 +7482,22 @@ public final class ImFuzzySearchAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -7505,11 +7505,11 @@ public final class ImFuzzySearchAd {
             index, io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.im_FuzzySearch_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.ImFuzzySearchAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -7559,16 +7559,7 @@ public final class ImFuzzySearchAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -7587,19 +7578,19 @@ public final class ImFuzzySearchAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_FuzzySearch_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_FuzzySearch_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_FuzzySearch_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_FuzzySearch_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_FuzzySearch_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_im_FuzzySearch_Ad_Response_Row_fieldAccessorTable;
 
@@ -7607,7 +7598,7 @@ public final class ImFuzzySearchAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

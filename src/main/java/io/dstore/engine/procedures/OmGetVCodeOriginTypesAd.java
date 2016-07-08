@@ -52,7 +52,8 @@ public final class OmGetVCodeOriginTypesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -90,11 +91,10 @@ public final class OmGetVCodeOriginTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -202,34 +202,40 @@ public final class OmGetVCodeOriginTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -359,7 +365,7 @@ public final class OmGetVCodeOriginTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -540,16 +546,7 @@ public final class OmGetVCodeOriginTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -621,45 +618,45 @@ public final class OmGetVCodeOriginTypesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -688,7 +685,8 @@ public final class OmGetVCodeOriginTypesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -732,11 +730,10 @@ public final class OmGetVCodeOriginTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -772,77 +769,77 @@ public final class OmGetVCodeOriginTypesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        */
       boolean hasVCodeOriginType();
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        */
       io.dstore.Values.stringValue getVCodeOriginType();
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        */
       boolean hasVCodeOriginTypeId();
       /**
-       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        */
       io.dstore.Values.integerValue getVCodeOriginTypeId();
       /**
-       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getVCodeOriginTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-       *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        */
       boolean hasVCodeOriginTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-       *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        */
       io.dstore.Values.stringValue getVCodeOriginTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-       *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeDescriptionOrBuilder();
     }
@@ -868,7 +865,8 @@ public final class OmGetVCodeOriginTypesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -932,11 +930,10 @@ public final class OmGetVCodeOriginTypesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -965,31 +962,31 @@ public final class OmGetVCodeOriginTypesAd {
       public static final int V_CODE_ORIGIN_TYPE_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue vCodeOriginType_;
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        */
       public boolean hasVCodeOriginType() {
         return vCodeOriginType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        */
       public io.dstore.Values.stringValue getVCodeOriginType() {
         return vCodeOriginType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : vCodeOriginType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeOrBuilder() {
         return getVCodeOriginType();
@@ -998,31 +995,31 @@ public final class OmGetVCodeOriginTypesAd {
       public static final int V_CODE_ORIGIN_TYPE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue vCodeOriginTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        */
       public boolean hasVCodeOriginTypeId() {
         return vCodeOriginTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getVCodeOriginTypeId() {
         return vCodeOriginTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : vCodeOriginTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getVCodeOriginTypeIdOrBuilder() {
         return getVCodeOriginTypeId();
@@ -1031,31 +1028,31 @@ public final class OmGetVCodeOriginTypesAd {
       public static final int V_CODE_ORIGIN_TYPE_DESCRIPTION_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue vCodeOriginTypeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-       *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        */
       public boolean hasVCodeOriginTypeDescription() {
         return vCodeOriginTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-       *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        */
       public io.dstore.Values.stringValue getVCodeOriginTypeDescription() {
         return vCodeOriginTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : vCodeOriginTypeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-       *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeDescriptionOrBuilder() {
         return getVCodeOriginTypeDescription();
@@ -1136,34 +1133,40 @@ public final class OmGetVCodeOriginTypesAd {
       }
       public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1321,7 +1324,7 @@ public final class OmGetVCodeOriginTypesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1360,21 +1363,21 @@ public final class OmGetVCodeOriginTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> vCodeOriginTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          */
         public boolean hasVCodeOriginType() {
           return vCodeOriginTypeBuilder_ != null || vCodeOriginType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          */
         public io.dstore.Values.stringValue getVCodeOriginType() {
           if (vCodeOriginTypeBuilder_ == null) {
@@ -1384,11 +1387,11 @@ public final class OmGetVCodeOriginTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          */
         public Builder setVCodeOriginType(io.dstore.Values.stringValue value) {
           if (vCodeOriginTypeBuilder_ == null) {
@@ -1404,11 +1407,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          */
         public Builder setVCodeOriginType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1422,11 +1425,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          */
         public Builder mergeVCodeOriginType(io.dstore.Values.stringValue value) {
           if (vCodeOriginTypeBuilder_ == null) {
@@ -1444,11 +1447,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          */
         public Builder clearVCodeOriginType() {
           if (vCodeOriginTypeBuilder_ == null) {
@@ -1462,11 +1465,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getVCodeOriginTypeBuilder() {
           
@@ -1474,11 +1477,11 @@ public final class OmGetVCodeOriginTypesAd {
           return getVCodeOriginTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeOrBuilder() {
           if (vCodeOriginTypeBuilder_ != null) {
@@ -1489,11 +1492,11 @@ public final class OmGetVCodeOriginTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1513,21 +1516,21 @@ public final class OmGetVCodeOriginTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> vCodeOriginTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          */
         public boolean hasVCodeOriginTypeId() {
           return vCodeOriginTypeIdBuilder_ != null || vCodeOriginTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getVCodeOriginTypeId() {
           if (vCodeOriginTypeIdBuilder_ == null) {
@@ -1537,11 +1540,11 @@ public final class OmGetVCodeOriginTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          */
         public Builder setVCodeOriginTypeId(io.dstore.Values.integerValue value) {
           if (vCodeOriginTypeIdBuilder_ == null) {
@@ -1557,11 +1560,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          */
         public Builder setVCodeOriginTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1575,11 +1578,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          */
         public Builder mergeVCodeOriginTypeId(io.dstore.Values.integerValue value) {
           if (vCodeOriginTypeIdBuilder_ == null) {
@@ -1597,11 +1600,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          */
         public Builder clearVCodeOriginTypeId() {
           if (vCodeOriginTypeIdBuilder_ == null) {
@@ -1615,11 +1618,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getVCodeOriginTypeIdBuilder() {
           
@@ -1627,11 +1630,11 @@ public final class OmGetVCodeOriginTypesAd {
           return getVCodeOriginTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getVCodeOriginTypeIdOrBuilder() {
           if (vCodeOriginTypeIdBuilder_ != null) {
@@ -1642,11 +1645,11 @@ public final class OmGetVCodeOriginTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1666,21 +1669,21 @@ public final class OmGetVCodeOriginTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> vCodeOriginTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-         *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          */
         public boolean hasVCodeOriginTypeDescription() {
           return vCodeOriginTypeDescriptionBuilder_ != null || vCodeOriginTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-         *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          */
         public io.dstore.Values.stringValue getVCodeOriginTypeDescription() {
           if (vCodeOriginTypeDescriptionBuilder_ == null) {
@@ -1690,11 +1693,11 @@ public final class OmGetVCodeOriginTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-         *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          */
         public Builder setVCodeOriginTypeDescription(io.dstore.Values.stringValue value) {
           if (vCodeOriginTypeDescriptionBuilder_ == null) {
@@ -1710,11 +1713,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-         *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          */
         public Builder setVCodeOriginTypeDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1728,11 +1731,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-         *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          */
         public Builder mergeVCodeOriginTypeDescription(io.dstore.Values.stringValue value) {
           if (vCodeOriginTypeDescriptionBuilder_ == null) {
@@ -1750,11 +1753,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-         *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          */
         public Builder clearVCodeOriginTypeDescription() {
           if (vCodeOriginTypeDescriptionBuilder_ == null) {
@@ -1768,11 +1771,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-         *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getVCodeOriginTypeDescriptionBuilder() {
           
@@ -1780,11 +1783,11 @@ public final class OmGetVCodeOriginTypesAd {
           return getVCodeOriginTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-         *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeDescriptionOrBuilder() {
           if (vCodeOriginTypeDescriptionBuilder_ != null) {
@@ -1795,11 +1798,11 @@ public final class OmGetVCodeOriginTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
-         *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1844,16 +1847,7 @@ public final class OmGetVCodeOriginTypesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -1945,52 +1939,52 @@ public final class OmGetVCodeOriginTypesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2065,34 +2059,40 @@ public final class OmGetVCodeOriginTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2329,7 +2329,7 @@ public final class OmGetVCodeOriginTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2832,11 +2832,11 @@ public final class OmGetVCodeOriginTypesAd {
           io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row, io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -2846,11 +2846,11 @@ public final class OmGetVCodeOriginTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -2860,11 +2860,11 @@ public final class OmGetVCodeOriginTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -2874,11 +2874,11 @@ public final class OmGetVCodeOriginTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row value) {
@@ -2895,11 +2895,11 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row.Builder builderForValue) {
@@ -2913,11 +2913,11 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -2933,11 +2933,11 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row value) {
@@ -2954,11 +2954,11 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row.Builder builderForValue) {
@@ -2972,11 +2972,11 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row.Builder builderForValue) {
@@ -2990,11 +2990,11 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row> values) {
@@ -3009,11 +3009,11 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3026,11 +3026,11 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3043,22 +3043,22 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3068,11 +3068,11 @@ public final class OmGetVCodeOriginTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3083,22 +3083,22 @@ public final class OmGetVCodeOriginTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3106,11 +3106,11 @@ public final class OmGetVCodeOriginTypesAd {
             index, io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3160,16 +3160,7 @@ public final class OmGetVCodeOriginTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3188,19 +3179,19 @@ public final class OmGetVCodeOriginTypesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetVCodeOriginTypes_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetVCodeOriginTypes_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetVCodeOriginTypes_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetVCodeOriginTypes_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetVCodeOriginTypes_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetVCodeOriginTypes_Ad_Response_Row_fieldAccessorTable;
 
@@ -3208,7 +3199,7 @@ public final class OmGetVCodeOriginTypesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

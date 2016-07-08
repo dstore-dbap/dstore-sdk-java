@@ -166,7 +166,8 @@ public final class OmChangeOrderStateAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -312,11 +313,10 @@ public final class OmChangeOrderStateAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -688,34 +688,40 @@ public final class OmChangeOrderStateAd {
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -965,7 +971,7 @@ public final class OmChangeOrderStateAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmChangeOrderStateAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2004,16 +2010,7 @@ public final class OmChangeOrderStateAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2085,45 +2082,45 @@ public final class OmChangeOrderStateAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmChangeOrderStateAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmChangeOrderStateAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -2152,7 +2149,8 @@ public final class OmChangeOrderStateAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2196,11 +2194,10 @@ public final class OmChangeOrderStateAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2236,52 +2233,52 @@ public final class OmChangeOrderStateAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-       *
        * <pre>
        * ID des zur "OrderContentID" zugehörigen Auftrags
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
        */
       boolean hasOrderId();
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-       *
        * <pre>
        * ID des zur "OrderContentID" zugehörigen Auftrags
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
        */
       io.dstore.Values.integerValue getOrderId();
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-       *
        * <pre>
        * ID des zur "OrderContentID" zugehörigen Auftrags
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-       *
        * <pre>
        * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
        */
       boolean hasOrderContentId();
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-       *
        * <pre>
        * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
        */
       io.dstore.Values.integerValue getOrderContentId();
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-       *
        * <pre>
        * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder();
     }
@@ -2307,7 +2304,8 @@ public final class OmChangeOrderStateAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2358,11 +2356,10 @@ public final class OmChangeOrderStateAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2391,31 +2388,31 @@ public final class OmChangeOrderStateAd {
       public static final int ORDER_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue orderId_;
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-       *
        * <pre>
        * ID des zur "OrderContentID" zugehörigen Auftrags
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
        */
       public boolean hasOrderId() {
         return orderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-       *
        * <pre>
        * ID des zur "OrderContentID" zugehörigen Auftrags
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getOrderId() {
         return orderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-       *
        * <pre>
        * ID des zur "OrderContentID" zugehörigen Auftrags
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
         return getOrderId();
@@ -2424,31 +2421,31 @@ public final class OmChangeOrderStateAd {
       public static final int ORDER_CONTENT_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue orderContentId_;
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-       *
        * <pre>
        * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
        */
       public boolean hasOrderContentId() {
         return orderContentId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-       *
        * <pre>
        * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getOrderContentId() {
         return orderContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderContentId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-       *
        * <pre>
        * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder() {
         return getOrderContentId();
@@ -2522,34 +2519,40 @@ public final class OmChangeOrderStateAd {
       }
       public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2693,7 +2696,7 @@ public final class OmChangeOrderStateAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2732,21 +2735,21 @@ public final class OmChangeOrderStateAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-         *
          * <pre>
          * ID des zur "OrderContentID" zugehörigen Auftrags
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
          */
         public boolean hasOrderId() {
           return orderIdBuilder_ != null || orderId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-         *
          * <pre>
          * ID des zur "OrderContentID" zugehörigen Auftrags
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getOrderId() {
           if (orderIdBuilder_ == null) {
@@ -2756,11 +2759,11 @@ public final class OmChangeOrderStateAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-         *
          * <pre>
          * ID des zur "OrderContentID" zugehörigen Auftrags
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
          */
         public Builder setOrderId(io.dstore.Values.integerValue value) {
           if (orderIdBuilder_ == null) {
@@ -2776,11 +2779,11 @@ public final class OmChangeOrderStateAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-         *
          * <pre>
          * ID des zur "OrderContentID" zugehörigen Auftrags
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
          */
         public Builder setOrderId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2794,11 +2797,11 @@ public final class OmChangeOrderStateAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-         *
          * <pre>
          * ID des zur "OrderContentID" zugehörigen Auftrags
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
          */
         public Builder mergeOrderId(io.dstore.Values.integerValue value) {
           if (orderIdBuilder_ == null) {
@@ -2816,11 +2819,11 @@ public final class OmChangeOrderStateAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-         *
          * <pre>
          * ID des zur "OrderContentID" zugehörigen Auftrags
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
          */
         public Builder clearOrderId() {
           if (orderIdBuilder_ == null) {
@@ -2834,11 +2837,11 @@ public final class OmChangeOrderStateAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-         *
          * <pre>
          * ID des zur "OrderContentID" zugehörigen Auftrags
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getOrderIdBuilder() {
           
@@ -2846,11 +2849,11 @@ public final class OmChangeOrderStateAd {
           return getOrderIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-         *
          * <pre>
          * ID des zur "OrderContentID" zugehörigen Auftrags
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
           if (orderIdBuilder_ != null) {
@@ -2861,11 +2864,11 @@ public final class OmChangeOrderStateAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
-         *
          * <pre>
          * ID des zur "OrderContentID" zugehörigen Auftrags
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2885,21 +2888,21 @@ public final class OmChangeOrderStateAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderContentIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-         *
          * <pre>
          * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
          */
         public boolean hasOrderContentId() {
           return orderContentIdBuilder_ != null || orderContentId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-         *
          * <pre>
          * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getOrderContentId() {
           if (orderContentIdBuilder_ == null) {
@@ -2909,11 +2912,11 @@ public final class OmChangeOrderStateAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-         *
          * <pre>
          * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
          */
         public Builder setOrderContentId(io.dstore.Values.integerValue value) {
           if (orderContentIdBuilder_ == null) {
@@ -2929,11 +2932,11 @@ public final class OmChangeOrderStateAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-         *
          * <pre>
          * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
          */
         public Builder setOrderContentId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2947,11 +2950,11 @@ public final class OmChangeOrderStateAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-         *
          * <pre>
          * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
          */
         public Builder mergeOrderContentId(io.dstore.Values.integerValue value) {
           if (orderContentIdBuilder_ == null) {
@@ -2969,11 +2972,11 @@ public final class OmChangeOrderStateAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-         *
          * <pre>
          * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
          */
         public Builder clearOrderContentId() {
           if (orderContentIdBuilder_ == null) {
@@ -2987,11 +2990,11 @@ public final class OmChangeOrderStateAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-         *
          * <pre>
          * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getOrderContentIdBuilder() {
           
@@ -2999,11 +3002,11 @@ public final class OmChangeOrderStateAd {
           return getOrderContentIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-         *
          * <pre>
          * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder() {
           if (orderContentIdBuilder_ != null) {
@@ -3014,11 +3017,11 @@ public final class OmChangeOrderStateAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
-         *
          * <pre>
          * ID einer Auftragsposition für die die Status-Änderung abgewiesen wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3063,16 +3066,7 @@ public final class OmChangeOrderStateAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3164,52 +3158,52 @@ public final class OmChangeOrderStateAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmChangeOrderStateAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmChangeOrderStateAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3284,34 +3278,40 @@ public final class OmChangeOrderStateAd {
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmChangeOrderStateAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3548,7 +3548,7 @@ public final class OmChangeOrderStateAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmChangeOrderStateAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4051,11 +4051,11 @@ public final class OmChangeOrderStateAd {
           io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row, io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row.Builder, io.dstore.engine.procedures.OmChangeOrderStateAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -4065,11 +4065,11 @@ public final class OmChangeOrderStateAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -4079,11 +4079,11 @@ public final class OmChangeOrderStateAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -4093,11 +4093,11 @@ public final class OmChangeOrderStateAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row value) {
@@ -4114,11 +4114,11 @@ public final class OmChangeOrderStateAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row.Builder builderForValue) {
@@ -4132,11 +4132,11 @@ public final class OmChangeOrderStateAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -4152,11 +4152,11 @@ public final class OmChangeOrderStateAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row value) {
@@ -4173,11 +4173,11 @@ public final class OmChangeOrderStateAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row.Builder builderForValue) {
@@ -4191,11 +4191,11 @@ public final class OmChangeOrderStateAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row.Builder builderForValue) {
@@ -4209,11 +4209,11 @@ public final class OmChangeOrderStateAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row> values) {
@@ -4228,11 +4228,11 @@ public final class OmChangeOrderStateAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4245,11 +4245,11 @@ public final class OmChangeOrderStateAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4262,22 +4262,22 @@ public final class OmChangeOrderStateAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmChangeOrderStateAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4287,11 +4287,11 @@ public final class OmChangeOrderStateAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmChangeOrderStateAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4302,22 +4302,22 @@ public final class OmChangeOrderStateAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4325,11 +4325,11 @@ public final class OmChangeOrderStateAd {
             index, io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_ChangeOrderState_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmChangeOrderStateAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4379,16 +4379,7 @@ public final class OmChangeOrderStateAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4407,19 +4398,19 @@ public final class OmChangeOrderStateAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_ChangeOrderState_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_ChangeOrderState_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_ChangeOrderState_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_ChangeOrderState_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_ChangeOrderState_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_ChangeOrderState_Ad_Response_Row_fieldAccessorTable;
 
@@ -4427,7 +4418,7 @@ public final class OmChangeOrderStateAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

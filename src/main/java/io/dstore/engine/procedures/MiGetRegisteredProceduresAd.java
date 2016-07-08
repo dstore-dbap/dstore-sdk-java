@@ -109,7 +109,8 @@ public final class MiGetRegisteredProceduresAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -201,11 +202,10 @@ public final class MiGetRegisteredProceduresAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -445,34 +445,40 @@ public final class MiGetRegisteredProceduresAd {
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -662,7 +668,7 @@ public final class MiGetRegisteredProceduresAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1272,16 +1278,7 @@ public final class MiGetRegisteredProceduresAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1353,45 +1350,45 @@ public final class MiGetRegisteredProceduresAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1420,7 +1417,8 @@ public final class MiGetRegisteredProceduresAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1464,11 +1462,10 @@ public final class MiGetRegisteredProceduresAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1504,102 +1501,102 @@ public final class MiGetRegisteredProceduresAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
        */
       boolean hasProcedureId();
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
        */
       io.dstore.Values.integerValue getProcedureId();
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-       *
        * <pre>
        * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
        */
       boolean hasCheckForExecutionRestrictions();
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-       *
        * <pre>
        * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
        */
       io.dstore.Values.integerValue getCheckForExecutionRestrictions();
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-       *
        * <pre>
        * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCheckForExecutionRestrictionsOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-       *
        * <pre>
        * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
        */
       boolean hasLogExecutions();
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-       *
        * <pre>
        * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
        */
       io.dstore.Values.integerValue getLogExecutions();
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-       *
        * <pre>
        * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getLogExecutionsOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       boolean hasProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       io.dstore.Values.stringValue getProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
     }
@@ -1625,7 +1622,8 @@ public final class MiGetRegisteredProceduresAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1702,11 +1700,10 @@ public final class MiGetRegisteredProceduresAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1735,31 +1732,31 @@ public final class MiGetRegisteredProceduresAd {
       public static final int PROCEDURE_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue procedureId_;
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
        */
       public boolean hasProcedureId() {
         return procedureId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getProcedureId() {
         return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-       *
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
         return getProcedureId();
@@ -1768,31 +1765,31 @@ public final class MiGetRegisteredProceduresAd {
       public static final int CHECK_FOR_EXECUTION_RESTRICTIONS_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue checkForExecutionRestrictions_;
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-       *
        * <pre>
        * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
        */
       public boolean hasCheckForExecutionRestrictions() {
         return checkForExecutionRestrictions_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-       *
        * <pre>
        * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
        */
       public io.dstore.Values.integerValue getCheckForExecutionRestrictions() {
         return checkForExecutionRestrictions_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : checkForExecutionRestrictions_;
       }
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-       *
        * <pre>
        * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCheckForExecutionRestrictionsOrBuilder() {
         return getCheckForExecutionRestrictions();
@@ -1801,31 +1798,31 @@ public final class MiGetRegisteredProceduresAd {
       public static final int LOG_EXECUTIONS_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue logExecutions_;
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-       *
        * <pre>
        * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
        */
       public boolean hasLogExecutions() {
         return logExecutions_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-       *
        * <pre>
        * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
        */
       public io.dstore.Values.integerValue getLogExecutions() {
         return logExecutions_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : logExecutions_;
       }
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-       *
        * <pre>
        * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getLogExecutionsOrBuilder() {
         return getLogExecutions();
@@ -1834,31 +1831,31 @@ public final class MiGetRegisteredProceduresAd {
       public static final int PROCEDURE_NAME_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue procedureName_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       public io.dstore.Values.stringValue getProcedureName() {
         return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-       *
        * <pre>
        * Name der Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
@@ -1946,34 +1943,40 @@ public final class MiGetRegisteredProceduresAd {
       }
       public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2145,7 +2148,7 @@ public final class MiGetRegisteredProceduresAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2184,21 +2187,21 @@ public final class MiGetRegisteredProceduresAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
          */
         public boolean hasProcedureId() {
           return procedureIdBuilder_ != null || procedureId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getProcedureId() {
           if (procedureIdBuilder_ == null) {
@@ -2208,11 +2211,11 @@ public final class MiGetRegisteredProceduresAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
          */
         public Builder setProcedureId(io.dstore.Values.integerValue value) {
           if (procedureIdBuilder_ == null) {
@@ -2228,11 +2231,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
          */
         public Builder setProcedureId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2246,11 +2249,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
          */
         public Builder mergeProcedureId(io.dstore.Values.integerValue value) {
           if (procedureIdBuilder_ == null) {
@@ -2268,11 +2271,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
          */
         public Builder clearProcedureId() {
           if (procedureIdBuilder_ == null) {
@@ -2286,11 +2289,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getProcedureIdBuilder() {
           
@@ -2298,11 +2301,11 @@ public final class MiGetRegisteredProceduresAd {
           return getProcedureIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
           if (procedureIdBuilder_ != null) {
@@ -2313,11 +2316,11 @@ public final class MiGetRegisteredProceduresAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
-         *
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2337,21 +2340,21 @@ public final class MiGetRegisteredProceduresAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> checkForExecutionRestrictionsBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-         *
          * <pre>
          * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
          */
         public boolean hasCheckForExecutionRestrictions() {
           return checkForExecutionRestrictionsBuilder_ != null || checkForExecutionRestrictions_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-         *
          * <pre>
          * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
          */
         public io.dstore.Values.integerValue getCheckForExecutionRestrictions() {
           if (checkForExecutionRestrictionsBuilder_ == null) {
@@ -2361,11 +2364,11 @@ public final class MiGetRegisteredProceduresAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-         *
          * <pre>
          * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
          */
         public Builder setCheckForExecutionRestrictions(io.dstore.Values.integerValue value) {
           if (checkForExecutionRestrictionsBuilder_ == null) {
@@ -2381,11 +2384,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-         *
          * <pre>
          * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
          */
         public Builder setCheckForExecutionRestrictions(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2399,11 +2402,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-         *
          * <pre>
          * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
          */
         public Builder mergeCheckForExecutionRestrictions(io.dstore.Values.integerValue value) {
           if (checkForExecutionRestrictionsBuilder_ == null) {
@@ -2421,11 +2424,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-         *
          * <pre>
          * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
          */
         public Builder clearCheckForExecutionRestrictions() {
           if (checkForExecutionRestrictionsBuilder_ == null) {
@@ -2439,11 +2442,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-         *
          * <pre>
          * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getCheckForExecutionRestrictionsBuilder() {
           
@@ -2451,11 +2454,11 @@ public final class MiGetRegisteredProceduresAd {
           return getCheckForExecutionRestrictionsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-         *
          * <pre>
          * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCheckForExecutionRestrictionsOrBuilder() {
           if (checkForExecutionRestrictionsBuilder_ != null) {
@@ -2466,11 +2469,11 @@ public final class MiGetRegisteredProceduresAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
-         *
          * <pre>
          * Es können Einschränkungen bzgl. der Parameter beim Aufruf der Prozedur konfiguriert werden (z.B. mit "mi_ModifyProcExRestForUser_Ad"), sofern hier nicht "0" steht. Ansonsten ist eine Überprüfung möglich - sie ist entweder inaktiv ("1") oder aktiv ("2").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2490,21 +2493,21 @@ public final class MiGetRegisteredProceduresAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> logExecutionsBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-         *
          * <pre>
          * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
          */
         public boolean hasLogExecutions() {
           return logExecutionsBuilder_ != null || logExecutions_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-         *
          * <pre>
          * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
          */
         public io.dstore.Values.integerValue getLogExecutions() {
           if (logExecutionsBuilder_ == null) {
@@ -2514,11 +2517,11 @@ public final class MiGetRegisteredProceduresAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-         *
          * <pre>
          * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
          */
         public Builder setLogExecutions(io.dstore.Values.integerValue value) {
           if (logExecutionsBuilder_ == null) {
@@ -2534,11 +2537,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-         *
          * <pre>
          * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
          */
         public Builder setLogExecutions(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2552,11 +2555,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-         *
          * <pre>
          * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
          */
         public Builder mergeLogExecutions(io.dstore.Values.integerValue value) {
           if (logExecutionsBuilder_ == null) {
@@ -2574,11 +2577,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-         *
          * <pre>
          * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
          */
         public Builder clearLogExecutions() {
           if (logExecutionsBuilder_ == null) {
@@ -2592,11 +2595,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-         *
          * <pre>
          * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getLogExecutionsBuilder() {
           
@@ -2604,11 +2607,11 @@ public final class MiGetRegisteredProceduresAd {
           return getLogExecutionsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-         *
          * <pre>
          * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getLogExecutionsOrBuilder() {
           if (logExecutionsBuilder_ != null) {
@@ -2619,11 +2622,11 @@ public final class MiGetRegisteredProceduresAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
-         *
          * <pre>
          * Sofern jeder Aufruf der Prozedur grundsätzlich protokolliert werden kann (falls nicht, steht hier "0"), gibt der Wert an, was protokolliert werden soll (s. Beschreibung). "1" bedeutet, daß eine Protokollierung nicht durchgeführt wird, aber möglich ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue log_executions = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2643,21 +2646,21 @@ public final class MiGetRegisteredProceduresAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public io.dstore.Values.stringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2667,11 +2670,11 @@ public final class MiGetRegisteredProceduresAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2687,11 +2690,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2705,11 +2708,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2727,11 +2730,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2745,11 +2748,11 @@ public final class MiGetRegisteredProceduresAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
           
@@ -2757,11 +2760,11 @@ public final class MiGetRegisteredProceduresAd {
           return getProcedureNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
@@ -2772,11 +2775,11 @@ public final class MiGetRegisteredProceduresAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
-         *
          * <pre>
          * Name der Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2821,16 +2824,7 @@ public final class MiGetRegisteredProceduresAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2922,52 +2916,52 @@ public final class MiGetRegisteredProceduresAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3042,34 +3036,40 @@ public final class MiGetRegisteredProceduresAd {
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3306,7 +3306,7 @@ public final class MiGetRegisteredProceduresAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3809,11 +3809,11 @@ public final class MiGetRegisteredProceduresAd {
           io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row, io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3823,11 +3823,11 @@ public final class MiGetRegisteredProceduresAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3837,11 +3837,11 @@ public final class MiGetRegisteredProceduresAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3851,11 +3851,11 @@ public final class MiGetRegisteredProceduresAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row value) {
@@ -3872,11 +3872,11 @@ public final class MiGetRegisteredProceduresAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row.Builder builderForValue) {
@@ -3890,11 +3890,11 @@ public final class MiGetRegisteredProceduresAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3910,11 +3910,11 @@ public final class MiGetRegisteredProceduresAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row value) {
@@ -3931,11 +3931,11 @@ public final class MiGetRegisteredProceduresAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row.Builder builderForValue) {
@@ -3949,11 +3949,11 @@ public final class MiGetRegisteredProceduresAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row.Builder builderForValue) {
@@ -3967,11 +3967,11 @@ public final class MiGetRegisteredProceduresAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row> values) {
@@ -3986,11 +3986,11 @@ public final class MiGetRegisteredProceduresAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4003,11 +4003,11 @@ public final class MiGetRegisteredProceduresAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4020,22 +4020,22 @@ public final class MiGetRegisteredProceduresAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4045,11 +4045,11 @@ public final class MiGetRegisteredProceduresAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4060,22 +4060,22 @@ public final class MiGetRegisteredProceduresAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4083,11 +4083,11 @@ public final class MiGetRegisteredProceduresAd {
             index, io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetRegisteredProcedures_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4137,16 +4137,7 @@ public final class MiGetRegisteredProceduresAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4165,19 +4156,19 @@ public final class MiGetRegisteredProceduresAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetRegisteredProcedures_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetRegisteredProcedures_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetRegisteredProcedures_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetRegisteredProcedures_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetRegisteredProcedures_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetRegisteredProcedures_Ad_Response_Row_fieldAccessorTable;
 
@@ -4185,7 +4176,7 @@ public final class MiGetRegisteredProceduresAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

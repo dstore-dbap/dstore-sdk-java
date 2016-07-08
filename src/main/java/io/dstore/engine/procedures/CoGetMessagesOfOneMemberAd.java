@@ -166,7 +166,8 @@ public final class CoGetMessagesOfOneMemberAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -312,11 +313,10 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -688,34 +688,40 @@ public final class CoGetMessagesOfOneMemberAd {
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -965,7 +971,7 @@ public final class CoGetMessagesOfOneMemberAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2004,16 +2010,7 @@ public final class CoGetMessagesOfOneMemberAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2085,45 +2082,45 @@ public final class CoGetMessagesOfOneMemberAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -2152,7 +2149,8 @@ public final class CoGetMessagesOfOneMemberAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2196,11 +2194,10 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2236,252 +2233,252 @@ public final class CoGetMessagesOfOneMemberAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
        */
       boolean hasToCommunityMember();
       /**
-       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
        */
       io.dstore.Values.stringValue getToCommunityMember();
       /**
-       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getToCommunityMemberOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-       *
        * <pre>
        * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
        */
       boolean hasMessageStatus();
       /**
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-       *
        * <pre>
        * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
        */
       io.dstore.Values.integerValue getMessageStatus();
       /**
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-       *
        * <pre>
        * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getMessageStatusOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
        */
       boolean hasToCommunityMemberId();
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
        */
       io.dstore.Values.integerValue getToCommunityMemberId();
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getToCommunityMemberIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue message = 10004;</code>
-       *
        * <pre>
        * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message = 10004;</code>
        */
       boolean hasMessage();
       /**
-       * <code>optional .dstore.values.stringValue message = 10004;</code>
-       *
        * <pre>
        * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message = 10004;</code>
        */
       io.dstore.Values.stringValue getMessage();
       /**
-       * <code>optional .dstore.values.stringValue message = 10004;</code>
-       *
        * <pre>
        * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getMessageOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
        */
       boolean hasFromCommunityMember();
       /**
-       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
        */
       io.dstore.Values.stringValue getFromCommunityMember();
       /**
-       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getFromCommunityMemberOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-       *
        * <pre>
        * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
        */
       boolean hasCommunityId();
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-       *
        * <pre>
        * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
        */
       io.dstore.Values.integerValue getCommunityId();
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-       *
        * <pre>
        * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
        */
       boolean hasCommunityName();
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
        */
       io.dstore.Values.stringValue getCommunityName();
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
        */
       boolean hasMessageDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
        */
       io.dstore.Values.timestampValue getMessageDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getMessageDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
        */
       boolean hasFromCommunityMemberId();
       /**
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
        */
       io.dstore.Values.integerValue getFromCommunityMemberId();
       /**
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
        */
       io.dstore.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-       *
        * <pre>
        * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
        */
       boolean hasMessageDateAndTimeChar();
       /**
-       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-       *
        * <pre>
        * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
        */
       io.dstore.Values.stringValue getMessageDateAndTimeChar();
       /**
-       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-       *
        * <pre>
        * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
        */
       io.dstore.Values.stringValueOrBuilder getMessageDateAndTimeCharOrBuilder();
     }
@@ -2507,7 +2504,8 @@ public final class CoGetMessagesOfOneMemberAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2662,11 +2660,10 @@ public final class CoGetMessagesOfOneMemberAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2695,31 +2692,31 @@ public final class CoGetMessagesOfOneMemberAd {
       public static final int TO_COMMUNITY_MEMBER_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue toCommunityMember_;
       /**
-       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
        */
       public boolean hasToCommunityMember() {
         return toCommunityMember_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
        */
       public io.dstore.Values.stringValue getToCommunityMember() {
         return toCommunityMember_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : toCommunityMember_;
       }
       /**
-       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getToCommunityMemberOrBuilder() {
         return getToCommunityMember();
@@ -2728,31 +2725,31 @@ public final class CoGetMessagesOfOneMemberAd {
       public static final int MESSAGE_STATUS_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue messageStatus_;
       /**
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-       *
        * <pre>
        * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
        */
       public boolean hasMessageStatus() {
         return messageStatus_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-       *
        * <pre>
        * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
        */
       public io.dstore.Values.integerValue getMessageStatus() {
         return messageStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : messageStatus_;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-       *
        * <pre>
        * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getMessageStatusOrBuilder() {
         return getMessageStatus();
@@ -2761,31 +2758,31 @@ public final class CoGetMessagesOfOneMemberAd {
       public static final int TO_COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue toCommunityMemberId_;
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
        */
       public boolean hasToCommunityMemberId() {
         return toCommunityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getToCommunityMemberId() {
         return toCommunityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toCommunityMemberId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getToCommunityMemberIdOrBuilder() {
         return getToCommunityMemberId();
@@ -2794,31 +2791,31 @@ public final class CoGetMessagesOfOneMemberAd {
       public static final int MESSAGE_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue message_;
       /**
-       * <code>optional .dstore.values.stringValue message = 10004;</code>
-       *
        * <pre>
        * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message = 10004;</code>
        */
       public boolean hasMessage() {
         return message_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue message = 10004;</code>
-       *
        * <pre>
        * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message = 10004;</code>
        */
       public io.dstore.Values.stringValue getMessage() {
         return message_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : message_;
       }
       /**
-       * <code>optional .dstore.values.stringValue message = 10004;</code>
-       *
        * <pre>
        * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getMessageOrBuilder() {
         return getMessage();
@@ -2827,31 +2824,31 @@ public final class CoGetMessagesOfOneMemberAd {
       public static final int FROM_COMMUNITY_MEMBER_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue fromCommunityMember_;
       /**
-       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
        */
       public boolean hasFromCommunityMember() {
         return fromCommunityMember_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
        */
       public io.dstore.Values.stringValue getFromCommunityMember() {
         return fromCommunityMember_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromCommunityMember_;
       }
       /**
-       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFromCommunityMemberOrBuilder() {
         return getFromCommunityMember();
@@ -2860,31 +2857,31 @@ public final class CoGetMessagesOfOneMemberAd {
       public static final int COMMUNITY_ID_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue communityId_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-       *
        * <pre>
        * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
        */
       public boolean hasCommunityId() {
         return communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-       *
        * <pre>
        * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
        */
       public io.dstore.Values.integerValue getCommunityId() {
         return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-       *
        * <pre>
        * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_id = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
         return getCommunityId();
@@ -2893,31 +2890,31 @@ public final class CoGetMessagesOfOneMemberAd {
       public static final int COMMUNITY_NAME_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue communityName_;
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
        */
       public boolean hasCommunityName() {
         return communityName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
        */
       public io.dstore.Values.stringValue getCommunityName() {
         return communityName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : communityName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-       *
        * <pre>
        * Name der Community "CommunityID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue community_name = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder() {
         return getCommunityName();
@@ -2926,31 +2923,31 @@ public final class CoGetMessagesOfOneMemberAd {
       public static final int MESSAGE_DATE_AND_TIME_FIELD_NUMBER = 10008;
       private io.dstore.Values.timestampValue messageDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
        */
       public boolean hasMessageDateAndTime() {
         return messageDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
        */
       public io.dstore.Values.timestampValue getMessageDateAndTime() {
         return messageDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : messageDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-       *
        * <pre>
        * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getMessageDateAndTimeOrBuilder() {
         return getMessageDateAndTime();
@@ -2959,31 +2956,31 @@ public final class CoGetMessagesOfOneMemberAd {
       public static final int FROM_COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10009;
       private io.dstore.Values.integerValue fromCommunityMemberId_;
       /**
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
        */
       public boolean hasFromCommunityMemberId() {
         return fromCommunityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
        */
       public io.dstore.Values.integerValue getFromCommunityMemberId() {
         return fromCommunityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromCommunityMemberId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-       *
        * <pre>
        * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
         return getFromCommunityMemberId();
@@ -2992,31 +2989,31 @@ public final class CoGetMessagesOfOneMemberAd {
       public static final int MESSAGE_DATE_AND_TIME_CHAR_FIELD_NUMBER = 10010;
       private io.dstore.Values.stringValue messageDateAndTimeChar_;
       /**
-       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-       *
        * <pre>
        * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
        */
       public boolean hasMessageDateAndTimeChar() {
         return messageDateAndTimeChar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-       *
        * <pre>
        * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
        */
       public io.dstore.Values.stringValue getMessageDateAndTimeChar() {
         return messageDateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : messageDateAndTimeChar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-       *
        * <pre>
        * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getMessageDateAndTimeCharOrBuilder() {
         return getMessageDateAndTimeChar();
@@ -3146,34 +3143,40 @@ public final class CoGetMessagesOfOneMemberAd {
       }
       public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -3429,7 +3432,7 @@ public final class CoGetMessagesOfOneMemberAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -3468,21 +3471,21 @@ public final class CoGetMessagesOfOneMemberAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toCommunityMemberBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
          */
         public boolean hasToCommunityMember() {
           return toCommunityMemberBuilder_ != null || toCommunityMember_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
          */
         public io.dstore.Values.stringValue getToCommunityMember() {
           if (toCommunityMemberBuilder_ == null) {
@@ -3492,11 +3495,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
          */
         public Builder setToCommunityMember(io.dstore.Values.stringValue value) {
           if (toCommunityMemberBuilder_ == null) {
@@ -3512,11 +3515,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
          */
         public Builder setToCommunityMember(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3530,11 +3533,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
          */
         public Builder mergeToCommunityMember(io.dstore.Values.stringValue value) {
           if (toCommunityMemberBuilder_ == null) {
@@ -3552,11 +3555,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
          */
         public Builder clearToCommunityMember() {
           if (toCommunityMemberBuilder_ == null) {
@@ -3570,11 +3573,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getToCommunityMemberBuilder() {
           
@@ -3582,11 +3585,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return getToCommunityMemberFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getToCommunityMemberOrBuilder() {
           if (toCommunityMemberBuilder_ != null) {
@@ -3597,11 +3600,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "ToCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_community_member = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3621,21 +3624,21 @@ public final class CoGetMessagesOfOneMemberAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> messageStatusBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-         *
          * <pre>
          * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
          */
         public boolean hasMessageStatus() {
           return messageStatusBuilder_ != null || messageStatus_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-         *
          * <pre>
          * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
          */
         public io.dstore.Values.integerValue getMessageStatus() {
           if (messageStatusBuilder_ == null) {
@@ -3645,11 +3648,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-         *
          * <pre>
          * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
          */
         public Builder setMessageStatus(io.dstore.Values.integerValue value) {
           if (messageStatusBuilder_ == null) {
@@ -3665,11 +3668,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-         *
          * <pre>
          * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
          */
         public Builder setMessageStatus(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3683,11 +3686,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-         *
          * <pre>
          * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
          */
         public Builder mergeMessageStatus(io.dstore.Values.integerValue value) {
           if (messageStatusBuilder_ == null) {
@@ -3705,11 +3708,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-         *
          * <pre>
          * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
          */
         public Builder clearMessageStatus() {
           if (messageStatusBuilder_ == null) {
@@ -3723,11 +3726,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-         *
          * <pre>
          * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getMessageStatusBuilder() {
           
@@ -3735,11 +3738,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return getMessageStatusFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-         *
          * <pre>
          * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getMessageStatusOrBuilder() {
           if (messageStatusBuilder_ != null) {
@@ -3750,11 +3753,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
-         *
          * <pre>
          * Status der Nachricht "Message", die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde :* 0 bis 99 : neu (ungelesen)* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3774,21 +3777,21 @@ public final class CoGetMessagesOfOneMemberAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toCommunityMemberIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
          */
         public boolean hasToCommunityMemberId() {
           return toCommunityMemberIdBuilder_ != null || toCommunityMemberId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getToCommunityMemberId() {
           if (toCommunityMemberIdBuilder_ == null) {
@@ -3798,11 +3801,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
          */
         public Builder setToCommunityMemberId(io.dstore.Values.integerValue value) {
           if (toCommunityMemberIdBuilder_ == null) {
@@ -3818,11 +3821,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
          */
         public Builder setToCommunityMemberId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3836,11 +3839,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
          */
         public Builder mergeToCommunityMemberId(io.dstore.Values.integerValue value) {
           if (toCommunityMemberIdBuilder_ == null) {
@@ -3858,11 +3861,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
          */
         public Builder clearToCommunityMemberId() {
           if (toCommunityMemberIdBuilder_ == null) {
@@ -3876,11 +3879,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getToCommunityMemberIdBuilder() {
           
@@ -3888,11 +3891,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return getToCommunityMemberIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getToCommunityMemberIdOrBuilder() {
           if (toCommunityMemberIdBuilder_ != null) {
@@ -3903,11 +3906,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht von "FromCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") erhalten hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_community_member_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3927,21 +3930,21 @@ public final class CoGetMessagesOfOneMemberAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> messageBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue message = 10004;</code>
-         *
          * <pre>
          * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message = 10004;</code>
          */
         public boolean hasMessage() {
           return messageBuilder_ != null || message_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue message = 10004;</code>
-         *
          * <pre>
          * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message = 10004;</code>
          */
         public io.dstore.Values.stringValue getMessage() {
           if (messageBuilder_ == null) {
@@ -3951,11 +3954,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue message = 10004;</code>
-         *
          * <pre>
          * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message = 10004;</code>
          */
         public Builder setMessage(io.dstore.Values.stringValue value) {
           if (messageBuilder_ == null) {
@@ -3971,11 +3974,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue message = 10004;</code>
-         *
          * <pre>
          * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message = 10004;</code>
          */
         public Builder setMessage(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3989,11 +3992,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue message = 10004;</code>
-         *
          * <pre>
          * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message = 10004;</code>
          */
         public Builder mergeMessage(io.dstore.Values.stringValue value) {
           if (messageBuilder_ == null) {
@@ -4011,11 +4014,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue message = 10004;</code>
-         *
          * <pre>
          * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message = 10004;</code>
          */
         public Builder clearMessage() {
           if (messageBuilder_ == null) {
@@ -4029,11 +4032,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue message = 10004;</code>
-         *
          * <pre>
          * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getMessageBuilder() {
           
@@ -4041,11 +4044,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return getMessageFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue message = 10004;</code>
-         *
          * <pre>
          * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getMessageOrBuilder() {
           if (messageBuilder_ != null) {
@@ -4056,11 +4059,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue message = 10004;</code>
-         *
          * <pre>
          * Die Nachricht, die von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4080,21 +4083,21 @@ public final class CoGetMessagesOfOneMemberAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromCommunityMemberBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
          */
         public boolean hasFromCommunityMember() {
           return fromCommunityMemberBuilder_ != null || fromCommunityMember_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
          */
         public io.dstore.Values.stringValue getFromCommunityMember() {
           if (fromCommunityMemberBuilder_ == null) {
@@ -4104,11 +4107,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
          */
         public Builder setFromCommunityMember(io.dstore.Values.stringValue value) {
           if (fromCommunityMemberBuilder_ == null) {
@@ -4124,11 +4127,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
          */
         public Builder setFromCommunityMember(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4142,11 +4145,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
          */
         public Builder mergeFromCommunityMember(io.dstore.Values.stringValue value) {
           if (fromCommunityMemberBuilder_ == null) {
@@ -4164,11 +4167,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
          */
         public Builder clearFromCommunityMember() {
           if (fromCommunityMemberBuilder_ == null) {
@@ -4182,11 +4185,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getFromCommunityMemberBuilder() {
           
@@ -4194,11 +4197,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return getFromCommunityMemberFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getFromCommunityMemberOrBuilder() {
           if (fromCommunityMemberBuilder_ != null) {
@@ -4209,11 +4212,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal mit der "IdentifyingCharacteristicID" (aus "CommunitySettings")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_community_member = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4233,21 +4236,21 @@ public final class CoGetMessagesOfOneMemberAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-         *
          * <pre>
          * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
          */
         public boolean hasCommunityId() {
           return communityIdBuilder_ != null || communityId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-         *
          * <pre>
          * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
          */
         public io.dstore.Values.integerValue getCommunityId() {
           if (communityIdBuilder_ == null) {
@@ -4257,11 +4260,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-         *
          * <pre>
          * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
          */
         public Builder setCommunityId(io.dstore.Values.integerValue value) {
           if (communityIdBuilder_ == null) {
@@ -4277,11 +4280,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-         *
          * <pre>
          * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
          */
         public Builder setCommunityId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4295,11 +4298,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-         *
          * <pre>
          * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
          */
         public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
           if (communityIdBuilder_ == null) {
@@ -4317,11 +4320,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-         *
          * <pre>
          * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
          */
         public Builder clearCommunityId() {
           if (communityIdBuilder_ == null) {
@@ -4335,11 +4338,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-         *
          * <pre>
          * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
           
@@ -4347,11 +4350,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return getCommunityIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-         *
          * <pre>
          * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
           if (communityIdBuilder_ != null) {
@@ -4362,11 +4365,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
-         *
          * <pre>
          * ID der Community, in der die Nachricht von "FromCommunityMemberID" an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4386,21 +4389,21 @@ public final class CoGetMessagesOfOneMemberAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> communityNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
          */
         public boolean hasCommunityName() {
           return communityNameBuilder_ != null || communityName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
          */
         public io.dstore.Values.stringValue getCommunityName() {
           if (communityNameBuilder_ == null) {
@@ -4410,11 +4413,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
          */
         public Builder setCommunityName(io.dstore.Values.stringValue value) {
           if (communityNameBuilder_ == null) {
@@ -4430,11 +4433,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
          */
         public Builder setCommunityName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4448,11 +4451,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
          */
         public Builder mergeCommunityName(io.dstore.Values.stringValue value) {
           if (communityNameBuilder_ == null) {
@@ -4470,11 +4473,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
          */
         public Builder clearCommunityName() {
           if (communityNameBuilder_ == null) {
@@ -4488,11 +4491,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getCommunityNameBuilder() {
           
@@ -4500,11 +4503,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return getCommunityNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder() {
           if (communityNameBuilder_ != null) {
@@ -4515,11 +4518,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
-         *
          * <pre>
          * Name der Community "CommunityID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue community_name = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4539,21 +4542,21 @@ public final class CoGetMessagesOfOneMemberAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> messageDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
          */
         public boolean hasMessageDateAndTime() {
           return messageDateAndTimeBuilder_ != null || messageDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
          */
         public io.dstore.Values.timestampValue getMessageDateAndTime() {
           if (messageDateAndTimeBuilder_ == null) {
@@ -4563,11 +4566,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
          */
         public Builder setMessageDateAndTime(io.dstore.Values.timestampValue value) {
           if (messageDateAndTimeBuilder_ == null) {
@@ -4583,11 +4586,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
          */
         public Builder setMessageDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -4601,11 +4604,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
          */
         public Builder mergeMessageDateAndTime(io.dstore.Values.timestampValue value) {
           if (messageDateAndTimeBuilder_ == null) {
@@ -4623,11 +4626,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
          */
         public Builder clearMessageDateAndTime() {
           if (messageDateAndTimeBuilder_ == null) {
@@ -4641,11 +4644,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
          */
         public io.dstore.Values.timestampValue.Builder getMessageDateAndTimeBuilder() {
           
@@ -4653,11 +4656,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return getMessageDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getMessageDateAndTimeOrBuilder() {
           if (messageDateAndTimeBuilder_ != null) {
@@ -4668,11 +4671,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
-         *
          * <pre>
          * Zeitpunkt an dem die Nachricht "Message" von "FromCommunityMemberID" an "ToCommunityMemberID" verschickt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue message_date_and_time = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -4692,21 +4695,21 @@ public final class CoGetMessagesOfOneMemberAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromCommunityMemberIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
          */
         public boolean hasFromCommunityMemberId() {
           return fromCommunityMemberIdBuilder_ != null || fromCommunityMemberId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
          */
         public io.dstore.Values.integerValue getFromCommunityMemberId() {
           if (fromCommunityMemberIdBuilder_ == null) {
@@ -4716,11 +4719,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
          */
         public Builder setFromCommunityMemberId(io.dstore.Values.integerValue value) {
           if (fromCommunityMemberIdBuilder_ == null) {
@@ -4736,11 +4739,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
          */
         public Builder setFromCommunityMemberId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4754,11 +4757,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
          */
         public Builder mergeFromCommunityMemberId(io.dstore.Values.integerValue value) {
           if (fromCommunityMemberIdBuilder_ == null) {
@@ -4776,11 +4779,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
          */
         public Builder clearFromCommunityMemberId() {
           if (fromCommunityMemberIdBuilder_ == null) {
@@ -4794,11 +4797,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
          */
         public io.dstore.Values.integerValue.Builder getFromCommunityMemberIdBuilder() {
           
@@ -4806,11 +4809,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return getFromCommunityMemberIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
           if (fromCommunityMemberIdBuilder_ != null) {
@@ -4821,11 +4824,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
-         *
          * <pre>
          * ID des Mitglieds der Commuity "CommunityID", das die Nachricht an "ToCommunityMemberID" (zum Zeitpunkt "MessageDateAndTime") verschickt hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4845,21 +4848,21 @@ public final class CoGetMessagesOfOneMemberAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> messageDateAndTimeCharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-         *
          * <pre>
          * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
          */
         public boolean hasMessageDateAndTimeChar() {
           return messageDateAndTimeCharBuilder_ != null || messageDateAndTimeChar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-         *
          * <pre>
          * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
          */
         public io.dstore.Values.stringValue getMessageDateAndTimeChar() {
           if (messageDateAndTimeCharBuilder_ == null) {
@@ -4869,11 +4872,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-         *
          * <pre>
          * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
          */
         public Builder setMessageDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (messageDateAndTimeCharBuilder_ == null) {
@@ -4889,11 +4892,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-         *
          * <pre>
          * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
          */
         public Builder setMessageDateAndTimeChar(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4907,11 +4910,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-         *
          * <pre>
          * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
          */
         public Builder mergeMessageDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (messageDateAndTimeCharBuilder_ == null) {
@@ -4929,11 +4932,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-         *
          * <pre>
          * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
          */
         public Builder clearMessageDateAndTimeChar() {
           if (messageDateAndTimeCharBuilder_ == null) {
@@ -4947,11 +4950,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-         *
          * <pre>
          * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
          */
         public io.dstore.Values.stringValue.Builder getMessageDateAndTimeCharBuilder() {
           
@@ -4959,11 +4962,11 @@ public final class CoGetMessagesOfOneMemberAd {
           return getMessageDateAndTimeCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-         *
          * <pre>
          * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getMessageDateAndTimeCharOrBuilder() {
           if (messageDateAndTimeCharBuilder_ != null) {
@@ -4974,11 +4977,11 @@ public final class CoGetMessagesOfOneMemberAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
-         *
          * <pre>
          * "MessageDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue message_date_and_time_char = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5023,16 +5026,7 @@ public final class CoGetMessagesOfOneMemberAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -5124,52 +5118,52 @@ public final class CoGetMessagesOfOneMemberAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -5244,34 +5238,40 @@ public final class CoGetMessagesOfOneMemberAd {
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -5508,7 +5508,7 @@ public final class CoGetMessagesOfOneMemberAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -6011,11 +6011,11 @@ public final class CoGetMessagesOfOneMemberAd {
           io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row, io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row.Builder, io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -6025,11 +6025,11 @@ public final class CoGetMessagesOfOneMemberAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -6039,11 +6039,11 @@ public final class CoGetMessagesOfOneMemberAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -6053,11 +6053,11 @@ public final class CoGetMessagesOfOneMemberAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row value) {
@@ -6074,11 +6074,11 @@ public final class CoGetMessagesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row.Builder builderForValue) {
@@ -6092,11 +6092,11 @@ public final class CoGetMessagesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -6112,11 +6112,11 @@ public final class CoGetMessagesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row value) {
@@ -6133,11 +6133,11 @@ public final class CoGetMessagesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row.Builder builderForValue) {
@@ -6151,11 +6151,11 @@ public final class CoGetMessagesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row.Builder builderForValue) {
@@ -6169,11 +6169,11 @@ public final class CoGetMessagesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row> values) {
@@ -6188,11 +6188,11 @@ public final class CoGetMessagesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -6205,11 +6205,11 @@ public final class CoGetMessagesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -6222,22 +6222,22 @@ public final class CoGetMessagesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -6247,11 +6247,11 @@ public final class CoGetMessagesOfOneMemberAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -6262,22 +6262,22 @@ public final class CoGetMessagesOfOneMemberAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -6285,11 +6285,11 @@ public final class CoGetMessagesOfOneMemberAd {
             index, io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.co_GetMessagesOfOneMember_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -6339,16 +6339,7 @@ public final class CoGetMessagesOfOneMemberAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -6367,19 +6358,19 @@ public final class CoGetMessagesOfOneMemberAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetMessagesOfOneMember_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetMessagesOfOneMember_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetMessagesOfOneMember_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetMessagesOfOneMember_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetMessagesOfOneMember_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetMessagesOfOneMember_Ad_Response_Row_fieldAccessorTable;
 
@@ -6387,7 +6378,7 @@ public final class CoGetMessagesOfOneMemberAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

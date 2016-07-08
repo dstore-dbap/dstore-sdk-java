@@ -280,7 +280,8 @@ public final class OmCreateNewBillAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -534,11 +535,10 @@ public final class OmCreateNewBillAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -1174,34 +1174,40 @@ public final class OmCreateNewBillAd {
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1571,7 +1577,7 @@ public final class OmCreateNewBillAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmCreateNewBillAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3468,16 +3474,7 @@ public final class OmCreateNewBillAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3609,7 +3606,8 @@ public final class OmCreateNewBillAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -3666,11 +3664,10 @@ public final class OmCreateNewBillAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -3706,102 +3703,102 @@ public final class OmCreateNewBillAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-       *
        * <pre>
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        */
       boolean hasTableId();
       /**
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-       *
        * <pre>
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        */
       io.dstore.Values.integerValue getTableId();
       /**
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-       *
        * <pre>
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Informations-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       boolean hasInformationTypeId();
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Informations-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       io.dstore.Values.integerValue getInformationTypeId();
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Informations-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-       *
        * <pre>
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
        */
       boolean hasTableKeyId();
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-       *
        * <pre>
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
        */
       io.dstore.Values.integerValue getTableKeyId();
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-       *
        * <pre>
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-       *
        * <pre>
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
        */
       boolean hasErrorCode();
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-       *
        * <pre>
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
        */
       io.dstore.Values.integerValue getErrorCode();
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-       *
        * <pre>
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder();
     }
@@ -3827,7 +3824,8 @@ public final class OmCreateNewBillAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -3904,11 +3902,10 @@ public final class OmCreateNewBillAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -3937,31 +3934,31 @@ public final class OmCreateNewBillAd {
       public static final int TABLE_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue tableId_;
       /**
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-       *
        * <pre>
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        */
       public boolean hasTableId() {
         return tableId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-       *
        * <pre>
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getTableId() {
         return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-       *
        * <pre>
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
         return getTableId();
@@ -3970,31 +3967,31 @@ public final class OmCreateNewBillAd {
       public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue informationTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Informations-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Informations-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getInformationTypeId() {
         return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-       *
        * <pre>
        * ID einer Informations-Art
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
@@ -4003,31 +4000,31 @@ public final class OmCreateNewBillAd {
       public static final int TABLE_KEY_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue tableKeyId_;
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-       *
        * <pre>
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
        */
       public boolean hasTableKeyId() {
         return tableKeyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-       *
        * <pre>
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getTableKeyId() {
         return tableKeyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableKeyId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-       *
        * <pre>
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
         return getTableKeyId();
@@ -4036,31 +4033,31 @@ public final class OmCreateNewBillAd {
       public static final int ERROR_CODE_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue errorCode_;
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-       *
        * <pre>
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
        */
       public boolean hasErrorCode() {
         return errorCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-       *
        * <pre>
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
        */
       public io.dstore.Values.integerValue getErrorCode() {
         return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
       }
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-       *
        * <pre>
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
@@ -4148,34 +4145,40 @@ public final class OmCreateNewBillAd {
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -4347,7 +4350,7 @@ public final class OmCreateNewBillAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -4386,21 +4389,21 @@ public final class OmCreateNewBillAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-         *
          * <pre>
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
         public boolean hasTableId() {
           return tableIdBuilder_ != null || tableId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-         *
          * <pre>
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getTableId() {
           if (tableIdBuilder_ == null) {
@@ -4410,11 +4413,11 @@ public final class OmCreateNewBillAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-         *
          * <pre>
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
         public Builder setTableId(io.dstore.Values.integerValue value) {
           if (tableIdBuilder_ == null) {
@@ -4430,11 +4433,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-         *
          * <pre>
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
         public Builder setTableId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4448,11 +4451,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-         *
          * <pre>
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
         public Builder mergeTableId(io.dstore.Values.integerValue value) {
           if (tableIdBuilder_ == null) {
@@ -4470,11 +4473,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-         *
          * <pre>
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
         public Builder clearTableId() {
           if (tableIdBuilder_ == null) {
@@ -4488,11 +4491,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-         *
          * <pre>
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getTableIdBuilder() {
           
@@ -4500,11 +4503,11 @@ public final class OmCreateNewBillAd {
           return getTableIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-         *
          * <pre>
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
           if (tableIdBuilder_ != null) {
@@ -4515,11 +4518,11 @@ public final class OmCreateNewBillAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
-         *
          * <pre>
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4539,21 +4542,21 @@ public final class OmCreateNewBillAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Informations-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Informations-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -4563,11 +4566,11 @@ public final class OmCreateNewBillAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Informations-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -4583,11 +4586,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Informations-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public Builder setInformationTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4601,11 +4604,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Informations-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -4623,11 +4626,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Informations-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -4641,11 +4644,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Informations-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
           
@@ -4653,11 +4656,11 @@ public final class OmCreateNewBillAd {
           return getInformationTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Informations-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
@@ -4668,11 +4671,11 @@ public final class OmCreateNewBillAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
-         *
          * <pre>
          * ID einer Informations-Art
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4692,21 +4695,21 @@ public final class OmCreateNewBillAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableKeyIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-         *
          * <pre>
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
          */
         public boolean hasTableKeyId() {
           return tableKeyIdBuilder_ != null || tableKeyId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-         *
          * <pre>
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getTableKeyId() {
           if (tableKeyIdBuilder_ == null) {
@@ -4716,11 +4719,11 @@ public final class OmCreateNewBillAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-         *
          * <pre>
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
          */
         public Builder setTableKeyId(io.dstore.Values.integerValue value) {
           if (tableKeyIdBuilder_ == null) {
@@ -4736,11 +4739,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-         *
          * <pre>
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
          */
         public Builder setTableKeyId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4754,11 +4757,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-         *
          * <pre>
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
          */
         public Builder mergeTableKeyId(io.dstore.Values.integerValue value) {
           if (tableKeyIdBuilder_ == null) {
@@ -4776,11 +4779,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-         *
          * <pre>
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
          */
         public Builder clearTableKeyId() {
           if (tableKeyIdBuilder_ == null) {
@@ -4794,11 +4797,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-         *
          * <pre>
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getTableKeyIdBuilder() {
           
@@ -4806,11 +4809,11 @@ public final class OmCreateNewBillAd {
           return getTableKeyIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-         *
          * <pre>
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
           if (tableKeyIdBuilder_ != null) {
@@ -4821,11 +4824,11 @@ public final class OmCreateNewBillAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
-         *
          * <pre>
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4845,21 +4848,21 @@ public final class OmCreateNewBillAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-         *
          * <pre>
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
          */
         public boolean hasErrorCode() {
           return errorCodeBuilder_ != null || errorCode_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-         *
          * <pre>
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
          */
         public io.dstore.Values.integerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -4869,11 +4872,11 @@ public final class OmCreateNewBillAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-         *
          * <pre>
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
          */
         public Builder setErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -4889,11 +4892,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-         *
          * <pre>
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
          */
         public Builder setErrorCode(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4907,11 +4910,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-         *
          * <pre>
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
          */
         public Builder mergeErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -4929,11 +4932,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-         *
          * <pre>
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
          */
         public Builder clearErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -4947,11 +4950,11 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-         *
          * <pre>
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getErrorCodeBuilder() {
           
@@ -4959,11 +4962,11 @@ public final class OmCreateNewBillAd {
           return getErrorCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-         *
          * <pre>
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
@@ -4974,11 +4977,11 @@ public final class OmCreateNewBillAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
-         *
          * <pre>
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5023,16 +5026,7 @@ public final class OmCreateNewBillAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -5253,34 +5247,40 @@ public final class OmCreateNewBillAd {
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -5533,7 +5533,7 @@ public final class OmCreateNewBillAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmCreateNewBillAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -6409,16 +6409,7 @@ public final class OmCreateNewBillAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -6437,19 +6428,19 @@ public final class OmCreateNewBillAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CreateNewBill_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_CreateNewBill_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_fieldAccessorTable;
 
@@ -6457,7 +6448,7 @@ public final class OmCreateNewBillAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

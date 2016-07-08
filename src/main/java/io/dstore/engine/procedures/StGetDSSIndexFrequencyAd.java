@@ -299,7 +299,8 @@ public final class StGetDSSIndexFrequencyAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -571,11 +572,10 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -1255,34 +1255,40 @@ public final class StGetDSSIndexFrequencyAd {
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1672,7 +1678,7 @@ public final class StGetDSSIndexFrequencyAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3712,16 +3718,7 @@ public final class StGetDSSIndexFrequencyAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3793,45 +3790,45 @@ public final class StGetDSSIndexFrequencyAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -3860,7 +3857,8 @@ public final class StGetDSSIndexFrequencyAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -3904,11 +3902,10 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -3944,152 +3941,152 @@ public final class StGetDSSIndexFrequencyAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-       *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        */
       boolean hasOrders();
       /**
-       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-       *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        */
       io.dstore.Values.decimalValue getOrders();
       /**
-       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-       *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getOrdersOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-       *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        */
       boolean hasVBOIndex();
       /**
-       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-       *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        */
       io.dstore.Values.decimalValue getVBOIndex();
       /**
-       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-       *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getVBOIndexOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-       *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        */
       boolean hasFrequencyOfId();
       /**
-       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-       *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        */
       io.dstore.Values.integerValue getFrequencyOfId();
       /**
-       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-       *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getFrequencyOfIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue views = 10004;</code>
-       *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        */
       boolean hasViews();
       /**
-       * <code>optional .dstore.values.decimalValue views = 10004;</code>
-       *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        */
       io.dstore.Values.decimalValue getViews();
       /**
-       * <code>optional .dstore.values.decimalValue views = 10004;</code>
-       *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getViewsOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-       *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        */
       boolean hasFrequencyOfDescription();
       /**
-       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-       *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        */
       io.dstore.Values.stringValue getFrequencyOfDescription();
       /**
-       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-       *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getFrequencyOfDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-       *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        */
       boolean hasBuyingInterests();
       /**
-       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-       *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        */
       io.dstore.Values.decimalValue getBuyingInterests();
       /**
-       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-       *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getBuyingInterestsOrBuilder();
     }
@@ -4115,7 +4112,8 @@ public final class StGetDSSIndexFrequencyAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -4218,11 +4216,10 @@ public final class StGetDSSIndexFrequencyAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -4251,31 +4248,31 @@ public final class StGetDSSIndexFrequencyAd {
       public static final int ORDERS_FIELD_NUMBER = 10001;
       private io.dstore.Values.decimalValue orders_;
       /**
-       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-       *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        */
       public boolean hasOrders() {
         return orders_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-       *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        */
       public io.dstore.Values.decimalValue getOrders() {
         return orders_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : orders_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-       *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getOrdersOrBuilder() {
         return getOrders();
@@ -4284,31 +4281,31 @@ public final class StGetDSSIndexFrequencyAd {
       public static final int V_B_O_INDEX_FIELD_NUMBER = 10002;
       private io.dstore.Values.decimalValue vBOIndex_;
       /**
-       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-       *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        */
       public boolean hasVBOIndex() {
         return vBOIndex_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-       *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        */
       public io.dstore.Values.decimalValue getVBOIndex() {
         return vBOIndex_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : vBOIndex_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-       *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getVBOIndexOrBuilder() {
         return getVBOIndex();
@@ -4317,31 +4314,31 @@ public final class StGetDSSIndexFrequencyAd {
       public static final int FREQUENCY_OF_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue frequencyOfId_;
       /**
-       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-       *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        */
       public boolean hasFrequencyOfId() {
         return frequencyOfId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-       *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getFrequencyOfId() {
         return frequencyOfId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : frequencyOfId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-       *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getFrequencyOfIdOrBuilder() {
         return getFrequencyOfId();
@@ -4350,31 +4347,31 @@ public final class StGetDSSIndexFrequencyAd {
       public static final int VIEWS_FIELD_NUMBER = 10004;
       private io.dstore.Values.decimalValue views_;
       /**
-       * <code>optional .dstore.values.decimalValue views = 10004;</code>
-       *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        */
       public boolean hasViews() {
         return views_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue views = 10004;</code>
-       *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        */
       public io.dstore.Values.decimalValue getViews() {
         return views_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : views_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue views = 10004;</code>
-       *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getViewsOrBuilder() {
         return getViews();
@@ -4383,31 +4380,31 @@ public final class StGetDSSIndexFrequencyAd {
       public static final int FREQUENCY_OF_DESCRIPTION_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue frequencyOfDescription_;
       /**
-       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-       *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        */
       public boolean hasFrequencyOfDescription() {
         return frequencyOfDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-       *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        */
       public io.dstore.Values.stringValue getFrequencyOfDescription() {
         return frequencyOfDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : frequencyOfDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-       *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFrequencyOfDescriptionOrBuilder() {
         return getFrequencyOfDescription();
@@ -4416,31 +4413,31 @@ public final class StGetDSSIndexFrequencyAd {
       public static final int BUYING_INTERESTS_FIELD_NUMBER = 10006;
       private io.dstore.Values.decimalValue buyingInterests_;
       /**
-       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-       *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        */
       public boolean hasBuyingInterests() {
         return buyingInterests_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-       *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        */
       public io.dstore.Values.decimalValue getBuyingInterests() {
         return buyingInterests_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : buyingInterests_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-       *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getBuyingInterestsOrBuilder() {
         return getBuyingInterests();
@@ -4542,34 +4539,40 @@ public final class StGetDSSIndexFrequencyAd {
       }
       public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -4769,7 +4772,7 @@ public final class StGetDSSIndexFrequencyAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -4808,21 +4811,21 @@ public final class StGetDSSIndexFrequencyAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> ordersBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-         *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          */
         public boolean hasOrders() {
           return ordersBuilder_ != null || orders_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-         *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          */
         public io.dstore.Values.decimalValue getOrders() {
           if (ordersBuilder_ == null) {
@@ -4832,11 +4835,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-         *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          */
         public Builder setOrders(io.dstore.Values.decimalValue value) {
           if (ordersBuilder_ == null) {
@@ -4852,11 +4855,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-         *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          */
         public Builder setOrders(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -4870,11 +4873,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-         *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          */
         public Builder mergeOrders(io.dstore.Values.decimalValue value) {
           if (ordersBuilder_ == null) {
@@ -4892,11 +4895,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-         *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          */
         public Builder clearOrders() {
           if (ordersBuilder_ == null) {
@@ -4910,11 +4913,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-         *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          */
         public io.dstore.Values.decimalValue.Builder getOrdersBuilder() {
           
@@ -4922,11 +4925,11 @@ public final class StGetDSSIndexFrequencyAd {
           return getOrdersFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-         *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getOrdersOrBuilder() {
           if (ordersBuilder_ != null) {
@@ -4937,11 +4940,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
-         *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -4961,21 +4964,21 @@ public final class StGetDSSIndexFrequencyAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> vBOIndexBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-         *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          */
         public boolean hasVBOIndex() {
           return vBOIndexBuilder_ != null || vBOIndex_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-         *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          */
         public io.dstore.Values.decimalValue getVBOIndex() {
           if (vBOIndexBuilder_ == null) {
@@ -4985,11 +4988,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-         *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          */
         public Builder setVBOIndex(io.dstore.Values.decimalValue value) {
           if (vBOIndexBuilder_ == null) {
@@ -5005,11 +5008,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-         *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          */
         public Builder setVBOIndex(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -5023,11 +5026,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-         *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          */
         public Builder mergeVBOIndex(io.dstore.Values.decimalValue value) {
           if (vBOIndexBuilder_ == null) {
@@ -5045,11 +5048,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-         *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          */
         public Builder clearVBOIndex() {
           if (vBOIndexBuilder_ == null) {
@@ -5063,11 +5066,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-         *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          */
         public io.dstore.Values.decimalValue.Builder getVBOIndexBuilder() {
           
@@ -5075,11 +5078,11 @@ public final class StGetDSSIndexFrequencyAd {
           return getVBOIndexFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-         *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getVBOIndexOrBuilder() {
           if (vBOIndexBuilder_ != null) {
@@ -5090,11 +5093,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
-         *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -5114,21 +5117,21 @@ public final class StGetDSSIndexFrequencyAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> frequencyOfIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-         *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          */
         public boolean hasFrequencyOfId() {
           return frequencyOfIdBuilder_ != null || frequencyOfId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-         *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getFrequencyOfId() {
           if (frequencyOfIdBuilder_ == null) {
@@ -5138,11 +5141,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-         *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          */
         public Builder setFrequencyOfId(io.dstore.Values.integerValue value) {
           if (frequencyOfIdBuilder_ == null) {
@@ -5158,11 +5161,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-         *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          */
         public Builder setFrequencyOfId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5176,11 +5179,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-         *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          */
         public Builder mergeFrequencyOfId(io.dstore.Values.integerValue value) {
           if (frequencyOfIdBuilder_ == null) {
@@ -5198,11 +5201,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-         *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          */
         public Builder clearFrequencyOfId() {
           if (frequencyOfIdBuilder_ == null) {
@@ -5216,11 +5219,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-         *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getFrequencyOfIdBuilder() {
           
@@ -5228,11 +5231,11 @@ public final class StGetDSSIndexFrequencyAd {
           return getFrequencyOfIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-         *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getFrequencyOfIdOrBuilder() {
           if (frequencyOfIdBuilder_ != null) {
@@ -5243,11 +5246,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
-         *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5267,21 +5270,21 @@ public final class StGetDSSIndexFrequencyAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> viewsBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue views = 10004;</code>
-         *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          */
         public boolean hasViews() {
           return viewsBuilder_ != null || views_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue views = 10004;</code>
-         *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          */
         public io.dstore.Values.decimalValue getViews() {
           if (viewsBuilder_ == null) {
@@ -5291,11 +5294,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue views = 10004;</code>
-         *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          */
         public Builder setViews(io.dstore.Values.decimalValue value) {
           if (viewsBuilder_ == null) {
@@ -5311,11 +5314,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue views = 10004;</code>
-         *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          */
         public Builder setViews(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -5329,11 +5332,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue views = 10004;</code>
-         *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          */
         public Builder mergeViews(io.dstore.Values.decimalValue value) {
           if (viewsBuilder_ == null) {
@@ -5351,11 +5354,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue views = 10004;</code>
-         *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          */
         public Builder clearViews() {
           if (viewsBuilder_ == null) {
@@ -5369,11 +5372,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue views = 10004;</code>
-         *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          */
         public io.dstore.Values.decimalValue.Builder getViewsBuilder() {
           
@@ -5381,11 +5384,11 @@ public final class StGetDSSIndexFrequencyAd {
           return getViewsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue views = 10004;</code>
-         *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getViewsOrBuilder() {
           if (viewsBuilder_ != null) {
@@ -5396,11 +5399,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue views = 10004;</code>
-         *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -5420,21 +5423,21 @@ public final class StGetDSSIndexFrequencyAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> frequencyOfDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-         *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          */
         public boolean hasFrequencyOfDescription() {
           return frequencyOfDescriptionBuilder_ != null || frequencyOfDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-         *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          */
         public io.dstore.Values.stringValue getFrequencyOfDescription() {
           if (frequencyOfDescriptionBuilder_ == null) {
@@ -5444,11 +5447,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-         *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          */
         public Builder setFrequencyOfDescription(io.dstore.Values.stringValue value) {
           if (frequencyOfDescriptionBuilder_ == null) {
@@ -5464,11 +5467,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-         *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          */
         public Builder setFrequencyOfDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5482,11 +5485,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-         *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          */
         public Builder mergeFrequencyOfDescription(io.dstore.Values.stringValue value) {
           if (frequencyOfDescriptionBuilder_ == null) {
@@ -5504,11 +5507,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-         *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          */
         public Builder clearFrequencyOfDescription() {
           if (frequencyOfDescriptionBuilder_ == null) {
@@ -5522,11 +5525,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-         *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getFrequencyOfDescriptionBuilder() {
           
@@ -5534,11 +5537,11 @@ public final class StGetDSSIndexFrequencyAd {
           return getFrequencyOfDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-         *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getFrequencyOfDescriptionOrBuilder() {
           if (frequencyOfDescriptionBuilder_ != null) {
@@ -5549,11 +5552,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
-         *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5573,21 +5576,21 @@ public final class StGetDSSIndexFrequencyAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> buyingInterestsBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-         *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          */
         public boolean hasBuyingInterests() {
           return buyingInterestsBuilder_ != null || buyingInterests_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-         *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          */
         public io.dstore.Values.decimalValue getBuyingInterests() {
           if (buyingInterestsBuilder_ == null) {
@@ -5597,11 +5600,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-         *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          */
         public Builder setBuyingInterests(io.dstore.Values.decimalValue value) {
           if (buyingInterestsBuilder_ == null) {
@@ -5617,11 +5620,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-         *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          */
         public Builder setBuyingInterests(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -5635,11 +5638,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-         *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          */
         public Builder mergeBuyingInterests(io.dstore.Values.decimalValue value) {
           if (buyingInterestsBuilder_ == null) {
@@ -5657,11 +5660,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-         *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          */
         public Builder clearBuyingInterests() {
           if (buyingInterestsBuilder_ == null) {
@@ -5675,11 +5678,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-         *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          */
         public io.dstore.Values.decimalValue.Builder getBuyingInterestsBuilder() {
           
@@ -5687,11 +5690,11 @@ public final class StGetDSSIndexFrequencyAd {
           return getBuyingInterestsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-         *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getBuyingInterestsOrBuilder() {
           if (buyingInterestsBuilder_ != null) {
@@ -5702,11 +5705,11 @@ public final class StGetDSSIndexFrequencyAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
-         *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -5751,16 +5754,7 @@ public final class StGetDSSIndexFrequencyAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -5852,52 +5846,52 @@ public final class StGetDSSIndexFrequencyAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -5972,34 +5966,40 @@ public final class StGetDSSIndexFrequencyAd {
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -6236,7 +6236,7 @@ public final class StGetDSSIndexFrequencyAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -6739,11 +6739,11 @@ public final class StGetDSSIndexFrequencyAd {
           io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row, io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row.Builder, io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -6753,11 +6753,11 @@ public final class StGetDSSIndexFrequencyAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -6767,11 +6767,11 @@ public final class StGetDSSIndexFrequencyAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -6781,11 +6781,11 @@ public final class StGetDSSIndexFrequencyAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row value) {
@@ -6802,11 +6802,11 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row.Builder builderForValue) {
@@ -6820,11 +6820,11 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -6840,11 +6840,11 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row value) {
@@ -6861,11 +6861,11 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row.Builder builderForValue) {
@@ -6879,11 +6879,11 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row.Builder builderForValue) {
@@ -6897,11 +6897,11 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row> values) {
@@ -6916,11 +6916,11 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -6933,11 +6933,11 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -6950,22 +6950,22 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -6975,11 +6975,11 @@ public final class StGetDSSIndexFrequencyAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -6990,22 +6990,22 @@ public final class StGetDSSIndexFrequencyAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -7013,11 +7013,11 @@ public final class StGetDSSIndexFrequencyAd {
             index, io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -7067,16 +7067,7 @@ public final class StGetDSSIndexFrequencyAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -7095,19 +7086,19 @@ public final class StGetDSSIndexFrequencyAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetDSS_Index_Frequency_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetDSS_Index_Frequency_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetDSS_Index_Frequency_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetDSS_Index_Frequency_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetDSS_Index_Frequency_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_st_GetDSS_Index_Frequency_Ad_Response_Row_fieldAccessorTable;
 
@@ -7115,7 +7106,7 @@ public final class StGetDSSIndexFrequencyAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

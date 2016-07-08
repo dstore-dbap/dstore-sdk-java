@@ -90,7 +90,8 @@ public final class MiGetExecuteRightsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class MiGetExecuteRightsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class MiGetExecuteRightsAd {
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class MiGetExecuteRightsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetExecuteRightsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class MiGetExecuteRightsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class MiGetExecuteRightsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class MiGetExecuteRightsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class MiGetExecuteRightsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,302 +1257,302 @@ public final class MiGetExecuteRightsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
        */
       boolean hasProcedureExists();
       /**
-       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
        */
       io.dstore.Values.booleanValue getProcedureExists();
       /**
-       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getProcedureExistsOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-       *
        * <pre>
        * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
        */
       boolean hasUserExecRightOnDatabaseLevel();
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-       *
        * <pre>
        * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
        */
       io.dstore.Values.integerValue getUserExecRightOnDatabaseLevel();
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-       *
        * <pre>
        * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUserExecRightOnDatabaseLevelOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
        */
       boolean hasPublicExecRightOnDatabaseLevel();
       /**
-       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
        */
       io.dstore.Values.integerValue getPublicExecRightOnDatabaseLevel();
       /**
-       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPublicExecRightOnDatabaseLevelOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-       *
        * <pre>
        * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
        */
       boolean hasProcedureId();
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-       *
        * <pre>
        * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
        */
       io.dstore.Values.integerValue getProcedureId();
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-       *
        * <pre>
        * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-       *
        * <pre>
        * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
        */
       boolean hasUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-       *
        * <pre>
        * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
        */
       io.dstore.Values.stringValue getUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-       *
        * <pre>
        * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-       *
        * <pre>
        * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
        */
       boolean hasGroupExecRightOndstoreLevel();
       /**
-       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-       *
        * <pre>
        * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
        */
       io.dstore.Values.booleanValue getGroupExecRightOndstoreLevel();
       /**
-       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-       *
        * <pre>
        * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getGroupExecRightOndstoreLevelOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-       *
        * <pre>
        * Name einer Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
        */
       boolean hasProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-       *
        * <pre>
        * Name einer Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
        */
       io.dstore.Values.stringValue getProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-       *
        * <pre>
        * Name einer Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-       *
        * <pre>
        * ID des Benutzers "UserName" aus "UserInfo"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
        */
       boolean hasUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-       *
        * <pre>
        * ID des Benutzers "UserName" aus "UserInfo"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
        */
       io.dstore.Values.integerValue getUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-       *
        * <pre>
        * ID des Benutzers "UserName" aus "UserInfo"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-       *
        * <pre>
        * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
        */
       boolean hasExecuteRight();
       /**
-       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-       *
        * <pre>
        * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
        */
       io.dstore.Values.booleanValue getExecuteRight();
       /**
-       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-       *
        * <pre>
        * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getExecuteRightOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-       *
        * <pre>
        * Kurz-Beschreibung der Prozedur "ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
        */
       boolean hasProcedureFunction();
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-       *
        * <pre>
        * Kurz-Beschreibung der Prozedur "ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
        */
       io.dstore.Values.stringValue getProcedureFunction();
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-       *
        * <pre>
        * Kurz-Beschreibung der Prozedur "ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
        */
       io.dstore.Values.stringValueOrBuilder getProcedureFunctionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-       *
        * <pre>
        * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
        */
       boolean hasUserExecRightOndstoreLevel();
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-       *
        * <pre>
        * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
        */
       io.dstore.Values.integerValue getUserExecRightOndstoreLevel();
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-       *
        * <pre>
        * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUserExecRightOndstoreLevelOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
        */
       boolean hasGroupExecRightOnDatabaseLevel();
       /**
-       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
        */
       io.dstore.Values.integerValue getGroupExecRightOnDatabaseLevel();
       /**
-       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
        */
       io.dstore.Values.integerValueOrBuilder getGroupExecRightOnDatabaseLevelOrBuilder();
     }
@@ -1581,7 +1578,8 @@ public final class MiGetExecuteRightsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1762,11 +1760,10 @@ public final class MiGetExecuteRightsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1795,31 +1792,31 @@ public final class MiGetExecuteRightsAd {
       public static final int PROCEDURE_EXISTS_FIELD_NUMBER = 10001;
       private io.dstore.Values.booleanValue procedureExists_;
       /**
-       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
        */
       public boolean hasProcedureExists() {
         return procedureExists_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
        */
       public io.dstore.Values.booleanValue getProcedureExists() {
         return procedureExists_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : procedureExists_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-       *
        * <pre>
        * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getProcedureExistsOrBuilder() {
         return getProcedureExists();
@@ -1828,31 +1825,31 @@ public final class MiGetExecuteRightsAd {
       public static final int USER_EXEC_RIGHT_ON_DATABASE_LEVEL_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue userExecRightOnDatabaseLevel_;
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-       *
        * <pre>
        * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
        */
       public boolean hasUserExecRightOnDatabaseLevel() {
         return userExecRightOnDatabaseLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-       *
        * <pre>
        * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
        */
       public io.dstore.Values.integerValue getUserExecRightOnDatabaseLevel() {
         return userExecRightOnDatabaseLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userExecRightOnDatabaseLevel_;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-       *
        * <pre>
        * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserExecRightOnDatabaseLevelOrBuilder() {
         return getUserExecRightOnDatabaseLevel();
@@ -1861,31 +1858,31 @@ public final class MiGetExecuteRightsAd {
       public static final int PUBLIC_EXEC_RIGHT_ON_DATABASE_LEVEL_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue publicExecRightOnDatabaseLevel_;
       /**
-       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
        */
       public boolean hasPublicExecRightOnDatabaseLevel() {
         return publicExecRightOnDatabaseLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
        */
       public io.dstore.Values.integerValue getPublicExecRightOnDatabaseLevel() {
         return publicExecRightOnDatabaseLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : publicExecRightOnDatabaseLevel_;
       }
       /**
-       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPublicExecRightOnDatabaseLevelOrBuilder() {
         return getPublicExecRightOnDatabaseLevel();
@@ -1894,31 +1891,31 @@ public final class MiGetExecuteRightsAd {
       public static final int PROCEDURE_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue procedureId_;
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-       *
        * <pre>
        * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
        */
       public boolean hasProcedureId() {
         return procedureId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-       *
        * <pre>
        * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
        */
       public io.dstore.Values.integerValue getProcedureId() {
         return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-       *
        * <pre>
        * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
         return getProcedureId();
@@ -1927,31 +1924,31 @@ public final class MiGetExecuteRightsAd {
       public static final int USER_NAME_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue userName_;
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-       *
        * <pre>
        * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-       *
        * <pre>
        * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
        */
       public io.dstore.Values.stringValue getUserName() {
         return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-       *
        * <pre>
        * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
@@ -1960,31 +1957,31 @@ public final class MiGetExecuteRightsAd {
       public static final int GROUP_EXEC_RIGHT_ONDSTORE_LEVEL_FIELD_NUMBER = 10006;
       private io.dstore.Values.booleanValue groupExecRightOndstoreLevel_;
       /**
-       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-       *
        * <pre>
        * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
        */
       public boolean hasGroupExecRightOndstoreLevel() {
         return groupExecRightOndstoreLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-       *
        * <pre>
        * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
        */
       public io.dstore.Values.booleanValue getGroupExecRightOndstoreLevel() {
         return groupExecRightOndstoreLevel_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : groupExecRightOndstoreLevel_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-       *
        * <pre>
        * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getGroupExecRightOndstoreLevelOrBuilder() {
         return getGroupExecRightOndstoreLevel();
@@ -1993,31 +1990,31 @@ public final class MiGetExecuteRightsAd {
       public static final int PROCEDURE_NAME_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue procedureName_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-       *
        * <pre>
        * Name einer Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-       *
        * <pre>
        * Name einer Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
        */
       public io.dstore.Values.stringValue getProcedureName() {
         return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-       *
        * <pre>
        * Name einer Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
@@ -2026,31 +2023,31 @@ public final class MiGetExecuteRightsAd {
       public static final int USER_ID_FIELD_NUMBER = 10008;
       private io.dstore.Values.integerValue userId_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-       *
        * <pre>
        * ID des Benutzers "UserName" aus "UserInfo"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-       *
        * <pre>
        * ID des Benutzers "UserName" aus "UserInfo"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
        */
       public io.dstore.Values.integerValue getUserId() {
         return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-       *
        * <pre>
        * ID des Benutzers "UserName" aus "UserInfo"
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10008;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
@@ -2059,31 +2056,31 @@ public final class MiGetExecuteRightsAd {
       public static final int EXECUTE_RIGHT_FIELD_NUMBER = 10009;
       private io.dstore.Values.booleanValue executeRight_;
       /**
-       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-       *
        * <pre>
        * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
        */
       public boolean hasExecuteRight() {
         return executeRight_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-       *
        * <pre>
        * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
        */
       public io.dstore.Values.booleanValue getExecuteRight() {
         return executeRight_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : executeRight_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-       *
        * <pre>
        * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getExecuteRightOrBuilder() {
         return getExecuteRight();
@@ -2092,31 +2089,31 @@ public final class MiGetExecuteRightsAd {
       public static final int PROCEDURE_FUNCTION_FIELD_NUMBER = 10010;
       private io.dstore.Values.stringValue procedureFunction_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-       *
        * <pre>
        * Kurz-Beschreibung der Prozedur "ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
        */
       public boolean hasProcedureFunction() {
         return procedureFunction_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-       *
        * <pre>
        * Kurz-Beschreibung der Prozedur "ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
        */
       public io.dstore.Values.stringValue getProcedureFunction() {
         return procedureFunction_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureFunction_;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-       *
        * <pre>
        * Kurz-Beschreibung der Prozedur "ProcedureName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getProcedureFunctionOrBuilder() {
         return getProcedureFunction();
@@ -2125,31 +2122,31 @@ public final class MiGetExecuteRightsAd {
       public static final int USER_EXEC_RIGHT_ONDSTORE_LEVEL_FIELD_NUMBER = 10011;
       private io.dstore.Values.integerValue userExecRightOndstoreLevel_;
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-       *
        * <pre>
        * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
        */
       public boolean hasUserExecRightOndstoreLevel() {
         return userExecRightOndstoreLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-       *
        * <pre>
        * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
        */
       public io.dstore.Values.integerValue getUserExecRightOndstoreLevel() {
         return userExecRightOndstoreLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userExecRightOndstoreLevel_;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-       *
        * <pre>
        * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserExecRightOndstoreLevelOrBuilder() {
         return getUserExecRightOndstoreLevel();
@@ -2158,31 +2155,31 @@ public final class MiGetExecuteRightsAd {
       public static final int GROUP_EXEC_RIGHT_ON_DATABASE_LEVEL_FIELD_NUMBER = 10012;
       private io.dstore.Values.integerValue groupExecRightOnDatabaseLevel_;
       /**
-       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
        */
       public boolean hasGroupExecRightOnDatabaseLevel() {
         return groupExecRightOnDatabaseLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
        */
       public io.dstore.Values.integerValue getGroupExecRightOnDatabaseLevel() {
         return groupExecRightOnDatabaseLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupExecRightOnDatabaseLevel_;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-       *
        * <pre>
        * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getGroupExecRightOnDatabaseLevelOrBuilder() {
         return getGroupExecRightOnDatabaseLevel();
@@ -2326,34 +2323,40 @@ public final class MiGetExecuteRightsAd {
       }
       public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2637,7 +2640,7 @@ public final class MiGetExecuteRightsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2676,21 +2679,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> procedureExistsBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
          */
         public boolean hasProcedureExists() {
           return procedureExistsBuilder_ != null || procedureExists_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
          */
         public io.dstore.Values.booleanValue getProcedureExists() {
           if (procedureExistsBuilder_ == null) {
@@ -2700,11 +2703,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
          */
         public Builder setProcedureExists(io.dstore.Values.booleanValue value) {
           if (procedureExistsBuilder_ == null) {
@@ -2720,11 +2723,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
          */
         public Builder setProcedureExists(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2738,11 +2741,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
          */
         public Builder mergeProcedureExists(io.dstore.Values.booleanValue value) {
           if (procedureExistsBuilder_ == null) {
@@ -2760,11 +2763,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
          */
         public Builder clearProcedureExists() {
           if (procedureExistsBuilder_ == null) {
@@ -2778,11 +2781,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
          */
         public io.dstore.Values.booleanValue.Builder getProcedureExistsBuilder() {
           
@@ -2790,11 +2793,11 @@ public final class MiGetExecuteRightsAd {
           return getProcedureExistsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getProcedureExistsOrBuilder() {
           if (procedureExistsBuilder_ != null) {
@@ -2805,11 +2808,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
-         *
          * <pre>
          * Handelt es sich bei "ProcedureName" auch um eine existierende Prozedure des "dStore" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue procedure_exists = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2829,21 +2832,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userExecRightOnDatabaseLevelBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-         *
          * <pre>
          * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
          */
         public boolean hasUserExecRightOnDatabaseLevel() {
           return userExecRightOnDatabaseLevelBuilder_ != null || userExecRightOnDatabaseLevel_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-         *
          * <pre>
          * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
          */
         public io.dstore.Values.integerValue getUserExecRightOnDatabaseLevel() {
           if (userExecRightOnDatabaseLevelBuilder_ == null) {
@@ -2853,11 +2856,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-         *
          * <pre>
          * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
          */
         public Builder setUserExecRightOnDatabaseLevel(io.dstore.Values.integerValue value) {
           if (userExecRightOnDatabaseLevelBuilder_ == null) {
@@ -2873,11 +2876,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-         *
          * <pre>
          * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
          */
         public Builder setUserExecRightOnDatabaseLevel(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2891,11 +2894,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-         *
          * <pre>
          * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
          */
         public Builder mergeUserExecRightOnDatabaseLevel(io.dstore.Values.integerValue value) {
           if (userExecRightOnDatabaseLevelBuilder_ == null) {
@@ -2913,11 +2916,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-         *
          * <pre>
          * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
          */
         public Builder clearUserExecRightOnDatabaseLevel() {
           if (userExecRightOnDatabaseLevelBuilder_ == null) {
@@ -2931,11 +2934,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-         *
          * <pre>
          * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getUserExecRightOnDatabaseLevelBuilder() {
           
@@ -2943,11 +2946,11 @@ public final class MiGetExecuteRightsAd {
           return getUserExecRightOnDatabaseLevelFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-         *
          * <pre>
          * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUserExecRightOnDatabaseLevelOrBuilder() {
           if (userExecRightOnDatabaseLevelBuilder_ != null) {
@@ -2958,11 +2961,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
-         *
          * <pre>
          * Ausführungsrecht für den Benutzer auf Datenbank-Ebene. Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_on_database_level = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2982,21 +2985,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> publicExecRightOnDatabaseLevelBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
          */
         public boolean hasPublicExecRightOnDatabaseLevel() {
           return publicExecRightOnDatabaseLevelBuilder_ != null || publicExecRightOnDatabaseLevel_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
          */
         public io.dstore.Values.integerValue getPublicExecRightOnDatabaseLevel() {
           if (publicExecRightOnDatabaseLevelBuilder_ == null) {
@@ -3006,11 +3009,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
          */
         public Builder setPublicExecRightOnDatabaseLevel(io.dstore.Values.integerValue value) {
           if (publicExecRightOnDatabaseLevelBuilder_ == null) {
@@ -3026,11 +3029,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
          */
         public Builder setPublicExecRightOnDatabaseLevel(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3044,11 +3047,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
          */
         public Builder mergePublicExecRightOnDatabaseLevel(io.dstore.Values.integerValue value) {
           if (publicExecRightOnDatabaseLevelBuilder_ == null) {
@@ -3066,11 +3069,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
          */
         public Builder clearPublicExecRightOnDatabaseLevel() {
           if (publicExecRightOnDatabaseLevelBuilder_ == null) {
@@ -3084,11 +3087,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getPublicExecRightOnDatabaseLevelBuilder() {
           
@@ -3096,11 +3099,11 @@ public final class MiGetExecuteRightsAd {
           return getPublicExecRightOnDatabaseLevelFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPublicExecRightOnDatabaseLevelOrBuilder() {
           if (publicExecRightOnDatabaseLevelBuilder_ != null) {
@@ -3111,11 +3114,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die "public"-Gruppe (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue public_exec_right_on_database_level = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3135,21 +3138,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-         *
          * <pre>
          * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
          */
         public boolean hasProcedureId() {
           return procedureIdBuilder_ != null || procedureId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-         *
          * <pre>
          * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
          */
         public io.dstore.Values.integerValue getProcedureId() {
           if (procedureIdBuilder_ == null) {
@@ -3159,11 +3162,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-         *
          * <pre>
          * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
          */
         public Builder setProcedureId(io.dstore.Values.integerValue value) {
           if (procedureIdBuilder_ == null) {
@@ -3179,11 +3182,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-         *
          * <pre>
          * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
          */
         public Builder setProcedureId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3197,11 +3200,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-         *
          * <pre>
          * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
          */
         public Builder mergeProcedureId(io.dstore.Values.integerValue value) {
           if (procedureIdBuilder_ == null) {
@@ -3219,11 +3222,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-         *
          * <pre>
          * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
          */
         public Builder clearProcedureId() {
           if (procedureIdBuilder_ == null) {
@@ -3237,11 +3240,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-         *
          * <pre>
          * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getProcedureIdBuilder() {
           
@@ -3249,11 +3252,11 @@ public final class MiGetExecuteRightsAd {
           return getProcedureIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-         *
          * <pre>
          * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
           if (procedureIdBuilder_ != null) {
@@ -3264,11 +3267,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
-         *
          * <pre>
          * ID der Prozedur aus "RegisteredProcedures". Falls "NULL" ausgegeben wird, bedeutet dies, daß auf "dStore"-Ebene keine Rechte-Überprüfung stattfindet (entweder weil es keine "Ad"-Prozedur ist oder es sich beim "UserName" um den "Super-Admin" handelt).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue procedure_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3288,21 +3291,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-         *
          * <pre>
          * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-         *
          * <pre>
          * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
          */
         public io.dstore.Values.stringValue getUserName() {
           if (userNameBuilder_ == null) {
@@ -3312,11 +3315,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-         *
          * <pre>
          * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
          */
         public Builder setUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -3332,11 +3335,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-         *
          * <pre>
          * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
          */
         public Builder setUserName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3350,11 +3353,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-         *
          * <pre>
          * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
          */
         public Builder mergeUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -3372,11 +3375,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-         *
          * <pre>
          * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -3390,11 +3393,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-         *
          * <pre>
          * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
           
@@ -3402,11 +3405,11 @@ public final class MiGetExecuteRightsAd {
           return getUserNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-         *
          * <pre>
          * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
@@ -3417,11 +3420,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
-         *
          * <pre>
          * Ein "dStore"-Benutzer, der also in "UserInfo" (siehe "mi_GetUserInfo_Ad") registriert ist
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3441,21 +3444,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> groupExecRightOndstoreLevelBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-         *
          * <pre>
          * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
          */
         public boolean hasGroupExecRightOndstoreLevel() {
           return groupExecRightOndstoreLevelBuilder_ != null || groupExecRightOndstoreLevel_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-         *
          * <pre>
          * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
          */
         public io.dstore.Values.booleanValue getGroupExecRightOndstoreLevel() {
           if (groupExecRightOndstoreLevelBuilder_ == null) {
@@ -3465,11 +3468,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-         *
          * <pre>
          * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
          */
         public Builder setGroupExecRightOndstoreLevel(io.dstore.Values.booleanValue value) {
           if (groupExecRightOndstoreLevelBuilder_ == null) {
@@ -3485,11 +3488,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-         *
          * <pre>
          * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
          */
         public Builder setGroupExecRightOndstoreLevel(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -3503,11 +3506,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-         *
          * <pre>
          * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
          */
         public Builder mergeGroupExecRightOndstoreLevel(io.dstore.Values.booleanValue value) {
           if (groupExecRightOndstoreLevelBuilder_ == null) {
@@ -3525,11 +3528,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-         *
          * <pre>
          * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
          */
         public Builder clearGroupExecRightOndstoreLevel() {
           if (groupExecRightOndstoreLevelBuilder_ == null) {
@@ -3543,11 +3546,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-         *
          * <pre>
          * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
          */
         public io.dstore.Values.booleanValue.Builder getGroupExecRightOndstoreLevelBuilder() {
           
@@ -3555,11 +3558,11 @@ public final class MiGetExecuteRightsAd {
           return getGroupExecRightOndstoreLevelFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-         *
          * <pre>
          * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getGroupExecRightOndstoreLevelOrBuilder() {
           if (groupExecRightOndstoreLevelBuilder_ != null) {
@@ -3570,11 +3573,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
-         *
          * <pre>
          * Gibt an, ob mindestens eine Gruppe existiert, in die der "dStore"-Benutzer "UserID" eingeordnet ist, für die das Recht, die Prozedur direkt ausführen zu können, konfiguriert ist ("1") oder nicht ("0")
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue group_exec_right_ondstore_level = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -3594,21 +3597,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-         *
          * <pre>
          * Name einer Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-         *
          * <pre>
          * Name einer Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
          */
         public io.dstore.Values.stringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -3618,11 +3621,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-         *
          * <pre>
          * Name einer Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
          */
         public Builder setProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -3638,11 +3641,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-         *
          * <pre>
          * Name einer Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
          */
         public Builder setProcedureName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3656,11 +3659,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-         *
          * <pre>
          * Name einer Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
          */
         public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -3678,11 +3681,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-         *
          * <pre>
          * Name einer Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -3696,11 +3699,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-         *
          * <pre>
          * Name einer Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
           
@@ -3708,11 +3711,11 @@ public final class MiGetExecuteRightsAd {
           return getProcedureNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-         *
          * <pre>
          * Name einer Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
@@ -3723,11 +3726,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
-         *
          * <pre>
          * Name einer Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -3747,21 +3750,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-         *
          * <pre>
          * ID des Benutzers "UserName" aus "UserInfo"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-         *
          * <pre>
          * ID des Benutzers "UserName" aus "UserInfo"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
          */
         public io.dstore.Values.integerValue getUserId() {
           if (userIdBuilder_ == null) {
@@ -3771,11 +3774,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-         *
          * <pre>
          * ID des Benutzers "UserName" aus "UserInfo"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
          */
         public Builder setUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -3791,11 +3794,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-         *
          * <pre>
          * ID des Benutzers "UserName" aus "UserInfo"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
          */
         public Builder setUserId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3809,11 +3812,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-         *
          * <pre>
          * ID des Benutzers "UserName" aus "UserInfo"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
          */
         public Builder mergeUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -3831,11 +3834,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-         *
          * <pre>
          * ID des Benutzers "UserName" aus "UserInfo"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -3849,11 +3852,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-         *
          * <pre>
          * ID des Benutzers "UserName" aus "UserInfo"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
          */
         public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
           
@@ -3861,11 +3864,11 @@ public final class MiGetExecuteRightsAd {
           return getUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-         *
          * <pre>
          * ID des Benutzers "UserName" aus "UserInfo"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
@@ -3876,11 +3879,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
-         *
          * <pre>
          * ID des Benutzers "UserName" aus "UserInfo"
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3900,21 +3903,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> executeRightBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-         *
          * <pre>
          * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
          */
         public boolean hasExecuteRight() {
           return executeRightBuilder_ != null || executeRight_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-         *
          * <pre>
          * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
          */
         public io.dstore.Values.booleanValue getExecuteRight() {
           if (executeRightBuilder_ == null) {
@@ -3924,11 +3927,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-         *
          * <pre>
          * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
          */
         public Builder setExecuteRight(io.dstore.Values.booleanValue value) {
           if (executeRightBuilder_ == null) {
@@ -3944,11 +3947,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-         *
          * <pre>
          * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
          */
         public Builder setExecuteRight(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -3962,11 +3965,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-         *
          * <pre>
          * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
          */
         public Builder mergeExecuteRight(io.dstore.Values.booleanValue value) {
           if (executeRightBuilder_ == null) {
@@ -3984,11 +3987,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-         *
          * <pre>
          * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
          */
         public Builder clearExecuteRight() {
           if (executeRightBuilder_ == null) {
@@ -4002,11 +4005,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-         *
          * <pre>
          * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
          */
         public io.dstore.Values.booleanValue.Builder getExecuteRightBuilder() {
           
@@ -4014,11 +4017,11 @@ public final class MiGetExecuteRightsAd {
           return getExecuteRightFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-         *
          * <pre>
          * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getExecuteRightOrBuilder() {
           if (executeRightBuilder_ != null) {
@@ -4029,11 +4032,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
-         *
          * <pre>
          * Hat der Benutzer "UserName" Ausführungsrechte für die Prozedur "ProcedureName" ?
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue execute_right = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -4053,21 +4056,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureFunctionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-         *
          * <pre>
          * Kurz-Beschreibung der Prozedur "ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
          */
         public boolean hasProcedureFunction() {
           return procedureFunctionBuilder_ != null || procedureFunction_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-         *
          * <pre>
          * Kurz-Beschreibung der Prozedur "ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
          */
         public io.dstore.Values.stringValue getProcedureFunction() {
           if (procedureFunctionBuilder_ == null) {
@@ -4077,11 +4080,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-         *
          * <pre>
          * Kurz-Beschreibung der Prozedur "ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
          */
         public Builder setProcedureFunction(io.dstore.Values.stringValue value) {
           if (procedureFunctionBuilder_ == null) {
@@ -4097,11 +4100,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-         *
          * <pre>
          * Kurz-Beschreibung der Prozedur "ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
          */
         public Builder setProcedureFunction(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4115,11 +4118,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-         *
          * <pre>
          * Kurz-Beschreibung der Prozedur "ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
          */
         public Builder mergeProcedureFunction(io.dstore.Values.stringValue value) {
           if (procedureFunctionBuilder_ == null) {
@@ -4137,11 +4140,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-         *
          * <pre>
          * Kurz-Beschreibung der Prozedur "ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
          */
         public Builder clearProcedureFunction() {
           if (procedureFunctionBuilder_ == null) {
@@ -4155,11 +4158,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-         *
          * <pre>
          * Kurz-Beschreibung der Prozedur "ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
          */
         public io.dstore.Values.stringValue.Builder getProcedureFunctionBuilder() {
           
@@ -4167,11 +4170,11 @@ public final class MiGetExecuteRightsAd {
           return getProcedureFunctionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-         *
          * <pre>
          * Kurz-Beschreibung der Prozedur "ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getProcedureFunctionOrBuilder() {
           if (procedureFunctionBuilder_ != null) {
@@ -4182,11 +4185,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
-         *
          * <pre>
          * Kurz-Beschreibung der Prozedur "ProcedureName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_function = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4206,21 +4209,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userExecRightOndstoreLevelBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-         *
          * <pre>
          * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
          */
         public boolean hasUserExecRightOndstoreLevel() {
           return userExecRightOndstoreLevelBuilder_ != null || userExecRightOndstoreLevel_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-         *
          * <pre>
          * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
          */
         public io.dstore.Values.integerValue getUserExecRightOndstoreLevel() {
           if (userExecRightOndstoreLevelBuilder_ == null) {
@@ -4230,11 +4233,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-         *
          * <pre>
          * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
          */
         public Builder setUserExecRightOndstoreLevel(io.dstore.Values.integerValue value) {
           if (userExecRightOndstoreLevelBuilder_ == null) {
@@ -4250,11 +4253,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-         *
          * <pre>
          * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
          */
         public Builder setUserExecRightOndstoreLevel(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4268,11 +4271,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-         *
          * <pre>
          * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
          */
         public Builder mergeUserExecRightOndstoreLevel(io.dstore.Values.integerValue value) {
           if (userExecRightOndstoreLevelBuilder_ == null) {
@@ -4290,11 +4293,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-         *
          * <pre>
          * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
          */
         public Builder clearUserExecRightOndstoreLevel() {
           if (userExecRightOndstoreLevelBuilder_ == null) {
@@ -4308,11 +4311,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-         *
          * <pre>
          * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
          */
         public io.dstore.Values.integerValue.Builder getUserExecRightOndstoreLevelBuilder() {
           
@@ -4320,11 +4323,11 @@ public final class MiGetExecuteRightsAd {
           return getUserExecRightOndstoreLevelFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-         *
          * <pre>
          * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUserExecRightOndstoreLevelOrBuilder() {
           if (userExecRightOndstoreLevelBuilder_ != null) {
@@ -4335,11 +4338,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
-         *
          * <pre>
          * Ausführungsrecht im "dStore" für den Benutzer "UserID". Mögliche Werte :- "NULL" : es ist nichts (explizit) konfiguriert- "0" : explizites Ausführungsverbot- "1" : explizites Ausführungsrecht
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_exec_right_ondstore_level = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4359,21 +4362,21 @@ public final class MiGetExecuteRightsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupExecRightOnDatabaseLevelBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
          */
         public boolean hasGroupExecRightOnDatabaseLevel() {
           return groupExecRightOnDatabaseLevelBuilder_ != null || groupExecRightOnDatabaseLevel_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
          */
         public io.dstore.Values.integerValue getGroupExecRightOnDatabaseLevel() {
           if (groupExecRightOnDatabaseLevelBuilder_ == null) {
@@ -4383,11 +4386,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
          */
         public Builder setGroupExecRightOnDatabaseLevel(io.dstore.Values.integerValue value) {
           if (groupExecRightOnDatabaseLevelBuilder_ == null) {
@@ -4403,11 +4406,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
          */
         public Builder setGroupExecRightOnDatabaseLevel(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4421,11 +4424,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
          */
         public Builder mergeGroupExecRightOnDatabaseLevel(io.dstore.Values.integerValue value) {
           if (groupExecRightOnDatabaseLevelBuilder_ == null) {
@@ -4443,11 +4446,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
          */
         public Builder clearGroupExecRightOnDatabaseLevel() {
           if (groupExecRightOnDatabaseLevelBuilder_ == null) {
@@ -4461,11 +4464,11 @@ public final class MiGetExecuteRightsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
          */
         public io.dstore.Values.integerValue.Builder getGroupExecRightOnDatabaseLevelBuilder() {
           
@@ -4473,11 +4476,11 @@ public final class MiGetExecuteRightsAd {
           return getGroupExecRightOnDatabaseLevelFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getGroupExecRightOnDatabaseLevelOrBuilder() {
           if (groupExecRightOnDatabaseLevelBuilder_ != null) {
@@ -4488,11 +4491,11 @@ public final class MiGetExecuteRightsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
-         *
          * <pre>
          * Ausführungsrecht (auf Datenbank-Ebene) für die Gruppe, der der Benutzer angehört (mögliche Werte : s. "UserExecRightOnDatabaseLevel")
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_exec_right_on_database_level = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4537,16 +4540,7 @@ public final class MiGetExecuteRightsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4638,52 +4632,52 @@ public final class MiGetExecuteRightsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -4758,34 +4752,40 @@ public final class MiGetExecuteRightsAd {
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetExecuteRightsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -5022,7 +5022,7 @@ public final class MiGetExecuteRightsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetExecuteRightsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -5525,11 +5525,11 @@ public final class MiGetExecuteRightsAd {
           io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row, io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -5539,11 +5539,11 @@ public final class MiGetExecuteRightsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -5553,11 +5553,11 @@ public final class MiGetExecuteRightsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -5567,11 +5567,11 @@ public final class MiGetExecuteRightsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row value) {
@@ -5588,11 +5588,11 @@ public final class MiGetExecuteRightsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row.Builder builderForValue) {
@@ -5606,11 +5606,11 @@ public final class MiGetExecuteRightsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -5626,11 +5626,11 @@ public final class MiGetExecuteRightsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row value) {
@@ -5647,11 +5647,11 @@ public final class MiGetExecuteRightsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row.Builder builderForValue) {
@@ -5665,11 +5665,11 @@ public final class MiGetExecuteRightsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row.Builder builderForValue) {
@@ -5683,11 +5683,11 @@ public final class MiGetExecuteRightsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row> values) {
@@ -5702,11 +5702,11 @@ public final class MiGetExecuteRightsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -5719,11 +5719,11 @@ public final class MiGetExecuteRightsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -5736,22 +5736,22 @@ public final class MiGetExecuteRightsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -5761,11 +5761,11 @@ public final class MiGetExecuteRightsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -5776,22 +5776,22 @@ public final class MiGetExecuteRightsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -5799,11 +5799,11 @@ public final class MiGetExecuteRightsAd {
             index, io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetExecuteRights_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetExecuteRightsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -5853,16 +5853,7 @@ public final class MiGetExecuteRightsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -5881,19 +5872,19 @@ public final class MiGetExecuteRightsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetExecuteRights_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetExecuteRights_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetExecuteRights_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetExecuteRights_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetExecuteRights_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetExecuteRights_Ad_Response_Row_fieldAccessorTable;
 
@@ -5901,7 +5892,7 @@ public final class MiGetExecuteRightsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

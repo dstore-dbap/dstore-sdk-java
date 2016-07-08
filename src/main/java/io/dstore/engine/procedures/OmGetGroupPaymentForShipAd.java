@@ -71,7 +71,8 @@ public final class OmGetGroupPaymentForShipAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -127,11 +128,10 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -283,34 +283,40 @@ public final class OmGetGroupPaymentForShipAd {
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -460,7 +466,7 @@ public final class OmGetGroupPaymentForShipAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -784,16 +790,7 @@ public final class OmGetGroupPaymentForShipAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -865,45 +862,45 @@ public final class OmGetGroupPaymentForShipAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -932,7 +929,8 @@ public final class OmGetGroupPaymentForShipAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -976,11 +974,10 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1016,127 +1013,127 @@ public final class OmGetGroupPaymentForShipAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        */
       boolean hasGroupDescription();
       /**
-       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        */
       io.dstore.Values.stringValue getGroupDescription();
       /**
-       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
        */
       boolean hasPaymentForShippingId();
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
        */
       io.dstore.Values.integerValue getPaymentForShippingId();
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-       *
        * <pre>
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
        */
       boolean hasDescriptionForAdmin();
       /**
-       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-       *
        * <pre>
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
        */
       io.dstore.Values.stringValue getDescriptionForAdmin();
       /**
-       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-       *
        * <pre>
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDescriptionForAdminOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
        */
       boolean hasPaymentForShippingDescription();
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
        */
       io.dstore.Values.stringValue getPaymentForShippingDescription();
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-       *
        * <pre>
        * ID einer Personen-Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
        */
       boolean hasGroupId();
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-       *
        * <pre>
        * ID einer Personen-Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
        */
       io.dstore.Values.integerValue getGroupId();
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-       *
        * <pre>
        * ID einer Personen-Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder();
     }
@@ -1162,7 +1159,8 @@ public final class OmGetGroupPaymentForShipAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1252,11 +1250,10 @@ public final class OmGetGroupPaymentForShipAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1285,31 +1282,31 @@ public final class OmGetGroupPaymentForShipAd {
       public static final int GROUP_DESCRIPTION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue groupDescription_;
       /**
-       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        */
       public boolean hasGroupDescription() {
         return groupDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        */
       public io.dstore.Values.stringValue getGroupDescription() {
         return groupDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : groupDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder() {
         return getGroupDescription();
@@ -1318,31 +1315,31 @@ public final class OmGetGroupPaymentForShipAd {
       public static final int PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue paymentForShippingId_;
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getPaymentForShippingId() {
         return paymentForShippingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-       *
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         return getPaymentForShippingId();
@@ -1351,31 +1348,31 @@ public final class OmGetGroupPaymentForShipAd {
       public static final int DESCRIPTION_FOR_ADMIN_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue descriptionForAdmin_;
       /**
-       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-       *
        * <pre>
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
        */
       public boolean hasDescriptionForAdmin() {
         return descriptionForAdmin_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-       *
        * <pre>
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
        */
       public io.dstore.Values.stringValue getDescriptionForAdmin() {
         return descriptionForAdmin_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : descriptionForAdmin_;
       }
       /**
-       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-       *
        * <pre>
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDescriptionForAdminOrBuilder() {
         return getDescriptionForAdmin();
@@ -1384,31 +1381,31 @@ public final class OmGetGroupPaymentForShipAd {
       public static final int PAYMENT_FOR_SHIPPING_DESCRIPTION_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue paymentForShippingDescription_;
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
        */
       public boolean hasPaymentForShippingDescription() {
         return paymentForShippingDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
        */
       public io.dstore.Values.stringValue getPaymentForShippingDescription() {
         return paymentForShippingDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentForShippingDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-       *
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
         return getPaymentForShippingDescription();
@@ -1417,31 +1414,31 @@ public final class OmGetGroupPaymentForShipAd {
       public static final int GROUP_ID_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue groupId_;
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-       *
        * <pre>
        * ID einer Personen-Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
        */
       public boolean hasGroupId() {
         return groupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-       *
        * <pre>
        * ID einer Personen-Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
        */
       public io.dstore.Values.integerValue getGroupId() {
         return groupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-       *
        * <pre>
        * ID einer Personen-Gruppe
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue group_id = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder() {
         return getGroupId();
@@ -1536,34 +1533,40 @@ public final class OmGetGroupPaymentForShipAd {
       }
       public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1749,7 +1752,7 @@ public final class OmGetGroupPaymentForShipAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1788,21 +1791,21 @@ public final class OmGetGroupPaymentForShipAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> groupDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          */
         public boolean hasGroupDescription() {
           return groupDescriptionBuilder_ != null || groupDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          */
         public io.dstore.Values.stringValue getGroupDescription() {
           if (groupDescriptionBuilder_ == null) {
@@ -1812,11 +1815,11 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          */
         public Builder setGroupDescription(io.dstore.Values.stringValue value) {
           if (groupDescriptionBuilder_ == null) {
@@ -1832,11 +1835,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          */
         public Builder setGroupDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1850,11 +1853,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          */
         public Builder mergeGroupDescription(io.dstore.Values.stringValue value) {
           if (groupDescriptionBuilder_ == null) {
@@ -1872,11 +1875,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          */
         public Builder clearGroupDescription() {
           if (groupDescriptionBuilder_ == null) {
@@ -1890,11 +1893,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getGroupDescriptionBuilder() {
           
@@ -1902,11 +1905,11 @@ public final class OmGetGroupPaymentForShipAd {
           return getGroupDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder() {
           if (groupDescriptionBuilder_ != null) {
@@ -1917,11 +1920,11 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1941,21 +1944,21 @@ public final class OmGetGroupPaymentForShipAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentForShippingIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
          */
         public boolean hasPaymentForShippingId() {
           return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getPaymentForShippingId() {
           if (paymentForShippingIdBuilder_ == null) {
@@ -1965,11 +1968,11 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
          */
         public Builder setPaymentForShippingId(io.dstore.Values.integerValue value) {
           if (paymentForShippingIdBuilder_ == null) {
@@ -1985,11 +1988,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
          */
         public Builder setPaymentForShippingId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2003,11 +2006,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
          */
         public Builder mergePaymentForShippingId(io.dstore.Values.integerValue value) {
           if (paymentForShippingIdBuilder_ == null) {
@@ -2025,11 +2028,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
          */
         public Builder clearPaymentForShippingId() {
           if (paymentForShippingIdBuilder_ == null) {
@@ -2043,11 +2046,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getPaymentForShippingIdBuilder() {
           
@@ -2055,11 +2058,11 @@ public final class OmGetGroupPaymentForShipAd {
           return getPaymentForShippingIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder() {
           if (paymentForShippingIdBuilder_ != null) {
@@ -2070,11 +2073,11 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
-         *
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination, die die Gruppe "GroupID" bei einer Bestellung (prinzipiell) auswählen darf
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2094,21 +2097,21 @@ public final class OmGetGroupPaymentForShipAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionForAdminBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-         *
          * <pre>
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
          */
         public boolean hasDescriptionForAdmin() {
           return descriptionForAdminBuilder_ != null || descriptionForAdmin_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-         *
          * <pre>
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
          */
         public io.dstore.Values.stringValue getDescriptionForAdmin() {
           if (descriptionForAdminBuilder_ == null) {
@@ -2118,11 +2121,11 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-         *
          * <pre>
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
          */
         public Builder setDescriptionForAdmin(io.dstore.Values.stringValue value) {
           if (descriptionForAdminBuilder_ == null) {
@@ -2138,11 +2141,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-         *
          * <pre>
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
          */
         public Builder setDescriptionForAdmin(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2156,11 +2159,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-         *
          * <pre>
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
          */
         public Builder mergeDescriptionForAdmin(io.dstore.Values.stringValue value) {
           if (descriptionForAdminBuilder_ == null) {
@@ -2178,11 +2181,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-         *
          * <pre>
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
          */
         public Builder clearDescriptionForAdmin() {
           if (descriptionForAdminBuilder_ == null) {
@@ -2196,11 +2199,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-         *
          * <pre>
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getDescriptionForAdminBuilder() {
           
@@ -2208,11 +2211,11 @@ public final class OmGetGroupPaymentForShipAd {
           return getDescriptionForAdminFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-         *
          * <pre>
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDescriptionForAdminOrBuilder() {
           if (descriptionForAdminBuilder_ != null) {
@@ -2223,11 +2226,11 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
-         *
          * <pre>
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue description_for_admin = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2247,21 +2250,21 @@ public final class OmGetGroupPaymentForShipAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentForShippingDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
          */
         public boolean hasPaymentForShippingDescription() {
           return paymentForShippingDescriptionBuilder_ != null || paymentForShippingDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
          */
         public io.dstore.Values.stringValue getPaymentForShippingDescription() {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -2271,11 +2274,11 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
          */
         public Builder setPaymentForShippingDescription(io.dstore.Values.stringValue value) {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -2291,11 +2294,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
          */
         public Builder setPaymentForShippingDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2309,11 +2312,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
          */
         public Builder mergePaymentForShippingDescription(io.dstore.Values.stringValue value) {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -2331,11 +2334,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
          */
         public Builder clearPaymentForShippingDescription() {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -2349,11 +2352,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
          */
         public io.dstore.Values.stringValue.Builder getPaymentForShippingDescriptionBuilder() {
           
@@ -2361,11 +2364,11 @@ public final class OmGetGroupPaymentForShipAd {
           return getPaymentForShippingDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
           if (paymentForShippingDescriptionBuilder_ != null) {
@@ -2376,11 +2379,11 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
-         *
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2400,21 +2403,21 @@ public final class OmGetGroupPaymentForShipAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-         *
          * <pre>
          * ID einer Personen-Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
          */
         public boolean hasGroupId() {
           return groupIdBuilder_ != null || groupId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-         *
          * <pre>
          * ID einer Personen-Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
          */
         public io.dstore.Values.integerValue getGroupId() {
           if (groupIdBuilder_ == null) {
@@ -2424,11 +2427,11 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-         *
          * <pre>
          * ID einer Personen-Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
          */
         public Builder setGroupId(io.dstore.Values.integerValue value) {
           if (groupIdBuilder_ == null) {
@@ -2444,11 +2447,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-         *
          * <pre>
          * ID einer Personen-Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
          */
         public Builder setGroupId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2462,11 +2465,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-         *
          * <pre>
          * ID einer Personen-Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
          */
         public Builder mergeGroupId(io.dstore.Values.integerValue value) {
           if (groupIdBuilder_ == null) {
@@ -2484,11 +2487,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-         *
          * <pre>
          * ID einer Personen-Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
          */
         public Builder clearGroupId() {
           if (groupIdBuilder_ == null) {
@@ -2502,11 +2505,11 @@ public final class OmGetGroupPaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-         *
          * <pre>
          * ID einer Personen-Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getGroupIdBuilder() {
           
@@ -2514,11 +2517,11 @@ public final class OmGetGroupPaymentForShipAd {
           return getGroupIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-         *
          * <pre>
          * ID einer Personen-Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder() {
           if (groupIdBuilder_ != null) {
@@ -2529,11 +2532,11 @@ public final class OmGetGroupPaymentForShipAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
-         *
          * <pre>
          * ID einer Personen-Gruppe
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue group_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2578,16 +2581,7 @@ public final class OmGetGroupPaymentForShipAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2679,52 +2673,52 @@ public final class OmGetGroupPaymentForShipAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2799,34 +2793,40 @@ public final class OmGetGroupPaymentForShipAd {
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3063,7 +3063,7 @@ public final class OmGetGroupPaymentForShipAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3566,11 +3566,11 @@ public final class OmGetGroupPaymentForShipAd {
           io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row, io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3580,11 +3580,11 @@ public final class OmGetGroupPaymentForShipAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3594,11 +3594,11 @@ public final class OmGetGroupPaymentForShipAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3608,11 +3608,11 @@ public final class OmGetGroupPaymentForShipAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row value) {
@@ -3629,11 +3629,11 @@ public final class OmGetGroupPaymentForShipAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row.Builder builderForValue) {
@@ -3647,11 +3647,11 @@ public final class OmGetGroupPaymentForShipAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3667,11 +3667,11 @@ public final class OmGetGroupPaymentForShipAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row value) {
@@ -3688,11 +3688,11 @@ public final class OmGetGroupPaymentForShipAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row.Builder builderForValue) {
@@ -3706,11 +3706,11 @@ public final class OmGetGroupPaymentForShipAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row.Builder builderForValue) {
@@ -3724,11 +3724,11 @@ public final class OmGetGroupPaymentForShipAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row> values) {
@@ -3743,11 +3743,11 @@ public final class OmGetGroupPaymentForShipAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3760,11 +3760,11 @@ public final class OmGetGroupPaymentForShipAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3777,22 +3777,22 @@ public final class OmGetGroupPaymentForShipAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3802,11 +3802,11 @@ public final class OmGetGroupPaymentForShipAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3817,22 +3817,22 @@ public final class OmGetGroupPaymentForShipAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3840,11 +3840,11 @@ public final class OmGetGroupPaymentForShipAd {
             index, io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetGroupPaymentForShip_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3894,16 +3894,7 @@ public final class OmGetGroupPaymentForShipAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3922,19 +3913,19 @@ public final class OmGetGroupPaymentForShipAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetGroupPaymentForShip_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetGroupPaymentForShip_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetGroupPaymentForShip_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetGroupPaymentForShip_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetGroupPaymentForShip_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetGroupPaymentForShip_Ad_Response_Row_fieldAccessorTable;
 
@@ -3942,7 +3933,7 @@ public final class OmGetGroupPaymentForShipAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

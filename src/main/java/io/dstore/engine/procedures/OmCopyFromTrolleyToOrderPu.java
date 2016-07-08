@@ -337,7 +337,8 @@ public final class OmCopyFromTrolleyToOrderPu {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -645,11 +646,10 @@ public final class OmCopyFromTrolleyToOrderPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -1417,34 +1417,40 @@ public final class OmCopyFromTrolleyToOrderPu {
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1874,7 +1880,7 @@ public final class OmCopyFromTrolleyToOrderPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4200,16 +4206,7 @@ public final class OmCopyFromTrolleyToOrderPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4341,7 +4338,8 @@ public final class OmCopyFromTrolleyToOrderPu {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -4398,11 +4396,10 @@ public final class OmCopyFromTrolleyToOrderPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -4438,77 +4435,77 @@ public final class OmCopyFromTrolleyToOrderPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-       *
        * <pre>
        * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
        */
       boolean hasInformationTypeId();
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-       *
        * <pre>
        * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
        */
       io.dstore.Values.integerValue getInformationTypeId();
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-       *
        * <pre>
        * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       boolean hasHTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       io.dstore.Values.integerValue getHTreeNodeId();
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       boolean hasErrorCode();
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       io.dstore.Values.integerValue getErrorCode();
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder();
     }
@@ -4534,7 +4531,8 @@ public final class OmCopyFromTrolleyToOrderPu {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -4598,11 +4596,10 @@ public final class OmCopyFromTrolleyToOrderPu {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -4631,31 +4628,31 @@ public final class OmCopyFromTrolleyToOrderPu {
       public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue informationTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-       *
        * <pre>
        * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-       *
        * <pre>
        * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getInformationTypeId() {
         return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-       *
        * <pre>
        * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
@@ -4664,31 +4661,31 @@ public final class OmCopyFromTrolleyToOrderPu {
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue hTreeNodeId_;
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getHTreeNodeId() {
         return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-       *
        * <pre>
        * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
@@ -4697,31 +4694,31 @@ public final class OmCopyFromTrolleyToOrderPu {
       public static final int ERROR_CODE_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue errorCode_;
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       public boolean hasErrorCode() {
         return errorCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       public io.dstore.Values.integerValue getErrorCode() {
         return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
       }
       /**
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-       *
        * <pre>
        * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
@@ -4802,34 +4799,40 @@ public final class OmCopyFromTrolleyToOrderPu {
       }
       public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -4987,7 +4990,7 @@ public final class OmCopyFromTrolleyToOrderPu {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -5026,21 +5029,21 @@ public final class OmCopyFromTrolleyToOrderPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-         *
          * <pre>
          * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-         *
          * <pre>
          * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -5050,11 +5053,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-         *
          * <pre>
          * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
          */
         public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -5070,11 +5073,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-         *
          * <pre>
          * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
          */
         public Builder setInformationTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5088,11 +5091,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-         *
          * <pre>
          * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
          */
         public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -5110,11 +5113,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-         *
          * <pre>
          * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -5128,11 +5131,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-         *
          * <pre>
          * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
           
@@ -5140,11 +5143,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return getInformationTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-         *
          * <pre>
          * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
@@ -5155,11 +5158,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
-         *
          * <pre>
          * ID einer Informations-Art (je nach "HTreeNodeID" zu einem Auftrag oder einer Position)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5179,21 +5182,21 @@ public final class OmCopyFromTrolleyToOrderPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -5203,11 +5206,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -5223,11 +5226,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder setHTreeNodeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5241,11 +5244,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -5263,11 +5266,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -5281,11 +5284,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
           
@@ -5293,11 +5296,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return getHTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
@@ -5308,11 +5311,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
-         *
          * <pre>
          * Falls "NULL", betrifft der Fehler den Auftrag, d.h. "InformationTypeID" bezieht sich auf "OrderInformation". Andernfalls erkennt man hieran, bei welcher Position ein Fehler auftrat, d.h. "InformationTypeID" bezieht sich auf "OrderContentInformation".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5332,21 +5335,21 @@ public final class OmCopyFromTrolleyToOrderPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public boolean hasErrorCode() {
           return errorCodeBuilder_ != null || errorCode_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public io.dstore.Values.integerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -5356,11 +5359,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public Builder setErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -5376,11 +5379,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public Builder setErrorCode(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -5394,11 +5397,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public Builder mergeErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -5416,11 +5419,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public Builder clearErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -5434,11 +5437,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getErrorCodeBuilder() {
           
@@ -5446,11 +5449,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           return getErrorCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
@@ -5461,11 +5464,11 @@ public final class OmCopyFromTrolleyToOrderPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
-         *
          * <pre>
          * Ursache des Fehlers :- "1" : Aufgrund des aktuellen Status der Position "HTreeNodeID" bzw. einer Position des Auftrags darf die Information nicht gesetzt werden- "2" : Format der Information ist ungültig
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5510,16 +5513,7 @@ public final class OmCopyFromTrolleyToOrderPu {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -5740,34 +5734,40 @@ public final class OmCopyFromTrolleyToOrderPu {
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -6020,7 +6020,7 @@ public final class OmCopyFromTrolleyToOrderPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -6896,16 +6896,7 @@ public final class OmCopyFromTrolleyToOrderPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -6924,19 +6915,19 @@ public final class OmCopyFromTrolleyToOrderPu {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CopyFromTrolleyToOrder_Pu_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_CopyFromTrolleyToOrder_Pu_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CopyFromTrolleyToOrder_Pu_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_CopyFromTrolleyToOrder_Pu_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CopyFromTrolleyToOrder_Pu_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_CopyFromTrolleyToOrder_Pu_Response_Row_fieldAccessorTable;
 
@@ -6944,7 +6935,7 @@ public final class OmCopyFromTrolleyToOrderPu {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

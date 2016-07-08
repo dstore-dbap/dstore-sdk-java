@@ -109,7 +109,8 @@ public final class CoGetLostPasswordQuestionPu {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -201,11 +202,10 @@ public final class CoGetLostPasswordQuestionPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -445,34 +445,40 @@ public final class CoGetLostPasswordQuestionPu {
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -662,7 +668,7 @@ public final class CoGetLostPasswordQuestionPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1272,16 +1278,7 @@ public final class CoGetLostPasswordQuestionPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1413,7 +1410,8 @@ public final class CoGetLostPasswordQuestionPu {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1470,11 +1468,10 @@ public final class CoGetLostPasswordQuestionPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1510,52 +1507,52 @@ public final class CoGetLostPasswordQuestionPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
-       *
        * <pre>
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue question = 10001;</code>
        */
       boolean hasQuestion();
       /**
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
-       *
        * <pre>
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue question = 10001;</code>
        */
       io.dstore.Values.stringValue getQuestion();
       /**
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
-       *
        * <pre>
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue question = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-       *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
        */
       boolean hasNicknameCaseSensitive();
       /**
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-       *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
        */
       io.dstore.Values.stringValue getNicknameCaseSensitive();
       /**
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-       *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getNicknameCaseSensitiveOrBuilder();
     }
@@ -1581,7 +1578,8 @@ public final class CoGetLostPasswordQuestionPu {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1632,11 +1630,10 @@ public final class CoGetLostPasswordQuestionPu {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1665,31 +1662,31 @@ public final class CoGetLostPasswordQuestionPu {
       public static final int QUESTION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue question_;
       /**
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
-       *
        * <pre>
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue question = 10001;</code>
        */
       public boolean hasQuestion() {
         return question_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
-       *
        * <pre>
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue question = 10001;</code>
        */
       public io.dstore.Values.stringValue getQuestion() {
         return question_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : question_;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
-       *
        * <pre>
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue question = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder() {
         return getQuestion();
@@ -1698,31 +1695,31 @@ public final class CoGetLostPasswordQuestionPu {
       public static final int NICKNAME_CASE_SENSITIVE_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue nicknameCaseSensitive_;
       /**
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-       *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
        */
       public boolean hasNicknameCaseSensitive() {
         return nicknameCaseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-       *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
        */
       public io.dstore.Values.stringValue getNicknameCaseSensitive() {
         return nicknameCaseSensitive_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nicknameCaseSensitive_;
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-       *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getNicknameCaseSensitiveOrBuilder() {
         return getNicknameCaseSensitive();
@@ -1796,34 +1793,40 @@ public final class CoGetLostPasswordQuestionPu {
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1967,7 +1970,7 @@ public final class CoGetLostPasswordQuestionPu {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2006,21 +2009,21 @@ public final class CoGetLostPasswordQuestionPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> questionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
-         *
          * <pre>
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue question = 10001;</code>
          */
         public boolean hasQuestion() {
           return questionBuilder_ != null || question_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
-         *
          * <pre>
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue question = 10001;</code>
          */
         public io.dstore.Values.stringValue getQuestion() {
           if (questionBuilder_ == null) {
@@ -2030,11 +2033,11 @@ public final class CoGetLostPasswordQuestionPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
-         *
          * <pre>
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue question = 10001;</code>
          */
         public Builder setQuestion(io.dstore.Values.stringValue value) {
           if (questionBuilder_ == null) {
@@ -2050,11 +2053,11 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
-         *
          * <pre>
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue question = 10001;</code>
          */
         public Builder setQuestion(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2068,11 +2071,11 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
-         *
          * <pre>
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue question = 10001;</code>
          */
         public Builder mergeQuestion(io.dstore.Values.stringValue value) {
           if (questionBuilder_ == null) {
@@ -2090,11 +2093,11 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
-         *
          * <pre>
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue question = 10001;</code>
          */
         public Builder clearQuestion() {
           if (questionBuilder_ == null) {
@@ -2108,11 +2111,11 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
-         *
          * <pre>
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue question = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getQuestionBuilder() {
           
@@ -2120,11 +2123,11 @@ public final class CoGetLostPasswordQuestionPu {
           return getQuestionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
-         *
          * <pre>
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue question = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder() {
           if (questionBuilder_ != null) {
@@ -2135,11 +2138,11 @@ public final class CoGetLostPasswordQuestionPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
-         *
          * <pre>
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue question = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2159,21 +2162,21 @@ public final class CoGetLostPasswordQuestionPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameCaseSensitiveBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-         *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
          */
         public boolean hasNicknameCaseSensitive() {
           return nicknameCaseSensitiveBuilder_ != null || nicknameCaseSensitive_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-         *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
          */
         public io.dstore.Values.stringValue getNicknameCaseSensitive() {
           if (nicknameCaseSensitiveBuilder_ == null) {
@@ -2183,11 +2186,11 @@ public final class CoGetLostPasswordQuestionPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-         *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
          */
         public Builder setNicknameCaseSensitive(io.dstore.Values.stringValue value) {
           if (nicknameCaseSensitiveBuilder_ == null) {
@@ -2203,11 +2206,11 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-         *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
          */
         public Builder setNicknameCaseSensitive(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2221,11 +2224,11 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-         *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
          */
         public Builder mergeNicknameCaseSensitive(io.dstore.Values.stringValue value) {
           if (nicknameCaseSensitiveBuilder_ == null) {
@@ -2243,11 +2246,11 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-         *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
          */
         public Builder clearNicknameCaseSensitive() {
           if (nicknameCaseSensitiveBuilder_ == null) {
@@ -2261,11 +2264,11 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-         *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getNicknameCaseSensitiveBuilder() {
           
@@ -2273,11 +2276,11 @@ public final class CoGetLostPasswordQuestionPu {
           return getNicknameCaseSensitiveFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-         *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getNicknameCaseSensitiveOrBuilder() {
           if (nicknameCaseSensitiveBuilder_ != null) {
@@ -2288,11 +2291,11 @@ public final class CoGetLostPasswordQuestionPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
-         *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2337,16 +2340,7 @@ public final class CoGetLostPasswordQuestionPu {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2567,34 +2561,40 @@ public final class CoGetLostPasswordQuestionPu {
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2847,7 +2847,7 @@ public final class CoGetLostPasswordQuestionPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3723,16 +3723,7 @@ public final class CoGetLostPasswordQuestionPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3751,19 +3742,19 @@ public final class CoGetLostPasswordQuestionPu {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_fieldAccessorTable;
 
@@ -3771,7 +3762,7 @@ public final class CoGetLostPasswordQuestionPu {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

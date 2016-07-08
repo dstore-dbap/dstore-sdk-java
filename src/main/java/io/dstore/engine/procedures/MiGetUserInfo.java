@@ -71,7 +71,8 @@ public final class MiGetUserInfo {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -127,11 +128,10 @@ public final class MiGetUserInfo {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -283,34 +283,40 @@ public final class MiGetUserInfo {
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -460,7 +466,7 @@ public final class MiGetUserInfo {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetUserInfo.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -784,16 +790,7 @@ public final class MiGetUserInfo {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -925,7 +922,8 @@ public final class MiGetUserInfo {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -982,11 +980,10 @@ public final class MiGetUserInfo {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1022,27 +1019,27 @@ public final class MiGetUserInfo {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-       *
        * <pre>
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
        */
       boolean hasUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-       *
        * <pre>
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
        */
       io.dstore.Values.integerValue getUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-       *
        * <pre>
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
     }
@@ -1068,7 +1065,8 @@ public final class MiGetUserInfo {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1106,11 +1104,10 @@ public final class MiGetUserInfo {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1139,31 +1136,31 @@ public final class MiGetUserInfo {
       public static final int USER_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue userId_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-       *
        * <pre>
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-       *
        * <pre>
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getUserId() {
         return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-       *
        * <pre>
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
@@ -1230,34 +1227,40 @@ public final class MiGetUserInfo {
       }
       public static io.dstore.engine.procedures.MiGetUserInfo.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUserInfo.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetUserInfo.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUserInfo.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetUserInfo.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUserInfo.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1387,7 +1390,7 @@ public final class MiGetUserInfo {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetUserInfo.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1426,21 +1429,21 @@ public final class MiGetUserInfo {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-         *
          * <pre>
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-         *
          * <pre>
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getUserId() {
           if (userIdBuilder_ == null) {
@@ -1450,11 +1453,11 @@ public final class MiGetUserInfo {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-         *
          * <pre>
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
          */
         public Builder setUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -1470,11 +1473,11 @@ public final class MiGetUserInfo {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-         *
          * <pre>
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
          */
         public Builder setUserId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1488,11 +1491,11 @@ public final class MiGetUserInfo {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-         *
          * <pre>
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
          */
         public Builder mergeUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -1510,11 +1513,11 @@ public final class MiGetUserInfo {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-         *
          * <pre>
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -1528,11 +1531,11 @@ public final class MiGetUserInfo {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-         *
          * <pre>
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
           
@@ -1540,11 +1543,11 @@ public final class MiGetUserInfo {
           return getUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-         *
          * <pre>
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
@@ -1555,11 +1558,11 @@ public final class MiGetUserInfo {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
-         *
          * <pre>
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1604,16 +1607,7 @@ public final class MiGetUserInfo {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -1834,34 +1828,40 @@ public final class MiGetUserInfo {
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUserInfo.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2114,7 +2114,7 @@ public final class MiGetUserInfo {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetUserInfo.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2990,16 +2990,7 @@ public final class MiGetUserInfo {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3018,19 +3009,19 @@ public final class MiGetUserInfo {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUserInfo_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUserInfo_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUserInfo_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUserInfo_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUserInfo_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUserInfo_Response_Row_fieldAccessorTable;
 
@@ -3038,7 +3029,7 @@ public final class MiGetUserInfo {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

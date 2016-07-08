@@ -52,7 +52,8 @@ public final class OmGetVoucherTypeStatisticsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -90,11 +91,10 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -202,34 +202,40 @@ public final class OmGetVoucherTypeStatisticsAd {
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -359,7 +365,7 @@ public final class OmGetVoucherTypeStatisticsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -540,16 +546,7 @@ public final class OmGetVoucherTypeStatisticsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -621,45 +618,45 @@ public final class OmGetVoucherTypeStatisticsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -688,7 +685,8 @@ public final class OmGetVoucherTypeStatisticsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -732,11 +730,10 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -772,152 +769,152 @@ public final class OmGetVoucherTypeStatisticsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-       *
        * <pre>
        * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
        */
       boolean hasLastCodeUsedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-       *
        * <pre>
        * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
        */
       io.dstore.Values.timestampValue getLastCodeUsedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-       *
        * <pre>
        * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getLastCodeUsedAtDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die noch nie eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
        */
       boolean hasNumberOfUnusedCodes();
       /**
-       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die noch nie eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
        */
       io.dstore.Values.integerValue getNumberOfUnusedCodes();
       /**
-       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die noch nie eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNumberOfUnusedCodesOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-       *
        * <pre>
        * Die Anzahl aller erzeugten Codes.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
        */
       boolean hasNumberOfCodes();
       /**
-       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-       *
        * <pre>
        * Die Anzahl aller erzeugten Codes.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
        */
       io.dstore.Values.integerValue getNumberOfCodes();
       /**
-       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-       *
        * <pre>
        * Die Anzahl aller erzeugten Codes.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNumberOfCodesOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
        */
       boolean hasNumberOfUsedCodes();
       /**
-       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
        */
       io.dstore.Values.integerValue getNumberOfUsedCodes();
       /**
-       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNumberOfUsedCodesOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
        */
       boolean hasNumberOfMaxUsedCodes();
       /**
-       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
        */
       io.dstore.Values.integerValue getNumberOfMaxUsedCodes();
       /**
-       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getNumberOfMaxUsedCodesOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-       *
        * <pre>
        * Der Zeitpunkt, an dem der letzte Code ausläuft
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
        */
       boolean hasMaxValidUntil();
       /**
-       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-       *
        * <pre>
        * Der Zeitpunkt, an dem der letzte Code ausläuft
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
        */
       io.dstore.Values.timestampValue getMaxValidUntil();
       /**
-       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-       *
        * <pre>
        * Der Zeitpunkt, an dem der letzte Code ausläuft
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getMaxValidUntilOrBuilder();
     }
@@ -943,7 +940,8 @@ public final class OmGetVoucherTypeStatisticsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1046,11 +1044,10 @@ public final class OmGetVoucherTypeStatisticsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1079,31 +1076,31 @@ public final class OmGetVoucherTypeStatisticsAd {
       public static final int LAST_CODE_USED_AT_DATE_AND_TIME_FIELD_NUMBER = 10001;
       private io.dstore.Values.timestampValue lastCodeUsedAtDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-       *
        * <pre>
        * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
        */
       public boolean hasLastCodeUsedAtDateAndTime() {
         return lastCodeUsedAtDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-       *
        * <pre>
        * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
        */
       public io.dstore.Values.timestampValue getLastCodeUsedAtDateAndTime() {
         return lastCodeUsedAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastCodeUsedAtDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-       *
        * <pre>
        * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getLastCodeUsedAtDateAndTimeOrBuilder() {
         return getLastCodeUsedAtDateAndTime();
@@ -1112,31 +1109,31 @@ public final class OmGetVoucherTypeStatisticsAd {
       public static final int NUMBER_OF_UNUSED_CODES_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue numberOfUnusedCodes_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die noch nie eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
        */
       public boolean hasNumberOfUnusedCodes() {
         return numberOfUnusedCodes_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die noch nie eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
        */
       public io.dstore.Values.integerValue getNumberOfUnusedCodes() {
         return numberOfUnusedCodes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfUnusedCodes_;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die noch nie eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNumberOfUnusedCodesOrBuilder() {
         return getNumberOfUnusedCodes();
@@ -1145,31 +1142,31 @@ public final class OmGetVoucherTypeStatisticsAd {
       public static final int NUMBER_OF_CODES_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue numberOfCodes_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-       *
        * <pre>
        * Die Anzahl aller erzeugten Codes.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
        */
       public boolean hasNumberOfCodes() {
         return numberOfCodes_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-       *
        * <pre>
        * Die Anzahl aller erzeugten Codes.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
        */
       public io.dstore.Values.integerValue getNumberOfCodes() {
         return numberOfCodes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfCodes_;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-       *
        * <pre>
        * Die Anzahl aller erzeugten Codes.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNumberOfCodesOrBuilder() {
         return getNumberOfCodes();
@@ -1178,31 +1175,31 @@ public final class OmGetVoucherTypeStatisticsAd {
       public static final int NUMBER_OF_USED_CODES_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue numberOfUsedCodes_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
        */
       public boolean hasNumberOfUsedCodes() {
         return numberOfUsedCodes_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
        */
       public io.dstore.Values.integerValue getNumberOfUsedCodes() {
         return numberOfUsedCodes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfUsedCodes_;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNumberOfUsedCodesOrBuilder() {
         return getNumberOfUsedCodes();
@@ -1211,31 +1208,31 @@ public final class OmGetVoucherTypeStatisticsAd {
       public static final int NUMBER_OF_MAX_USED_CODES_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue numberOfMaxUsedCodes_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
        */
       public boolean hasNumberOfMaxUsedCodes() {
         return numberOfMaxUsedCodes_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
        */
       public io.dstore.Values.integerValue getNumberOfMaxUsedCodes() {
         return numberOfMaxUsedCodes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfMaxUsedCodes_;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-       *
        * <pre>
        * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getNumberOfMaxUsedCodesOrBuilder() {
         return getNumberOfMaxUsedCodes();
@@ -1244,31 +1241,31 @@ public final class OmGetVoucherTypeStatisticsAd {
       public static final int MAX_VALID_UNTIL_FIELD_NUMBER = 10006;
       private io.dstore.Values.timestampValue maxValidUntil_;
       /**
-       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-       *
        * <pre>
        * Der Zeitpunkt, an dem der letzte Code ausläuft
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
        */
       public boolean hasMaxValidUntil() {
         return maxValidUntil_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-       *
        * <pre>
        * Der Zeitpunkt, an dem der letzte Code ausläuft
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
        */
       public io.dstore.Values.timestampValue getMaxValidUntil() {
         return maxValidUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : maxValidUntil_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-       *
        * <pre>
        * Der Zeitpunkt, an dem der letzte Code ausläuft
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getMaxValidUntilOrBuilder() {
         return getMaxValidUntil();
@@ -1370,34 +1367,40 @@ public final class OmGetVoucherTypeStatisticsAd {
       }
       public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1597,7 +1600,7 @@ public final class OmGetVoucherTypeStatisticsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1636,21 +1639,21 @@ public final class OmGetVoucherTypeStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastCodeUsedAtDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-         *
          * <pre>
          * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
          */
         public boolean hasLastCodeUsedAtDateAndTime() {
           return lastCodeUsedAtDateAndTimeBuilder_ != null || lastCodeUsedAtDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-         *
          * <pre>
          * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
          */
         public io.dstore.Values.timestampValue getLastCodeUsedAtDateAndTime() {
           if (lastCodeUsedAtDateAndTimeBuilder_ == null) {
@@ -1660,11 +1663,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-         *
          * <pre>
          * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
          */
         public Builder setLastCodeUsedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (lastCodeUsedAtDateAndTimeBuilder_ == null) {
@@ -1680,11 +1683,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-         *
          * <pre>
          * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
          */
         public Builder setLastCodeUsedAtDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -1698,11 +1701,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-         *
          * <pre>
          * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
          */
         public Builder mergeLastCodeUsedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (lastCodeUsedAtDateAndTimeBuilder_ == null) {
@@ -1720,11 +1723,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-         *
          * <pre>
          * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
          */
         public Builder clearLastCodeUsedAtDateAndTime() {
           if (lastCodeUsedAtDateAndTimeBuilder_ == null) {
@@ -1738,11 +1741,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-         *
          * <pre>
          * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
          */
         public io.dstore.Values.timestampValue.Builder getLastCodeUsedAtDateAndTimeBuilder() {
           
@@ -1750,11 +1753,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return getLastCodeUsedAtDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-         *
          * <pre>
          * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getLastCodeUsedAtDateAndTimeOrBuilder() {
           if (lastCodeUsedAtDateAndTimeBuilder_ != null) {
@@ -1765,11 +1768,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
-         *
          * <pre>
          * Der Zeitpunkt, am dem das letzte Mal ein Code eingelöst wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue last_code_used_at_date_and_time = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -1789,21 +1792,21 @@ public final class OmGetVoucherTypeStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfUnusedCodesBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die noch nie eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
          */
         public boolean hasNumberOfUnusedCodes() {
           return numberOfUnusedCodesBuilder_ != null || numberOfUnusedCodes_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die noch nie eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
          */
         public io.dstore.Values.integerValue getNumberOfUnusedCodes() {
           if (numberOfUnusedCodesBuilder_ == null) {
@@ -1813,11 +1816,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die noch nie eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
          */
         public Builder setNumberOfUnusedCodes(io.dstore.Values.integerValue value) {
           if (numberOfUnusedCodesBuilder_ == null) {
@@ -1833,11 +1836,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die noch nie eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
          */
         public Builder setNumberOfUnusedCodes(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1851,11 +1854,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die noch nie eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
          */
         public Builder mergeNumberOfUnusedCodes(io.dstore.Values.integerValue value) {
           if (numberOfUnusedCodesBuilder_ == null) {
@@ -1873,11 +1876,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die noch nie eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
          */
         public Builder clearNumberOfUnusedCodes() {
           if (numberOfUnusedCodesBuilder_ == null) {
@@ -1891,11 +1894,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die noch nie eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getNumberOfUnusedCodesBuilder() {
           
@@ -1903,11 +1906,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return getNumberOfUnusedCodesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die noch nie eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNumberOfUnusedCodesOrBuilder() {
           if (numberOfUnusedCodesBuilder_ != null) {
@@ -1918,11 +1921,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die noch nie eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_unused_codes = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1942,21 +1945,21 @@ public final class OmGetVoucherTypeStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfCodesBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-         *
          * <pre>
          * Die Anzahl aller erzeugten Codes.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
          */
         public boolean hasNumberOfCodes() {
           return numberOfCodesBuilder_ != null || numberOfCodes_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-         *
          * <pre>
          * Die Anzahl aller erzeugten Codes.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
          */
         public io.dstore.Values.integerValue getNumberOfCodes() {
           if (numberOfCodesBuilder_ == null) {
@@ -1966,11 +1969,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-         *
          * <pre>
          * Die Anzahl aller erzeugten Codes.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
          */
         public Builder setNumberOfCodes(io.dstore.Values.integerValue value) {
           if (numberOfCodesBuilder_ == null) {
@@ -1986,11 +1989,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-         *
          * <pre>
          * Die Anzahl aller erzeugten Codes.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
          */
         public Builder setNumberOfCodes(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2004,11 +2007,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-         *
          * <pre>
          * Die Anzahl aller erzeugten Codes.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
          */
         public Builder mergeNumberOfCodes(io.dstore.Values.integerValue value) {
           if (numberOfCodesBuilder_ == null) {
@@ -2026,11 +2029,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-         *
          * <pre>
          * Die Anzahl aller erzeugten Codes.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
          */
         public Builder clearNumberOfCodes() {
           if (numberOfCodesBuilder_ == null) {
@@ -2044,11 +2047,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-         *
          * <pre>
          * Die Anzahl aller erzeugten Codes.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getNumberOfCodesBuilder() {
           
@@ -2056,11 +2059,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return getNumberOfCodesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-         *
          * <pre>
          * Die Anzahl aller erzeugten Codes.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNumberOfCodesOrBuilder() {
           if (numberOfCodesBuilder_ != null) {
@@ -2071,11 +2074,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
-         *
          * <pre>
          * Die Anzahl aller erzeugten Codes.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_codes = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2095,21 +2098,21 @@ public final class OmGetVoucherTypeStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfUsedCodesBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
          */
         public boolean hasNumberOfUsedCodes() {
           return numberOfUsedCodesBuilder_ != null || numberOfUsedCodes_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
          */
         public io.dstore.Values.integerValue getNumberOfUsedCodes() {
           if (numberOfUsedCodesBuilder_ == null) {
@@ -2119,11 +2122,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
          */
         public Builder setNumberOfUsedCodes(io.dstore.Values.integerValue value) {
           if (numberOfUsedCodesBuilder_ == null) {
@@ -2139,11 +2142,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
          */
         public Builder setNumberOfUsedCodes(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2157,11 +2160,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
          */
         public Builder mergeNumberOfUsedCodes(io.dstore.Values.integerValue value) {
           if (numberOfUsedCodesBuilder_ == null) {
@@ -2179,11 +2182,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
          */
         public Builder clearNumberOfUsedCodes() {
           if (numberOfUsedCodesBuilder_ == null) {
@@ -2197,11 +2200,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getNumberOfUsedCodesBuilder() {
           
@@ -2209,11 +2212,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return getNumberOfUsedCodesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNumberOfUsedCodesOrBuilder() {
           if (numberOfUsedCodesBuilder_ != null) {
@@ -2224,11 +2227,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die mindestens einmal eingelöst wurden.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_used_codes = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2248,21 +2251,21 @@ public final class OmGetVoucherTypeStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfMaxUsedCodesBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
          */
         public boolean hasNumberOfMaxUsedCodes() {
           return numberOfMaxUsedCodesBuilder_ != null || numberOfMaxUsedCodes_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
          */
         public io.dstore.Values.integerValue getNumberOfMaxUsedCodes() {
           if (numberOfMaxUsedCodesBuilder_ == null) {
@@ -2272,11 +2275,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
          */
         public Builder setNumberOfMaxUsedCodes(io.dstore.Values.integerValue value) {
           if (numberOfMaxUsedCodesBuilder_ == null) {
@@ -2292,11 +2295,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
          */
         public Builder setNumberOfMaxUsedCodes(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2310,11 +2313,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
          */
         public Builder mergeNumberOfMaxUsedCodes(io.dstore.Values.integerValue value) {
           if (numberOfMaxUsedCodesBuilder_ == null) {
@@ -2332,11 +2335,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
          */
         public Builder clearNumberOfMaxUsedCodes() {
           if (numberOfMaxUsedCodesBuilder_ == null) {
@@ -2350,11 +2353,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getNumberOfMaxUsedCodesBuilder() {
           
@@ -2362,11 +2365,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return getNumberOfMaxUsedCodesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getNumberOfMaxUsedCodesOrBuilder() {
           if (numberOfMaxUsedCodesBuilder_ != null) {
@@ -2377,11 +2380,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
-         *
          * <pre>
          * Die Anzahl der Codes, die bereits so oft eingelöst wurden, wie es erlaubt ist (gemäß "XTimesUsable"-Einstellung der Aktion)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue number_of_max_used_codes = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2401,21 +2404,21 @@ public final class OmGetVoucherTypeStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> maxValidUntilBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-         *
          * <pre>
          * Der Zeitpunkt, an dem der letzte Code ausläuft
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
          */
         public boolean hasMaxValidUntil() {
           return maxValidUntilBuilder_ != null || maxValidUntil_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-         *
          * <pre>
          * Der Zeitpunkt, an dem der letzte Code ausläuft
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
          */
         public io.dstore.Values.timestampValue getMaxValidUntil() {
           if (maxValidUntilBuilder_ == null) {
@@ -2425,11 +2428,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-         *
          * <pre>
          * Der Zeitpunkt, an dem der letzte Code ausläuft
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
          */
         public Builder setMaxValidUntil(io.dstore.Values.timestampValue value) {
           if (maxValidUntilBuilder_ == null) {
@@ -2445,11 +2448,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-         *
          * <pre>
          * Der Zeitpunkt, an dem der letzte Code ausläuft
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
          */
         public Builder setMaxValidUntil(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -2463,11 +2466,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-         *
          * <pre>
          * Der Zeitpunkt, an dem der letzte Code ausläuft
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
          */
         public Builder mergeMaxValidUntil(io.dstore.Values.timestampValue value) {
           if (maxValidUntilBuilder_ == null) {
@@ -2485,11 +2488,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-         *
          * <pre>
          * Der Zeitpunkt, an dem der letzte Code ausläuft
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
          */
         public Builder clearMaxValidUntil() {
           if (maxValidUntilBuilder_ == null) {
@@ -2503,11 +2506,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-         *
          * <pre>
          * Der Zeitpunkt, an dem der letzte Code ausläuft
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
          */
         public io.dstore.Values.timestampValue.Builder getMaxValidUntilBuilder() {
           
@@ -2515,11 +2518,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           return getMaxValidUntilFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-         *
          * <pre>
          * Der Zeitpunkt, an dem der letzte Code ausläuft
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getMaxValidUntilOrBuilder() {
           if (maxValidUntilBuilder_ != null) {
@@ -2530,11 +2533,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
-         *
          * <pre>
          * Der Zeitpunkt, an dem der letzte Code ausläuft
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue max_valid_until = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -2579,16 +2582,7 @@ public final class OmGetVoucherTypeStatisticsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2680,52 +2674,52 @@ public final class OmGetVoucherTypeStatisticsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2800,34 +2794,40 @@ public final class OmGetVoucherTypeStatisticsAd {
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3064,7 +3064,7 @@ public final class OmGetVoucherTypeStatisticsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3567,11 +3567,11 @@ public final class OmGetVoucherTypeStatisticsAd {
           io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row, io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3581,11 +3581,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3595,11 +3595,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3609,11 +3609,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row value) {
@@ -3630,11 +3630,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row.Builder builderForValue) {
@@ -3648,11 +3648,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3668,11 +3668,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row value) {
@@ -3689,11 +3689,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row.Builder builderForValue) {
@@ -3707,11 +3707,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row.Builder builderForValue) {
@@ -3725,11 +3725,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row> values) {
@@ -3744,11 +3744,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3761,11 +3761,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3778,22 +3778,22 @@ public final class OmGetVoucherTypeStatisticsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3803,11 +3803,11 @@ public final class OmGetVoucherTypeStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3818,22 +3818,22 @@ public final class OmGetVoucherTypeStatisticsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3841,11 +3841,11 @@ public final class OmGetVoucherTypeStatisticsAd {
             index, io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetVoucherTypeStatistics_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3895,16 +3895,7 @@ public final class OmGetVoucherTypeStatisticsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3923,19 +3914,19 @@ public final class OmGetVoucherTypeStatisticsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetVoucherTypeStatistics_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetVoucherTypeStatistics_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetVoucherTypeStatistics_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetVoucherTypeStatistics_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetVoucherTypeStatistics_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetVoucherTypeStatistics_Ad_Response_Row_fieldAccessorTable;
 
@@ -3943,7 +3934,7 @@ public final class OmGetVoucherTypeStatisticsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

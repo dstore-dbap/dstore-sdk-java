@@ -109,7 +109,8 @@ public final class MiGetTableDDLAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -201,11 +202,10 @@ public final class MiGetTableDDLAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -445,34 +445,40 @@ public final class MiGetTableDDLAd {
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -662,7 +668,7 @@ public final class MiGetTableDDLAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetTableDDLAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1272,16 +1278,7 @@ public final class MiGetTableDDLAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1353,45 +1350,45 @@ public final class MiGetTableDDLAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1420,7 +1417,8 @@ public final class MiGetTableDDLAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1464,11 +1462,10 @@ public final class MiGetTableDDLAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1504,127 +1501,127 @@ public final class MiGetTableDDLAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-       *
        * <pre>
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
        */
       boolean hasColumnName();
       /**
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-       *
        * <pre>
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
        */
       io.dstore.Values.stringValue getColumnName();
       /**
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-       *
        * <pre>
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getColumnNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       boolean hasLength();
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       io.dstore.Values.integerValue getLength();
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getLengthOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-       *
        * <pre>
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
        */
       boolean hasDataType();
       /**
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-       *
        * <pre>
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
        */
       io.dstore.Values.stringValue getDataType();
       /**
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-       *
        * <pre>
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getDataTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        */
       boolean hasPrecisionValue();
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        */
       io.dstore.Values.integerValue getPrecisionValue();
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10005;</code>
        */
       boolean hasScale();
       /**
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10005;</code>
        */
       io.dstore.Values.integerValue getScale();
       /**
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10005;</code>
        */
       io.dstore.Values.integerValueOrBuilder getScaleOrBuilder();
     }
@@ -1650,7 +1647,8 @@ public final class MiGetTableDDLAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1740,11 +1738,10 @@ public final class MiGetTableDDLAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1773,31 +1770,31 @@ public final class MiGetTableDDLAd {
       public static final int COLUMN_NAME_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue columnName_;
       /**
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-       *
        * <pre>
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
        */
       public boolean hasColumnName() {
         return columnName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-       *
        * <pre>
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
        */
       public io.dstore.Values.stringValue getColumnName() {
         return columnName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : columnName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-       *
        * <pre>
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getColumnNameOrBuilder() {
         return getColumnName();
@@ -1806,31 +1803,31 @@ public final class MiGetTableDDLAd {
       public static final int LENGTH_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue length_;
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       public boolean hasLength() {
         return length_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       public io.dstore.Values.integerValue getLength() {
         return length_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : length_;
       }
       /**
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
-       *
        * <pre>
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue length = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getLengthOrBuilder() {
         return getLength();
@@ -1839,31 +1836,31 @@ public final class MiGetTableDDLAd {
       public static final int DATA_TYPE_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue dataType_;
       /**
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-       *
        * <pre>
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
        */
       public boolean hasDataType() {
         return dataType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-       *
        * <pre>
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
        */
       public io.dstore.Values.stringValue getDataType() {
         return dataType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dataType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-       *
        * <pre>
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getDataTypeOrBuilder() {
         return getDataType();
@@ -1872,31 +1869,31 @@ public final class MiGetTableDDLAd {
       public static final int PRECISION_VALUE_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue precisionValue_;
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        */
       public boolean hasPrecisionValue() {
         return precisionValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        */
       public io.dstore.Values.integerValue getPrecisionValue() {
         return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
       }
       /**
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
         return getPrecisionValue();
@@ -1905,31 +1902,31 @@ public final class MiGetTableDDLAd {
       public static final int SCALE_FIELD_NUMBER = 10005;
       private io.dstore.Values.integerValue scale_;
       /**
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10005;</code>
        */
       public boolean hasScale() {
         return scale_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10005;</code>
        */
       public io.dstore.Values.integerValue getScale() {
         return scale_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : scale_;
       }
       /**
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
-       *
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue scale = 10005;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getScaleOrBuilder() {
         return getScale();
@@ -2024,34 +2021,40 @@ public final class MiGetTableDDLAd {
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2237,7 +2240,7 @@ public final class MiGetTableDDLAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2276,21 +2279,21 @@ public final class MiGetTableDDLAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> columnNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-         *
          * <pre>
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
          */
         public boolean hasColumnName() {
           return columnNameBuilder_ != null || columnName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-         *
          * <pre>
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
          */
         public io.dstore.Values.stringValue getColumnName() {
           if (columnNameBuilder_ == null) {
@@ -2300,11 +2303,11 @@ public final class MiGetTableDDLAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-         *
          * <pre>
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
          */
         public Builder setColumnName(io.dstore.Values.stringValue value) {
           if (columnNameBuilder_ == null) {
@@ -2320,11 +2323,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-         *
          * <pre>
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
          */
         public Builder setColumnName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2338,11 +2341,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-         *
          * <pre>
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
          */
         public Builder mergeColumnName(io.dstore.Values.stringValue value) {
           if (columnNameBuilder_ == null) {
@@ -2360,11 +2363,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-         *
          * <pre>
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
          */
         public Builder clearColumnName() {
           if (columnNameBuilder_ == null) {
@@ -2378,11 +2381,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-         *
          * <pre>
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getColumnNameBuilder() {
           
@@ -2390,11 +2393,11 @@ public final class MiGetTableDDLAd {
           return getColumnNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-         *
          * <pre>
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getColumnNameOrBuilder() {
           if (columnNameBuilder_ != null) {
@@ -2405,11 +2408,11 @@ public final class MiGetTableDDLAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
-         *
          * <pre>
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2429,21 +2432,21 @@ public final class MiGetTableDDLAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lengthBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public boolean hasLength() {
           return lengthBuilder_ != null || length_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public io.dstore.Values.integerValue getLength() {
           if (lengthBuilder_ == null) {
@@ -2453,11 +2456,11 @@ public final class MiGetTableDDLAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public Builder setLength(io.dstore.Values.integerValue value) {
           if (lengthBuilder_ == null) {
@@ -2473,11 +2476,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public Builder setLength(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2491,11 +2494,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public Builder mergeLength(io.dstore.Values.integerValue value) {
           if (lengthBuilder_ == null) {
@@ -2513,11 +2516,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public Builder clearLength() {
           if (lengthBuilder_ == null) {
@@ -2531,11 +2534,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getLengthBuilder() {
           
@@ -2543,11 +2546,11 @@ public final class MiGetTableDDLAd {
           return getLengthFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getLengthOrBuilder() {
           if (lengthBuilder_ != null) {
@@ -2558,11 +2561,11 @@ public final class MiGetTableDDLAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
-         *
          * <pre>
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2582,21 +2585,21 @@ public final class MiGetTableDDLAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dataTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-         *
          * <pre>
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
          */
         public boolean hasDataType() {
           return dataTypeBuilder_ != null || dataType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-         *
          * <pre>
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
          */
         public io.dstore.Values.stringValue getDataType() {
           if (dataTypeBuilder_ == null) {
@@ -2606,11 +2609,11 @@ public final class MiGetTableDDLAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-         *
          * <pre>
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
          */
         public Builder setDataType(io.dstore.Values.stringValue value) {
           if (dataTypeBuilder_ == null) {
@@ -2626,11 +2629,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-         *
          * <pre>
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
          */
         public Builder setDataType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2644,11 +2647,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-         *
          * <pre>
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
          */
         public Builder mergeDataType(io.dstore.Values.stringValue value) {
           if (dataTypeBuilder_ == null) {
@@ -2666,11 +2669,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-         *
          * <pre>
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
          */
         public Builder clearDataType() {
           if (dataTypeBuilder_ == null) {
@@ -2684,11 +2687,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-         *
          * <pre>
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getDataTypeBuilder() {
           
@@ -2696,11 +2699,11 @@ public final class MiGetTableDDLAd {
           return getDataTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-         *
          * <pre>
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getDataTypeOrBuilder() {
           if (dataTypeBuilder_ != null) {
@@ -2711,11 +2714,11 @@ public final class MiGetTableDDLAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
-         *
          * <pre>
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2735,21 +2738,21 @@ public final class MiGetTableDDLAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> precisionValueBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
         public boolean hasPrecisionValue() {
           return precisionValueBuilder_ != null || precisionValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
         public io.dstore.Values.integerValue getPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -2759,11 +2762,11 @@ public final class MiGetTableDDLAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
         public Builder setPrecisionValue(io.dstore.Values.integerValue value) {
           if (precisionValueBuilder_ == null) {
@@ -2779,11 +2782,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
         public Builder setPrecisionValue(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2797,11 +2800,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
         public Builder mergePrecisionValue(io.dstore.Values.integerValue value) {
           if (precisionValueBuilder_ == null) {
@@ -2819,11 +2822,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
         public Builder clearPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -2837,11 +2840,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getPrecisionValueBuilder() {
           
@@ -2849,11 +2852,11 @@ public final class MiGetTableDDLAd {
           return getPrecisionValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
           if (precisionValueBuilder_ != null) {
@@ -2864,11 +2867,11 @@ public final class MiGetTableDDLAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2888,21 +2891,21 @@ public final class MiGetTableDDLAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> scaleBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10005;</code>
          */
         public boolean hasScale() {
           return scaleBuilder_ != null || scale_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10005;</code>
          */
         public io.dstore.Values.integerValue getScale() {
           if (scaleBuilder_ == null) {
@@ -2912,11 +2915,11 @@ public final class MiGetTableDDLAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10005;</code>
          */
         public Builder setScale(io.dstore.Values.integerValue value) {
           if (scaleBuilder_ == null) {
@@ -2932,11 +2935,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10005;</code>
          */
         public Builder setScale(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2950,11 +2953,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10005;</code>
          */
         public Builder mergeScale(io.dstore.Values.integerValue value) {
           if (scaleBuilder_ == null) {
@@ -2972,11 +2975,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10005;</code>
          */
         public Builder clearScale() {
           if (scaleBuilder_ == null) {
@@ -2990,11 +2993,11 @@ public final class MiGetTableDDLAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10005;</code>
          */
         public io.dstore.Values.integerValue.Builder getScaleBuilder() {
           
@@ -3002,11 +3005,11 @@ public final class MiGetTableDDLAd {
           return getScaleFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10005;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getScaleOrBuilder() {
           if (scaleBuilder_ != null) {
@@ -3017,11 +3020,11 @@ public final class MiGetTableDDLAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
-         *
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue scale = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3066,16 +3069,7 @@ public final class MiGetTableDDLAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -3167,52 +3161,52 @@ public final class MiGetTableDDLAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3287,34 +3281,40 @@ public final class MiGetTableDDLAd {
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3551,7 +3551,7 @@ public final class MiGetTableDDLAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetTableDDLAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -4054,11 +4054,11 @@ public final class MiGetTableDDLAd {
           io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row, io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -4068,11 +4068,11 @@ public final class MiGetTableDDLAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -4082,11 +4082,11 @@ public final class MiGetTableDDLAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -4096,11 +4096,11 @@ public final class MiGetTableDDLAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row value) {
@@ -4117,11 +4117,11 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder builderForValue) {
@@ -4135,11 +4135,11 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -4155,11 +4155,11 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row value) {
@@ -4176,11 +4176,11 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder builderForValue) {
@@ -4194,11 +4194,11 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder builderForValue) {
@@ -4212,11 +4212,11 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row> values) {
@@ -4231,11 +4231,11 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4248,11 +4248,11 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4265,22 +4265,22 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4290,11 +4290,11 @@ public final class MiGetTableDDLAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4305,22 +4305,22 @@ public final class MiGetTableDDLAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4328,11 +4328,11 @@ public final class MiGetTableDDLAd {
             index, io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetTableDDL_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4382,16 +4382,7 @@ public final class MiGetTableDDLAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4410,19 +4401,19 @@ public final class MiGetTableDDLAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_fieldAccessorTable;
 
@@ -4430,7 +4421,7 @@ public final class MiGetTableDDLAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

@@ -128,7 +128,8 @@ public final class DoGetProcedureDependenciesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -238,11 +239,10 @@ public final class DoGetProcedureDependenciesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -526,34 +526,40 @@ public final class DoGetProcedureDependenciesAd {
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -763,7 +769,7 @@ public final class DoGetProcedureDependenciesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1516,16 +1522,7 @@ public final class DoGetProcedureDependenciesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1597,45 +1594,45 @@ public final class DoGetProcedureDependenciesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1664,7 +1661,8 @@ public final class DoGetProcedureDependenciesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1708,11 +1706,10 @@ public final class DoGetProcedureDependenciesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1748,77 +1745,77 @@ public final class DoGetProcedureDependenciesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-       *
        * <pre>
        * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
        */
       boolean hasLevelOfDependence();
       /**
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-       *
        * <pre>
        * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
        */
       io.dstore.Values.integerValue getLevelOfDependence();
       /**
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-       *
        * <pre>
        * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getLevelOfDependenceOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
        */
       boolean hasUsedProcedure();
       /**
-       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
        */
       io.dstore.Values.stringValue getUsedProcedure();
       /**
-       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUsedProcedureOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
        */
       boolean hasProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
        */
       io.dstore.Values.stringValue getProcedureName();
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
     }
@@ -1844,7 +1841,8 @@ public final class DoGetProcedureDependenciesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1908,11 +1906,10 @@ public final class DoGetProcedureDependenciesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1941,31 +1938,31 @@ public final class DoGetProcedureDependenciesAd {
       public static final int LEVEL_OF_DEPENDENCE_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue levelOfDependence_;
       /**
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-       *
        * <pre>
        * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
        */
       public boolean hasLevelOfDependence() {
         return levelOfDependence_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-       *
        * <pre>
        * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
        */
       public io.dstore.Values.integerValue getLevelOfDependence() {
         return levelOfDependence_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelOfDependence_;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-       *
        * <pre>
        * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getLevelOfDependenceOrBuilder() {
         return getLevelOfDependence();
@@ -1974,31 +1971,31 @@ public final class DoGetProcedureDependenciesAd {
       public static final int USED_PROCEDURE_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue usedProcedure_;
       /**
-       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
        */
       public boolean hasUsedProcedure() {
         return usedProcedure_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
        */
       public io.dstore.Values.stringValue getUsedProcedure() {
         return usedProcedure_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : usedProcedure_;
       }
       /**
-       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUsedProcedureOrBuilder() {
         return getUsedProcedure();
@@ -2007,31 +2004,31 @@ public final class DoGetProcedureDependenciesAd {
       public static final int PROCEDURE_NAME_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue procedureName_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
        */
       public io.dstore.Values.stringValue getProcedureName() {
         return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-       *
        * <pre>
        * Name einer "dStore"-Prozedur
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
@@ -2112,34 +2109,40 @@ public final class DoGetProcedureDependenciesAd {
       }
       public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -2297,7 +2300,7 @@ public final class DoGetProcedureDependenciesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -2336,21 +2339,21 @@ public final class DoGetProcedureDependenciesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelOfDependenceBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-         *
          * <pre>
          * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
          */
         public boolean hasLevelOfDependence() {
           return levelOfDependenceBuilder_ != null || levelOfDependence_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-         *
          * <pre>
          * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
          */
         public io.dstore.Values.integerValue getLevelOfDependence() {
           if (levelOfDependenceBuilder_ == null) {
@@ -2360,11 +2363,11 @@ public final class DoGetProcedureDependenciesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-         *
          * <pre>
          * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
          */
         public Builder setLevelOfDependence(io.dstore.Values.integerValue value) {
           if (levelOfDependenceBuilder_ == null) {
@@ -2380,11 +2383,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-         *
          * <pre>
          * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
          */
         public Builder setLevelOfDependence(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2398,11 +2401,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-         *
          * <pre>
          * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
          */
         public Builder mergeLevelOfDependence(io.dstore.Values.integerValue value) {
           if (levelOfDependenceBuilder_ == null) {
@@ -2420,11 +2423,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-         *
          * <pre>
          * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
          */
         public Builder clearLevelOfDependence() {
           if (levelOfDependenceBuilder_ == null) {
@@ -2438,11 +2441,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-         *
          * <pre>
          * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getLevelOfDependenceBuilder() {
           
@@ -2450,11 +2453,11 @@ public final class DoGetProcedureDependenciesAd {
           return getLevelOfDependenceFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-         *
          * <pre>
          * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getLevelOfDependenceOrBuilder() {
           if (levelOfDependenceBuilder_ != null) {
@@ -2465,11 +2468,11 @@ public final class DoGetProcedureDependenciesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
-         *
          * <pre>
          * Kennzeichnet den "Grad der Abhängigkeit" :"1" : "UsedProcedure" wird DIREKT aufgerufen"2" : "UsedProcedure" wird von einer Prozedur aufgerufen, die auch in dieser Rückgabemenge (in "UsedProcedure") ist, und zwar mit "LevelOfDependence = 1"usw.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue level_of_dependence = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2489,21 +2492,21 @@ public final class DoGetProcedureDependenciesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> usedProcedureBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
          */
         public boolean hasUsedProcedure() {
           return usedProcedureBuilder_ != null || usedProcedure_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
          */
         public io.dstore.Values.stringValue getUsedProcedure() {
           if (usedProcedureBuilder_ == null) {
@@ -2513,11 +2516,11 @@ public final class DoGetProcedureDependenciesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
          */
         public Builder setUsedProcedure(io.dstore.Values.stringValue value) {
           if (usedProcedureBuilder_ == null) {
@@ -2533,11 +2536,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
          */
         public Builder setUsedProcedure(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2551,11 +2554,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
          */
         public Builder mergeUsedProcedure(io.dstore.Values.stringValue value) {
           if (usedProcedureBuilder_ == null) {
@@ -2573,11 +2576,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
          */
         public Builder clearUsedProcedure() {
           if (usedProcedureBuilder_ == null) {
@@ -2591,11 +2594,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getUsedProcedureBuilder() {
           
@@ -2603,11 +2606,11 @@ public final class DoGetProcedureDependenciesAd {
           return getUsedProcedureFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUsedProcedureOrBuilder() {
           if (usedProcedureBuilder_ != null) {
@@ -2618,11 +2621,11 @@ public final class DoGetProcedureDependenciesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur, die von der durch "ProcedureName" bezeichneten Prozedur aufgerufen wird
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue used_procedure = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2642,21 +2645,21 @@ public final class DoGetProcedureDependenciesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
          */
         public io.dstore.Values.stringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2666,11 +2669,11 @@ public final class DoGetProcedureDependenciesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
          */
         public Builder setProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2686,11 +2689,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
          */
         public Builder setProcedureName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2704,11 +2707,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
          */
         public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2726,11 +2729,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2744,11 +2747,11 @@ public final class DoGetProcedureDependenciesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
           
@@ -2756,11 +2759,11 @@ public final class DoGetProcedureDependenciesAd {
           return getProcedureNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
@@ -2771,11 +2774,11 @@ public final class DoGetProcedureDependenciesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
-         *
          * <pre>
          * Name einer "dStore"-Prozedur
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue procedure_name = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2820,16 +2823,7 @@ public final class DoGetProcedureDependenciesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2921,52 +2915,52 @@ public final class DoGetProcedureDependenciesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -3041,34 +3035,40 @@ public final class DoGetProcedureDependenciesAd {
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3305,7 +3305,7 @@ public final class DoGetProcedureDependenciesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3808,11 +3808,11 @@ public final class DoGetProcedureDependenciesAd {
           io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row, io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row.Builder, io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3822,11 +3822,11 @@ public final class DoGetProcedureDependenciesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3836,11 +3836,11 @@ public final class DoGetProcedureDependenciesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3850,11 +3850,11 @@ public final class DoGetProcedureDependenciesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row value) {
@@ -3871,11 +3871,11 @@ public final class DoGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row.Builder builderForValue) {
@@ -3889,11 +3889,11 @@ public final class DoGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3909,11 +3909,11 @@ public final class DoGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row value) {
@@ -3930,11 +3930,11 @@ public final class DoGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row.Builder builderForValue) {
@@ -3948,11 +3948,11 @@ public final class DoGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row.Builder builderForValue) {
@@ -3966,11 +3966,11 @@ public final class DoGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row> values) {
@@ -3985,11 +3985,11 @@ public final class DoGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -4002,11 +4002,11 @@ public final class DoGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -4019,22 +4019,22 @@ public final class DoGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -4044,11 +4044,11 @@ public final class DoGetProcedureDependenciesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -4059,22 +4059,22 @@ public final class DoGetProcedureDependenciesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -4082,11 +4082,11 @@ public final class DoGetProcedureDependenciesAd {
             index, io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.do_GetProcedureDependencies_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -4136,16 +4136,7 @@ public final class DoGetProcedureDependenciesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -4164,19 +4155,19 @@ public final class DoGetProcedureDependenciesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureDependencies_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureDependencies_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureDependencies_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureDependencies_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_do_GetProcedureDependencies_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_do_GetProcedureDependencies_Ad_Response_Row_fieldAccessorTable;
 
@@ -4184,7 +4175,7 @@ public final class DoGetProcedureDependenciesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

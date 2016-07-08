@@ -90,7 +90,8 @@ public final class PmGetPersonTypesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -164,11 +165,10 @@ public final class PmGetPersonTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -364,34 +364,40 @@ public final class PmGetPersonTypesAd {
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -561,7 +567,7 @@ public final class PmGetPersonTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.PmGetPersonTypesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1028,16 +1034,7 @@ public final class PmGetPersonTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1109,45 +1106,45 @@ public final class PmGetPersonTypesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.PmGetPersonTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.PmGetPersonTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -1176,7 +1173,8 @@ public final class PmGetPersonTypesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1220,11 +1218,10 @@ public final class PmGetPersonTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1260,102 +1257,102 @@ public final class PmGetPersonTypesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-       *
        * <pre>
        * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
        */
       boolean hasLocked();
       /**
-       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-       *
        * <pre>
        * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
        */
       io.dstore.Values.booleanValue getLocked();
       /**
-       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-       *
        * <pre>
        * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getLockedOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
        */
       boolean hasPersonTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
        */
       io.dstore.Values.stringValue getPersonTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getPersonTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        */
       boolean hasSortNo();
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        */
       io.dstore.Values.integerValue getSortNo();
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Personen-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
        */
       boolean hasPersonTypeId();
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Personen-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
        */
       io.dstore.Values.integerValue getPersonTypeId();
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Personen-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
     }
@@ -1381,7 +1378,8 @@ public final class PmGetPersonTypesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1458,11 +1456,10 @@ public final class PmGetPersonTypesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1491,31 +1488,31 @@ public final class PmGetPersonTypesAd {
       public static final int LOCKED_FIELD_NUMBER = 10001;
       private io.dstore.Values.booleanValue locked_;
       /**
-       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-       *
        * <pre>
        * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
        */
       public boolean hasLocked() {
         return locked_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-       *
        * <pre>
        * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
        */
       public io.dstore.Values.booleanValue getLocked() {
         return locked_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : locked_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-       *
        * <pre>
        * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue locked = 10001;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getLockedOrBuilder() {
         return getLocked();
@@ -1524,31 +1521,31 @@ public final class PmGetPersonTypesAd {
       public static final int PERSON_TYPE_DESCRIPTION_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue personTypeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
        */
       public boolean hasPersonTypeDescription() {
         return personTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
        */
       public io.dstore.Values.stringValue getPersonTypeDescription() {
         return personTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personTypeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
         return getPersonTypeDescription();
@@ -1557,31 +1554,31 @@ public final class PmGetPersonTypesAd {
       public static final int SORT_NO_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue sortNo_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        */
       public io.dstore.Values.integerValue getSortNo() {
         return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -1590,31 +1587,31 @@ public final class PmGetPersonTypesAd {
       public static final int PERSON_TYPE_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue personTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Personen-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Personen-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
        */
       public io.dstore.Values.integerValue getPersonTypeId() {
         return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-       *
        * <pre>
        * ID eines Personen-Typs
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
         return getPersonTypeId();
@@ -1702,34 +1699,40 @@ public final class PmGetPersonTypesAd {
       }
       public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1901,7 +1904,7 @@ public final class PmGetPersonTypesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1940,21 +1943,21 @@ public final class PmGetPersonTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> lockedBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-         *
          * <pre>
          * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
          */
         public boolean hasLocked() {
           return lockedBuilder_ != null || locked_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-         *
          * <pre>
          * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
          */
         public io.dstore.Values.booleanValue getLocked() {
           if (lockedBuilder_ == null) {
@@ -1964,11 +1967,11 @@ public final class PmGetPersonTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-         *
          * <pre>
          * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
          */
         public Builder setLocked(io.dstore.Values.booleanValue value) {
           if (lockedBuilder_ == null) {
@@ -1984,11 +1987,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-         *
          * <pre>
          * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
          */
         public Builder setLocked(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -2002,11 +2005,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-         *
          * <pre>
          * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
          */
         public Builder mergeLocked(io.dstore.Values.booleanValue value) {
           if (lockedBuilder_ == null) {
@@ -2024,11 +2027,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-         *
          * <pre>
          * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
          */
         public Builder clearLocked() {
           if (lockedBuilder_ == null) {
@@ -2042,11 +2045,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-         *
          * <pre>
          * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
          */
         public io.dstore.Values.booleanValue.Builder getLockedBuilder() {
           
@@ -2054,11 +2057,11 @@ public final class PmGetPersonTypesAd {
           return getLockedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-         *
          * <pre>
          * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getLockedOrBuilder() {
           if (lockedBuilder_ != null) {
@@ -2069,11 +2072,11 @@ public final class PmGetPersonTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
-         *
          * <pre>
          * Gibt an, ob der Benutzer "&#64;UserID" Zugriff auf den Personen-Typ "PersonTypeID" hat ("0") oder nicht ("1"). Im Fall "&#64;AllPersonTypesWithLocked = 0" wird hier immer der Wert "0" zurückgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue locked = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -2093,21 +2096,21 @@ public final class PmGetPersonTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
          */
         public boolean hasPersonTypeDescription() {
           return personTypeDescriptionBuilder_ != null || personTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
          */
         public io.dstore.Values.stringValue getPersonTypeDescription() {
           if (personTypeDescriptionBuilder_ == null) {
@@ -2117,11 +2120,11 @@ public final class PmGetPersonTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
          */
         public Builder setPersonTypeDescription(io.dstore.Values.stringValue value) {
           if (personTypeDescriptionBuilder_ == null) {
@@ -2137,11 +2140,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
          */
         public Builder setPersonTypeDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -2155,11 +2158,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
          */
         public Builder mergePersonTypeDescription(io.dstore.Values.stringValue value) {
           if (personTypeDescriptionBuilder_ == null) {
@@ -2177,11 +2180,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
          */
         public Builder clearPersonTypeDescription() {
           if (personTypeDescriptionBuilder_ == null) {
@@ -2195,11 +2198,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getPersonTypeDescriptionBuilder() {
           
@@ -2207,11 +2210,11 @@ public final class PmGetPersonTypesAd {
           return getPersonTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
           if (personTypeDescriptionBuilder_ != null) {
@@ -2222,11 +2225,11 @@ public final class PmGetPersonTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -2246,21 +2249,21 @@ public final class PmGetPersonTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          */
         public io.dstore.Values.integerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -2270,11 +2273,11 @@ public final class PmGetPersonTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          */
         public Builder setSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
@@ -2290,11 +2293,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          */
         public Builder setSortNo(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2308,11 +2311,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          */
         public Builder mergeSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
@@ -2330,11 +2333,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -2348,11 +2351,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
           
@@ -2360,11 +2363,11 @@ public final class PmGetPersonTypesAd {
           return getSortNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -2375,11 +2378,11 @@ public final class PmGetPersonTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "PersonTypeID" innerhalb aller Personentypen (wird derzeit aber nirgends verwendet)
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2399,21 +2402,21 @@ public final class PmGetPersonTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Personen-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
          */
         public boolean hasPersonTypeId() {
           return personTypeIdBuilder_ != null || personTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Personen-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
          */
         public io.dstore.Values.integerValue getPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -2423,11 +2426,11 @@ public final class PmGetPersonTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Personen-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
          */
         public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
           if (personTypeIdBuilder_ == null) {
@@ -2443,11 +2446,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Personen-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
          */
         public Builder setPersonTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -2461,11 +2464,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Personen-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
          */
         public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
           if (personTypeIdBuilder_ == null) {
@@ -2483,11 +2486,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Personen-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
          */
         public Builder clearPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -2501,11 +2504,11 @@ public final class PmGetPersonTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Personen-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
           
@@ -2513,11 +2516,11 @@ public final class PmGetPersonTypesAd {
           return getPersonTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Personen-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
           if (personTypeIdBuilder_ != null) {
@@ -2528,11 +2531,11 @@ public final class PmGetPersonTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
-         *
          * <pre>
          * ID eines Personen-Typs
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -2577,16 +2580,7 @@ public final class PmGetPersonTypesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2678,52 +2672,52 @@ public final class PmGetPersonTypesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.PmGetPersonTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.PmGetPersonTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2798,34 +2792,40 @@ public final class PmGetPersonTypesAd {
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -3062,7 +3062,7 @@ public final class PmGetPersonTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.PmGetPersonTypesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3565,11 +3565,11 @@ public final class PmGetPersonTypesAd {
           io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row, io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row.Builder, io.dstore.engine.procedures.PmGetPersonTypesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -3579,11 +3579,11 @@ public final class PmGetPersonTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -3593,11 +3593,11 @@ public final class PmGetPersonTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -3607,11 +3607,11 @@ public final class PmGetPersonTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row value) {
@@ -3628,11 +3628,11 @@ public final class PmGetPersonTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row.Builder builderForValue) {
@@ -3646,11 +3646,11 @@ public final class PmGetPersonTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -3666,11 +3666,11 @@ public final class PmGetPersonTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row value) {
@@ -3687,11 +3687,11 @@ public final class PmGetPersonTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row.Builder builderForValue) {
@@ -3705,11 +3705,11 @@ public final class PmGetPersonTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row.Builder builderForValue) {
@@ -3723,11 +3723,11 @@ public final class PmGetPersonTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row> values) {
@@ -3742,11 +3742,11 @@ public final class PmGetPersonTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3759,11 +3759,11 @@ public final class PmGetPersonTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3776,22 +3776,22 @@ public final class PmGetPersonTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetPersonTypesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3801,11 +3801,11 @@ public final class PmGetPersonTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.PmGetPersonTypesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3816,22 +3816,22 @@ public final class PmGetPersonTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3839,11 +3839,11 @@ public final class PmGetPersonTypesAd {
             index, io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.pm_GetPersonTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.PmGetPersonTypesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3893,16 +3893,7 @@ public final class PmGetPersonTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3921,19 +3912,19 @@ public final class PmGetPersonTypesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetPersonTypes_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_GetPersonTypes_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetPersonTypes_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_GetPersonTypes_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetPersonTypes_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_pm_GetPersonTypes_Ad_Response_Row_fieldAccessorTable;
 
@@ -3941,7 +3932,7 @@ public final class PmGetPersonTypesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

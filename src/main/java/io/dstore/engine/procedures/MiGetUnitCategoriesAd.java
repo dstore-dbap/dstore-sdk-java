@@ -71,7 +71,8 @@ public final class MiGetUnitCategoriesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -127,11 +128,10 @@ public final class MiGetUnitCategoriesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -283,34 +283,40 @@ public final class MiGetUnitCategoriesAd {
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -460,7 +466,7 @@ public final class MiGetUnitCategoriesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetUnitCategoriesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -784,16 +790,7 @@ public final class MiGetUnitCategoriesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -865,45 +862,45 @@ public final class MiGetUnitCategoriesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -932,7 +929,8 @@ public final class MiGetUnitCategoriesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -976,11 +974,10 @@ public final class MiGetUnitCategoriesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -1016,52 +1013,52 @@ public final class MiGetUnitCategoriesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
        */
       boolean hasUnitCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
        */
       io.dstore.Values.integerValue getUnitCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
        */
       boolean hasUnitCategoryDescription();
       /**
-       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
        */
       io.dstore.Values.stringValue getUnitCategoryDescription();
       /**
-       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUnitCategoryDescriptionOrBuilder();
     }
@@ -1087,7 +1084,8 @@ public final class MiGetUnitCategoriesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1138,11 +1136,10 @@ public final class MiGetUnitCategoriesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1171,31 +1168,31 @@ public final class MiGetUnitCategoriesAd {
       public static final int UNIT_CATEGORY_ID_FIELD_NUMBER = 10001;
       private io.dstore.Values.integerValue unitCategoryId_;
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
        */
       public boolean hasUnitCategoryId() {
         return unitCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
        */
       public io.dstore.Values.integerValue getUnitCategoryId() {
         return unitCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitCategoryId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-       *
        * <pre>
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder() {
         return getUnitCategoryId();
@@ -1204,31 +1201,31 @@ public final class MiGetUnitCategoriesAd {
       public static final int UNIT_CATEGORY_DESCRIPTION_FIELD_NUMBER = 10002;
       private io.dstore.Values.stringValue unitCategoryDescription_;
       /**
-       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
        */
       public boolean hasUnitCategoryDescription() {
         return unitCategoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
        */
       public io.dstore.Values.stringValue getUnitCategoryDescription() {
         return unitCategoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitCategoryDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUnitCategoryDescriptionOrBuilder() {
         return getUnitCategoryDescription();
@@ -1302,34 +1299,40 @@ public final class MiGetUnitCategoriesAd {
       }
       public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1473,7 +1476,7 @@ public final class MiGetUnitCategoriesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1512,21 +1515,21 @@ public final class MiGetUnitCategoriesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
          */
         public boolean hasUnitCategoryId() {
           return unitCategoryIdBuilder_ != null || unitCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
          */
         public io.dstore.Values.integerValue getUnitCategoryId() {
           if (unitCategoryIdBuilder_ == null) {
@@ -1536,11 +1539,11 @@ public final class MiGetUnitCategoriesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
          */
         public Builder setUnitCategoryId(io.dstore.Values.integerValue value) {
           if (unitCategoryIdBuilder_ == null) {
@@ -1556,11 +1559,11 @@ public final class MiGetUnitCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
          */
         public Builder setUnitCategoryId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1574,11 +1577,11 @@ public final class MiGetUnitCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
          */
         public Builder mergeUnitCategoryId(io.dstore.Values.integerValue value) {
           if (unitCategoryIdBuilder_ == null) {
@@ -1596,11 +1599,11 @@ public final class MiGetUnitCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
          */
         public Builder clearUnitCategoryId() {
           if (unitCategoryIdBuilder_ == null) {
@@ -1614,11 +1617,11 @@ public final class MiGetUnitCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
          */
         public io.dstore.Values.integerValue.Builder getUnitCategoryIdBuilder() {
           
@@ -1626,11 +1629,11 @@ public final class MiGetUnitCategoriesAd {
           return getUnitCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder() {
           if (unitCategoryIdBuilder_ != null) {
@@ -1641,11 +1644,11 @@ public final class MiGetUnitCategoriesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
-         *
          * <pre>
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue unit_category_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1665,21 +1668,21 @@ public final class MiGetUnitCategoriesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitCategoryDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
          */
         public boolean hasUnitCategoryDescription() {
           return unitCategoryDescriptionBuilder_ != null || unitCategoryDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
          */
         public io.dstore.Values.stringValue getUnitCategoryDescription() {
           if (unitCategoryDescriptionBuilder_ == null) {
@@ -1689,11 +1692,11 @@ public final class MiGetUnitCategoriesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
          */
         public Builder setUnitCategoryDescription(io.dstore.Values.stringValue value) {
           if (unitCategoryDescriptionBuilder_ == null) {
@@ -1709,11 +1712,11 @@ public final class MiGetUnitCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
          */
         public Builder setUnitCategoryDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1727,11 +1730,11 @@ public final class MiGetUnitCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
          */
         public Builder mergeUnitCategoryDescription(io.dstore.Values.stringValue value) {
           if (unitCategoryDescriptionBuilder_ == null) {
@@ -1749,11 +1752,11 @@ public final class MiGetUnitCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
          */
         public Builder clearUnitCategoryDescription() {
           if (unitCategoryDescriptionBuilder_ == null) {
@@ -1767,11 +1770,11 @@ public final class MiGetUnitCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
          */
         public io.dstore.Values.stringValue.Builder getUnitCategoryDescriptionBuilder() {
           
@@ -1779,11 +1782,11 @@ public final class MiGetUnitCategoriesAd {
           return getUnitCategoryDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUnitCategoryDescriptionOrBuilder() {
           if (unitCategoryDescriptionBuilder_ != null) {
@@ -1794,11 +1797,11 @@ public final class MiGetUnitCategoriesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue unit_category_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1843,16 +1846,7 @@ public final class MiGetUnitCategoriesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -1944,52 +1938,52 @@ public final class MiGetUnitCategoriesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2064,34 +2058,40 @@ public final class MiGetUnitCategoriesAd {
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2328,7 +2328,7 @@ public final class MiGetUnitCategoriesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2831,11 +2831,11 @@ public final class MiGetUnitCategoriesAd {
           io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row, io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -2845,11 +2845,11 @@ public final class MiGetUnitCategoriesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -2859,11 +2859,11 @@ public final class MiGetUnitCategoriesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -2873,11 +2873,11 @@ public final class MiGetUnitCategoriesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row value) {
@@ -2894,11 +2894,11 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row.Builder builderForValue) {
@@ -2912,11 +2912,11 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -2932,11 +2932,11 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row value) {
@@ -2953,11 +2953,11 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row.Builder builderForValue) {
@@ -2971,11 +2971,11 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row.Builder builderForValue) {
@@ -2989,11 +2989,11 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row> values) {
@@ -3008,11 +3008,11 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3025,11 +3025,11 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3042,22 +3042,22 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3067,11 +3067,11 @@ public final class MiGetUnitCategoriesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3082,22 +3082,22 @@ public final class MiGetUnitCategoriesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3105,11 +3105,11 @@ public final class MiGetUnitCategoriesAd {
             index, io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.mi_GetUnitCategories_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3159,16 +3159,7 @@ public final class MiGetUnitCategoriesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3187,19 +3178,19 @@ public final class MiGetUnitCategoriesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUnitCategories_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUnitCategories_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUnitCategories_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUnitCategories_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetUnitCategories_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_mi_GetUnitCategories_Ad_Response_Row_fieldAccessorTable;
 
@@ -3207,7 +3198,7 @@ public final class MiGetUnitCategoriesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

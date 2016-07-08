@@ -33,7 +33,8 @@ public final class OmGetCashAccTransactTypesAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       try {
         boolean done = false;
@@ -52,11 +53,10 @@ public final class OmGetCashAccTransactTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -120,34 +120,40 @@ public final class OmGetCashAccTransactTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -257,7 +263,7 @@ public final class OmGetCashAccTransactTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -295,16 +301,7 @@ public final class OmGetCashAccTransactTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -376,45 +373,45 @@ public final class OmGetCashAccTransactTypesAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -443,7 +440,8 @@ public final class OmGetCashAccTransactTypesAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -487,11 +485,10 @@ public final class OmGetCashAccTransactTypesAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -527,102 +524,102 @@ public final class OmGetCashAccTransactTypesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
        */
       boolean hasTransactionType();
       /**
-       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
        */
       io.dstore.Values.stringValue getTransactionType();
       /**
-       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getTransactionTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
        */
       boolean hasAccountHolderTransactions();
       /**
-       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
        */
       io.dstore.Values.integerValue getAccountHolderTransactions();
       /**
-       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getAccountHolderTransactionsOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-       *
        * <pre>
        * Die ID der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
        */
       boolean hasTransactionTypeId();
       /**
-       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-       *
        * <pre>
        * Die ID der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
        */
       io.dstore.Values.integerValue getTransactionTypeId();
       /**
-       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-       *
        * <pre>
        * Die ID der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getTransactionTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-       *
        * <pre>
        * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
        */
       boolean hasPositiveTransactionValues();
       /**
-       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-       *
        * <pre>
        * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
        */
       io.dstore.Values.booleanValue getPositiveTransactionValues();
       /**
-       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-       *
        * <pre>
        * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getPositiveTransactionValuesOrBuilder();
     }
@@ -648,7 +645,8 @@ public final class OmGetCashAccTransactTypesAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -725,11 +723,10 @@ public final class OmGetCashAccTransactTypesAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -758,31 +755,31 @@ public final class OmGetCashAccTransactTypesAd {
       public static final int TRANSACTION_TYPE_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue transactionType_;
       /**
-       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
        */
       public boolean hasTransactionType() {
         return transactionType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
        */
       public io.dstore.Values.stringValue getTransactionType() {
         return transactionType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : transactionType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getTransactionTypeOrBuilder() {
         return getTransactionType();
@@ -791,31 +788,31 @@ public final class OmGetCashAccTransactTypesAd {
       public static final int ACCOUNT_HOLDER_TRANSACTIONS_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue accountHolderTransactions_;
       /**
-       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
        */
       public boolean hasAccountHolderTransactions() {
         return accountHolderTransactions_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
        */
       public io.dstore.Values.integerValue getAccountHolderTransactions() {
         return accountHolderTransactions_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accountHolderTransactions_;
       }
       /**
-       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-       *
        * <pre>
        * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getAccountHolderTransactionsOrBuilder() {
         return getAccountHolderTransactions();
@@ -824,31 +821,31 @@ public final class OmGetCashAccTransactTypesAd {
       public static final int TRANSACTION_TYPE_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue transactionTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-       *
        * <pre>
        * Die ID der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
        */
       public boolean hasTransactionTypeId() {
         return transactionTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-       *
        * <pre>
        * Die ID der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getTransactionTypeId() {
         return transactionTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : transactionTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-       *
        * <pre>
        * Die ID der Transaktionsart
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getTransactionTypeIdOrBuilder() {
         return getTransactionTypeId();
@@ -857,31 +854,31 @@ public final class OmGetCashAccTransactTypesAd {
       public static final int POSITIVE_TRANSACTION_VALUES_FIELD_NUMBER = 10004;
       private io.dstore.Values.booleanValue positiveTransactionValues_;
       /**
-       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-       *
        * <pre>
        * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
        */
       public boolean hasPositiveTransactionValues() {
         return positiveTransactionValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-       *
        * <pre>
        * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
        */
       public io.dstore.Values.booleanValue getPositiveTransactionValues() {
         return positiveTransactionValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : positiveTransactionValues_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-       *
        * <pre>
        * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getPositiveTransactionValuesOrBuilder() {
         return getPositiveTransactionValues();
@@ -969,34 +966,40 @@ public final class OmGetCashAccTransactTypesAd {
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1168,7 +1171,7 @@ public final class OmGetCashAccTransactTypesAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1207,21 +1210,21 @@ public final class OmGetCashAccTransactTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> transactionTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
          */
         public boolean hasTransactionType() {
           return transactionTypeBuilder_ != null || transactionType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
          */
         public io.dstore.Values.stringValue getTransactionType() {
           if (transactionTypeBuilder_ == null) {
@@ -1231,11 +1234,11 @@ public final class OmGetCashAccTransactTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
          */
         public Builder setTransactionType(io.dstore.Values.stringValue value) {
           if (transactionTypeBuilder_ == null) {
@@ -1251,11 +1254,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
          */
         public Builder setTransactionType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1269,11 +1272,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
          */
         public Builder mergeTransactionType(io.dstore.Values.stringValue value) {
           if (transactionTypeBuilder_ == null) {
@@ -1291,11 +1294,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
          */
         public Builder clearTransactionType() {
           if (transactionTypeBuilder_ == null) {
@@ -1309,11 +1312,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getTransactionTypeBuilder() {
           
@@ -1321,11 +1324,11 @@ public final class OmGetCashAccTransactTypesAd {
           return getTransactionTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getTransactionTypeOrBuilder() {
           if (transactionTypeBuilder_ != null) {
@@ -1336,11 +1339,11 @@ public final class OmGetCashAccTransactTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1360,21 +1363,21 @@ public final class OmGetCashAccTransactTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accountHolderTransactionsBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
          */
         public boolean hasAccountHolderTransactions() {
           return accountHolderTransactionsBuilder_ != null || accountHolderTransactions_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
          */
         public io.dstore.Values.integerValue getAccountHolderTransactions() {
           if (accountHolderTransactionsBuilder_ == null) {
@@ -1384,11 +1387,11 @@ public final class OmGetCashAccTransactTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
          */
         public Builder setAccountHolderTransactions(io.dstore.Values.integerValue value) {
           if (accountHolderTransactionsBuilder_ == null) {
@@ -1404,11 +1407,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
          */
         public Builder setAccountHolderTransactions(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1422,11 +1425,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
          */
         public Builder mergeAccountHolderTransactions(io.dstore.Values.integerValue value) {
           if (accountHolderTransactionsBuilder_ == null) {
@@ -1444,11 +1447,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
          */
         public Builder clearAccountHolderTransactions() {
           if (accountHolderTransactionsBuilder_ == null) {
@@ -1462,11 +1465,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getAccountHolderTransactionsBuilder() {
           
@@ -1474,11 +1477,11 @@ public final class OmGetCashAccTransactTypesAd {
           return getAccountHolderTransactionsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getAccountHolderTransactionsOrBuilder() {
           if (accountHolderTransactionsBuilder_ != null) {
@@ -1489,11 +1492,11 @@ public final class OmGetCashAccTransactTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
-         *
          * <pre>
          * Gibt an, ob Transaktionen dieses Typs vom Inhaber eines Kontos getätigt werden können oder ob dies nur administrativ möglich ist. Mögliche Werte :- "0" : Kontoinhaber können das NICHT- "1" : Kontoinhaber DÜRFEN das
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue account_holder_transactions = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1513,21 +1516,21 @@ public final class OmGetCashAccTransactTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> transactionTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-         *
          * <pre>
          * Die ID der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
          */
         public boolean hasTransactionTypeId() {
           return transactionTypeIdBuilder_ != null || transactionTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-         *
          * <pre>
          * Die ID der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getTransactionTypeId() {
           if (transactionTypeIdBuilder_ == null) {
@@ -1537,11 +1540,11 @@ public final class OmGetCashAccTransactTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-         *
          * <pre>
          * Die ID der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
          */
         public Builder setTransactionTypeId(io.dstore.Values.integerValue value) {
           if (transactionTypeIdBuilder_ == null) {
@@ -1557,11 +1560,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-         *
          * <pre>
          * Die ID der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
          */
         public Builder setTransactionTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1575,11 +1578,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-         *
          * <pre>
          * Die ID der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
          */
         public Builder mergeTransactionTypeId(io.dstore.Values.integerValue value) {
           if (transactionTypeIdBuilder_ == null) {
@@ -1597,11 +1600,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-         *
          * <pre>
          * Die ID der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
          */
         public Builder clearTransactionTypeId() {
           if (transactionTypeIdBuilder_ == null) {
@@ -1615,11 +1618,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-         *
          * <pre>
          * Die ID der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getTransactionTypeIdBuilder() {
           
@@ -1627,11 +1630,11 @@ public final class OmGetCashAccTransactTypesAd {
           return getTransactionTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-         *
          * <pre>
          * Die ID der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getTransactionTypeIdOrBuilder() {
           if (transactionTypeIdBuilder_ != null) {
@@ -1642,11 +1645,11 @@ public final class OmGetCashAccTransactTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
-         *
          * <pre>
          * Die ID der Transaktionsart
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue transaction_type_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1666,21 +1669,21 @@ public final class OmGetCashAccTransactTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> positiveTransactionValuesBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-         *
          * <pre>
          * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
          */
         public boolean hasPositiveTransactionValues() {
           return positiveTransactionValuesBuilder_ != null || positiveTransactionValues_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-         *
          * <pre>
          * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
          */
         public io.dstore.Values.booleanValue getPositiveTransactionValues() {
           if (positiveTransactionValuesBuilder_ == null) {
@@ -1690,11 +1693,11 @@ public final class OmGetCashAccTransactTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-         *
          * <pre>
          * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
          */
         public Builder setPositiveTransactionValues(io.dstore.Values.booleanValue value) {
           if (positiveTransactionValuesBuilder_ == null) {
@@ -1710,11 +1713,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-         *
          * <pre>
          * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
          */
         public Builder setPositiveTransactionValues(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -1728,11 +1731,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-         *
          * <pre>
          * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
          */
         public Builder mergePositiveTransactionValues(io.dstore.Values.booleanValue value) {
           if (positiveTransactionValuesBuilder_ == null) {
@@ -1750,11 +1753,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-         *
          * <pre>
          * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
          */
         public Builder clearPositiveTransactionValues() {
           if (positiveTransactionValuesBuilder_ == null) {
@@ -1768,11 +1771,11 @@ public final class OmGetCashAccTransactTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-         *
          * <pre>
          * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
          */
         public io.dstore.Values.booleanValue.Builder getPositiveTransactionValuesBuilder() {
           
@@ -1780,11 +1783,11 @@ public final class OmGetCashAccTransactTypesAd {
           return getPositiveTransactionValuesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-         *
          * <pre>
          * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getPositiveTransactionValuesOrBuilder() {
           if (positiveTransactionValuesBuilder_ != null) {
@@ -1795,11 +1798,11 @@ public final class OmGetCashAccTransactTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
-         *
          * <pre>
          * Gibt an, welches Vorzeichen Transaktionen dieser Transaktionsart haben :- "0" : Negative Vorzeichen (ABbuchungen)- "1" : Positive Vorzeichen (ZUbuchungen)
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue positive_transaction_values = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -1844,16 +1847,7 @@ public final class OmGetCashAccTransactTypesAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -1945,52 +1939,52 @@ public final class OmGetCashAccTransactTypesAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2065,34 +2059,40 @@ public final class OmGetCashAccTransactTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2329,7 +2329,7 @@ public final class OmGetCashAccTransactTypesAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2832,11 +2832,11 @@ public final class OmGetCashAccTransactTypesAd {
           io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row, io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -2846,11 +2846,11 @@ public final class OmGetCashAccTransactTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -2860,11 +2860,11 @@ public final class OmGetCashAccTransactTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -2874,11 +2874,11 @@ public final class OmGetCashAccTransactTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row value) {
@@ -2895,11 +2895,11 @@ public final class OmGetCashAccTransactTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row.Builder builderForValue) {
@@ -2913,11 +2913,11 @@ public final class OmGetCashAccTransactTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -2933,11 +2933,11 @@ public final class OmGetCashAccTransactTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row value) {
@@ -2954,11 +2954,11 @@ public final class OmGetCashAccTransactTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row.Builder builderForValue) {
@@ -2972,11 +2972,11 @@ public final class OmGetCashAccTransactTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row.Builder builderForValue) {
@@ -2990,11 +2990,11 @@ public final class OmGetCashAccTransactTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row> values) {
@@ -3009,11 +3009,11 @@ public final class OmGetCashAccTransactTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3026,11 +3026,11 @@ public final class OmGetCashAccTransactTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3043,22 +3043,22 @@ public final class OmGetCashAccTransactTypesAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3068,11 +3068,11 @@ public final class OmGetCashAccTransactTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3083,22 +3083,22 @@ public final class OmGetCashAccTransactTypesAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3106,11 +3106,11 @@ public final class OmGetCashAccTransactTypesAd {
             index, io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccTransactTypes_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3160,16 +3160,7 @@ public final class OmGetCashAccTransactTypesAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3188,19 +3179,19 @@ public final class OmGetCashAccTransactTypesAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCashAccTransactTypes_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCashAccTransactTypes_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCashAccTransactTypes_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCashAccTransactTypes_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCashAccTransactTypes_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCashAccTransactTypes_Ad_Response_Row_fieldAccessorTable;
 
@@ -3208,7 +3199,7 @@ public final class OmGetCashAccTransactTypesAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

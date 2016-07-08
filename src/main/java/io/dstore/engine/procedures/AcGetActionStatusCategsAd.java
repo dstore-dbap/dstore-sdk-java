@@ -52,7 +52,8 @@ public final class AcGetActionStatusCategsAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -90,11 +91,10 @@ public final class AcGetActionStatusCategsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -202,34 +202,40 @@ public final class AcGetActionStatusCategsAd {
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -359,7 +365,7 @@ public final class AcGetActionStatusCategsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.AcGetActionStatusCategsAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -540,16 +546,7 @@ public final class AcGetActionStatusCategsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -621,45 +618,45 @@ public final class AcGetActionStatusCategsAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -688,7 +685,8 @@ public final class AcGetActionStatusCategsAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -732,11 +730,10 @@ public final class AcGetActionStatusCategsAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -772,77 +769,77 @@ public final class AcGetActionStatusCategsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        */
       boolean hasCategoryDescription();
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        */
       io.dstore.Values.stringValue getCategoryDescription();
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
        */
       boolean hasSortNo();
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
        */
       io.dstore.Values.integerValue getSortNo();
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-       *
        * <pre>
        * ID einer Status-Kategorie
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
        */
       boolean hasStatusCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-       *
        * <pre>
        * ID einer Status-Kategorie
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
        */
       io.dstore.Values.integerValue getStatusCategoryId();
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-       *
        * <pre>
        * ID einer Status-Kategorie
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
        */
       io.dstore.Values.integerValueOrBuilder getStatusCategoryIdOrBuilder();
     }
@@ -868,7 +865,8 @@ public final class AcGetActionStatusCategsAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -932,11 +930,10 @@ public final class AcGetActionStatusCategsAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -965,31 +962,31 @@ public final class AcGetActionStatusCategsAd {
       public static final int CATEGORY_DESCRIPTION_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue categoryDescription_;
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        */
       public io.dstore.Values.stringValue getCategoryDescription() {
         return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-       *
        * <pre>
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
@@ -998,31 +995,31 @@ public final class AcGetActionStatusCategsAd {
       public static final int SORT_NO_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue sortNo_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
        */
       public io.dstore.Values.integerValue getSortNo() {
         return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-       *
        * <pre>
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -1031,31 +1028,31 @@ public final class AcGetActionStatusCategsAd {
       public static final int STATUS_CATEGORY_ID_FIELD_NUMBER = 10003;
       private io.dstore.Values.integerValue statusCategoryId_;
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-       *
        * <pre>
        * ID einer Status-Kategorie
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
        */
       public boolean hasStatusCategoryId() {
         return statusCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-       *
        * <pre>
        * ID einer Status-Kategorie
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
        */
       public io.dstore.Values.integerValue getStatusCategoryId() {
         return statusCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : statusCategoryId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-       *
        * <pre>
        * ID einer Status-Kategorie
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getStatusCategoryIdOrBuilder() {
         return getStatusCategoryId();
@@ -1136,34 +1133,40 @@ public final class AcGetActionStatusCategsAd {
       }
       public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1321,7 +1324,7 @@ public final class AcGetActionStatusCategsAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1360,21 +1363,21 @@ public final class AcGetActionStatusCategsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          */
         public boolean hasCategoryDescription() {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          */
         public io.dstore.Values.stringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -1384,11 +1387,11 @@ public final class AcGetActionStatusCategsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          */
         public Builder setCategoryDescription(io.dstore.Values.stringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -1404,11 +1407,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          */
         public Builder setCategoryDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1422,11 +1425,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          */
         public Builder mergeCategoryDescription(io.dstore.Values.stringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -1444,11 +1447,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          */
         public Builder clearCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -1462,11 +1465,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getCategoryDescriptionBuilder() {
           
@@ -1474,11 +1477,11 @@ public final class AcGetActionStatusCategsAd {
           return getCategoryDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
@@ -1489,11 +1492,11 @@ public final class AcGetActionStatusCategsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
-         *
          * <pre>
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1513,21 +1516,21 @@ public final class AcGetActionStatusCategsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
          */
         public io.dstore.Values.integerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -1537,11 +1540,11 @@ public final class AcGetActionStatusCategsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
          */
         public Builder setSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
@@ -1557,11 +1560,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
          */
         public Builder setSortNo(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1575,11 +1578,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
          */
         public Builder mergeSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
@@ -1597,11 +1600,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -1615,11 +1618,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
           
@@ -1627,11 +1630,11 @@ public final class AcGetActionStatusCategsAd {
           return getSortNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -1642,11 +1645,11 @@ public final class AcGetActionStatusCategsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
-         *
          * <pre>
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue sort_no = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1666,21 +1669,21 @@ public final class AcGetActionStatusCategsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> statusCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-         *
          * <pre>
          * ID einer Status-Kategorie
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
          */
         public boolean hasStatusCategoryId() {
           return statusCategoryIdBuilder_ != null || statusCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-         *
          * <pre>
          * ID einer Status-Kategorie
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
          */
         public io.dstore.Values.integerValue getStatusCategoryId() {
           if (statusCategoryIdBuilder_ == null) {
@@ -1690,11 +1693,11 @@ public final class AcGetActionStatusCategsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-         *
          * <pre>
          * ID einer Status-Kategorie
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
          */
         public Builder setStatusCategoryId(io.dstore.Values.integerValue value) {
           if (statusCategoryIdBuilder_ == null) {
@@ -1710,11 +1713,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-         *
          * <pre>
          * ID einer Status-Kategorie
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
          */
         public Builder setStatusCategoryId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1728,11 +1731,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-         *
          * <pre>
          * ID einer Status-Kategorie
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
          */
         public Builder mergeStatusCategoryId(io.dstore.Values.integerValue value) {
           if (statusCategoryIdBuilder_ == null) {
@@ -1750,11 +1753,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-         *
          * <pre>
          * ID einer Status-Kategorie
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
          */
         public Builder clearStatusCategoryId() {
           if (statusCategoryIdBuilder_ == null) {
@@ -1768,11 +1771,11 @@ public final class AcGetActionStatusCategsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-         *
          * <pre>
          * ID einer Status-Kategorie
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
          */
         public io.dstore.Values.integerValue.Builder getStatusCategoryIdBuilder() {
           
@@ -1780,11 +1783,11 @@ public final class AcGetActionStatusCategsAd {
           return getStatusCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-         *
          * <pre>
          * ID einer Status-Kategorie
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getStatusCategoryIdOrBuilder() {
           if (statusCategoryIdBuilder_ != null) {
@@ -1795,11 +1798,11 @@ public final class AcGetActionStatusCategsAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
-         *
          * <pre>
          * ID einer Status-Kategorie
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue status_category_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1844,16 +1847,7 @@ public final class AcGetActionStatusCategsAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -1945,52 +1939,52 @@ public final class AcGetActionStatusCategsAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -2065,34 +2059,40 @@ public final class AcGetActionStatusCategsAd {
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2329,7 +2329,7 @@ public final class AcGetActionStatusCategsAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2832,11 +2832,11 @@ public final class AcGetActionStatusCategsAd {
           io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row, io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row.Builder, io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -2846,11 +2846,11 @@ public final class AcGetActionStatusCategsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -2860,11 +2860,11 @@ public final class AcGetActionStatusCategsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -2874,11 +2874,11 @@ public final class AcGetActionStatusCategsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row value) {
@@ -2895,11 +2895,11 @@ public final class AcGetActionStatusCategsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row.Builder builderForValue) {
@@ -2913,11 +2913,11 @@ public final class AcGetActionStatusCategsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -2933,11 +2933,11 @@ public final class AcGetActionStatusCategsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row value) {
@@ -2954,11 +2954,11 @@ public final class AcGetActionStatusCategsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row.Builder builderForValue) {
@@ -2972,11 +2972,11 @@ public final class AcGetActionStatusCategsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row.Builder builderForValue) {
@@ -2990,11 +2990,11 @@ public final class AcGetActionStatusCategsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row> values) {
@@ -3009,11 +3009,11 @@ public final class AcGetActionStatusCategsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -3026,11 +3026,11 @@ public final class AcGetActionStatusCategsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -3043,22 +3043,22 @@ public final class AcGetActionStatusCategsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -3068,11 +3068,11 @@ public final class AcGetActionStatusCategsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -3083,22 +3083,22 @@ public final class AcGetActionStatusCategsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -3106,11 +3106,11 @@ public final class AcGetActionStatusCategsAd {
             index, io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.ac_GetActionStatusCategs_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -3160,16 +3160,7 @@ public final class AcGetActionStatusCategsAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3188,19 +3179,19 @@ public final class AcGetActionStatusCategsAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_ac_GetActionStatusCategs_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_ac_GetActionStatusCategs_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_ac_GetActionStatusCategs_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_ac_GetActionStatusCategs_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_ac_GetActionStatusCategs_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_ac_GetActionStatusCategs_Ad_Response_Row_fieldAccessorTable;
 
@@ -3208,7 +3199,7 @@ public final class AcGetActionStatusCategsAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

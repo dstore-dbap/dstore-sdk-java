@@ -42,27 +42,27 @@ public final class Suggest {
         getFieldNameBytes(int index);
 
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-     *
      * <pre>
      * Used to filter the suggestions
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
      */
     boolean hasBaseQuery();
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-     *
      * <pre>
      * Used to filter the suggestions
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
      */
     io.dstore.elastic.Elastic.BoolQuery getBaseQuery();
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-     *
      * <pre>
      * Used to filter the suggestions
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
      */
     io.dstore.elastic.Elastic.BoolQueryOrBuilder getBaseQueryOrBuilder();
 
@@ -113,7 +113,8 @@ public final class Suggest {
     }
     private Request(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -181,11 +182,10 @@ public final class Suggest {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           fieldName_ = fieldName_.getUnmodifiableView();
@@ -272,31 +272,31 @@ public final class Suggest {
     public static final int BASE_QUERY_FIELD_NUMBER = 3;
     private io.dstore.elastic.Elastic.BoolQuery baseQuery_;
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-     *
      * <pre>
      * Used to filter the suggestions
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
      */
     public boolean hasBaseQuery() {
       return baseQuery_ != null;
     }
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-     *
      * <pre>
      * Used to filter the suggestions
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
      */
     public io.dstore.elastic.Elastic.BoolQuery getBaseQuery() {
       return baseQuery_ == null ? io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance() : baseQuery_;
     }
     /**
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-     *
      * <pre>
      * Used to filter the suggestions
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
      */
     public io.dstore.elastic.Elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
       return getBaseQuery();
@@ -437,34 +437,40 @@ public final class Suggest {
     }
     public static io.dstore.elastic.item.Suggest.Request parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Request parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.Suggest.Request parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Request parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.Suggest.Request parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Request parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -639,7 +645,7 @@ public final class Suggest {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.item.Suggest.Request) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -816,21 +822,21 @@ public final class Suggest {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> baseQueryBuilder_;
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-       *
        * <pre>
        * Used to filter the suggestions
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public boolean hasBaseQuery() {
         return baseQueryBuilder_ != null || baseQuery_ != null;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-       *
        * <pre>
        * Used to filter the suggestions
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public io.dstore.elastic.Elastic.BoolQuery getBaseQuery() {
         if (baseQueryBuilder_ == null) {
@@ -840,11 +846,11 @@ public final class Suggest {
         }
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-       *
        * <pre>
        * Used to filter the suggestions
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public Builder setBaseQuery(io.dstore.elastic.Elastic.BoolQuery value) {
         if (baseQueryBuilder_ == null) {
@@ -860,11 +866,11 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-       *
        * <pre>
        * Used to filter the suggestions
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public Builder setBaseQuery(
           io.dstore.elastic.Elastic.BoolQuery.Builder builderForValue) {
@@ -878,11 +884,11 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-       *
        * <pre>
        * Used to filter the suggestions
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public Builder mergeBaseQuery(io.dstore.elastic.Elastic.BoolQuery value) {
         if (baseQueryBuilder_ == null) {
@@ -900,11 +906,11 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-       *
        * <pre>
        * Used to filter the suggestions
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public Builder clearBaseQuery() {
         if (baseQueryBuilder_ == null) {
@@ -918,11 +924,11 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-       *
        * <pre>
        * Used to filter the suggestions
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public io.dstore.elastic.Elastic.BoolQuery.Builder getBaseQueryBuilder() {
         
@@ -930,11 +936,11 @@ public final class Suggest {
         return getBaseQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-       *
        * <pre>
        * Used to filter the suggestions
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public io.dstore.elastic.Elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
         if (baseQueryBuilder_ != null) {
@@ -945,11 +951,11 @@ public final class Suggest {
         }
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
-       *
        * <pre>
        * Used to filter the suggestions
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> 
@@ -1098,16 +1104,7 @@ public final class Suggest {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Request(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1225,7 +1222,8 @@ public final class Suggest {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1280,11 +1278,10 @@ public final class Suggest {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           suggestion_ = java.util.Collections.unmodifiableList(suggestion_);
@@ -1360,7 +1357,8 @@ public final class Suggest {
       }
       private Suggestion(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -1397,11 +1395,10 @@ public final class Suggest {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -1561,34 +1558,40 @@ public final class Suggest {
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1718,7 +1721,7 @@ public final class Suggest {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.elastic.item.Suggest.Response.Suggestion) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1920,16 +1923,7 @@ public final class Suggest {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Suggestion(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -2148,34 +2142,40 @@ public final class Suggest {
     }
     public static io.dstore.elastic.item.Suggest.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.Suggest.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.Suggest.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2393,7 +2393,7 @@ public final class Suggest {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.item.Suggest.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3098,16 +3098,7 @@ public final class Suggest {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3126,19 +3117,19 @@ public final class Suggest {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_suggest_Request_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_suggest_Request_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_suggest_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_suggest_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_suggest_Response_Suggestion_fieldAccessorTable;
 
@@ -3146,7 +3137,7 @@ public final class Suggest {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

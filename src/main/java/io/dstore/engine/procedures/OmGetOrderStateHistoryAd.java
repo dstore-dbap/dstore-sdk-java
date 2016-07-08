@@ -166,7 +166,8 @@ public final class OmGetOrderStateHistoryAd {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -312,11 +313,10 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -688,34 +688,40 @@ public final class OmGetOrderStateHistoryAd {
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -965,7 +971,7 @@ public final class OmGetOrderStateHistoryAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2004,16 +2010,7 @@ public final class OmGetOrderStateHistoryAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2085,45 +2082,45 @@ public final class OmGetOrderStateHistoryAd {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -2152,7 +2149,8 @@ public final class OmGetOrderStateHistoryAd {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -2196,11 +2194,10 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -2236,277 +2233,277 @@ public final class OmGetOrderStateHistoryAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-       *
        * <pre>
        * Wann wurde der Status-Wechsel durchgeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
        */
       boolean hasChangingDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-       *
        * <pre>
        * Wann wurde der Status-Wechsel durchgeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
        */
       io.dstore.Values.timestampValue getChangingDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-       *
        * <pre>
        * Wann wurde der Status-Wechsel durchgeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
        */
       io.dstore.Values.timestampValueOrBuilder getChangingDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       boolean hasToOrderStateId();
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       io.dstore.Values.integerValue getToOrderStateId();
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getToOrderStateIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       boolean hasUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       io.dstore.Values.stringValue getUserName();
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-       *
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
        */
       boolean hasUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-       *
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
        */
       io.dstore.Values.integerValue getUserId();
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-       *
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-       *
        * <pre>
        * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
        */
       boolean hasCompleteOrder();
       /**
-       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-       *
        * <pre>
        * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
        */
       io.dstore.Values.booleanValue getCompleteOrder();
       /**
-       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-       *
        * <pre>
        * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getCompleteOrderOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
        */
       boolean hasFromOrderStateId();
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
        */
       io.dstore.Values.integerValue getFromOrderStateId();
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getFromOrderStateIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-       *
        * <pre>
        * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
        */
       boolean hasChangingDateAndTimeChar();
       /**
-       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-       *
        * <pre>
        * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
        */
       io.dstore.Values.stringValue getChangingDateAndTimeChar();
       /**
-       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-       *
        * <pre>
        * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getChangingDateAndTimeCharOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-       *
        * <pre>
        * ID des Auftrags, zu dem die Position "OrderContentID" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
        */
       boolean hasOrderId();
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-       *
        * <pre>
        * ID des Auftrags, zu dem die Position "OrderContentID" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
        */
       io.dstore.Values.integerValue getOrderId();
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-       *
        * <pre>
        * ID des Auftrags, zu dem die Position "OrderContentID" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
        */
       io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
        */
       boolean hasToOrderState();
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
        */
       io.dstore.Values.stringValue getToOrderState();
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
        */
       io.dstore.Values.stringValueOrBuilder getToOrderStateOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-       *
        * <pre>
        * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
        */
       boolean hasOrderContentId();
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-       *
        * <pre>
        * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
        */
       io.dstore.Values.integerValue getOrderContentId();
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-       *
        * <pre>
        * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
        */
       io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
        */
       boolean hasFromOrderState();
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
        */
       io.dstore.Values.stringValue getFromOrderState();
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
        */
       io.dstore.Values.stringValueOrBuilder getFromOrderStateOrBuilder();
     }
@@ -2532,7 +2529,8 @@ public final class OmGetOrderStateHistoryAd {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -2700,11 +2698,10 @@ public final class OmGetOrderStateHistoryAd {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -2733,31 +2730,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int CHANGING_DATE_AND_TIME_FIELD_NUMBER = 10001;
       private io.dstore.Values.timestampValue changingDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-       *
        * <pre>
        * Wann wurde der Status-Wechsel durchgeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
        */
       public boolean hasChangingDateAndTime() {
         return changingDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-       *
        * <pre>
        * Wann wurde der Status-Wechsel durchgeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
        */
       public io.dstore.Values.timestampValue getChangingDateAndTime() {
         return changingDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : changingDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-       *
        * <pre>
        * Wann wurde der Status-Wechsel durchgeführt
        * </pre>
+       *
+       * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getChangingDateAndTimeOrBuilder() {
         return getChangingDateAndTime();
@@ -2766,31 +2763,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int TO_ORDER_STATE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue toOrderStateId_;
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       public boolean hasToOrderStateId() {
         return toOrderStateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getToOrderStateId() {
         return toOrderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toOrderStateId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getToOrderStateIdOrBuilder() {
         return getToOrderStateId();
@@ -2799,31 +2796,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int USER_NAME_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue userName_;
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       public io.dstore.Values.stringValue getUserName() {
         return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-       *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
@@ -2832,31 +2829,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int USER_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue userId_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-       *
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-       *
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
        */
       public io.dstore.Values.integerValue getUserId() {
         return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-       *
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
@@ -2865,31 +2862,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int COMPLETE_ORDER_FIELD_NUMBER = 10005;
       private io.dstore.Values.booleanValue completeOrder_;
       /**
-       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-       *
        * <pre>
        * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
        */
       public boolean hasCompleteOrder() {
         return completeOrder_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-       *
        * <pre>
        * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
        */
       public io.dstore.Values.booleanValue getCompleteOrder() {
         return completeOrder_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : completeOrder_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-       *
        * <pre>
        * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getCompleteOrderOrBuilder() {
         return getCompleteOrder();
@@ -2898,31 +2895,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int FROM_ORDER_STATE_ID_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue fromOrderStateId_;
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
        */
       public boolean hasFromOrderStateId() {
         return fromOrderStateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
        */
       public io.dstore.Values.integerValue getFromOrderStateId() {
         return fromOrderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromOrderStateId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-       *
        * <pre>
        * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getFromOrderStateIdOrBuilder() {
         return getFromOrderStateId();
@@ -2931,31 +2928,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int CHANGING_DATE_AND_TIME_CHAR_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue changingDateAndTimeChar_;
       /**
-       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-       *
        * <pre>
        * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
        */
       public boolean hasChangingDateAndTimeChar() {
         return changingDateAndTimeChar_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-       *
        * <pre>
        * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
        */
       public io.dstore.Values.stringValue getChangingDateAndTimeChar() {
         return changingDateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : changingDateAndTimeChar_;
       }
       /**
-       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-       *
        * <pre>
        * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getChangingDateAndTimeCharOrBuilder() {
         return getChangingDateAndTimeChar();
@@ -2964,31 +2961,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int ORDER_ID_FIELD_NUMBER = 10008;
       private io.dstore.Values.integerValue orderId_;
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-       *
        * <pre>
        * ID des Auftrags, zu dem die Position "OrderContentID" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
        */
       public boolean hasOrderId() {
         return orderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-       *
        * <pre>
        * ID des Auftrags, zu dem die Position "OrderContentID" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
        */
       public io.dstore.Values.integerValue getOrderId() {
         return orderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-       *
        * <pre>
        * ID des Auftrags, zu dem die Position "OrderContentID" gehört
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
         return getOrderId();
@@ -2997,31 +2994,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int TO_ORDER_STATE_FIELD_NUMBER = 10009;
       private io.dstore.Values.stringValue toOrderState_;
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
        */
       public boolean hasToOrderState() {
         return toOrderState_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
        */
       public io.dstore.Values.stringValue getToOrderState() {
         return toOrderState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : toOrderState_;
       }
       /**
-       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-       *
        * <pre>
        * Bezeichnung des Status "ToOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getToOrderStateOrBuilder() {
         return getToOrderState();
@@ -3030,31 +3027,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int ORDER_CONTENT_ID_FIELD_NUMBER = 10010;
       private io.dstore.Values.integerValue orderContentId_;
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-       *
        * <pre>
        * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
        */
       public boolean hasOrderContentId() {
         return orderContentId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-       *
        * <pre>
        * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
        */
       public io.dstore.Values.integerValue getOrderContentId() {
         return orderContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderContentId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-       *
        * <pre>
        * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder() {
         return getOrderContentId();
@@ -3063,31 +3060,31 @@ public final class OmGetOrderStateHistoryAd {
       public static final int FROM_ORDER_STATE_FIELD_NUMBER = 10011;
       private io.dstore.Values.stringValue fromOrderState_;
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
        */
       public boolean hasFromOrderState() {
         return fromOrderState_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
        */
       public io.dstore.Values.stringValue getFromOrderState() {
         return fromOrderState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromOrderState_;
       }
       /**
-       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-       *
        * <pre>
        * Bezeichnung des Status "FromOrderStateID"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getFromOrderStateOrBuilder() {
         return getFromOrderState();
@@ -3224,34 +3221,40 @@ public final class OmGetOrderStateHistoryAd {
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -3521,7 +3524,7 @@ public final class OmGetOrderStateHistoryAd {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -3560,21 +3563,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> changingDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-         *
          * <pre>
          * Wann wurde der Status-Wechsel durchgeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
          */
         public boolean hasChangingDateAndTime() {
           return changingDateAndTimeBuilder_ != null || changingDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-         *
          * <pre>
          * Wann wurde der Status-Wechsel durchgeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
          */
         public io.dstore.Values.timestampValue getChangingDateAndTime() {
           if (changingDateAndTimeBuilder_ == null) {
@@ -3584,11 +3587,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-         *
          * <pre>
          * Wann wurde der Status-Wechsel durchgeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
          */
         public Builder setChangingDateAndTime(io.dstore.Values.timestampValue value) {
           if (changingDateAndTimeBuilder_ == null) {
@@ -3604,11 +3607,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-         *
          * <pre>
          * Wann wurde der Status-Wechsel durchgeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
          */
         public Builder setChangingDateAndTime(
             io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -3622,11 +3625,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-         *
          * <pre>
          * Wann wurde der Status-Wechsel durchgeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
          */
         public Builder mergeChangingDateAndTime(io.dstore.Values.timestampValue value) {
           if (changingDateAndTimeBuilder_ == null) {
@@ -3644,11 +3647,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-         *
          * <pre>
          * Wann wurde der Status-Wechsel durchgeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
          */
         public Builder clearChangingDateAndTime() {
           if (changingDateAndTimeBuilder_ == null) {
@@ -3662,11 +3665,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-         *
          * <pre>
          * Wann wurde der Status-Wechsel durchgeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
          */
         public io.dstore.Values.timestampValue.Builder getChangingDateAndTimeBuilder() {
           
@@ -3674,11 +3677,11 @@ public final class OmGetOrderStateHistoryAd {
           return getChangingDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-         *
          * <pre>
          * Wann wurde der Status-Wechsel durchgeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
          */
         public io.dstore.Values.timestampValueOrBuilder getChangingDateAndTimeOrBuilder() {
           if (changingDateAndTimeBuilder_ != null) {
@@ -3689,11 +3692,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
-         *
          * <pre>
          * Wann wurde der Status-Wechsel durchgeführt
          * </pre>
+         *
+         * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -3713,21 +3716,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toOrderStateIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public boolean hasToOrderStateId() {
           return toOrderStateIdBuilder_ != null || toOrderStateId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getToOrderStateId() {
           if (toOrderStateIdBuilder_ == null) {
@@ -3737,11 +3740,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public Builder setToOrderStateId(io.dstore.Values.integerValue value) {
           if (toOrderStateIdBuilder_ == null) {
@@ -3757,11 +3760,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public Builder setToOrderStateId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -3775,11 +3778,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public Builder mergeToOrderStateId(io.dstore.Values.integerValue value) {
           if (toOrderStateIdBuilder_ == null) {
@@ -3797,11 +3800,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public Builder clearToOrderStateId() {
           if (toOrderStateIdBuilder_ == null) {
@@ -3815,11 +3818,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getToOrderStateIdBuilder() {
           
@@ -3827,11 +3830,11 @@ public final class OmGetOrderStateHistoryAd {
           return getToOrderStateIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getToOrderStateIdOrBuilder() {
           if (toOrderStateIdBuilder_ != null) {
@@ -3842,11 +3845,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status AUF den die Position "OrderContentID" (vom Status "FromOrderStateID") gesetzt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -3866,21 +3869,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public io.dstore.Values.stringValue getUserName() {
           if (userNameBuilder_ == null) {
@@ -3890,11 +3893,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public Builder setUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -3910,11 +3913,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public Builder setUserName(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -3928,11 +3931,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public Builder mergeUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
@@ -3950,11 +3953,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -3968,11 +3971,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
           
@@ -3980,11 +3983,11 @@ public final class OmGetOrderStateHistoryAd {
           return getUserNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
@@ -3995,11 +3998,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
-         *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4019,21 +4022,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-         *
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-         *
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
          */
         public io.dstore.Values.integerValue getUserId() {
           if (userIdBuilder_ == null) {
@@ -4043,11 +4046,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-         *
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
          */
         public Builder setUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -4063,11 +4066,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-         *
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
          */
         public Builder setUserId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4081,11 +4084,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-         *
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
          */
         public Builder mergeUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
@@ -4103,11 +4106,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-         *
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -4121,11 +4124,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-         *
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
           
@@ -4133,11 +4136,11 @@ public final class OmGetOrderStateHistoryAd {
           return getUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-         *
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
@@ -4148,11 +4151,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
-         *
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Status-Wechsel vorgenommen hat
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4172,21 +4175,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> completeOrderBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-         *
          * <pre>
          * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
          */
         public boolean hasCompleteOrder() {
           return completeOrderBuilder_ != null || completeOrder_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-         *
          * <pre>
          * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
          */
         public io.dstore.Values.booleanValue getCompleteOrder() {
           if (completeOrderBuilder_ == null) {
@@ -4196,11 +4199,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-         *
          * <pre>
          * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
          */
         public Builder setCompleteOrder(io.dstore.Values.booleanValue value) {
           if (completeOrderBuilder_ == null) {
@@ -4216,11 +4219,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-         *
          * <pre>
          * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
          */
         public Builder setCompleteOrder(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -4234,11 +4237,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-         *
          * <pre>
          * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
          */
         public Builder mergeCompleteOrder(io.dstore.Values.booleanValue value) {
           if (completeOrderBuilder_ == null) {
@@ -4256,11 +4259,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-         *
          * <pre>
          * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
          */
         public Builder clearCompleteOrder() {
           if (completeOrderBuilder_ == null) {
@@ -4274,11 +4277,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-         *
          * <pre>
          * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
          */
         public io.dstore.Values.booleanValue.Builder getCompleteOrderBuilder() {
           
@@ -4286,11 +4289,11 @@ public final class OmGetOrderStateHistoryAd {
           return getCompleteOrderFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-         *
          * <pre>
          * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getCompleteOrderOrBuilder() {
           if (completeOrderBuilder_ != null) {
@@ -4301,11 +4304,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
-         *
          * <pre>
          * "0" : Es wurde nur der Status der Position "OrderContentID" des Auftrags "OrderID" geändert"1" : Der Status-Wechsel wurde für ALLE Positionen des Auftrags "OrderID" vorgenommen
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue complete_order = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -4325,21 +4328,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromOrderStateIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
          */
         public boolean hasFromOrderStateId() {
           return fromOrderStateIdBuilder_ != null || fromOrderStateId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
          */
         public io.dstore.Values.integerValue getFromOrderStateId() {
           if (fromOrderStateIdBuilder_ == null) {
@@ -4349,11 +4352,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
          */
         public Builder setFromOrderStateId(io.dstore.Values.integerValue value) {
           if (fromOrderStateIdBuilder_ == null) {
@@ -4369,11 +4372,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
          */
         public Builder setFromOrderStateId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4387,11 +4390,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
          */
         public Builder mergeFromOrderStateId(io.dstore.Values.integerValue value) {
           if (fromOrderStateIdBuilder_ == null) {
@@ -4409,11 +4412,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
          */
         public Builder clearFromOrderStateId() {
           if (fromOrderStateIdBuilder_ == null) {
@@ -4427,11 +4430,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getFromOrderStateIdBuilder() {
           
@@ -4439,11 +4442,11 @@ public final class OmGetOrderStateHistoryAd {
           return getFromOrderStateIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getFromOrderStateIdOrBuilder() {
           if (fromOrderStateIdBuilder_ != null) {
@@ -4454,11 +4457,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
-         *
          * <pre>
          * ID eines Auftrags(-Positions)-Status VON dem die Position "OrderContentID" (in den Status "ToOrderStateID") gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue from_order_state_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4478,21 +4481,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> changingDateAndTimeCharBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-         *
          * <pre>
          * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
          */
         public boolean hasChangingDateAndTimeChar() {
           return changingDateAndTimeCharBuilder_ != null || changingDateAndTimeChar_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-         *
          * <pre>
          * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
          */
         public io.dstore.Values.stringValue getChangingDateAndTimeChar() {
           if (changingDateAndTimeCharBuilder_ == null) {
@@ -4502,11 +4505,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-         *
          * <pre>
          * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
          */
         public Builder setChangingDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (changingDateAndTimeCharBuilder_ == null) {
@@ -4522,11 +4525,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-         *
          * <pre>
          * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
          */
         public Builder setChangingDateAndTimeChar(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4540,11 +4543,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-         *
          * <pre>
          * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
          */
         public Builder mergeChangingDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (changingDateAndTimeCharBuilder_ == null) {
@@ -4562,11 +4565,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-         *
          * <pre>
          * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
          */
         public Builder clearChangingDateAndTimeChar() {
           if (changingDateAndTimeCharBuilder_ == null) {
@@ -4580,11 +4583,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-         *
          * <pre>
          * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getChangingDateAndTimeCharBuilder() {
           
@@ -4592,11 +4595,11 @@ public final class OmGetOrderStateHistoryAd {
           return getChangingDateAndTimeCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-         *
          * <pre>
          * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getChangingDateAndTimeCharOrBuilder() {
           if (changingDateAndTimeCharBuilder_ != null) {
@@ -4607,11 +4610,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
-         *
          * <pre>
          * "ChangingDateAndTime" als String im Format : "15.03.2001 20:48:13"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4631,21 +4634,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-         *
          * <pre>
          * ID des Auftrags, zu dem die Position "OrderContentID" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
          */
         public boolean hasOrderId() {
           return orderIdBuilder_ != null || orderId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-         *
          * <pre>
          * ID des Auftrags, zu dem die Position "OrderContentID" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
          */
         public io.dstore.Values.integerValue getOrderId() {
           if (orderIdBuilder_ == null) {
@@ -4655,11 +4658,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-         *
          * <pre>
          * ID des Auftrags, zu dem die Position "OrderContentID" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
          */
         public Builder setOrderId(io.dstore.Values.integerValue value) {
           if (orderIdBuilder_ == null) {
@@ -4675,11 +4678,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-         *
          * <pre>
          * ID des Auftrags, zu dem die Position "OrderContentID" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
          */
         public Builder setOrderId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4693,11 +4696,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-         *
          * <pre>
          * ID des Auftrags, zu dem die Position "OrderContentID" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
          */
         public Builder mergeOrderId(io.dstore.Values.integerValue value) {
           if (orderIdBuilder_ == null) {
@@ -4715,11 +4718,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-         *
          * <pre>
          * ID des Auftrags, zu dem die Position "OrderContentID" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
          */
         public Builder clearOrderId() {
           if (orderIdBuilder_ == null) {
@@ -4733,11 +4736,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-         *
          * <pre>
          * ID des Auftrags, zu dem die Position "OrderContentID" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
          */
         public io.dstore.Values.integerValue.Builder getOrderIdBuilder() {
           
@@ -4745,11 +4748,11 @@ public final class OmGetOrderStateHistoryAd {
           return getOrderIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-         *
          * <pre>
          * ID des Auftrags, zu dem die Position "OrderContentID" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
           if (orderIdBuilder_ != null) {
@@ -4760,11 +4763,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
-         *
          * <pre>
          * ID des Auftrags, zu dem die Position "OrderContentID" gehört
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -4784,21 +4787,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toOrderStateBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
          */
         public boolean hasToOrderState() {
           return toOrderStateBuilder_ != null || toOrderState_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
          */
         public io.dstore.Values.stringValue getToOrderState() {
           if (toOrderStateBuilder_ == null) {
@@ -4808,11 +4811,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
          */
         public Builder setToOrderState(io.dstore.Values.stringValue value) {
           if (toOrderStateBuilder_ == null) {
@@ -4828,11 +4831,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
          */
         public Builder setToOrderState(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -4846,11 +4849,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
          */
         public Builder mergeToOrderState(io.dstore.Values.stringValue value) {
           if (toOrderStateBuilder_ == null) {
@@ -4868,11 +4871,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
          */
         public Builder clearToOrderState() {
           if (toOrderStateBuilder_ == null) {
@@ -4886,11 +4889,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
          */
         public io.dstore.Values.stringValue.Builder getToOrderStateBuilder() {
           
@@ -4898,11 +4901,11 @@ public final class OmGetOrderStateHistoryAd {
           return getToOrderStateFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getToOrderStateOrBuilder() {
           if (toOrderStateBuilder_ != null) {
@@ -4913,11 +4916,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
-         *
          * <pre>
          * Bezeichnung des Status "ToOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue to_order_state = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -4937,21 +4940,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderContentIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-         *
          * <pre>
          * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
          */
         public boolean hasOrderContentId() {
           return orderContentIdBuilder_ != null || orderContentId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-         *
          * <pre>
          * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
          */
         public io.dstore.Values.integerValue getOrderContentId() {
           if (orderContentIdBuilder_ == null) {
@@ -4961,11 +4964,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-         *
          * <pre>
          * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
          */
         public Builder setOrderContentId(io.dstore.Values.integerValue value) {
           if (orderContentIdBuilder_ == null) {
@@ -4981,11 +4984,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-         *
          * <pre>
          * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
          */
         public Builder setOrderContentId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -4999,11 +5002,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-         *
          * <pre>
          * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
          */
         public Builder mergeOrderContentId(io.dstore.Values.integerValue value) {
           if (orderContentIdBuilder_ == null) {
@@ -5021,11 +5024,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-         *
          * <pre>
          * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
          */
         public Builder clearOrderContentId() {
           if (orderContentIdBuilder_ == null) {
@@ -5039,11 +5042,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-         *
          * <pre>
          * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
          */
         public io.dstore.Values.integerValue.Builder getOrderContentIdBuilder() {
           
@@ -5051,11 +5054,11 @@ public final class OmGetOrderStateHistoryAd {
           return getOrderContentIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-         *
          * <pre>
          * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder() {
           if (orderContentIdBuilder_ != null) {
@@ -5066,11 +5069,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
-         *
          * <pre>
          * ID einer Position des Auftrags "OrderID", dessen Status von "FromOrderStateID" nach "ToOrderStateID" gewechselt wurde
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue order_content_id = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -5090,21 +5093,21 @@ public final class OmGetOrderStateHistoryAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromOrderStateBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
          */
         public boolean hasFromOrderState() {
           return fromOrderStateBuilder_ != null || fromOrderState_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
          */
         public io.dstore.Values.stringValue getFromOrderState() {
           if (fromOrderStateBuilder_ == null) {
@@ -5114,11 +5117,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
          */
         public Builder setFromOrderState(io.dstore.Values.stringValue value) {
           if (fromOrderStateBuilder_ == null) {
@@ -5134,11 +5137,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
          */
         public Builder setFromOrderState(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -5152,11 +5155,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
          */
         public Builder mergeFromOrderState(io.dstore.Values.stringValue value) {
           if (fromOrderStateBuilder_ == null) {
@@ -5174,11 +5177,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
          */
         public Builder clearFromOrderState() {
           if (fromOrderStateBuilder_ == null) {
@@ -5192,11 +5195,11 @@ public final class OmGetOrderStateHistoryAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
          */
         public io.dstore.Values.stringValue.Builder getFromOrderStateBuilder() {
           
@@ -5204,11 +5207,11 @@ public final class OmGetOrderStateHistoryAd {
           return getFromOrderStateFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getFromOrderStateOrBuilder() {
           if (fromOrderStateBuilder_ != null) {
@@ -5219,11 +5222,11 @@ public final class OmGetOrderStateHistoryAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
-         *
          * <pre>
          * Bezeichnung des Status "FromOrderStateID"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue from_order_state = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -5268,16 +5271,7 @@ public final class OmGetOrderStateHistoryAd {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -5369,52 +5363,52 @@ public final class OmGetOrderStateHistoryAd {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -5489,34 +5483,40 @@ public final class OmGetOrderStateHistoryAd {
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -5753,7 +5753,7 @@ public final class OmGetOrderStateHistoryAd {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -6256,11 +6256,11 @@ public final class OmGetOrderStateHistoryAd {
           io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row, io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -6270,11 +6270,11 @@ public final class OmGetOrderStateHistoryAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -6284,11 +6284,11 @@ public final class OmGetOrderStateHistoryAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -6298,11 +6298,11 @@ public final class OmGetOrderStateHistoryAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row value) {
@@ -6319,11 +6319,11 @@ public final class OmGetOrderStateHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row.Builder builderForValue) {
@@ -6337,11 +6337,11 @@ public final class OmGetOrderStateHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -6357,11 +6357,11 @@ public final class OmGetOrderStateHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row value) {
@@ -6378,11 +6378,11 @@ public final class OmGetOrderStateHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row.Builder builderForValue) {
@@ -6396,11 +6396,11 @@ public final class OmGetOrderStateHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row.Builder builderForValue) {
@@ -6414,11 +6414,11 @@ public final class OmGetOrderStateHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row> values) {
@@ -6433,11 +6433,11 @@ public final class OmGetOrderStateHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -6450,11 +6450,11 @@ public final class OmGetOrderStateHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -6467,22 +6467,22 @@ public final class OmGetOrderStateHistoryAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -6492,11 +6492,11 @@ public final class OmGetOrderStateHistoryAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -6507,22 +6507,22 @@ public final class OmGetOrderStateHistoryAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row.Builder addRowBuilder(
           int index) {
@@ -6530,11 +6530,11 @@ public final class OmGetOrderStateHistoryAd {
             index, io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetOrderStateHistory_Ad.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response.Row.Builder> 
            getRowBuilderList() {
@@ -6584,16 +6584,7 @@ public final class OmGetOrderStateHistoryAd {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -6612,19 +6603,19 @@ public final class OmGetOrderStateHistoryAd {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderStateHistory_Ad_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderStateHistory_Ad_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderStateHistory_Ad_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderStateHistory_Ad_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderStateHistory_Ad_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderStateHistory_Ad_Response_Row_fieldAccessorTable;
 
@@ -6632,7 +6623,7 @@ public final class OmGetOrderStateHistoryAd {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

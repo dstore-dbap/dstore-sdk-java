@@ -508,7 +508,8 @@ public final class CoSearchMembersPu {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       int mutable_bitField1_ = 0;
@@ -979,11 +980,10 @@ public final class CoSearchMembersPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -2147,34 +2147,40 @@ public final class CoSearchMembersPu {
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2784,7 +2790,7 @@ public final class CoSearchMembersPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoSearchMembersPu.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -6397,16 +6403,7 @@ public final class CoSearchMembersPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -6538,7 +6535,8 @@ public final class CoSearchMembersPu {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -6595,11 +6593,10 @@ public final class CoSearchMembersPu {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -6635,452 +6632,452 @@ public final class CoSearchMembersPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-       *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        */
       boolean hasValue1RestrictedByPattern();
       /**
-       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-       *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        */
       io.dstore.Values.stringValue getValue1RestrictedByPattern();
       /**
-       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-       *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-       *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        */
       boolean hasBinaryId();
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-       *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        */
       io.dstore.Values.integerValue getBinaryId();
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-       *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-       *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        */
       boolean hasValue2RestrictedByPattern();
       /**
-       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-       *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        */
       io.dstore.Values.stringValue getValue2RestrictedByPattern();
       /**
-       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-       *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-       *
        * <pre>
        * ID eines gefunden Community-Mitglieds
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
        */
       boolean hasCommunityMemberId();
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-       *
        * <pre>
        * ID eines gefunden Community-Mitglieds
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
        */
       io.dstore.Values.integerValue getCommunityMemberId();
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-       *
        * <pre>
        * ID eines gefunden Community-Mitglieds
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
        */
       boolean hasValue3();
       /**
-       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
        */
       io.dstore.Values.stringValue getValue3();
       /**
-       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        */
       boolean hasOnlineStatus();
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        */
       io.dstore.Values.integerValue getOnlineStatus();
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
        */
       boolean hasValue1();
       /**
-       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
        */
       io.dstore.Values.stringValue getValue1();
       /**
-       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValue1OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
        */
       boolean hasValue2();
       /**
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
        */
       io.dstore.Values.stringValue getValue2();
       /**
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-       *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
        */
       boolean hasValue3RestrictedByPattern();
       /**
-       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-       *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
        */
       io.dstore.Values.stringValue getValue3RestrictedByPattern();
       /**
-       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-       *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
        */
       io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-       *
        * <pre>
        * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
        */
       boolean hasNickname();
       /**
-       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-       *
        * <pre>
        * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
        */
       io.dstore.Values.stringValue getNickname();
       /**
-       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-       *
        * <pre>
        * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
        */
       io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
        */
       boolean hasIsOnline();
       /**
-       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
        */
       io.dstore.Values.booleanValue getIsOnline();
       /**
-       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
        */
       io.dstore.Values.booleanValueOrBuilder getIsOnlineOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
        */
       boolean hasOperator1();
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
        */
       io.dstore.Values.stringValue getOperator1();
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getOperator1OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
        */
       boolean hasCondition1();
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
        */
       io.dstore.Values.stringValue getCondition1();
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCondition1OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
        */
       boolean hasCondition2();
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
        */
       io.dstore.Values.stringValue getCondition2();
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCondition2OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
        */
       boolean hasOperator2();
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
        */
       io.dstore.Values.stringValue getOperator2();
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
        */
       io.dstore.Values.stringValueOrBuilder getOperator2OrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
        */
       boolean hasCharacteristicDescription();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
        */
       io.dstore.Values.stringValue getCharacteristicDescription();
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-       *
        * <pre>
        * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
        */
       boolean hasEstimatedRowsAffected();
       /**
-       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-       *
        * <pre>
        * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
        */
       io.dstore.Values.integerValue getEstimatedRowsAffected();
       /**
-       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-       *
        * <pre>
        * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
        */
       io.dstore.Values.integerValueOrBuilder getEstimatedRowsAffectedOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-       *
        * <pre>
        * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
        */
       boolean hasCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-       *
        * <pre>
        * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
        */
       io.dstore.Values.integerValue getCharacteristicId();
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-       *
        * <pre>
        * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder();
     }
@@ -7106,7 +7103,8 @@ public final class CoSearchMembersPu {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -7365,11 +7363,10 @@ public final class CoSearchMembersPu {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -7398,31 +7395,31 @@ public final class CoSearchMembersPu {
       public static final int VALUE1_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue value1RestrictedByPattern_;
       /**
-       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-       *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        */
       public boolean hasValue1RestrictedByPattern() {
         return value1RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-       *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        */
       public io.dstore.Values.stringValue getValue1RestrictedByPattern() {
         return value1RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-       *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
         return getValue1RestrictedByPattern();
@@ -7431,31 +7428,31 @@ public final class CoSearchMembersPu {
       public static final int BINARY_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue binaryId_;
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-       *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        */
       public boolean hasBinaryId() {
         return binaryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-       *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getBinaryId() {
         return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-       *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
         return getBinaryId();
@@ -7464,31 +7461,31 @@ public final class CoSearchMembersPu {
       public static final int VALUE2_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue value2RestrictedByPattern_;
       /**
-       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-       *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        */
       public boolean hasValue2RestrictedByPattern() {
         return value2RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-       *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        */
       public io.dstore.Values.stringValue getValue2RestrictedByPattern() {
         return value2RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-       *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
         return getValue2RestrictedByPattern();
@@ -7497,31 +7494,31 @@ public final class CoSearchMembersPu {
       public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue communityMemberId_;
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-       *
        * <pre>
        * ID eines gefunden Community-Mitglieds
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-       *
        * <pre>
        * ID eines gefunden Community-Mitglieds
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
        */
       public io.dstore.Values.integerValue getCommunityMemberId() {
         return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-       *
        * <pre>
        * ID eines gefunden Community-Mitglieds
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
         return getCommunityMemberId();
@@ -7530,31 +7527,31 @@ public final class CoSearchMembersPu {
       public static final int VALUE3_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue value3_;
       /**
-       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
        */
       public boolean hasValue3() {
         return value3_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
        */
       public io.dstore.Values.stringValue getValue3() {
         return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
       }
       /**
-       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3 = 10005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
@@ -7563,31 +7560,31 @@ public final class CoSearchMembersPu {
       public static final int ONLINE_STATUS_FIELD_NUMBER = 10006;
       private io.dstore.Values.integerValue onlineStatus_;
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        */
       public boolean hasOnlineStatus() {
         return onlineStatus_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        */
       public io.dstore.Values.integerValue getOnlineStatus() {
         return onlineStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlineStatus_;
       }
       /**
-       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
         return getOnlineStatus();
@@ -7596,31 +7593,31 @@ public final class CoSearchMembersPu {
       public static final int VALUE1_FIELD_NUMBER = 10007;
       private io.dstore.Values.stringValue value1_;
       /**
-       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
        */
       public boolean hasValue1() {
         return value1_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
        */
       public io.dstore.Values.stringValue getValue1() {
         return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
       }
       /**
-       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value1 = 10007;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
@@ -7629,31 +7626,31 @@ public final class CoSearchMembersPu {
       public static final int VALUE2_FIELD_NUMBER = 10008;
       private io.dstore.Values.stringValue value2_;
       /**
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
        */
       public boolean hasValue2() {
         return value2_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
        */
       public io.dstore.Values.stringValue getValue2() {
         return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
       }
       /**
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-       *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
@@ -7662,31 +7659,31 @@ public final class CoSearchMembersPu {
       public static final int VALUE3_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10009;
       private io.dstore.Values.stringValue value3RestrictedByPattern_;
       /**
-       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-       *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
        */
       public boolean hasValue3RestrictedByPattern() {
         return value3RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-       *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
        */
       public io.dstore.Values.stringValue getValue3RestrictedByPattern() {
         return value3RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-       *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
         return getValue3RestrictedByPattern();
@@ -7695,31 +7692,31 @@ public final class CoSearchMembersPu {
       public static final int NICKNAME_FIELD_NUMBER = 10010;
       private io.dstore.Values.stringValue nickname_;
       /**
-       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-       *
        * <pre>
        * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
        */
       public boolean hasNickname() {
         return nickname_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-       *
        * <pre>
        * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
        */
       public io.dstore.Values.stringValue getNickname() {
         return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-       *
        * <pre>
        * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue nickname = 10010;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
         return getNickname();
@@ -7728,31 +7725,31 @@ public final class CoSearchMembersPu {
       public static final int IS_ONLINE_FIELD_NUMBER = 10011;
       private io.dstore.Values.booleanValue isOnline_;
       /**
-       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
        */
       public boolean hasIsOnline() {
         return isOnline_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
        */
       public io.dstore.Values.booleanValue getIsOnline() {
         return isOnline_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isOnline_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-       *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
        * </pre>
+       *
+       * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
        */
       public io.dstore.Values.booleanValueOrBuilder getIsOnlineOrBuilder() {
         return getIsOnline();
@@ -7761,31 +7758,31 @@ public final class CoSearchMembersPu {
       public static final int OPERATOR1_FIELD_NUMBER = 20001;
       private io.dstore.Values.stringValue operator1_;
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
        */
       public boolean hasOperator1() {
         return operator1_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
        */
       public io.dstore.Values.stringValue getOperator1() {
         return operator1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator1_;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getOperator1OrBuilder() {
         return getOperator1();
@@ -7794,31 +7791,31 @@ public final class CoSearchMembersPu {
       public static final int CONDITION1_FIELD_NUMBER = 20002;
       private io.dstore.Values.stringValue condition1_;
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
        */
       public boolean hasCondition1() {
         return condition1_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
        */
       public io.dstore.Values.stringValue getCondition1() {
         return condition1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition1_;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCondition1OrBuilder() {
         return getCondition1();
@@ -7827,31 +7824,31 @@ public final class CoSearchMembersPu {
       public static final int CONDITION2_FIELD_NUMBER = 20003;
       private io.dstore.Values.stringValue condition2_;
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
        */
       public boolean hasCondition2() {
         return condition2_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
        */
       public io.dstore.Values.stringValue getCondition2() {
         return condition2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition2_;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-       *
        * <pre>
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCondition2OrBuilder() {
         return getCondition2();
@@ -7860,31 +7857,31 @@ public final class CoSearchMembersPu {
       public static final int OPERATOR2_FIELD_NUMBER = 20004;
       private io.dstore.Values.stringValue operator2_;
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
        */
       public boolean hasOperator2() {
         return operator2_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
        */
       public io.dstore.Values.stringValue getOperator2() {
         return operator2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator2_;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-       *
        * <pre>
        * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getOperator2OrBuilder() {
         return getOperator2();
@@ -7893,31 +7890,31 @@ public final class CoSearchMembersPu {
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 20005;
       private io.dstore.Values.stringValue characteristicDescription_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
        */
       public io.dstore.Values.stringValue getCharacteristicDescription() {
         return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-       *
        * <pre>
        * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
@@ -7926,31 +7923,31 @@ public final class CoSearchMembersPu {
       public static final int ESTIMATED_ROWS_AFFECTED_FIELD_NUMBER = 20006;
       private io.dstore.Values.integerValue estimatedRowsAffected_;
       /**
-       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-       *
        * <pre>
        * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
        */
       public boolean hasEstimatedRowsAffected() {
         return estimatedRowsAffected_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-       *
        * <pre>
        * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
        */
       public io.dstore.Values.integerValue getEstimatedRowsAffected() {
         return estimatedRowsAffected_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : estimatedRowsAffected_;
       }
       /**
-       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-       *
        * <pre>
        * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getEstimatedRowsAffectedOrBuilder() {
         return getEstimatedRowsAffected();
@@ -7959,31 +7956,31 @@ public final class CoSearchMembersPu {
       public static final int CHARACTERISTIC_ID_FIELD_NUMBER = 20007;
       private io.dstore.Values.integerValue characteristicId_;
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-       *
        * <pre>
        * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
        */
       public boolean hasCharacteristicId() {
         return characteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-       *
        * <pre>
        * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
        */
       public io.dstore.Values.integerValue getCharacteristicId() {
         return characteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-       *
        * <pre>
        * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
         return getCharacteristicId();
@@ -8169,34 +8166,40 @@ public final class CoSearchMembersPu {
       }
       public static io.dstore.engine.procedures.CoSearchMembersPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoSearchMembersPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoSearchMembersPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoSearchMembersPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoSearchMembersPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoSearchMembersPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -8564,7 +8567,7 @@ public final class CoSearchMembersPu {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.CoSearchMembersPu.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -8603,21 +8606,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-         *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          */
         public boolean hasValue1RestrictedByPattern() {
           return value1RestrictedByPatternBuilder_ != null || value1RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-         *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.Values.stringValue getValue1RestrictedByPattern() {
           if (value1RestrictedByPatternBuilder_ == null) {
@@ -8627,11 +8630,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-         *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          */
         public Builder setValue1RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
@@ -8647,11 +8650,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-         *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          */
         public Builder setValue1RestrictedByPattern(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -8665,11 +8668,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-         *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          */
         public Builder mergeValue1RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
@@ -8687,11 +8690,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-         *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          */
         public Builder clearValue1RestrictedByPattern() {
           if (value1RestrictedByPatternBuilder_ == null) {
@@ -8705,11 +8708,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-         *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getValue1RestrictedByPatternBuilder() {
           
@@ -8717,11 +8720,11 @@ public final class CoSearchMembersPu {
           return getValue1RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-         *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
           if (value1RestrictedByPatternBuilder_ != null) {
@@ -8732,11 +8735,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
-         *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -8756,21 +8759,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-         *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          */
         public boolean hasBinaryId() {
           return binaryIdBuilder_ != null || binaryId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-         *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getBinaryId() {
           if (binaryIdBuilder_ == null) {
@@ -8780,11 +8783,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-         *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          */
         public Builder setBinaryId(io.dstore.Values.integerValue value) {
           if (binaryIdBuilder_ == null) {
@@ -8800,11 +8803,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-         *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          */
         public Builder setBinaryId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -8818,11 +8821,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-         *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          */
         public Builder mergeBinaryId(io.dstore.Values.integerValue value) {
           if (binaryIdBuilder_ == null) {
@@ -8840,11 +8843,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-         *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          */
         public Builder clearBinaryId() {
           if (binaryIdBuilder_ == null) {
@@ -8858,11 +8861,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-         *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getBinaryIdBuilder() {
           
@@ -8870,11 +8873,11 @@ public final class CoSearchMembersPu {
           return getBinaryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-         *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
           if (binaryIdBuilder_ != null) {
@@ -8885,11 +8888,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
-         *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -8909,21 +8912,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-         *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          */
         public boolean hasValue2RestrictedByPattern() {
           return value2RestrictedByPatternBuilder_ != null || value2RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-         *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          */
         public io.dstore.Values.stringValue getValue2RestrictedByPattern() {
           if (value2RestrictedByPatternBuilder_ == null) {
@@ -8933,11 +8936,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-         *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          */
         public Builder setValue2RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
@@ -8953,11 +8956,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-         *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          */
         public Builder setValue2RestrictedByPattern(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -8971,11 +8974,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-         *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          */
         public Builder mergeValue2RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
@@ -8993,11 +8996,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-         *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          */
         public Builder clearValue2RestrictedByPattern() {
           if (value2RestrictedByPatternBuilder_ == null) {
@@ -9011,11 +9014,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-         *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          */
         public io.dstore.Values.stringValue.Builder getValue2RestrictedByPatternBuilder() {
           
@@ -9023,11 +9026,11 @@ public final class CoSearchMembersPu {
           return getValue2RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-         *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
           if (value2RestrictedByPatternBuilder_ != null) {
@@ -9038,11 +9041,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
-         *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -9062,21 +9065,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-         *
          * <pre>
          * ID eines gefunden Community-Mitglieds
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
          */
         public boolean hasCommunityMemberId() {
           return communityMemberIdBuilder_ != null || communityMemberId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-         *
          * <pre>
          * ID eines gefunden Community-Mitglieds
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
          */
         public io.dstore.Values.integerValue getCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
@@ -9086,11 +9089,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-         *
          * <pre>
          * ID eines gefunden Community-Mitglieds
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
          */
         public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
           if (communityMemberIdBuilder_ == null) {
@@ -9106,11 +9109,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-         *
          * <pre>
          * ID eines gefunden Community-Mitglieds
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
          */
         public Builder setCommunityMemberId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -9124,11 +9127,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-         *
          * <pre>
          * ID eines gefunden Community-Mitglieds
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
          */
         public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
           if (communityMemberIdBuilder_ == null) {
@@ -9146,11 +9149,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-         *
          * <pre>
          * ID eines gefunden Community-Mitglieds
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
          */
         public Builder clearCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
@@ -9164,11 +9167,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-         *
          * <pre>
          * ID eines gefunden Community-Mitglieds
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
          */
         public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
           
@@ -9176,11 +9179,11 @@ public final class CoSearchMembersPu {
           return getCommunityMemberIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-         *
          * <pre>
          * ID eines gefunden Community-Mitglieds
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
           if (communityMemberIdBuilder_ != null) {
@@ -9191,11 +9194,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
-         *
          * <pre>
          * ID eines gefunden Community-Mitglieds
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue community_member_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -9215,21 +9218,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3Builder_;
         /**
-         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
          */
         public boolean hasValue3() {
           return value3Builder_ != null || value3_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
          */
         public io.dstore.Values.stringValue getValue3() {
           if (value3Builder_ == null) {
@@ -9239,11 +9242,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
          */
         public Builder setValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
@@ -9259,11 +9262,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
          */
         public Builder setValue3(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -9277,11 +9280,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
          */
         public Builder mergeValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
@@ -9299,11 +9302,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
          */
         public Builder clearValue3() {
           if (value3Builder_ == null) {
@@ -9317,11 +9320,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
          */
         public io.dstore.Values.stringValue.Builder getValue3Builder() {
           
@@ -9329,11 +9332,11 @@ public final class CoSearchMembersPu {
           return getValue3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
@@ -9344,11 +9347,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3 = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -9368,21 +9371,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> onlineStatusBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          */
         public boolean hasOnlineStatus() {
           return onlineStatusBuilder_ != null || onlineStatus_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          */
         public io.dstore.Values.integerValue getOnlineStatus() {
           if (onlineStatusBuilder_ == null) {
@@ -9392,11 +9395,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          */
         public Builder setOnlineStatus(io.dstore.Values.integerValue value) {
           if (onlineStatusBuilder_ == null) {
@@ -9412,11 +9415,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          */
         public Builder setOnlineStatus(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -9430,11 +9433,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          */
         public Builder mergeOnlineStatus(io.dstore.Values.integerValue value) {
           if (onlineStatusBuilder_ == null) {
@@ -9452,11 +9455,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          */
         public Builder clearOnlineStatus() {
           if (onlineStatusBuilder_ == null) {
@@ -9470,11 +9473,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          */
         public io.dstore.Values.integerValue.Builder getOnlineStatusBuilder() {
           
@@ -9482,11 +9485,11 @@ public final class CoSearchMembersPu {
           return getOnlineStatusFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
           if (onlineStatusBuilder_ != null) {
@@ -9497,11 +9500,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -9521,21 +9524,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1Builder_;
         /**
-         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
          */
         public boolean hasValue1() {
           return value1Builder_ != null || value1_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
          */
         public io.dstore.Values.stringValue getValue1() {
           if (value1Builder_ == null) {
@@ -9545,11 +9548,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
          */
         public Builder setValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
@@ -9565,11 +9568,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
          */
         public Builder setValue1(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -9583,11 +9586,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
          */
         public Builder mergeValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
@@ -9605,11 +9608,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
          */
         public Builder clearValue1() {
           if (value1Builder_ == null) {
@@ -9623,11 +9626,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
          */
         public io.dstore.Values.stringValue.Builder getValue1Builder() {
           
@@ -9635,11 +9638,11 @@ public final class CoSearchMembersPu {
           return getValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
@@ -9650,11 +9653,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value1 = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -9674,21 +9677,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2Builder_;
         /**
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
          */
         public boolean hasValue2() {
           return value2Builder_ != null || value2_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
          */
         public io.dstore.Values.stringValue getValue2() {
           if (value2Builder_ == null) {
@@ -9698,11 +9701,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
          */
         public Builder setValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
@@ -9718,11 +9721,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
          */
         public Builder setValue2(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -9736,11 +9739,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
          */
         public Builder mergeValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
@@ -9758,11 +9761,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
          */
         public Builder clearValue2() {
           if (value2Builder_ == null) {
@@ -9776,11 +9779,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
          */
         public io.dstore.Values.stringValue.Builder getValue2Builder() {
           
@@ -9788,11 +9791,11 @@ public final class CoSearchMembersPu {
           return getValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
@@ -9803,11 +9806,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
-         *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -9827,21 +9830,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-         *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
          */
         public boolean hasValue3RestrictedByPattern() {
           return value3RestrictedByPatternBuilder_ != null || value3RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-         *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
          */
         public io.dstore.Values.stringValue getValue3RestrictedByPattern() {
           if (value3RestrictedByPatternBuilder_ == null) {
@@ -9851,11 +9854,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-         *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
          */
         public Builder setValue3RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value3RestrictedByPatternBuilder_ == null) {
@@ -9871,11 +9874,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-         *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
          */
         public Builder setValue3RestrictedByPattern(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -9889,11 +9892,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-         *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
          */
         public Builder mergeValue3RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value3RestrictedByPatternBuilder_ == null) {
@@ -9911,11 +9914,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-         *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
          */
         public Builder clearValue3RestrictedByPattern() {
           if (value3RestrictedByPatternBuilder_ == null) {
@@ -9929,11 +9932,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-         *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
          */
         public io.dstore.Values.stringValue.Builder getValue3RestrictedByPatternBuilder() {
           
@@ -9941,11 +9944,11 @@ public final class CoSearchMembersPu {
           return getValue3RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-         *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
           if (value3RestrictedByPatternBuilder_ != null) {
@@ -9956,11 +9959,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
-         *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -9980,21 +9983,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-         *
          * <pre>
          * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
          */
         public boolean hasNickname() {
           return nicknameBuilder_ != null || nickname_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-         *
          * <pre>
          * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
          */
         public io.dstore.Values.stringValue getNickname() {
           if (nicknameBuilder_ == null) {
@@ -10004,11 +10007,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-         *
          * <pre>
          * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
          */
         public Builder setNickname(io.dstore.Values.stringValue value) {
           if (nicknameBuilder_ == null) {
@@ -10024,11 +10027,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-         *
          * <pre>
          * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
          */
         public Builder setNickname(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10042,11 +10045,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-         *
          * <pre>
          * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
          */
         public Builder mergeNickname(io.dstore.Values.stringValue value) {
           if (nicknameBuilder_ == null) {
@@ -10064,11 +10067,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-         *
          * <pre>
          * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
          */
         public Builder clearNickname() {
           if (nicknameBuilder_ == null) {
@@ -10082,11 +10085,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-         *
          * <pre>
          * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
          */
         public io.dstore.Values.stringValue.Builder getNicknameBuilder() {
           
@@ -10094,11 +10097,11 @@ public final class CoSearchMembersPu {
           return getNicknameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-         *
          * <pre>
          * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
           if (nicknameBuilder_ != null) {
@@ -10109,11 +10112,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
-         *
          * <pre>
          * Eigenschaft von "CommunityMemberID" zu dem durch den Schlüssel "IdentifyingCharacteristicID" aus "CommunitySettings" hinterlegten Merkmal. Es trifft "Nickname = &#64;SearchString" bzw. "lower(Nickname) like &#64;SearchString" zu.
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue nickname = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10133,21 +10136,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isOnlineBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
          */
         public boolean hasIsOnline() {
           return isOnlineBuilder_ != null || isOnline_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
          */
         public io.dstore.Values.booleanValue getIsOnline() {
           if (isOnlineBuilder_ == null) {
@@ -10157,11 +10160,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
          */
         public Builder setIsOnline(io.dstore.Values.booleanValue value) {
           if (isOnlineBuilder_ == null) {
@@ -10177,11 +10180,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
          */
         public Builder setIsOnline(
             io.dstore.Values.booleanValue.Builder builderForValue) {
@@ -10195,11 +10198,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
          */
         public Builder mergeIsOnline(io.dstore.Values.booleanValue value) {
           if (isOnlineBuilder_ == null) {
@@ -10217,11 +10220,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
          */
         public Builder clearIsOnline() {
           if (isOnlineBuilder_ == null) {
@@ -10235,11 +10238,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
          */
         public io.dstore.Values.booleanValue.Builder getIsOnlineBuilder() {
           
@@ -10247,11 +10250,11 @@ public final class CoSearchMembersPu {
           return getIsOnlineFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
          */
         public io.dstore.Values.booleanValueOrBuilder getIsOnlineOrBuilder() {
           if (isOnlineBuilder_ != null) {
@@ -10262,11 +10265,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
-         *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
+         *
+         * <code>optional .dstore.values.booleanValue is_online = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
@@ -10286,21 +10289,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator1Builder_;
         /**
-         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
          */
         public boolean hasOperator1() {
           return operator1Builder_ != null || operator1_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
          */
         public io.dstore.Values.stringValue getOperator1() {
           if (operator1Builder_ == null) {
@@ -10310,11 +10313,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
          */
         public Builder setOperator1(io.dstore.Values.stringValue value) {
           if (operator1Builder_ == null) {
@@ -10330,11 +10333,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
          */
         public Builder setOperator1(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10348,11 +10351,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
          */
         public Builder mergeOperator1(io.dstore.Values.stringValue value) {
           if (operator1Builder_ == null) {
@@ -10370,11 +10373,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
          */
         public Builder clearOperator1() {
           if (operator1Builder_ == null) {
@@ -10388,11 +10391,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
          */
         public io.dstore.Values.stringValue.Builder getOperator1Builder() {
           
@@ -10400,11 +10403,11 @@ public final class CoSearchMembersPu {
           return getOperator1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getOperator1OrBuilder() {
           if (operator1Builder_ != null) {
@@ -10415,11 +10418,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "&gt;="- "&gt;"- "&lt;="- "&lt;"- "&lt;&gt;"- "SOUNDEX"- "LIKE (cs)" (case-sensitive Like-Suche)- "LIKE (ci)" (case-insensitive Like-Suche)- "HAS NO PROPERTY" ("Condition1" ist dann "NULL")
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator1 = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10439,21 +10442,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition1Builder_;
         /**
-         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
          */
         public boolean hasCondition1() {
           return condition1Builder_ != null || condition1_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
          */
         public io.dstore.Values.stringValue getCondition1() {
           if (condition1Builder_ == null) {
@@ -10463,11 +10466,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
          */
         public Builder setCondition1(io.dstore.Values.stringValue value) {
           if (condition1Builder_ == null) {
@@ -10483,11 +10486,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
          */
         public Builder setCondition1(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10501,11 +10504,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
          */
         public Builder mergeCondition1(io.dstore.Values.stringValue value) {
           if (condition1Builder_ == null) {
@@ -10523,11 +10526,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
          */
         public Builder clearCondition1() {
           if (condition1Builder_ == null) {
@@ -10541,11 +10544,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
          */
         public io.dstore.Values.stringValue.Builder getCondition1Builder() {
           
@@ -10553,11 +10556,11 @@ public final class CoSearchMembersPu {
           return getCondition1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCondition1OrBuilder() {
           if (condition1Builder_ != null) {
@@ -10568,11 +10571,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "HAS NO PROPERTY" hat)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition1 = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10592,21 +10595,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition2Builder_;
         /**
-         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
          */
         public boolean hasCondition2() {
           return condition2Builder_ != null || condition2_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
          */
         public io.dstore.Values.stringValue getCondition2() {
           if (condition2Builder_ == null) {
@@ -10616,11 +10619,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
          */
         public Builder setCondition2(io.dstore.Values.stringValue value) {
           if (condition2Builder_ == null) {
@@ -10636,11 +10639,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
          */
         public Builder setCondition2(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10654,11 +10657,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
          */
         public Builder mergeCondition2(io.dstore.Values.stringValue value) {
           if (condition2Builder_ == null) {
@@ -10676,11 +10679,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
          */
         public Builder clearCondition2() {
           if (condition2Builder_ == null) {
@@ -10694,11 +10697,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
          */
         public io.dstore.Values.stringValue.Builder getCondition2Builder() {
           
@@ -10706,11 +10709,11 @@ public final class CoSearchMembersPu {
           return getCondition2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCondition2OrBuilder() {
           if (condition2Builder_ != null) {
@@ -10721,11 +10724,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
-         *
          * <pre>
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist ("NULL", falls "Operator2" auch "NULL" ist)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue condition2 = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10745,21 +10748,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator2Builder_;
         /**
-         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
          */
         public boolean hasOperator2() {
           return operator2Builder_ != null || operator2_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
          */
         public io.dstore.Values.stringValue getOperator2() {
           if (operator2Builder_ == null) {
@@ -10769,11 +10772,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
          */
         public Builder setOperator2(io.dstore.Values.stringValue value) {
           if (operator2Builder_ == null) {
@@ -10789,11 +10792,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
          */
         public Builder setOperator2(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10807,11 +10810,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
          */
         public Builder mergeOperator2(io.dstore.Values.stringValue value) {
           if (operator2Builder_ == null) {
@@ -10829,11 +10832,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
          */
         public Builder clearOperator2() {
           if (operator2Builder_ == null) {
@@ -10847,11 +10850,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
          */
         public io.dstore.Values.stringValue.Builder getOperator2Builder() {
           
@@ -10859,11 +10862,11 @@ public final class CoSearchMembersPu {
           return getOperator2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getOperator2OrBuilder() {
           if (operator2Builder_ != null) {
@@ -10874,11 +10877,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
-         *
          * <pre>
          * Operator für die Bedingung "Condition2". Nur NICHT "NULL", wenn eine in "&#64;ConditionList" angegebene Bedingung die Form "(Wert1|Wert2)", "(Wert1|Wert2]", "[Wert1|Wert2)" oder "[Wert1|Wert2] hat. Mögliche Werte sind dann :- "&lt;="- "&lt;"
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue operator2 = 20004;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -10898,21 +10901,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
          */
         public boolean hasCharacteristicDescription() {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
          */
         public io.dstore.Values.stringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -10922,11 +10925,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
          */
         public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
@@ -10942,11 +10945,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
          */
         public Builder setCharacteristicDescription(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -10960,11 +10963,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
          */
         public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
@@ -10982,11 +10985,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
          */
         public Builder clearCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -11000,11 +11003,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
          */
         public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
           
@@ -11012,11 +11015,11 @@ public final class CoSearchMembersPu {
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
@@ -11027,11 +11030,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
-         *
          * <pre>
          * Bezeichnung des Merkmals "CharacteristicID" (in der Standardsprache)
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue characteristic_description = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -11051,21 +11054,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> estimatedRowsAffectedBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-         *
          * <pre>
          * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
          */
         public boolean hasEstimatedRowsAffected() {
           return estimatedRowsAffectedBuilder_ != null || estimatedRowsAffected_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-         *
          * <pre>
          * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
          */
         public io.dstore.Values.integerValue getEstimatedRowsAffected() {
           if (estimatedRowsAffectedBuilder_ == null) {
@@ -11075,11 +11078,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-         *
          * <pre>
          * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
          */
         public Builder setEstimatedRowsAffected(io.dstore.Values.integerValue value) {
           if (estimatedRowsAffectedBuilder_ == null) {
@@ -11095,11 +11098,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-         *
          * <pre>
          * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
          */
         public Builder setEstimatedRowsAffected(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -11113,11 +11116,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-         *
          * <pre>
          * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
          */
         public Builder mergeEstimatedRowsAffected(io.dstore.Values.integerValue value) {
           if (estimatedRowsAffectedBuilder_ == null) {
@@ -11135,11 +11138,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-         *
          * <pre>
          * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
          */
         public Builder clearEstimatedRowsAffected() {
           if (estimatedRowsAffectedBuilder_ == null) {
@@ -11153,11 +11156,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-         *
          * <pre>
          * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
          */
         public io.dstore.Values.integerValue.Builder getEstimatedRowsAffectedBuilder() {
           
@@ -11165,11 +11168,11 @@ public final class CoSearchMembersPu {
           return getEstimatedRowsAffectedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-         *
          * <pre>
          * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getEstimatedRowsAffectedOrBuilder() {
           if (estimatedRowsAffectedBuilder_ != null) {
@@ -11180,11 +11183,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
-         *
          * <pre>
          * Geschätzte Anzahl Personen, die die Bedingung(en) erfüllen. Ist "CharacteristicID = 0", steht hier die entscheidende Abschätzung (die zu "-760" führte), wieviele Personen wohl ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue estimated_rows_affected = 20006;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -11204,21 +11207,21 @@ public final class CoSearchMembersPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characteristicIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-         *
          * <pre>
          * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
          */
         public boolean hasCharacteristicId() {
           return characteristicIdBuilder_ != null || characteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-         *
          * <pre>
          * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
          */
         public io.dstore.Values.integerValue getCharacteristicId() {
           if (characteristicIdBuilder_ == null) {
@@ -11228,11 +11231,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-         *
          * <pre>
          * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
          */
         public Builder setCharacteristicId(io.dstore.Values.integerValue value) {
           if (characteristicIdBuilder_ == null) {
@@ -11248,11 +11251,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-         *
          * <pre>
          * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
          */
         public Builder setCharacteristicId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -11266,11 +11269,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-         *
          * <pre>
          * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
          */
         public Builder mergeCharacteristicId(io.dstore.Values.integerValue value) {
           if (characteristicIdBuilder_ == null) {
@@ -11288,11 +11291,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-         *
          * <pre>
          * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
          */
         public Builder clearCharacteristicId() {
           if (characteristicIdBuilder_ == null) {
@@ -11306,11 +11309,11 @@ public final class CoSearchMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-         *
          * <pre>
          * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
          */
         public io.dstore.Values.integerValue.Builder getCharacteristicIdBuilder() {
           
@@ -11318,11 +11321,11 @@ public final class CoSearchMembersPu {
           return getCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-         *
          * <pre>
          * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
           if (characteristicIdBuilder_ != null) {
@@ -11333,11 +11336,11 @@ public final class CoSearchMembersPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
-         *
          * <pre>
          * ID des Merkmals, in dem gesucht werden soll (entweder die "IdentifyingCharacteristicID" oder eine in "&#64;CharacteristicIDList" übergebene ID). "0" bedeutet, daß "EstimatedRowsAffected" die (geschätzte) Anzahl Personen enthält, die ALLE Bedingungen erfüllen.
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue characteristic_id = 20007;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -11382,16 +11385,7 @@ public final class CoSearchMembersPu {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -11612,34 +11606,40 @@ public final class CoSearchMembersPu {
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoSearchMembersPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -11892,7 +11892,7 @@ public final class CoSearchMembersPu {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.CoSearchMembersPu.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -12768,16 +12768,7 @@ public final class CoSearchMembersPu {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -12796,19 +12787,19 @@ public final class CoSearchMembersPu {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_SearchMembers_Pu_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_SearchMembers_Pu_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_SearchMembers_Pu_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_SearchMembers_Pu_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_SearchMembers_Pu_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_co_SearchMembers_Pu_Response_Row_fieldAccessorTable;
 
@@ -12816,7 +12807,7 @@ public final class CoSearchMembersPu {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

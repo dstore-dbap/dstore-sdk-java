@@ -33,7 +33,8 @@ public final class OmGetCashAccountTypes {
     }
     private Parameters(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       try {
         boolean done = false;
@@ -52,11 +53,10 @@ public final class OmGetCashAccountTypes {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -120,34 +120,40 @@ public final class OmGetCashAccountTypes {
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -257,7 +263,7 @@ public final class OmGetCashAccountTypes {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetCashAccountTypes.Parameters) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -295,16 +301,7 @@ public final class OmGetCashAccountTypes {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Parameters(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -376,45 +373,45 @@ public final class OmGetCashAccountTypes {
         int index);
 
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
      */
     java.util.List<io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row> 
         getRowList();
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row getRow(int index);
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
      */
     int getRowCount();
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
      */
     java.util.List<? extends io.dstore.engine.procedures.OmGetCashAccountTypes.Response.RowOrBuilder> 
         getRowOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
      */
     io.dstore.engine.procedures.OmGetCashAccountTypes.Response.RowOrBuilder getRowOrBuilder(
         int index);
@@ -443,7 +440,8 @@ public final class OmGetCashAccountTypes {
     }
     private Response(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -487,11 +485,10 @@ public final class OmGetCashAccountTypes {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
@@ -527,77 +524,77 @@ public final class OmGetCashAccountTypes {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung des Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
        */
       boolean hasCashAccountType();
       /**
-       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung des Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
        */
       io.dstore.Values.stringValue getCashAccountType();
       /**
-       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung des Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
        */
       io.dstore.Values.stringValueOrBuilder getCashAccountTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-       *
        * <pre>
        * Die ID eines Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
        */
       boolean hasCashAccountTypeId();
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-       *
        * <pre>
        * Die ID eines Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
        */
       io.dstore.Values.integerValue getCashAccountTypeId();
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-       *
        * <pre>
        * Die ID eines Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
        */
       io.dstore.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-       *
        * <pre>
        * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
        */
       boolean hasMinAccountBalance();
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-       *
        * <pre>
        * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
        */
       io.dstore.Values.decimalValue getMinAccountBalance();
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-       *
        * <pre>
        * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
        */
       io.dstore.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder();
     }
@@ -623,7 +620,8 @@ public final class OmGetCashAccountTypes {
       }
       private Row(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -687,11 +685,10 @@ public final class OmGetCashAccountTypes {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -720,31 +717,31 @@ public final class OmGetCashAccountTypes {
       public static final int CASH_ACCOUNT_TYPE_FIELD_NUMBER = 10001;
       private io.dstore.Values.stringValue cashAccountType_;
       /**
-       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung des Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
        */
       public boolean hasCashAccountType() {
         return cashAccountType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung des Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
        */
       public io.dstore.Values.stringValue getCashAccountType() {
         return cashAccountType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : cashAccountType_;
       }
       /**
-       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-       *
        * <pre>
        * Die Bezeichnung des Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
        */
       public io.dstore.Values.stringValueOrBuilder getCashAccountTypeOrBuilder() {
         return getCashAccountType();
@@ -753,31 +750,31 @@ public final class OmGetCashAccountTypes {
       public static final int CASH_ACCOUNT_TYPE_ID_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue cashAccountTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-       *
        * <pre>
        * Die ID eines Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
        */
       public boolean hasCashAccountTypeId() {
         return cashAccountTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-       *
        * <pre>
        * Die ID eines Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValue getCashAccountTypeId() {
         return cashAccountTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cashAccountTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-       *
        * <pre>
        * Die ID eines Kontotyps
        * </pre>
+       *
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
        */
       public io.dstore.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder() {
         return getCashAccountTypeId();
@@ -786,31 +783,31 @@ public final class OmGetCashAccountTypes {
       public static final int MIN_ACCOUNT_BALANCE_FIELD_NUMBER = 10003;
       private io.dstore.Values.decimalValue minAccountBalance_;
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-       *
        * <pre>
        * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
        */
       public boolean hasMinAccountBalance() {
         return minAccountBalance_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-       *
        * <pre>
        * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
        */
       public io.dstore.Values.decimalValue getMinAccountBalance() {
         return minAccountBalance_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : minAccountBalance_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-       *
        * <pre>
        * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
        * </pre>
+       *
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
        */
       public io.dstore.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder() {
         return getMinAccountBalance();
@@ -891,34 +888,40 @@ public final class OmGetCashAccountTypes {
       }
       public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -1076,7 +1079,7 @@ public final class OmGetCashAccountTypes {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -1115,21 +1118,21 @@ public final class OmGetCashAccountTypes {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> cashAccountTypeBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
          */
         public boolean hasCashAccountType() {
           return cashAccountTypeBuilder_ != null || cashAccountType_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
          */
         public io.dstore.Values.stringValue getCashAccountType() {
           if (cashAccountTypeBuilder_ == null) {
@@ -1139,11 +1142,11 @@ public final class OmGetCashAccountTypes {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
          */
         public Builder setCashAccountType(io.dstore.Values.stringValue value) {
           if (cashAccountTypeBuilder_ == null) {
@@ -1159,11 +1162,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
          */
         public Builder setCashAccountType(
             io.dstore.Values.stringValue.Builder builderForValue) {
@@ -1177,11 +1180,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
          */
         public Builder mergeCashAccountType(io.dstore.Values.stringValue value) {
           if (cashAccountTypeBuilder_ == null) {
@@ -1199,11 +1202,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
          */
         public Builder clearCashAccountType() {
           if (cashAccountTypeBuilder_ == null) {
@@ -1217,11 +1220,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
          */
         public io.dstore.Values.stringValue.Builder getCashAccountTypeBuilder() {
           
@@ -1229,11 +1232,11 @@ public final class OmGetCashAccountTypes {
           return getCashAccountTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
          */
         public io.dstore.Values.stringValueOrBuilder getCashAccountTypeOrBuilder() {
           if (cashAccountTypeBuilder_ != null) {
@@ -1244,11 +1247,11 @@ public final class OmGetCashAccountTypes {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
-         *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.stringValue cash_account_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
@@ -1268,21 +1271,21 @@ public final class OmGetCashAccountTypes {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> cashAccountTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-         *
          * <pre>
          * Die ID eines Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
          */
         public boolean hasCashAccountTypeId() {
           return cashAccountTypeIdBuilder_ != null || cashAccountTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-         *
          * <pre>
          * Die ID eines Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue getCashAccountTypeId() {
           if (cashAccountTypeIdBuilder_ == null) {
@@ -1292,11 +1295,11 @@ public final class OmGetCashAccountTypes {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-         *
          * <pre>
          * Die ID eines Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
          */
         public Builder setCashAccountTypeId(io.dstore.Values.integerValue value) {
           if (cashAccountTypeIdBuilder_ == null) {
@@ -1312,11 +1315,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-         *
          * <pre>
          * Die ID eines Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
          */
         public Builder setCashAccountTypeId(
             io.dstore.Values.integerValue.Builder builderForValue) {
@@ -1330,11 +1333,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-         *
          * <pre>
          * Die ID eines Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
          */
         public Builder mergeCashAccountTypeId(io.dstore.Values.integerValue value) {
           if (cashAccountTypeIdBuilder_ == null) {
@@ -1352,11 +1355,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-         *
          * <pre>
          * Die ID eines Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
          */
         public Builder clearCashAccountTypeId() {
           if (cashAccountTypeIdBuilder_ == null) {
@@ -1370,11 +1373,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-         *
          * <pre>
          * Die ID eines Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValue.Builder getCashAccountTypeIdBuilder() {
           
@@ -1382,11 +1385,11 @@ public final class OmGetCashAccountTypes {
           return getCashAccountTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-         *
          * <pre>
          * Die ID eines Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
          */
         public io.dstore.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder() {
           if (cashAccountTypeIdBuilder_ != null) {
@@ -1397,11 +1400,11 @@ public final class OmGetCashAccountTypes {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
-         *
          * <pre>
          * Die ID eines Kontotyps
          * </pre>
+         *
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
@@ -1421,21 +1424,21 @@ public final class OmGetCashAccountTypes {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> minAccountBalanceBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-         *
          * <pre>
          * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
          */
         public boolean hasMinAccountBalance() {
           return minAccountBalanceBuilder_ != null || minAccountBalance_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-         *
          * <pre>
          * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
          */
         public io.dstore.Values.decimalValue getMinAccountBalance() {
           if (minAccountBalanceBuilder_ == null) {
@@ -1445,11 +1448,11 @@ public final class OmGetCashAccountTypes {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-         *
          * <pre>
          * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
          */
         public Builder setMinAccountBalance(io.dstore.Values.decimalValue value) {
           if (minAccountBalanceBuilder_ == null) {
@@ -1465,11 +1468,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-         *
          * <pre>
          * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
          */
         public Builder setMinAccountBalance(
             io.dstore.Values.decimalValue.Builder builderForValue) {
@@ -1483,11 +1486,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-         *
          * <pre>
          * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
          */
         public Builder mergeMinAccountBalance(io.dstore.Values.decimalValue value) {
           if (minAccountBalanceBuilder_ == null) {
@@ -1505,11 +1508,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-         *
          * <pre>
          * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
          */
         public Builder clearMinAccountBalance() {
           if (minAccountBalanceBuilder_ == null) {
@@ -1523,11 +1526,11 @@ public final class OmGetCashAccountTypes {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-         *
          * <pre>
          * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
          */
         public io.dstore.Values.decimalValue.Builder getMinAccountBalanceBuilder() {
           
@@ -1535,11 +1538,11 @@ public final class OmGetCashAccountTypes {
           return getMinAccountBalanceFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-         *
          * <pre>
          * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
          */
         public io.dstore.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder() {
           if (minAccountBalanceBuilder_ != null) {
@@ -1550,11 +1553,11 @@ public final class OmGetCashAccountTypes {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
-         *
          * <pre>
          * Der Standardwert unter den der Saldo von Konten dieses Typs nicht sinken darf
          * </pre>
+         *
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
@@ -1599,16 +1602,7 @@ public final class OmGetCashAccountTypes {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Row(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -1700,52 +1694,52 @@ public final class OmGetCashAccountTypes {
     public static final int ROW_FIELD_NUMBER = 4;
     private java.util.List<io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row> row_;
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
      */
     public java.util.List<io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row> getRowList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
      */
     public java.util.List<? extends io.dstore.engine.procedures.OmGetCashAccountTypes.Response.RowOrBuilder> 
         getRowOrBuilderList() {
       return row_;
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
      */
     public int getRowCount() {
       return row_.size();
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row getRow(int index) {
       return row_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-     *
      * <pre>
      * no output parameters
      * </pre>
+     *
+     * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
      */
     public io.dstore.engine.procedures.OmGetCashAccountTypes.Response.RowOrBuilder getRowOrBuilder(
         int index) {
@@ -1820,34 +1814,40 @@ public final class OmGetCashAccountTypes {
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccountTypes.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2084,7 +2084,7 @@ public final class OmGetCashAccountTypes {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.engine.procedures.OmGetCashAccountTypes.Response) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -2587,11 +2587,11 @@ public final class OmGetCashAccountTypes {
           io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row, io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row.Builder, io.dstore.engine.procedures.OmGetCashAccountTypes.Response.RowOrBuilder> rowBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row> getRowList() {
         if (rowBuilder_ == null) {
@@ -2601,11 +2601,11 @@ public final class OmGetCashAccountTypes {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public int getRowCount() {
         if (rowBuilder_ == null) {
@@ -2615,11 +2615,11 @@ public final class OmGetCashAccountTypes {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row getRow(int index) {
         if (rowBuilder_ == null) {
@@ -2629,11 +2629,11 @@ public final class OmGetCashAccountTypes {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row value) {
@@ -2650,11 +2650,11 @@ public final class OmGetCashAccountTypes {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public Builder setRow(
           int index, io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row.Builder builderForValue) {
@@ -2668,11 +2668,11 @@ public final class OmGetCashAccountTypes {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public Builder addRow(io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row value) {
         if (rowBuilder_ == null) {
@@ -2688,11 +2688,11 @@ public final class OmGetCashAccountTypes {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row value) {
@@ -2709,11 +2709,11 @@ public final class OmGetCashAccountTypes {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public Builder addRow(
           io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row.Builder builderForValue) {
@@ -2727,11 +2727,11 @@ public final class OmGetCashAccountTypes {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public Builder addRow(
           int index, io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row.Builder builderForValue) {
@@ -2745,11 +2745,11 @@ public final class OmGetCashAccountTypes {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public Builder addAllRow(
           java.lang.Iterable<? extends io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row> values) {
@@ -2764,11 +2764,11 @@ public final class OmGetCashAccountTypes {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public Builder clearRow() {
         if (rowBuilder_ == null) {
@@ -2781,11 +2781,11 @@ public final class OmGetCashAccountTypes {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public Builder removeRow(int index) {
         if (rowBuilder_ == null) {
@@ -2798,22 +2798,22 @@ public final class OmGetCashAccountTypes {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row.Builder getRowBuilder(
           int index) {
         return getRowFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCashAccountTypes.Response.RowOrBuilder getRowOrBuilder(
           int index) {
@@ -2823,11 +2823,11 @@ public final class OmGetCashAccountTypes {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public java.util.List<? extends io.dstore.engine.procedures.OmGetCashAccountTypes.Response.RowOrBuilder> 
            getRowOrBuilderList() {
@@ -2838,22 +2838,22 @@ public final class OmGetCashAccountTypes {
         }
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row.Builder addRowBuilder() {
         return getRowFieldBuilder().addBuilder(
             io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row.Builder addRowBuilder(
           int index) {
@@ -2861,11 +2861,11 @@ public final class OmGetCashAccountTypes {
             index, io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
-       *
        * <pre>
        * no output parameters
        * </pre>
+       *
+       * <code>repeated .dstore.engine.om_GetCashAccountTypes.Response.Row row = 4;</code>
        */
       public java.util.List<io.dstore.engine.procedures.OmGetCashAccountTypes.Response.Row.Builder> 
            getRowBuilderList() {
@@ -2915,16 +2915,7 @@ public final class OmGetCashAccountTypes {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Response(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -2943,19 +2934,19 @@ public final class OmGetCashAccountTypes {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCashAccountTypes_Parameters_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCashAccountTypes_Parameters_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCashAccountTypes_Response_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCashAccountTypes_Response_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCashAccountTypes_Response_Row_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_om_GetCashAccountTypes_Response_Row_fieldAccessorTable;
 
@@ -2963,7 +2954,7 @@ public final class OmGetCashAccountTypes {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {

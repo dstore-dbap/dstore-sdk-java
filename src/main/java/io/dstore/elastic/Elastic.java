@@ -75,7 +75,8 @@ public final class Elastic {
     }
     private Field(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -114,11 +115,10 @@ public final class Elastic {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           value_ = java.util.Collections.unmodifiableList(value_);
@@ -284,34 +284,40 @@ public final class Elastic {
     }
     public static io.dstore.elastic.Elastic.Field parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Field parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.Elastic.Field parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Field parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.Elastic.Field parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Field parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -479,7 +485,7 @@ public final class Elastic {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.Elastic.Field) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -853,16 +859,7 @@ public final class Elastic {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Field(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -928,7 +925,8 @@ public final class Elastic {
     }
     private Range(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -960,11 +958,10 @@ public final class Elastic {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -1108,34 +1105,40 @@ public final class Elastic {
     }
     public static io.dstore.elastic.Elastic.Range parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Range parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.Elastic.Range parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Range parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.Elastic.Range parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Range parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -1259,7 +1262,7 @@ public final class Elastic {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.Elastic.Range) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -1435,16 +1438,7 @@ public final class Elastic {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Range(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -1605,7 +1599,8 @@ public final class Elastic {
     }
     private BoolQuery(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -1668,11 +1663,10 @@ public final class Elastic {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           filter_ = java.util.Collections.unmodifiableList(filter_);
@@ -1973,34 +1967,40 @@ public final class Elastic {
     }
     public static io.dstore.elastic.Elastic.BoolQuery parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.BoolQuery parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.Elastic.BoolQuery parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.BoolQuery parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.Elastic.BoolQuery parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.BoolQuery parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -2294,7 +2294,7 @@ public final class Elastic {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.Elastic.BoolQuery) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -3388,16 +3388,7 @@ public final class Elastic {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new BoolQuery(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -3421,87 +3412,87 @@ public final class Elastic {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     io.dstore.elastic.Elastic.Query.Terms getTermsQuery();
     /**
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     io.dstore.elastic.Elastic.Query.TermsOrBuilder getTermsQueryOrBuilder();
 
     /**
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
      */
     io.dstore.elastic.Elastic.Query.Type getTypeQuery();
     /**
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
      */
     io.dstore.elastic.Elastic.Query.TypeOrBuilder getTypeQueryOrBuilder();
 
     /**
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     io.dstore.elastic.Elastic.Query.SimpleQueryString getSimpleQueryStringQuery();
     /**
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder getSimpleQueryStringQueryOrBuilder();
 
     /**
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
      */
     io.dstore.elastic.Elastic.Query.Range getRangeQuery();
     /**
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
      */
     io.dstore.elastic.Elastic.Query.RangeOrBuilder getRangeQueryOrBuilder();
 
     /**
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-     *
      * <pre>
      * not yet supported in FacetedNavigation
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     io.dstore.elastic.Elastic.BoolQuery getBoolQuery();
     /**
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-     *
      * <pre>
      * not yet supported in FacetedNavigation
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     io.dstore.elastic.Elastic.BoolQueryOrBuilder getBoolQueryOrBuilder();
 
@@ -3528,7 +3519,8 @@ public final class Elastic {
     }
     private Query(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -3618,11 +3610,10 @@ public final class Elastic {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -3673,11 +3664,11 @@ public final class Elastic {
           getValueBytes(int index);
 
       /**
-       * <code>optional bool allow_partial_matches = 3;</code>
-       *
        * <pre>
        * means: use the ".raw" (not analyzed) field
        * </pre>
+       *
+       * <code>optional bool allow_partial_matches = 3;</code>
        */
       boolean getAllowPartialMatches();
     }
@@ -3705,7 +3696,8 @@ public final class Elastic {
       }
       private Terms(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -3745,11 +3737,10 @@ public final class Elastic {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
             value_ = value_.getUnmodifiableView();
@@ -3836,11 +3827,11 @@ public final class Elastic {
       public static final int ALLOW_PARTIAL_MATCHES_FIELD_NUMBER = 3;
       private boolean allowPartialMatches_;
       /**
-       * <code>optional bool allow_partial_matches = 3;</code>
-       *
        * <pre>
        * means: use the ".raw" (not analyzed) field
        * </pre>
+       *
+       * <code>optional bool allow_partial_matches = 3;</code>
        */
       public boolean getAllowPartialMatches() {
         return allowPartialMatches_;
@@ -3917,34 +3908,40 @@ public final class Elastic {
       }
       public static io.dstore.elastic.Elastic.Query.Terms parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.Terms parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Query.Terms parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.Terms parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Query.Terms parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.Terms parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -4087,7 +4084,7 @@ public final class Elastic {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.elastic.Elastic.Query.Terms) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -4262,21 +4259,21 @@ public final class Elastic {
 
         private boolean allowPartialMatches_ ;
         /**
-         * <code>optional bool allow_partial_matches = 3;</code>
-         *
          * <pre>
          * means: use the ".raw" (not analyzed) field
          * </pre>
+         *
+         * <code>optional bool allow_partial_matches = 3;</code>
          */
         public boolean getAllowPartialMatches() {
           return allowPartialMatches_;
         }
         /**
-         * <code>optional bool allow_partial_matches = 3;</code>
-         *
          * <pre>
          * means: use the ".raw" (not analyzed) field
          * </pre>
+         *
+         * <code>optional bool allow_partial_matches = 3;</code>
          */
         public Builder setAllowPartialMatches(boolean value) {
           
@@ -4285,11 +4282,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>optional bool allow_partial_matches = 3;</code>
-         *
          * <pre>
          * means: use the ".raw" (not analyzed) field
          * </pre>
+         *
+         * <code>optional bool allow_partial_matches = 3;</code>
          */
         public Builder clearAllowPartialMatches() {
           
@@ -4327,16 +4324,7 @@ public final class Elastic {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Terms(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4391,7 +4379,8 @@ public final class Elastic {
       }
       private Type(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -4417,11 +4406,10 @@ public final class Elastic {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -4525,34 +4513,40 @@ public final class Elastic {
       }
       public static io.dstore.elastic.Elastic.Query.Type parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.Type parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Query.Type parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.Type parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Query.Type parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.Type parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -4669,7 +4663,7 @@ public final class Elastic {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.elastic.Elastic.Query.Type) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -4776,16 +4770,7 @@ public final class Elastic {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Type(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -4884,7 +4869,8 @@ public final class Elastic {
       }
       private Range(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -4934,11 +4920,10 @@ public final class Elastic {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -5202,34 +5187,40 @@ public final class Elastic {
       }
       public static io.dstore.elastic.Elastic.Query.Range parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.Range parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Query.Range parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.Range parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Query.Range parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.Range parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -5374,7 +5365,7 @@ public final class Elastic {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.elastic.Elastic.Query.Range) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -5757,16 +5748,7 @@ public final class Elastic {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new Range(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -5824,19 +5806,19 @@ public final class Elastic {
       boolean getUseAndAsDefaultOperator();
 
       /**
-       * <code>optional string minimum_should_match = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
        * </pre>
+       *
+       * <code>optional string minimum_should_match = 4;</code>
        */
       java.lang.String getMinimumShouldMatch();
       /**
-       * <code>optional string minimum_should_match = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
        * </pre>
+       *
+       * <code>optional string minimum_should_match = 4;</code>
        */
       com.google.protobuf.ByteString
           getMinimumShouldMatchBytes();
@@ -5866,7 +5848,8 @@ public final class Elastic {
       }
       private SimpleQueryString(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -5912,11 +5895,10 @@ public final class Elastic {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
             field_ = field_.getUnmodifiableView();
@@ -6012,11 +5994,11 @@ public final class Elastic {
       public static final int MINIMUM_SHOULD_MATCH_FIELD_NUMBER = 4;
       private volatile java.lang.Object minimumShouldMatch_;
       /**
-       * <code>optional string minimum_should_match = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
        * </pre>
+       *
+       * <code>optional string minimum_should_match = 4;</code>
        */
       public java.lang.String getMinimumShouldMatch() {
         java.lang.Object ref = minimumShouldMatch_;
@@ -6031,11 +6013,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional string minimum_should_match = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
        * </pre>
+       *
+       * <code>optional string minimum_should_match = 4;</code>
        */
       public com.google.protobuf.ByteString
           getMinimumShouldMatchBytes() {
@@ -6128,34 +6110,40 @@ public final class Elastic {
       }
       public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -6305,7 +6293,7 @@ public final class Elastic {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.elastic.Elastic.Query.SimpleQueryString) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -6506,11 +6494,11 @@ public final class Elastic {
 
         private java.lang.Object minimumShouldMatch_ = "";
         /**
-         * <code>optional string minimum_should_match = 4;</code>
-         *
          * <pre>
          * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
          * </pre>
+         *
+         * <code>optional string minimum_should_match = 4;</code>
          */
         public java.lang.String getMinimumShouldMatch() {
           java.lang.Object ref = minimumShouldMatch_;
@@ -6525,11 +6513,11 @@ public final class Elastic {
           }
         }
         /**
-         * <code>optional string minimum_should_match = 4;</code>
-         *
          * <pre>
          * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
          * </pre>
+         *
+         * <code>optional string minimum_should_match = 4;</code>
          */
         public com.google.protobuf.ByteString
             getMinimumShouldMatchBytes() {
@@ -6545,11 +6533,11 @@ public final class Elastic {
           }
         }
         /**
-         * <code>optional string minimum_should_match = 4;</code>
-         *
          * <pre>
          * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
          * </pre>
+         *
+         * <code>optional string minimum_should_match = 4;</code>
          */
         public Builder setMinimumShouldMatch(
             java.lang.String value) {
@@ -6562,11 +6550,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>optional string minimum_should_match = 4;</code>
-         *
          * <pre>
          * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
          * </pre>
+         *
+         * <code>optional string minimum_should_match = 4;</code>
          */
         public Builder clearMinimumShouldMatch() {
           
@@ -6575,11 +6563,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>optional string minimum_should_match = 4;</code>
-         *
          * <pre>
          * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
          * </pre>
+         *
+         * <code>optional string minimum_should_match = 4;</code>
          */
         public Builder setMinimumShouldMatchBytes(
             com.google.protobuf.ByteString value) {
@@ -6622,16 +6610,7 @@ public final class Elastic {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new SimpleQueryString(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -6660,11 +6639,19 @@ public final class Elastic {
       RANGE_QUERY(4),
       BOOL_QUERY(20),
       QUERY_NOT_SET(0);
-      private int value = 0;
+      private final int value;
       private QueryCase(int value) {
         this.value = value;
       }
+      /**
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
       public static QueryCase valueOf(int value) {
+        return forNumber(value);
+      }
+
+      public static QueryCase forNumber(int value) {
         switch (value) {
           case 1: return TERMS_QUERY;
           case 2: return TYPE_QUERY;
@@ -6672,8 +6659,7 @@ public final class Elastic {
           case 4: return RANGE_QUERY;
           case 20: return BOOL_QUERY;
           case 0: return QUERY_NOT_SET;
-          default: throw new java.lang.IllegalArgumentException(
-            "Value is undefined for this oneof enum.");
+          default: return null;
         }
       }
       public int getNumber() {
@@ -6683,17 +6669,17 @@ public final class Elastic {
 
     public QueryCase
     getQueryCase() {
-      return QueryCase.valueOf(
+      return QueryCase.forNumber(
           queryCase_);
     }
 
     public static final int TERMS_QUERY_FIELD_NUMBER = 1;
     /**
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     public io.dstore.elastic.Elastic.Query.Terms getTermsQuery() {
       if (queryCase_ == 1) {
@@ -6702,11 +6688,11 @@ public final class Elastic {
       return io.dstore.elastic.Elastic.Query.Terms.getDefaultInstance();
     }
     /**
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     public io.dstore.elastic.Elastic.Query.TermsOrBuilder getTermsQueryOrBuilder() {
       if (queryCase_ == 1) {
@@ -6717,11 +6703,11 @@ public final class Elastic {
 
     public static final int TYPE_QUERY_FIELD_NUMBER = 2;
     /**
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
      */
     public io.dstore.elastic.Elastic.Query.Type getTypeQuery() {
       if (queryCase_ == 2) {
@@ -6730,11 +6716,11 @@ public final class Elastic {
       return io.dstore.elastic.Elastic.Query.Type.getDefaultInstance();
     }
     /**
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
      */
     public io.dstore.elastic.Elastic.Query.TypeOrBuilder getTypeQueryOrBuilder() {
       if (queryCase_ == 2) {
@@ -6745,11 +6731,11 @@ public final class Elastic {
 
     public static final int SIMPLE_QUERY_STRING_QUERY_FIELD_NUMBER = 3;
     /**
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     public io.dstore.elastic.Elastic.Query.SimpleQueryString getSimpleQueryStringQuery() {
       if (queryCase_ == 3) {
@@ -6758,11 +6744,11 @@ public final class Elastic {
       return io.dstore.elastic.Elastic.Query.SimpleQueryString.getDefaultInstance();
     }
     /**
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     public io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder getSimpleQueryStringQueryOrBuilder() {
       if (queryCase_ == 3) {
@@ -6773,11 +6759,11 @@ public final class Elastic {
 
     public static final int RANGE_QUERY_FIELD_NUMBER = 4;
     /**
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
      */
     public io.dstore.elastic.Elastic.Query.Range getRangeQuery() {
       if (queryCase_ == 4) {
@@ -6786,11 +6772,11 @@ public final class Elastic {
       return io.dstore.elastic.Elastic.Query.Range.getDefaultInstance();
     }
     /**
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
+     *
+     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
      */
     public io.dstore.elastic.Elastic.Query.RangeOrBuilder getRangeQueryOrBuilder() {
       if (queryCase_ == 4) {
@@ -6801,11 +6787,11 @@ public final class Elastic {
 
     public static final int BOOL_QUERY_FIELD_NUMBER = 20;
     /**
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-     *
      * <pre>
      * not yet supported in FacetedNavigation
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     public io.dstore.elastic.Elastic.BoolQuery getBoolQuery() {
       if (queryCase_ == 20) {
@@ -6814,11 +6800,11 @@ public final class Elastic {
       return io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance();
     }
     /**
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-     *
      * <pre>
      * not yet supported in FacetedNavigation
      * </pre>
+     *
+     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     public io.dstore.elastic.Elastic.BoolQueryOrBuilder getBoolQueryOrBuilder() {
       if (queryCase_ == 20) {
@@ -6909,34 +6895,40 @@ public final class Elastic {
     }
     public static io.dstore.elastic.Elastic.Query parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Query parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.Elastic.Query parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Query parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.Elastic.Query parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Query parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -7109,7 +7101,7 @@ public final class Elastic {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.Elastic.Query) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -7121,7 +7113,7 @@ public final class Elastic {
       private java.lang.Object query_;
       public QueryCase
           getQueryCase() {
-        return QueryCase.valueOf(
+        return QueryCase.forNumber(
             queryCase_);
       }
 
@@ -7136,11 +7128,11 @@ public final class Elastic {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.Query.Terms, io.dstore.elastic.Elastic.Query.Terms.Builder, io.dstore.elastic.Elastic.Query.TermsOrBuilder> termsQueryBuilder_;
       /**
-       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
        */
       public io.dstore.elastic.Elastic.Query.Terms getTermsQuery() {
         if (termsQueryBuilder_ == null) {
@@ -7156,11 +7148,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
        */
       public Builder setTermsQuery(io.dstore.elastic.Elastic.Query.Terms value) {
         if (termsQueryBuilder_ == null) {
@@ -7176,11 +7168,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
        */
       public Builder setTermsQuery(
           io.dstore.elastic.Elastic.Query.Terms.Builder builderForValue) {
@@ -7194,11 +7186,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
        */
       public Builder mergeTermsQuery(io.dstore.elastic.Elastic.Query.Terms value) {
         if (termsQueryBuilder_ == null) {
@@ -7220,11 +7212,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
        */
       public Builder clearTermsQuery() {
         if (termsQueryBuilder_ == null) {
@@ -7243,21 +7235,21 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
        */
       public io.dstore.elastic.Elastic.Query.Terms.Builder getTermsQueryBuilder() {
         return getTermsQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
        */
       public io.dstore.elastic.Elastic.Query.TermsOrBuilder getTermsQueryOrBuilder() {
         if ((queryCase_ == 1) && (termsQueryBuilder_ != null)) {
@@ -7270,11 +7262,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.Query.Terms, io.dstore.elastic.Elastic.Query.Terms.Builder, io.dstore.elastic.Elastic.Query.TermsOrBuilder> 
@@ -7298,11 +7290,11 @@ public final class Elastic {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.Query.Type, io.dstore.elastic.Elastic.Query.Type.Builder, io.dstore.elastic.Elastic.Query.TypeOrBuilder> typeQueryBuilder_;
       /**
-       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
        */
       public io.dstore.elastic.Elastic.Query.Type getTypeQuery() {
         if (typeQueryBuilder_ == null) {
@@ -7318,11 +7310,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
        */
       public Builder setTypeQuery(io.dstore.elastic.Elastic.Query.Type value) {
         if (typeQueryBuilder_ == null) {
@@ -7338,11 +7330,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
        */
       public Builder setTypeQuery(
           io.dstore.elastic.Elastic.Query.Type.Builder builderForValue) {
@@ -7356,11 +7348,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
        */
       public Builder mergeTypeQuery(io.dstore.elastic.Elastic.Query.Type value) {
         if (typeQueryBuilder_ == null) {
@@ -7382,11 +7374,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
        */
       public Builder clearTypeQuery() {
         if (typeQueryBuilder_ == null) {
@@ -7405,21 +7397,21 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
        */
       public io.dstore.elastic.Elastic.Query.Type.Builder getTypeQueryBuilder() {
         return getTypeQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
        */
       public io.dstore.elastic.Elastic.Query.TypeOrBuilder getTypeQueryOrBuilder() {
         if ((queryCase_ == 2) && (typeQueryBuilder_ != null)) {
@@ -7432,11 +7424,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.Query.Type, io.dstore.elastic.Elastic.Query.Type.Builder, io.dstore.elastic.Elastic.Query.TypeOrBuilder> 
@@ -7460,11 +7452,11 @@ public final class Elastic {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.Query.SimpleQueryString, io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder, io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder> simpleQueryStringQueryBuilder_;
       /**
-       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
        */
       public io.dstore.elastic.Elastic.Query.SimpleQueryString getSimpleQueryStringQuery() {
         if (simpleQueryStringQueryBuilder_ == null) {
@@ -7480,11 +7472,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
        */
       public Builder setSimpleQueryStringQuery(io.dstore.elastic.Elastic.Query.SimpleQueryString value) {
         if (simpleQueryStringQueryBuilder_ == null) {
@@ -7500,11 +7492,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
        */
       public Builder setSimpleQueryStringQuery(
           io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder builderForValue) {
@@ -7518,11 +7510,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
        */
       public Builder mergeSimpleQueryStringQuery(io.dstore.elastic.Elastic.Query.SimpleQueryString value) {
         if (simpleQueryStringQueryBuilder_ == null) {
@@ -7544,11 +7536,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
        */
       public Builder clearSimpleQueryStringQuery() {
         if (simpleQueryStringQueryBuilder_ == null) {
@@ -7567,21 +7559,21 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
        */
       public io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder getSimpleQueryStringQueryBuilder() {
         return getSimpleQueryStringQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
        */
       public io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder getSimpleQueryStringQueryOrBuilder() {
         if ((queryCase_ == 3) && (simpleQueryStringQueryBuilder_ != null)) {
@@ -7594,11 +7586,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.Query.SimpleQueryString, io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder, io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder> 
@@ -7622,11 +7614,11 @@ public final class Elastic {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.Query.Range, io.dstore.elastic.Elastic.Query.Range.Builder, io.dstore.elastic.Elastic.Query.RangeOrBuilder> rangeQueryBuilder_;
       /**
-       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
        */
       public io.dstore.elastic.Elastic.Query.Range getRangeQuery() {
         if (rangeQueryBuilder_ == null) {
@@ -7642,11 +7634,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
        */
       public Builder setRangeQuery(io.dstore.elastic.Elastic.Query.Range value) {
         if (rangeQueryBuilder_ == null) {
@@ -7662,11 +7654,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
        */
       public Builder setRangeQuery(
           io.dstore.elastic.Elastic.Query.Range.Builder builderForValue) {
@@ -7680,11 +7672,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
        */
       public Builder mergeRangeQuery(io.dstore.elastic.Elastic.Query.Range value) {
         if (rangeQueryBuilder_ == null) {
@@ -7706,11 +7698,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
        */
       public Builder clearRangeQuery() {
         if (rangeQueryBuilder_ == null) {
@@ -7729,21 +7721,21 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
        */
       public io.dstore.elastic.Elastic.Query.Range.Builder getRangeQueryBuilder() {
         return getRangeQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
        */
       public io.dstore.elastic.Elastic.Query.RangeOrBuilder getRangeQueryOrBuilder() {
         if ((queryCase_ == 4) && (rangeQueryBuilder_ != null)) {
@@ -7756,11 +7748,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
-       *
        * <pre>
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
        * </pre>
+       *
+       * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.Query.Range, io.dstore.elastic.Elastic.Query.Range.Builder, io.dstore.elastic.Elastic.Query.RangeOrBuilder> 
@@ -7784,11 +7776,11 @@ public final class Elastic {
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> boolQueryBuilder_;
       /**
-       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-       *
        * <pre>
        * not yet supported in FacetedNavigation
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
        */
       public io.dstore.elastic.Elastic.BoolQuery getBoolQuery() {
         if (boolQueryBuilder_ == null) {
@@ -7804,11 +7796,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-       *
        * <pre>
        * not yet supported in FacetedNavigation
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
        */
       public Builder setBoolQuery(io.dstore.elastic.Elastic.BoolQuery value) {
         if (boolQueryBuilder_ == null) {
@@ -7824,11 +7816,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-       *
        * <pre>
        * not yet supported in FacetedNavigation
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
        */
       public Builder setBoolQuery(
           io.dstore.elastic.Elastic.BoolQuery.Builder builderForValue) {
@@ -7842,11 +7834,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-       *
        * <pre>
        * not yet supported in FacetedNavigation
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
        */
       public Builder mergeBoolQuery(io.dstore.elastic.Elastic.BoolQuery value) {
         if (boolQueryBuilder_ == null) {
@@ -7868,11 +7860,11 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-       *
        * <pre>
        * not yet supported in FacetedNavigation
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
        */
       public Builder clearBoolQuery() {
         if (boolQueryBuilder_ == null) {
@@ -7891,21 +7883,21 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-       *
        * <pre>
        * not yet supported in FacetedNavigation
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
        */
       public io.dstore.elastic.Elastic.BoolQuery.Builder getBoolQueryBuilder() {
         return getBoolQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-       *
        * <pre>
        * not yet supported in FacetedNavigation
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
        */
       public io.dstore.elastic.Elastic.BoolQueryOrBuilder getBoolQueryOrBuilder() {
         if ((queryCase_ == 20) && (boolQueryBuilder_ != null)) {
@@ -7918,11 +7910,11 @@ public final class Elastic {
         }
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
-       *
        * <pre>
        * not yet supported in FacetedNavigation
        * </pre>
+       *
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> 
@@ -7972,16 +7964,7 @@ public final class Elastic {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Query(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -8025,11 +8008,11 @@ public final class Elastic {
     public io.dstore.elastic.Elastic.Sort.SortByCase getSortByCase();
   }
   /**
-   * Protobuf type {@code dstore.elastic.Sort}
-   *
    * <pre>
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-sort.html
    * </pre>
+   *
+   * Protobuf type {@code dstore.elastic.Sort}
    */
   public  static final class Sort extends
       com.google.protobuf.GeneratedMessage implements
@@ -8049,7 +8032,8 @@ public final class Elastic {
     }
     private Sort(
         com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       int mutable_bitField0_ = 0;
       try {
@@ -8097,11 +8081,10 @@ public final class Elastic {
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
+        throw e.setUnfinishedMessage(this);
       } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
       } finally {
         makeExtensionsImmutable();
       }
@@ -8126,12 +8109,12 @@ public final class Elastic {
       /**
        * <code>ASCENDING = 0;</code>
        */
-      ASCENDING(0, 0),
+      ASCENDING(0),
       /**
        * <code>DESCENDING = 1;</code>
        */
-      DESCENDING(1, 1),
-      UNRECOGNIZED(-1, -1),
+      DESCENDING(1),
+      UNRECOGNIZED(-1),
       ;
 
       /**
@@ -8145,14 +8128,22 @@ public final class Elastic {
 
 
       public final int getNumber() {
-        if (index == -1) {
+        if (this == UNRECOGNIZED) {
           throw new java.lang.IllegalArgumentException(
               "Can't get the number of an unknown enum value.");
         }
         return value;
       }
 
+      /**
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
       public static Order valueOf(int value) {
+        return forNumber(value);
+      }
+
+      public static Order forNumber(int value) {
         switch (value) {
           case 0: return ASCENDING;
           case 1: return DESCENDING;
@@ -8168,13 +8159,13 @@ public final class Elastic {
           Order> internalValueMap =
             new com.google.protobuf.Internal.EnumLiteMap<Order>() {
               public Order findValueByNumber(int number) {
-                return Order.valueOf(number);
+                return Order.forNumber(number);
               }
             };
 
       public final com.google.protobuf.Descriptors.EnumValueDescriptor
           getValueDescriptor() {
-        return getDescriptor().getValues().get(index);
+        return getDescriptor().getValues().get(ordinal());
       }
       public final com.google.protobuf.Descriptors.EnumDescriptor
           getDescriptorForType() {
@@ -8199,11 +8190,9 @@ public final class Elastic {
         return VALUES[desc.getIndex()];
       }
 
-      private final int index;
       private final int value;
 
-      private Order(int index, int value) {
-        this.index = index;
+      private Order(int value) {
         this.value = value;
       }
 
@@ -8218,12 +8207,12 @@ public final class Elastic {
       /**
        * <code>LAST = 0;</code>
        */
-      LAST(0, 0),
+      LAST(0),
       /**
        * <code>FIRST = 1;</code>
        */
-      FIRST(1, 1),
-      UNRECOGNIZED(-1, -1),
+      FIRST(1),
+      UNRECOGNIZED(-1),
       ;
 
       /**
@@ -8237,14 +8226,22 @@ public final class Elastic {
 
 
       public final int getNumber() {
-        if (index == -1) {
+        if (this == UNRECOGNIZED) {
           throw new java.lang.IllegalArgumentException(
               "Can't get the number of an unknown enum value.");
         }
         return value;
       }
 
+      /**
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
       public static Missing valueOf(int value) {
+        return forNumber(value);
+      }
+
+      public static Missing forNumber(int value) {
         switch (value) {
           case 0: return LAST;
           case 1: return FIRST;
@@ -8260,13 +8257,13 @@ public final class Elastic {
           Missing> internalValueMap =
             new com.google.protobuf.Internal.EnumLiteMap<Missing>() {
               public Missing findValueByNumber(int number) {
-                return Missing.valueOf(number);
+                return Missing.forNumber(number);
               }
             };
 
       public final com.google.protobuf.Descriptors.EnumValueDescriptor
           getValueDescriptor() {
-        return getDescriptor().getValues().get(index);
+        return getDescriptor().getValues().get(ordinal());
       }
       public final com.google.protobuf.Descriptors.EnumDescriptor
           getDescriptorForType() {
@@ -8291,11 +8288,9 @@ public final class Elastic {
         return VALUES[desc.getIndex()];
       }
 
-      private final int index;
       private final int value;
 
-      private Missing(int index, int value) {
-        this.index = index;
+      private Missing(int value) {
         this.value = value;
       }
 
@@ -8310,28 +8305,28 @@ public final class Elastic {
       /**
        * <code>UNDEFINED = 0;</code>
        */
-      UNDEFINED(0, 0),
+      UNDEFINED(0),
       /**
        * <code>MIN = 1;</code>
        */
-      MIN(1, 1),
+      MIN(1),
       /**
        * <code>MAX = 2;</code>
        */
-      MAX(2, 2),
+      MAX(2),
       /**
        * <code>SUM = 3;</code>
        */
-      SUM(3, 3),
+      SUM(3),
       /**
        * <code>AVG = 4;</code>
        */
-      AVG(4, 4),
+      AVG(4),
       /**
        * <code>MEDIAN = 5;</code>
        */
-      MEDIAN(5, 5),
-      UNRECOGNIZED(-1, -1),
+      MEDIAN(5),
+      UNRECOGNIZED(-1),
       ;
 
       /**
@@ -8361,14 +8356,22 @@ public final class Elastic {
 
 
       public final int getNumber() {
-        if (index == -1) {
+        if (this == UNRECOGNIZED) {
           throw new java.lang.IllegalArgumentException(
               "Can't get the number of an unknown enum value.");
         }
         return value;
       }
 
+      /**
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
       public static Mode valueOf(int value) {
+        return forNumber(value);
+      }
+
+      public static Mode forNumber(int value) {
         switch (value) {
           case 0: return UNDEFINED;
           case 1: return MIN;
@@ -8388,13 +8391,13 @@ public final class Elastic {
           Mode> internalValueMap =
             new com.google.protobuf.Internal.EnumLiteMap<Mode>() {
               public Mode findValueByNumber(int number) {
-                return Mode.valueOf(number);
+                return Mode.forNumber(number);
               }
             };
 
       public final com.google.protobuf.Descriptors.EnumValueDescriptor
           getValueDescriptor() {
-        return getDescriptor().getValues().get(index);
+        return getDescriptor().getValues().get(ordinal());
       }
       public final com.google.protobuf.Descriptors.EnumDescriptor
           getDescriptorForType() {
@@ -8419,11 +8422,9 @@ public final class Elastic {
         return VALUES[desc.getIndex()];
       }
 
-      private final int index;
       private final int value;
 
-      private Mode(int index, int value) {
-        this.index = index;
+      private Mode(int value) {
         this.value = value;
       }
 
@@ -8455,7 +8456,8 @@ public final class Elastic {
       }
       private ScoreSort(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         try {
           boolean done = false;
@@ -8474,11 +8476,10 @@ public final class Elastic {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           makeExtensionsImmutable();
         }
@@ -8542,34 +8543,40 @@ public final class Elastic {
       }
       public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Sort.ScoreSort parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Sort.ScoreSort parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -8679,7 +8686,7 @@ public final class Elastic {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.elastic.Elastic.Sort.ScoreSort) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -8717,16 +8724,7 @@ public final class Elastic {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new ScoreSort(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -8787,45 +8785,45 @@ public final class Elastic {
       io.dstore.elastic.Elastic.Sort.Mode getSortMode();
 
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-       *
        * <pre>
        * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
        * </pre>
+       *
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
        */
       java.util.List<io.dstore.elastic.Elastic.Query> 
           getNestedFilterList();
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-       *
        * <pre>
        * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
        * </pre>
+       *
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
        */
       io.dstore.elastic.Elastic.Query getNestedFilter(int index);
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-       *
        * <pre>
        * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
        * </pre>
+       *
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
        */
       int getNestedFilterCount();
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-       *
        * <pre>
        * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
        * </pre>
+       *
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
        */
       java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
           getNestedFilterOrBuilderList();
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-       *
        * <pre>
        * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
        * </pre>
+       *
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
        */
       io.dstore.elastic.Elastic.QueryOrBuilder getNestedFilterOrBuilder(
           int index);
@@ -8856,7 +8854,8 @@ public final class Elastic {
       }
       private FieldSort(
           com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
         this();
         int mutable_bitField0_ = 0;
         try {
@@ -8908,11 +8907,10 @@ public final class Elastic {
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          throw new RuntimeException(e.setUnfinishedMessage(this));
+          throw e.setUnfinishedMessage(this);
         } catch (java.io.IOException e) {
-          throw new RuntimeException(
-              new com.google.protobuf.InvalidProtocolBufferException(
-                  e.getMessage()).setUnfinishedMessage(this));
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
         } finally {
           if (((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
             nestedFilter_ = java.util.Collections.unmodifiableList(nestedFilter_);
@@ -8979,7 +8977,7 @@ public final class Elastic {
        * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
        */
       public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-        io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
+        io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.forNumber(sortOrder_);
         return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
       }
 
@@ -8995,7 +8993,7 @@ public final class Elastic {
        * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
        */
       public io.dstore.elastic.Elastic.Sort.Missing getMissingTreatment() {
-        io.dstore.elastic.Elastic.Sort.Missing result = io.dstore.elastic.Elastic.Sort.Missing.valueOf(missingTreatment_);
+        io.dstore.elastic.Elastic.Sort.Missing result = io.dstore.elastic.Elastic.Sort.Missing.forNumber(missingTreatment_);
         return result == null ? io.dstore.elastic.Elastic.Sort.Missing.UNRECOGNIZED : result;
       }
 
@@ -9011,59 +9009,59 @@ public final class Elastic {
        * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
        */
       public io.dstore.elastic.Elastic.Sort.Mode getSortMode() {
-        io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.valueOf(sortMode_);
+        io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.forNumber(sortMode_);
         return result == null ? io.dstore.elastic.Elastic.Sort.Mode.UNRECOGNIZED : result;
       }
 
       public static final int NESTED_FILTER_FIELD_NUMBER = 5;
       private java.util.List<io.dstore.elastic.Elastic.Query> nestedFilter_;
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-       *
        * <pre>
        * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
        * </pre>
+       *
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
        */
       public java.util.List<io.dstore.elastic.Elastic.Query> getNestedFilterList() {
         return nestedFilter_;
       }
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-       *
        * <pre>
        * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
        * </pre>
+       *
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
        */
       public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
           getNestedFilterOrBuilderList() {
         return nestedFilter_;
       }
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-       *
        * <pre>
        * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
        * </pre>
+       *
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
        */
       public int getNestedFilterCount() {
         return nestedFilter_.size();
       }
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-       *
        * <pre>
        * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
        * </pre>
+       *
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
        */
       public io.dstore.elastic.Elastic.Query getNestedFilter(int index) {
         return nestedFilter_.get(index);
       }
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-       *
        * <pre>
        * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
        * </pre>
+       *
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
        */
       public io.dstore.elastic.Elastic.QueryOrBuilder getNestedFilterOrBuilder(
           int index) {
@@ -9151,34 +9149,40 @@ public final class Elastic {
       }
       public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Sort.FieldSort parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Sort.FieldSort parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return PARSER.parseFrom(input);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return PARSER.parseFrom(input, extensionRegistry);
+        return com.google.protobuf.GeneratedMessage
+            .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
       public Builder newBuilderForType() { return newBuilder(); }
@@ -9358,7 +9362,7 @@ public final class Elastic {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
             parsedMessage = (io.dstore.elastic.Elastic.Sort.FieldSort) e.getUnfinishedMessage();
-            throw e;
+            throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
               mergeFrom(parsedMessage);
@@ -9456,7 +9460,7 @@ public final class Elastic {
          * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
          */
         public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
+          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.forNumber(sortOrder_);
           return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
         }
         /**
@@ -9500,7 +9504,7 @@ public final class Elastic {
          * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
          */
         public io.dstore.elastic.Elastic.Sort.Missing getMissingTreatment() {
-          io.dstore.elastic.Elastic.Sort.Missing result = io.dstore.elastic.Elastic.Sort.Missing.valueOf(missingTreatment_);
+          io.dstore.elastic.Elastic.Sort.Missing result = io.dstore.elastic.Elastic.Sort.Missing.forNumber(missingTreatment_);
           return result == null ? io.dstore.elastic.Elastic.Sort.Missing.UNRECOGNIZED : result;
         }
         /**
@@ -9544,7 +9548,7 @@ public final class Elastic {
          * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
          */
         public io.dstore.elastic.Elastic.Sort.Mode getSortMode() {
-          io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.valueOf(sortMode_);
+          io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.forNumber(sortMode_);
           return result == null ? io.dstore.elastic.Elastic.Sort.Mode.UNRECOGNIZED : result;
         }
         /**
@@ -9582,11 +9586,11 @@ public final class Elastic {
             io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> nestedFilterBuilder_;
 
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public java.util.List<io.dstore.elastic.Elastic.Query> getNestedFilterList() {
           if (nestedFilterBuilder_ == null) {
@@ -9596,11 +9600,11 @@ public final class Elastic {
           }
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public int getNestedFilterCount() {
           if (nestedFilterBuilder_ == null) {
@@ -9610,11 +9614,11 @@ public final class Elastic {
           }
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public io.dstore.elastic.Elastic.Query getNestedFilter(int index) {
           if (nestedFilterBuilder_ == null) {
@@ -9624,11 +9628,11 @@ public final class Elastic {
           }
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public Builder setNestedFilter(
             int index, io.dstore.elastic.Elastic.Query value) {
@@ -9645,11 +9649,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public Builder setNestedFilter(
             int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
@@ -9663,11 +9667,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public Builder addNestedFilter(io.dstore.elastic.Elastic.Query value) {
           if (nestedFilterBuilder_ == null) {
@@ -9683,11 +9687,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public Builder addNestedFilter(
             int index, io.dstore.elastic.Elastic.Query value) {
@@ -9704,11 +9708,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public Builder addNestedFilter(
             io.dstore.elastic.Elastic.Query.Builder builderForValue) {
@@ -9722,11 +9726,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public Builder addNestedFilter(
             int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
@@ -9740,11 +9744,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public Builder addAllNestedFilter(
             java.lang.Iterable<? extends io.dstore.elastic.Elastic.Query> values) {
@@ -9759,11 +9763,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public Builder clearNestedFilter() {
           if (nestedFilterBuilder_ == null) {
@@ -9776,11 +9780,11 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public Builder removeNestedFilter(int index) {
           if (nestedFilterBuilder_ == null) {
@@ -9793,22 +9797,22 @@ public final class Elastic {
           return this;
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public io.dstore.elastic.Elastic.Query.Builder getNestedFilterBuilder(
             int index) {
           return getNestedFilterFieldBuilder().getBuilder(index);
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public io.dstore.elastic.Elastic.QueryOrBuilder getNestedFilterOrBuilder(
             int index) {
@@ -9818,11 +9822,11 @@ public final class Elastic {
           }
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
              getNestedFilterOrBuilderList() {
@@ -9833,22 +9837,22 @@ public final class Elastic {
           }
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public io.dstore.elastic.Elastic.Query.Builder addNestedFilterBuilder() {
           return getNestedFilterFieldBuilder().addBuilder(
               io.dstore.elastic.Elastic.Query.getDefaultInstance());
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public io.dstore.elastic.Elastic.Query.Builder addNestedFilterBuilder(
             int index) {
@@ -9856,11 +9860,11 @@ public final class Elastic {
               index, io.dstore.elastic.Elastic.Query.getDefaultInstance());
         }
         /**
-         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
-         *
          * <pre>
          * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
          * </pre>
+         *
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
          */
         public java.util.List<io.dstore.elastic.Elastic.Query.Builder> 
              getNestedFilterBuilderList() {
@@ -9910,16 +9914,7 @@ public final class Elastic {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          try {
             return new FieldSort(input, extensionRegistry);
-          } catch (RuntimeException e) {
-            if (e.getCause() instanceof
-                com.google.protobuf.InvalidProtocolBufferException) {
-              throw (com.google.protobuf.InvalidProtocolBufferException)
-                  e.getCause();
-            }
-            throw e;
-          }
         }
       };
 
@@ -9945,17 +9940,24 @@ public final class Elastic {
       FIELD_SORT(1),
       SCORE_SORT(2),
       SORTBY_NOT_SET(0);
-      private int value = 0;
+      private final int value;
       private SortByCase(int value) {
         this.value = value;
       }
+      /**
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
       public static SortByCase valueOf(int value) {
+        return forNumber(value);
+      }
+
+      public static SortByCase forNumber(int value) {
         switch (value) {
           case 1: return FIELD_SORT;
           case 2: return SCORE_SORT;
           case 0: return SORTBY_NOT_SET;
-          default: throw new java.lang.IllegalArgumentException(
-            "Value is undefined for this oneof enum.");
+          default: return null;
         }
       }
       public int getNumber() {
@@ -9965,7 +9967,7 @@ public final class Elastic {
 
     public SortByCase
     getSortByCase() {
-      return SortByCase.valueOf(
+      return SortByCase.forNumber(
           sortByCase_);
     }
 
@@ -10070,34 +10072,40 @@ public final class Elastic {
     }
     public static io.dstore.elastic.Elastic.Sort parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Sort parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.Elastic.Sort parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Sort parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.Elastic.Sort parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return PARSER.parseFrom(input);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.Elastic.Sort parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
     public Builder newBuilderForType() { return newBuilder(); }
@@ -10119,11 +10127,11 @@ public final class Elastic {
       return builder;
     }
     /**
-     * Protobuf type {@code dstore.elastic.Sort}
-     *
      * <pre>
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-sort.html
      * </pre>
+     *
+     * Protobuf type {@code dstore.elastic.Sort}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
@@ -10241,7 +10249,7 @@ public final class Elastic {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
           parsedMessage = (io.dstore.elastic.Elastic.Sort) e.getUnfinishedMessage();
-          throw e;
+          throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
             mergeFrom(parsedMessage);
@@ -10253,7 +10261,7 @@ public final class Elastic {
       private java.lang.Object sortBy_;
       public SortByCase
           getSortByCase() {
-        return SortByCase.valueOf(
+        return SortByCase.forNumber(
             sortByCase_);
       }
 
@@ -10554,16 +10562,7 @@ public final class Elastic {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
           return new Sort(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
       }
     };
 
@@ -10582,59 +10581,59 @@ public final class Elastic {
 
   }
 
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Field_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Field_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Range_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Range_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_BoolQuery_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_BoolQuery_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Query_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Query_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Query_Terms_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Query_Terms_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Query_Type_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Query_Type_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Query_Range_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Query_Range_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Query_SimpleQueryString_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Sort_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Sort_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Sort_ScoreSort_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Sort_FieldSort_descriptor;
-  private static
+  private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Sort_FieldSort_fieldAccessorTable;
 
@@ -10642,7 +10641,7 @@ public final class Elastic {
       getDescriptor() {
     return descriptor;
   }
-  private static com.google.protobuf.Descriptors.FileDescriptor
+  private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
     java.lang.String[] descriptorData = {
