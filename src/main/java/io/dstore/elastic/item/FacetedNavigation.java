@@ -5127,19 +5127,6 @@ public final class FacetedNavigation {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    io.dstore.elastic.ElasticError.Error getError();
-    /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    io.dstore.elastic.ElasticError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>optional int32 total_hits = 2;</code>
      */
     int getTotalHits();
@@ -5245,36 +5232,23 @@ public final class FacetedNavigation {
               }
               break;
             }
-            case 10: {
-              io.dstore.elastic.ElasticError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.elastic.ElasticError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 16: {
 
               totalHits_ = input.readInt32();
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 item_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               item_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Item.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 facet_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facet>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               facet_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Facet.parser(), extensionRegistry));
               break;
@@ -5293,10 +5267,10 @@ public final class FacetedNavigation {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           item_ = java.util.Collections.unmodifiableList(item_);
         }
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           facet_ = java.util.Collections.unmodifiableList(facet_);
         }
         makeExtensionsImmutable();
@@ -5315,27 +5289,6 @@ public final class FacetedNavigation {
     }
 
     private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.elastic.ElasticError.Error error_;
-    /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    public io.dstore.elastic.ElasticError.Error getError() {
-      return error_ == null ? io.dstore.elastic.ElasticError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    public io.dstore.elastic.ElasticError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int TOTAL_HITS_FIELD_NUMBER = 2;
     private int totalHits_;
     /**
@@ -5461,9 +5414,6 @@ public final class FacetedNavigation {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       if (totalHits_ != 0) {
         output.writeInt32(2, totalHits_);
       }
@@ -5483,10 +5433,6 @@ public final class FacetedNavigation {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       if (totalHits_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(2, totalHits_);
@@ -5621,23 +5567,17 @@ public final class FacetedNavigation {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         totalHits_ = 0;
 
         if (itemBuilder_ == null) {
           item_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           itemBuilder_.clear();
         }
         if (facetBuilder_ == null) {
           facet_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           facetBuilder_.clear();
         }
@@ -5667,25 +5607,20 @@ public final class FacetedNavigation {
         io.dstore.elastic.item.FacetedNavigation.Response result = new io.dstore.elastic.item.FacetedNavigation.Response(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         result.totalHits_ = totalHits_;
         if (itemBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             item_ = java.util.Collections.unmodifiableList(item_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.item_ = item_;
         } else {
           result.item_ = itemBuilder_.build();
         }
         if (facetBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             facet_ = java.util.Collections.unmodifiableList(facet_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.facet_ = facet_;
         } else {
@@ -5708,9 +5643,6 @@ public final class FacetedNavigation {
 
       public Builder mergeFrom(io.dstore.elastic.item.FacetedNavigation.Response other) {
         if (other == io.dstore.elastic.item.FacetedNavigation.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (other.getTotalHits() != 0) {
           setTotalHits(other.getTotalHits());
         }
@@ -5718,7 +5650,7 @@ public final class FacetedNavigation {
           if (!other.item_.isEmpty()) {
             if (item_.isEmpty()) {
               item_ = other.item_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureItemIsMutable();
               item_.addAll(other.item_);
@@ -5731,7 +5663,7 @@ public final class FacetedNavigation {
               itemBuilder_.dispose();
               itemBuilder_ = null;
               item_ = other.item_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               itemBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getItemFieldBuilder() : null;
@@ -5744,7 +5676,7 @@ public final class FacetedNavigation {
           if (!other.facet_.isEmpty()) {
             if (facet_.isEmpty()) {
               facet_ = other.facet_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureFacetIsMutable();
               facet_.addAll(other.facet_);
@@ -5757,7 +5689,7 @@ public final class FacetedNavigation {
               facetBuilder_.dispose();
               facetBuilder_ = null;
               facet_ = other.facet_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               facetBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getFacetFieldBuilder() : null;
@@ -5797,123 +5729,6 @@ public final class FacetedNavigation {
       }
       private int bitField0_;
 
-      private io.dstore.elastic.ElasticError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.elastic.ElasticError.Error, io.dstore.elastic.ElasticError.Error.Builder, io.dstore.elastic.ElasticError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public io.dstore.elastic.ElasticError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.elastic.ElasticError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.elastic.ElasticError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.elastic.ElasticError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.elastic.ElasticError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.elastic.ElasticError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public io.dstore.elastic.ElasticError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public io.dstore.elastic.ElasticError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.elastic.ElasticError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.elastic.ElasticError.Error, io.dstore.elastic.ElasticError.Error.Builder, io.dstore.elastic.ElasticError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.elastic.ElasticError.Error, io.dstore.elastic.ElasticError.Error.Builder, io.dstore.elastic.ElasticError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private int totalHits_ ;
       /**
        * <code>optional int32 total_hits = 2;</code>
@@ -5943,9 +5758,9 @@ public final class FacetedNavigation {
       private java.util.List<io.dstore.elastic.item.ElasticItem.Item> item_ =
         java.util.Collections.emptyList();
       private void ensureItemIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           item_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item>(item_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -6095,7 +5910,7 @@ public final class FacetedNavigation {
       public Builder clearItem() {
         if (itemBuilder_ == null) {
           item_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           itemBuilder_.clear();
@@ -6172,7 +5987,7 @@ public final class FacetedNavigation {
           itemBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder>(
                   item_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           item_ = null;
@@ -6183,9 +5998,9 @@ public final class FacetedNavigation {
       private java.util.List<io.dstore.elastic.item.ElasticItem.Facet> facet_ =
         java.util.Collections.emptyList();
       private void ensureFacetIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           facet_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facet>(facet_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -6335,7 +6150,7 @@ public final class FacetedNavigation {
       public Builder clearFacet() {
         if (facetBuilder_ == null) {
           facet_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           facetBuilder_.clear();
@@ -6412,7 +6227,7 @@ public final class FacetedNavigation {
           facetBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.elastic.item.ElasticItem.Facet, io.dstore.elastic.item.ElasticItem.Facet.Builder, io.dstore.elastic.item.ElasticItem.FacetOrBuilder>(
                   facet_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           facet_ = null;
@@ -6579,36 +6394,35 @@ public final class FacetedNavigation {
       "\n+dstore/elastic/item/facetednavigation." +
       "proto\022 dstore.elastic.facetednavigation\032" +
       "\034dstore/elastic/elastic.proto\032\036dstore/el" +
-      "astic/item/item.proto\032\032dstore/elastic/er" +
-      "ror.proto\"\325\006\n\007Request\022-\n\nbase_query\030\001 \001(" +
-      "\0132\031.dstore.elastic.BoolQuery\022-\n\npost_que" +
-      "ry\030\002 \001(\0132\031.dstore.elastic.BoolQuery\022>\n\005f" +
-      "acet\030\003 \003(\0132/.dstore.elastic.facetednavig" +
-      "ation.Request.Facet\022I\n\013range_facet\030\005 \003(\013" +
-      "24.dstore.elastic.facetednavigation.Requ",
-      "est.RangeFacet\022N\n\020date_range_facet\030\006 \003(\013" +
-      "24.dstore.elastic.facetednavigation.Requ" +
-      "est.RangeFacet\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013 \001" +
-      "(\005\022\"\n\004sort\030\024 \003(\0132\024.dstore.elastic.Sort\032F" +
-      "\n\nRangeFacet\022\022\n\nfield_name\030\001 \001(\t\022$\n\005rang" +
-      "e\030\002 \003(\0132\025.dstore.elastic.Range\032\210\003\n\005Facet" +
-      "\022\022\n\nfield_name\030\001 \001(\t\022R\n\014sort_no_sort\030\002 \001" +
-      "(\0132:.dstore.elastic.facetednavigation.Re" +
-      "quest.Facet.SortNoSortH\000\022O\n\nfield_sort\030\003" +
-      " \001(\01329.dstore.elastic.facetednavigation.",
-      "Request.Facet.FieldSortH\000\032<\n\nSortNoSort\022" +
-      ".\n\nsort_order\030\001 \001(\0162\032.dstore.elastic.Sor" +
-      "t.Order\032}\n\tFieldSort\022\022\n\nfield_name\030\001 \001(\t" +
-      "\022.\n\nsort_order\030\002 \001(\0162\032.dstore.elastic.So" +
-      "rt.Order\022,\n\tsort_mode\030\003 \001(\0162\031.dstore.ela" +
-      "stic.Sort.ModeB\t\n\007sort_by\"\274\001\n\010Response\022*" +
-      "\n\005error\030\001 \001(\0132\033.dstore.elastic.error.Err" +
-      "or\022\022\n\ntotal_hits\030\002 \001(\005\022\'\n\004item\030\003 \003(\0132\031.d" +
-      "store.elastic.item.Item\022)\n\005facet\030\004 \003(\0132\032" +
-      ".dstore.elastic.item.Facet\022\034\n\024elastic_qu",
-      "ery_string\030\005 \001(\tB\\\n\026io.dstore.elastic.it" +
-      "emB\021FacetedNavigationZ/gosdk.dstore.de/e" +
-      "lastic/item/faceted_navigationb\006proto3"
+      "astic/item/item.proto\"\325\006\n\007Request\022-\n\nbas" +
+      "e_query\030\001 \001(\0132\031.dstore.elastic.BoolQuery" +
+      "\022-\n\npost_query\030\002 \001(\0132\031.dstore.elastic.Bo" +
+      "olQuery\022>\n\005facet\030\003 \003(\0132/.dstore.elastic." +
+      "facetednavigation.Request.Facet\022I\n\013range" +
+      "_facet\030\005 \003(\01324.dstore.elastic.facetednav" +
+      "igation.Request.RangeFacet\022N\n\020date_range",
+      "_facet\030\006 \003(\01324.dstore.elastic.facetednav" +
+      "igation.Request.RangeFacet\022\014\n\004from\030\n \001(\005" +
+      "\022\014\n\004size\030\013 \001(\005\022\"\n\004sort\030\024 \003(\0132\024.dstore.el" +
+      "astic.Sort\032F\n\nRangeFacet\022\022\n\nfield_name\030\001" +
+      " \001(\t\022$\n\005range\030\002 \003(\0132\025.dstore.elastic.Ran" +
+      "ge\032\210\003\n\005Facet\022\022\n\nfield_name\030\001 \001(\t\022R\n\014sort" +
+      "_no_sort\030\002 \001(\0132:.dstore.elastic.facetedn" +
+      "avigation.Request.Facet.SortNoSortH\000\022O\n\n" +
+      "field_sort\030\003 \001(\01329.dstore.elastic.facete" +
+      "dnavigation.Request.Facet.FieldSortH\000\032<\n",
+      "\nSortNoSort\022.\n\nsort_order\030\001 \001(\0162\032.dstore" +
+      ".elastic.Sort.Order\032}\n\tFieldSort\022\022\n\nfiel" +
+      "d_name\030\001 \001(\t\022.\n\nsort_order\030\002 \001(\0162\032.dstor" +
+      "e.elastic.Sort.Order\022,\n\tsort_mode\030\003 \001(\0162" +
+      "\031.dstore.elastic.Sort.ModeB\t\n\007sort_by\"\220\001" +
+      "\n\010Response\022\022\n\ntotal_hits\030\002 \001(\005\022\'\n\004item\030\003" +
+      " \003(\0132\031.dstore.elastic.item.Item\022)\n\005facet" +
+      "\030\004 \003(\0132\032.dstore.elastic.item.Facet\022\034\n\024el" +
+      "astic_query_string\030\005 \001(\tB\\\n\026io.dstore.el" +
+      "astic.itemB\021FacetedNavigationZ/gosdk.dst",
+      "ore.de/elastic/item/faceted_navigationb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -6623,7 +6437,6 @@ public final class FacetedNavigation {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.elastic.Elastic.getDescriptor(),
           io.dstore.elastic.item.ElasticItem.getDescriptor(),
-          io.dstore.elastic.ElasticError.getDescriptor(),
         }, assigner);
     internal_static_dstore_elastic_facetednavigation_Request_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -6660,10 +6473,9 @@ public final class FacetedNavigation {
     internal_static_dstore_elastic_facetednavigation_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Response_descriptor,
-        new java.lang.String[] { "Error", "TotalHits", "Item", "Facet", "ElasticQueryString", });
+        new java.lang.String[] { "TotalHits", "Item", "Facet", "ElasticQueryString", });
     io.dstore.elastic.Elastic.getDescriptor();
     io.dstore.elastic.item.ElasticItem.getDescriptor();
-    io.dstore.elastic.ElasticError.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1128,19 +1128,6 @@ public final class Suggest {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    boolean hasError();
-    /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    io.dstore.elastic.ElasticError.Error getError();
-    /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    io.dstore.elastic.ElasticError.ErrorOrBuilder getErrorOrBuilder();
-
-    /**
      * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
      */
     java.util.List<io.dstore.elastic.item.Suggest.Response.Suggestion> 
@@ -1240,31 +1227,18 @@ public final class Suggest {
               }
               break;
             }
-            case 10: {
-              io.dstore.elastic.ElasticError.Error.Builder subBuilder = null;
-              if (error_ != null) {
-                subBuilder = error_.toBuilder();
-              }
-              error_ = input.readMessage(io.dstore.elastic.ElasticError.Error.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(error_);
-                error_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
                 suggestion_ = new java.util.ArrayList<io.dstore.elastic.item.Suggest.Response.Suggestion>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               suggestion_.add(input.readMessage(io.dstore.elastic.item.Suggest.Response.Suggestion.parser(), extensionRegistry));
               break;
             }
             case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                 matchingItem_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               matchingItem_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Item.parser(), extensionRegistry));
               break;
@@ -1283,10 +1257,10 @@ public final class Suggest {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
           suggestion_ = java.util.Collections.unmodifiableList(suggestion_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
           matchingItem_ = java.util.Collections.unmodifiableList(matchingItem_);
         }
         makeExtensionsImmutable();
@@ -1943,27 +1917,6 @@ public final class Suggest {
     }
 
     private int bitField0_;
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.elastic.ElasticError.Error error_;
-    /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    public boolean hasError() {
-      return error_ != null;
-    }
-    /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    public io.dstore.elastic.ElasticError.Error getError() {
-      return error_ == null ? io.dstore.elastic.ElasticError.Error.getDefaultInstance() : error_;
-    }
-    /**
-     * <code>optional .dstore.elastic.error.Error error = 1;</code>
-     */
-    public io.dstore.elastic.ElasticError.ErrorOrBuilder getErrorOrBuilder() {
-      return getError();
-    }
-
     public static final int SUGGESTION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.elastic.item.Suggest.Response.Suggestion> suggestion_;
     /**
@@ -2080,9 +2033,6 @@ public final class Suggest {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != null) {
-        output.writeMessage(1, getError());
-      }
       for (int i = 0; i < suggestion_.size(); i++) {
         output.writeMessage(2, suggestion_.get(i));
       }
@@ -2099,10 +2049,6 @@ public final class Suggest {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getError());
-      }
       for (int i = 0; i < suggestion_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, suggestion_.get(i));
@@ -2233,21 +2179,15 @@ public final class Suggest {
       }
       public Builder clear() {
         super.clear();
-        if (errorBuilder_ == null) {
-          error_ = null;
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
         if (suggestionBuilder_ == null) {
           suggestion_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           suggestionBuilder_.clear();
         }
         if (matchingItemBuilder_ == null) {
           matchingItem_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           matchingItemBuilder_.clear();
         }
@@ -2277,24 +2217,19 @@ public final class Suggest {
         io.dstore.elastic.item.Suggest.Response result = new io.dstore.elastic.item.Suggest.Response(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
-        if (errorBuilder_ == null) {
-          result.error_ = error_;
-        } else {
-          result.error_ = errorBuilder_.build();
-        }
         if (suggestionBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
             suggestion_ = java.util.Collections.unmodifiableList(suggestion_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.suggestion_ = suggestion_;
         } else {
           result.suggestion_ = suggestionBuilder_.build();
         }
         if (matchingItemBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
             matchingItem_ = java.util.Collections.unmodifiableList(matchingItem_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.matchingItem_ = matchingItem_;
         } else {
@@ -2317,14 +2252,11 @@ public final class Suggest {
 
       public Builder mergeFrom(io.dstore.elastic.item.Suggest.Response other) {
         if (other == io.dstore.elastic.item.Suggest.Response.getDefaultInstance()) return this;
-        if (other.hasError()) {
-          mergeError(other.getError());
-        }
         if (suggestionBuilder_ == null) {
           if (!other.suggestion_.isEmpty()) {
             if (suggestion_.isEmpty()) {
               suggestion_ = other.suggestion_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureSuggestionIsMutable();
               suggestion_.addAll(other.suggestion_);
@@ -2337,7 +2269,7 @@ public final class Suggest {
               suggestionBuilder_.dispose();
               suggestionBuilder_ = null;
               suggestion_ = other.suggestion_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               suggestionBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getSuggestionFieldBuilder() : null;
@@ -2350,7 +2282,7 @@ public final class Suggest {
           if (!other.matchingItem_.isEmpty()) {
             if (matchingItem_.isEmpty()) {
               matchingItem_ = other.matchingItem_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMatchingItemIsMutable();
               matchingItem_.addAll(other.matchingItem_);
@@ -2363,7 +2295,7 @@ public final class Suggest {
               matchingItemBuilder_.dispose();
               matchingItemBuilder_ = null;
               matchingItem_ = other.matchingItem_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               matchingItemBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMatchingItemFieldBuilder() : null;
@@ -2403,129 +2335,12 @@ public final class Suggest {
       }
       private int bitField0_;
 
-      private io.dstore.elastic.ElasticError.Error error_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.elastic.ElasticError.Error, io.dstore.elastic.ElasticError.Error.Builder, io.dstore.elastic.ElasticError.ErrorOrBuilder> errorBuilder_;
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public boolean hasError() {
-        return errorBuilder_ != null || error_ != null;
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public io.dstore.elastic.ElasticError.Error getError() {
-        if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.elastic.ElasticError.Error.getDefaultInstance() : error_;
-        } else {
-          return errorBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public Builder setError(io.dstore.elastic.ElasticError.Error value) {
-        if (errorBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          error_ = value;
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public Builder setError(
-          io.dstore.elastic.ElasticError.Error.Builder builderForValue) {
-        if (errorBuilder_ == null) {
-          error_ = builderForValue.build();
-          onChanged();
-        } else {
-          errorBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public Builder mergeError(io.dstore.elastic.ElasticError.Error value) {
-        if (errorBuilder_ == null) {
-          if (error_ != null) {
-            error_ =
-              io.dstore.elastic.ElasticError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
-          } else {
-            error_ = value;
-          }
-          onChanged();
-        } else {
-          errorBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public Builder clearError() {
-        if (errorBuilder_ == null) {
-          error_ = null;
-          onChanged();
-        } else {
-          error_ = null;
-          errorBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public io.dstore.elastic.ElasticError.Error.Builder getErrorBuilder() {
-        
-        onChanged();
-        return getErrorFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      public io.dstore.elastic.ElasticError.ErrorOrBuilder getErrorOrBuilder() {
-        if (errorBuilder_ != null) {
-          return errorBuilder_.getMessageOrBuilder();
-        } else {
-          return error_ == null ?
-              io.dstore.elastic.ElasticError.Error.getDefaultInstance() : error_;
-        }
-      }
-      /**
-       * <code>optional .dstore.elastic.error.Error error = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.elastic.ElasticError.Error, io.dstore.elastic.ElasticError.Error.Builder, io.dstore.elastic.ElasticError.ErrorOrBuilder> 
-          getErrorFieldBuilder() {
-        if (errorBuilder_ == null) {
-          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.elastic.ElasticError.Error, io.dstore.elastic.ElasticError.Error.Builder, io.dstore.elastic.ElasticError.ErrorOrBuilder>(
-                  getError(),
-                  getParentForChildren(),
-                  isClean());
-          error_ = null;
-        }
-        return errorBuilder_;
-      }
-
       private java.util.List<io.dstore.elastic.item.Suggest.Response.Suggestion> suggestion_ =
         java.util.Collections.emptyList();
       private void ensureSuggestionIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
           suggestion_ = new java.util.ArrayList<io.dstore.elastic.item.Suggest.Response.Suggestion>(suggestion_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -2675,7 +2490,7 @@ public final class Suggest {
       public Builder clearSuggestion() {
         if (suggestionBuilder_ == null) {
           suggestion_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           suggestionBuilder_.clear();
@@ -2752,7 +2567,7 @@ public final class Suggest {
           suggestionBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.elastic.item.Suggest.Response.Suggestion, io.dstore.elastic.item.Suggest.Response.Suggestion.Builder, io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder>(
                   suggestion_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           suggestion_ = null;
@@ -2763,9 +2578,9 @@ public final class Suggest {
       private java.util.List<io.dstore.elastic.item.ElasticItem.Item> matchingItem_ =
         java.util.Collections.emptyList();
       private void ensureMatchingItemIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
           matchingItem_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item>(matchingItem_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -2915,7 +2730,7 @@ public final class Suggest {
       public Builder clearMatchingItem() {
         if (matchingItemBuilder_ == null) {
           matchingItem_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           matchingItemBuilder_.clear();
@@ -2992,7 +2807,7 @@ public final class Suggest {
           matchingItemBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder>(
                   matchingItem_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           matchingItem_ = null;
@@ -3144,20 +2959,18 @@ public final class Suggest {
       "\n!dstore/elastic/item/suggest.proto\022\026dst" +
       "ore.elastic.suggest\032\034dstore/elastic/elas" +
       "tic.proto\032\036dstore/elastic/item/item.prot" +
-      "o\032\032dstore/elastic/error.proto\"\255\001\n\007Reques" +
-      "t\022\r\n\005input\030\001 \001(\t\022\022\n\nfield_name\030\002 \003(\t\022-\n\n" +
-      "base_query\030\003 \001(\0132\031.dstore.elastic.BoolQu" +
-      "ery\022\021\n\tmax_items\030\005 \001(\005\022\024\n\014max_suggests\030\006" +
-      " \001(\005\022\r\n\005fuzzy\030\007 \001(\010\022\030\n\020use_and_operator\030" +
-      "\010 \001(\010\"\207\002\n\010Response\022*\n\005error\030\001 \001(\0132\033.dsto" +
-      "re.elastic.error.Error\022?\n\nsuggestion\030\002 \003",
-      "(\0132+.dstore.elastic.suggest.Response.Sug" +
-      "gestion\0220\n\rmatching_item\030\003 \003(\0132\031.dstore." +
-      "elastic.item.Item\022\034\n\024elastic_query_strin" +
-      "g\030\005 \001(\t\032>\n\nSuggestion\022\022\n\nfield_name\030\001 \001(" +
-      "\t\022\r\n\005count\030\002 \001(\005\022\r\n\005value\030\003 \001(\tBG\n\026io.ds" +
-      "tore.elastic.itemB\007SuggestZ$gosdk.dstore" +
-      ".de/elastic/item/suggestb\006proto3"
+      "o\"\255\001\n\007Request\022\r\n\005input\030\001 \001(\t\022\022\n\nfield_na" +
+      "me\030\002 \003(\t\022-\n\nbase_query\030\003 \001(\0132\031.dstore.el" +
+      "astic.BoolQuery\022\021\n\tmax_items\030\005 \001(\005\022\024\n\014ma" +
+      "x_suggests\030\006 \001(\005\022\r\n\005fuzzy\030\007 \001(\010\022\030\n\020use_a" +
+      "nd_operator\030\010 \001(\010\"\333\001\n\010Response\022?\n\nsugges" +
+      "tion\030\002 \003(\0132+.dstore.elastic.suggest.Resp" +
+      "onse.Suggestion\0220\n\rmatching_item\030\003 \003(\0132\031",
+      ".dstore.elastic.item.Item\022\034\n\024elastic_que" +
+      "ry_string\030\005 \001(\t\032>\n\nSuggestion\022\022\n\nfield_n" +
+      "ame\030\001 \001(\t\022\r\n\005count\030\002 \001(\005\022\r\n\005value\030\003 \001(\tB" +
+      "G\n\026io.dstore.elastic.itemB\007SuggestZ$gosd" +
+      "k.dstore.de/elastic/item/suggestb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3172,7 +2985,6 @@ public final class Suggest {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.elastic.Elastic.getDescriptor(),
           io.dstore.elastic.item.ElasticItem.getDescriptor(),
-          io.dstore.elastic.ElasticError.getDescriptor(),
         }, assigner);
     internal_static_dstore_elastic_suggest_Request_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3185,7 +2997,7 @@ public final class Suggest {
     internal_static_dstore_elastic_suggest_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_suggest_Response_descriptor,
-        new java.lang.String[] { "Error", "Suggestion", "MatchingItem", "ElasticQueryString", });
+        new java.lang.String[] { "Suggestion", "MatchingItem", "ElasticQueryString", });
     internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor =
       internal_static_dstore_elastic_suggest_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_suggest_Response_Suggestion_fieldAccessorTable = new
@@ -3194,7 +3006,6 @@ public final class Suggest {
         new java.lang.String[] { "FieldName", "Count", "Value", });
     io.dstore.elastic.Elastic.getDescriptor();
     io.dstore.elastic.item.ElasticItem.getDescriptor();
-    io.dstore.elastic.ElasticError.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)
