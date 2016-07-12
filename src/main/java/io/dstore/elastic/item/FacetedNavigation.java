@@ -135,6 +135,11 @@ public final class FacetedNavigation {
         int index);
 
     /**
+     * <code>optional bool onlyMatchingVariants = 7;</code>
+     */
+    boolean getOnlyMatchingVariants();
+
+    /**
      * <pre>
      * Paginierung GET /_search?size=5&amp;from=5
      * </pre>
@@ -187,6 +192,7 @@ public final class FacetedNavigation {
       facet_ = java.util.Collections.emptyList();
       rangeFacet_ = java.util.Collections.emptyList();
       dateRangeFacet_ = java.util.Collections.emptyList();
+      onlyMatchingVariants_ = false;
       from_ = 0;
       size_ = 0;
       sort_ = java.util.Collections.emptyList();
@@ -267,6 +273,11 @@ public final class FacetedNavigation {
               dateRangeFacet_.add(input.readMessage(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.parser(), extensionRegistry));
               break;
             }
+            case 56: {
+
+              onlyMatchingVariants_ = input.readBool();
+              break;
+            }
             case 80: {
 
               from_ = input.readInt32();
@@ -278,9 +289,9 @@ public final class FacetedNavigation {
               break;
             }
             case 162: {
-              if (!((mutable_bitField0_ & 0x00000080) == 0x00000080)) {
+              if (!((mutable_bitField0_ & 0x00000100) == 0x00000100)) {
                 sort_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Sort>();
-                mutable_bitField0_ |= 0x00000080;
+                mutable_bitField0_ |= 0x00000100;
               }
               sort_.add(input.readMessage(io.dstore.elastic.Elastic.Sort.parser(), extensionRegistry));
               break;
@@ -302,7 +313,7 @@ public final class FacetedNavigation {
         if (((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
           dateRangeFacet_ = java.util.Collections.unmodifiableList(dateRangeFacet_);
         }
-        if (((mutable_bitField0_ & 0x00000080) == 0x00000080)) {
+        if (((mutable_bitField0_ & 0x00000100) == 0x00000100)) {
           sort_ = java.util.Collections.unmodifiableList(sort_);
         }
         makeExtensionsImmutable();
@@ -3220,6 +3231,15 @@ public final class FacetedNavigation {
       return dateRangeFacet_.get(index);
     }
 
+    public static final int ONLYMATCHINGVARIANTS_FIELD_NUMBER = 7;
+    private boolean onlyMatchingVariants_;
+    /**
+     * <code>optional bool onlyMatchingVariants = 7;</code>
+     */
+    public boolean getOnlyMatchingVariants() {
+      return onlyMatchingVariants_;
+    }
+
     public static final int FROM_FIELD_NUMBER = 10;
     private int from_;
     /**
@@ -3304,6 +3324,9 @@ public final class FacetedNavigation {
       for (int i = 0; i < dateRangeFacet_.size(); i++) {
         output.writeMessage(6, dateRangeFacet_.get(i));
       }
+      if (onlyMatchingVariants_ != false) {
+        output.writeBool(7, onlyMatchingVariants_);
+      }
       if (from_ != 0) {
         output.writeInt32(10, from_);
       }
@@ -3339,6 +3362,10 @@ public final class FacetedNavigation {
       for (int i = 0; i < dateRangeFacet_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(6, dateRangeFacet_.get(i));
+      }
+      if (onlyMatchingVariants_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(7, onlyMatchingVariants_);
       }
       if (from_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -3503,13 +3530,15 @@ public final class FacetedNavigation {
         } else {
           dateRangeFacetBuilder_.clear();
         }
+        onlyMatchingVariants_ = false;
+
         from_ = 0;
 
         size_ = 0;
 
         if (sortBuilder_ == null) {
           sort_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000080);
+          bitField0_ = (bitField0_ & ~0x00000100);
         } else {
           sortBuilder_.clear();
         }
@@ -3574,12 +3603,13 @@ public final class FacetedNavigation {
         } else {
           result.dateRangeFacet_ = dateRangeFacetBuilder_.build();
         }
+        result.onlyMatchingVariants_ = onlyMatchingVariants_;
         result.from_ = from_;
         result.size_ = size_;
         if (sortBuilder_ == null) {
-          if (((bitField0_ & 0x00000080) == 0x00000080)) {
+          if (((bitField0_ & 0x00000100) == 0x00000100)) {
             sort_ = java.util.Collections.unmodifiableList(sort_);
-            bitField0_ = (bitField0_ & ~0x00000080);
+            bitField0_ = (bitField0_ & ~0x00000100);
           }
           result.sort_ = sort_;
         } else {
@@ -3685,6 +3715,9 @@ public final class FacetedNavigation {
             }
           }
         }
+        if (other.getOnlyMatchingVariants() != false) {
+          setOnlyMatchingVariants(other.getOnlyMatchingVariants());
+        }
         if (other.getFrom() != 0) {
           setFrom(other.getFrom());
         }
@@ -3695,7 +3728,7 @@ public final class FacetedNavigation {
           if (!other.sort_.isEmpty()) {
             if (sort_.isEmpty()) {
               sort_ = other.sort_;
-              bitField0_ = (bitField0_ & ~0x00000080);
+              bitField0_ = (bitField0_ & ~0x00000100);
             } else {
               ensureSortIsMutable();
               sort_.addAll(other.sort_);
@@ -3708,7 +3741,7 @@ public final class FacetedNavigation {
               sortBuilder_.dispose();
               sortBuilder_ = null;
               sort_ = other.sort_;
-              bitField0_ = (bitField0_ & ~0x00000080);
+              bitField0_ = (bitField0_ & ~0x00000100);
               sortBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getSortFieldBuilder() : null;
@@ -4770,6 +4803,32 @@ public final class FacetedNavigation {
         return dateRangeFacetBuilder_;
       }
 
+      private boolean onlyMatchingVariants_ ;
+      /**
+       * <code>optional bool onlyMatchingVariants = 7;</code>
+       */
+      public boolean getOnlyMatchingVariants() {
+        return onlyMatchingVariants_;
+      }
+      /**
+       * <code>optional bool onlyMatchingVariants = 7;</code>
+       */
+      public Builder setOnlyMatchingVariants(boolean value) {
+        
+        onlyMatchingVariants_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool onlyMatchingVariants = 7;</code>
+       */
+      public Builder clearOnlyMatchingVariants() {
+        
+        onlyMatchingVariants_ = false;
+        onChanged();
+        return this;
+      }
+
       private int from_ ;
       /**
        * <pre>
@@ -4837,9 +4896,9 @@ public final class FacetedNavigation {
       private java.util.List<io.dstore.elastic.Elastic.Sort> sort_ =
         java.util.Collections.emptyList();
       private void ensureSortIsMutable() {
-        if (!((bitField0_ & 0x00000080) == 0x00000080)) {
+        if (!((bitField0_ & 0x00000100) == 0x00000100)) {
           sort_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Sort>(sort_);
-          bitField0_ |= 0x00000080;
+          bitField0_ |= 0x00000100;
          }
       }
 
@@ -4989,7 +5048,7 @@ public final class FacetedNavigation {
       public Builder clearSort() {
         if (sortBuilder_ == null) {
           sort_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000080);
+          bitField0_ = (bitField0_ & ~0x00000100);
           onChanged();
         } else {
           sortBuilder_.clear();
@@ -5066,7 +5125,7 @@ public final class FacetedNavigation {
           sortBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder>(
                   sort_,
-                  ((bitField0_ & 0x00000080) == 0x00000080),
+                  ((bitField0_ & 0x00000100) == 0x00000100),
                   getParentForChildren(),
                   isClean());
           sort_ = null;
@@ -6394,7 +6453,7 @@ public final class FacetedNavigation {
       "\n+dstore/elastic/item/facetednavigation." +
       "proto\022 dstore.elastic.facetednavigation\032" +
       "\034dstore/elastic/elastic.proto\032\036dstore/el" +
-      "astic/item/item.proto\"\325\006\n\007Request\022-\n\nbas" +
+      "astic/item/item.proto\"\363\006\n\007Request\022-\n\nbas" +
       "e_query\030\001 \001(\0132\031.dstore.elastic.BoolQuery" +
       "\022-\n\npost_query\030\002 \001(\0132\031.dstore.elastic.Bo" +
       "olQuery\022>\n\005facet\030\003 \003(\0132/.dstore.elastic." +
@@ -6402,27 +6461,27 @@ public final class FacetedNavigation {
       "_facet\030\005 \003(\01324.dstore.elastic.facetednav" +
       "igation.Request.RangeFacet\022N\n\020date_range",
       "_facet\030\006 \003(\01324.dstore.elastic.facetednav" +
-      "igation.Request.RangeFacet\022\014\n\004from\030\n \001(\005" +
-      "\022\014\n\004size\030\013 \001(\005\022\"\n\004sort\030\024 \003(\0132\024.dstore.el" +
-      "astic.Sort\032F\n\nRangeFacet\022\022\n\nfield_name\030\001" +
-      " \001(\t\022$\n\005range\030\002 \003(\0132\025.dstore.elastic.Ran" +
-      "ge\032\210\003\n\005Facet\022\022\n\nfield_name\030\001 \001(\t\022R\n\014sort" +
-      "_no_sort\030\002 \001(\0132:.dstore.elastic.facetedn" +
-      "avigation.Request.Facet.SortNoSortH\000\022O\n\n" +
-      "field_sort\030\003 \001(\01329.dstore.elastic.facete" +
-      "dnavigation.Request.Facet.FieldSortH\000\032<\n",
-      "\nSortNoSort\022.\n\nsort_order\030\001 \001(\0162\032.dstore" +
-      ".elastic.Sort.Order\032}\n\tFieldSort\022\022\n\nfiel" +
-      "d_name\030\001 \001(\t\022.\n\nsort_order\030\002 \001(\0162\032.dstor" +
-      "e.elastic.Sort.Order\022,\n\tsort_mode\030\003 \001(\0162" +
-      "\031.dstore.elastic.Sort.ModeB\t\n\007sort_by\"\220\001" +
-      "\n\010Response\022\022\n\ntotal_hits\030\002 \001(\005\022\'\n\004item\030\003" +
-      " \003(\0132\031.dstore.elastic.item.Item\022)\n\005facet" +
-      "\030\004 \003(\0132\032.dstore.elastic.item.Facet\022\034\n\024el" +
-      "astic_query_string\030\005 \001(\tB\\\n\026io.dstore.el" +
-      "astic.itemB\021FacetedNavigationZ/gosdk.dst",
-      "ore.de/elastic/item/faceted_navigationb\006" +
-      "proto3"
+      "igation.Request.RangeFacet\022\034\n\024onlyMatchi" +
+      "ngVariants\030\007 \001(\010\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013" +
+      " \001(\005\022\"\n\004sort\030\024 \003(\0132\024.dstore.elastic.Sort" +
+      "\032F\n\nRangeFacet\022\022\n\nfield_name\030\001 \001(\t\022$\n\005ra" +
+      "nge\030\002 \003(\0132\025.dstore.elastic.Range\032\210\003\n\005Fac" +
+      "et\022\022\n\nfield_name\030\001 \001(\t\022R\n\014sort_no_sort\030\002" +
+      " \001(\0132:.dstore.elastic.facetednavigation." +
+      "Request.Facet.SortNoSortH\000\022O\n\nfield_sort" +
+      "\030\003 \001(\01329.dstore.elastic.facetednavigatio",
+      "n.Request.Facet.FieldSortH\000\032<\n\nSortNoSor" +
+      "t\022.\n\nsort_order\030\001 \001(\0162\032.dstore.elastic.S" +
+      "ort.Order\032}\n\tFieldSort\022\022\n\nfield_name\030\001 \001" +
+      "(\t\022.\n\nsort_order\030\002 \001(\0162\032.dstore.elastic." +
+      "Sort.Order\022,\n\tsort_mode\030\003 \001(\0162\031.dstore.e" +
+      "lastic.Sort.ModeB\t\n\007sort_by\"\220\001\n\010Response" +
+      "\022\022\n\ntotal_hits\030\002 \001(\005\022\'\n\004item\030\003 \003(\0132\031.dst" +
+      "ore.elastic.item.Item\022)\n\005facet\030\004 \003(\0132\032.d" +
+      "store.elastic.item.Facet\022\034\n\024elastic_quer" +
+      "y_string\030\005 \001(\tB\\\n\026io.dstore.elastic.item",
+      "B\021FacetedNavigationZ/gosdk.dstore.de/ela" +
+      "stic/item/faceted_navigationb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -6443,7 +6502,7 @@ public final class FacetedNavigation {
     internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Request_descriptor,
-        new java.lang.String[] { "BaseQuery", "PostQuery", "Facet", "RangeFacet", "DateRangeFacet", "From", "Size", "Sort", });
+        new java.lang.String[] { "BaseQuery", "PostQuery", "Facet", "RangeFacet", "DateRangeFacet", "OnlyMatchingVariants", "From", "Size", "Sort", });
     internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor =
       internal_static_dstore_elastic_facetednavigation_Request_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable = new
